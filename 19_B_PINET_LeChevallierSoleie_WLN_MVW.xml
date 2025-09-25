@@ -1,0 +1,1631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <!-- mandatory, unique -->
+         <titleStmt>
+            <!-- mandatory, unique -->
+            <title ref="https://puppetplays.eu/en/oeuvres/241904/le-chevalier-soleie">Le Chevalier
+               Soleie</title>
+            <!-- mandatory, unique, @ref also mandatory here -->
+            <respStmt>
+               <!-- mandatory, can be repeated as many times as necessary -->
+               <name xml:id="DH">Danièle Henkinet</name>
+               <!-- mandatory, unique -->
+               <resp>Chargé de la transcription</resp>
+               <!-- mandatory, unique -->
+            </respStmt>
+            <respStmt>
+               <name xml:id="FB">Baptiste Frankinet</name>
+               <resp>Chargé de la relecture</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+               <resp>Chargée de l'encodage et de l'édition</resp>
+            </respStmt>
+            <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+            <!-- mandatory, unique -->
+            <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+            <!-- mandatory, unique -->
+            <funder>European Research Council - ERC</funder>
+            <!-- mandatory, unique -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor
+               ref="http://collections.viewallonne.be?queryid=151ccb08-05c8-4625-8e1e-bddb10e6bd75">Musée
+               de la Vie Wallonne - Liège, Belgique. MVW-2003148</distributor>
+            <availability status="free">
+               <licence>Public domain</licence>
+            </availability>
+            <idno type="DOI"/>
+         </publicationStmt>
+         <notesStmt>
+            <note>A knight kills a giant</note>
+            <note>Le Chevalier Soleie is one the most famous plays by Pierre-Paul Pint, a puppeteer from
+               Liège. It is typical of the chivalric repertory of traditional shows from Wallonia
+               (Belgium) and the North of France. The theme could be remotely inspired by Pedro Hernández
+               de Villaumbrales’ Cabellero del Sol (1552), which Pinet may have known from the French
+               adaption by the Comte de Tressan. However, it is handled on the mode of parody here. In
+               his presentation, the author explains that the play “where nothing offenses morals, can be
+               played on a chair or a table, in houses or cabarets, with handkerchiefs of different
+               colours. Tie a knot at the top of a handkerchief, leaving a bit of tissue to hold it by.”
+               The printed booklet is kept in the Museum of Walloon Life in Liège.</note>
+         </notesStmt>
+         <sourceDesc>
+            <listPerson>
+               <personGrp role="audience">
+                  <p>Not specified</p>
+               </personGrp>
+            </listPerson>
+            <listBibl>
+               <msDesc>
+                  <msIdentifier>
+                     <repository
+                        ref="http://collections.viewallonne.be?queryid=151ccb08-05c8-4625-8e1e-bddb10e6bd75"
+                        >Musée de la Vie Wallonne, Liège, MVW-2003148</repository>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <p>Number of pages in the original document: 19</p>
+                        <p>Number of acts in the original document: 1</p>
+                        <p>Format of the original document: Printed</p>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </listBibl>
+            <bibl>
+               <title type="main"
+                  ref="http://collections.viewallonne.be?queryid=151ccb08-05c8-4625-8e1e-bddb10e6bd75">Le
+                  Chevalier Soleie</title>
+               <date>Around 1890</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="wln">Walloon</language>
+         </langUsage>
+         <textClass>
+            <keywords source="animationTechniques">
+               <term
+                  source="https://puppetplays.eu/en/techniques-d-animation/33866/marionnette-à-tringle"
+                  >Single rod marionettes</term>
+            </keywords>
+            <keywords source="literaryTones">
+               <term>Comical</term>
+               <term>Epic</term>
+               <term>Parodistic</term>
+            </keywords>
+            <keywords source="theatricalTechniques">
+               <term>Monologue</term>
+               <term>Vision</term>
+               <term>Story</term>
+               <term>Fight</term>
+               <term>Apparition of a wizard</term>
+               <term>Flying character</term>
+            </keywords>
+            <keywords source="genre">
+               <term>Histoire comique en vers pour théâtre et marionnettes</term>
+            </keywords>
+            <keywords source="keywords">
+               <term>Knighthood</term>
+               <term>Adventure</term>
+               <term>Navigation</term>
+               <term>Giant</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <normalization method="silent">
+               <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of
+                  the original texts. The transcriptions therefore include spelling and grammatical
+                  corrections according to current standards.</p>
+               <p>The author's orthographic and grammatical corrections have been integrated into the
+                  text without being marked. Cuts for performance purposes have not been adopted in the
+                  transcription.</p>
+               <p>Syntax has been modernised where it is naturally incorrect or has become
+                  incomprehensible today. Additions are limited and indicated by square brackets.</p>
+               <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been
+                  corrected. The list of characters could also be corrected.</p>
+            </normalization>
+            <punctuation marks="some">
+               <p>Punctuation has been corrected according to modern rules.</p>
+            </punctuation>
+         </editorialDecl>
+         <projectDesc>
+            <p>Text collected during the PuppetPlays project funded by European Union (Grant Agreement
+               835193) under Horizon 2020. The PuppetPlays project aims to re-evaluate the contribution
+               of the puppets repertoire to the construction of European cultural identity. Its main
+               goals is to collect a corpus of representative plays from Western Europe (Germany,
+               Austria, Belgium, Spain, France, Great Britain, Italy, Netherlands, Portugal, Switzerland)
+               between the 17th and the 21th century. It also tries to identify the characteristics of
+               puppet dramaturgy and their variations depending on eras, cultural spheres, producing
+               conditions, and the aimed public.</p>
+            <p>This edition is the result of university research work, reviewed by the principal
+               investigator.</p>
+            <p>This transcription and the editorial work are distributed under the <ref
+               target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons
+               Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA) </ref> licence.
+               This license enables reusers to distribute, remix, adapt, and build upon the material in
+               any medium or format for non-commercial purposes only, and only so long as attribution is
+               given to the creator. If you remix, adapt, or build upon the material, you must license
+               the modified material under identical terms. </p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <!-- mandatory and unique -->
+         <change when-iso="2025-06-26" who="#DH">Text transcription </change>
+         <change when-iso="2025-06-26" who="#BF">Text revision</change>
+         <change when-iso="2025-07-07" who="#MSK">Text revision and encoding</change>
+         <!-- mandatory, can be repeated as many times as necessary, @when-iso should always be YYYY-MM-DD, @who should always match a defined @xml:id  -->
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <pb n="001" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_001.jpg"/>
+         <pb n="002" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_002.jpg"/>
+         <pb n="003" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_003.jpg"/>
+         <docAuthor>
+            <persName>Pierre-Paul Pinet</persName>
+         </docAuthor>
+         <docTitle>
+            <titlePart type="main">Le Chevalier Soleie</titlePart>
+            <titlePart type="sub">Histoire comique en vers pour théâtre et marionnettes</titlePart>
+         </docTitle>
+         <docDate>1890</docDate>
+         <docEdition>Bressoux : Imprimerie Victor Carpentier</docEdition>
+         <pb n="004" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_004.jpg"/>
+         <castList>
+            <head type="personnage">Personnages :</head>
+            <castItem>
+               <role>Le Chevalier Soleie</role>
+            </castItem>
+            <castItem>
+               <role>Son père, le Bon Ténébreux</role>
+            </castItem>
+            <castItem>
+               <role>Sa mère, la Reine Rosemonde</role>
+            </castItem>
+            <castItem>
+               <role>Son cousin, le Chevalier Mastique</role>
+            </castItem>
+            <castItem>
+               <role>Un Paysan, Tchanchès</role>
+            </castItem>
+            <castItem>
+               <role>Le Géant Bras d’Acier</role>
+            </castItem>
+            <castItem>
+               <role>Un Enchanteur</role>
+            </castItem>
+         </castList>
+         <set>
+            <p>Cette pièce, où rien ne froisse la morale, peut se jouer sur une chaise ou sur une
+               table, dans les ménages ou dans les cabarets, avec des mouchoirs de poche de
+               différentes couleurs. Faire un nœud sur le haut du mouchoir, laisser dépasser un
+               petit bout pour le maintenir.</p>
+            <p>Monsieur Pierre-Paul PINET, directeur du Théâtre de marionnettes, donne des
+               représentations dans les maisons riches. Il a joué au Café des Milles Colonnes, dit
+               Cabaret wallon, au profit du monument Defrêcheux ; il est possesseur de sept diplômes
+               et six médailles qu’il a obtenu à l’Exposition de marionnettes au Vieux-Liège, rue
+               Feronstrée ; il est surnommé Artiste pour ses ouvrages montés dans des bouteilles. Il
+               est né à Liège en 1852 et est l’auteur des « Råskignou lidjwès » et de plusieurs
+               pièces wallonnes.</p>
+            <p>Pour tous renseignements, s’adresser à l’auteur, rue Devant les Écoliers, 22 (Cour
+               Falla), Liège.</p>
+         </set>
+
+      </front>
+      <body>
+         <div type="1">
+            <pb n="005" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_005.jpg"/>
+            <pb n="006" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_006.jpg"/>
+            <pb n="007" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_007.jpg"/>
+
+
+            <stage type="saut">La scène représente un théâtre de marionnettes, au lever du rideau
+               Tchantchès vient en scène.</stage>
+
+            <sp>
+               <speaker>Tchantchès</speaker>
+
+               <lg>
+                  <l>Silance èdon si v' plêt</l>
+                  <l>Dji v' va conter l'istwére</l>
+                  <l>Èt tos lès grands fôrfêts</l>
+                  <l>Adon, tote ine victwére</l>
+                  <l>D'on clapant chèvalier</l>
+                  <l>Qu' a t'nou tièsse al « Tonîre » </l>
+                  <l>Li pus fwért dès guèriers</l>
+                  <l>Por lu c'è-st-ine poussîre. </l>
+                  <stage type="pers">(Il sort.)</stage>
+               </lg>
+
+
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+               <stage type="pers">(triste, entre)</stage>
+
+               <lg>
+                  <l>Ah ! mon Dieu tout puissant,</l>
+                  <l>Rejeté sur cette île</l>
+                  <l>Cet endroit périllant</l>
+                  <l>Où vient le crocodile</l>
+                  <l>Moi pauvre Chevalier</l>
+                  <l>En quête d'aventure</l>
+                  <l>J'ai perdu mon coursier,</l>
+                  <l>Ma lance et ma monture.</l>
+                  <l>Ah ! Dieu ! secourez-moi !</l>
+                  <l>Viens donc, je me rafîye</l>
+                  <l>Je me battrai pour toi</l>
+                  <l>Sur ce hopau d'arzîye</l>
+                  <l>Vois-tu ces grands serpents</l>
+                  <pb n="008" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_008.jpg"/>
+                  <l>Qui vomissent de sa gueûye</l>
+                  <l>Du feu qui vient brûlant</l>
+                  <l>Sur la belle Argenteuil.</l>
+                  <stage type="corps">(Il va près des coulisses et regarde dans le fond.)</stage>
+                  <l>Je ne peux te sauver</l>
+                  <l>Si j'avais mon èpèye</l>
+                  <l>Tu verras apatrafter.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+               <lg>
+                  <l>Hélas, divin Dieu</l>
+                  <l>Vous fabriqueur du monde</l>
+                  <l>Reverrais-je en ces lieux</l>
+                  <l>Ma bien-aimée blonde ?</l>
+                  <l>Ah ! vraie divinité</l>
+                  <l>Créateur de la terre</l>
+                  <l>Suis-je magnétisé</l>
+                  <l>Bloqué dans la misère.</l>
+                  <l>Tirez-moi mon divin</l>
+                  <l>De cette île déserte</l>
+                  <l>Que mon ange aux yeux fins</l>
+                  <l>Me porte en terre verte.</l>
+                  <l>Ah ! je suis t'enchanter</l>
+                  <l>Par une enchanteresse.</l>
+                  <l>Je sais, je suis troublé</l>
+                  <l>Vous êtes une moûdresse</l>
+                  <l>Marchons donc, tous marchons</l>
+                  <l>Essuyons nos mon-oeil</l>
+                  <l>Traftons vers ce grand champ</l>
+                  <l>Tout dispårdu de feuilles.</l>
+                  <stage type="corps">(Le Chevalier sort d'un côté, rentre de l'autre et rencontre
+                     Tchantchès.)</stage>
+                  <l>Ah ! bonjour mon ami,</l>
+                  <l>Ne pourriez-vous me dire</l>
+                  <pb n="009" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_009.jpg"/>
+                  <l>Où moi-même je suis ?</l>
+                  <l>Allons, ne viens pas rire.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Tchantchès</speaker>
+               <lg>
+                  <l>Avou grande djôye dè, vî</l>
+                  <l>Chal c'èst l' payis dès brantches</l>
+                  <l>Qu' on-a d'vou ralonguî</l>
+                  <l>L'ôte fêye avou dès plantches</l>
+                  <l>Sîre, vos n' polez sûr må</l>
+                  <l>Pace qui n's-avans dès poyes</l>
+                  <l>Qui rotèt a pîds d' hås</l>
+                  <l>Èt qui pounèt dèl hoye</l>
+                  <l>On-a wåde di nèyî</l>
+                  <l>Pace qui n' mètans dès stipes</l>
+                  <l>Qui sont tot raloyîs</l>
+                  <l>Avou dès corons d' t[r]ipe.</l>
+               </lg>
+
+
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+
+               <lg>
+                  <l>Je je t'en remercie</l>
+                  <l>Voilà pour prendre un verre</l>
+                  <l>Si tu n'as pas menti</l>
+                  <l>Je retrouverai mon père. </l>
+               </lg>
+               <stage type="saut">Ils sortent tous les deux, le Chevalier Soleie revient frapper à
+                  la porte du château de sa mère. La Reine Rosemonde vient en pleurant.</stage>
+
+
+            </sp>
+            <sp>
+               <speaker>La Reine Rosemonde</speaker>
+
+               <lg>
+                  <l>Ah ! mon fils, sois béni.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier</speaker>
+               <stage type="pers">(en embrassant sa mère)</stage>
+
+               <lg>
+                  <l>Ma pauvre et tendre mère</l>
+                  <l>Venez que je vous dis</l>
+                  <l>Sur mon cœur plein d'amer</l>
+                  <l>Mon père où est-il donc ?</l>
+               </lg>
+
+               <pb n="010" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_010.jpg"/>
+            </sp>
+            <sp>
+               <speaker>La Reine Rosemonde</speaker>
+
+               <lg>
+                  <l>Il [ne] lâche pas les armes</l>
+                  <l>Je suis dans l'abandon</l>
+                  <l>Le cœur rempli de larmes</l>
+                  <l>Depuis qu'il est quitté</l>
+                  <l>Le château des Tourelles</l>
+                  <l>Il n'a pu plus rentrer</l>
+                  <l>Près de moi qu'est si belle.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+
+               <lg>
+                  <l>Faisons donc que aujourd'hui</l>
+                  <l>Tourtous une prière</l>
+                  <l>Il reviendrait sûr oui</l>
+                  <l>En plein dans sa chaumière.</l>
+                  <l>Et sans se trébucher</l>
+                  <l>Partons donc à l'église,</l>
+                  <l>Mère, vous halkiner.</l>
+                  <l>Ah ! Dieu, comme tu frisses</l>
+                  <l>Va-t-en te mettre au lit</l>
+                  <l>Démousse-toi l'heure sonne</l>
+                  <l>C’est douze heures à minuit</l>
+                  <l>Aucune âme [ne] résonne.</l>
+                  <stage type="corps">(se retournant)</stage>
+                  <l>Mon père, preux des preux</l>
+                  <l>Finiras-tu la guerre ?</l>
+                  <l>Toi, le bon Ténébreux,</l>
+                  <l>Viens rapporter ma mère !</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>La Reine</speaker>
+
+               <lg>
+                  <l>Allume le flambeau</l>
+                  <l>Dans mon lit j'irai sire</l>
+                  <l>Non dans le grand berceau</l>
+                  <l>Que je voulais te dire</l>
+                  <l>Ah ! je suis sûr au point</l>
+                  <l>D'aliénation mentale.</l>
+                  <pb n="011" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_011.jpg"/>
+                  <l>Retrouverais-je au moins</l>
+                  <l>Ma chambre nuptiale ?</l>
+                  <l>Bien époux, bien aimé,</l>
+                  <l>Reviens dans notre chambre</l>
+                  <l>Où je vais m'enfermer</l>
+                  <l>Tout le mois de décembre.</l>
+                  <l>Es-tu mort ? Dis-le moi,</l>
+                  <l>Je porterais le deuil.</l>
+                  <l>Que je pleure sur toi</l>
+                  <l>A fait fondre mes oeils.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier</speaker>
+
+               <lg>
+                  <l>Ma mère vous tchik’tez,</l>
+                  <l>Cessez donc vos prières</l>
+                  <l>Car vous ferez saigner</l>
+                  <l>Un cœur comme une pierre.</l>
+                  <l>Jeter tous ces douleurs</l>
+                  <l>[Êvôye] par la fenêtre</l>
+                  <l>L'hirondelle qui meurt</l>
+                  <l>Va le prendre, peut-être,</l>
+                  <l>Voici le grand plein jour</l>
+                  <l>Je vais courir [èvôye]</l>
+                  <l>Et me rendre à la cour</l>
+                  <l>Du Roi de Cornouailles.</l>
+                  <l>Prêtez-moi mon écu,</l>
+                  <l>Mon haubert et ma hache</l>
+                  <stage type="corps">(un temps)</stage>
+                  <l>Tout me tourne le cul</l>
+                  <l>Nom d'une queue de vache</l>
+                  <l>Voilà de l'eau qui [pleut]</l>
+                  <l>Il allume, il éclaire,</l>
+                  <l>Patatraf, dans un puits</l>
+                  <l>Elle noie le tonnerre,</l>
+                  <pb n="012" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_012.jpg"/>
+                  <l>Revoici le beau temps,</l>
+                  <l>La lune claire et mate</l>
+                  <l>Va reglatir longtemps</l>
+                  <l>Dans les nulêyes hates.</l>
+                  <l>Viens mon pauvre [cheval]</l>
+                  <stage type="corps">(Il se retourne étonné du côté des coulisses.)</stage>
+                  <l>Qu'est-ce que signifie</l>
+                  <l>Ces tartêyes de corbeaux ?</l>
+                  <l>Dieu, quelle babouyî ! </l>
+                  <l>Que vois-je dans le bois ?</l>
+                  <l>Mon père qu'on rapporte</l>
+                  <l>Blessé dans un tournoi,</l>
+                  <l>Dans la guerre, qu'importe.</l>
+                  <l>Ah ! non, ce n'est pas lui</l>
+                  <l>Voilà qu’il passe tot-oute</l>
+                  <stage type="corps">(un temps)</stage>
+                  <l>Je ne sais où je suis,</l>
+                  <l>Ah ! je n'y vois plus goutte.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>La Reine</speaker>
+               <stage type="pers">(tremblante)</stage>
+
+               <lg>
+                  <l>Mon fils tu m'as fait peur.</l>
+                  <l>Je viens en peau de poule</l>
+                  <l>D'un mort, j'ai la couleur</l>
+                  <l>Je sue que je mouille</l>
+                  <l>Ouvrez donc le tape-cul</l>
+                  <l>Pour avoir de l'êrèdje</l>
+                  <l>Je suffoque. Oh ! Jésus</l>
+                  <l>Donnez-moi le breuvage</l>
+                  <l>Il est sur le djivå</l>
+                  <l>Près de la cheminèye</l>
+                  <l>Ou bien dedans l'årmå</l>
+                  <l>Il sent fleûr de pincèye.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le fils</speaker>
+               <stage type="pers">(en se baissant)</stage>
+
+               <lg>
+                  <l>Ce meuble trop parfond</l>
+
+                  <pb n="013" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_013.jpg"/>
+
+                  <l>Je ne puis pas le prendre</l>
+                  <stage type="corps">(en se trébuchant)</stage>
+                  <l>Mak, j'ai stoké mon front</l>
+                  <l>En voulant fort me stante.</l>
+                  <l>Si j'avais désormais</l>
+                  <l>L’èknie ou la tric’wèsse</l>
+                  <l>J'arriverais plus près</l>
+                  <l>Du remède framboise</l>
+                  <stage type="corps">(Tchantchès frappant à la porte. Le Chevalier à sa
+                     mère)</stage>
+                  <l>Pauvre mère, va-t-en</l>
+                  <l>On frappe-z-à la porte</l>
+                  <l>C'est bien sûr Satan</l>
+                  <l>Que le Diable l'emporte.</l>
+                  <stage type="corps">(le Chevalier près du coulisse)</stage>
+                  <l>Qui vient frapper là-bas ?</l>
+               </lg>
+
+
+            </sp>
+            <sp>
+               <speaker>Tchantchès</speaker>
+               <stage type="pers">(tout bas)</stage>
+
+               <lg>
+                  <l>C'èst mi, cint mèyes bonètes.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier</speaker>
+
+               <lg>
+                  <l>Eh ! pourquoi parler bas ?</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Tchantchès</speaker>
+
+               <lg>
+                  <l>Pace qui dj'apwète ine lète.</l>
+               </lg>
+
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier</speaker>
+               <stage type="pers">(en ouvrant la porte)</stage>
+
+               <lg>
+                  <l>Entrez, l'ami, rentrez.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Tchantchès</speaker>
+               <stage type="pers">(en entrant au Chevalier)</stage>
+
+               <lg>
+                  <l>Awè, dè, sinte marmite</l>
+                  <l>Près d' vos dji m' va mostrer</l>
+                  <l>Tot parêy qu' in-èrmite</l>
+                  <l>Bondjou, savez, si v' plêt</l>
+                  <l>Tot l' monde èt li k'pagnèye</l>
+
+                  <pb n="014" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_014.jpg"/>
+
+                  <l>Loukîz, vola l' tåvlê</l>
+                  <l>Qui vint d' vosse signeûrèye</l>
+               </lg>
+
+
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier</speaker>
+               <stage type="pers">(prend la lettre et lit, un temps)</stage>
+               <lg>
+                  <l>Ah ! mon père revient</l>
+                  <l>Partout couvert de gloire.</l>
+                  <l>Ah ! je m'en doutais bien</l>
+                  <l>Qu’il porterait la victoire.</l>
+               </lg>
+
+               <stage type="saut">Le Bon Ténébreux revient tambour battant avec son armée, mais il
+                  entre seul.</stage>
+
+            </sp>
+            <sp>
+               <speaker>Le Bon Ténébreux</speaker>
+               <stage type="pers">(à son fils, à sa femme)</stage>
+
+               <lg>
+                  <l>Venez dont sur mon cœur</l>
+                  <l>Mon fils et vous ma femme</l>
+                  <l>Car je suis le vainqueur</l>
+                  <l>De cette belle oriflamme.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Son Épouse </speaker>
+               <stage type="pers">(en l'embrassant)</stage>
+
+               <lg>
+                  <l>Ah ! je t'ai tant pleuré</l>
+                  <l>Que j'ai les yeux tout rouges.</l>
+                  <l>Je te croyais tombé</l>
+                  <l>Dans les mains d'un farouche.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Bon Ténébreux</speaker>
+               <stage type="pers">(à sa femme)</stage>
+
+               <lg>
+                  <l>Non je suis revenu</l>
+                  <l>Ma chère Rosemonde</l>
+                  <l>Jamais je n'ai mouru</l>
+                  <l>Dans aucun coin du monde.</l>
+               </lg>
+
+               <lg>
+                  <stage type="corps">(à son fils)</stage>
+
+                  <l>Ah ! oui, mon noble enfant</l>
+                  <l>J'en ai vèyou dès grîses</l>
+                  <l>Blessé presque mourant,</l>
+                  <l>Je [ne] lâchais pas les prises.</l>
+                  <l>Écoutez maintenant.</l>
+
+                  <pb n="015" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_015.jpg"/>
+
+                  <l>Ce n'est pas encore [tout]</l>
+                  <l>Je veux dire pourtant</l>
+                  <l>Que j'ai perdu mon mouse. </l>
+                  <l>J'étais dans un combat</l>
+                  <l>Qui était fort acharné,</l>
+                  <l>Je fis des houpp-ta-ta,</l>
+                  <l>Pour courir au rebelle</l>
+                  <l>Le chef grand long stindu</l>
+                  <l>Large comme ine payasse.</l>
+                  <l>Ah ! je l'ai combattu</l>
+                  <l>Et fendre sa tignasse,</l>
+                  <l>Un autre reparait</l>
+                  <l>Couleur marchand de houille,</l>
+                  <l>Je le tue au fleuret</l>
+                  <l>De son sang je me souille.</l>
+                  <l>L'enchanteresse Artha</l>
+                  <l>Raplaqua ma blessure</l>
+                  <l>Avec du crachat</l>
+                  <l>Qui vient de sa figure.</l>
+                  <l>Alors j'ai parcouru</l>
+                  <l>Sur le champ du grand may,</l>
+                  <l>Un géant m'apparut</l>
+                  <l>Me dit : « t'auras ta daye »</l>
+                  <l>Je cwèrna ce luron</l>
+                  <l>Qui montrait sa massue</l>
+                  <l>En le loumant boufon,</l>
+                  <l>Grand sîdje et de tortue.</l>
+                  <l>Il accourt dont sur moi</l>
+                  <l>Je me mets en défense,</l>
+                  <l>Je brise la courroie</l>
+                  <l>Et l’ bètchite de l’anse</l>
+                  <l>Alors comme un sotê</l>
+
+                  <pb n="016" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_016.jpg"/>
+
+
+                  <l>En place je me mets</l>
+                  <l>De son corps j'en ai fait</l>
+                  <stage type="corps">(un temps)</stage>
+                  <l>Un fistou d'allumette.</l>
+                  <l>Je l'avais déviandeté </l>
+                  <l>Et prendre ses mitrayes.</l>
+                  <l>Il put se redresser</l>
+                  <l>Alors courir èvôye,</l>
+                  <l>Alors je rencontrai</l>
+                  <l>Le fameux Don Quichotte</l>
+                  <l>À mort je le frappai</l>
+                  <l>Et le mis dans une hotte.</l>
+                  <l>Je l'ai fait transporter, </l>
+                  <l>Ordre de Charlemagne, </l>
+                  <l>À l'université</l>
+                  <l>Qui serve en Allemagne.</l>
+                  <l>Après l'avoir tué</l>
+                  <l>Je me trouve aux clairières</l>
+                  <l>Qui étaient donc situées</l>
+                  <l>Derrière un cimetière</l>
+                  <l>Il avait là-dedans</l>
+                  <l>Des loup-garous, des diables, </l>
+                  <l>Martiquets, revenants</l>
+                  <l>Qui potch’tèt sur les tables</l>
+                  <l>Hardi comme un lion</l>
+                  <l>Je broque à l'intérieure,</l>
+                  <stage type="pers">(On doit prononcer les e finaux comme font certains
+                     joueurs.)</stage>
+                  <l>Alors je bâillonne</l>
+                  <l>Ces trêtes à l'extérieure.</l>
+                  <l>Après je rejoignis</l>
+                  <l>Mes troupes et mon armée</l>
+                  <l>Maintenant me voici</l>
+                  <l>L'âme pas délarmée.</l>
+                  <stage type="corps">(un temps)</stage>
+               </lg>
+
+               <pb n="017" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_017.jpg"/>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+               <stage type="pers">(à son père)</stage>
+
+               <lg>
+                  <l>Et moi-z-aussi sais-tu</l>
+                  <l>J'en ai passé des belles</l>
+                  <l>Car j'ai tête perdue</l>
+                  <l>Dedans la tour Eiffel.</l>
+                  <l>J'ai couru dans un pré</l>
+                  <l>Tout couvert de nivie</l>
+                  <l>Je fus démacralé</l>
+                  <l>Et retrouva la vie.</l>
+                  <l>Papa cher, écoutez</l>
+                  <l>J'étais-t-avec Malbrouk</l>
+                  <l>Ah ! j'ai vu trépasser</l>
+                  <l>Ma tête sur un blokê.</l>
+                  <l>Malbrouk, fort guerrier</l>
+                  <l>Prend l'épée de veûle</l>
+                  <l>Voulant me délier</l>
+                  <l>Il tomba mort aveûle.</l>
+                  <l>Ah ! ma mère, oh mon Dieu</l>
+                  <l>Père, Vierge chérie,</l>
+                  <l>Au moment radieux</l>
+                  <l>Je vengerais sa vie.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>La Reine Rosemonde</speaker>
+               <stage type="pers">(à son fils)</stage>
+
+               <lg>
+                  <l>Mon fils, mon époux saint</l>
+                  <l>Rentrons laissons lès boûfs.</l>
+                  <l>Allons boire le vin</l>
+                  <l>Et manger grosse bouffe.</l>
+               </lg>
+
+
+            </sp>
+            <sp>
+               <speaker>La Reine</speaker>
+               <stage type="pers">(à Tchantchès)</stage>
+
+
+               <lg>
+                  <l>François, va-t-en ribote,</l>
+                  <l>Aprester la soupière</l>
+                  <l>Adon pwis le tortê</l>
+                  <l>Chair pressèye et crompière.</l>
+               </lg>
+
+               <pb n="018" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_018.jpg"/>
+
+            </sp>
+            <sp>
+               <speaker>Tchantchès</speaker>
+
+               <lg>
+                  <l>Tot, tot-è-st-arindjî</l>
+                  <l>I n' a pus qu' a l' fé d'hinde</l>
+                  <l>Hây, nos-irans magnî</l>
+                  <l>Èt beûre deûs´-treûs mèyes pintes</l>
+               </lg>
+
+
+            </sp>
+            <sp>
+               <speaker>Le Bon Ténébreux</speaker>
+               <stage type="pers">(à Tchantchès)</stage>
+
+               <lg>
+                  <l>En couhène va-t-en</l>
+                  <l>Pour apontiher la soupe</l>
+                  <l>Maudit tcharlatan</l>
+                  <l>Espèce de microbe.</l>
+               </lg>
+
+               <stage type="saut">On frappe à la porte, c'est le Chevalier Mastique.</stage>
+
+            </sp>
+            <sp>
+               <speaker>Le Bon Ténébreux</speaker>
+               <stage type="pers">(à Tchantchès)</stage>
+
+               <lg>
+                  <l>Écoute cher Tchantchès</l>
+                  <l>On frappe-z-à la porte.</l>
+                  <l>Va-t-en donc voir qui c'est</l>
+                  <l>Et quelle arme il porte.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Tchantchès</speaker>
+               <stage type="pers">(allant voir)</stage>
+
+               <lg>
+                  <l>Qu'èst-ç' qui bouhe, qui make la</l>
+                  <l>Cint miliårds di miyètes</l>
+                  <l>C'èst sûr on bam´boula</l>
+                  <l>Qu'èst tot gårni d' hiyètes.</l>
+               </lg>
+
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Mastique</speaker>
+               <stage type="pers">(dans le fond)</stage>
+
+               <lg>
+                  <l>Ouvrez l'ami, c'est moi</l>
+                  <l>Le Chevalier Mastique,</l>
+                  <l>Ou j'enfonce sans quoi</l>
+                  <l>La porte de mon pique.</l>
+               </lg>
+
+
+
+            </sp>
+            <sp>
+               <speaker>Tchantchès</speaker>
+               <stage type="pers">(au Ténébreux)</stage>
+
+               <lg>
+                  <l>Ci n'èst nou chèvalier</l>
+                  <l>Il a ’ne drole di clapète</l>
+                  <l>C'èst sûr on tèrassier</l>
+                  <l>Qui s' monne divins ’ne bèrwète.</l>
+               </lg>
+               <pb n="019" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_019.jpg"/>
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+
+               <lg>
+                  <l>C'est un homme commun</l>
+                  <l>Ou bien un demi braque</l>
+                  <l>Qu'ils entrent l'un par un</l>
+                  <l>Ici dans la baraque.</l>
+                  <l>Si le nombre est trop grand</l>
+                  <l>Laissez-les là Sint Diu.</l>
+                  <stage type="corps">(un temps)</stage>
+                  <l>Je me trompe pourtant</l>
+                  <l>Il est seul. Oh ! mwért Diu,</l>
+                  <l>Enfin s'il a-t-un bois</l>
+                  <l>Dehors de sa fahène</l>
+                  <l>Je l'enverrais ma foi</l>
+                  <l>Dans un sac à farine.</l>
+                  <l>Faites entrer, cher Tchanchès,</l>
+                  <l>Ne moquez pas ni rire</l>
+                  <l>Ci n'èst pas mazoukèt</l>
+                  <l>C'est bien sûr un grand Sire.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Tchantchès</speaker>
+               <stage type="pers">(faisant entrer)</stage>
+
+               <lg>
+                  <l>Intrez vî strouk d'ohê</l>
+                  <l>Vola l' pwète qu'èst droviète</l>
+                  <l>Nos racont'rez-v' s'i-v' plêt</l>
+                  <l>Vosse pus bèle dihoviète.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Mastique</speaker>
+               <stage type="pers">(en entrant)</stage>
+               <lg>
+                  <l>Bonjour Tante et témoin</l>
+                  <l>Et toute la compagnie</l>
+                  <l>Ne reconnais-tu point</l>
+                  <l>Le fils d’a Pélagie ?</l>
+                  <l>Reine de Hoûte-s’i-ploût</l>
+                  <l>Mon père et Roi d'Aywaille</l>
+                  <l>Prince de Maraflout</l>
+                  <l>Ruiné sans sous ni maille.</l>
+               </lg>
+
+               <pb n="020" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_020.jpg"/>
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+               <stage type="pers">(en l'embrassant)</stage>
+
+               <lg>
+                  <l>Oh ! sois le bienvenu</l>
+                  <l>Mon cher cousin Mastique</l>
+                  <l>Que j'ai pas reconnu</l>
+                  <l>Comme j'étais bourrique.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Bon Ténébreux</speaker>
+               <stage type="pers">(à son neveu)</stage>
+
+               <lg>
+                  <l>Eh bien mon fort neveu</l>
+                  <l>Ici que viens-tu faire ?</l>
+                  <l>Demande si tu veux</l>
+                  <l>Mais ne sois pas sévère.</l>
+                  <l>Je suis riche et puissant,</l>
+                  <l>J'ai plus [qu’en un] empire</l>
+                  <l>Bijoux, Joyaux, l'Argent,</l>
+                  <l>J'ai pour une minîre.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Mastique</speaker>
+               <stage type="pers">(à son oncle)</stage>
+
+               <lg>
+                  <l>Ah ! Sire Ténébreux</l>
+                  <l>Mon oncle d'alliance,</l>
+                  <l>Vous êtes généreux</l>
+                  <l>Comme ceux d'audience.</l>
+                  <l>Non je ne te veux rien</l>
+                  <l>Mais je voudrais bien, sire,</l>
+                  <l>Votre fils et son bien</l>
+                  <l>Sur un petit navire</l>
+                  <l>Ou bien nous embarquer</l>
+                  <l>Dedans une barquette</l>
+                  <l>Et nous irons sauver</l>
+                  <l>Celle que mon cœur glète [après].</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>La Reine</speaker>
+               <stage type="pers">(s'adressant à tous)</stage>
+
+               <lg>
+                  <l>Oh ! partir sur la mer</l>
+                  <l>Rivière si parfonde</l>
+                  <l>Qui est plus grande que l'air</l>
+                  <l>Et la boule du monde ;</l>
+
+                  <pb n="021" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_021.jpg"/>
+
+                  <l>Tout qui tombe dedans</l>
+                  <l>Ne revoit plus la face</l>
+                  <l>Cette mer vous-y-stronle</l>
+                  <l>En faisant la grimace.</l>
+                  <l>Eh bien mes chers enfants</l>
+                  <l>Si tu viens à périr</l>
+                  <l>La mer craquant les flancs</l>
+                  <l>Engloutit ton navire.</l>
+                  <l>Télégraphiez ou bien</l>
+                  <l>Jouez du téléphone</l>
+                  <l>À ce cordon lien</l>
+                  <l>Je tiendrai l'œil a gogne.</l>
+                  <l>On peut sortir en plein, </l>
+                  <l>Oui, d'un sein d'une mère,</l>
+                  <l>Dans la mer, le grand bain</l>
+                  <l>On y meurt en misère.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Mastique</speaker>
+
+               <lg>
+                  <l>Eh bien si c'est ainsi,</l>
+                  <l>Que la chose se fasse !</l>
+                  <l>Mourir ou réussir</l>
+                  <l>Pour moi, je m'embarrasse.</l>
+                  <l>Et d'abord écouter</l>
+                  <l>N’a plus de téléphone</l>
+                  <l>Car on les a coupés</l>
+                  <l>Pour tenir en besogne</l>
+                  <l>Le fameux grand ballon</l>
+                  <l>Le ballon dirigeable</l>
+                  <l>Qui monte sans såvion</l>
+                  <l>C'est plus curieux qu'aimable.</l>
+                  <l>Oui, tous ces fers d'årca</l>
+                  <l>Lui servent de ficelles</l>
+                  <l>Qu'on attache tout ça</l>
+
+                  <pb n="022" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_022.jpg"/>
+                  <l>[Au] cul de la nacelle,</l>
+                  <l>Ou bien si vous voulez</l>
+                  <l>[Au] cul de la gayoûle</l>
+                  <l>Alors on lêt aller</l>
+                  <l>Grand père et bisaïeule.</l>
+                  <l>Voilà ses fers d'årca :</l>
+                  <l>À quoi dont qu'on les mette</l>
+                  <l>Pour les trappes et hapås</l>
+                  <l>Il n’a plus un [mètre].</l>
+                  <stage type="corps">(un temps)</stage>
+                  <l>Eh bien si nous n’oyons</l>
+                  <l>Nous ferons une lettre</l>
+                  <l>Et puis nous l'enverrons</l>
+                  <l>Par un monocycle.</l>
+                  <l>Partons mon cher cousin</l>
+                  <l>Car ta mère est craintive.</l>
+                  <l>Allons, pas de festin</l>
+                  <l>Quittons ces voix plaintives.</l>
+               </lg>
+
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+               <stage type="pers">(à sa mère)</stage>
+
+               <lg>
+                  <l>Mère, fais mon paquet</l>
+                  <l>Et [mets] des tartines,</l>
+                  <l>Alors un boudrikèt</l>
+                  <l>Et les boîtes à sardines.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>La Reine</speaker>
+               <stage type="pers">(sort et revient à son fils)</stage>
+
+               <lg>
+                  <l>Prends ce sachet mon fils</l>
+                  <l>Tout plein de plates figues</l>
+                  <l>Et fruits de fleur de lys</l>
+                  <l>Pour ton cousin Mastique.</l>
+                  <l>Prenez l'or et l'argent</l>
+                  <l>Serrés dans cette bourse.</l>
+                  <stage type="corps">(un temps)</stage>
+
+                  <pb n="023" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_023.jpg"/>
+
+                  <l>Adieu mon cher enfant</l>
+                  <l>Prenez garde au blanc ours.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+
+               <lg>
+                  <l>Tourtous embrassons-nous.</l>
+                  <l>Adieu ma bonne mère,</l>
+                  <l>Priez donc à genou</l>
+                  <l>Adieu cent fois mon père. </l>
+               </lg>
+               <stage type="saut">Ils s'embrassent tous les quatre. Le Chevalier Soleie et le
+                  Chevalier Mastique s'en vont en quête d'aventure.</stage>
+
+            </sp>
+            <sp>
+               <speaker>La Reine</speaker>
+               <stage type="pers">(en pleurant)</stage>
+
+               <lg>
+                  <l>Ah mon Dieu tout puissant</l>
+                  <l>Rendez-le moi de suite.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Bon Ténébreux</speaker>
+               <stage type="pers">(en rentrant avec son épouse la reine Rosemonde)</stage>
+
+               <lg>
+                  <l>Trop tard, allons, rentrons</l>
+                  <l>Car ils ont pris la fuite.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Tchantchès</speaker>
+               <stage type="pers">(seul)</stage>
+
+               <lg>
+                  <l>Èy ! fåt-st-assoti</l>
+                  <l>Sint-st-hotchèt, quéle afêre</l>
+                  <l>Li Rinne va sûr sofri</l>
+                  <l>Dès fîves di campinêr.</l>
+                  <stage type="corps">(un temps)</stage>
+                  <l>Èt bin dji va rintrer</l>
+                  <l>Èt magnî nosse compote</l>
+                  <l>Adon pwis fricasser</l>
+                  <l>On froumadje èl rodje jate</l>
+                  <l>Nos magn'rans co mèyeûs</l>
+                  <l>N' èl dihans måy a zèles</l>
+                  <l>Li djigot qu' èst pouyeû</l>
+                  <l>È-st-èfortchî d' canèle</l>
+               </lg>
+
+
+               <pb n="024" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_024.jpg"/>
+
+               <stage type="saut">Tchantchès rentrant aussi. Le Chevalier Soleie et son cousin le
+                  Chevalier Mastique reparaissent comme s'ils quittaient la mer, il tonne.</stage>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+
+               <lg>
+                  <l>Ah ! nous avons manqué</l>
+                  <l>Cher cousin, je soupire,</l>
+                  <l>Les flots ont halcoté</l>
+                  <l>Bien fort notre navire.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Mastique</speaker>
+
+               <lg>
+                  <l>Je suis tout effrayé</l>
+                  <l>C'est triste, la lumière</l>
+                  <l>On se ferait broyer</l>
+                  <l>Avec la foudre fière</l>
+                  <l>Par [ici] maintenant</l>
+                  <l>Peux-tu dire où nous sommes ?</l>
+                  <stage type="corps">(regardant dans le fond)</stage>
+                  <l>Regarde ce manant,</l>
+                  <l>Cousin, quelle pièce d'homme.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+               <stage type="pers">(allant voir)</stage>
+
+               <lg>
+                  <l>Ah ! mon Dieu, quel géant</l>
+                  <l>Qui défend le passage</l>
+                  <l>Il n'est pas fainéant</l>
+                  <l>Il n'a pas non [plus] l'air sage.</l>
+                  <l>Attention, cher cousin</l>
+                  <l>Détache ta ceinture</l>
+                  <l>Et mets ta hache en main,</l>
+                  <l>Commençons l'aventure.</l>
+                  <l>Nous sommes sur le mont</l>
+                  <l>De la terre Bolowe</l>
+                  <l>Repaire du dragon,</l>
+
+
+                  <pb n="025" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_025.jpg"/>
+
+                  <l>Ainsi que du colowe</l>
+                  <l>Regarde, le voici, </l>
+                  <l>Il nous montre sa lance.</l>
+               </lg>
+
+
+            </sp>
+            <sp>
+               <speaker>Le Géant Bras d'Acier</speaker>
+               <stage type="pers">(entre et dit au Chevalier Soleie)</stage>
+
+               <lg>
+                  <l>Que viens-tu faire ici</l>
+                  <l>Rawète de défense,</l>
+                  <l>Poussière de mes mains,</l>
+                  <l>Petit ver de la terre ?</l>
+                  <l>Allons, maudit gredin</l>
+                  <l>Crachez-moi ton mystère</l>
+                  <l>Gamin de halcotier</l>
+                  <l>Qui porte la quenouille.</l>
+                  <l>Tu n'es pas Chevalier,</l>
+                  <l>Tu n'es qu'une grenouille.</l>
+                  <l>Sans payer, halte-là</l>
+                  <l>La tribu tout entière</l>
+                  <l>Ont livré le combat</l>
+                  <l>À mordre la poussière.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+
+               <lg>
+                  <l>Je ne donnerai rien.</l>
+                  <stage type="corps">(un temps)</stage>
+                  <l>Ni payer le passage</l>
+                  <l>Tu périras païen</l>
+                  <l>Ou mourir de ma hache.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le géant</speaker>
+
+               <lg>
+                  <l>Ne halkinons pas tant</l>
+                  <l>Bientôt faisons que tu railles.</l>
+                  <l>J'ai tiré mon tranchant, </l>
+                  <l>Commençons la bataille.</l>
+               </lg>
+
+               <pb n="026" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_026.jpg"/>
+
+
+               <stage type="saut">Le Chevalier Mastique se retire et le combat commence. Le géant se
+                  fait tuer et le Chevalier Soleie blesser.</stage>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Mastique</speaker>
+               <stage type="pers">(venant pleurer sur le sort de son cousin)</stage>
+
+               <lg>
+                  <l>Ah ! mon pauvre cousin</l>
+                  <l>Comment que je te trouve !</l>
+                  <l>Une trawêye au sein</l>
+                  <l>Plus large qu'une cuve.</l>
+                  <l>Es-tu bien décédé ?</l>
+                  <l>Réponds-moi je t'en prie.</l>
+                  <l>Es-tu bien trépassé ?</l>
+                  <l>As-tu perdu la vie ?</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+               <stage type="pers">(se levant sur son séant et la voix triste)</stage>
+
+               <lg>
+                  <l>Cher cousin, es-tu là ?</l>
+               </lg>
+
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Mastique</speaker>
+
+               <lg>
+                  <l>Oui depuis ta tombèye.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+
+               <lg>
+                  <l>Et bien, mets du taffetas</l>
+                  <l>Sur le trou de ma plaie.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Mastique</speaker>
+
+               <lg>
+                  <l>Nous ne l'avons pas pris,</l>
+                  <l>Pas même de la påsse, </l>
+                  <l>Ni baume, ni baril,</l>
+                  <l>Pas même de l’èplåsse.</l>
+                  <stage type="corps">(un temps)</stage>
+                  <l>De ton stoumac´, je vois</l>
+                  <l>La platène enfoncée,</l>
+                  <l>Un bout de planche en bois</l>
+                  <l>Pourra la remplacer.</l>
+
+                  <pb n="027" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_027.jpg"/>
+
+                  <l>Alors j'appliquerai</l>
+                  <l>Mon pan de chemise,</l>
+                  <l>Alors tu marcheras</l>
+                  <l>L'âme sera remise.</l>
+               </lg>
+
+               <stage type="saut">Le Chevalier Mastique se baisse et fait semblant de soigner les
+                  blessures de son cousin.</stage>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+
+               <lg>
+                  <l>Doucement, doucement</l>
+                  <l>Dans mes plaies tu fouilles.</l>
+                  <l>Tu grawes là-dedans</l>
+                  <l>Comme dans un craboye.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Mastique</speaker>
+
+               <lg>
+                  <l>Ce n'est rien, ce n'est rien</l>
+                  <l>Laissez-moi, laissez faire</l>
+                  <l>Tu vois que tout va bien</l>
+                  <l>Prends ta lance et te plaire.</l>
+               </lg>
+               <stage type="saut">Ils se relèvent tous les deux.</stage>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+
+               <lg>
+                  <l>Je suis fort bien guéri</l>
+                  <l>Malheur à qui s'approche.</l>
+                  <l>Il nous faut-z-à tout prix</l>
+                  <l>Grimper sur cette roche.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Mastique</speaker>
+
+               <lg>
+                  <l>Eh bien va le premier</l>
+                  <l>T'asseoir sur la verdure.</l>
+                  <l>[Au] pied de ce neuhier</l>
+                  <l>Mangeons la nourriture.</l>
+                  <l>Restés pendant huit jours</l>
+                  <l>Sans manger ni sans boire, </l>
+                  <l>Ce malheureux séjour</l>
+                  <l>Nous rend fort peu de gloire.</l>
+               </lg>
+
+
+
+               <pb n="028" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_028.jpg"/>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+
+               <lg>
+                  <l>Voilà ce que nous ferons</l>
+                  <l>Délaissons l'aventure</l>
+                  <l>Et nous retournerons</l>
+                  <l>Tous les deux en voiture.</l>
+                  <l>Je crois bien traverser</l>
+                  <l>Le pays de Bolie,</l>
+                  <l>Le pays de[s] Croisé[s],</l>
+                  <l>Et de Canifournie.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Mastique</speaker>
+
+               <lg>
+                  <l>Eh bien pauvre cousin</l>
+                  <l>Toute-oute, passons l'île.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Soleie</speaker>
+
+               <lg>
+                  <l>C'est rempli de raquins,</l>
+                  <l>Et puis de procodiles.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>Le Chevalier Mastique</speaker>
+
+               <lg>
+                  <l>Ah ! Dieu de Dieu grand Roi</l>
+                  <l>Sauvez-moi de la vie</l>
+                  <l>Car ils feront de moi</l>
+                  <l>Un morceau de bêtchî.</l>
+               </lg>
+
+            </sp>
+            <sp>
+               <speaker>L'Enchanteur</speaker>
+               <stage type="pers">(en apparaissant aux deux Chevaliers)</stage>
+
+               <lg>
+                  <l>Venez donc tous les deux</l>
+                  <l>Vous trouverez vos terres,</l>
+                  <l>Et vous serez heureux</l>
+                  <l>Tout près de père et mère.</l>
+               </lg>
+               <stage type="saut">Il s’envole avec les deux Chevaliers.</stage>
+            </sp>
+
+            <div type="5">
+               <head type="div5">Ainsi finit l'histoire du Chevalier Soleie Par P.P. Pinet</head>
+            </div>
+         </div>
+
+
+         <div type="1">
+            <pb n="029" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_029.jpg"/>
+
+            <head type="nameA">Li longue pène èt l’ ritchå</head>
+
+
+            <stage type="saut">Quatuor</stage>
+            <stage type="air">Air : Embrasse-moi Ninette</stage>
+
+            <listPerson>
+               <personGrp>
+                  <name>[Li longue pène, </name>
+                  <name>li ritchå, </name>
+                  <name>l’ôcsiliaire, </name>
+                  <name>l’ajant, </name>
+                  <name>li patrouye]</name>
+               </personGrp>
+            </listPerson>
+
+
+            <div type="2">
+               <head type="scene">[Scène 1]</head>
+
+               <sp>
+                  <speaker>Li longue pène</speaker>
+
+                  <lg>
+                     <l>Tins don dji m' è rapinse </l>
+                     <l>Chal i d'meure on rintî </l>
+                     <l>C' è-st-on vî ritche potinse </l>
+                     <l>Qui dj' vôreû bin splinquî </l>
+                     <l>Èt lî haper sès çans´ </l>
+                     <l>Alans´ todi caquer</l>
+                  </lg>
+               </sp>
+
+               <sp>
+                  <speaker>Li ritchå</speaker>
+                  <stage type="pers">(sôrt´)</stage>
+                  <lg>
+                     <l>Èstez-v' ine kinohance ?</l>
+                  </lg>
+               </sp>
+
+               <sp>
+                  <speaker>Li longue pène</speaker>
+
+                  <lg>
+                     <l>Dji d'mande li charité.</l>
+                  </lg>
+
+                  <stage type="saut">Rèspleû</stage>
+               </sp>
+
+               <sp>
+                  <speaker>Li ritchå</speaker>
+                  <lg>
+                     <l>Vosse seûre mène mi fêt r'marquer tot </l>
+                     <l>Vos-èstez ’ne longue pène </l>
+                     <l>Longue pène, ’ne longue pène </l>
+                     <l>Vos-èstez ’ne longue pène </l>
+                     <l>On s' dimèsfèye di vos</l>
+                  </lg>
+               </sp>
+
+               <pb n="030" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_030.jpg"/>
+            </div>
+
+
+
+
+            <div type="2">
+               <head type="scene">[Scène 2]</head>
+
+               <sp>
+                  <speaker>Li longue pène</speaker>
+
+                  <lg>
+                     <l>Dji n’ so nin çou qu’on pinse </l>
+                     <l>Mins dji so-st-ôrfulin </l>
+                     <l>Qui passe ine pénitince </l>
+                     <l>D'èl nut´ å måva timps.</l>
+                  </lg>
+               </sp>
+
+               <sp>
+                  <speaker>Li ritchå</speaker>
+
+                  <lg>
+                     <l>Dè djoû, qui l' diâle m' arawe, </l>
+                     <l>Poqwè nin v' fé vèyî ?</l>
+                  </lg>
+               </sp>
+
+               <sp>
+                  <speaker>Li longue pène</speaker>
+                  <lg>
+                     <l>Pace qui dès pistagrawes </l>
+                     <l>Dji sèreû rascoyî</l>
+                  </lg>
+                  <stage type="corps">(å rèspleû)</stage>
+               </sp>
+            </div>
+
+            <div type="2">
+               <head type="scene">[Scène 3]</head>
+
+               <sp>
+                  <speaker>Li ritchå</speaker>
+
+                  <lg>
+                     <l>Vos-èstez fwért èt djône </l>
+                     <l>Come d'ôtes alez´ ovrer </l>
+                     <l>Dji n' f'rè nin l' åmonne </l>
+                     <l>Èt dji v' prèye d' ènn' aler</l>
+                  </lg>
+               </sp>
+
+               <sp>
+                  <speaker>Li longue pène</speaker>
+
+                  <lg>
+                     <l>Mès mins sont-st-èdjalêyes </l>
+                     <l>Dji n' pou hay è l' ovreû </l>
+                     <l>Èt m' tièsse èst dislokêye </l>
+                     <l>Pîtié po l' målèreûs</l>
+                     <stage type="corps">(å rèspleû)</stage>
+                  </lg>
+               </sp>
+
+            </div>
+
+            <div type="2">
+               <head type="scene">[Scène 4]</head>
+
+               <sp>
+                  <speaker>Li ritchå</speaker>
+
+                  <lg>
+                     <l>Tinez v'la quéquès çans´</l>
+                  </lg>
+               </sp>
+
+               <pb n="031" facs="19_B_PINET_LeChevalierSoleie_WLN_MWV_031.jpg"/>
+
+               <sp>
+                  <speaker>Li longue pène</speaker>
+                  <lg>
+                     <l>Tins, ti, v'la l' côp d' coûtê, </l>
+                     <l>Li leune m'èclêre, quéle tchance ! </l>
+                     <l>Po haper tot-a-fêt</l>
+                     <stage type="corps">(I va haper. Li patrouye arrive.)</stage>
+                  </lg>
+               </sp>
+
+
+               <sp>
+                  <speaker>L’ajant</speaker>
+
+                  <lg>
+                     <l>Hola qwè-z-èsse, on crime !</l>
+                  </lg>
+               </sp>
+
+               <sp>
+                  <speaker>L’ôcsiliére</speaker>
+                  <lg>
+                     <l>Silance, dj' ètind ’ne saquî </l>
+                     <l>Nos-alans wangnî ’ne prîme</l>
+
+                     <stage type="corps">(Li longue Penne sôrt´.)</stage>
+
+                     <l>Halte, longue pène, t’ès picî.</l>
+                  </lg>
+               </sp>
+            </div>
+
+            <div type="2">
+               <head type="scene">[Scène 5]</head>
+               <sp>
+                  <speaker>Li patrouye</speaker>
+
+                  <lg>
+                     <l>Mètans-lî lès pôcètes</l>
+                  </lg>
+               </sp>
+
+               <sp>
+                  <speaker>Li longue pène</speaker>
+
+                  <lg>
+                     <l>Pardon dji n'a rin fêt</l>
+                  </lg>
+               </sp>
+
+               <sp>
+                  <speaker>L’ôcsiliére</speaker>
+
+                  <lg>
+                     <l>Qu’avez-v’ chal èl potchète ? </l>
+                     <l>Ah ! dè song´ so l' coûtê !</l>
+                  </lg>
+               </sp>
+
+               <sp>
+                  <speaker>L’ajant</speaker>
+
+                  <lg>
+                     <l>Dè ci qu' a pièrdou l’ vèye </l>
+                     <l>Vos-èstez l'assazin </l>
+                     <l>Ti pass'rès t’ vicårèye </l>
+                     <l>Èl prîhon, rote vårin.</l>
+                  </lg>
+
+                  <stage type="saut">Li patrouye - å rèspleû</stage>
+               </sp>
+            </div>
+
+
+            <div type="5">
+               <head type="div5">Fin</head>
+            </div>
+         </div>
+
+
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,573 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="https://puppetplays.eu/en/oeuvres/165525/drame-du-polichinelle-français">Drame du Polichinelle français</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Transcription and edition</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor ref="https://gallica.bnf.fr/ark:/12148/bpt6k9601978n/f27.item">Bibliothèque nationale de France, département Littérature et art, Z-62834</distributor>
+        <availability status="free">
+          <licence>Public domain</licence>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>The hero gets rid of anyone standing in his way</note>
+        <note>Along with Jules Rémond’s writing from the same year, Drame du
+               Polichinelle français is the oldest known transcription of the Polichinelle
+               shows with hand-puppets as they were played at the end of the 18th century and well
+               into the 19th century in parks, public gardens and promenades. In Paris, several
+               hand-puppet booths performed this show on the Champs Élysée. The text is published
+               in a small anonymous volume entitled Les Grotesques, fragments de la vie
+               nomade, recueillis par un archéologue, petit-fils de Turlupin (The
+               Grotesques, fragments of the nomadic life, gathered by an archaeologist, grandson of
+               Turlupin), in which several scenes that happened in the streets of Paris are
+               described. Even if the phrase “the author’s poetic license has been preserved” is
+               written on its title page, the play has most likely been rewritten before it was
+               published. It is an abridged version of the show, which does not include the fight
+               against the Devil. The presence of a living cat amongst the puppets is largely
+               attested by the iconography of the time.</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>Not specified</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository ref="https://gallica.bnf.fr/ark:/12148/bpt6k9601978n/f27.item">Source gallica.bnf.fr / Bibliothèque nationale de France. Département Littérature et art. Z-62834</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 16</p>
+                <p>Number of acts in the original document: 1</p>
+                <p>Format of the original document: Printed</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main" ref="https://gallica.bnf.fr/ark:/12148/bpt6k9601978n/f27.item">Drame du Polichinelle français</title>
+          <title type="sub">écrit sous sa dictée aux Champs-Élysées</title>
+          <date>First half of the 19th century</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra">French</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques"/>
+        <keywords source="literaryTones">
+          <term>Comical</term>
+          <term>Farcical</term>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Song</term>
+          <term>Address to the public</term>
+          <term>Blind character</term>
+          <term>Fight</term>
+          <term>Blow-with-a-stick</term>
+          <term>Character thrown out of the scene</term>
+          <term>Comedy of language</term>
+          <term>Fight with an animal</term>
+          <term>Hanging scene</term>
+        </keywords>
+        <keywords source="genre">
+          <term>Drame</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Beggary</term>
+          <term>Clumsiness</term>
+          <term>Cruelty</term>
+          <term>Cat</term>
+          <term>Cunning</term>
+          <term>Trap</term>
+          <term>Disobedience</term>
+          <term>Cheekiness</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+        Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+        re-evaluate the contribution of the puppets repertoire to the construction of
+        European cultural identity. Its main goals is to collect a corpus of
+        representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+        France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+        17th and the 21th century. It also tries to identify the characteristics of
+        puppet dramaturgy and their variations depending on eras, cultural spheres,
+        producing conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal
+        investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+            Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+        build upon the material in any medium or format for non-commercial purposes
+        only, and only so long as attribution is given to the creator. If you remix,
+        adapt, or build upon the material, you must license the modified material under
+        identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2025-03-21" who="#MSK">Text transcription and encoding</change>
+      <change when-iso="2025-03-24" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="1" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_01.jpg"/>
+      <!-- <head>Rercherches historiques sur Polichinelle</head>
+         <lg>
+            <l>« Moi un bossu ! ... » </l>
+            <l>(Drame du Polichinelle français.) </l>
+         </lg>
+         <p>Pauvre Polichinelle !
+                    Être tout à la fois réel et fantastique qui nous amuse dans notre jeunesse, et qui nous réjouit encore par le souvenir quand le temps a posé sa main de plomb sur notre tête. Pauvre Polichinelle ! que de recherches scientifiques, littéraires, archéologiques, n'as-tu pas fait faire ! Tous les peuples briguent l'honneur de t'avoir donné le jour. On prétend que tu as fait l'amusement des enfans de Jacob, lorsqu'ils étaient encore au berceau ; voilà pour l'Égypte. La Perse, dit-on, t'a donné le nom de Pendj ; l'Angleterre t'aurait baptisé de celui de 
+                    <pb n="2" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_02.jpg"/>
+                    Punch ; l'Italie latine aurait eu le bonheur de te posséder sous la désignation de Maccus ; puis, un beau jour, un auteur latin se serait servi de l'expression Pullicenus pour désigner un poulet ; et, plus tard, les Italiens t'auraient gratifié du nom de Pulcinello, par corruption et pour faire allusion à ton pauvre nez, qui ressemble assez au bec du Pullicenus. Enfin, qui le croirait ? le sérieux allemand et le froid hollandais voudraient presque que tu leur eusses dû l'existence. Mais tu sauras les détromper un jour, n'est-ce pas ? tu diras à l'anglais qu'il t'a fait trop méchant, aux autres qu'ils t'ont créé trop bête ; tu leur feras savoir, enfin, que ta patrie c'est la France, Paris, les Champs-Élysées ! Et si ce n'est vraiment pas là que tu as reçu naissance, tu dois au moins avoir fait des démarches auprès des autorités pour y être naturalisé ; car ton chat, ce pauvre minet, ne l'as-tu pas apporté et établi dans ta maison. Nous savons bien que l'Angleterre est le pays de Curran, qui, encore enfant, sut te comprendre et faire honte au bateleur de New-Market, en lui prouvant qu'il ne 
+                    <pb n="3" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_03.jpg"/>
+                    connaissait pas ta langue ; mais il fut ingrat ! Il oublia qu'il te devait son amour pour l'étude, et que s'il avait été avocat, puis membre de la chambre des communes, puis grand chancelier, toi, toi seul, en étais la première cause. Crois-moi, il faut l'oublier ! 
+                    Et d'ailleurs, n'as-tu pas un rejeton dans notre belle France ! Ce petit bourgeois bossu, joyeux enfant des barricades de 1830, polichinelle vivant que nos carricaturistes ont habillé de toutes les manières, n'est-il pas ton fils ? S'il a dégénéré par le nez, il a bien gagné par les formes ! 
+                </p>
+         <pb n="4" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_04.jpg"/> -->
+      <pb n="5" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_05.jpg"/>
+      <docTitle>
+        <titlePart type="main">Drame du Polichinelle français</titlePart>
+        <titlePart type="sub">Écrit sous sa dictée aux Champs-Élysées.</titlePart>
+      </docTitle>
+      <!--  <docEdition>On a conservé jusqu'aux licences poétiques de l'auteur.</docEdition>-->
+      <docDate>1838</docDate>
+      <castList>
+        <head type="personnage">[Personnages</head>
+        <castItem>
+          <role>Polichinelle, </role>
+        </castItem>
+        <castItem>
+          <role>Un Aveugle, </role>
+        </castItem>
+        <castItem>
+          <role>La Femme de l'Aveugle, </role>
+        </castItem>
+        <castItem>
+          <role>Le Commissaire.]</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="3">
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <stage type="pers"> (au public)</stage>
+          <lg type="vers">
+            <l>Avec grande impatience, </l>
+            <l>Messieurs et Dames, je vous attendais. </l>
+            <l>L'honneur de votre présence </l>
+            <l>Vient de remplir tous mes souhaits, </l>
+            <l>Accordez-moi votre suffrage et votre amitié ; </l>
+            <l>Hé ! oui, oui, oui ! Hé ! non, non, non ! </l>
+            <l>Rouitou, tou ! </l>
+            <l>J'ai bien l'honneur de vous saluer. </l>
+          </lg>
+          <stage type="saut">Il disparaît.</stage>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="1">Scène 1</head>
+        <sp>
+          <speaker>Un Aveugle</speaker>
+          <stage type="pers"> (Il frappe de son baton la balustrade.)</stage>
+          <p>Y a-t-il quelqu'un par ici ? Pan ! pan ! pan ! n'est-ce pas ici que demeure
+                        M. Polichinelle, un <pb n="6" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_06.jpg"/> homme charmant, bon, humain, généreux et
+                        sensible ?... Pan ! pan ! pan ! </p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <stage type="pers"> (de l'intérieur de sa maison)</stage>
+          <p>Il n'y a personne.</p>
+        </sp>
+        <sp>
+          <speaker>L'Aveugle</speaker>
+          <p>Comment! il n'y a personne, et l'on me répond. Pan! pan! pan!</p>
+          <stage type="corps"> (Il attend un instant et frappe de nouveau à coups redoublés.)</stage>
+          <p>Hé! hé! hé ! la maison.</p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <stage type="pers"> (paraissant)</stage>
+          <p>Si tu attends que la maison te réponde, tu attendras long-temps. Ah ça !
+                        l'ami, à qui en as-tu ? </p>
+        </sp>
+        <sp>
+          <speaker>L'Aveugle</speaker>
+          <p>Hélas! mon bon monsieur, je viens vous demander la charité. </p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>La charité ! Tu plaisantes, sans doute. Va dans le faubourg Saint-Germain,
+                        rue Jacob, et là, tu trouveras la charité. </p>
+        </sp>
+        <pb n="7" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_07.jpg"/>
+        <sp>
+          <speaker>L'Aveugle</speaker>
+          <p>Ça n'est pas celle-là que je cherche. Je demande si vous voulez me donner
+                        quelque chose, </p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>Si je veux te donner quelque chose ? Et toi, que me donneras-tu ? </p>
+        </sp>
+        <sp>
+          <speaker>L'Aveugle</speaker>
+          <p>Hélas ! Mon bon monsieur, je ne puis rien vous donner, moi !</p>
+          <stage type="corps"> (En disant ceci, il gesticule et donne de son bâton sur la tête de
+                        Polichinelle ; ce dernier lui saute sur le dos ; l'aveugle cherche à s'en
+                        débarrasser.)</stage>
+          <p>Mon dieu ! Mon dieu ! La maison me tombe sur les épaules.</p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>Et moi des coups de bâton sur le nez. Maraud ! Tu ne peux donc faire
+                        attention ?</p>
+        </sp>
+        <sp>
+          <speaker>L'Aveugle</speaker>
+          <p>Mon bon monsieur, je n'y vois point.</p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>Eh bien, prends de la chandelle.</p>
+        </sp>
+        <pb n="8" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_08.jpg"/>
+        <sp>
+          <speaker>L'Aveugle</speaker>
+          <p>Toutes les chandelles du monde ne me feraient pas voir plus clair : je suis
+                        aveugle. J'ai eu le malheur de m'endormir un jour à l'ombre du soleil, et
+                        depuis cet instant j'ai perdu la vue. </p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>Ce n'est pas moi qui l'ai trouvée. Dans tous les cas on ne va pas chez les
+                        gens pour les assommer. </p>
+        </sp>
+        <sp>
+          <speaker>L'Aveugle</speaker>
+          <p>Mais ça n'est pas moi, c'est mon bâton.</p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>Voyons ce bâton.</p>
+          <stage type="corps"> (Il le lui arrache des mains l'aveugle fait tout ce qu'il peut pour le
+                        reprendre.)</stage>
+        </sp>
+        <sp>
+          <speaker>L'Aveugle</speaker>
+          <p>Si vous ne me le rendez pas, je dirai à tout le monde que vous êtes un
+                        fourbe, un gueux.</p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>Ça m'est égal.</p>
+        </sp>
+        <sp>
+          <speaker>L'Aveugle</speaker>
+          <p>Un voleur.</p>
+        </sp>
+        <pb n="9" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_09.jpg"/>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>Ça m'est égal.</p>
+        </sp>
+        <sp>
+          <speaker>L'Aveugle</speaker>
+          <p>Un brigand, un scélérat.</p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>Ça m'est égal ; on ne te croira pas.</p>
+        </sp>
+        <sp>
+          <speaker>L'Aveugle</speaker>
+          <p>Un vilain bossu.</p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>Moi un bossu ! Dis-le donc encore.</p>
+        </sp>
+        <sp>
+          <speaker>L'Aveugle</speaker>
+          <p>Oui, oui, un bossu, un bossu, un vilain bossu.</p>
+          <stage type="corps"> (Polichinelle lui donne un coup de bâton sur le nez.)</stage>
+          <p> Holà là ! Il m'a mis le nez comme une pièce de six liards. À la garde ! À
+                        l'assassin !</p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>Tu auras beau crier, personne ne viendra.</p>
+        </sp>
+        <sp>
+          <speaker>L'Aveugle</speaker>
+          <p>Hélas! mon bon monsieur, je ne vous veut point de mal, mais rendez-moi mon
+                        bâton.</p>
+          <stage type="saut">Il le prend par un bout.</stage>
+        </sp>
+        <pb n="10" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_10.jpg"/>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <stage type="pers"> (tirant le bâton à lui)</stage>
+          <p>Tu ne l'auras pas. </p>
+        </sp>
+        <sp>
+          <speaker>L'Aveugle</speaker>
+          <stage type="pers"> (tirant à son tour le bâton)</stage>
+          <p>Je l'aurai. </p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <stage type="pers"> (même jeu)</stage>
+          <p>Tu ne l'auras pas. </p>
+        </sp>
+        <sp>
+          <speaker>L'Aveugle</speaker>
+          <stage type="pers"> (même jeu)</stage>
+          <p>Je l'aurai. </p>
+          <stage type="saut">Polichinelle lâche le bâton l'aveugle va se cogner contre le mur.
+                    </stage>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>Allons, tiens, voilà deux sous, va-t-en, maintenant. </p>
+        </sp>
+        <sp>
+          <speaker>L'Aveugle</speaker>
+          <p>Merci, mon bon monsieur. Je vais vous chanter une chanson en grec, en turc,
+                        en anglais, en espagnol, en chinois, en portugais, en allemand , et vous
+                        accompagnerez : je battrai la mesure.
+                    <stage type="corps"> (Il chante quelques mots inintelligibles en battant la mesure sur le dos
+                        de Polichinelle ; celui-ci, furieux, s'empare du bâton et dit :) </stage>
+                    Maintenant à mon tour.
+                    <stage type="corps"> (Puis il chante : </stage>
+                  <pb n="11" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_11.jpg"/>
+                    Rroui tou ti, ti tou,
+                    <stage type="corps"> sur l'air: </stage>
+                    J'ai du bon tabac,
+                        <stage type="corps"> en frappant du bâton sur l'aveugle qu'il a bientôt assommé.)</stage>
+               </p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <stage type="pers"> (après avoir couché l'aveugle sur la balustrade) </stage>
+          <p>Ça lui apprendra à regarder une autrefois à qui il s'adresse.
+                    <stage type="corps"> (Il chante) </stage>
+                    Roui tou ti tou tou. </p>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="2">Scène 2 </head>
+        <listPerson>
+          <personGrp>
+            <name>Polichinelle,</name>
+            <name>La Femme de L'Aveugle.</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>La Femme de L'Aveugle</speaker>
+          <stage type="saut">Elle prend son mari dans ses bras, pleure et crie en déplorant sa mort ;
+                        Polichinelle se tient dans un coin et ne dit mot ; mais la femme de l'aveugle
+                        qui vient de l'apercevoir, se jette sur lui et lui mord le nez. </stage>
+          <p>C'est donc toi qui as tué mon pauvre mari ! Ah ! Brigand !</p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <stage type="pers"> (la repoussant)</stage>
+          <p>Dites donc, que me voulez-vous ? Est-ce que je vous connais ? </p>
+        </sp>
+        <pb n="12" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_12.jpg"/>
+        <sp>
+          <speaker>La Femme de L'Aveugle</speaker>
+          <p>Misérable ! Je te connais, moi ! Et je vengerai mon pauvre mari. </p>
+          <stage type="saut">Elle le mord de nouveau.</stage>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>Ah ! Tu mords ! 
+                    <stage type="corps">(Il lui donne un soufflet) </stage>
+                    Tiens ! 
+                    <stage type="corps">(La femme de l'aveugle se précipite sur lui pour le dévisager.) </stage>
+                    Ah ! Tu veux m'égratigner ! Attends, attends ! 
+                    <stage type="corps">(Il lui donne des coups de bâton. La lutte s'engage ; mais la femme de
+                        l'aveugle est bientôt vaincue ; elle va tomber sur son mari en criant :)</stage>
+                    À la garde ! À l'assassin ! 
+                    <stage type="corps">(Polichinelle la retourne avec son bâton pour s'assurer si elle est morte
+                        ; il jette ensuite le mari et la femme par la fenêtre, et se met à chanter :)</stage>
+                    Roui tou ti tou tou ; </p>
+          <stage type="corps">(mais entendant monter la garde, il se cache dans un coin.) </stage>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="3">Scène 3</head>
+        <listPerson>
+          <personGrp>
+            <name>Polichinelle</name>
+            <stage type="corps"> dans un coin, </stage>
+            <name>Le Commissaire.</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Le Commissaire</speaker>
+          <p>Où est-il : ce coquin de Polichinelle ! Il nous <pb n="13" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_13.jpg"/> fera donc
+                        toujours de ses tours. Si je le rencontre, son procès sera bientôt fait.</p>
+          <lg>
+            <l>Je suis ce fameux Mignolet,</l>
+            <l>Général des Espagnolets ;</l>
+            <l>Quand je marche la terre tremble,</l>
+            <l>C'est moi qui conduis le soleil ;</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <stage type="pers"> (lui donnant un coup de bâton)</stage>
+          <p>Et moi la lune. </p>
+        </sp>
+        <sp>
+          <speaker>Le commissaire</speaker>
+          <stage type="pers"> (cherche d'abord d'où lui vient le coup qu'il a reçu)</stage>
+          <p>Je ne crois pas que dans ce monde on puisse trouver mon pareil.</p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>Ni moi non plus. </p>
+        </sp>
+        <sp>
+          <speaker>Le Commissaire</speaker>
+          <stage type="pers"> (se retourne et prend Polichinelle dans ses bras)</stage>
+          <p>À moi, mes gens ! À moi, mon armée ! Je tiens le fameux Polichinelle. À moi,
+                        mes amis, apportez la potence.</p>
+          <stage type="saut">La garde s'empare de Polichinelle. On place la potence auprès du chat,
+                        qui se lève sur ses pattes de derrière et montre les dents. On lui <pb n="14" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_14.jpg"/>dit de tenir la potence ; au lieu de le faire il saute à la
+                        figure du commissaire.</stage>
+        </sp>
+        <sp>
+          <speaker>Le Commissaire</speaker>
+          <p>Mais mon cher Minet, c'est pour pendre ce scélérat de Polichinelle. 
+                    <stage type="corps">(Le chat le mord et l'égratigne de nouveau. Ne sachant comment se
+                        débarrasser de l'animal, le commissaire promet la grâce de Polichinelle, et
+                        dit que c'est pour un autre individu. Minet prête alors la patte à
+                        l'exécution.) </stage>
+                    Allons, mon ami Polichinelle, il faut passer votre tête là-dedans, et je
+                        ferai le reste.</p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>Là-dedans ? ça n'est pas facile. </p>
+        </sp>
+        <sp>
+          <speaker>Le Commissaire</speaker>
+          <p>Bah ! C'est l'affaire d'un instant. </p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>Vous croyez ? </p>
+        </sp>
+        <sp>
+          <speaker>Le Commissaire</speaker>
+          <p>Mais certainement. </p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>Eh bien, essayez d'abord. </p>
+        </sp>
+        <pb n="15" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_15.jpg"/>
+        <sp>
+          <speaker>Le Commissaire</speaker>
+          <p>Point du tout.</p>
+          <stage type="saut">Polichinelle essaie mais passe toujours la tête au-dessus ou au-dessous
+                        du nœud-coulant. </stage>
+        </sp>
+        <sp>
+          <speaker>Le Commissaire</speaker>
+          <stage type="pers"> (impatienté)</stage>
+          <p>Mais tu n'as donc jamais été pendu ou vu pendre de ta vie ? </p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>Jamais ! Je n'ai pas encore eu ce plaisir ; j'avoue que c'est la première fois.
+                    </p>
+        </sp>
+        <sp>
+          <speaker>Le Commissaire</speaker>
+          <p>Alors ça n'est pas étonnant. Puisque tu ne sais comment t'y prendre, je vais
+                        te le montrer.
+                    <stage type="corps"> (Il passe sa tête dans le nœud.) </stage>
+                    Tiens, voilà tout ce qu'il y a à faire, tu vois que cela n'est ni long ni
+                        difficile. </p>
+        </sp>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <stage type="pers"> (regardant de côté)</stage>
+          <p>Vous y êtes. </p>
+        </sp>
+        <sp>
+          <speaker>Le Commissaire</speaker>
+          <p>Oui ! Tu le vois bien. </p>
+        </sp>
+        <pb n="16" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_16.jpg"/>
+        <sp>
+          <speaker>Polichinelle</speaker>
+          <p>C'est bon, alors, restez-y.
+                    <stage type="corps"> (Il s'empare de la potence, lui fait faire deux ou trois tours en l'air,
+                        et la met ensuite sur son épaule comme un voyageur qui porte un paquet au
+                        bout d'un bâton. Puis il se met à chanter : </stage>
+                    Roui tou tou tou,
+                    <stage type="corps"> qu'il fait suivre du cri : </stage>
+                    Habits, habits, vieux galons, marchand d'habits.
+                    <stage type="corps"> S'adressant à son chat : </stage>
+                    Eh bien, mon ami, vois-tu que je suis encore vainqueur cette fois.
+                    <stage type="corps"> Il le prend sous son bras et l'emporte en répétant son refrain favori : ) </stage>
+                    Roui tou tou tou. </p>
+        </sp>
+      </div>
+      <pb n="17" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_17.jpg"/>
+      <pb n="18" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_18.jpg"/>
+      <pb n="19" facs="19_F__DrameDuPolichinelleFrancais_FRA_BnF_19.jpg"/>
+      <div type="5">
+        <head type="div5">Argument de la gravure du Polichinelle</head>
+        <p>Polichinelle s'est emparé du bâton de l'aveugle, et s'en sert pour lui
+                    appliquer de temps en temps quelques bons coups sur la tête ; moyen ingénieux de
+                    marquer la mesure de son ritou toui tou toui tou tou. L'aveugle lui adresse des
+                    reproches et des menaces, et termine en l'appelant vilain bossu. Cette injure, à
+                    laquelle Polichinelle est très sensible, provoque le rire chez tous les
+                    assistans. L'épouse du directeur de ce théâtre en plein vent profite de
+                    l'hilarité générale pour faire sa recette, car rien ne rend généreux comme la
+                    gaîté; et pensant bien que l'exemple entrainera les autres personnes, elle
+                    adresse son humble demande aux plus élégans de la société.</p>
+        <p> Peut-on refuser un sou à ce pauvre Polichinelle? </p>
+      </div>
+    </body>
+  </text>
+</TEI>

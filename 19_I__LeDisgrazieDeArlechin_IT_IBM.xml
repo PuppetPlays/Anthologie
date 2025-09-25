@@ -1,0 +1,1584 @@
+<?xml version='1.0' encoding='utf-8'?><?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="https://puppetplays.eu/en/oeuvres/349647/le-disgrazie-de-arlechin">Le disgrazie de Arlechin</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="FG">Fiona Gazzaniga</name>
+          <resp>Transcription and edition</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor/>
+        <availability status="free">
+          <licence>Public domain</licence>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>A man goes through misadventures and cannot marry his fiancée</note>
+        <note>Le disgrazie de Arlechin (The misfortunes of Harlequin) is
+          part of a series of puppet plays, Raccolta di commediole, released by
+          G. Chiopris, a publishing house from Trieste. The theme of the play echoes that of
+          texts written for actor theatre, and is meant for a family audience. Here, the
+          characters do not align with those of the Commedia dell’arte; for
+          instance, Faccanapa is a broker and Arlecchino is a shopkeeper.</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>All audiences</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>Instituto Per I Beni Marionettistici e la cultura Popolare, Grugliasco, Italy</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 52</p>
+                <p>Number of acts in the original document: 3</p>
+                <p>Format of the original document: Printed</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main">Le disgrazie de Arlechin</title>
+          <date>1899</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Venetian</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques">
+          <term source="https://puppetplays.eu/en/techniques-d-animation/2352/marionnettes-à-fils">String marionette</term>
+        </keywords>
+        <keywords source="literaryTones">
+          <term/>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Misunderstanding</term>
+          <term>Aside</term>
+          <term>Word warping</term>
+          <term>Comic stuttering</term>
+          <term>Confinement</term>
+          <term>Naive character deceived</term>
+        </keywords>
+        <keywords source="genre">
+          <term>Commedia brillante in 3 atti</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Wedding</term>
+          <term>Love</term>
+          <term>Deception</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+          Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+          re-evaluate the contribution of the puppets repertoire to the construction of
+          European cultural identity. Its main goals is to collect a corpus of
+          representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+          France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+          17th and the 21th century. It also tries to identify the characteristics of
+          puppet dramaturgy and their variations depending on eras, cultural spheres,
+          producing conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+          Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+          build upon the material in any medium or format for non-commercial purposes
+          only, and only so long as attribution is given to the creator. If you remix,
+          adapt, or build upon the material, you must license the modified material under
+          identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2025-07-18" who="#FG">Text transcription and encoding</change>
+      <change when-iso="2025-08-25" who="#MSK">Encoding validation against schema.rng</change>
+      <change when-iso="2025-08-26" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+    </revisionDesc>
+  </teiHeader>
+   
+  <text>
+    <front>
+      <pb n="1" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_001.jpg"/>
+      <pb n="2" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_002.jpg"/>
+      <docTitle>
+        <titlePart type="main">Le disgrazie de Arlechin</titlePart>
+        <titlePart type="sub">Commedia brillante in 3 atti</titlePart>
+      </docTitle>
+      <docEdition>G. Chiopris Editore, Trieste e Fiume</docEdition>
+      <docDate/><pb n="3" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_003.jpg"/>
+      <castList>
+        <head type="personnage">Personaggi</head>
+        <castItem>
+          <role>Pantalone, padre di</role>
+        </castItem>
+        <castItem>
+          <role>Angiola, amante di</role>
+        </castItem>
+        <castItem>
+          <role>Florindo, figlio di</role>
+        </castItem>
+        <castItem>
+          <role>Tartaglia, amico di Pantalone,</role>
+        </castItem>
+        <castItem>
+          <role>Colombina, cameriera di Angiola,</role>
+        </castItem>
+        <castItem>
+          <role>Arlecchino, negoziante di Bergamo,</role>
+        </castItem>
+        <castItem>
+          <role>Faccanapa, sensale di matrimoni,</role>
+        </castItem>
+        <castItem>
+          <role>Brighella, oste,</role>
+        </castItem>
+        <castItem>
+          <role>Un ladro - Due guardie,</role>
+        </castItem>
+        <castItem>
+          <role>Una pezzente.</role>
+        </castItem>
+      </castList>
+      <set>
+        <p>L’azione si finge in Venezia</p>
+      <p>Scenari</p>
+      <p>Atto primo: Bosco con capanna. - Piazza di Venezia.</p>
+      <p>Atto secondo: Città. - Sala con mobili.</p>
+      <p>Atto terzo: Città.- Sala. - Giardino.</p>
+      
+      </set>
+    </front>
+    <body>
+      
+      <pb n="4" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_004.jpg"/>
+      <div type="1"><head type="acte" n="1">Atto I</head>
+      <stage type="saut">Bosco con capanna.</stage>
+        <div type="3"><head type="scene" n="1">Scena 1</head>
+      <listPerson><personGrp>
+        <name>Arlecchino,</name>
+        <stage type="listPerson">indi</stage>
+        <name>Brighella oste,</name>
+        <stage type="listPerson">poi</stage>
+        <name>il ladro</name></personGrp></listPerson>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Sia ringrazià el zievolo che poco ghe manca de arivar a la zità. La siora Anzola, fia
+          de sior Piantalimon, mia sponzia in erba, la contarà i momenti de sta zornada, come i
+          traveti i spetta el primo del mese. Con mi go un tesoreto per far le spese del
+          matrimocolo, che za in sta zornada se ga tuto de combinar. Intanto saria bon e anca bel de
+          riposar un poco per meterse in forza, per comparir davanti a la sponzia. Oe, qua ghe xe
+          un'ostaria; intendemosela col’ostier per passar la note in sto liogo. <stage type="corps">(Batte alla porta
+          dell'osteria.)</stage> Oe de casa !</p>
+      </sp>
+      <pb n="5" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_005.jpg"/>
+      <sp>
+        <speaker>Oste</speaker>
+        <stage type="pers">(di fuori)</stage><p>Chi xe ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Forestier che zerca alogio.</p>
+      </sp>
+      <sp>
+        <speaker>Oste</speaker>
+        <stage type="pers">(Entra in scena.)</stage> <p>Ghe sarà da servirla, ma essendo tempo de fiera bisogna pagar caro e
+          no so...</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Cossa voleu per una notolada con zena ?</p>
+      </sp>
+      <sp>
+        <speaker>Oste</speaker>
+        <p>Un zechin per magnar e un per dormir, senza la mancia per mi, che son paron e
+          camerier.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Un zecadrin per magnar e un per dormir ? No xe miga mal !</p>
+      </sp>
+      <sp>
+        <speaker>Oste</speaker>
+        <p>Xe l’ultimo prezio e anca el ristreto.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Scuseme, caro amigo, ma vu fe el ladro e no l’ostier.</p>
+      </sp>
+      <sp>
+        <speaker>Oste</speaker>
+        <p>El rispeti i galantomeni, altrimenti ghe farò conosser meio chi son mi.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Dimandar do zecadrini per una zena e un dormir ! Andè al diavolo, voio piutosto dormir
+          come che fa quei che no ga leto.</p>
+      </sp>
+      <pb n="6" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_006.jpg"/>
+      <sp>
+        <speaker>Oste</speaker>
+        <p>Quando che volevi spender de quela qualità de moneda, no dovevi nanca disturbarme. Là
+          ghe xe un casoto o quelo là xe per vu a proposito.</p><stage type="saut">(via)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>El me ga informà ben, go un poco de pan e formaio, e con quel zenarò, andarò a bever
+          dove che se sposa le rane senza spender un scheo. <stage type="corps">(S’accosta alla capanna.)</stage> Varda, varda !
+          Cossa voio de meio. Ghe xe anca dela paia per dormirghe su; mi son a caval <stage type="corps">(Entra nella
+          capanna.)</stage> Prima de tuto bisogna sconder el cassetin dei zecadrini qua soto la paia,
+          <stage type="corps">(Nasconde.)</stage> perché i bezzi xe tuto in sto mondo, la mazor letera de racomandazion, perché
+          con eli se ga tuto. I bezzi fa comparir tuto belo, tuto bon. Coi bezzi se fa calar i ani,
+          se lissa la pele, se driza le gobe e se coverze in una parola tute le magagne.</p> <p>Adesso
+          comodemose, o questo xe el stramazzo, el cavezal; questo xe el linziol de soto, questo el
+          de sora, la coverta e la sora coverta. Vado in <pb n="7" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_007.jpg"/>
+            leto, così go la zena, la locanda e i do
+          zecadrini in scarsela. <stage type="corps">(Canta.)</stage></p> 
+        <lg><l>Varda la luna come la camina,</l>
+          <l>La va per aria e no la se
+          ferma mai.</l> 
+          <l>O dormimo e bona note.</l></lg> <stage type="corps">(S'addormenta e russa.)</stage>
+      </sp>
+      
+      <sp>
+        <speaker>Ladro</speaker>
+        <p>Vado a farghe i pulisi a sto galantomo. </p><stage type="saut">(Entra nella capanna ed esce col vestito
+          d’Arlecchino sul braccio.)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ah ladro maladeto ! O sangue de Giove cornuto ! No me scapè dale mie man. <stage type="corps">(Arlecchino
+          corre in camicia ed esce dalla scena.)</stage> Deme qua el me vistito, altrimenti ve strangolo.
+          <stage type="corps">(Arlecchino entra in scena col vestito sul braccio.)</stage> Mi credo sicuro o che falo, ch’el sia
+          el camerier de l’ostaria mandà dal’ostier per rubarme, o che mi son capità nel nido dei
+          ladri. Ben, adesso podemo andar a dormir, che za sto qua no’l torna più <stage type="corps">(Entra nella
+          capanna e dorme c[ome] s[opra])</stage></p>
+      </sp>
+      <sp>
+        <speaker>Ladro</speaker>
+        <stage type="pers">(Entra con lume in mano.)</stage> 
+        <p>No go podù robar, ma mi no te lasso riposar.</p> 
+          <stage type="saut">(S'avvicina alla
+          capanna, dà fuoco alla paglia e fugge.)</stage>
+      </sp>
+      <pb n="8" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_008.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Aiuto ! Fogo, fogo ! Ah povareto mi, me se ga brusà el cassetin dei bezzi ! Ma no son
+          Arlechin, se no trovo la maniera de ricuperarli. Andemo in zità, perché l’aria de sti
+          loghi la xe malsana per chi che ga con sè qualcossa.</p><stage type="saut">(via)</stage>
+      </sp></div>
+          <div type="3"><head type="scene" n="2">Scena 2</head><stage type="saut">Piazza di Venezia.</stage>
+          <listPerson><personGrp><name>Pantalone,</name>
+            <stage type="listPerson">indi</stage>
+            <name>Tartaglia</name></personGrp></listPerson>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>In vista de la letera che go rizevudo l’altro zorno, ancuo el dovarave senz'altro capitar
+          sto zénaro cavalier bergamasco, che deve sposar mia fia. Xe vero che i me ga dito che
+          no’l xe una bela figura, ma el xe un sior e tanto basta aziochè el sia degno dela casa
+          Bisognosi. Go za ordinado che se alestissa una camera per mio zénaro e ch'el sia tratà
+          come el merita. Tuto xe pronto per sto matrimonio de mia sodisfazion.</p>
+      </sp>
+      <pb n="9" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_009.jpg"/>
+      <sp>
+        <speaker>Tartaglia</speaker>
+        <p>Ca... caro Pantalone, vi trovo appu... appunto in momento op... opportuno per domandarvi
+          un fa... favore, che sono sicuro che non mi direte di no.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Parlè pur, caro Tartaia, savè che me go sempre ascrito l’onor de servirve.</p>
+      </sp>
+      <sp>
+        <speaker>Tartaglia</speaker>
+        <p>Ben, veniamo al fa... fatto. Mio figlio Florindo m’ha incaricato di domandarvi vostra
+          fi... figlia per sua sposa. Voi sapete le mie fo... fortune, siete informato della
+          co...condotta di mio figlio e no... non dubito punto che voi no... non ricuserete tale
+          do... domanda.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Me rincresse de cor de no poderve servir, perché se arivà un poco massa tardi. Go za
+          impegnà la mia parola a zerto sior Arlechin Batocio, cavalier bergamasco, e ancuo el deve
+          arivar a Venezia e mi credo che doman al più tardi se farà el matrimonio.</p>
+      </sp>
+      <pb n="10" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_010.jpg"/>
+      <sp>
+        <speaker>Tartaglia</speaker>
+        <p>Questa mi dispiace. No... non po... potreste ritirarvi dalla pa.. parola data ?</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Pantalon xe un omo de onor incapaze de mancar a una promessa. Confesso la verità che
+          averave meio desiderà la parentela de elo che quela de un forestier, ma quel che xe fato
+          xe fato e no ghe xe più rimedio, e mi vanto la mia parola più de tuti i tesori del mondo.
+          Feghe saver a vostro fiol el mio dispiazer, ma che per sta volta no lo posso servir. Ve
+          saludo, caro Tartaia.</p> <stage type="saut">(via)</stage>
+      </sp>
+      <sp>
+        <speaker>Tartaglia</speaker>
+        <p>Addio ca... caro Pantalone. Vado da mio figlio a co... consolarlo con questa pi...
+          pillola negativa.</p> <stage type="saut">(via)</stage>
+      </sp></div>
+            <div type="3"><head type="scene" n="3">Scena 3</head>
+              <listPerson><personGrp>
+                <name>Florindo</name>
+                <stage type="listPerson"> e </stage>
+                <name>Tartaglia,</name>
+                <name>Faccanapa</name>
+                <stage type="listPerson">in osservazione</stage>
+          </personGrp></listPerson>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Mio padre mi ha promesso che avrebbe fatto di tutto per ottenere dal signor Pantalone
+          una risposta favorevole. Ma io ho un cattivo presentimento che il padre di colei che
+          teneramente amo, essendo di un carattere avaro, non abbia per avidità impegnata la sua
+          parola con qualche ricco suo corrispondente. Oh ecco mio padre !</p>
+      </sp>
+      <pb n="11" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_011.jpg"/>
+      <sp>
+        <speaker>Tartaglia</speaker>
+        <p>Mio ca... caro figlio vengo co... con una risposta negativa.</p>
+      </sp>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Oh Dio ! Voi mi ferite l’anima ! Che Angiola sia diggià promessa ?</p>
+      </sp>
+      <sp>
+        <speaker>Tartaglia</speaker>
+        <p>Certo ce... certissimo.</p>
+      </sp>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>A chi ?</p>
+      </sp>
+      <sp>
+        <speaker>Tartaglia</speaker>
+        <p>A un certo Arlecchino ca... cavaliere bergamasco.</p>
+      </sp>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Bisogna che il titolo di nobiltà l'abbia acquistato recentemente per mezzo di qualche
+          grosso regalo, perché credo che questo sia il primo plebeo della città. Basta così,
+          quando sapete certo, che esso è il mio competitore, lasciate a me la cura di mandare a
+          nulla questo matrimonio.</p>
+      </sp>
+      <sp>
+        <speaker>Tartaglia</speaker>
+        <p>Ma non vo...vorrei che i vostri segreti maneggi mi ave... vessero a far perdere
+          l'amicizia di Pantalone.</p>
+      </sp>
+      <pb n="12" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_012.jpg"/>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Lasciate, che condurrò la cosa in modo che resteremo amici di tutti.</p>
+      </sp>
+      <sp>
+        <speaker>Tartaglia</speaker>
+        <p>Quando è co... così e se riesci nel tuo sco... scopo senza aver questioni co... con le
+          parti, io sono co...contento, addio.</p><stage type="saut">(via)</stage>
+      </sp></div>
+        
+              <div type="3"><head type="scene" n="4">Scena 4</head>
+                <listPerson><personGrp>
+                  <name>Florindo</name>
+                  <stage type="listPerson">indi</stage>
+                  <name>Faccanapa</name></personGrp></listPerson>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Per disturbare questo concerto, non vi è altro modo, che raccomandarmi a Faccanapa. Non
+          si oppone a’ miei disegni che la volontà di Pantalone; mentre Angiola mi ha già
+          assicurato che non darà la mano di sposa che a me. 
+          </p><stage type="saut">(Faccanapa esce dal luogo di
+          osservazione.)</stage>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Ecco el so servo Facanapa ch’el ga inteso tuto e ch'el s’impegna de mandar in fumo de
+          scombri i conzertadi conzerti tra el sior Pantalon e sior Armelin Batocio.</p>
+      </sp>
+      <pb n="13" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_013.jpg"/>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Posso essere sicuro della tua promessa ?</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>El sa cossa che go fato altre volte per elo, e tanto basta. Quando se impegna dei omeni
+          de sta sorte, el po’l esser sicuro de guadagnar la causa anche più desperada. El sa sior
+          Florindo che per intrighi no la zedo a tute le done teatranti, per ragiri ai primi
+          impostori de sto mondo, per cabale a tuti i zingani de l’Egito, per cavili a tuti i
+          avocati magnacarte, per impianti a tuti i zarlatani, per ripieghi a tuti i impresari de
+          opera in musica e per frotole a tuti i giornalisti de Europa.</p>
+      </sp>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Io mi fido di te e mi raccomando. Ti assicuro poi che le tue fatiche non resteranno senza
+          compenso e ti verranno premiate. Addio Faccanapa.</p><stage type="saut">(via)</stage>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Quando se trata de afari de matrimonio, sfido tuti i sensai de carne de dona, a far come
+          mi. De più ancora, che l’afar xe in casa de Colombina, che la ga da esser un bocon
+          riservado per mi, per sto toco de omo. E se la siora Angiolina la ghe toca a qualche altro
+          pretendente, mi, per Colombina me posso forbir la boca. Oh vien gente de sta parte,
+          tiremose in canton e femo la trombeta.</p> <stage type="saut">(Si ritira a parte.)</stage>
+      </sp></div>
+        <div type="3"><head type="scene" n="5">Scena 5</head>
+          <listPerson><personGrp><name>Arlecchino</name>
+            <stage type="listPerson">indi</stage>
+          <name>Faccanapa</name></personGrp></listPerson>
+      <pb n="14" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_014.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Oh finalmente la go scapolada da quela massa de birbanti e son rivà in zità. No podevo
+          capitar in un liogo pezo de quel. Un maladeto oste che me magnava vivo, un ladro che me
+          voleva mandar in zità in camisa, e per vendicarse el ga dà fogo ala paia e in fumo xe
+          andai anca i me bezzi. Basta, me son salvà per miracolo. Questa, se no falo, la xe la
+          piassa e questa la dovaria esser la casa de Piantalimon, mio futuro missier mercante
+          venezian.</p>
+      </sp>
+      <pb n="15" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_015.jpg"/>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <stage type="pers">([fra sé,] vedendo Arlecchino.)</stage> <p>Chi elo mo sta tavolozza de pitor ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">([fra sé,] scorgendo Faccanapa.)</stage> <p>El me par quel che ga predito l’inzendio de Troia.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p><stage type="corps">[fra sé]</stage> No'l sarave za quel che ga portà la notizia de la distruzion de Cartazine ?
+          <stage type="corps">[ad Arlecchino]</stage> Bon zorno, sior ! 
+          <stage type="corps">[fra sé]</stage> El ga el muso come l'impronta che sta soto la
+          coda de l' aseno.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Bon zorno, galantomo. <stage type="corps">[fra sé]</stage> Salvo la verità. Che muso de ladro ch' el ga. 
+          <stage type="corps">[a Faccanapa]</stage> Xela questa la casa de Piantalimon dei Bisognosi mercante venezian ?</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p><stage type="corps">[fra sé]</stage> Questo el ga da esser sicuro el sposo. 
+          <stage type="corps">[ad Arlecchino]</stage> Sior no, ma se la comanda
+          qualche cossa, mi son el so camerier Zeraverde. 
+          <stage type="corps">[fra sé]</stage> Atento Facanapa che questo xe el
+          momento de farse onor.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Co la xe cussì gaveu de saver che mi son el sposo dela siora Anzola, che sccondo el
+          sconzerto vegno da Bergamo per darghe ogi la man de sposo e spulesarla. In prova de questo
+          go sta tabachiera per segnal de riconosenza fra mi e Piantalimon.</p>
+      </sp>
+      <pb n="16" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_016.jpg"/>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>La me lo daga a mi el segnal, ch'el sarà ben consegnado.</p> 
+          <stage type="saut">(Gli dà la tabacchiera.)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Consegneghela al paron in segno del mio arivo.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Adesso ghe insegno dove xe la casa de Pantalon dove dentro ghe xe la so sposa.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Me fe proprio un gran piazer, caro el me caro Zeraverde.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Vedelo là quel palazin dei sfrizi zali, co el xe là, no’I ga che de storser el colo a
+          man drita e dopo quaranta passi el trovarà un altro palazin dei sfrizi verdi, ch’el buta
+          un ocio a man sinistra, e dopo altri quaranta passi el trovarà una zisterna; el se
+          scavezi le gambe ala drita e quando el fa altri quaranta passi el trovarà una contradela;
+          el tegna la testa drita per quela strada, co’I xe là el fazi altri quaranta passi el te
+          prezipiti in fondo e propio là xe la casa de sior Pantalon.</p>
+      </sp>
+      <pb n="17" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_017.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Maladeti sti quaranta passi ! Mi no me ricordo più una maledeta, nè de sfrizi zali nè
+          de verdi. Basta ! Zercarò, ciamarò e trovarò; me storzarò, me drizarò fina che sarò al
+          punto che zerco. Adio mezo omo.</p><stage type="saut">(via)</stage>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Va là, va là, martufo maladeto, che ti xe servido come va. Lo go mandà a l’ospidal dei
+          mati.</p>
+      </sp></div>
+        <div type="3"><head type="scene" n="6">Scena 6</head> 
+          <listPerson><personGrp><name>Florindo,</name>
+            <stage type="listPerson">indi</stage>
+            <name>Colombina</name>
+            <stage type="listPerson"> e </stage>
+            <name>detto</name></personGrp></listPerson>
+      <sp>
+        <speaker>Florinda</speaker>
+        <p>Faccanapa, che notizie abbiamo ?</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Bonissime. Xe arivà el pretendente. El primo complimento che ghe go fato, lo go mandà a
+          farghe una visita ai mati.</p>
+      </sp>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Bravissimo ! La cosa incomincia bene. Approfittiamo adunque di questo momento per
+          informare Angiola dell’accaduto, ed avvertirla di non lasciarsi persuadere da suo
+          padre.</p>
+      </sp>
+      <pb n="18" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_018.jpg"/>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>El dise ben, adesso mi la ciamo.</p> <stage type="saut">(Batte alla porta sotto il terrazzino.)</stage>
+      </sp>
+      <sp>
+        <speaker>Colombina</speaker>
+        <stage type="pers">(dal terrazzino)</stage> <p>Chi batte ?</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Facanapa el to promesso mario. Senti; manda abasso la parona.</p>
+      </sp>
+      <sp>
+        <speaker>Colombina</speaker>
+        <p>Chi la desidera ?</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Quà xe el sior Florindo.</p>
+      </sp>
+      <sp>
+        <speaker>Colombina</speaker>
+        <p>Bene, vado a chiamarla e subito verrò.</p><stage type="saut">(via)</stage>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <stage type="pers">(Canta.)</stage>
+        <lg><l>Addio, stella del nostro amore, Non ti scordar quei dì.</l></lg>
+      </sp></div>
+        
+        <div type="3"><head type="scene" n="7">Scena 7</head> 
+          <listPerson><personGrp>
+            <name>Colombina,</name>
+          <name>Angiola</name>
+            <stage type="listPerson"> e </stage>
+            <name>detti</name></personGrp></listPerson>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Mia amabilissima Angiola, io ho desiderato questo momento di vedervi non solo per
+          assicurarvi mille volte che voi sola siete il più caro oggetto della mia tenerezza, ma per
+          dirvi che il vostro promesso sposo è testè arrivato. Faccanapa cercherà di mandare a
+          nulla un matrimonio concertato dall'interesse e dalla sciocchezza d’un padre, che osa
+          disporre arbitrariamente del cuore di sua figlia. Vengo poi a dirvi, che il vostro cuore
+          deve essere disposto per il più fedele degli amanti. Siate perciò costante alle vostre
+          promesse verso di me, e rigettate imperiosamente tutte le proposte di vostro padre, mentre
+          oggi a dispetto di tutti sarete mia sposa.</p>
+      </sp>
+      <pb n="19" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_019.jpg"/>
+      <sp>
+        <speaker>Angiola</speaker>
+        <p>Caro Florindo, potete dubitare della mia fede ? Io rinnovo i miei giuramenti. Prima
+          l’ultimo giorno vedrò, che mancare alle mie promesse. Addio Florindo.</p> <stage type="saut">(via)</stage>
+      </sp>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Addio, angelo mio consolatore.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Sior Florindo; vien da questa parte sior Pantalon, ritiremose in disparte per scovrir
+          teren. Za elo ga el segnal de Arlechin e con quelo adesso xe el momento de far el colpo.</p>
+          <stage type="saut">(Si ritirano.)</stage>
+      </sp>
+      <pb n="20" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_020.jpg"/>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>A sta ora el cavalier el dovarave za esser ben che arivà. Ch'el fosse incorso in qualche
+          dispiazer ? Me dispiazerave, perché me xe sta dito, ch’el xe un galantomo e de bon
+          cor.</p>
+      </sp>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Siete voi il signor Pantalone ?</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Appunto, cossa galo da comandar ?</p>
+      </sp>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Io sono lo sposo destinato a vostra figlia. Questo è il segnale per il riconoscimento
+          speditomi a Bergamo.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Bon, ben arivado el me sior Arlecchin Batocio. Iero apunto in pensier per no vederlo
+          vignir. Bravo, adesso son contento de vederlo san e salvo. Andemo de boto in casa che moro
+          dela vogia de presentarlo a mia fia, che andarà in trasporto dala consolazion a veder un
+          bel omo dela so sorte. Andemo, andemo.</p> <stage type="saut">(via tutti)</stage>
+      </sp></div>
+        <div type="3"><head type="scene" n="8">Scena 8</head>
+          <listPerson><personGrp><name>Arlecchino</name>
+            <stage type="listPerson">entra vestito da
+          matto</stage></personGrp></listPerson>
+      <pb n="21" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_021.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Aiuto ! Aiuto ! Aiuto ! Lasseme star in vita almeno fina tanto che fato el matrimocolo
+          cola siora Anzola. Maladeto Zeraverde ! Inveze de mandarme a casa dela sponzia, el ma
+          spedì a l’ospedal dei mati. Là i me ga ciapà, i me ga fato far un bagno fredo, i me ga
+          messo la camisa de forza e i me ga dà sta bareta de mato. Se no scampo presto, no so cossa
+          ancora che i avria fato de mi. Anca sta zornada la xe scomenzada mal, se la seguita de sto
+          passo, go paura de sposar el tredese de tarochi o per lo meno tornar a Bergamo cola piva
+          nel saco. Ah, povareto mi, ah, canaia de Zeraverde, se te trovo, te magno el figà.</p> 
+      </sp></div></div>
+      
+      <div type="5"><head type="div5">Fine
+          dell'atto primo.</head></div>
+      
+      <div type="1"><head type="acte" n="1">Atto II</head>
+          <stage type="saut">Città.</stage> 
+        <div type="3"><head type="scene" n="1">Scena 1</head>
+        <listPerson><personGrp>
+          <name>Tartaglia</name> 
+          <stage type="listPerson">indi</stage> 
+          <name>Faccanapa</name></personGrp></listPerson>
+      <pb n="22" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_022.jpg"/>
+      <sp>
+        <speaker>Tartaglia</speaker>
+        <p>Io sarei cu... curioso di sapere co... come sia andata la facenda del matrimonio della
+          figlia di Pa.. pantalone col ca... cavalier bergamasco. Sco... co... cometto che quel
+          povero bamboccio di Pantalone si è lasciato co... corbellare da qualche raggiratore
+          mercenario e che co...colui è qualche vagabondo. Oh, a proposito, viene Faccanapa, egli
+          facilmente sarà informato di tutto.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>La riverisso sior Tartaia.</p>
+      </sp>
+      <sp>
+        <speaker>Tartaglia</speaker>
+        <p>Ebbene, sai qualche co... cosa intorno al matrimonio di Angiola col ca... cavalier
+          bergamasco ?</p>
+      </sp>
+      <pb n="23" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_023.jpg"/>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>El cavalier bergamasco, credo ch’el farà fagoto per tornar nela sua patria, e so fio
+          inveze a momenti el sarà el sposo dela siora Anzola.</p>
+      </sp>
+      <sp>
+        <speaker>Tartaglia</speaker>
+        <p>Co... come diavolo è seguito tutto questo in poche ore ?</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Per combinassion e la mia furbaria. Adesso no go tempo de contarghe l’intrigo, ma aspeto
+          de dirghe tuto al compimento dela fazenda.</p>
+      </sp>
+      <sp>
+        <speaker>Tartaglia</speaker>
+        <p>Tu sei veramente un gran furbone ed in genere di raggiri d’amore non la cedi allo stesso
+          Mercurio.</p><stage type="saut">(via)</stage>
+      </sp></div>
+        <div type="3"><head type="scene" n="2">Scena 2</head>
+          <listPerson><personGrp>
+            <name>Arlecchino</name> 
+            <stage type="listPerson"> e </stage>
+            <name>detto,</name> 
+            <stage type="listPerson">indi</stage> 
+            <name>la pezzente</name></personGrp></listPerson>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Se posso trovar quel can de Zeraverde, lo voio far deventar zerarossa. Ma ecolo qua. A vu
+          galioto, maladeto, cussì se trata coi galantomeni de la mia sorte ?</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Signor, con chi la la ga ?</p>
+      </sp>
+      <pb n="24" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_024.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Oh bela, no si vu un zerto Zeraverde ?</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>La discusi ma la sbalgia. Mi me ciamo Unguentodeturia.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Alora scusè, se ve go tolto in sbalgio. Maladeto ! El xe grando come vu, che quando el
+          starnuda bisogna dirghe el ziel la slonghi, el xe vestìo come vu, el ve someia a vu e me
+          parevi tuto lu. Diseme, caro Unguentoturco, dove xe la casa de sior Pantalimon?</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Ah! el vol dir sior Pantalon. Xelo elo forse el sposo destinà ala signorina
+          Anzolina ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Son propio mi in persona.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Quando mo la xe cussì! La me aspeta un poco, che torno subito cola so sposa.</p><stage type="saut">(via)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Bravo, me farè un gran piazer. Mi son propio inamorà e penso che l’amor el xe un no so
+          che, ch'el vien, ma no se sa de dove; lo manda, no se sa chi; el se zenera, no se sa
+          come; el se lo sente, ma no se sa quando; el <pb n="25" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_025.jpg"/>
+          aflize, ma no se sa el perchè; el se
+          contenta, no se sa de cossa; el se lo manda via, ma no se sa in che maniera; in fati,
+          l’amor xe un ben e un dolze insieme e amaro, una febre che risana, un fredo che scalda, un
+          ladro che ne fa la carità, un scrigno pien de afani e de tormenti, ma che in fin ve li
+          muda in contenti. O ecolo qua.</p> <stage type="saut">(Faccanapa torna con una vecchia mendicante e
+          pezzente.)</stage>
+      </sp>
+      
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>La scusarà, signor, se la xe un poco convalessente, ma el dotor ga dito che la guarirà,
+          che la guarirà de sicuro. Sior mi lo saludo.</p><stage type="saut">(via)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Orpo ! Che rospo. Cara la me siora sposina, la me daga la manina.</p>
+      </sp>
+          <sp><speaker>Pezzente</speaker> 
+            <p>Ahi ! ahi ah !
+          Non mi toccate ahi ! Non mi toccate.</p></sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Cossa diavolo gala ?</p>
+      </sp>
+      <sp>
+        <speaker>Pezzente</speaker>
+        <p>Ho una fontanella perpetua, ma per altro il signor dottore ha detto che guarirà, che
+          guarirà.</p>
+      </sp>
+      <pb n="26" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_026.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Me par che la patissa l’istuzion.</p><stage type="saut">(Vuol toccargli lo stomaco.)</stage>
+      </sp>
+      <sp>
+        <speaker>Pezzente</speaker>
+        <p>Ahi ! Ahi ! Non mi toccate ahi ! Ahi !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Cossa gala el promontorio nel stomigo ?</p>
+      </sp>
+      <sp>
+        <speaker>Pezzente</speaker>
+        <p>No, è un piccolo tumore degenerato in idropisia. Del resto il signor dottore ha detto
+          che guarirà, che guarirà.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>E parchè mo la camina cole scrozole ?</p>
+      </sp>
+      <sp>
+        <speaker>Pezzente</speaker>
+        <p>Perché ho una piccola sciatica in una coscia e due piaghe nelle gambe, ma del resto godo
+          una salute perfetta e il signor dottore ha detto che guarirà, che guarirà.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Maladeta ! La xe un intiero ospedal, la ga le gambe come i mesi de l’ano, che un ghe ne ga
+          trenta l’altro trentaun. Va là bruta seppia che te auguro tanti contenti quante xe le
+          mosche de Puglia, tante felizità e alegresse quante xe le ventosità che ga fato tirar i
+          fasoi dopo che mondo xe mondo. Vadi al diavolo l’Unguentodeturia,
+          <pb n="27" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_027.jpg"/> la sposa e anca el
+          momento che son vegnù a Venezia. Scampa ! Scampa !</p> <stage type="saut">(via tutti)</stage>
+      </sp></div>
+        <div type="3"><head type="scene" n="3">Scena 3</head> 
+          <stage type="saut">Sala in casa di
+          Pantalone, con mobili.</stage> 
+          <listPerson><personGrp>
+            <name>Pantalone,</name>
+            <name>Florindo</name>
+            <stage type="listPerson"> e </stage>
+            <name>Angiola</name></personGrp></listPerson>
+      
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Eco, caro sior zénaro, questa la xe mia fia, e me lusingo che no la ghe pol dispiaser
+          circa l’aparenza, perchè la xe stada fata da mia muièr con tute le regole posibili e
+          imposibili. E del resto ghe prometo una fia ben educada, capaze de osservar fedelmente i
+          doveri de sposa e de mare.</p>
+      </sp>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Signor Pantalone io sono costretto a confessarvi la mia intera soddisfazione per una
+          sposa veramente degna di un destino migliore. Posso tuttavia assicurarvi, che dal canto
+          mio non lascerò un istante di amarla e di rispetarla e benedire le mille volte la sorte,
+          che m’ha fatto conoscere uua consorte sì degna.</p>
+      </sp>
+      <pb n="28" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_028.jpg"/>
+      <sp>
+        <speaker>Angiola</speaker>
+        <p>Veramente, caro signore, prima di conoscervi, io mi trovava indecisa se doveva dare la
+          mia mano di sposa ad un uomo che non conosceva che di nome. Tanto più che le figlie
+          talvolta vvengono sacrificate agli interessi de' parenti e devono ciecamente ubbidire a’
+          loro cenni. Era quindi necessario di conoscerci più da vicino. Il caso mi porge questa
+          felicità, ed io ne vado lieta, anche perché la mia buona fortuna mi provvede d’un uomo
+          che ha le vostre buone qualità. Perciò non posso che affrettare il momento di questa
+          nostra unione.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Cussì me piase. Eviva i sposi ! Se vada dunque alestir ste nozze, prima ancora che termini
+          sta zornada cussì felize per mi e per mia fia. Galo piazer sior Arlechin, che sto
+          matrimonio sia sbrigado in sta zornada ?</p>
+      </sp>
+      <pb n="29" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_029.jpg"/>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>È quello che ardentemente desidero, caro signor Pantalone.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Eviva i sposi ! Andemo, andemo a dar i oportuni ordini.</p><stage type="saut">(via tutti)</stage>
+      </sp></div>
+        <div type="3"><head type="scene" n="4">Scena 4</head> 
+          <stage type="saut">Città.</stage>
+          <listPerson><personGrp>
+            <name>Arlecchino,</name>
+            <stage type="listPerson">indi</stage>
+            <name>Faccanapa</name></personGrp></listPerson>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Maladeto el momento che me xe saltà in testa el pensier de tôr muièr. Quando son vizin
+          ala zità, trovo un ostier che me vol assassinar. Zerco de dormir senza disturbar nessun;
+          sior no, che trovo un ladro che se me manca spirito me toca vignir in camisa. No’l po’l
+          altrimenti vendicarse, el me brusa la paia e se brusa anca el scrigno dei bezzi che gavevo
+          sconto soto. Arivo a Venezia, credo d’aver trovà la sponzia in erba, inveze trovo
+          Zeraverde, che pietosamente el me manda in ospedal dei mati, che se no scampo col saltar
+          el muro, i me fa deventar mato per forza. Penso de vendicarme, lo trovo, no’l xe più
+          Zeraverde, ma el xe Unguentodefuria, ch' el me presenta una carogna viva inveze dela
+          muièr. Mi no voio più saverghene nè de Zeraverde nè de Unguento, nè de Anzola, nè de
+          Piantalimon, nè de Venezia, nè de sto mondo. Me voio romper la testa in sto canton de
+          casa e voio veder se anca questo me contrasterà la morte.</p><stage type="saut">(Corre per rompersi la testa.
+          Entra Faccanapa.)</stage>
+      </sp>
+      <pb n="30" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_030.jpg"/>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Cossa diavolo falo ? Xelo mato ! Come ? Un sior dela so sorte darse ala disperada
+          disperazion !?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Sta a veder che un galantomo no’l po’l mazarse quando ch'el vol. Oh ma vu se
+          Unguentodefuria. Toco de birbante, muso de pignata rota ! Te xe capità a ora nele mie man ?</p>
+          <stage type="saut">(Verso Faccanapa per bastonarlo.)</stage>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Oe ! A pian, salo, a pian ! O povaro <pb n="31" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_031.jpg"/>
+          omo ! El delito ghe ga fato stravolzer el zervel. Caro
+          amigo, vu me tolè in falo.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Disème, caro vu, no se un zerto Unguentodefuria ?</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Lo saveva mi, che me gavè tolto per un altro. Mi me ciamo Curtipiantaocùl e
+          Impiantabarufebaùl.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Co la xe cussì, mi ve domando scusa.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>E niente sior, ma elo el me par forestier, se mai el gavesse bisogno de qualche cossa, la
+          se prevalga de mi che son omo, che fa piazeri a tuti senza interesse de sorte.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p><stage type="corps">[fra sé]</stage> Provemo se sto Impiantabarufebaùl xe un galantomo.
+          <stage type="corps">[a Faccanapa]</stage> Me saverave insegnar dove poderia
+          impegnar sto agnèlo, <stage type="corps">(Mostrando la mano.)</stage> perchè me ocori dei duchetti.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>La me daga a mi l’anelo e i bezzi la vegna a tôrli a casa de mi de qua una meza
+          oreta.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>A vu ! <stage type="corps">(Gli dà l'anello.)</stage> Za vu se un galantomo e no ocore altro. Insegneme dove ste de
+          casa ?</p>
+      </sp>
+      <pb n="32" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_032.jpg"/>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Se no la comanda altro, la servo subito. Vedela in fondo quel palazin macià cafè, ma no
+          cafè col late la sa, cafè nero ? La ga d’andar sempre avanti mila e sinquezento passi fina
+          ch' el trovarà un orto de verze. El storza el colo a man zanca e po altri dozento passi
+          el trovarà tre legni per servirla. Ch'el se scavezzi le gambe a man sinistra e dopo
+          altri trenta passi el trovarà una cascada de aqua per negarse e dopo venti passi el
+          trovarà un ridoto de boni amizi. Là la vedarà un palazo grando cole fereade de fora, la
+          sentinela in porton e là la me trovarà mi coi bezzi de l’anel.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Oh bravo e ve ringrazio galantomo.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Niente e lo saludo, a rivederse mai più. <stage type="corps">[fra sé]</stage> Lo go niente altro che mandà in preson nela
+          galera.</p><stage type="saut">(via)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>El palazo cafè nero, i domila passi, l'orto dele verze, la cascada de aqua,
+          <pb n="33" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_033.jpg"/> i tre legni,
+          mi son tanto insempià che no so de che parte prinzipiar. Basta, andemo a trovar sto
+          liogo; za adesso son straco come un aseno, dopo sarò come un muss. Coragio e andemo a tôr
+          sti bezzi per andar a magnar una bona macaronada col sugo de cagoie. 
+          </p><stage type="saut">(via)</stage> 
+          
+      </sp></div></div>
+      <div type="5"><head type="div5">Fine dell'atto secondo.</head></div>
+      
+      <pb n="34" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_034.jpg"/>
+      
+          <div type="1"><head type="acte" n="3">Atto III</head>
+            <stage type="saut">Città.</stage>
+          <div type="3"><head type="scene" n="1">Scena 1</head>
+            <listPerson><personGrp>
+              <name>Arlecchino,</name>
+              <stage type="listPerson">indi</stage>
+              <name>Faccanapa,</name> 
+              <stage type="listPerson">poi</stage> 
+              <name>Sgherri</name></personGrp></listPerson>
+    
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>O ! Curtipiantacanal maledeto, no te ga ancora finido de prezipitarme in sta zornada, el
+          me ga magnà l’agnèlo, el me ga mandà a tôr i bezzi in galera. Ah ! Se lo cuco, ghe le
+          fazo pagar tutte. Maladeto gnoco mi, a fidarme de Curtimpiantabarufe, te farà barufa con
+          mi co te trovo; no voio spolesar più Pantalon nè so fia, go in sta zornada più
+          dispiazeri che Elina in Troiana. La colpa de tuti sti mali xe lu. Ocùl, che xe sempre lu
+          che con un nome o col altro el me ga tolto a perseguitar... 
+          <stage type="corps">[fra sé]</stage> Oh ! Ecolo qua, adesso ghe
+          dago una slepa ch'el muro ghe ne dà un'altra, adesso no me lasso più gabar de sto
+          canaia. 
+          <stage type="corps">[a Faccanapa]</stage> Digo, galantomo de forca, toco de galeoto, avanzo de galera ! Tornéme el mio
+          agnèlo, altramente ve acuso ala giustizia.</p>
+      </sp>
+      <pb n="35" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_035.jpg"/>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Eh, eh, eh ! Vardè che straza de sbaglio che fè ! Mi ve go visto prima a parlar con
+          Curtimpiantabarufe, ma mi me ciamo Prezipitado.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>O perchè no te xe prezipitado al inferno, toco de canaia ! Te digo dame l’ agnèl
+          altrimenti te strangolo.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Strangolo ! Chi ? Cossa credè che sia un polastro ? Ah ? E mi ve digo che son un galantomo e
+          no so niente del vostro anelo; me maravegio de vu, informaieve meio de mi e dei fati mii e
+          pò cambiarè linguagio 
+          <stage type="corps">(Intanto Faccanapa parlando, fingerà di mettere qualche cosa nella
+          borsa d’Arlecchino.)</stage> 
+          <stage type="corps">[fra sé]</stage> Intanto go messo una pistola in borsa
+          <pb n="36" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_036.jpg"/> e adesso lo acuso per
+          porto armi senza permesso.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Perdonéme, caro vu, ve go tolto per un zerto Ocùlpacùlbaùl.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p><stage type="corps">(Dà un fischio, entrano gli sgherri. Faccanapa parla all'orecchio di loro.)</stage> Ecolo là,
+          el xe lu.</p>
+      </sp>
+      <sp>
+        <speaker>Sgherri</speaker>
+        <p>Signore, in nome della legge voi dovete sovrastare ad una perquisizione personale,
+          constando che voi portate armi da fuoco senza permesso delle autorità di polizia, e
+          perciò vi prego d’accomodarvi nel qui vicino portone.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Per mi, cara la mia cara forza, andemoghe, vardè de no ver tolto in sbalgio, perché mi,
+          de arme de fogo no go che fulminanti e son cavalier de Bergamo senza croseta e senza
+          caval.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>El stia bon, no’l staghi a mincionar la forza.</p>
+      </sp>
+      <sp>
+        <speaker>Sgherri</speaker>
+        <p>Andiamo e meno parole!</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Co no volè altro, andemo in persecuzion ! Perché la forza ca... va la ragion.</p> <stage type="saut">(Gli
+          sgherri partono con Arlecchino 
+          <pb n="37" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_037.jpg"/>poi tornano, uno sgherro con pistola in mano.)</stage>
+      </sp>
+      
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Corpo de baco ! Ghe la go fata bela. Qua ghe cavo quel resto de bezzi ch'el ga, ma se sa,
+          ma se sa.</p>
+      </sp>
+      <sp>
+        <speaker>Sgherri</speaker>
+        <p>Vede bene, signor cavaliere, che le fu trovata addosso questa pistola, così con mio
+          dispiacere devo dichiararla in arresto e condurla alle vecchie prigioni di Venezia.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Conduseme magari ai piombi de Venezia, che mi no so gnente, mi go più paura de una
+          pistamola che de un piato de macuroni e ve digo che se tuti i tase, mi son un
+          galantomo.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Sior, la vol che la giusto mi ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Sì, sì caro sior Prezipitado, giustila ti.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Savè amizi, el podaria esser sta un azidente che sto galantomo se tuti i tase, come ch’el
+          dise lu, se abia trovà in scarsela sta pistola. Del resto fazo testimonianza mi, che
+          colù el xe un galantomo e qualche birbante ga 
+          <pb n="38" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_038.jpg"/>messo là la pistola per farghe del mal.
+          Save cossa? El ve darà d’andar a bever la rabiosa e per sta volta lasselo in
+          libertà.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Sgherri</speaker>
+        <p>Bene, bene, prenderemo, ma senza offender la giustizia.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ciapè ! Questi i xe diese ducati; no ghe ne go altri e deme la soluzion.</p> 
+          <stage type="saut">(Si avvicina:
+          gli dà la mano; gli sgherri fanno complimenti. Via)</stage>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>O bravi; cussì me piase, questa xe una bela azion a liberar i carcerati.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Mi ve ringrazio, sior Prezipitado, che in grazia vostra me son salvà dala preson. Mi no
+          speto altro e vado a zercar la porta dela contrada per corer a gambe a trovar Bergamo,
+          perché te resto ancora a Venezia, prima de sera i becamorti me fa l’ultimo complimento.
+          Scampa, scampa.</p> <stage type="saut">(via)</stage>
+      </sp></div><pb n="39" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_039.jpg"/>
+            
+            <div type="3"><head type="scene" n="2">Scena 2</head>
+              <listPerson><personGrp>
+                <name>Faccanapa,</name> 
+                <stage type="listPerson">indi</stage> 
+                <name>Florindo,</name> 
+                <stage type="listPerson">poi</stage> 
+                <name>Pantalone</name></personGrp></listPerson>
+      
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Povero diavolo a forza de disgrazie, stade de mi ben preparade, ghe go fato andar nei
+          calcagni la voia de cior muièr. Ch'el vada pur a Bergamo, e che no’l torni più mai ale
+          porte de Venezia.</p>
+      </sp>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Io ti ringrazio, caro, Faccanapa del tuo operato, giacchè la cosa non poteva riuscir
+          meglio.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Bisogna che savè che Arlechin, per ultimo, el se ga trovà in mezo ala forza dela mia
+          giustizia, perché el gavù la spia che son mi, e come che ve la disevo ch'el ga adosso
+          un’arma de fogo e in grazia mia de mi, el ga dà una mancia ai omeni e el se la ga cavada.
+          Adesso po el xe dispostissimo a tornar a Bergamo senza pensier de più maridarse.</p>
+      </sp>
+      <pb n="40" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_040.jpg"/>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Ma se Pantalone, naturalmente, una volta o l’altra verrà a sapere che io sono figlio di
+          Tartaglia, che ne dira ̀?</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Elo el ga de pensar prima de sposar la siora Anzola e po quel che xe fato no xe più de
+          far.</p>
+      </sp>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Dici bene, quello che è fatto non si può più sciogliere, ma Pantalone trovando che questo
+          matrimonio è stato condotto a forza d’inganni, troverà un giusto motivo di
+          annullarlo.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>A bon conto la siora Anzola la ve vol ben e questo basta per acomodar tuta la
+          fazenda.</p>
+      </sp>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Io voglio sperarlo e voglio altresì credere che quello stesso Faccanapa che ha saputo
+          così bene incominciare la scena, saprà terminarla con onore della famiglia Arelusi.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Torno dal orefize del qual go comprà el finimento de gioie per la siarpa de mia fia,
+          tuto xe pronto, no manca altro che darve la man e terminar la festa.</p>
+      </sp>
+      <pb n="41" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_041.jpg"/>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Sì, andiamo pure a compire il telice imenèo.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Giove, te ringrazio. Mi son l’omo più contento che viva a sto mondo. Mia fia sposa el
+          sior Arlechin, oh che giubilo! Che zoia! Che consolazion ! Andemo, andemo. </p>
+          <stage type="saut">(via Pantalone e
+          Florindo)</stage>
+      </sp></div>
+            <div type="3"><head type="scene" n="3">Scena 3</head>
+              <listPerson><personGrp>
+                <name>Faccanapa,</name> 
+                <stage type="listPerson">indi</stage> 
+                <name>Arlecchino,</name> 
+                <stage type="listPerson">poi</stage> 
+                <name>Colombina</name></personGrp></listPerson>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Anca questa la xe fata. Ogi spero de aver ciapà una bona zornada e de sposar anca mi
+          Colombina... Oh maledeto ! Xe ancora qua Arlechin. El diavolo no lo ga portà ancora al
+          inferno.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ah Prezipitado del diavolo ! Adesso no te gavarà più modi de sconderte. Birbante d’una
+          meza menola !</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Rispetè i omini dela mia sorte e <pb n="42" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_042.jpg"/>
+          no sté darghe titoli de meza menola, savè.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Omo onesto, vanzà per disgrazia dala galera o scampà dale man del boia.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Ehi ! Cossa credè vu che sia mi ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Vu se quel mostron de Prezipitado Baùl.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Oibò ! Gnanca per sogno, mi me ciamo Pocodebon o Ghelaficoatuti.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Sì, sì, e per disgrazia te me la ga ficada abastanza anche a mi.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Anzi per farve veder che mi son un omo ofizioso con tuti, ve fazo la grazia d’avertirve
+          che xe stado fato un furto grosso nela casa de un primario banchier de sta zità, el
+          Senato ga dà ordine de far arestar tuti i forestieri che se trova a Venezia. Vu mi credo,
+          drio el parlar che se de Bergamo. No gavè altro mezo, che lassarve sconder da mi, finchè
+          passa i rumori dela zità.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ah povareto mi ! Dove podaria sconderme ?</p>
+      </sp>
+      <pb n="43" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_043.jpg"/>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Ve voio mi far sta bona grazia, come za ve go dito; ma bisogna che ve contentè de andar
+          a sconderve in un saco per un per de ore in casa de mia muièr.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Go de andar anca in tel saco ?</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>O andar in saco, o in preson come sospeto, chi sa per quanti zorni.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Co la xe cussì, xe meio de andar in saco che in preson. Ben ! Son contento.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Ehi ! Colombina ! Colombineta !</p>
+      </sp>
+      <sp>
+        <speaker>Colombina</speaker>
+        <stage type="pers">(dal terrazzino)</stage> <p>Che volete?</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Bisogna far una carità, a sconder sto povaro omo, in quel saco dela roba sporca, per
+          qualche ora, fina che se calma la confusion che xe in zità per quel furto che te sa.</p>
+      </sp>
+      <sp>
+        <speaker>Colombina</speaker>
+        <p>Ma, e se poi siamo scoperti ?</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>E, lassa far a mi, che no savarà nissun che ti.</p>
+      </sp>
+      <sp>
+        <speaker>Colombina</speaker>
+        <p>Bene, pensa tu, io non c’entro.</p> 
+          <stage type="saut">(Colombina via, entra in scena con un sacco aperto in
+          mano.)</stage>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Vedè, amigo, se el me cor el xe bon. O eco mia muièr col saco. Animo, coragio ! Entreghe
+          dentro, che mi ve aiuto.</p> <stage type="saut">(Arlecchino prova entrare nel sacco.)</stage>
+      </sp>
+      <pb n="44" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_044.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Chi gaveria mai dito che inveze de esser sposo dela fia de Piantalimon, avria avudo de
+          andar in un saco de roba sporca, e in ultimo forse, qua l’amigo Pocodebon Laficatuti el ga
+          forse destinà de ficarmela anca a mi.</p> <stage type="saut">(Entra nel sacco. Faccanapa e Colombina lo portano
+          via.)</stage>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>El staga fermo, se no lo molemo in tera. Issa Colombina ! Issa ! Oh brava, avanti, a
+          pian; oh cussì va ben.</p> <stage type="saut">(via tutti)</stage>
+      </sp></div>
+            <div type="3"><head type="scene" n="4">Scena 4</head> 
+              <stage type="saut">Sala di lusso in casa di Pantalone.</stage>
+          <listPerson><personGrp>
+            <name>Pantalone,</name> 
+            <name>Florindo</name> 
+            <stage type="listPerson"> e </stage> 
+            <name>Angiola</name></personGrp></listPerson>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Fia mia, questo xe el zorno più belo dela to vita. Mi credo ch’el sposo che te go
+          destinà, el sia de tua sodisfazion e per conseguenza voio che sta
+          <pb n="45" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_045.jpg"/> zornada la sia
+          consacrada al divertimento e a l'alegria. Tuto xe pronto per efetuar sto matrimonio, o no
+          manca altro che el reziproco consenso dei contraenti.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Si attende soltanto la volontà dela sposa.</p>
+      </sp>
+      <sp>
+        <speaker>Angiola</speaker>
+        <p>Quando non si aspeta altro che il mio consenso, eco questa destra, colla quale spero che
+          l’imenèo stringerà eternamente alla vostra.</p><stage type="saut">(Si danno la mano.)</stage>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Adesso, fioi, andè de là, che scominziarà a vegnir dala parte del giardin i invitati.</p>
+          <stage type="saut">(via tutti)</stage>
+      </sp></div>
+              <div type="3"><head type="scene" n="5">Scena 5</head> 
+                <stage type="saut">Giardino in casa di Pantalone.</stage> 
+          <listPerson><personGrp>
+            <name>Faccanapa</name> 
+            <stage type="listPerson"> e </stage> 
+            <name>Colombina,</name> 
+            <stage type="listPerson">che portano
+          il sacco con entro</stage> 
+            <name>Arlecchino.</name> 
+            <name>Pantalone,</name> 
+            <name>Florindo,</name> 
+            <name>Angela</name> 
+            <stage type="listPerson"> e </stage> 
+            <name>Tartaglia</name></personGrp></listPerson>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Ocio siori, compermesso.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Cossa diavolo xe sto negozio, cossa portè a sta ora in quel saco.</p>
+      </sp>
+      <pb n="46" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_046.jpg"/>
+      <sp>
+        <speaker>Colombina</speaker>
+        <p>E un sacco di cenere e panni sporchi.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>E ve par che questo sia el momento de far sti lavori.</p>
+      </sp>
+      <sp>
+        <speaker>Colombina</speaker>
+        <p>Siccome per la festa delle nozze ho dovuto allestire quell'altra sala, così questo sacco
+          provvisoriamente lo porto in soffitta.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Me par per altro, che in quel saco ghe sia qualcossa de movibile.</p>
+      </sp>
+      <sp>
+        <speaker>Colombina</speaker>
+        <p>Oh v’ingannate ! Non sono che ceneri e panni sporchi.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>No, no me ingano, anzi vogio veder cossa che ghe xe nel saco.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(Urla quasi soffocato nel sacco.)</stage><p>Ai iai ! Ai iai ! Son mezo morto.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Qua xe qualche secreto che no me se vol dir, s’averza subito quel saco !</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <stage type="pers">[fra sé]</stage> <p>Adesso sul più bel, Arlechin me la ga ficada a mi. Basta, coragio.</p> 
+          <stage type="saut">(Colombina
+          lascia il sacco. Arlecchino mezzo fuori.)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ah ! Che respiro un poco, altrimenti se restavo nel saco ancora un
+          <pb n="47" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_047.jpg"/> poco, l’anima mia la
+          andava a trovar el prior dei morti.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Come xelo sto negozio. Chi seu vu, che se feu portar sconto in un saco nele case dei
+          galantomeni ? Diseme la verità, altrimenti vegnarè fora del saco per andar dentro in
+          preson.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ve dirò. Mi me ciamo Arlechin Batocio cavalier dele velade de Bergamo, venudo a Venezia
+          per spulesar la fia de sior Pantalon, la siora Anzola, ma per mia disgrazia go trovà un
+          furbazzo, che in ultimo el me ga cazzà in saco.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Oh mi casco dale nuvole ! Come xela sta trapola, sto ingano, sto negozio, sta baronada ?</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>La staga bon, che in poche parole ghe la spifero. Xe necessario saver, che el mio paron,
+          el sior Florindo, l’era inamorado morto, povareto, dela siora Anzola, so fia, senza
+          speranza de averla per sposa, perchè el sior Pantalon la gaveva destinada a sto cavalier
+          <pb n="48" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_048.jpg"/>
+          bergamasco, che in sto zorno el doveva capitar a Venezia per concluder sto matrimonio. Mi,
+          per compassion e per favorir el desiderio del mio paronzin, me son impegnado, no minga el
+          capoto savè, me son impegnado de mandar a monte sto matrimonio conzertado da l’interesse,
+          e no za dal cor, come qua presente siora Anzola lo pol testificar. Mi son sta quelo che ga
+          finto de esser Zeraverde per cavarghe el segnal de riconossimento e per mandarlo al
+          ospedal dei mati. Mi iero Unguentodeturia e go presentà una sposa convalissente. Mi
+          Ocùlbaùl per mandarlo in galera. Mi Prezipitado per cavarghe l'anelo e farlo arestar dala
+          mia forza. Mi Pocodebon Laficatuti per ficarlo in saco e po portarlo in mar e negarlo,
+          così saria sta finido. Confesso de aver coi mii ragiri, cola mia astuzia, inganà un
+          povaro omo che no’l gaveva altra colpa che de esser sta lusingà d’un pare avaro, che per
+          la viltà de 
+          <pb n="49" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_049.jpg"/>
+          interesse el sacrificava l’unica sua fia degna de un sposo ben diverso de sto
+          muso de Babuin.</p>
+      </sp>
+      
+      
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ciò, toco de birbante, che te ghe somei ale polpete dei avari, picole e cative; con tute
+          quele che te me ga fato, ancora te me maltrati e te me disi budin. Speta mostro, se te
+          trovarò solo, te voio dar tante peade che te deventarà longo come el campanil de San
+          Marco.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Tasi, tasi, martufo, che mi nogo paura de zento che scampa. Ma come che ve la disevo,
+          quel che xe fato xe fato e quel che go fato, go fato per veder contento el me paron e la
+          signorina Anzolina, che i benedirà eternamente Facanapa per aver savudo impedir sto
+          matrimonio tanto disgustoso de persona, de figura e de sentimento. Se el sior Pantalon se
+          crede ofeso dele mie scaltrezze, ch’el faza e ch’el diga de mi quel ch'el vol, che za oro
+          bon no ciapa macia e son contento de esser
+          <pb n="50" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_050.jpg"/> arivà a quel punto che me iero incombenzà. Del
+          resto vu, Arlechin, el vostro anelo e i diese ducati i xe a vostra disposizion, perché i
+          vostri interessi no xe i mii.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Maladeto furbasso, mereteressi che me vendicassi in una maniera publica, se no avessi
+          riguardo de l’amigo Tartagia che te serve.</p>
+      </sp>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Se non vi bastano le suppliche di Faccanapa, aggiungo anche le mie, purchè questo servo
+          fedele ottenga il vostro perdono.</p>
+      </sp>
+      <sp>
+        <speaker>Angiola</speaker>
+        <p>Unite, caro padre, anche le preghiere di vostra figlia.</p>
+      </sp>
+      <sp>
+        <speaker>Tartaglia</speaker>
+        <p>E pe... pe e per ultimo quelle del vostro amico Tar... Tartaglia.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>E elo cossa el dise, sior Arlechin ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Mi digo per conto mio, felo condanar a morte.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>In quanto a mi, no go dificoltà de perdonarghe; ma xe necessario garantir Arlechin dei
+          torti e dani ch'el
+          <pb n="51" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_051.jpg"/> ga avudo ingiustamente a tuta colpa de Facanapa.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Questo el xe el primo galantomo che go trovà a Venezia.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>El senta, sior Arlechin, el xe contento de sposar Colombina, la camariera de mia fia
+          ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Per mi basta che la sia una dona, se no questa sposerò st’altra. Una o l'altra xe po
+          l’istesso, come diseva un che xe andà per farse medego e inveze el xe andà a far el
+          soldà, disendo che iera l’istesso. Medego o soldà, amazar con una bala o mazar con una
+          pirola xe diversa la causa ma xe istesso l’efeto. Anca a mi me fa l’istesso, e po la xe un
+          toco de mas'ciota meio de vostra fia e son contenton.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Pian, pianin. Questo el xe un boconzin destinà e riservà per mi.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Ma vu pretendè tropo, e "chi molto abbraccia nulla stringe". No ve basta de aver fato
+          vantagio al vostro paron ? E contenteve.</p>
+      </sp>
+      <pb n="52" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_052.jpg"/>
+      <sp>
+        <speaker>Florindo</speaker>
+        <p>Faccanapa, procurerò io a rimpiazzarti da un'altra parte.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Sì, el me rimpiasserà in piassa dela bràgola. Basta, co no se pol altro, son contento,
+          ma me dispiaze come che gavessi perso un scheo.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Sia ringrazià Ziobbe che anca questa la xe terminada ! Go visto delusi i mii disegni ma
+          son arivà de apagar i vostri; fe adesso che la vostra condota la me abia de indenizar del
+          dispiazer de aver mancà de parola a un omo onesto, ma acompagnà dale disgrazie, el qual
+          matrimonio se no’l xe ben equilibrà la pol esser la mazor dele sventure inveze de esser
+          la mazor dele felizità.</p>
+      </sp>
+      <sp>
+        <speaker>Tartaglia</speaker>
+        <p>Ed io vi unisco e vi bene... benedico e siate fe... felici.</p>
+      </sp>
+      <sp>
+        <speaker>Faccanapa</speaker>
+        <p>Adio Colombina ! Mi te saludo, e se no se vedemo più, segno che son andà a nudar e me
+          son anegà.</p> <stage type="saut">(via)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <lg><l>Adesso me sta</l>
+          <l>De saludar sta zente</l>
+          <l>Che per colpa mia</l>
+          <pb n="53" facs="19_I__LeDisgrazieDeArlechin_IT_IBM_053.jpg"/>
+          <l>No i sa divertì niente</l>
+          <l>Son andà
+          nele disgrazie</l>
+          <l>E no podevo cavarme fora</l>
+          <l>Finché no go manda</l>
+          <l>Facanapa ala malora,</l>
+          <l>E
+          voltandome a sto colto publico</l> <l>Ghe fazo un complimento</l><l>Domandandoghe pardon</l> <l>E
+          compatimento.</l></lg>
+      </sp></div></div>
+      
+    </body>
+  </text>
+</TEI>

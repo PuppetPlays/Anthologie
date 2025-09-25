@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="https://puppetplays.eu/en/oeuvres/353383/il-matrimonio-di-facanapa">Il matrimonio di Facanapa</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="FG">Fiona Gazzaniga</name>
+          <resp>Transcription and edition</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor/>
+        <availability status="free">
+          <licence>Public domain</licence>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>Two young people marry despite hardships</note>
+        <note>Il matrimonio di Facanapa (Facanapa’s wedding) is part of a
+          series of texts written for puppets, Raccolta di commediole, and
+          released by G. Chiopris, a publishing house from Trieste. The theme of the play
+          echoes that of texts written for actor theatre, and is meant for a family
+          audience.</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>All audiences</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>Instituto Per I Beni Marionettistici e la cultura Popolare, Grugliasco, Italy</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 22</p>
+                <p>Number of acts in the original document: 2</p>
+                <p>Format of the original document: Printed</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main">Il matrimonio di Facanapa</title>
+          <date>1910</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Venetian</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques">
+          <term source="https://puppetplays.eu/en/techniques-d-animation/2352/marionnettes-à-fils">String marionette</term>
+        </keywords>
+        <keywords source="literaryTones">
+          <term/>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Kicking</term>
+          <term>Spying scene</term>
+          <term>Love rivalry</term>
+          <term>Failed suicide</term>
+        </keywords>
+        <keywords source="genre">
+          <term>Commedia in 2 atti</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Love</term>
+          <term>Wedding</term>
+          <term>Suicide</term>
+          <term>Unrequited love</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+          Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+          re-evaluate the contribution of the puppets repertoire to the construction of
+          European cultural identity. Its main goals is to collect a corpus of
+          representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+          France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+          17th and the 21th century. It also tries to identify the characteristics of
+          puppet dramaturgy and their variations depending on eras, cultural spheres,
+          producing conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+          Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+          build upon the material in any medium or format for non-commercial purposes
+          only, and only so long as attribution is given to the creator. If you remix,
+          adapt, or build upon the material, you must license the modified material under
+          identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2025-07-18" who="#FG">Text transcription and encoding</change>
+      <change when-iso="2025-08-25" who="#MSK">Encoding validation against schema.rng</change>
+      <change when-iso="2025-08-25" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+    </revisionDesc>
+  </teiHeader>
+    
+  <text>
+    <front><pb n="1" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_001.jpg"/>
+      <pb n="2" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_002.jpg"/>
+      <pb n="3" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_003.jpg"/>
+      <docTitle><titlePart type="main">Il matrimonio di Facanapa</titlePart>
+        <titlePart type="sub">Commedia in due atti</titlePart></docTitle>
+      <docAuthor><persName></persName></docAuthor>
+      <docDate></docDate>
+      <docEdition>Trieste G. Chiopris Editore</docEdition>
+    <pb n="4" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_004.jpg"/>
+      <castList><head type="personnage">Personaggi</head>
+        <castItem><role>Pantalone, locandiere,</role></castItem>
+        <castItem><role>Facanapa, servo, amante di</role></castItem>
+        <castItem><role>Smeraldina, cameriera,</role></castItem>
+        <castItem><role>Tartaglia, padre di</role></castItem>
+        <castItem><role>Rosaura, amante di</role></castItem>
+        <castItem><role>Arlecchino, negoziante.</role></castItem></castList>
+    </front>
+    <body>
+  
+  
+  <pb n="5" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_005.jpg"/>
+  <div type="1"><head type="acte" n="1">Atto I</head>
+    <stage type="saut">Camera in casa di Pantalone.</stage> 
+    <div type="3"><head type="scene" n="1">Scena 1</head>
+      <listPerson><personGrp><name>Smeraldina</name></personGrp></listPerson>
+  
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Xe za le nove e Facanapa no'I se vede. Dove diavolo se saralo ficà ? Ghe vogio ben a quel stupido, perché un marìo imbezil xe quelo che fa per mi. El fa el geloso, qualche volta, ma ghe fazzo un pochi de cocolezzi o ghe prometo soldi e alora el torna subito bon.
+      </p>
+  </sp></div>
+    <div type="3"><head type="scene" n="2">Scena 2</head>
+      <listPerson><personGrp>
+        <name>Facanapa</name>
+        <stage type="listPerson"> e </stage>
+        <name>detta</name></personGrp></listPerson> 
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Ah, ti xe qua ! Varda che son rabiado con ti. Maledeta ! Ti me la fa soto el naso, po’ !</p>
+  </sp>
+  <pb n="6" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_006.jpg"/>
+
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Ti xe za co’ le to sempiae ! Cossa xe che te fazzo, martufo ?</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Cio' ! Ti me fa i corni senza gnanca spetar che stropo i oci.</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Tasi, sempio ! No ti sa che i corni i porta fortuna.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Sempia ti sarà ti ! Mia mare me ga fato picolo o no vogio che nissun me slonga. 
+      Apena che capita qualche forestier foresto de fora, ti ghe se meti a torno e ti ghe fa mile smorfiezzi, ti lo lechi, ti lo lustri, ti te lo pastegi, 
+      che xe una meravilgia. Cospeton de Baco ! Mi sta roba no la vogio. Altrimenti me ciogo indrio la mia man, te dago la tua e te saludo.</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Ma, via ! Mato ! No farme l’aseno più de quel che ti xe.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Digo ! Me par che ti gabi dà de l’aseno.</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Te go dà de l’aseno perché ti te lo meriti.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Alora servite pur. A mi no me piase mai contradir la zente.</p>
+  </sp>
+  <pb n="7" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_007.jpg"/>
+  
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Dunque, ne mi ghe fazzo le bele ai forestieri, ti sa per cossa che ghe le fazzo ?</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Per magnarteli in santa pase.</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Perché i me daga bone mance e per farte, po’, un bel vestito a ti che ti xe proprio in malora.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Cussì, ti me vol far un vestito de corni ?</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Dio ! Che tangaro che ti xe ! No ti capissi che quei che a ti i te par corni no i xe corni. I xe ombre de corni, che no te pol far nissun mal.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Adesso go capì... Che no capisso gnente.</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>E se ti sarà bon, bon, bon...</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Tre volte bon ?</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Te darò anca qualche bel scudeto, lustro lustro.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Orpo ! I me piase tanto a mi, quei Iustri.</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Ben ! Se ti sarà prudente, ti ghe ne gavarà.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Senti ! No ti me podaressi dar una anticipazion ?</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>No me fido.</p>
+  </sp>
+  <pb n="8" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_008.jpg"/>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Cio' ! E no me fido mi in conto de corni ?</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Tasi che xe qua sior Pantalon.</p></sp></div>
+      
+      <div type="3"><head type="scene" n="3">Scena 3</head>
+        <listPerson><personGrp>
+          <name>Pantalone</name>
+          <stage type="listPerson"> e </stage>
+          <name>detti</name></personGrp></listPerson>
+  
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Cossa feu, qua ! Vu, Facanapa, andè in cantina a travasar un poco de vin.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Sior paron, mi vado ma no rispondo de quel che sucederà.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Cossa ga da suceder ?</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Mi e'l suo vin no se podemo veder; cussì mi per no averlo davanti i oci, lo bevo.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Varè che se ve trovo imbriago come l’altra volta ve dago tante peae fin che deventè gonfio come una bote.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Go capì ! Se no'l me fazesse assai mal, ghe diria ch'el gonfia prima, cussì, deventado una bote no me podaria imbriagar e no ciaparia più peade.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Va in malora !</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Coro subito !</p><stage type="saut">(Esce.)</stage>
+  </sp></div>
+  <pb n="9" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_009.jpg"/>
+  
+    
+        <div type="3"><head type="scene" n="4">Scena 4</head>
+    <listPerson><personGrp><name>Pantalone</name><stage type="listPerson"> e </stage><name>Smeraldina</name></personGrp></listPerson> 
+  
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Ma el xe guanca un zucon !</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Più tondo de la luna. Ma el xe bon come el pan.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>E ti ti ghe vol ben ?</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Cussì cussì ! Quel che basta per deventar sua muger.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>E Iu el se contenta ?</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Lu no'l capisse una maledeta. Veramente, el volta discorso co’ ghe se parla de matrimonio; el ga paura che dopo lo tradisso.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>E pur de sto matrimonio, cara Smeraldina, ghe xe necessità. Se ti te maridi mia molge no gavarà più gnente da sospetar, gnente da dir. Inveze, cussì, un giorno o l’altro pol nasser un spegazzo e, alora, son frito.</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Bisogneria trovar qualche stratagema.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Go trovà. Ghe dirò a quel martufo che no ve vogio tegnir più cussì in casa
+  <pb n="10" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_010.jpg"/>
+  se no ve sposè e lu, per no perder el pan, el dirà de sì.</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Ben trovada, caro ometo.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Tuto per el tuo amor, frascheta. Oh, vien Facanapa ! Vara mo’ che ancuo el ga avudo giudizio; no’l se ga imbriagà !</p>
+  </sp></div>
+      <div type="3"><head type="scene" n="5">Scena 5</head>
+        <listPerson><personGrp><name>Facanapa</name><stage type="listPerson"> e </stage><name>detti</name></personGrp></listPerson> 
+  <sp>
+    <speaker>Facanapa</speaker>
+    <stage type="pers">(tutto mesto)</stage> <p>Sior paron !</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Cossa gh’è ?</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Caro sior paron !</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Cossa volì ?</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Mio caro e bon sior paron !</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>In malora ! Spuè fora ! Cossa ve xe nato che fe' quel viso de disperà !</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Ah ! <stage type="corps">(Piangendo.)</stage> Sior paron mio ! Una gran disgrazia.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Parlè, che ve vegna un acidente.</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Parla, dunque. Quala xe sta disgrazia.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Ghe xe l’inondazion. A momenti no se ghe pol più star in cantina.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Santi del paradiso !</p>
+  </sp>
+  <pb n="11" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_011.jpg"/>
+  
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Diavoli de l’inferno !</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Ma come pol esser sta roba ? Se ogi no ghe xe nè piova nè stratempi. <stage type="corps">(Va alla finestra.)</stage> Ma l’aqua dei rii la xe quieta !</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>E no xe miga inondazion de aqua. Per far più presto a travasar go 'verto tute le bote in t’una volta e no son sta più bon de stroparle.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Ah, maledeto fiol d’un can. Va via, se no te copo ! Va via de sta casa. Cori, assassin ! Va via, che te fazzo a tochi.</p><stage type="saut">(Gli dà dei calci.)</stage>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Aiuto ! Aiuto ! El se fermi ! El speti che vado via, el me darà le peae dopo ! Aiuto ! Smeraldina, corime drio ! Son rovinà.</p><stage type="saut">(Scappa.)</stage>
+  </sp></div>
+          <div type="3"><head type="scene" n="6">Scena 6</head>
+            <listPerson><personGrp>
+              <name>Smeraldina</name>
+              <stage type="listPerson"> e </stage>
+              <name>Pantalone</name></personGrp></listPerson> 
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Oh, povero mi ! Son assassinà ! Dozento zechini de vin andai in malora !</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>El xe guanca un stupido quel omo ?</p>
+  </sp>
+  <pb n="12" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_012.jpg"/>
+  <sp>
+    <p></p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Presto zente ! Toni ! Marco ! Betina ! 
+      <stage type="corps">(Chiamando alla porta del fondo.)</stage> 
+      Toni ! Corè abasso in cantina ! Tuto el vin vien fora da le boti ! Ricuperè qualcossa ! Me par de s’ciopar da la rabia ! Se no'l scampava via quel nato d’un can, lo copavo.</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>E adesso el matrimonio xe andà in fumo.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>No me ne parlar ! No lo vogio più veder quel aseno ! Trovaremo un altro marì.</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Chi el vol trovar che fazzi un matrimonio simile. Dove el trova un stupido come Facanapa ?</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Trovaremo un furbo. Coi bezzi se otien tuto. Anzi go za trovà. Arlechin !</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Arlechin ?! Quel negoziante. Ma no'l vorà.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Ti credi ? Magari ch'el gavesse diese de sti matrimoni da far. El xe in malora fin ai oci; proprio dove che San Piero ga sponto el reo.</p>
+  </sp>
+  <pb n="13" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_013.jpg"/>
+
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Ben ! El fazza elo; mi me meto nele so’ man. Solo che no me tochi andar via da la so’ casa.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>No, anima mia ! Ti resterà sempre con mi. Ti xe contenta ?</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Tanto ! Perché ghe vogio ben !</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Vara ! Se no gavessi tuto quel vin sul stomigo, ste to parole le me faria el più felize omo de la tera. Adio ! Vado da Arlechin.</p><stage type="saut">(Esce.)</stage>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>E Facanapa ? Ma ! Pezo per lu ! Ch’el se vada a negar !</p>
+    
+  </sp></div></div>
+      <div type="5">
+        <head type="div5">Fine del primo atto.</head></div>
+      
+      <pb n="14" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_014.jpg"/>
+            <div type="1"><head type="scene" n="2">Atto II</head>
+              <stage type="saut">Un "campielo" con un albero, davanti la casa di Tartaglia.</stage> 
+            <div type="3"><head type="scene" n="1">Scena 1</head>
+              
+              <listPerson><personGrp><name>Tartaglia</name>
+                <stage type="listPerson">(questo personaggio è balbuziente) e</stage>
+                <name>Arlecchino</name></personGrp></listPerson>
+  <sp>
+    <speaker>Tartaglia</speaker>
+    <p>Caro Arlecchino, non so che fare; mia figlia non vi vuole. È innamorata del signor Florindo. Non sono riuscito a levarglielo dal cuore.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>La xe una disdeta. Tute le done ale quali ghe buto l’ocio, le ga qualcosa in tel cuor. Se vorò amogliarme, me tocarà tior una con tuto el pien.</p>
+  </sp>
+  <sp>
+    <speaker>Tartaglia</speaker>
+    <p>Non dite di questi spropositi. Abbiate pazienza e chissà che col tempo anche la mia Rosaura acconsenta a sposarvi.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>No go speranze ! Se no gavessi paura de farme mal, me daria pugni in testa. La dovaria pur comoverse la siora Rosalarga<pb n="15" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_015.jpg"/> a vederme con sto muso slanzio da l’amor. La vol vederme morir.</p>
+  </sp>
+  <sp>
+    <speaker>Tartaglia</speaker>
+    <p>Eccola ella stessa ! Parlatele ancora una volta.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>O fiama de amor, aiutime ! Fame spirar parole de fogo, che possa brusarghe quel pien che la ga in tel cuor a sta malignaza !</p>
+  </sp></div>
+              <div type="3"><head type="scene" n="2">Scena 2</head>
+                <listPerson><personGrp><name>Rosaura</name><stage type="listPerson"> e </stage><name>detti</name></personGrp></listPerson> 
+  <sp>
+    <speaker>Rosaura</speaker>
+    <p>Signor padre, sono pronta, se volete che usciamo.</p>
+  </sp>
+  <sp>
+    <speaker>Tartaglia</speaker>
+    <p>C’è qui il signor Arlecchino che vuol parlarti ancora una volta.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Ah ! Bela fanziulla ! <stage type="corps">(Cadendo in ginocchio.)</stage> Ve prego, no steme mandar via ! Son inamorà come un asino e no posso viver senza de vu. So che gavè un altro in tel cuor, ma no fa gnente. Ghe andarò drento anca mi e lo scazzarò fora. Solo lasseme che vada drento e dopo ghe pensarò mi. Vardè in che
+  <pb n="16" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_016.jpg"/>
+    stato che son ! Son deventado come un bacalà. Spando amor da tute le parti e presto sarò ridoto in zenere. Bela fanziula, no me disè de no.</p>
+  </sp>
+  <sp>
+    <speaker>Rosaura</speaker>
+    <p>Io vi dico, invece, che potete scoppiare senza ch'io mi commuova. Andate al diavolo e finite una buona volta di tormentarmi, seccatore, impertinente, villano.</p>
+    <stage type="saut">(Rientra in casa.)</stage>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <stage type="pers">(sempre in ginocchio)</stage> 
+    <p>A vu canela ! Me par che la me ne ga dite abastanza. Adesso vedo propio che no la me vol. Caro sior Tartaia, el me alza su, perché con tuta quela mercanzia che me ga messo sule spale siora Rosaura, no me posso mover.</p>
+  </sp>
+  <sp>
+    <speaker>Tartaglia</speaker>
+    <p>Adesso avete toccato con mano. Bisogna che vi rassegnate. Andiamo !</p> <stage type="saut">(Alza Arlecchino ed esce con lui.)</stage>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <stage type="pers">(andandosene)</stage> <p>Mi so cossa che farò. Me taiarò la testa e ghe la mandarò a so fia per regalo de noze. Almeno, cussì, in malora, dopo morto la me pianzarà.</p>
+  </sp></div>
+  <pb n="17" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_017.jpg"/>
+                <div type="3"><head type="scene" n="3">Scena 3</head> <listPerson><personGrp><name>Facanapa</name></personGrp></listPerson>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <stage type="pers">(Corre.)</stage><p>Aiuto ! Dove me scondo ! El me ga cambià i conotati da drio. Come me conossarà, adesso, i amizi ? 
+      Povero mi. Che bote. Mi digo che in tuto el mondo, nissun, mai, 
+      ga ciapà peade simili. Me par de aver un balon in fondo a la schena. Cossa go da far adesso ? La mia Smeraldina, no la vedarò più. Vien qualchedun. 
+      Dove me scondo. Tute le porte xe serae. No me resta che rampegarme su sto albero. Povero Facanapa disgrazià ! 
+      <stage type="corps">(Arrampicandosi sull'albero.)</stage> Ahi ! Ahi ! Me diol. Son a remengo ! Qua, se la va ben, restarò storto in colomba. 
+      Basta, per adesso stemo qua, fin che capita de meio.</p>
+  </sp></div>
+                  <div type="3"><head type="scene" n="4">Scena 4</head>
+                    <listPerson><personGrp><name>Arlecchino</name><stage type="listPerson"> e </stage><name>detto</name></personGrp></listPerson> 
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>La xe un gran cossa che no posso distaccarme da sto campielo. Sta dona la me ga strigà e la strigaria xe la dote
+  <pb n="18" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_018.jpg"/>
+  che ghe dà so’ pare. Son come el gato che nasa el piato e no pol tocar un bocon. 
+      Go pensà de comover sta maledeta co' una serenata. <stage type="corps">(cantando)</stage></p>
+      <lg><l>Rosaura del mio cor.</l> <l>sto spasemo d’amor</l> <l>el me fa propio mal;</l> <l>me butarò in canal.</l></lg>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Se’I gavese ciapà quel che go ciapà mi, no’I cantaria de sicuro.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <stage type="pers">(cantando)</stage> <lg><l>No me voler copar !</l> <l>Ancuo xe fredo el mar:</l> <l>donighe un sol basin</l> <l>al povero Arlechin.</l></lg>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Oh, maledeto strazzon ! El xe tuto a tochi e boconi e el vol far l’amor.</p>
+    <stage type="saut">(Da una finestra vien gittato addosso ad Arlecchino un vaso d’acqua ed egli va per scappare, urlando.)</stage>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Sia malignaza ! Adesso me vado a negar.</p>
+  </sp></div>
+  <pb n="19" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_019.jpg"/>
+                    <div type="3"><head type="scene" n="5">Scena 5</head>
+                      <listPerson><personGrp><name>Pantalone</name><stage type="listPerson"> e </stage><name>detti</name></personGrp></listPerson>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Arlechin ! Dove andè ? Xe un ora che ve serco.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Son disperà ! I me ga bagnà con acqua de cologna. Volevo siora Rosaura per muger, ma ela no la me vol. Son disperà. Me taiarò le buele.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Ande là ! Se mato ! Ghe xe tante done a sto mondo.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Aiuto, babe ! Se me vede el paron son morto.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Ma nissuna no me vol.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Ghe ne conosso mi una che ve cioria e subito.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>La gavè in scarsela !</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>La go a casa mia.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Alora andela a cior. Un momento ! Gala gnente de contrapeso. Sì, perché se la me casca tuta adosso, la me schizza.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Ghe xe anca el contrapeso. Zento zechini de dota. Bei e pronti, lustri lustri.</p>
+  </sp><pb n="20" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_020.jpg"/>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>El mio paron fa el sensal de matrimoni. </p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Alora l’afar xe fato. Che siora Rosaura la se friza nel suo grasso.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Disè ben !</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Ve ringrazio del vostro buon cuor. Mostreme la novizza.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Chi sa che vecia o carampia che Ia sarà se la se contenta de sto omo taconà. </p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>La novizza la vedarè. Un poco de pazienza. Ma, prima de tuto gavemo, da stabilir i pati.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Sentimoli.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Rinunziarè al vostro negozio.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Basta serarlo. No ghe xe dentro che i sorsi.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Vegnirè a star in casa mia.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Benon, so che gavè del bon vin.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Sanguenon de Diana ! <stage type="corps">(gridando, sulle furie.)</stage> No me parlè mai de vin, perché devento mato.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Ala larga ! Ghe entra anca questo nel contrato ?</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Ghe entra.</p>
+  </sp><pb n="21" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_021.jpg"/>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>El ga el vin ancora sul stomigo.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Ve contentè ? </p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Me contento.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Vu e vostra muger me farè da servitori.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Vol dir ch'el ga mandà via anca Smeraldina. Povero mi !</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Ve contentè ? </p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Me contento. Basta che ghe sia assai da magnar.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Magnarè quanto che vorè.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Alora semo d’acordo e fora la novizza.</p>
+  </sp></div>
+              <div type="3"><head type="scene" n="6">Scena 6</head>
+                <listPerson><personGrp>
+                  <name>Smeraldina</name>
+                  <stage type="listPerson"> e </stage>
+                  <name>detti</name></personGrp></listPerson> 
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Ecola qua giusto che la vien.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Oh, che bela. Cara siora, son inamorà, mato.</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Ghe son serva !</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Smeraldina ! Ah, razza de can de vecio. <stage type="corps">(gridando)</stage> El diga, sior Pantalon ! Son qua mi ! No son miga morto ! Smeraldina la xe mia ! Me la go da sposar mi.</p>
+  </sp>
+  <pb n="22" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_022.jpg"/>
+
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Facanapa. Ah ti xe la ! Vien zo che te copo.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>No son miga mato !</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Cossa ? El xe un usel che parla ! Ciapelo ! Ciapelo.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Come vu, muso de pignata, tasè, so no ve tiro una scarpa in testa.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Cossa di fa là ?</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Me curo le peade. Ma no stemo far scherzi ! El me lassa star Smeraldina.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Smeraldina, adesso, la se sposa co' Arlechin.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Ch'el crepa sto sior desperà. E ti, Smerldina ti lo aceti ?</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Devo far quel che vol el paron.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Va in malora.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Deme un schiopo che lo mazzo.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Copite ti, omo taconà, mi son bon de coparme solo. Sior Pantalon, el varda, se no me dà a mi Smeraldina, me impico su sto albero.</p> 
+      <stage type="saut">(Si lega il collo con una fascia e quindi la ferma a un ramo.)</stage>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Impichite, brigante !</p>
+  </sp>
+  <pb n="23" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_023.jpg"/>
+ 
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Bravo ! Impichite.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Ti vol veder che te spuo in t’un ocio, omo de strazze ?</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Facanapa, no far el mato.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Dunque, sior Pantalon ?</p>
+  </sp>
+  <sp>
+    <speaker>Pantalona</speaker>
+    <p>Impichite !</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Uno do e tre ! Punf !</p> <stage type="saut">(Si lascia vedere penzoloni.)</stage>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Aiuto ! Aiuto ! Mio Facanapa ! El mori ! Presto ! Presto !</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Cio' mato ! Te dago Smerldina ! Vien zo !</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <stage type="pers">(con voce strozzata)</stage> <p>In malora ! Come go da vignir zo se son impicà ?</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>No sta vignir ! Smeraldina xe mia.</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Son de Facanapa. Vu andè al diavolo.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Lasselo crepar !</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <stage type="pers">(c[ome] s[opra])</stage> <p>Crepa ti, boia ! Aiuto ! Me soffigo.</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Vegno mi ! <stage type="corps">(Prende una scala, sale al ramo e slega Facanapa che cade a terra.)</stage> Ti xe salvo.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>In malora ! Me lassavi sciopar ! Adesso son conzà meio de prima. Ma no
+  <pb n="24" facs="19_I__IlMatrimonioDiFacanapa_IT_IBM_024.jpg"/>
+  fa gnente. Adesso, che son marì, me giustarà mia molge. Sior Pantalon, el me daga i zento zechini.</p>
+  </sp>
+  <sp>
+    <speaker>Pantalone</speaker>
+    <p>Te li darò a casa.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Va ben ! Lu el xe un galantomo; quel ch’el dixe el dà. Go visto co’ le peade.</p>
+  </sp>
+  <sp>
+    <speaker>Smeraldina</speaker>
+    <p>Mio Facanapa !</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Mia Smeraldina ! <stage type="corps">(Si leva in piedi.)</stage> Adesso, andemo ! E vu sior muso de pignata, cichè.</p>
+  </sp>
+  <sp>
+    <speaker>Arlecchino</speaker>
+    <p>Va a remengo. Questa xe un'infamia.</p>
+  </sp>
+  <sp>
+    <speaker>Facanapa</speaker>
+    <p>Che ve inrabiè vu, no me importa ! Me basta che sto publico gentil el mi abia ne la grazia soa. </p>
+  </sp></div></div>
+      
+      <div type="5"><head type="div5">Fine della commedia.</head></div>
+</body>
+  </text>
+</TEI>

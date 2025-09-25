@@ -1,0 +1,674 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title
+          ref="https://puppetplays.eu/en/oeuvres/255580/venus-and-adonis-or-the-triumphs-of-love"
+          >Venus and Adonis; or, the Triumphs of Love.</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CD">Cécile Decaix</name>
+          <resp ref="CD">Transcription and edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="PM">Pierre Massinon</name>
+          <resp ref="PM">Transcription and encoding</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>All Souls College Library - Oxford</distributor>
+        <availability status="free">
+          <licence>Public domain</licence>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>Love conquers all</note>
+        <note>Venus and Adonis; or, The Triumphs of Love (1713) is a mock opera that brings together
+          Punch and gods from classical mythology. It is the only printed play by Irish puppeteer
+          Martin Powell, who met with brief but dazzling success in England at the beginning of the
+          18th century. He mostly played in Convent Garden in London, but he also staged plays in
+          Bath, Oxford and Bristol. Although Powell sometimes performed plays inspired by English
+          legends or ballads sold by book peddlers, he also wrote original texts – one of which
+          being Venus and Adonis. Powell’s preface suggests that he worked with Italian machinists.
+          It would also seem that two characters (Jupiter and Proserpina) were played by trained
+          monkeys.</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>Not specified</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>All Souls College Library</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 16</p>
+                <p>Number of acts in the original document: 4</p>
+                <p>Format of the original document: Printed</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main">Venus and Adonis; or, the Triumphs of Love.</title>
+          <date>1713</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques">
+          <term
+            source="https://puppetplays.eu/en/techniques-d-animation/1217/marionnette-à-tringle-et-fils"
+            >Rod and string marionette</term>
+        </keywords>
+        <keywords source="literaryTones">
+          <term>Comical</term>
+          <term>Burlesque</term>
+          <term>Parodistic</term>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Sung play</term>
+          <term>Hunting scene</term>
+          <term>Ascent to heaven</term>
+          <term>Set that comes to life</term>
+          <term>Magic spell</term>
+        </keywords>
+        <keywords source="genre">
+          <term>Mock opera</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Love</term>
+          <term>Death</term>
+          <term>Hunting</term>
+          <term>Latin Mythology</term>
+          <term>Metamorphosis</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of
+            the original texts. The transcriptions therefore include spelling and grammatical
+            corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the
+            text without being marked. Cuts for performance purposes have not been adopted in the
+            transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become
+            incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been
+            corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant Agreement
+          835193) under Horizon 2020. The PuppetPlays project aims to re-evaluate the contribution
+          of the puppets repertoire to the construction of European cultural identity. Its main
+          goals is to collect a corpus of representative plays from Western Europe (Germany,
+          Austria, Belgium, Spain, France, Great Britain, Italy, Netherlands, Portugal, Switzerland)
+          between the 17th and the 21th century. It also tries to identify the characteristics of
+          puppet dramaturgy and their variations depending on eras, cultural spheres, producing
+          conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal
+          investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref
+            target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons
+            Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA) </ref> licence.
+          This license enables reusers to distribute, remix, adapt, and build upon the material in
+          any medium or format for non-commercial purposes only, and only so long as attribution is
+          given to the creator. If you remix, adapt, or build upon the material, you must license
+          the modified material under identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2024-02-14" who="#CD">Transcription and first encoding</change>
+      <change when-iso="2024-07-01" who="#PM">Encoding correction</change>
+      <change when-iso="2025-03-25" who="#MSK">TEI Header created from a JSON extraction of the
+        PuppetPlays' database.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="03" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_03.JPG"/>
+      <docAuthor>
+        <persName>Martin Powell</persName>
+      </docAuthor>
+      <docTitle>
+        <titlePart type="main">A Mock Opera, Called Venus and Adonis; or, The Triumphs of
+          Love.</titlePart>
+      </docTitle>
+      <docEdition>Martin Powell, Venus and Adonis; or, the Triumphs of Love. London: G.
+        Parker</docEdition>
+      <docDate>1713</docDate>
+      <!-- <docEdition>
+                    As it is acted at Punch’s Theatre, Covent Garden. Written by Martin Powell.
+                        London: Printed by G. Parker, for the Author, and sold at the office of the
+                        Theatre, in the Little Piazza, Covent Garden. 1713. (Price 6d.).
+                </docEdition>
+                
+                Cast list exceptionnaly transcribed later in the book, to follow the original's structure. -->
+    </front>
+    <body>
+      <pb n="05" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_05.JPG"/>
+      <div type="1">
+        <head type="nameA">To the most ingenious Machionists of the Hay-market Theatre</head>
+        <p>Sirs,Epistles and prefaces have been so much in fashion of late, that very few plays or
+          operas have been published without. Some have been wholly for prose, others for verse;
+          some for serious </p>
+        <pb n="06" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_06.JPG"/>
+        <p>language, other for farce; but all agree in this, that plays are but diversions in what
+          kind soever understood. Now left I should appear ignorant of the fashion, and thought
+          uncapable of following it, I am obliged to say something too; but since I am resolved
+          against any long-learned discourse, I shall only give you a taste of my experience, which
+          I hope may be pleasant and diverting.</p>
+        <p> You have done me the honour in giving me a sight of your incomparable fancy in
+          machinery, I have ever since made it my chiefest thoughts to find out some way whereby</p>
+        <pb n="07" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_07.JPG"/>
+        <p>I might manifest my desire of expressing my obligation, which I cannot do in a more
+          publi[c] manner than thus. The end of this address is, that I am in great hopes this
+          little opera will gain a greater reputation, it being patronized by you, whose genius is
+          so great and brains so fertile, that certainly the opera of France and Italy must drop
+          whilst you absent yourselves from thence to instruct the stage of Great-Britain. Such
+          projectors as you give new life to invention; your foreign pencil likewise instructs
+          painters. Indeed, the latter two are akin, being the effects of fancy, and one </p>
+
+        <pb n="08" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_08.JPG"/>
+
+        <p> oftentimes helps out the other, as may be seen in your last great and rich machine. </p>
+        <p>All must own, that it was most ingenious, surprising, and uncommon, particularly the vast
+          number of curling clouds, like a mighty sea, it brought before it; and as it gently moved
+          towards the spectators, it appeared more wonderful to see those raref[ied] clouds striving
+          to outvie each other in brightness; their quick contraction, and sudd[en] forming
+          themselves to a temple. For my part, I was astonished at the sight, and fanc[ied] myself
+          to be in some c[e]lestial sphere. Oh! that</p>
+        <pb n="09" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_09.JPG"/>
+        <p> my little inventions were not confined like a butterfly in a tar-barrel, and had a stage
+          in circumference containing an acre, yet not one of my wooden-headed managers would be
+          capable of bringing so great a machine to such perfection, which I dare not so much as
+          imitate. My callow-winged fancy dare not soar so high, lest it should be compared with the
+          foolish arcades, that presumed, that if they could once attain to the top of a certain
+          mountain they might reach the moon; but when they, with a great deal of pains, had reached
+          the top of it, how much they fell short of their aim is easy</p>
+        <pb n="10" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_10.JPG"/>
+        <p> to guess. So least my aspiring thoughts should make me share the same fate, I’ll end
+          this epistle, strengthened with the hopes, that when you have seen this little
+          performance, you’ll do me the honour of recommending it to your friends abroad, and you
+          will highly oblige, </p>
+        <p>Your most obedient Humble servant, M. Powell.</p>
+      </div>
+      <pb n="11" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_11.JPG"/>
+      <div type="1">
+        <head type="nameA">The Preface to the Reader</head>
+        <p>That which induced me to print this little opera was in my great patron, Punch, who,
+          meeting with some reflections from the greater opera, comparing his little fabric to a
+          tar-barre[l], and his person to a butterfly, which highly displeased him, and to vent his
+          spleen beat his empty noddle against every scene.</p> <pb n="12"
+            facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_12.JPG"/> <p> And all the little gentry seemed to
+          resent the same, and discovered their chagr[in] by nodding their wooden heads at each
+          other; nor could their fury be appeased, till King Bladud, and Whittington, promised to
+          supply them with a large sum of money, to enable them to erect an opera, which could not
+          be contained in a tar-barrel, and so the rupture ceased.</p>
+      </div>
+      <pb n="13" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_13.JPG"/>
+      <div type="2">
+        <head type="nameT">Prologue</head>
+        <lg>
+          <l>As the industrious bee, in verdant meads, </l>
+          <l>Oft draws mellifluous juice from rankest weeds; </l>
+          <l>So I, from urns of lovers long since slain, </l>
+          <l>Produce most noble acts, and spare no pain, </l>
+          <l>Nor cost, if I to please you may attain. </l>
+          <l>Venus and Adonis, of beauty bright, </l>
+          <l>I humbly offer to your piercing sight. </l>
+          <l>No loose expression here shall pass for wit, </l>
+          <l>No blasphemy affright, the trembling pit: </l>
+          <l>No modish curse, shall lard a trifling scene, </l>
+          <l>Nor roaring hero, swear and nothing mean. <pb n="14"
+              facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_14.JPG"/>
+          </l>
+          <l>To choose diversions, such shall be my care, </l>
+          <l>As shall not give offence to any virtuous ear; </l>
+          <l>Such as shall give to everyone delight, </l>
+          <l>Such as you’ll see presented here tonight, </l>
+          <l>Will give offence to neither church nor state, </l>
+          <l>Burlesque no text, buffoon no magistrate; </l>
+          <l>Laugh at no law, but with such caution move, </l>
+          <l>As will, if possible, deserve your love. </l>
+          <l>No longer shall poor Punch in fetters toil, </l>
+          <l>Nor with complaints his tedious hours beguile, </l>
+          <l>Whilst you thus shine upon him with a smile; </l>
+          <l>He still for blessing on you all shall pray, </l>
+          <l>And tributary thanks shall thus forever pay.</l>
+        </lg>
+      </div>
+      <pb n="15" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_15.JPG"/>
+      
+      <castList>
+        <head type="personnage">Dramatis Personae</head>
+       
+          <head type="personnage">Men</head>
+          <castItem>
+            <role>Adonis</role>
+            <roleDesc>A little smooth-faced youth finely dressed, adorned with the best spangles and
+              gold-tabby that came last from Italy, and never seen on the stage before.</roleDesc>
+          </castItem>
+          <castItem>
+            <role>Cupid</role>
+            <roleDesc>A trifle; a very great mischief-maker; one who makes old men children, and
+              boys set up for men; newly arrived from the hands of the workman.</roleDesc>
+          </castItem>
+          <castItem>
+            <role>Jupiter</role>
+            <roleDesc>That by his mock rattling breaks all things to pieces. Performed by a
+              mischievous ape.</roleDesc>
+          </castItem>
+          <castItem>
+            <role>Mars</role>
+            <roleDesc>Your old friend Punch, who from a coxcombly shepherd is transformed by Jupiter
+              to the mock god of battle, and bantered with the love or Proserpine.</roleDesc>
+            
+          </castItem>      
+      </castList>
+      
+      <castList> 
+      <head type="personnage">Women</head> 
+          <castItem>
+           
+            <role>Venus</role>
+            <roleDesc>A devilish goddess that has ruined millions of people, and never was so sorry
+              till her loved Adonis was killed, dressed like the fair deceivers that imitate
+              her.</roleDesc>
+          </castItem>
+          <castItem>
+            <role>Pallas</role>
+            <roleDesc>The reverse of Minerva, looks like an alderman with a grave face, and little
+              wisdom, who sings much, and consequently requires little wit.</roleDesc>
+          </castItem>
+          <castItem>
+            <role>Proserpine</role>
+            <roleDesc>Whom Punch runs mad for; performed by a monkey lately dead, who sings as well
+              as if she had been living.</roleDesc>
+          </castItem>
+        <castItem>
+          <role>Pan, satyrs, nymphs, and swains.</role>
+        </castItem>
+      </castList>
+      <pb n="17" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_17.JPG"/>
+      <div type="1">
+        <head type="nameA">Venus and Adonis: or, the triumphs of Love.</head>
+        <head type="acte" n="1">Act I</head>
+        <div type="3">
+          <head type="scene" n="1">Scene 1</head>
+          <head type="nameS">Cupid’s Bower.</head>
+          <stage type="saut">Enter Cupid, meeting Venus.</stage>
+          <sp>
+            <speaker>Cupid</speaker>
+            <lg>
+              <l>Welcome, love’s goddess, and royal mother: </l>
+              <l>What brought bright Venus here to Cupid’s bower? </l>
+              <l>How came that lovely face with grief oppress[sed]? </l>
+              <l>Can Cupid give his beauteous mother rest?</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>Venus</speaker>
+            <lg>
+              <l>Cupid, my son, whose uncontr[ol]ling sway </l>
+              <l>Makes all c[e]lestial deities obey. </l>
+              <l>O force Adonis’ heart to yield to love, </l>
+              <l>Of all thy works, the master-piece ’twill prove. </l>
+              <l>O, kindle flames in him, like those in me, </l>
+              <l>And grant, that I his beauty soon may see. <pb n="18"
+                  facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_18.JPG"/>
+              </l>
+              <l>Let me then view those eyes, whose shining light, </l>
+              <l>Alone can pleasure give to Venus’ sight. </l>
+              <l>Just like a ship, whilst every mountain-wave </l>
+              <l>Threatens the ma[r]iners with a gaping grave; </l>
+              <l>Such is my case, and so my state appears, </l>
+              <l>Alike distracted, between hopes and fears. </l>
+              <l>Into the woods I’ll go, and there complain, </l>
+              <l>Nor think of pleasure, till you come again.</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>Cupid</speaker>
+            <lg>
+              <l>Despair not, mother, Adonis shall be thine, </l>
+              <l>Or never let Cupid in your favour shine. </l>
+              <l>From yonder mount, that overlooks. My bower, </l>
+              <l>Adonis now descends; ‘tis Venus happy hour. </l>
+              <l>With my keen dart, I will so pierce his breast, </l>
+              <l>That none but your soft arms, shall give him rest.</l>
+            </lg>
+          </sp>
+          <stage type="saut">Exeunt</stage>
+        </div>
+        <div type="3">
+          <head type="scene" n="2">Scene 2</head>
+          <head type="nameS">A forest</head>
+          <stage type="saut">Enter Punch in a shepherd’s habit.</stage>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Was ever mortal so affronted? To be scorned by all the nymphs, and denied to hunt
+              with the swains? God Pan too, with his cloven-footed gang of satyrs to mock me.
+              [G]ad’s bobs, now I’m in the humour to abuse [th]em all. Jupiter is a juggler, Mars is
+              a bully, Apollo a poor paultry poet, Bacchus a drunken drawer, Mercury a
+              morris-dancing pimp, Venus a town-jilt, Cupid a blind archer, and Pan a savage
+              cuckold.</p>
+            <lg>
+              <l>And I’m resolved, if I meet [th]em in the chase,</l>
+              <l>I’ll throw my doubled fist in their face.</l>
+            </lg>
+          </sp>
+          <stage type="saut">Exit</stage>
+          <pb n="19" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_19.JPG"/>
+          <stage type="saut">Enter Cupid</stage>
+          <sp>
+            <speaker>Cupid</speaker>
+            <lg>
+              <l>And scorns the power, </l>
+              <l>That all the gods adore? </l>
+              <l>He that dare slight the beloved muses’ sound, </l>
+              <l>With my keen arrow, shall receive his wound. </l>
+              <l>I’ll curse thee with loving Proserpine.</l>
+              <stage type="saut">Throws an arrow.</stage>
+              <l>With my swift wings I’ll take my speedy flight, </l>
+              <l> Lest young Adonis should escape my sight.</l>
+            </lg>
+          </sp>
+          <stage type="saut">Ascends</stage>
+        </div>
+      </div>
+      <pb n="20" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_20.JPG"/>
+      <div type="1">
+        <head type="acte" n="2">Act II</head>
+        <div type="3">
+          <head type="scene" n="1">Scene I</head>
+          <stage type="saut">First stage a village</stage>
+          <stage type="saut">Enter Punch</stage>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>I will justify, that a man had better have the Devil ride through his guts with a
+              bundle of thorns at his bre[e]ch, than to be in love; and as the Devil would have it,
+              with Proserpine. Sure I was in a woundy heat when I went to hell to choose a mistress:
+              it was the other day that I was railing against love and poetry; and now I think of
+              nothing else, and eat nothing but poetry, and now it wombles to come forth. See, she
+              comes.</p>
+            <stage type="saut">Proserpine rises in a cave</stage>
+            <lg>
+              <l>Proserpine, thou whose beauty doth enrich us, </l>
+              <l>Tell me the cause, why thou dost so bewitch us: </l>
+              <l>This day my love was born, though not begotten, </l>
+              <l>This day I’ll think on, when I’m dead and rotten. </l>
+              <l>And though thy coyness, and thy pretty scorn, </l>
+              <l>Makes many wish, that thou ha[d] never been born; </l>
+              <l>Yet for my part, this I will swear and say, </l>
+              <l>I wish thy time of birth were every day. </l>
+              <l>So Venus looked, when the Idalian boy </l>
+              <l>Confirmed her beauty, with the curse of Troy; </l>
+              <l>Just so she looked, with such an air she smiled, </l>
+              <l>When she two rival goddesses beguiled. </l>
+              <l>Thy double tire of teeth do show, forsooth, </l>
+              <l>Whiter than ivory, or a bitch’s tooth, <pb n="21"
+                  facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_21.JPG"/>
+              </l>
+              <l>Thy voice like bird in hedge, in time of Spring, </l>
+              <l>Do[e]s bewitch me confoundedly to sing.</l>
+            </lg>
+            <stage type="saut">The song</stage>
+            <lg>
+              <l>Proserpine, ’tis to thee I sing, </l>
+              <l>I love thee more than anything. </l>
+              <l>Love and fire’s got in my head, </l>
+              <l>Then take me quickly to thy bed, </l>
+              <l>But what to do need not be said. </l>
+              <l>With a ho, with a ha, </l>
+              <l>With a ho, ho, ho, etc. </l>
+              <l>Love and fire’s got, etc.</l>
+            </lg>
+            <stage type="saut">Proserpine sinks</stage>
+            <lg>
+              <l>She’s gone! She’s sunk! She’s dead! She’s buried! </l>
+              <l>I shall go mad, I’ll roar, and rant, and swear; </l>
+              <l>And all this I will do, because I dare. </l>
+              <l>Since she’s dead, what method shall I take </l>
+              <l>To raise some monument that’s wondrous great? </l>
+              <l>To enrich her tomb, nor shrines, mor altars spare, </l>
+              <l>But strip the shining gods to make it rare.</l>
+            </lg>
+            <pb n="22" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_22.JPG"/>
+          </sp>
+        </div>
+      </div>
+      <div type="1">
+        <head type="acte" n="3">Act III</head>
+        <div type="3">
+          <head type="scene" n="1">Scene 1</head>
+          <stage type="saut">The palace of Venus, adorned with proper ornaments, and the statues of
+            the Pantheon heightened with gold.</stage>
+          <stage type="saut">Enter Venus and Adonis.</stage>
+          <sp>
+            <speaker>Venus</speaker>
+            <lg>
+              <l>Let music sound from the c[e]lestial sphere, </l>
+              <l>Whilst satyrs, swains, and nymphs, divert us here. </l>
+              <l>Let mortal join the deities above, </l>
+              <l>To crown the triumphs of my glorious love.</l>
+            </lg>
+          </sp>
+          <stage type="saut">Shepherds, shepherdesses and satyrs, dance. </stage>
+          <stage type="saut">The horn sounds.</stage>
+          <sp>
+            <speaker>Adonis</speaker>
+            <lg>
+              <l>Hark! Diana’s horn invites me to the chase: </l>
+              <l>The gods in full divan have all decreed, </l>
+              <l>That a most monstrous boar this day shall bleed.</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>Venus</speaker>
+            <lg>
+              <l>Adonis, wil[l] thou then from me be gone, </l>
+              <l>And leave me he[re] to mourn and sigh alone? </l>
+              <l>Regar[d] thou not the flower of my youth, </l>
+              <l>When of my love, thou ha[s] so large a proof? </l>
+              <l>Thou captivated ha[s] long since my hear, </l>
+              <l>And wil[l] thou now unkindly from me part? </l>
+              <l>O, do not go, the danger’s very great; </l>
+              <l>Thy death, I much do fear, it will create.</l>
+            </lg>
+          </sp>
+          <pb n="23" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_23.JPG"/>
+          <sp>
+            <speaker>Adonis</speaker>
+            <lg>
+              <l>Let my fair goddess, from sad grief forbear, </l>
+              <l>For no danger in these huntings are; </l>
+              <l>Let Venus then, banish al thoughts of fear. </l>
+              <l>He that from beauty’s charms too long doth rove, </l>
+              <l>Never yet knew the sweets of youthful love.</l>
+            </lg>
+          </sp>
+          <stage type="saut">Exeunt</stage>
+        </div>
+        <div type="3">
+          <head type="scene" n="2">Scene 2</head>
+          <stage type="saut">A forest</stage>
+          <stage type="saut">The Horn sounds, the wild boar crosses the stage; and after him God
+            Pan, Adonis, Swains, and Satyrs in chase. Re-enter Adonis, wounded. </stage>
+          <sp>
+            <speaker>Adonis</speaker>
+            <lg>
+              <l>Ah, what a sad unfortunate Man was I, </l>
+              <l>Not to observe the tears of her fair eye: </l>
+              <l>Her sweet persuasions were, I should not go; </l>
+              <l>Still to her suit I ever answered, no. </l>
+              <l>And yet grim Death, it is not thee I fear, </l>
+              <l>For her alone is all my grief and care. </l>
+              <l>Adieu, fair Venus, adieu to thee a while, </l>
+              <l>Our future joys will make us both to smile.</l>
+            </lg>
+          </sp>
+          <stage type="saut">Dies.</stage>
+          <stage type="saut">Enter Venus, and kneels</stage>
+          <sp>
+            <speaker>Venus</speaker>
+            <lg>
+              <l>What cruel fate brought this sight hither? </l>
+              <l>Why did we not die both together? </l>
+              <l>How sad and unhappy is Venus’ fate, </l>
+              <l>Thus to be made at once unfortunate? </l>
+              <l>He’s gone! He’s gone! The glorious youth is fled: </l>
+              <l>Then why do I in vain bewail the dead? <pb n="24"
+                  facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_24.JPG"/>
+              </l>
+              <l>My doves and chariot, now with speed prepare, </l>
+              <l>His Soul I’ll overtake, though flying through the air; </l>
+              <l>The deities above, I then will move, </l>
+              <l>For life eternal to my god-like love.</l>
+            </lg>
+          </sp>
+          <stage type="saut">Exit</stage>
+          <stage type="saut">Curtain drops</stage>
+        </div>
+      </div>
+      <pb n="25" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_25.JPG"/>
+      <div type="1">
+        <head type="acte" n="4">Act IV</head>
+        <stage type="saut">Soft musi[c] as the machines descend. After the first machine, Venus and
+          Pallas descend in two several machines; at the feet of Venus two dogs, and at Pallas’ an
+          owl and a cock. The two lesser machines break through the larger, and move to the front of
+          the stage. </stage>
+        <sp>
+          <speaker>Venus</speaker>
+          <lg>
+            <l>Let great Apollo now the muses join, </l>
+            <l>Whi[le] I, in tears, do mourn the youth divine: </l>
+            <l>For all my earthly joys at once are fled, </l>
+            <l>My beloved Adonis being dead.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Pallas</speaker>
+          <stage type="saut"> sings</stage>
+          <lg>
+            <l>If now the smiles of Pallas ought you prize, </l>
+            <l>My dearest Venus, dry up thy watery eyes: </l>
+            <l>The gods all mourn throughout their spheres </l>
+            <l>To see love’s Goddess drowned in tears. <pb n="26"
+                facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_26.JPG"/>
+            </l>
+            <l>Drowned in tears, </l>
+            <l>Drowned in tears, </l>
+            <l>To see love’s Goddess drowned in tears.</l>
+          </lg>
+          <stage type="saut">They ascend.</stage>
+        </sp>
+        <stage type="saut">Jupiter and Proserpine descend in the front of the stage, and sing;
+          whilst Mars descends in his palace, and moves towards them.</stage>
+        <sp>
+          <speaker>Jupiter</speaker>
+          <stage type="saut">sings</stage>
+          <lg>
+            <l>O Proserpine, look up and see </l>
+            <l>Great Jove descend to visit thee; </l>
+            <l>Likewise Punch, by thee so hated, </l>
+            <l>To great Mars is now translated: </l>
+            <l>Then take the God into thy arms, </l>
+            <l>Lest thundering Jove, should crush thy charms, </l>
+            <l>Crush thy charms, </l>
+            <l>Crush thy charms, </l>
+            <l>Lest thundering Jove, should crush thy charms, </l>
+            <l>Crush thy charms, </l>
+            <l>Crush thy charms, </l>
+            <l>Lest thundering Jove, should crush thy charms.</l>
+          </lg>
+        </sp>
+        <pb n="27" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_27.JPG"/>
+        <sp>
+          <speaker>Proserpine</speaker>
+          <stage type="saut">sings</stage>
+          <lg>
+            <l>The commands of love I’ll obey, </l>
+            <l>Love is dangerous to delay, </l>
+            <l>Since Punch has stolen my heart away. </l>
+            <l>Let Pluto rave, and tear his brain, </l>
+            <l>’Tis Mars, or Punch, must quench my flame, </l>
+            <l>Quench my flame, </l>
+            <l>Quench my flame, </l>
+            <l>’Tis Mars, or Punch, must quench my flame.</l>
+          </lg>
+        </sp>
+        <pb n="28" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_28.JPG"/>
+        <sp>
+          <speaker>Mars</speaker>
+          <stage type="saut">sings</stage>
+          <lg>
+            <l>Then take great Mars into thy arms </l>
+            <l>And thou shalt rifle all my charms: </l>
+            <l>In wanton love whole nights we’ll range, </l>
+            <l>And now and then a haugh we’ll change. </l>
+            <l>Let’s now ascend with Jove above, </l>
+            <l>And with our haugh proclaim our love, </l>
+            <l>With a ha, ha, ha, ha, proclaim our love.</l>
+          </lg>
+        </sp>
+        <stage type="saut">They all ascend.</stage>
+      </div>
+      <pb n="29" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_29.JPG"/>
+      <div type="5">
+        <head type="div5">Iris descends on a rainbow, and speaks the epilogue</head>
+        <lg>
+          <l>Swift! Swifter still! For methinks I move to[o] slow. </l>
+          <l>What holds my silver wings from making haste, </l>
+          <l>When every cloud I see sails by so fast? </l>
+          <l>Luna flies wrapped in foggy clouds of night, </l>
+          <l>To shun the rays of bright Apollo’s light. </l>
+          <l>See with what haste the feathered hours run, </l>
+          <l>To dress the gaudy chariot of the sun: <pb n="30"
+              facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_30.JPG"/>
+          </l>
+          <l>Whilst nymphs and swains, at love’s bright alter meet, </l>
+          <l>Their sacred vows to pay at Venus’ feet. </l>
+          <l>For till old time his c[ry]st[a]l glass hath hurled, </l>
+          <l>And from it lost the ashes of the world, </l>
+          <l>No mortal shall be free from Cupid’s dart, </l>
+          <l>But love shall triumph over every heart.</l>
+        </lg>
+        <pb n="31" facs="18_GB_POWELL_VenusAndAdonis_ENG_SOLO_31.JPG"/>
+        <stage type="saut">As Iris ascends, the clouds break, and discover the British machin[e]ry,
+          beautified with the figure of her Britanni[c] majesty, seated on her throne, attended by
+          the honourable House of Peers, and Chief Ministers of State. </stage>
+        <stage type="saut">The Machines break into several triumphant arches, and form themselves
+          into double and treble prospects, with all the trophies taken from the enemy under their
+          feet. </stage>
+      </div>
+      <div type="5">
+        <head type="div5">Finis</head>
+      </div>
+    </body>
+  </text>
+</TEI>

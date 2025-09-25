@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="http://www.tei-c.org/ns/1.0" xmlns="http://relaxng.org/ns/structure/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="TEI">
+
+            <!-- EN-TÊTE TEI -->
+            <element name="teiHeader">
+                <ref name="fileDesc"/>
+                <ref name="profileDesc"/>
+                <ref name="encodingDesc"/>
+                <ref name="revisionDesc"/>
+            </element>
+
+            <!-- CONTENU TEXTUEL -->
+            <element name="text">
+                <interleave>
+                    <element name="front">
+                        <oneOrMore>
+                            <choice>
+                                <ref name="pb"/>
+                                <element name="docAuthor">
+                                    <element name="persName">
+                                        <text/>
+                                    </element>
+                                </element>
+                                <element name="docDate">
+                                    <text/>
+                                </element>
+                                <element name="docTitle">
+                                    <oneOrMore>
+                                        <element name="titlePart">
+                                            <attribute name="type">
+                                                <data type="NCName"/>
+                                            </attribute>
+                                            <text/>
+                                        </element>
+                                        <optional>
+                                            <ref name="pb"/>
+                                            <text/>
+                                        </optional>
+                                    </oneOrMore>
+                                </element>
+                                <element name="docEdition">
+                                    <text/>
+                                    <optional>
+                                        <element name="list">
+                                            <oneOrMore>
+                                                <element name="item">
+                                                  <text/>
+                                                </element>
+                                            </oneOrMore>
+                                        </element>
+                                    </optional>
+                                </element>
+                            </choice>
+                        </oneOrMore>
+                        
+                        <zeroOrMore>
+                        <element name="castList">
+                         <zeroOrMore>
+                             <ref name="head"/>
+                         </zeroOrMore>
+                          
+                            <oneOrMore>
+                                <element name="castItem">
+                                   
+                                    <element name="role">
+                                        <text/>
+                                    </element>
+                                    <optional>
+                                        <element name="roleDesc">
+                                            <text/>
+                                        </element>
+                                    </optional>
+                                </element>
+                            </oneOrMore>
+                        </element>
+                        
+                        <zeroOrMore>
+                            <ref name="pb"/>
+                        </zeroOrMore>
+                        <optional>
+                            <element name="set">
+                                <zeroOrMore>
+                                    <ref name="p"/>
+                                </zeroOrMore>
+                                <zeroOrMore>
+                                    <ref name="lg"/>
+                                </zeroOrMore>
+                            </element>
+                        </optional>
+                        </zeroOrMore>
+                    </element>
+                 
+                </interleave>
+
+                <optional>
+                    <element name="set">
+                        <zeroOrMore>
+                            <choice>
+                                <ref name="p"/>
+                                <ref name="lg"/>
+                                <ref name="p"/>
+                            </choice>
+                        </zeroOrMore>
+
+                    </element>
+                </optional>
+
+
+                <element name="body">
+                    <oneOrMore>
+                        <choice>
+                            <ref name="div"/>
+                            <ref name="head"/>
+                            <ref name="castList"/>
+                            <ref name="pb"/>
+
+                        </choice>
+                    </oneOrMore>
+                </element>
+                <optional>
+                    <element name="back">
+                        <oneOrMore>
+                            <choice>
+                                <ref name="div"/>
+                                <ref name="head"/>
+                                <ref name="pb"/>
+                            </choice>
+                        </oneOrMore>
+                    </element>
+                </optional>
+            </element>
+        </element>
+    </start>
+
+    <!-- DÉFINITIONS DU TEIHEADER -->
+    <!-- _________________________________________________________________________________ -->
+    <define name="fileDesc">
+        <element name="fileDesc">
+            <element name="titleStmt">
+                <element name="title">
+                    <attribute name="ref"/>
+                    <text/>
+                </element>
+                <oneOrMore>
+                    <element name="respStmt">
+                        <oneOrMore>
+                        <element name="name">
+                            <attribute name="xml:id"/>
+                            <text/>
+                        </element>
+                        </oneOrMore>
+                        
+                        <element name="resp">
+                            <interleave>
+                                <optional>
+                                    <attribute name="ref"/>
+                                </optional>
+                                <text/>
+                            </interleave>
+                        </element>
+                        
+                        
+                    </element>
+                </oneOrMore>
+                <element name="principal">
+                    <attribute name="ref"/>
+                    <attribute name="xml:id"/>
+                    <text/>
+                </element>
+                <element name="sponsor">
+                    <text/>
+                </element>
+                <element name="funder">
+                    <text/>
+                </element>
+            </element>
+            <element name="publicationStmt">
+                <element name="distributor">
+                    <text/>
+                    <optional>
+                        <attribute name="ref"/>
+                        <text/>
+                    </optional>
+                </element>
+                <element name="availability">
+                    <attribute name="status">
+                        <choice>
+                            <value>free</value>
+                            <value>restricted</value>
+                            <value>unknown</value>
+                        </choice>
+                    </attribute>
+                    <optional>
+                        <element name="p">
+                            <text/>
+                        </element>
+                    </optional>
+                    <zeroOrMore>
+                        <element name="licence">
+                            <optional>
+                                <attribute name="target"/>
+                            </optional>
+                            <text/>
+                        </element>
+                    </zeroOrMore>
+                </element>
+                <optional>
+                    <element name="idno">
+                        <attribute name="type"/>
+                        <text/>
+                    </element>
+                </optional>
+            </element>
+            <element name="notesStmt">
+                <oneOrMore>
+                    <element name="note">
+                        <text/>
+                    </element>
+                </oneOrMore>
+            </element>
+            <element name="sourceDesc">
+                <element name="listPerson">
+                    <element name="personGrp">
+                        <attribute name="role">
+                            <value>audience</value>
+                        </attribute>
+                        <element name="p">
+                            <text/>
+                        </element>
+                    </element>
+                </element>
+                <element name="listBibl">
+                    <element name="msDesc">
+                        <element name="msIdentifier">
+                            <element name="repository">
+                                <optional>
+                                    <attribute name="ref"/>
+                                </optional>
+                                <text/>
+                            </element>
+
+                            <optional>
+                                <element name="idno">
+                                    <attribute name="type">
+                                        <value>DOI</value>
+                                    </attribute>
+                                    <text/>
+                                </element>
+
+                            </optional>
+
+
+                        </element>
+                        <element name="physDesc">
+                            <element name="objectDesc">
+                                <element name="p">
+                                    <text/>
+                                </element>
+                                <zeroOrMore>
+                                    <element name="p">
+                                        <text/>
+                                    </element>
+                                </zeroOrMore>
+                            </element>
+                        </element>
+                    </element>
+                </element>
+
+                <element name="bibl">
+                    <zeroOrMore>
+                        <element name="title">
+                            <attribute name="type">
+                                <choice>
+                                    <value>main</value>
+                                    <value>sub</value>
+                                    <value>alt</value>
+                                </choice>
+                            </attribute>
+                            <text/>
+                            <optional>
+                                <attribute name="ref">
+                                    <text/>
+                                </attribute>
+                            </optional>
+
+                        </element>
+                    </zeroOrMore>
+
+
+
+                    <optional>
+                        <element name="date">
+                            <text/>
+                        </element>
+                    </optional>
+                    <optional>
+                        <element name="author">
+                            <element name="persName">
+                                <text/>
+                            </element>
+                            <element name="idno">
+                                <attribute name="type">
+                                    <value>IDREF</value>
+                                </attribute>
+                                <data type="integer"/>
+                            </element>
+
+                        </element>
+                    </optional>
+                    <optional>
+                        <element name="edition">
+                            <text/>
+                        </element>
+                    </optional>
+                </element>
+            </element>
+        </element>
+    </define>
+
+    <!-- ____________________________________________________________________________________ -->
+    <define name="profileDesc">
+        <element name="profileDesc">
+            <element name="langUsage">
+                <element name="language">
+                    <attribute name="ident"/>
+                    <text/>
+                </element>
+            </element>
+            <element name="textClass">
+                <oneOrMore>
+                    <element name="keywords">
+                        <attribute name="source"/>
+                        <zeroOrMore>
+                            <element name="term">
+                                <optional>
+                                    <attribute name="source"/>
+                                </optional>
+                                <text/>
+                            </element>
+                        </zeroOrMore>
+                    </element>
+                </oneOrMore>
+            </element>
+        </element>
+    </define>
+    <!-- ____________________________________________________________________________________ -->
+    <define name="encodingDesc">
+        <element name="encodingDesc">
+            <element name="editorialDecl">
+                <element name="normalization">
+                    <attribute name="method"/>
+                    <oneOrMore>
+                        <element name="p">
+                            <text/>
+                        </element>
+                    </oneOrMore>
+                </element>
+                <element name="punctuation">
+                    <attribute name="marks"/>
+                    <element name="p">
+                        <text/>
+                    </element>
+                </element>
+            </element>
+
+            <element name="projectDesc">
+                <oneOrMore>
+                    <element name="p">
+                        <mixed>
+                            <zeroOrMore>
+                                <element name="ref">
+                                    <attribute name="target">
+                                        <text/>
+                                    </attribute>
+                                    <text/>
+                                </element>
+                            </zeroOrMore>
+                        </mixed>
+                    </element>
+                </oneOrMore>
+            </element>
+
+        </element>
+    </define>
+    <!-- ____________________________________________________________________________________ -->
+    <define name="revisionDesc">
+        <element name="revisionDesc">
+            <oneOrMore>
+                <element name="change">
+                    <attribute name="when-iso"/>
+                    <attribute name="who"/>
+                    <text/>
+                </element>
+            </oneOrMore>
+        </element>
+    </define>
+
+
+    <!-- DÉFINITIONS DU CONTENU TEXTUEL -->
+    <!--<=============================================================================================================================> -->
+    <define name="pb">
+        <element name="pb">
+            <attribute name="n">
+                <data type="integer"/>
+            </attribute>
+            <attribute name="facs">
+                <data type="string"/>
+            </attribute>
+        </element>
+    </define>
+    <!--<=============================================================================================================================> -->
+    <define name="head">
+        <element name="head">
+            <optional>
+                <attribute name="n">
+                    <data type="integer"/>
+                </attribute>
+            </optional>
+            <attribute name="type">
+                <data type="NCName"/>
+            </attribute>
+            <text/>
+          
+
+        </element>
+    </define>
+    <!--<=============================================================================================================================> -->
+    <define name="p">
+        <element name="p">
+
+            <optional>
+                <attribute name="ana">
+                    <data type="NCName"/>
+                </attribute>
+            </optional>
+            <oneOrMore>
+                <choice>
+                    <text/>
+                   
+                    <ref name="pb"/>
+                    <ref name="stage"/>
+                    <ref name="lg"/>
+                    <optional>
+                        <ref name="foreign"/>
+                    </optional>
+                    <optional>
+                        <ref name="unclear"/>
+                    </optional>
+                </choice>
+            </oneOrMore>
+
+        </element>
+    </define>
+
+    <!-- ================================================================================================== -->
+
+    <define name="castList">
+        <element name="castList">
+            <zeroOrMore>
+                <ref name="head"/>               
+            </zeroOrMore>
+            <oneOrMore>
+                <element name="castItem">
+                    <element name="role">
+                        <text/>
+                    </element>
+                    <optional>
+                        <element name="roleDesc">
+                            <text/>
+                        </element>
+                    </optional>
+                </element>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <!-- ============================================================================================================================= -->
+
+    <define name="div">
+        <element name="div">
+            <attribute name="type">
+                <choice>
+                    <value>1</value>
+                    <value>2</value>
+                    <value>3</value>
+                    <value>5</value>
+                </choice>
+            </attribute>
+
+            <optional>
+                <attribute name="n">
+                    <data type="integer"/>
+                </attribute>
+            </optional>
+
+            <zeroOrMore>
+                <choice>
+                    <ref name="div"/>
+                    <ref name="head"/>
+                    <ref name="castList"/>
+                    <ref name="lg"/>
+                    <ref name="pb"/>
+                    <ref name="stage"/>
+                    <element name="listPerson">
+
+                        <element name="personGrp">
+
+                            <oneOrMore>
+                                <element name="name">
+                                    <oneOrMore>
+                                        <choice>
+                                            <text/>
+                                            <ref name="note"/>
+                                        </choice>
+                                    </oneOrMore>
+                                </element>
+                                <optional>
+                                    <element name="stage">
+                                        <attribute name="type">
+                                            <data type="NCName"/>
+                                        </attribute>
+                                        <oneOrMore>
+                                            <choice>
+                                                <text/>
+                                                <ref name="note"/>
+                                            </choice>
+                                        </oneOrMore>
+                                    </element>
+                                </optional>
+                            </oneOrMore>
+                        </element>
+                    </element>
+
+                    <element name="sp">
+                        <zeroOrMore>
+                            <ref name="stage"/>
+                            <ref name="p"/>
+                        </zeroOrMore>
+                        <zeroOrMore>
+                            <element name="speaker">
+                                <text/>
+                            </element>
+                        </zeroOrMore>
+                        <oneOrMore>
+                            <choice>
+                                <ref name="l"/>
+                                <ref name="lg"/>
+                                <ref name="p"/>
+                                <ref name="pb"/>
+                                <ref name="stage"/>
+                            </choice>
+                        </oneOrMore>
+                    </element>
+                    <element name="p">
+                        <text/>
+                    </element>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <!--<=============================================================================================================================> -->
+    <define name="note">
+        <element name="note">
+            <zeroOrMore>
+                <choice>
+                    <text/>
+                    <ref name="stage"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <!--<=============================================================================================================================> -->
+    <define name="stage">
+        <element name="stage">
+            <optional>
+                <attribute name="type">
+                    <data type="NCName"/>
+                </attribute>
+            </optional>
+            <oneOrMore>
+                <choice>
+                    <text/>
+                    <optional>
+                        <ref name="foreign"/>
+                    </optional>
+                    <optional>
+                        <ref name="pb"/>
+                    </optional>
+                    <element name="label">
+                        <optional>
+                            <attribute name="type">
+                                <data type="NCName"/>
+                            </attribute>
+                        </optional>
+                        <text/>
+                    </element>
+                </choice>
+            </oneOrMore>
+        </element>
+    </define>
+    <!--<=============================================================================================================================> -->
+    <define name="lg">
+        <element name="lg">
+            <zeroOrMore>
+                <attribute name="type"/>
+            </zeroOrMore>
+            <oneOrMore>
+                <choice>
+                    <ref name="l"/>
+
+                    <ref name="pb"/>
+                    <ref name="stage"/>
+                </choice>
+            </oneOrMore>
+
+        </element>
+    </define>
+
+
+    <!--<=============================================================================================================================> -->
+    <define name="l">
+        <element name="l">
+          
+            <oneOrMore>
+                <choice>
+                    <text/>
+                    <ref name="stage"/>
+                    <ref name="pb"/>
+                    <optional>
+                        <ref name="foreign"/>
+                    </optional>
+                    <optional>
+                        <attribute name="part">
+                            <data type="NCName"/>
+                        </attribute>
+                    </optional>
+                </choice>
+            </oneOrMore>
+            <optional>
+                <attribute name="M"/>
+            </optional>
+        </element>
+    </define>
+
+    <!--<=============================================================================================================================> -->
+    <define name="foreign">
+        <element name="foreign">
+            <attribute name="xml:lang">
+                <data type="language"/>
+            </attribute>
+            <text/>
+            <optional>
+                <ref name="pb"/>
+                <text/>
+            </optional>
+        </element>
+    </define>
+
+    <!--<=============================================================================================================================> -->
+    <define name="unclear">
+        <element name="unclear">
+            <text/>
+        </element>
+    </define>
+</grammar>

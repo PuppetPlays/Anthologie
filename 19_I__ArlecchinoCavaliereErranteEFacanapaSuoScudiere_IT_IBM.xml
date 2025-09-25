@@ -1,0 +1,1347 @@
+<?xml version='1.0' encoding='utf-8'?><?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="https://puppetplays.eu/en/oeuvres/358694/arlecchino-cavaliere-errante-e-facanapa-suo-scudiere">Arlecchino cavaliere errante e Facanapa suo scudiere</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="FG">Fiona Gazzaniga</name>
+          <resp>Transcription and edition</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor/>
+        <availability status="free">
+          <licence>Public domain</licence>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>A servant believes himself to be a knight</note>
+        <note>Arlecchino cavaliere errante e Facanapa suo scudiere
+          (Harlequin the wandering knight and Facanapa his horseman) is part of a series of
+          texts written for puppets, Raccolta di commediole, and released by G.
+          Chiopris, a publishing house from Trieste, in around 1900; these texts were intended
+          for a family audience. The theme of this play echoes the story of Miguel de
+          Cervantes’ Don Quixote and Sancho Panza. Indeed, they share many similarities: the
+          peasant becomes horseman, the lover goes from a maid to a lady, the knight fights
+          imaginary enemies, and the horseman, who has a more rational role, gets caught up in
+          his master’s frenzy. In this play, Arlecchino portrays the wandering knight whilst
+          retaining his role as Arlecchino Battocchio, his traditional role from the
+          Commedia dell’arte</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>All audiences</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>Instituto Per I Beni Marionettistici e la cultura Popolare, Grugliasco, Italy</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 39</p>
+                <p>Number of acts in the original document: 3</p>
+                <p>Format of the original document: Printed</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main">Arlecchino cavaliere errante e Facanapa suo scudiere</title>
+          <date/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italian</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques">
+          <term source="https://puppetplays.eu/en/techniques-d-animation/2352/marionnettes-à-fils">String marionette</term>
+        </keywords>
+        <keywords source="literaryTones">
+          <term/>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Duel scene</term>
+          <term>Misunderstanding</term>
+          <term>Hallucination</term>
+          <term>Confinement</term>
+          <term>Scene of recognition</term>
+          <term>Blow-with-a-stick</term>
+          <term>Fight with an animal</term>
+          <term>Scene of madness</term>
+        </keywords>
+        <keywords source="genre">
+          <term>Commedia in tre atti</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Wandering</term>
+          <term>Knight</term>
+          <term>Madness</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+          Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+          re-evaluate the contribution of the puppets repertoire to the construction of
+          European cultural identity. Its main goals is to collect a corpus of
+          representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+          France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+          17th and the 21th century. It also tries to identify the characteristics of
+          puppet dramaturgy and their variations depending on eras, cultural spheres,
+          producing conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+          Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+          build upon the material in any medium or format for non-commercial purposes
+          only, and only so long as attribution is given to the creator. If you remix,
+          adapt, or build upon the material, you must license the modified material under
+          identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2025-07-18" who="#FG">Text transcription and encoding</change>
+      <change when-iso="2025-08-25" who="#MSK">Encoding validation against schema.rng</change>
+      <change when-iso="2025-08-26" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+    </revisionDesc>
+  </teiHeader>
+    
+  <text>
+    <front>
+      <pb n="1" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_001.jpg"/>
+      <pb n="2" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_002.jpg"/>
+      <docTitle>
+        <titlePart type="main">Arlecchino Cavaliere errante e Facanapa Suo scudiere</titlePart>
+        <titlePart type="sub">Commedia in tre atti</titlePart>
+      </docTitle>
+      <docEdition>G. Chiopris editore Trieste e Fiume</docEdition>
+      <docDate/>
+      <pb n="3" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_003.jpg"/>
+      <castList>
+        <head type="personnage">Personaggi</head>
+        <castItem>
+          <role>Arlecchino, cavaliere errante,</role>
+        </castItem>
+        <castItem>
+          <role>Facanapa, suo scudiero,</role>
+        </castItem>
+        <castItem>
+          <role>Francesco Del Ponte,</role>
+        </castItem>
+        <castItem>
+          <role>Caterina, domestica,</role>
+        </castItem>
+        <castItem>
+          <role>Guardiani di maiali.</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <pb n="4" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_004.jpg"/>
+      <div type="1"><head type="acte" n="1">Atto I</head>
+      <stage type="saut">Un pratello in mezzo a un bosco.</stage>
+        <div type="3"><head type="scene" n="1">Scena 1</head>
+      <listPerson><personGrp>
+        <name>Arlecchino</name>
+        <stage type="listPerson"> e </stage>
+        <name>Facanapa</name></personGrp></listPerson>
+          
+      <stage type="saut">Entrano montati, il primo su di un magro ronzino, il secondo su di un non meno magro asino.</stage>
+          
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(Fermandosi in mezzo del prato.)</stage><p>Scudiero mio, me par che questo sia proprio el logo
+          indicà per butarse zo da caval e far una picola fermativa.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Si ben, don Arlecchin, brodo de cavalier; giusto che dal star tanto tempo sul musso no
+          sento gnanca più zerte parte che no nomino. Qua l’erba xe alta e folta e le nostre bestie
+          le podarà saziarse.</p>
+      </sp>
+      <pb n="5" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_005.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(Scendendo da cavallo con grande fatica.)</stage><p>Auf ! E anca noi due podaremo far un poco de
+          colazion.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Oh, non stemo parlar de ste porcarie; la zente come nu no se perde drio sti
+          stomighezzi.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Bravo ! Vustu che crepemo de fame ? Non go leto in nissun libro de cavalaria che i
+          cavalieri eranti, quando ghe capitava el destro, o, in genere, putacaso, i gaveva da
+          magnar, i ghe ne fazesse de meno.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Giustissimo ! Ma gnanca no'l gavarà lezudo che i magnasse quando che no i gaveva gnente
+          da magnar.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Cossa vol dir sto zogo de parole ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Vol dir che: se pol osser un re, co’ no ghe n’è no ghe n’è ! Quare conturbas me ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Digo, scudiero, te proibisso de tiorte tanta libertà con un cavalier par mio. Ricordite
+          la distanza che ne divide e... Tira zo el saco de le proviste. Sora tuto, lassa star i tui
+          maledeti proverbi.</p>
+      </sp>
+      <pb n="6" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_006.jpg"/>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Xe presto fato ! Mi lasso star el sacco e anca i proverbi.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Facanapa, no farme andar in bestia. Tira fora el saco !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Prima bisogna che dismonto. Lo prego el me daga una man !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Oh muso roto dei musi roti ! Ti ga coragio de dirghe una cossa simile al tuo cavalier !
+          Dismonta solo e rompite l’osso del colo.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>L’osso del colo me lo son za roto a vignir con elo, a sbandonar la mia casa, le mie
+          bestie e mia mugier, per meterme a far, drio de elo, el scudier erante. El me compatissa,
+          ma l’osso del colo non me lo posso romper più. <stage type="corps">(Scende dall'asino.)</stage> E con la fiacheta, el
+          vede, son vignù zo del mio leardo senza farme del mal.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Facanapa mio, mi te compatisso perché ti xe un omo ignorante, che ancora non ti ga
+          imparà come che se 
+          <pb n="7" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_007.jpg"/>
+          ga da comportar i scudieri dei cavalieri eranti. Ancora non ti sa
+          l’importanza dela erante cavalaria; non ti sa che sulle nostre spale xe puzada la
+          giustizia, che noi riparemo i torti, protegemo le vedove e i pupili, e semo sempre pronti
+          a darghe un mato paco de bote ai superbi, ai prepotenti e a la zente perversa.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Alora, sior paron benedeto, el me ripari sto torto qua, che, senza saver come, go trovado
+          el saco vodo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Vodo el saco !! Ah birbante de tre cote ! Ti ga papolado da solo tuta la provista che
+          doveva servir per una setimana, senza lassarme gnanca una crosta de pan. E co’ la fame che
+          go ! Ah ti meritaressi che te infilzasse come un becafigo. Sassin !</p> <stage type="saut">(Sguaina la spada e va
+          per ferire Facanapa.)</stage>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <stage type="pers">(Gittandosi in ginocchio.)</stage>
+        <p>Paron ! El se ferma ! Aiuto ! Per amor dela sua Colombina, la
+          dona del suo cuor, no el me tioga la vita. Ghe giuro che mi 
+          <pb n="8" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_008.jpg"/>non go messo denti in tel
+          saco. Qualche strigon, suo nemico, lo ga svodà, per farghe dispeto. El ghe pensa ben
+          su.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>In tempo ti me ga fato sta riflession, perché, altrimenti, a sta ora, el fio de to mare,
+          el gavaria le sbuele al sol.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>No’l staga gnanca dir ste cosse, che me fa vignir i sgrizzoli.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Forse no ti ga torto. Sento, da qualche tempo, che una potenza misteriosa me perseguita.
+          Ghe deve esser un fiol d’un can de mago, che me vol morto. Ma lo trovarò ben fora, se anca
+          el fusse in te le vissere de la tera, in fondo al mar o in mezo al fogo. Lo giuro su la
+          mia Colombina !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Bravo ! El ga rason ! Xe una porcaria che sti maghi i gabia de vignir a romper le
+          tavernele e intrigarse, po’, in te la bucolila, che xe la cossa più sacra a sto
+          mondo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Pazienza !</p>
+      </sp>
+      <pb n="9" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_009.jpg"/>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <stage type="pers">(piano)</stage><p>Mi paziento più fazilmente perché el saco lo go svodado mi.</p>
+      </sp></div>
+        
+          <div type="3">
+        <head type="scene" n="2">Scena 2</head>
+          <listPerson><personGrp>
+            <name>Don Francesco Del Ponte</name>
+            <stage type="listPerson"> e </stage>
+            <name>detti</name></personGrp></listPerson>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ciò, scudier ! Vara da quela parte ! Chi xe quel coso che vien verso de noi lungo lungo,
+          vestì in maniera ch’el par un frate.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Lo vedo ! Ma no xe un frate.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Alora cossa xelo ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Cossa vorlo ch' el sia ? Un omo che va per la sua strada.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Go trovà. El xe el mago che me perseguita. El vien a goderse del tiro ch'el me ga fato.
+          Ali, ma s’el vien per rider, l’andarà via pianzendo.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Sior paron, el varda ben ! Quelo no pol esser un mago. Per amor di Dio no ’I vada in
+          disgrazie.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>No te dar pensier de quel che fazzo mi. Me ne intendo de maghi e 
+          <pb n="10" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_010.jpg"/>no ghe xe pericolo che
+          sbalgio. Dame el mio scudo o fermime un poco megio sto elmo.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Sior paron ! Se no lo conosessi ghe diria ch'el xe mato.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>De ste parole ti me rispondarà più tardi. Adesso metite in disparte.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>E starò anca ben a la larga.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(A Del Ponte che entra.)</stage><p> Sior Mago ! Fermeve ! Ve go cognossuo. Mi go un ocio che non
+          sbalgia. Fermeve, ve digo e prepareve a scontar el fio dei vostri pecai.</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker><stage type="pers"> (Si ferma attonito.)</stage>
+        <p>Che volete da me ? Non vi conosco.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ah ! Fè l’indian, adesso. Ve conosso mi, so non me cognossè vu. Dovè esser el mago
+          Calunto, mio acerimo nemico. Fora la spada e in guardia. Mi son cavalier e non vogio
+          coparve senza che ve difendè.</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Io non sono mago e non ho ragione alcuna per essere vostro nemico; però, se desiderate
+          ricevere un buon
+          <pb n="11" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_011.jpg"/> 
+          colpo di spada, sono pronto a servirvi anche senza chiedervi il vostro
+          nome, che del resto, non m’ importa di conoscere.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Questa xe una de quele ofese che vol sangue e sangue. Facanapa, sii ti testimonio de le
+          prodezze del tuo signor, per poderghele contar a tuto el mondo. Ti podarà contarghe a
+          tutti che ti ga visto el famoso Arlechin de Bergamo, el fior de la cavalaria erante, a
+          darghe un paco de bote orbe al più teribile dei maghi, al superbo Calunto e condurselo
+          drio incadenà come un cagneto. Oh ! Facanapa, o omo fortunado, mi te invidio.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Paron, el varda che sto sior el ga più muso de darle che de ciaparle.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Tasi, sempio. <stage type="corps">(Sguainondo la spada.)</stage> Sior mago, la se difenda.</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Piano ! Adesso che so chi siete, da quel perfetto cavaliere ch'io sono, mi sento in
+          obbligo di dichiararvi che conosco le favolose vostre opere...</p>
+      </sp>
+      <pb n="12" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_012.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>El se cala...</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>E che sarò superbo di poter dire un giorno ho vinto il grande Arlecchino di Bergamo,
+          passandolo da parte a parte, in singolar tenzone.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Sgnesole ! Me ciolè per un becafigo ?</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Prima, però, di cimentarmi con voi, per rispetto agli usi della errante cavalleria, di
+          cui sono ammiratore...</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Sior mago, quasi ve torno la stima.</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Domando le vostre condizioni e propongo le mie. Voi, se rimanete vinto, to, dovrete
+          seguirmi in qualunque luogo io sia per condurvi.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>E vu, se ve vinzo, come che son zerto, andarè nel Padovan a zercar la divina Colombina
+          dela Brenta, a ofrirghe la vostra servitù, contandoghe le mie prodezze. Me par de esser
+          poco esigente. Ve obligarè inoltre, de no farghe mai più del mal a nissun con le vostre
+          magie. Seu contento ?</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Perfettamente d’accordo. Soltanto vi ripeto ch' io non sono un mago.</p>
+      </sp>
+      <pb n="13" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_013.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Va ben ! Metemo pur che no sè un mago. A mi, però non me se la dà da intender. Ma basta
+          le parole; ai fati !</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Ai fatti.</p> <stage type="saut">(Si mettono in guardia.)</stage>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <stage type="pers">(inginocchiandosi)</stage><p>Sior paron, mi ghe racomando l’anima.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(a Facanapa)</stage><p>Va in malora ! <stage type="corps">(A Del Ponte, tirando il primo colpo.)</stage> A vu !</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <stage type="pers">(incalzandolo)</stage> <p>Prendete questo !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Sior paron, el lo copa !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p><stage type="corps">(a Facanapa)</stage> Va in malora ! <stage type="corps">(a Del Ponte)</stage> E vu ciolè questo ! Adesso ve taio in do
+          tochi.</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p><stage type="corps">(Si getta con impeto su Arlecchino, lo colpisce alla testa e lo atterra; mettendogli la
+          punta della spada agli occhi.)</stage> Arrendetevi, o siete morto.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Povero paron ! El ga la fortuna de ciaparle sempre.</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Arrendetevi !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>No'l risponde ! El xe morto. O fior, o brodo, o sugo de la cavalaria erante ! Morto e
+          col stomigo vodo.</p>
+      </sp>
+      <pb n="14" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_014.jpg"/>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Arrendetevi !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Orpo ! No ghe gnanca lassè ciapar fià ala gente. Spetè che me disbalordisso e dopo ghe
+          pensarò !</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Non ho tempo da perdere. Vi pianto la spada nella gola. Sono nel mio diritto.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Cossa credè che mi no conosso le regole. Ve domando solo che spetè. Perchè me par che
+          no son conzà co tute le regole.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>No, sior paron ! El se meta el cor in pase. Questo ghe lo posso dir mi, ch' el xe conzado
+          co tute le regole... E co' pulito !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Tasi, asino più asino del tuo asino ! Ti xe ti che ti me porti la scalogna. Che ti possi
+          crepar.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Grazie ! Anca elo.</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Dunque volete morire !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Per sta volta, no ! Me arendo. Fe de mi quel che volè. Go imparà a mie spese che coi
+          maghi no bisogna scherzar. Alzeme su perché no posso 
+          <pb n="15" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_015.jpg"/>
+          moverme. <stage type="corps">(Eseguiscono.)</stage> Oh ! Adesso
+          andemo, magari fin a l’inferno. No sarà mai dito che qualchedun o qualcossa me abia fato
+          paura.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Del ponte</speaker>
+        <p>Ora voi siete mio schiavo. Seguitemi. Vi accompagno nel mio castello, dove aprenderete
+          quale sia il vostro destino.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Va benon andemo ! Scudier de la malora. Sta atento a tuto e tien de tuto memoria, perché,
+          se mi moro, ti xe ti, compagno de la mia vita, che ti dovarà darghe ai storici el material
+          per farme la biografia. Ti xe ti che ti podarà far de testimonio a la mia gloria. Nota !
+          Nota !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Noto. Ancuo, disisete de april, el mio paron, el famoso Don Arlechin de Bergamo, brodo de
+          la cavalaria erante, el ga ciapà, come el solito, bote da orbi. Ma onoratamente.</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Orsù ! In marcia. Voi due andate avanti ! Io vi seguo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(avviandosi)</stage><p>O mia dolce 
+          <pb n="16" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_016.jpg"/>Colombina, o signora del mio cor ! Te mando mile basi ! Salvime
+          ti in questa maghesca aventura. E se no ti me vedarà mai più, pensa che el tuo cavalier el
+          xe morto sospirando: Colombina !</p>
+      </sp>
+      
+      <sp>
+        <speaker>Facanapa</speaker>
+        <stage type="pers">(fra sé)</stage> <p>Povero paron ! La fame lo fa deventar sentimental.</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>In marcia.</p> <stage type="saut">(Partono.)</stage> 
+      </sp></div></div>
+      
+      <div type="5"><head type="div5">Fine del primo atto.</head></div>
+          
+          <div type="1"><head type="acte" n="2">Atto II</head>
+            <stage type="saut">Un cortile chiuso da alte mura
+          merlate, alle quali sovrasta, da un lato, una torricciuola.</stage> 
+            <div type="3"><head type="scene" n="1">Scena 1</head>
+              <listPerson><personGrp><name>Arlecchino</name> <stage type="listPerson"> e </stage>
+          <name>Facanapa</name></personGrp></listPerson>
+      <pb n="17" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_017.jpg"/>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Adesso semo bei ! Cossa ghe par sior paron, brodo de la cavalaria ? Ghe vegnirà ancora
+          voia de romperghe l'anima a la gente che l’incontra per la strada ? Cossa gavemo adesso ?
+          Quel sior, vestì da frate el ne ga fato entrar in sto castelo e tuto in t’un ne semo
+          trovadi in sto cortil. Qua no se vede porta, qua no se vede balcon. Da dove semo entrai ?
+          Da dove andaremo fora ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(con accento grave)</stage> <p>No dimandar nè da dove che semo vignudi, nè per dove che andaremo.
+          Ti sa pur che 
+          <pb n="18" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_018.jpg"/>
+          semo nel castelo de un mago. Mi son sta vinto e resto qua senza scomporme,
+          senza paura. La cavalaria prima de tuto.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Corpo de bin de bum ! Lu el xe sta vinto e’I ga ragion de far da cavalier; ma mi no son
+          cavalier, no me ne importa gnanca de esserlo, e no son sta vinto da nissun. Per baco santo
+          ! Go da morir de fame qua in sto pozzo senza aqua e morir de sede in sta malora che lo
+          mazzi a lei e anca el paron de sto castelo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Pazienza ! E po' ti devi saver, vilan rifato, che non ti xe altro; che tuti i scudieri
+          onorati, da quando esiste la cavalaria erante, i ga sempre diviso la sorte dei loro
+          paroni. E quei che ga fato altrimenti, i iera birbanti matricoladi, gente senza coscienza
+          e senza riputazion.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>E mi ghe digo che, per un piato de minestra, ghe dago tuta la mia
+          <pb n="19" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_019.jpg"/> scudierità, tuta la
+          mia onestà e tutta la mia riputazion. Go fame ! Lo sbuele me brontola e me cominzia girar
+          la ciribiricocola. Xe vintiquatro ore che semo qua drento e che no magnemo. Fortuna che no
+          xe inverno; se no saressimo za cadaveri spuzolenti, morti dal fredo.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Pazienza ! Anca mi go fame, ma go la certezza che no moriremo de fame. Perché i maghi pol
+          farghe de tuto a una persona ma no farla morir. La mia gran paura xe che sto maledeto
+          incantator el no converta in qualche bruta bestia.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Anca questa ghe voria ! Me strangolo subito con le mie man. Buzareta. Ch' el ne
+          convertisse in polastri e ch’el ne magnasse !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Dopo tuto ti no ti faressi una gran fadiga a cambiarte in bestia.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>E lu, gnanca no ocore che sto sior mago, o diavolo ch'el sia, el ghe fazza far nessuna
+          trasmutazion. Perché el se za una bestia.</p>
+      </sp>
+      <pb n="20" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_020.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Tasi, so no te taio el colo.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Eh za ! Sempre lu co la prepotenza ! Te taio, te copo, te sbuso ! Possibile che fra de noi
+          do no e possa mai ragionar come persone pulite.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ah, ti ghe ciami ragionar l'ofenderme ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Elo me dise le sue e mi ghe digo le mie; cussì se finisse per intenderse.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Tasi ! Go inteso un rumor !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Gnente ! Xe le mie sbuele che dimanda da magnar ! <stage type="corps">(Piangendo improvisamente.)</stage> Ah, sior
+          paron, el gabia pietà del suo povero scudier ! El me salva.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Come vustu che te salvo ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>El lassa che ghe magno un toco de naso, un orecia, qualcossa.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Va in malora ! Tasi ! Go dito mi che gavevo inteso un rumor. Vara ! Se verze un
+          balconzin, là, de la toreta.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Xe vero ! Cossa sarà. Mi go paura. Se no gavesse stomigo e panza suti, podaria nasser
+          qualche disgrazia.</p>
+      </sp>
+      <pb n="21" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_021.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Eco qualchedun che vien a la finestra. Cio’, xe el mago.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Per Baco ! El mago !</p>
+      </sp> </div>
+              <div type="3"><head type="scene" n="2">Scena 2</head>
+                <listPerson><personGrp>
+                  <name>Del Ponte</name>
+                  <stage type="listPerson"> e </stage>
+                  <name>detti</name></personGrp></listPerson>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <stage type="pers">(da una finestra della torretta)</stage> 
+        <p>Buon giorno, signor cavaliere, scudiere eccellentissimo
+          !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Bondì !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>El senta, ghe vol un bel muso roto per darghe el bon giorno a do afamai come che semo
+          noi. El ne tiri fora e'I ne daga da magnar, che xe ora.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Sior mago, no'l ghe staga badar ! Noialtri semo qua a sua discrezion. Xe vero che gavemo
+          fame, ma el mio decoro de cavalier no me permete de parlar de ste volgarità.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ma mi no son cavalier una maladeta e vogio magnar, se no me metarò a urlar come una
+          bestia feroce.</p>
+      </sp>
+      <pb n="22" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_022.jpg"/>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Calma ! Calma ! Non voglio già farvi morire di fame. Voglio, soltanto guarirvi dalle
+          vostre pazzie.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Pazzie ! La diga ! No semo miga mati qua ! Semo zente de talento e de bon senso. El mio
+          scudier, forse, el xe un poco indrio co’ le carte...</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Grazie !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Gnente ! Parlo ben ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Come un oracolo...</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ma no gavemo matezzi de sorta. Elo, sior mago, mi credo, el pol dir se son un cavalier de
+          garbo, che conosse a puntin le regole dela erante cavalaria e che sa comportarse a
+          dover.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>E in mi el vede un scudier, brontolon fin ch' el vol, ma fedel fin la morte.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Dunque cossa el ne ciacola de pazie ?</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>E pure siete matti entrambi.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>El sarà mato lu ! E ghe consegio de cambiar linguagio, perchè, se anca son serà qua
+          drento, son bon de 
+          <pb n="23" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_023.jpg"/>
+          spacarghe la testa tirandoghe drio la mia vecia spada, che, come el suo
+          paron, no ga paura dei bruti musi. A meno che lu, co’ le sue magie, no'l vogia farne
+          girar le carozete.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>No’l staga far questo, per amor del suo Dio ! Perché mi son un galantomo e quando andarò
+          al mio paese, co' le mie bestie e co' mia mugier, no vogio cometer strambarie. I mii
+          paesani me ga sempre cognosuo come un omo de testa.</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Insomma, finiamola ! Io non sono un mago, come voi credete. Sono il marchese Francesco
+          Del Ponte, e questo è il mio castello. Quando mi avete incontrato, tornavo da un
+          pellegrinaggio e per questo indossavo il cilicio. Caro Don Arlecchino, appena vi ho veduto
+          vestito a quel modo, con armi che più non si usano da duecento anni ho compreso che avevo
+          da fare con un forsennato e, udito il vostro nome, ricordandomi, che vostro
+          <pb n="24" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_024.jpg"/> padre deve
+          essere stato un buono e amato servitore del mio, spinto da pietà, mi sono proposto di
+          guarirvi. Perciò vi ho condotto qua dentro ed ora vi sottopongo a una cura, forse un po'
+          troppo energica, ma che spero farà il suo effetto. Voi non siete già un cavaliere, nè
+          tampoco un don; bensì semplicemente Arlecchino Battocchio, domestico, che io, da qualche
+          tempo, avevo perduto di vista. E il vostro compagno non è già uno scudiero, chè mai ha
+          saputo maneggiar spada, bensì soltanto la vanga, essendo contadino. Entrambi siete nati e
+          cresciuti nei miei possedimenti e vanto su di voi certi diritti.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Oh, infamia inaudita. Meggio saria stado che vu, teribile mago, ne avessi cambiado in
+          qualche sozzo animal, che no tiorne cussì la nostra gloriosa qualità. Dove i xe dunque i
+          mii ilustri antenati e dove le mie famose imprese ? Ah, dunque vu, geloso
+          <pb n="25" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_025.jpg"/> dele mie glorie,
+          volè convertirme in un servo. Vardè ben che ghe xe un Dio anca per i cavalieri eranti e
+          che vignirà el giorno de la vendeta.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>E mi ! Xe vero che prima fazevo el contadin. E cossa xe se adesso fazzo el scudier. Forse
+          che el papa ga fato sempre el papa ?</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Dunque voi non uscirete di quì finché non sarete rinsaviti e fino allora vi terrò a pane
+          ed acqua.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Aseo ! El vol che deventemo come tanti bacalà. Mi son za savio a sta ora. Che nova, sior
+          mago no mago ? Xe tempo de finirla.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Questa la xe una bela e bona procaria. Tratar in questa maniera un cavalier come mi. Va
+          ben che sè un mago anca se volè sostener el contrario ma mi no go leto mai in nessun
+          libro de cavalaria che i maghi i fazesse morir de fame la zente. I ghe fazeva soltanto
+          parer quel che no iera. Cussì vu fe' el vostro mestier in ordine ! Feve 
+          <pb n="26" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_026.jpg"/>veder un galantomo
+          anca se no lo sè. Dene da magnar.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Inutile che vi perdiate in parole. Finchè voi, Arlecchino, non sarete persuaso di essere
+          un servitore del marchese Francesco Del Ponte e voi, Facanapa, un suo contadino, non
+          verrete fuori da questo ridotto e patirete la fame. Addio !</p> <stage type="saut">(Si ritira.)</stage> 
+      </sp></div>
+                <div type="3"><head type="scene" n="3">Scena 3</head>
+          <listPerson><personGrp>
+            <name>Arlecchino</name>
+            <stage type="listPerson"> e </stage>
+            <name>Facanapa,</name>
+            <stage type="listPerson">poi</stage>
+            <name>Caterina</name></personGrp></listPerson>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Sior mago ! Sior mago o marchese de la malora che sè, scolteme ben ! Per questo vostro
+          inqualificabile contegno, mi dichiaro questo vostro castelo un covo de ladri e de
+          malfatori, e ve dichiaro a vu el fior dei birbanti, la più gran canagia che se gabia mai
+          visto soto la capa del ziel. Dichiaro inoltre, che sè degno de la forca e giuro, nel nome
+          santo de la erante
+          <pb n="27" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_027.jpg"/> 
+          cavalaria, che, se riesso a vignir fora de sto pozzo maledeto, farò de
+          tuto el castelo un gran mucio de rovine e a vu, se ve guanto, ve impicarò al primo albero
+          che incontro, come un ladro. Amen.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ben cazzada ! E mi, sior bruto muso, dopo ch'el mio paron lo gavarà impicà, lo farò
+          crepar de fame.</p>
+      </sp>
+      <sp>
+        <speaker>Caterina</speaker>
+        <stage type="pers">(Si affaccia alla finestra dov’era prima Del Ponte.)</stage> <p>Ohe ! Giovanotti, vengo a portarvi il
+          desinare.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Orpo che bruto muso ! La par una striga.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Oh, venerabile matrona !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ma che venerabile matrona ! No'l vede che xe una vecia marantega ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Tasi ! Ti non ti su distinguer. <stage type="corps">(a Caterina)</stage> O venerabile matrona, certamente sè qualche
+          divina fanciula cambiada dal teribile negromante che abita questo castelo, in una bruta
+          vecia. Permetè che un valoroso cavalier ve professi la sua servitù e ve 
+          <pb n="28" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_028.jpg"/>
+          dichiari che,
+          prima de distruger questa infame roca, el farà in modo de liberar tuti i prigionieri che
+          ghe xe drento. O che, sanguenon de Diana ! Mi non son più el famoso Arlechin de
+          Bergamo.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Caterina</speaker>
+        <p>Povero Arlecchino ! Come sei conciato per le feste ? Che mi vieni parlando di maghi e di
+          prigionieri. Non mi riconosci più ? Sono la Caterina, quella che ti ha tenuto bambino
+          sulle ginocchia, quando tua madre era malata. La Caterina, la vecchia serva del
+          castello.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Oh perfidia de un maledeto strigon ! Non solo el ghe cambia el viso ale sue vitime ma el
+          ghe mete in testa quele storie che ghe par a lu. <stage type="corps">(a Caterina)</stage> Si ben che parè la vecia
+          Catarina, ala qual mi ghe volevo un ben de l’anima, ma mi capisso che vu no sè Catarina,
+          ma qualche gran dama, dela qual el mago, per qualche ragion special, ga volesto
+          vendicarse. Dunque credè che, col permesso dela signora 
+          <pb n="29" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_029.jpg"/>del mio cuor, la celeste
+          Colombina, mi meto a vostra disposizion la mia invincibile spada.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Caterina</speaker>
+        <p>Ma tu farnetichi !</p>
+      </sp>
+      <sp>
+        <speaker>Arlechcino</speaker>
+        <p>Anca vu me dè del mato !</p>
+      </sp>
+      <sp>
+        <speaker>Caterina</speaker>
+        <p>Lasciamo questi discorsi.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Sì, sì, xe meio e parlemo, piutosto de cosse più interessanti. No gavè dito che ne
+          portavi el desinare ? Fora, dunque !</p>
+      </sp>
+      <sp>
+        <speaker>Caterina</speaker>
+        <p>È ben poca cosa. Il marchese, che
+        pare voglia punirvi di qualche fallo da
+        voi commesso, mi ha ordinato di portarvi
+        un solo pane.</p></sp>
+                  
+        <sp><speaker>Facanapa</speaker><p>Un solo paneto ! Ah, can de marchese,
+        ah birbante de strigon. El vol
+        proprio la nostra morte.</p></sp>
+                  
+        <sp><speaker>Arlecchino</speaker><p>No fa gnente ! Vivarò sempre
+        abbastanza per vendicarme, per magnarghe
+        el cuor.</p></sp>
+                  
+        <sp><speaker>Caterina</speaker><p>Eccovi il pane ! <stage type="corps">(Lo gitta.)</stage> Addio !
+        State allegri e fatevi perdonar presto
+        dal marchese.</p> <stage type="saut">(via)</stage></sp>
+      
+      <pb n="30" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_030.jpg"/>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Va in malora !</p> <stage type="saut">(Si slancia per prendere il pane.)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(Fa lo stesso.)</stage><p>Pian, caro Facanapa perché anca mi go fame !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Capisso ! Ma no xe bel che un cavalier se degni de magnar un toco de pan suto. Cussì lo
+          magnarò mi.</p> <stage type="saut">(Torna a slanciarsi sul pane.)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(Afferrando lesto il pane.)</stage> <p>Ah, no, razza de can. I cavalieri eranti iera usi de nutrirse
+          anca de radise e de erbe. E questo pan, za che ti xe cussì ingordo, me lo magnarò mi e ti
+          crepa.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>El creparà elo ! El me daga un toco de pan !</p> <stage type="saut">(Salta adosso ad Arlecchino e lo
+          batte.)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ah canagia ! Al to paron ! Speta mi !</p> <stage type="saut">(Trae di tasca un pugnale e tenta ferire Facanapa
+          che dà un salto indietro e involontariamente preme con un piede una molla. Fra lui ed
+          Arlecchino si apre una larga bottola. Entrambi restano esterrefatti a guardare.)</stage>
+      </sp>
+      <pb n="31" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_031.jpg"/>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Sior paron !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Scudiero mio !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Questa xe una porta !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ghe xe anca la scala !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>E noi se la bateremo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Alegramente, in barba al negromante.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Bisogna che ringraziemo quel toco de pan e la nostra fame, se no chi sa quando che ghe ne
+          saressimo vegnudi fora.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Questa deve esser la porta per la qual semo entradi e che no gavemo visto perché gavevimo
+          i oci bendai.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Alegri, sior paron, andemo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Andemo. E, sior mago, maledeto can ! Adesso se vedarà cossa che sia bon de far Arlechin
+          de Bergamo.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>E el suo fedel scudier Facanapa Magnascove.</p> <stage type="saut">(Escono.)</stage> 
+      </sp></div></div>
+      <div type="5"><head type="div5">Fine del secondo atto.</head></div>
+      
+        <div type="1"><head type="acte" n="3">Atto III</head>
+          <stage type="saut">Un bosco dinanzi al castello.</stage>
+          <div type="3"><head type="scene" n="1">Scena 1</head> 
+            
+            <listPerson><personGrp>
+              <name>Arlecchino</name>
+              <stage type="listPerson"> e </stage>
+              <name>Facanapa</name></personGrp></listPerson>
+      <pb n="32" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_032.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(Entra correndo, roteando la spada, furibondo, seguito da Facanapa, che si trascina
+          appena.)</stage> <p>Morte ! Morte ! Ga da esser la fin del mondo !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Per amor di Dio, sior paron ! El se risparmia per quando ch’el trovarà i nostri
+          nemici.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>E no ti li vedi qua intorno i nostri nemici ? Varda come che ghe taio le teste. Varda
+          come che, soto el fulmine de la mia spada, salta brazzi, man, gambe ! Batalgia ! Mi solo
+          contro tuti.</p>
+      </sp>
+      <pb n="33" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_033.jpg"/>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Paron, mi no vedo gnente, no vedo nissun.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>El mago te ga inorbà perché ti, che ti gà da far la mia storia, no ti vedi le mie
+          prodezze ! Zo ! Zo ! Ah, in zento contro uno ! A ti, gigante, che ti par un Sanson ! A ti,
+          bruto muso de demonio ! In tera, in tera tuti ! Combatarò fin doman de matina, per un
+          mese, per un ano, se ocore, finchè tuti i difensori de sto castelo no i sia morti e del
+          castelo no resti piera sora piera.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Paron, mi go paura ! No ghe xe pericolo che tuti sti difensori i me mazzi, mi che son qua
+          senza armi; no go gnanca un speo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>No paura ! Basto mi solo per difenderte anca a ti. Ah, me vignì contro co' le lanze,
+          mentre mi no go che la spada. Vigliachi ! Tuto el mondo ga da conosser sta infamia. Ma no
+          fa gnente ! Ve distrugerò lo stesso, perché questa xe la famosa spada de Orlando.
+          <pb n="34" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_034.jpg"/> Ah
+          scampè ! Corè ! Corè ! Ve ciapo tuti. Taia ! Sbusa ! Squarta ! Tuti vinti ! Facanapa vara
+          quanti morti ! <stage type="corps">(Fermandosi e asciugandosi il sudore.)</stage> Tuto el bosco xe pien de cadaveri. No
+          ti vedi che el sangue core a fiumi. Vitoria ! Mai ghe xe stado cavalier più valoroso de
+          mi.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Sior paron, el me scusi, ma mi no vedo né sangue né morti.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Se sà ! Perché ti xe imagà ! Ma, varda ! Adesso ti ga i piè sora de un cadavero.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Aiuto !</p> <stage type="saut">(Fa un salto.)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Adesso ti ghe pesti el naso a un altro.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Aiuto, mama !</p> <stage type="saut">(Fa un altro salto.)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Adesso ti xe entrà con un piè ne la ferita de un altro.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Br ! Povero mi. Dove go da andar ! 
+          <stage type="corps">(Si mette a correre.)</stage> Aiuto ! Aiuto ! 
+          <stage type="corps">(Si arrampica su
+          di un albero.)</stage> Oh, almeno qua no sarò fra i morti.</p>
+      </sp>
+      <pb n="35" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_035.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Guarda ! Eco un’altra torma de nemici ! Quanti !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Dove ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Là ! Da quela parte !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Paron ! Ma quela xe una mandria de porchi. El varda ben de no far buzare.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Porchi ! Oh, poveri i tui oci. El mago decisamente, el se ciol questa ultima vendeta. No'l vol che ti vedi le prove del mio coragio.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Paron, no’l fazza buzare !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Adesso ti vedarà che colpi. Sarà un sterminio. Da ogi in poi i me ciamarà Don Arlechin
+          de Bergamo flagelo di Dio.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Paron, lu fa una buzara !</p>
+      </sp></div>
+            <div type="3"><head type="scene" n="2">Scena 2</head>
+              <listPerson><personGrp>
+                <name>Una torma di maiali</name>
+                <stage type="listPerson"> e </stage>
+                <name>parecchi guardiani</name>
+                <stage type="listPerson"> e </stage>
+                <name>detti</name></personGrp></listPerson>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ecoli ! I vien avanti perché i me vede solo. Avanti ! Avanti, cavalieri,
+          <pb n="36" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_036.jpg"/> ma zo le lanze
+          se sè zentilomini. Ah ! No ! Anca voialtri me assalì co' le lanze ze in resta ! Traditori
+          ! Vigliacchi !</p> <stage type="saut">(Si mette a tirar fendenti, furiosamente da tutte le parti, ferendo,
+          atterrando i maiali.)</stage>
+      </sp>
+      
+      <sp>
+        <speaker>Il primo Guardiano dei maiali</speaker>
+        <p>Che nuova ! Signor cavaliere della malora ! Perché la prendete coi nostri maiali ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Sé tuti tanti porchi, che vignì in tanti contro uno ! A mi ! Ve farà la lezion la mia
+          bona spada ! Avanti !</p>
+      </sp>
+      <sp>
+        <speaker>Il secondo guardiano dei maiali</speaker>
+        <p>Signor cavaliere, per amor del suo Dio ! Stia fermo !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Fermo ! Lo voressi ! Me domandè pietà. Gnente ! No dago quartier.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>El mio paron fa el copa porchi. Cominzio a creder ch'el gabia dà de volta a la
+          barila.</p>
+      </sp>
+      <sp>
+        <speaker>I guardiani</speaker>
+        <p>Ehi ! Signor cavaliere Voi ci avete rovinati.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Eh, lo credo ben ! E quel che ve rovinarò ancora ! Avanti, se gavè coragio.</p>
+      </sp>
+      <pb n="37" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_037.jpg"/>
+      <sp>
+        <speaker>I guardiani</speaker>
+        <p>Basta, per Dio ! Che vi hanno fatto le nostre bestie ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ve darò tuti in pasto ale bestie feroci. E dove xe el vostro capo, el mago ? Dove el se
+          sconde, el vigliaco ?</p>
+      </sp>
+      <sp>
+        <speaker>I guardiani</speaker>
+        <p>Voi siete pazzo ! O la finite o vi conciamo per il dì delle feste.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Vualtri me conzarè ! Ma no vedè, disgraziadi, quanti dei vostri compagni xe za cadaveri,
+          in te la polvere.</p>
+      </sp>
+      <sp>
+        <speaker>I guardiani</speaker>
+        <p>Basta ! Basta ! Dalli ! Dalli ! Ammazzalo ! Ammazzalo ! L’assassino del nostro sangue !
+          Dalli ! Accoppallo !</p> <stage type="saut">(Si slanciano contro Arlecchino, armati di bastoni. Spezzatagli la
+          spada, lo tempestano di colpi.)</stage>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ah, povero mio paron ! Me tiro un poco più su che no me capita qualche lignada de
+          svolo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ah, vilani ! Ah manigoldi ! Se sè cavalieri, fermeve, me se ga roto la spada !
+          Aiuto.</p>
+      </sp>
+      <sp>
+        <speaker>I guardiani</speaker>
+        <p>Dalli ! Dalli !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Orpo, i xe demoni ! Tuto l’inferno
+          <pb n="38" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_038.jpg"/> contro de mi ! Spetè ! Ve fazzo scampar tuti ! Vardè !
+          Questa xe una crose.</p> <stage type="saut">(Mostra la croce della spada.)</stage>
+      </sp>
+      
+      <sp>
+        <speaker>I guardiani</speaker>
+        <p>Ci prende per demoni ! Dalli ! Ammazza !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Aiuto ! I me sconquassa ! Facanapa, son morto !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Paron el se racomandi l’anima a dio e bona note !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ah, ma anche con sto toco de spada sarò bon de mazzar ancora qualchedun.</p> <stage type="saut">(Si slancia
+          furibondo contro i guardiani. Questi riescono ad afferrarlo e a disarmarlo.)</stage> 
+      </sp></div>
+          
+            <div type="3"><head type="scene" n="3">Scena 3</head>
+              <listPerson><personGrp>
+                <name>Del Ponte</name>
+                <stage type="listPerson">con alcuni servi e</stage>
+                <name>detti</name></personGrp></listPerson>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Che succede ? Arlecchino ! È scappato !</p>
+      </sp>
+      <sp>
+        <speaker>I guardiani</speaker>
+        <p>Eccellenza ! Vedete che cosa ha fatto, ci ha ammazzato tutti i maiali. Maledizione a
+          lui.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ah adesso ti vien, fiol de un can
+          <pb n="39" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_039.jpg"/> 
+          d’un mago. Adesso che son disarmà. Ma non son gnancora
+          morto e vignirà el giorno anca per ti.</p>
+      </sp>
+      
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Taci, scimunito ! Ancora non ti sei ravveduto ? Sei un pazzo furioso.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ti ti xe mato ! E prega el tuo dio o el tuo diavolo che questi sleali cavalieri no i me
+          moli, perché con queste mie man te strangolaria.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>El voria forse strangolarlo coi pié ? Cossa che me la godo.</p>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Legatelo ben bene e trasportatelo al castello.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ah, questo po' no ! Nissuna forza al mondo riesirà a ligarme vivo.</p><stage type="saut">(Fa terribili sforzi
+          per liberarsi.)</stage>
+      </sp>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Legatelo, via, subito e presto quell'asino e cacciatelo intanto nella stalla quì presso,
+          nel cortile.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Asino ? Asino ! Ah ! Ti me ga convertì in un asino ! lnfamia ! Mago, Dio te castigarà !
+          Iho ! Iho ! Iho !</p> <stage type="saut">(Si mette a ragliare sonoramente, mentre i guardiani ridendo lo
+          legano.)</stage>
+      </sp>
+      <pb n="40" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_040.jpg"/>
+      <sp>
+        <speaker>Del Ponte</speaker>
+        <p>Disgraziato ! Conducetelo via !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Iho ! Iho ! Ihi ! Ihi ! Ihi ! Ihooo !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p><stage type="corps">(Salta giù dall'albero.)</stage> Oh, povero paron ! Sior Marchese ! Don Arlechin el xe deventà mato del
+          tuto ma mi torno savio. El me perdona e'l me compatissa. E che me compatissa anca sto bon
+          uditorio, che ga podesto veder come de servitor se possa deventar cavalier e, in fondo, no
+          esser altro che un bel e bon somaro.</p>
+      </sp></div></div>
+      <div type="5"><head type="div5">Fine.</head><pb n="41" facs="19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM_041.jpg"/></div>
+    </body>
+  </text>
+</TEI>

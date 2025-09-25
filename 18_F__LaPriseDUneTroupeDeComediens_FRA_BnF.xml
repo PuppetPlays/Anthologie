@@ -1,0 +1,1266 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title
+          ref="https://puppetplays.eu/en/oeuvres/10135/la-prise-dune-troupe-de-comédiens-par-un-corsaire-de-tunis-au-mois-de-septembre-1741"
+          >La Prise d'une troupe de comédiens par un corsaire de Tunis au mois de septembre
+          1740</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="FR">Françoise Rubellin</name>
+          <resp ref="francoise.rubellin@univ-nantes.fr">Transcription</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor ref="https://gallica.bnf.fr/ark:/12148/btv1b9061126v/f470.item.r=9313%209313"
+          >Bibliothèque nationale de France. Département des Manuscrits. Français 9313</distributor>
+        <availability status="free">
+          <licence>Public domain</licence>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>A traitor plans the escape of those he has captured</note>
+        <note>The manuscript is part of the Soleinne collection, which is kept at the Bibliothèque
+          nationale de France (Département des manuscrits, FF 9313). The topic of the play was taken
+          from an anonymous tale (the author’s name is reduced to its first letter: D), entitled
+          Lettre d'un comédien à un de ses amis, touchant sa captivité et celle de vingt-six de ses
+          camarades chez les corsaires de Tunis (Letter from an actor to one of his friends, about
+          his imprisonment and that of twenty-six of his colleagues by corsairs in Tunis; Paris
+          :Pierre Clément, 1741). The manuscript bears two censor’s certificates. One dated 27
+          February 1742 approved it for performance and was signed by Crébillon, who was then royal
+          censor for shows. The other, dated from the following day, confirms this authorization,
+          “on condition that the actors only speak with a whistle or with gestures”, which seems
+          impossible considering the importance of the dialogues and of the sung parts of the play.
+          The dialogue between Polichinelle and the Compère, at the very beginning of the show, was
+          most likely played by a puppet, and an actor standing in front of the stage would serve as
+          an intermediary with the audience.</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>Not specified</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository
+                ref="https://gallica.bnf.fr/ark:/12148/btv1b9061126v/f470.item.r=9313%209313"
+                >Bibliothèque nationale de France</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 21</p>
+                <p>Number of acts in the original document: 1</p>
+                <p>Format of the original document: Manuscript</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main"
+            ref="https://gallica.bnf.fr/ark:/12148/btv1b9061126v/f470.item.r=9313%209313">La Prise
+            d'une troupe de comédiens par un corsaire de Tunis au mois de septembre 1740</title>
+          <date>1741</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra">French</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques">
+          <term
+            source="https://puppetplays.eu/en/techniques-d-animation/1217/marionnette-à-tringle-et-fils"
+            >Rod and string marionette</term>
+        </keywords>
+        <keywords source="literaryTones">
+          <term/>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Theatre within the theatre</term>
+          <term>Song</term>
+          <term>Masked characters</term>
+          <term>Avista</term>
+          <term>Prologue</term>
+          <term>Comical foreign accent</term>
+          <term>Dialogue with a character in the audience</term>
+          <term>Current affairs</term>
+          <term>Naval combat</term>
+        </keywords>
+        <keywords source="genre">
+          <term>null</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Relationship between Christians and Muslims</term>
+          <term>Tunisia</term>
+          <term>Corsair</term>
+          <term>Slavery</term>
+          <term>Treason</term>
+          <term>Renegade</term>
+          <term>Harassment</term>
+          <term>Minor news</term>
+          <term>Agriculture</term>
+          <term>Censorship</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of
+            the original texts. The transcriptions therefore include spelling and grammatical
+            corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the
+            text without being marked. Cuts for performance purposes have not been adopted in the
+            transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become
+            incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been
+            corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant Agreement
+          835193) under Horizon 2020. The PuppetPlays project aims to re-evaluate the contribution
+          of the puppets repertoire to the construction of European cultural identity. Its main
+          goals is to collect a corpus of representative plays from Western Europe (Germany,
+          Austria, Belgium, Spain, France, Great Britain, Italy, Netherlands, Portugal, Switzerland)
+          between the 17th and the 21th century. It also tries to identify the characteristics of
+          puppet dramaturgy and their variations depending on eras, cultural spheres, producing
+          conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal
+          investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref
+            target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons
+            Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA) </ref> licence.
+          This license enables reusers to distribute, remix, adapt, and build upon the material in
+          any medium or format for non-commercial purposes only, and only so long as attribution is
+          given to the creator. If you remix, adapt, or build upon the material, you must license
+          the modified material under identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2025-03-21" who="#MSK">Text transcription and encoding</change>
+      <change when-iso="2025-03-24" who="#MSK">TEI Header created from a JSON extraction of the
+        PuppetPlays' database.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="01" facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_01.jpg"/>
+      <docTitle>
+        <titlePart type="main">La prise d’une troupe de comédiens par un corsaire de Tunis au mois
+          de septembre 1741.</titlePart>
+        <titlePart type="sub">Représentée par les marionnettistes de Nicolas à la foire saint
+          germain le 1741. Cette pièce est faite sur le livre de La Lettre d’un comédien pris avec
+          sa troupe et ses gens chez Clément Libraire au quai de Gêvres.</titlePart>
+      </docTitle>
+      <docDate>1741</docDate>
+      <docEdition/>
+      <castList>
+        <head type="personnage">[Personnages</head>
+        <castItem>
+          <role>Polichinel, </role>
+        </castItem>
+        <castItem>
+          <role>Le Compère, </role>
+        </castItem>
+        <castItem>
+          <role>Le Renégat, </role>
+        </castItem>
+        <castItem>
+          <role>Pierrot, </role>
+        </castItem>
+        <castItem>
+          <role>Des Comédiens, </role>
+        </castItem>
+        <castItem>
+          <role>Des Comédiennes, </role>
+        </castItem>
+        <castItem>
+          <role>Pierrot, </role>
+        </castItem>
+        <castItem>
+          <role>Pérette, </role>
+        </castItem>
+        <castItem>
+          <role>Un Messager, </role>
+        </castItem>
+        <castItem>
+          <role>Un Suisse, </role>
+        </castItem>
+        <castItem>
+          <role>Arlequin, </role>
+        </castItem>
+        <castItem>
+          <role>Pantalon, </role>
+        </castItem>
+        <castItem>
+          <role>Léandre.]</role>
+        </castItem>
+      </castList>
+     
+      <pb n="02" facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_02.jpg"/>
+      <pb n="03" facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_03.jpg"/>
+      
+      <set>
+        <p>Le théâtre représente la mer. La tempête se lève.</p>
+      </set>
+    </front>
+    
+    
+    <body>
+      <div type="3">
+        <head type="scene" n="1">Scène 1</head>
+        <stage type="saut">Les comédiens sont pris par un corsaire de Tunis.</stage>
+      </div>
+      <div type="3">
+        <head type="scene" n="2">Scène 2</head>
+        <listPerson>
+          <personGrp>
+            <name>Polichinel, </name>
+            <name>Le Compère.</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Polichinel</speaker>
+          <p>Parle donc, compère. N’as-tu pas vu la bacchanale sur nos côtes ?</p>
+        </sp>
+        <sp>
+          <speaker>Le Compère</speaker>
+          <p>Que veux-tu dire ?</p>
+        </sp>
+        <sp>
+          <speaker>Polichinel</speaker>
+          <p>Tatigué, quel tapage : la mousqueterie, les canons, les bombes, les carcasses avec les
+            vaisseaux, jarni !</p>
+        </sp>
+        <sp>
+          <speaker>Le Compère</speaker>
+          <p>Il est vrai que j’ai entendu bien du bruit.</p>
+        </sp>
+        <sp>
+          <speaker>Polichinel</speaker>
+          <p>Je pense que c’est une felouque génoise qui vient de passer qui a eu du bruit avec un
+            vaisseau qui l’emmène après l’avoir bien torchée.</p>
+        </sp>
+        <sp>
+          <speaker>Le Compère</speaker>
+          <p>Tu fais joliment la description d’un combat naval.</p>
+        </sp>
+        <sp>
+          <speaker>Polichinel</speaker>
+          <p>Oh dame, c’est que je ne suis pas malin.</p>
+        </sp>
+        <sp>
+          <speaker>Le Compère</speaker>
+          <p>Tu veux dire marin ?</p>
+        </sp>
+        <sp>
+          <speaker>Polichinel</speaker>
+          <p>C’est bien malin, marin. Veux-tu me croire ? Allons nous promener à Livourne nous
+            saurons ce que c’est.</p>
+        </sp>
+        <sp>
+          <speaker>Le Compère</speaker>
+          <p>Volontiers, aussi bien j’y ai affaire.</p>
+        </sp>
+        <stage type="saut">Le théâtre change, on voit Tunis.</stage>
+      </div>
+      <div type="3">
+        <head type="scene" n="3">Scène 3</head>
+        <stage type="saut"> Les comédiens entourés de soldat.</stage>
+        <listPerson>
+          <personGrp>
+            <name>[Le Renégat, </name>
+            <name>Pierrot</name>
+            <name> et tous les Comédiens.]</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Mes enfants, bon courage. Vous êtes esclave, je l’ai été. Je vous crois français, je le
+            suis. Commencez par vous rafraîchir, il est temps de manger.<pb n="04"
+              facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_04.jpg"/> Nous allons vous conduire à
+            la halle de Tunis où suivant la coutume vous serez partagés en trois.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Miséricorde, monsieur le français.</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Qu’avez-vous donc tant à crier ?</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>On va nous partager en trois et je ne crierai pas miséricorde.</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Voilà bien du bruit pour peu de chose.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Pour peu de chose ? À l’aide, au secours !</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Écoutez-moi, quand je dis peu de chose, c’est que vous criez pour rien.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Pour rien ? Ah, nous sommes perdus, ce français-là est pire qu’un corsaire, au secours
+            !</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Paix donc, vous dis-je, vous ne m’avez pas compris, écoutez jusqu’au bout. Vous serez
+            partagés en trois portions égales de même que vos équipages dont on fera trois lots qui
+            seront tirés au sort pour être partagés entre le gouverneur, le maître de barque et le
+            capitaine. <stage type="corps"> (Les comédiens pleurent.) </stage> Il est inutile de
+            vous affliger, vous êtes pris. C’est un malheur. Il faut tâcher d’y remédier.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Si vous nous tirez d’embarras, tenez pour ma part, je vous donnerai mon reste.</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <stage type="pers"> (rit)</stage>
+          <p>Je vous offre ma protection auprès de mon maître<pb n="05"
+              facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_05.jpg"/> qui est le patron de la
+            barque. Il est fort ami du gouverneur qu’on nomme ici le Bey. Mais avant toutes choses,
+            il faut me dire qui vous êtes.</p>
+        </sp>
+        <sp>
+          <speaker>Tous les comédiens</speaker>
+          <p>Nous sommes comédiens français et italiens.</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Miséricorde ! Je suis sourd. Répondez seul, êtes-vous tous de la même profession ?</p>
+        </sp>
+        <sp>
+          <speaker>Le Comédien</speaker>
+          <p>Oui, monsieur.</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Quelle est-elle ?</p>
+        </sp>
+        <sp>
+          <speaker>Le Comédien</speaker>
+          <p>La Comédie.</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>De mon temps, je n’ai point vu d’étrangère mais si la nouveauté plait ici, votre
+            affaire est bonne. Briffaud, Tailleroc, Magna toutti <unclear>[illisible]</unclear>,
+            ayez soin de ces gens-là, faites-les monter dans le chariot, au fond leur équipage. Il
+            faut les conduire à la halle où je me transporterai le plus tôt que je pourrai. Toi,
+            Saltinfocco, tu leur feras délivrer leur pitance. Allez mes enfants, je vais de ce pas
+            trouver mon patron à qui je parlerai pour vous.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Voilà un renégat qui me parait de bonne foi.</p>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="4">Scène 4</head>
+        <sp>
+          <speaker>[Le Renégat]</speaker>
+          <p>La confusion des pensées qui me roulent dans la tête me fait pressentir des choses que
+            je ne saurais expliquer. Je sens un certain je-ne-sais-quoi qui tantôt me réjouit et
+            tantôt me chagrine et je suis frappé de cette maladie que depuis que je vois mes
+            compatriotes dans les fers, plus je rêve plus je me perds dans mes réflexions. Laissons
+            agir le sort sans quitter mon entreprise.</p>
+        </sp>
+      </div>
+      <div type="3">
+        <pb n="06" facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_06.jpg"/>
+        <head type="scene" n="5">Scène 5</head>
+        <stage type="saut">La halle paraît. Les corsaires visitent les équipages.</stage>
+        <listPerson>
+          <personGrp>
+            <name>Le Renégat, </name>
+            <name>Les Comédiens.</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Une Comédienne</speaker>
+          <p>Monsieur par grâce, dites-nous ce qui cause leur étonnement. Est-ce que vous leur avez
+            dit ?</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Je leur ai dit qui vous étiez et, comme ils étaient surpris de voir un si pauvre
+            équipage pour tant de gens, je leur ai fait comprendre que votre art, avec ces
+            guenilles, vous faisait trouver le moyen de bien vivre partout, ce qui ne les rend pas
+            plus contents de leur capture. Ils vont rendre compte au gouverneur de ce qu’ils ont vu
+            et ont remis à un autre jour pour vous tirer au sort. Au reste, j’espère que votre
+            profession pourra contribuer à finir votre esclavage, car pour peu que vous mettiez le
+            gouverneur en bonne humeur, ce dont on ne s’est jamais aperçu dans Tunis, je ne doute
+            point qu’il ne vous mette en liberté. Il voudra sans doute vous voir jouer.</p>
+        </sp>
+        <sp>
+          <speaker>Une Comédienne</speaker>
+          <p>Mais vous nous dépeignez ce gouverneur comme un bourru et d’ailleurs, il ne nous
+            entendra pas quand nous paraitrons devant lui.</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Ne vous embarrassez pas de cela, j’ai tant vu de spectacles que je suis à moitié
+            comédien. J’ai bonne mémoire et je lui répéterai tout ce que vous aurez dit.</p>
+        </sp>
+        <sp>
+          <speaker>Un Comédien</speaker>
+          <p>Si la comédie lui déplaît, nous aurons recours au pantomime et, si par malheur nous ne
+              <pb n="07" facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_07.jpg"/>pouvons réussir,
+            dites-nous je vous prie comme vous vous êtes comportés dans votre esclavage, cela nous
+            instruirait de ce que nous avons à faire.</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Volontiers, mais remettons la partie à une autrefois. J’aperçois le messager du
+            gouverneur.</p>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="6">Scène 6</head>
+        <listPerson>
+          <personGrp>
+            <name>Le Messager, </name>
+            <name>Le Renégat, </name>
+            <name>Les Comédiennes.</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Allons mesdemoiselles, il faut vous ajuster pour paraître devant le gouverneur. Il ne
+            faut pas perdre de temps. Serviteur.</p>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="7">Scène 7</head>
+        <listPerson>
+          <personGrp>
+            <name>[Pierrot, </name>
+            <name>Pérette, </name>
+            <name>Deux Comédiennes.]</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <stage type="pers"> (chante)</stage>
+          <lg>
+            <l>Allons vite mesdemoiselles !</l>
+            <l>Blanc, rouge, il ne faut épargner.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Pérette</speaker>
+          <lg>
+            <l>Le jeu n’en vaut pas les chandelles,</l>
+            <l>Je ne crois pas y rien gagner.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Si vous n’y gagnez rien, nous y gagnerions-nous.</p>
+        </sp>
+        <sp>
+          <speaker>Pérette</speaker>
+          <p>Oui, des cornes.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Pas tant de babil, il faut se préparer !</p>
+        </sp>
+        <sp>
+          <speaker>Une Comédienne</speaker>
+          <lg>
+            <l>Une secrète horreur s’empare de mon âme. </l>
+            <l>Le nom du gouverneur me fait trembler, madame. </l>
+            <l>Je ne sais pas pourquoi, je ne sais pas comment, </l>
+            <l>Je crains qu’il ne me dise qu’il est mon amant.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Une autre Comédienne</speaker>
+          <p>Pour moi j’en pense autant, j’ai même trouble en l’amour.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Ces gens-là pour aimer, sont toujours prêt madame.</p>
+        </sp>
+        <pb n="08" facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_08.jpg"/>
+        <sp>
+          <speaker>Première Commédienne</speaker>
+          <p>De leur funeste amour, quel enfer le prix, une juste douleur, la honte, le mépris.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Mesdemoiselles, la morale est hors de raison. Diantre ! Ce climat vous a furieusement
+            changé. Allons, allons, songer qu’il faut obéir. Accommodez-vous, vous avez l’air de
+            vraies gourgandines.</p>
+        </sp>
+        <sp>
+          <speaker>Une Comédienne</speaker>
+          <stage type="pers"> (chante)</stage>
+          <lg>
+            <l>Comment peut-on songer à plaire</l>
+            <l>Dans le malheur.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <lg>
+            <l>Pour votre bien, il faut le faire.</l>
+            <l>Pour votre honneur</l>
+            <l>Le gouverneur nous a promit </l>
+            <l>Sa bienveillance</l>
+            <l>Elle vaut mieux que les amis</l>
+            <l>Que nous avons en France.</l>
+          </lg>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="8">Scène 8</head>
+        <listPerson>
+          <personGrp>
+            <name>Le Renégat</name>
+            <name> et les acteurs précédents.</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>[Le Renégat]</speaker>
+          <p>J’ai ordre de vous avertir d’être prêt pour la comédie, dans quatre heures au plus tard
+            on vous conduira au palais du gouverneur.</p>
+        </sp>
+        <sp>
+          <speaker>Une Comédienne</speaker>
+          <p>Nous ne savons où nous en sommes ni par où commencer. Notre situation nous dérange
+            horriblement. Si nous connaissions un peu son caractère, nous tacherions de nous y
+            former.</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Son caractère… <stage type="corps">(chantant)</stage>
+          </p>
+          <lg>
+            <l>Je connais le patron pour bizarre,</l>
+            <l>Son vertige est de maîtriser. </l>
+            <l>Si vous prétendez l’amuser,</l>
+            <l>Aussitôt, il devient barbare.</l>
+            <pb n="09" facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_09.jpg"/>
+            <l>Son esprit tourne au moindre vent. </l>
+            <l>Il est bon ou devient méchant. </l>
+            <l>Prenez vos mesures là-dessus. Je vais tout préparer.</l>
+          </lg>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="9">Scène 9</head>
+        <listPerson>
+          <personGrp>
+            <name>[Un Suisse, </name>
+            <name>Pierrot.]</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Un Suisse</speaker>
+          <p>Je havre veni prier toi par ordre di gouvernement, etre moi joli dansir suisse avec mon
+            faime dans ton compagnie, je le faure pien dansir hartimane par mon foi.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Ah, vous savez danser suisse ?</p>
+        </sp>
+        <sp>
+          <speaker>Le Suisse</speaker>
+          <p>Ah moi dansir si abileman. Je fiens pour que toi voir mon danse. Ly etre plis que sans
+            melir <unclear>[illisible]</unclear>.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Tandis que nous nous habillerons, vous pouvez raccorder vos danses.</p>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="10">Scène 10</head>
+        <listPerson>
+          <personGrp>
+            <name>Léandre, </name>
+            <name>Pierrot.</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Léandre</speaker>
+          <p>Va frapper à cette porte et demande si monsieur Pantalon y est.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Ah ah, je ne vois point de porte.</p>
+        </sp>
+        <sp>
+          <speaker>Léandre</speaker>
+          <p>Tu ne vois pas cette porte-là, là au bout de mon doigt ?</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Ah qu’il est bête ! Au bout de son doigt, hé hé hé, il n’y a rien !</p>
+        </sp>
+        <sp>
+          <speaker>Léandre</speaker>
+          <p>Ah quel butor ! C’est à cette porte vis-à-vis, va vite !</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Holà quelqu’un, n’y a-t-il personne en dedans ?</p>
+        </sp>
+        <sp>
+          <speaker>[Pantalon]</speaker>
+          <p>Qui frappe ? Que voulez-vous ?</p>
+        </sp>
+        <pb n="10" facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_10.jpg"/>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>C’est le seigneur Léandre qui veut parler à monsieur Pantalon.</p>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="11">Scène 11</head>
+        <listPerson>
+          <personGrp>
+            <name>Léandre, </name>
+            <name>Pierrot.</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Pantalon</speaker>
+          <stage type="pers"> (à Pierrot)</stage>
+          <p>Je suis très mortifié monsieur de vous avoir tant fait attendre.</p>
+        </sp>
+        <sp>
+          <speaker>Léandre</speaker>
+          <p>Mais monsieur, vous n’y pensez pas !</p>
+        </sp>
+        <sp>
+          <speaker>Pantalon</speaker>
+          <p>Je vous supplie de me pardonner mon incivilité.</p>
+        </sp>
+        <sp>
+          <speaker>Léandre</speaker>
+          <p>Vous vous trompez Monsieur, ce drôle là est mon valet.</p>
+        </sp>
+        <sp>
+          <speaker>Pantalon</speaker>
+          <p>Ah, monsieur, une honnêteté n’est jamais perdue. On ne sait pas ce que ces Messieurs
+            peuvent devenir un jour. Hé bien, qu’y a-t-il pour votre service ?</p>
+        </sp>
+        <sp>
+          <speaker>Léandre</speaker>
+          <p>Je viens savoir de vous si vous êtes dans le dessein de me donner votre fille en
+            mariage, comme vous me l’avez promis.</p>
+        </sp>
+        <sp>
+          <speaker>Pantalon</speaker>
+          <p>Je vous l’ai promis, il est vrai, mais dans ce temps-là, elle en était consentante.
+            Depuis, elle peut avoir changé. Je la reverrai et vous rendrai réponse. Excusez, une
+            affaire très importante m’empêche de rester avec vous plus de trois minutes.</p>
+        </sp>
+        <sp>
+          <speaker>Léandre</speaker>
+          <p>Je n’ai que deux mots à vous dire, vous savez que j’aime Mademoiselle Isabelle avec une
+            fidélité à toute épreuve. Je me flatte qu’elle ne trouvera jamais un homme plus
+            constant.</p>
+        </sp>
+        <sp>
+          <speaker>Pantalon</speaker>
+          <p>Tant pis ! La constance est un lâche repos <pb n="11"
+              facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_11.jpg"/>qui ne prend pas le tour
+            qu’il faut. Cette variété continuelle, cette absence et présence de toutes choses, être
+            et n’être pas, être un peu quelque fois, un peu plus être à demi, parfois toute n’être
+            pas la beauté et le vrai lustre du monde.</p>
+        </sp>
+        <sp>
+          <speaker>Léandre</speaker>
+          <p>Mais Monsieur Pantalon…</p>
+        </sp>
+        <sp>
+          <speaker>Pantalon</speaker>
+          <p>Épluchons les choses en particulier. Si l’air n’était agité des vents pour le purifier,
+            il deviendrait infect. Si le feu n’était nourri et attisé, il n’aurait ni flamme ni
+            lueur. Si la terre n’était bouleversée sens dessus, sens dessous, elle ne produirait que
+            des ronces. Si elle n’était fouillée jusqu’au plus profond de ses entrailles, il ne s’y
+            trouverait or ni argent ni autre métal. Si le soleil demeurait fixe, il ne pourrait
+            éclairer le ciel ni assaisonner la terre, mais sans rien produire il ne servirait qu’à
+            nous étouffer et brûler. Si la lune n’était sujette au changement, elle ne gouvernerait
+            la date de nos jours, de nos ans et ne serait la maîtresse de cérémonies des fêtes et de
+            solennités.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Ni la date des trois minutes.</p>
+        </sp>
+        <sp>
+          <speaker>Pantalon</speaker>
+          <p>Si les nues n’étaient poussées par les vents, elles ne pourraient disposer la terre à
+            nous porter du fruit. Tout ce qui se sème sur la terre ne peut germer si, premièrement,
+            il ne se dissout, <pb n="12" facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_12.jpg"
+            />toutes choses se conservant en se perdant et prennent une nouvelle forme en mourant.
+            Si le soleil ne se plonge en l’océan, il ne sortira pas du sein de la belle aurore. Il
+            faut presque tuer une chandelle à force de la moucher si on lui veut donner une claire
+            lumière. Les fleurs se doivent couper si on veut qu’elles reviennent l’hiver. Les arbres
+            cachent leur vigueur et paraissent secs, ne se hâtant de sortir de peur de geler. La mer
+            ludit et mergit, tranquillat et furit.</p>
+        </sp>
+        <sp>
+          <speaker>Léandre</speaker>
+          <p>Oui monsieur, vous avez raison mais…</p>
+        </sp>
+        <sp>
+          <speaker>Pantalon</speaker>
+          <p>C’est l’ébattement de notre humanité, laquelle se plaît de tremper notre rire dans nos
+            larmes et des joues encore moites de nos pleurs. Rappelez la joie et le rire d’avantage
+            ! Ce qui croupit en oisiveté ne profite rien à autrui, car le champ qu’on laisse en
+            repos s’abâtardit. L’eau croupie s’empuantit, l’air immobile se corrompt, le feu
+            languissant s’éteint, le fer non exploité rouille, le blé non remué se gâte, les habits
+            non recousus engendrent les teignes, et tous instruments non maniés se perdent.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Oh il a raison, pour le coup.</p>
+        </sp>
+        <sp>
+          <speaker>Pantalon</speaker>
+          <p>L’homme même, pour si habile qu’il soit, non employé s’abrutit. Il y a en nos âmes <pb
+              n="13" facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_13.jpg"/>quelques dessein de
+            changer la nature à donner à l’homme une âme mobile et inquiète, laquelle ne se tient
+            jamais en soi mais s’éparpille, vagante et ennemie de repos, aimant la nouveauté de
+            toutes choses. La raison est parce que notre âme devine les choses célestes, or la
+            nature de ces choses est d’être toujours en branle et remuement. Celestium natura, dit
+            le sage stoïque, semper in motu est, omnia volvuntur, semper in transitu sunt, et alium
+            de alio deferentur. Ainsi, il ne faut trouver étrange si les choses de ce monde se
+            remuent incessamment, ne font que passer et repasser.</p>
+        </sp>
+        <sp>
+          <speaker>Léandre</speaker>
+          <p>Oui monsieur, mais…</p>
+        </sp>
+        <sp>
+          <speaker>Pantalon</speaker>
+          <p>Il faut donc changer et varier quelquefois selon les occurrences et prendre à titre
+            honorable les reproches que l’on fit à Leontichidas lacédémonien d’être variable. « Oui,
+            dit-il, je veux changer, non par malice, mais pour m’accommoder à la diversité du temps.
+            » Or, puisque tous les éléments ne peuvent faire jouer leurs efforts sans quelque espèce
+            d’inconstances, il ne faut trouver étrange que l’homme qui en est composé n’en use
+            aussi.</p>
+        </sp>
+        <sp>
+          <speaker>Léandre</speaker>
+          <p>Oh, je n’y puis plus tenir. </p>
+          <stage type="saut">Il sort.</stage>
+        </sp>
+        <sp>
+          <speaker>Pantalon</speaker>
+          <p>Il n’est pas raisonnable que les yeux tournent <pb n="14"
+              facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_14.jpg"/>sans cesse et que la volonté
+            de l’homme demeure immobile. Il est à propos que la nature nettoie tout ce qu’elle a
+            engendré ou, étant vieux, qu’elle le renouvelle et rajeunisse, soit en laissant la
+            vieille peau et écorce comme les arbres et les serpents, ou chassant l’ordure par-dessus
+            comme le vin, ou par-dessous comme l’huile, ou par le milieu comme le miel, ou par
+            dedans comme les animaux, ou par les extrémités ou par dehors comme la mer, ou par
+            l’entour comme l’air.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>À qui parlez-vous, il est parti ?</p>
+        </sp>
+        <sp>
+          <speaker>Pantalon</speaker>
+          <p>Il a bien fait, aussi bien j’ai affaire.</p>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="12">Scène 12</head>
+        <listPerson>
+          <personGrp>
+            <name>[Arlequin, </name>
+            <name>Pierrot.]</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Arlequin,</speaker>
+          <stage type="pers"> (dans la coulisse)</stage>
+          <p>Ah faquin, je vous apprendrai à insulter les passants, ticque tacque ! Jarni, par la
+            mort, par la tête ! Assez ! Vous, laissez-moi, ventrebleu, ticque tacque ! Jarni, par la
+            mort, par la tête ! Assez ! Vous, laissez-moi, ventrebleu, ticque tacque ! Je vous
+            rangerai, coquin que vous êtes. </p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Quel tapage est-ce là ?</p>
+        </sp>
+        <sp>
+          <speaker>Arlequin</speaker>
+          <p>Où sont-ils ? Où sont-ils ? <stage type="corps"> (Les corsaires se sauvent.) </stage>
+            Quelle comédie jouons-nous là ?</p>
+        </sp>
+        <pb n="15" facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_15.jpg"/>
+        <stage type="saut">Le théâtre représente toujours le palais du gouverneur qui se sauve avec
+          sa suite en poussant des cris à l’arrivée d’Arlequin.</stage>
+      </div>
+      <div type="3">
+        <head type="scene" n="13">Scène 13</head>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <stage type="pers"> (chante)</stage>
+          <lg>
+            <l>D’où provient cette épouvante</l>
+            <l>Qui les fait fuir et pourquoi</l>
+            <l>C’est le diable je le crois</l>
+            <l>Oui c’est lui qui nous tourmente</l>
+            <l>Oui c’est lui-même ma foi,</l>
+            <l>Qui leur cause un tel effroi.</l>
+          </lg>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="14">Scène 14</head>
+        <stage type="saut">Les soldats emmènent les comédiens. Le théâtre présente un clos où on
+          laboure, un comédien et Pierrot à la charrue chantent.</stage>
+        <listPerson>
+          <personGrp>
+            <name>[Le Comédien, </name>
+            <name>Pierrot.]</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Le Comédien</speaker>
+          <p>Tire !</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Tire, toi, donc, aussi !</p>
+        </sp>
+        <sp>
+          <speaker>Le Comédien</speaker>
+          <p>Je ne peux pas le faire.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Tire par là.</p>
+        </sp>
+        <sp>
+          <speaker>Le Comédien</speaker>
+          <p>Toi par ici.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Tu fais tout le contraire.</p>
+        </sp>
+        <sp>
+          <speaker>Le Comédien</speaker>
+          <p>Ah ciel quelle punition !</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Et boute et haye et allons donc. </p>
+        </sp>
+        <sp>
+          <speaker>Le Comédien</speaker>
+          <p>Faut-il que l’on nous traite ainsi ?</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <lg>
+            <l>C’est la façon de barbarie, </l>
+            <l>Biribi mon ami.</l>
+          </lg>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="15">Scène 15</head>
+        <listPerson>
+          <personGrp>
+            <name>[Le Renégat, </name>
+            <name>Pierrot.]</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>J’ai fait consentir le gouverneur à revoir vos divertissements en supprimant les
+            masques. Arlequin a causé ce désordre, il l’a pris pour un esprit malin et l’a fait
+            mettre au cachot <pb n="16" facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_16.jpg"/>où
+            il est encore, il m’a dit : <stage type="corps">(Il chante.)</stage>
+          </p>
+          <lg>
+            <l>Voyez les comédiens, dites-leur pour nouvelle </l>
+            <l>Que je ne pense à rien et que je les rappelle </l>
+            <l>À leur faire du mal. Je n’ai point de penchant </l>
+            <l>Quand je connais le vrai. Je ne suis pas méchant.</l>
+          </lg>
+          <p>Comme on vous a dispersé, on va vous rassembler. On a placé vos femmes près le palais
+            où le gouverneur va les aller visiter.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Oh, il n’est que trop vrai, oui le diable s’en mêle.</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <stage type="pers"> (chante)</stage>
+          <lg>
+            <l>Pour avoir votre délivrance</l>
+            <l>Il ne veut pas votre bien</l>
+            <l>Il veut un peu de complaisance</l>
+            <l>Et je compte cela pour rien</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Mais à quoi aboutiront ses visites s’il les veut à ma femme. Il ne tient rien, je vous
+            en avertis.</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Je vous l’ai déjà dit, et je vous le répète, que si l’on peut lui plaire, vous êtes
+            assurés de leur liberté. Si au contraire, on ne fait pas ce qu’il souhaite : <stage
+              type="corps">(Il chante.)</stage>
+          </p>
+          <lg>
+            <l>Il aime par degré,</l>
+            <l>Mais aussi ce pirate</l>
+            <l>Ou de force ou de gré,</l>
+            <l>Sait dompter une ingrate, </l>
+            <l>Et zon, zon, zon</l>
+            <l>Il agit sans façon,</l>
+            <l>Jusqu’au revoir.</l>
+          </lg>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="16">Scène 16</head>
+        <stage type="saut">Les comédiennes arrivent.</stage>
+        <listPerson>
+          <personGrp>
+            <name>[Les Comédiennes et les Comédiens, </name>
+            <name>Pérette, </name>
+            <name>Pierrot.]</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Un Comédien</speaker>
+          <p>On nous a attelés, nous deux Pierrot, à une charrue, et l’on nous a fait travailler
+            comme deux bœufs.</p>
+        </sp>
+        <pb n="17" facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_17.jpg"/>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Ce n’est pas d’un bon augure : <stage type="corps">(Il chante.)</stage>
+          </p>
+          <lg>
+            <l>Ah, dieux ! que nous avons souffert</l>
+            <l>Et dans nos corps et dans nos âmes</l>
+            <l>Chargés de coups et chargés de fers.</l>
+            <l>Ah, dieux ! que nous avons souffert</l>
+            <l>Malgré tout je pensais à vous,</l>
+            <l>Et je craignais que cet infâme</l>
+            <l>Faisant labourer les époux,</l>
+            <l>Ne fissent piocher leurs femmes.</l>
+            <l>Pour toi ma chère épouse, tu es une égrillarde.</l>
+            <l>J’appréhende bien que le gouverneur ne t’en ait compté.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Pérette</speaker>
+          <stage type="pers"> (chante)</stage>
+          <lg>
+            <l>Ne craignez point un tel malheur,</l>
+            <l>J’aimerais mieux perdre la vie.</l>
+            <l>Je n’aime point le gouverneur,</l>
+            <l>Ne craignez point un tel malheur.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Oh ! je ne m’y fie pas.</p>
+        </sp>
+        <sp>
+          <speaker>Pérette</speaker>
+          <stage type="pers"> (chantant)</stage>
+          <lg>
+            <l>Ces doutes augmentent ma douleur,</l>
+            <l>Et vient saisir d’effroi mon âme.</l>
+            <l>Je suis comédienne, mon cœur,</l>
+            <l>Oui, mais je suis honnête femme.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Un autre Comédien</speaker>
+          <stage type="pers"> (parlant à sa femme)</stage>
+          <p>Le gouverneur vous a-t-il dit bien des douceurs ? </p>
+        </sp>
+        <sp>
+          <speaker>La Comédienne</speaker>
+          <p>Pas tant que tu le mériterais. Cet animal, au lieu de nous plaindre, il se moque de
+            nous.</p>
+        </sp>
+        <sp>
+          <speaker>Le Comédien</speaker>
+          <p>Comment vous plaindre ? Oh, je ne crois pas qu’il vous ait fait du mal.</p>
+        </sp>
+        <sp>
+          <speaker>La Comédienne</speaker>
+          <p>Tais-toi, cheval ! Tu es plus brutal que lui. Tenez <pb n="18"
+              facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_18.jpg"/>messieurs, ne sommes-nous
+            pas à plaindre après tout ce que nous avons fait pour la compagnie ? Il s’est approché
+            de moi avec un de ses officiers qui parlait français et qui servait d’interprète. Il m’a
+            demandé d’où j’étais et ma qualité. Je lui ai répondu : <stage type="corps"
+              >(chantant)</stage>
+          </p>
+          <lg>
+            <l>Nous suivons l’art de réprimer les vices</l>
+            <l>Au lieu de récompenser nos bienfaits.</l>
+            <l>Nous en punir, n’est-ce pas injustice ?</l>
+            <l>Même le plus grand de tous les forfaits.</l>
+          </lg>
+          <p>Il disait « bonne, bonne », il me voulait caresser, je priais l’interprète de lui faire
+            concevoir qu’un amant généreux devait commencer par nous rendre service. Il était sourd
+            à ses discours et s’approchant plus près de moi, je lui dis : <stage type="corps"
+              >(Chant)</stage>
+          </p>
+          <lg>
+            <l>Seigneur, il n’est pas concevable,</l>
+            <l>De laisser en captivité,</l>
+            <l>Celle que tu juges capable,</l>
+            <l>De faire ta félicité.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Un autre Comédien</speaker>
+          <p>Et toi ma femme, que t’est-il arrivé ?</p>
+        </sp>
+        <sp>
+          <speaker>La Comédienne</speaker>
+          <p>Ma foi rien, on ne fait ce qu’il veut ni ce qu’il dit. Il a voulu parler français mais
+            je n’y ai rien compris, sinon qu’il barbouillait toujours la marmotte. Tout ce que j’ai
+            entendu le mieux, il chantait, c’était la Magnotte. </p>
+        </sp>
+        <sp>
+          <speaker>Le Comédien</speaker>
+          <p>Et comment vous a-t-il quitté ?</p>
+        </sp>
+        <sp>
+          <speaker>La Comédienne</speaker>
+          <p>Fort brusquement.</p>
+        </sp>
+        <sp>
+          <speaker>Le Comédien</speaker>
+          <p>C’est faute de l’entendre.</p>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="17">Scène 17</head>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Je ne sais comment vos actrices ont agi avec le gouverneur, mais il ne se trouvera plus
+            à vos représentations qui ne <pb n="19"
+              facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_19.jpg"/>seront que pour sa cour. Je
+            saurai dans peu à quoi montera votre rançon, et vous le ferai savoir, car il n’y a plus
+            de liberté à espérer de ce côté-là.</p>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="18">Scène 18</head>
+        <listPerson>
+          <personGrp>
+            <name>[Le Comédien, </name>
+            <name>Le Renégat, </name>
+            <name>Pierrot.]</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Un Comédien</speaker>
+          <stage type="pers"> (chante)</stage>
+          <lg>
+            <l>Ma femme, dans ma patrie,</l>
+            <l>Inconstante et fort polie,</l>
+            <l>Produisait tout mon bonheur.</l>
+            <l>Dans les fers en barbarie,</l>
+            <l>Sa constance et sa folie,</l>
+            <l>Met le comble dans mon malheur.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>En vérité vous êtes fort à plaindre.</p>
+        </sp>
+        <sp>
+          <speaker>Le Comédien</speaker>
+          <p>Je crois que le parti que nous avons à prendre est d’écrire en France notre situation
+            et d’y faire surtout connaître la sagesse de nos femmes qui ont résisté aux
+            empressements du gouverneur.</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Écoutez et souvenez-vous de ce que je vais vous dire :</p>
+          <lg>
+            <l>Si vous écrivez à Paris,</l>
+            <l>Cachez la circonstance</l>
+            <l>Qui vous retient en ce pays.</l>
+            <l>Car en toute assurance,</l>
+            <l>Il n’est point de grands ni petits,</l>
+            <l>Qui ne s’en moque en France.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Vous avez quelque espèce de raison. Comme vous vous intéressez pour nous et que vous ne
+            manquez pas d’invention, ne pourriez vous pas nous tirer d’embarras ?</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Cela mérite un peu de réflexion.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Ça presse, nous amaigrissons furieusement ici.</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <stage type="pers"> (chante)</stage>
+          <lg>
+            <l>Je vous dirai tant et ce qu’il conviendra faire</l>
+            <l>Pour trouver le moyen de vous tirer d’affaire.</l>
+            <pb n="20" facs="18_F__LaPriseDUneTroupeDeComediens_FRA_BnF_20.jpg"/>
+            <l>Combien dans leur pays de gens se sont rendus</l>
+            <l>Après beaucoup de temps, que l’on croyait perdus.</l>
+            <l>Adieu.</l>
+          </lg>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="19">Scène 19</head>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Ce qu’il dit là peut bien être au moins ouï : <stage type="corps">(chante)</stage>
+          </p>
+          <lg>
+            <l>Cela se peut, rien en ceci</l>
+            <l>Ne parait extraordinaire.</l>
+            <l>Je sais qu’un homme de Paris,</l>
+            <l>En mer, fut pris par un corsaire.</l>
+            <l>Et lorsque l’on n’y pensait pas,</l>
+            <l>Il est revenu sur ses pas.</l>
+          </lg>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="10">Scène 20 </head>
+        <listPerson>
+          <personGrp>
+            <name>[Le Renégat, </name>
+            <name>Une Comédienne, </name>
+            <name>Pierrot.]</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>N’y a-t-il que vous ici avant que je m’explique ?</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Non.</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Il ne faut pas vous séparer. Tout est prêt pour votre fuit et la mienne.</p>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <p>Juste ciel ! Est-il possible ?</p>
+        </sp>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Cela est sûr, notre complot est fait avec un français esclave du gouverneur d’Alger et
+            son agent auprès de celui-ci , à qui il a demandé comme de la part de son maitre les
+            comédiens qui sont ici, disant qu’il serait charmé de voir ce qu’ils savent faire et
+            qu’il voulait les lui vendre. Il les achèterait. Notre patron qui veut lui en faire
+            présent m’a ordonné de faire apprêter un vaisseau pour vous embarquer sous ma conduite.
+            Ce vaisseau est en rade et nous attend à l’entrée de la nuit. Quand nous serons en mer,
+            vous verrez le reste de notre manœuvre. Je vais mener notre esclave au bâtiment et je
+            viens vous prendre.</p>
+        </sp>
+        <sp>
+          <speaker>Une Comédienne</speaker>
+          <lg>
+            <l>Fortune au nom de l’inconstance, </l>
+            <l>Qualité qui dépend de tous ! </l>
+            <l>Permettez que bientôt en France, </l>
+            <l>Ce vaisseau nous ramène tous.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Pierrot</speaker>
+          <stage type="pers"> (chante)</stage>
+          <lg>
+            <l>Faisons vœu d’aller en Bourgogne,</l>
+            <l>Pour sacrifier à Bacchus.</l>
+            <l>C’est la que buvant de son jus,</l>
+            <l>On se raccommode la trogne.</l>
+            <l>Et c’est un remède certain</l>
+            <l>Pour oublier notre chagrin.</l>
+          </lg>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="11">Scène dernière</head>
+        <listPerson>
+          <personGrp>
+            <name>[Le Renégat, </name>
+            <name> et tous les Comédiens.]</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Le Renégat</speaker>
+          <p>Allons mes enfants, mes chers camarades, l’étoile change, tout va bien, le vent est
+            favorable, il faut en profiter. </p>
+          <stage type="saut">(Chant)</stage>
+          <lg>
+            <l>Pour sortir d’esclavage,</l>
+            <l>Il faut monter à bord.</l>
+            <l>Heureux si le voyage</l>
+            <l>Nous conduit à bon port</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Tous ensemble</speaker>
+          <p>Et vogue la galère et la</p>
+        </sp>
+      </div>
+      <div type="5">
+        <head type="div5">Fin.</head>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,671 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="https://puppetplays.eu/en/oeuvres/16074/don-juan">Don Juan</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="PR">Paul Robert</name>
+          <resp>Transcription and edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="AM">Anaïs Malfatti</name>
+          <resp>Transcription</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor/>
+        <availability status="restricted">
+          <p>null</p>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>No one can escape from vice</note>
+        <note>Alexander von Bernus has fun inventing a sequel to Mozart's Don Giovanni:
+          the eponymous hero is carried off to hell at the opening of this 'moral scene with
+          an immoral epilogue'. The play, composed in verse, combines formal refinement with a
+          more bantering and even light-hearted tone in the treatment of the subject matter,
+          with the licencious aspects and the subtle eroticism of the motif - features
+          characteristic of the literary Jugendstil (secession or art nouveau style) that the
+          magazine Jugend [Youth], founded in 1896 by Georg Hirth and Fritz von Ostini, had imposed in
+          Munich at the turn of the century.</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>Not specified</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>Münchner Stadtmuseum. XSCH 54-62</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 20</p>
+                <p>Number of acts in the original document: 1</p>
+                <p>Format of the original document: Printed</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main">Don Juan</title>
+          <title type="sub">Eine moralische Scene mit einem unmoralischen Nachspiel</title>
+          <date>1907</date>
+          <author>
+            <persName>Bernus Alexander von</persName>
+            <idno type="IDREF">134862937</idno>
+          </author>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques">
+          <term source="https://puppetplays.eu/en/techniques-d-animation/2440/théâtre-dombres">Shadow theatre</term>
+        </keywords>
+        <keywords source="literaryTones">
+          <term>Satirical</term>
+          <term>Parodistic</term>
+          <term>Burlesque</term>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Epilogue</term>
+          <term>Allegory</term>
+          <term>Spying scene</term>
+          <term>Apparition</term>
+          <term>Light effects</term>
+          <term>Address to the public</term>
+          <term>Disguise</term>
+          <term>Story</term>
+        </keywords>
+        <keywords source="genre">
+          <term>Moralische Scene</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Seduction</term>
+          <term>Morality</term>
+          <term>Future punishment</term>
+          <term>Femme fatale</term>
+          <term>Vice</term>
+          <term>Secession</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+          Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+          re-evaluate the contribution of the puppets repertoire to the construction of
+          European cultural identity. Its main goals is to collect a corpus of
+          representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+          France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+          17th and the 21th century. It also tries to identify the characteristics of
+          puppet dramaturgy and their variations depending on eras, cultural spheres,
+          producing conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2021-01-01" who="#PR">Text transcription and encoding</change>
+      <change when-iso="2025-03-24" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+      <change when-iso="2025-04-08" who="#AM">Correction of the previous transcription according to the project's modernisation rules.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="1" facs="20_D_VON-BERNUS_DonJuan_ALL_MUN_003.jpg"/>
+      <docAuthor>
+        <persName>Alexander von Bernus</persName>
+      </docAuthor>
+      <docTitle>
+        <titlePart type="main">Don Juan</titlePart>
+        <titlePart type="sub">Eine moralische Scene mit einem unmoralischen Nachspiel von Alexander von Bernus</titlePart>
+      </docTitle>
+      <docDate>1907</docDate>
+      <pb n="2" facs="20_D_VON-BERNUS_DonJuan_ALL_MUN_004.jpg"/>
+      <pb n="3" facs="20_D_VON-BERNUS_DonJuan_ALL_MUN_005.jpg"/>
+      <castList>
+        <head type="personnage">[Figurenliste]</head>
+        <castItem>
+          <role>Don Juan</role>
+        </castItem>
+        <castItem>
+          <role>Donna Anna</role>
+        </castItem>
+        <castItem>
+          <role>Der Pfaffe</role>
+        </castItem>
+        <castItem>
+          <role>Der steinerne Gast</role>
+        </castItem>
+        <castItem>
+          <role>Der Teufel</role>
+          <roleDesc> in verschiedener
+                    Gestalt</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Die Tugend</role>
+        </castItem>
+        <castItem>
+          <role>Der Narr als Moralist</role>
+        </castItem>
+        
+      </castList>
+    
+      <set>
+        
+        <p>Park, Laubengang. Rechts und links stilisirte Bäume. Donna Anna tritt auf.
+                Don Juan ihr entgegen.</p>
+        
+      </set>
+    </front>
+    <body>
+      <div type="3">
+        <sp>
+          <speaker>Don Juan</speaker>
+          <lg>
+            <l>Lass uns Herrin hier verweilen,</l>
+            <l>lasst mich eure Nähe teilen,</l>
+            <l>ach ihr habt der Liebe Glut</l>
+            <l>angefacht in meinem Blut!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Donna Anna</speaker>
+          <lg>
+            <l>Don Juan, ihr seid galant.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Don Juan</speaker>
+          <lg>
+            <l>Lasst mich Herrin eure Hand</l>
+            <l>einmal eure Finger küssen,</l>
+            <l>sollt ich darum sterben müssen!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Donna Anna</speaker>
+          <lg>
+            <l>Will euch diese Gunst gewähren,</l>
+            <l>doch ihr dürft nicht mehr begehren.</l>
+          </lg>
+        </sp>
+        <pb n="4" facs="20_D_VON-BERNUS_DonJuan_ALL_MUN_006.jpg"/>
+        <sp>
+          <speaker>Don Juan</speaker>
+          <stage type="pers"> (vor ihr knieend, beteuernd)</stage>
+          <lg>
+            <l>Herrin ewiglich gehört</l>
+            <l part="I">euch mein Herz!</l>
+          </lg>
+          <stage type="saut">Ein Pfaffe wird Iauernd sichtbar.</stage>
+        </sp>
+        <sp>
+          <speaker>Donna Anna</speaker>
+          <lg>
+            <l part="M">Steht auf, man stört</l>
+            <l part="I">und belauert uns...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Don Juan</speaker>
+          <stage type="pers"> (ist aufgesprungen)</stage>
+          <lg>
+            <l part="M">Ein Pfaffe,</l>
+            <l>hol dich Pest und Tod, du Lasse!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Donna Anna</speaker>
+          <lg>
+            <l>Still mein Beichtger ist es, schwört</l>
+            <l>mir es zu ihn nicht zu kränken — </l>
+            <l>ach was wird er von mir denken!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Pfaffe</speaker>
+          <stage type="pers"> (näher tretend)</stage>
+          <lg>
+            <l>Meine Tochter, tief empört</l>
+            <l>hat der Anblick mich soeben:</l>
+            <l>Don Juan — und hingegeben</l>
+            <l>lag er vor dir auf den Knien!</l>
+            <l>Hüte dich und meide ihn</l>
+            <pb n="5" facs="20_D_VON-BERNUS_DonJuan_ALL_MUN_007.jpg"/>
+            <l>diesen Neid- und Unheilstifter,</l>
+            <l>reinen Mädchensinn-Vergifter,</l>
+            <l>diesen Glück- und Friedenstörer,</l>
+            <l>trügerischen Herzbetörer,</l>
+            <l>diesen Hass- und Zwietrachtschürer,</l>
+            <l>Schwester- Tochter- Brautverführer,</l>
+            <l>den Verderber edler Frauen,</l>
+            <l>hüte dich ihn anzuschauen!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Don Juan</speaker>
+          <lg>
+            <l>Pfaffe schweig! Sonst macht behende</l>
+            <l>deinem Wort mein Schwert ein Ende,</l>
+            <l>und vernimm so wahr ich bin!</l>
+            <l>Führe falsches ich im Sinn</l>
+            <l>gegen sie, hol auf der Stelle,</l>
+            <l>mich der Böse in die Hölle!</l>
+          </lg>
+          <stage type="saut">Fürchterlicher Donnerschlag. In roter Feuerglut erscheint der Steinerne Gast.
+                        Don Juan stürzt zu Boden.</stage>
+        </sp>
+        <sp>
+          <speaker>Don Juan</speaker>
+          <lg>
+            <l>Weh ich brenne! Blut und Flammen</l>
+            <l part="I">martern mich!</l>
+          </lg>
+        </sp>
+        <pb n="6" facs="20_D_VON-BERNUS_DonJuan_ALL_MUN_008.jpg"/>
+        <sp>
+          <speaker>Der steinerne Gast</speaker>
+          <stage type="pers"> (dumpf und schaurig)</stage>
+          <lg>
+            <l part="M">Mit Tod und Qualen</l>
+            <l>musst du deine Schuld bezahlen!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Don Juan</speaker>
+          <lg>
+            <l>Weh die Erde stürzt zusammen!</l>
+          </lg>
+          <stage type="saut">Der Steinerne Gast versinkt, mit ihm Don Juan. Tageslicht. Der Pfaffe beugt
+                        sich über Donna Anna, die in Ohnmacht gefallen ist.</stage>
+        </sp>
+        <sp>
+          <speaker>Der Pfaffe</speaker>
+          <lg>
+            <l>Meine Tochter, komm zu dir!</l>
+            <l>Sieh, schon öffnet sie die Lider,</l>
+            <l>das Bewusstsein kehrt ihr wieder.</l>
+            <l>Fort, es ist nicht gut sein hier,</l>
+            <l>denn der Himmel hat gerichtet.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Donna Anna</speaker>
+          <stage type="pers"> (sich mühsam aufrichtend)</stage>
+          <lg>
+            <l>Nehmt mich, ach ich bin vernichtet!</l>
+          </lg>
+          <stage type="saut">Der Pfaffe führt sie fort. Der Teufel erscheint.</stage>
+        </sp>
+        <sp>
+          <speaker>Der Teufel</speaker>
+          <lg>
+            <l>Hört nun was ich euch erzähle:</l>
+            <l>grade eben kommt die Seele</l>
+            <pb n="7" facs="20_D_VON-BERNUS_DonJuan_ALL_MUN_009.jpg"/>
+            <l>eines spanschen Edelmanns</l>
+            <l>des berühmten Don Juans</l>
+            <l>in die Hölle angesaust,</l>
+            <l>dass es selbst den Teufeln graust.</l>
+            <l>Alle Mädchen dort und Frauen,</l>
+            <l>die er in den Tod getrieben</l>
+            <l>durch Verrat und falsches Lieben,</l>
+            <l>flohen kreischend und mit Grauen,</l>
+            <l>als sie ihn so plötzlich nahen.</l>
+            <l>In Magnesium-Flamme nahen.</l>
+            <l>Der ist drunten wohl geborgen</l>
+            <l>und man wirds ihm schon besorgen.</l>
+            <l>Trotz der hohen Kohlenlöhne</l>
+            <l>wird für jede spröde Schöne,</l>
+            <l>die er droben schlau verführt,</l>
+            <l>ihm hier eigens eingeschürt,</l>
+            <l>was, je ärger man ihn röstet,</l>
+            <l>um so mehr die Tugend tröstet.—</l>
+            <l>Dieser ist nun abgehandelt,</l>
+            <l>doch der geile Pfaffe wandelt</l>
+            <l>noch auf Donna Annas Spur</l>
+            <l>in der heiteren Natur.</l>
+            <l>Muss mich mühn, dass ich ihn fange,</l>
+            <l>höllenreif ist er schon lange —</l>
+            <pb n="8" facs="20_D_VON-BERNUS_DonJuan_ALL_MUN_010.jpg"/>
+            <l>sieh da kommt er wie erbeten,</l>
+            <l>will ihm gleich entgegentreten</l>
+            <l>in Gestalt und Art und Zucht</l>
+            <l>Donna Annas die er sucht.</l>
+            <l>Fort! er darf mich nicht gewahren</l>
+            <l>ehe wir zur Hölle fahren.</l>
+          </lg>
+          <stage type="saut">Der Teufel verschwindet. Der Pfaffe kommt.</stage>
+        </sp>
+        <sp>
+          <speaker>Der Pfaffe</speaker>
+          <lg>
+            <l>Gott sei Dank für jedermann,</l>
+            <l>den verruchten Don Juan,</l>
+            <l>hat der Beelzebub geholt,</l>
+            <l>jetzt ist er wohl schon verkohlt.</l>
+            <l>Um so froher kann ich hoffen,</l>
+            <l>um so sicherer, denn offen</l>
+            <l>steht mir Donna Annas Tür,</l>
+            <l>Herr, wie lob ich dich dafür!</l>
+            <l>Desto leichter und getroster</l>
+            <l>werde ich sie überreden</l>
+            <l>einzutreten in das Kloster,</l>
+            <l>wo ich mit Behagen jeden</l>
+            <l>zweiten Tag die Beichte höre</l>
+            <l>und sie schnell für mich betöre. </l>
+            <pb n="9" facs="20_D_VON-BERNUS_DonJuan_ALL_MUN__011.jpg"/>
+            <l>Doch da kommt sie tief in Sinnen,</l>
+            <l>will sie gleich, und ganz gewinnen.</l>
+            <stage type="corps"> (Der Teufel als Donna Anna kommt. Der Pfaffe sie empfangend:)</stage>
+            <l>Meine Tochter, wie? Du trauerst</l>
+            <l>um den Wüstling? Du bedauerst</l>
+            <l>gar noch den, der sein Gebuhl</l>
+            <l>büßte mit dem Höllenpfuhl?</l>
+            <l>Ist dein Herz so sehr verwirrt?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Teufel</speaker>
+          <stage type="pers"> (als Donna Anna)</stage>
+          <lg>
+            <l>Ach Hochwürden, nein, ihr irrt,</l>
+            <l>es ist mehr die bittre Schmach</l>
+            <l>und der Schrecken wirkt noch nach.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Pfaffe</speaker>
+          <lg>
+            <l>Wohl ich kenne dich als züchtig,</l>
+            <l>deine Neigung war nur flüchtig,</l>
+            <l>und du wirst dich leicht bequemen</l>
+            <l>geistliches Gewand zu nehmen</l>
+            <l>und durch mich und weiter Keinen</l>
+            <l>dich dem Himmel zu vereinen.</l>
+            <l>Diesen Kuß, o Donna Anna,</l>
+            <l>nimm als erstes Himmels-Dianna.</l>
+          </lg>
+          <pb n="10" facs="20_D_VON-BERNUS_DonJuan_ALL_MUN_012.jpg"/>
+          <stage type="saut">Er küßt sie. Da fährt aus Donna Anna eine riesige Teufels-Faust hervor und es
+                        tönt eine fürchterliche.</stage>
+        </sp>
+        <sp>
+          <speaker>Stimme</speaker>
+          <lg>
+            <l>Pfaffe hab ich dich am Kragen!</l>
+            <l>Hast dich selbst mir angetragen,</l>
+            <l>bet dein letztes Stoßgebet.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Pfaffe</speaker>
+          <lg>
+            <l part="I">Büßen will ich!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Teufel</speaker>
+          <lg>
+            <l part="M">Ist zu spät.</l>
+            <l>Fort mit dir in grause Nacht!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Pfaffe</speaker>
+          <lg>
+            <l>Pest und Tod, das braust und kracht</l>
+            <l>und entzündet mein Gebe in!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Teufel</speaker>
+          <lg>
+            <l>Mit ins Feuermeer hinein!</l>
+            <stage type="corps"> (Verschwindet mit dem Pfaffen. Der Teufel kommt abermals.) </stage>
+            <l>Hui, der Pfaffe war ein Braten!</l>
+            <l>Als ich mit ihm anflog, fuhr</l>
+            <pb n="11" facs="20_D_VON-BERNUS_DonJuan_ALL_MUN_013.jpg"/>
+            <l>Don Juan dem kaum genahten</l>
+            <l>feuerrot in die Tonsur.</l>
+            <l>Wütend in der Asche wälzend</l>
+            <l>und die Felle sich verpetzend,</l>
+            <l>fluchend wie die ärgsten Heiden,</l>
+            <l>also ließ ich sie zurück.</l>
+            <l>Donna Anna kriegt zum Glück</l>
+            <l>aber keiner von den beiden,</l>
+            <l>denn ich selbst hab sie von vorn</l>
+            <l>und von hinten auf dem Korn.</l>
+            <l>Hier fällt eine List mir bei:</l>
+            <l>dass nun ich der Pfaffe sei,</l>
+            <l>wo doch jener ganz und gar</l>
+            <l>weggesegt mit Haut und Haar.</l>
+            <l>Keiner wird den Trug bemerken,</l>
+            <l>denn in Worten und in Werken</l>
+            <l>werde ich dem Pfaffen ähneln</l>
+            <l>und wie er die Weiber hähneln.</l>
+            <l>Donna Anna erst zu kirren,</l>
+            <l>diele Andre dann zu girren</l>
+            <l>wird zumal in solcher Tracht</l>
+            <l>mir besonders leicht gemacht.</l>
+            <l>Fertig ist der Plan — glückauf</l>
+            <l>zu dem neuen Teufelslauf!</l>
+          </lg>
+          <pb n="12" facs="20_D_VON-BERNUS_DonJuan_ALL_MUN_014.jpg"/>
+          <stage type="saut">Der Teufel verschwindet. Donna Anna kommt.</stage>
+        </sp>
+        <sp>
+          <speaker>Donna Anna</speaker>
+          <lg>
+            <l>Weh mir klopst das Herz noch immer!</l>
+            <l>Diesen Tag vergesse ich nimmer,</l>
+            <l>Don Juan in Teufels Krallen</l>
+            <l>ist der bösen Glut verfallen,</l>
+            <l>und ich Ärmste selber stand</l>
+            <l>schaudernd an der Hölle Rand.</l>
+            <l>Fast hätt mich der Schreck entleibt.—</l>
+            <l>Wo doch nur mein Beichtger bleibt?</l>
+            <l>Ich beschloß: in seine Hände</l>
+            <l>werde ich mein Schicksal legen,</l>
+            <l>ob er mich auch geistlich bände...</l>
+            <l>sich da kommt er mir entgegen!</l>
+          </lg>
+          <stage type="saut">Der Teufel als Pfaffe kommt.</stage>
+        </sp>
+        <sp>
+          <speaker>Der Teufel</speaker>
+          <stage type="pers"> (als Pfaffe)</stage>
+          <lg>
+            <l>Meine Tochter, so geknickt?</l>
+            <l>Trage was der Himmel schickt.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Donna Anna</speaker>
+          <lg>
+            <l>Ach es ist nicht dessentwegen.</l>
+          </lg>
+        </sp>
+        <pb n="13" facs="20_D_VON-BERNUS_DonJuan_ALL_MUN_015.jpg"/>
+        <sp>
+          <speaker>Der Teufel</speaker>
+          <stage type="pers"> (als Pfaffe)</stage>
+          <lg>
+            <l>Und was ist es? O empfände</l>
+            <l>einmal nur dein Herz für mich,</l>
+            <l>was das einige für dich!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Donna Anna</speaker>
+          <lg>
+            <l>Wie? Hochwürden, ihr vergesst...</l>
+            <l part="I">Solche Rede!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Teufel</speaker>
+          <stage type="pers"> (als Pfaffe)</stage>
+          <lg>
+            <l part="M">Nehmt und esst</l>
+            <l>Von dem Baume! Sprach die Schlange.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Donna Anna</speaker>
+          <lg>
+            <l>Weh, ihr macht mir beinah bange.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Teufel</speaker>
+          <stage type="pers"> (als Pfaffe)</stage>
+          <lg>
+            <l>Deine Hand, wie weiß und weich,</l>
+            <l>und dein Mund ein Himmelreich!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Donna Anna</speaker>
+          <lg>
+            <l>Ach ich flöhe gerne gleich,</l>
+            <l>und doch dünst mich: so gefielet</l>
+            <l>ihr mir besser als vordem,</l>
+            <pb n="14" facs="20_D_VON-BERNUS_DonJuan_ALL_MUN_016.jpg"/>
+            <l>und ihr gleicht, ich weiß nicht wem,</l>
+            <l>weiß auch nicht worauf ihr zielet.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Teufel</speaker>
+          <stage type="pers"> (als Pfaffe)</stage>
+          <lg>
+            <l>Auf dich selbst und deine Liebe!</l>
+          </lg>
+          <stage type="saut">Die Tugend erscheint, zum Erschrecken häßlich.</stage>
+        </sp>
+        <sp>
+          <speaker>Die Tugend</speaker>
+          <lg>
+            <l>Jungfrau, hüte deine Triebe</l>
+            <l>und bedenke deine Jugend!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Donna Anna</speaker>
+          <lg>
+            <l part="I">Scheusal, wer bist du?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Tugend</speaker>
+          <lg>
+            <l part="M">Die Tugend!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Teufel</speaker>
+          <stage type="pers"> (als Pfaffe)</stage>
+          <lg>
+            <l>Deine Tochter, lass sie stehn</l>
+            <l>und uns schleunig weitergehn</l>
+            <l>weg vom dieser Vogelscheuche.</l>
+            <l>Sie ist töricht und gemein,</l>
+            <l>denn sie füllt den neuen Wein</l>
+            <l>wieder in die alten Schläuche</l>
+            <l>und vermählt die dicken Bäuche,</l>
+            <pb n="15" facs="20_D_VON-BERNUS_DonJuan_ALL_MUN_017.jpg"/>
+            <l>alles will sie kitten leimen,</l>
+            <l>spricht in abgetretnen Reimen,</l>
+            <l>du hast es nun selbst gesehn.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Tugend</speaker>
+          <lg>
+            <l>Jungfrau, meide fliehe den!</l>
+            <l>Er verführt dich ohne Zweifel,</l>
+            <l>sieh dahinter steckt der Teufel.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Teufel</speaker>
+          <stage type="pers"> (als Pfaffe)</stage>
+          <lg>
+            <l>Teufel — Zweufel, au wie gräßlich!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Donna Anna</speaker>
+          <lg>
+            <l>Pfui. Wie ist die Tugend hässlich!</l>
+            <l>Zehnmal lieber übergebe</l>
+            <l>ich mich, auf dem Fleck dem Bösen</l>
+            <l>als dass ich der Tugend lebe,</l>
+            <l>nun ich sie hab kennen lernen</l>
+            <l>lasst uns eilig uns entfernen.</l>
+          </lg>
+          <stage type="saut">Der Teufel als Pfaffe mit Donna Anna ab.</stage>
+        </sp>
+        <sp>
+          <speaker>Die Tugend</speaker>
+          <lg>
+            <l>Eitles und verirrtes Wesen!</l>
+          </lg>
+        </sp>
+        <pb n="16" facs="20_D_VON-BERNUS_DonJuan_ALL_MUN_018.jpg"/>
+        <sp>
+          <speaker>Der Narr als Moralist</speaker>
+          <stage type="pers"> (tritt auf)</stage>
+          <lg>
+            <l>Arme Tugend kehre heim,</l>
+            <l>sinne auf den bessern Reim,</l>
+            <l>Schminke dich mit etwas Rot</l>
+            <l>für das nächste Aufgebot.</l>
+            <l>He, verstehst du, troll dich sort,</l>
+            <l>hier ist nicht für dich der Ort! —</l>
+            <stage type="corps"> (Die Tugend verschwindet.)</stage>
+            <l>Wenn ich jetzt die Szene schließe,</l>
+            <l>wird auch das Theater leer.</l>
+            <l>Dass ein Jeder umsomehr</l>
+            <l>liebe küsse und genieße,</l>
+            <l>der heut Nacht des Teufels ist,</l>
+            <l>wünscht der Narr als Moralist.</l>
+          </lg>
+        </sp>
+      </div>
+      <div type="5">
+        <head type="div5">Vorhang</head>
+      </div>
+    </body>
+  </text>
+</TEI>

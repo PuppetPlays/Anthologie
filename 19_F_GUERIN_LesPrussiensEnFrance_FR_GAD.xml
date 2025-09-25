@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="https://puppetplays.eu/en/oeuvres/112451/les-prussiens-en-france">Les Prussiens en France</title>
+            <respStmt>
+               <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+               <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Transcription and edition</resp>
+            </respStmt>
+            <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+            <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+            <funder>European Research Council - ERC</funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor/>
+            <availability status="free">
+               <licence>Public domain</licence>
+            </availability>
+            <idno type="DOI"/>
+         </publicationStmt>
+         <notesStmt>
+            <note>The brave hero triumphs over the enemies</note>
+            <note>The play deals with the Franco-Prussian War of 1870-1871. However, it
+               doesn’t tackle precise events: war is approached through stories on the cruelty of
+               the enemy and through a series of fights to the death. The
+               typewritten copy of the play, now kept in the Fonds Léopold Dor in the Musée des
+               Arts de la Marionnette-Musée Gadagne in Lyon, came after its composition, which
+               apparently dates back to the end of the 19th century. Badinguet (satirical nickname
+               given to Napoleon III) appears in the list of characters, but not in the text. On
+               the contrary, a Cantinière (Dinner Lady) appears in the play but not in the list of
+               characters. It is thus very likely that the play underwent several rewrittings, and
+               we can suppose that the typewritten copy was made during a performance, which would
+               explain its single-part layout, the use of abbreviations for the characters’ names,
+               and the many spelling mistakes. There is in the collection of the
+               Guérin family an anterior version of the play, Polichinelle et Pierrot
+               déserteurs (Polichinelle and Pierrot deserters), the events of which happen
+               before the War of 1870-1871.</note>
+         </notesStmt>
+         <sourceDesc>
+            <listPerson>
+               <personGrp role="audience">
+                  <p>Not specified</p>
+               </personGrp>
+            </listPerson>
+            <listBibl>
+               <msDesc>
+                  <msIdentifier>
+                     <repository>Collection Musées Gadagne - Ville de Lyon</repository>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <p>Number of pages in the original document: 5</p>
+                        <p>Number of acts in the original document: 2</p>
+                        <p>Format of the original document: Typewriting</p>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </listBibl>
+            <bibl>
+               <title type="main">Les Prussiens en France</title>
+               <date>End of 19th century (?)</date>
+               <author>
+                  <persName>Guérin André-Paul-Julien</persName>
+                  <idno type="IDREF">274969939</idno>
+               </author>
+               
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fra">French</language>
+         </langUsage>
+         <textClass>
+            <keywords source="animationTechniques">
+               <term source="https://puppetplays.eu/en/techniques-d-animation/521/glove-puppets">Glove-puppet</term>
+            </keywords>
+            <keywords source="literaryTones">
+               <term>Dramatic</term>
+               <term>Heroic</term>
+            </keywords>
+            <keywords source="theatricalTechniques">
+               <term>Comical foreign accent</term>
+               <term>Fight</term>
+               <term>Death on stage</term>
+               <term>Song</term>
+               <term>Hidden character</term>
+               <term>Apparition of the Devil</term>
+            </keywords>
+            <keywords source="genre">
+               <term>Pièce guerrière de Polichinélle</term>
+            </keywords>
+            <keywords source="keywords">
+               <term>War</term>
+               <term>Dead for the homeland</term>
+               <term>War crime</term>
+               <term>Female warrior</term>
+               <term>Conscription</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <normalization method="silent">
+               <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+               <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+               <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+               <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+            </normalization>
+            <punctuation marks="some">
+               <p>Punctuation has been corrected according to modern rules.</p>
+            </punctuation>
+         </editorialDecl>
+         <projectDesc>
+            <p>Text collected during the PuppetPlays project funded by European Union (Grant
+               Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+               re-evaluate the contribution of the puppets repertoire to the construction of
+               European cultural identity. Its main goals is to collect a corpus of
+               representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+               France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+               17th and the 21th century. It also tries to identify the characteristics of
+               puppet dramaturgy and their variations depending on eras, cultural spheres,
+               producing conditions, and the aimed public.</p>
+            <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+            <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+               Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+            </ref> licence. This license enables reusers to distribute, remix, adapt, and
+               build upon the material in any medium or format for non-commercial purposes
+               only, and only so long as attribution is given to the creator. If you remix,
+               adapt, or build upon the material, you must license the modified material under
+               identical terms. </p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when-iso="2024-01-01" who="#MSK">Transcription</change>
+         <change when-iso="2025-04-29" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <pb n="003" facs="19_F_GUERIN_LesPrussiensEnFrance_FR_GAD_003.JPG"/>
+         <docAuthor>
+            <persName>André-Paul-Julien Guerin</persName>
+         </docAuthor>
+         <docTitle>
+            <titlePart type="main">Les Prussiens en France</titlePart>
+            <titlePart type="sub">Pièce guérrière de Polichinél</titlePart>
+         </docTitle>
+         <docDate>Fin du 19e siècle</docDate>
+         <castList>
+            <head type="personnage">[Personnages]</head>
+            <castItem>
+               <role>Polichinél</role>
+            </castItem>
+            <castItem>
+               <role>Pierrot</role>
+            </castItem>
+            <castItem>
+               <role>Le Sergent</role>
+            </castItem>
+            <castItem>
+               <role>La Grenade</role>
+            </castItem>
+            <castItem>
+               <role>Le Général</role>
+            </castItem>
+            <castItem>
+               <role>Badinguet</role>
+            </castItem>
+            <castItem>
+               <role>Bismark</role>
+            </castItem>
+            <castItem>
+               <role>Le Roi Guillaume</role>
+            </castItem>
+         </castList>
+         <set><p>Accessoires : Maison, une paire de pistolets, quatre fusils, trois couteaux, une table, une bouteille, un cercueil.</p></set>
+      </front>
+      <body>
+         <div type="1">
+            <head type="acte">Acte I</head>
+            <listPerson>
+               <personGrp>
+                  <name>Polichinél, </name>
+                  <name>Pierrot</name>
+               </personGrp>
+            </listPerson>
+            <sp>
+               <speaker>Polichinél</speaker>
+               <stage type="pers">(seul)</stage>
+               <p>Que vas tu faire pauvre Polichinél, pas de travail, pas de crédit, pas un sou dans ma poche. Je suis perdu, pas un logement. Les Prussiens ont mis le feu dans ma pauvre maison. Que faire pauvre Polichinél ? J'ai envie de m'engager dans la ligne. Là je serais sûr de ne pas mourir de faim. Voilà deux jours que je n'ai pas mangé, ah ! Quel malheur, mon dieu, quel malheur ! Et si je pouvais encore trouver Pierrot, il pourrait peut-être me soulager... Ah ! Le voilà. C'est Dieu qui me l'envoie, adieu mon pauvre Pierrot. D'où sors-tu mon pauvre ami ?</p>
+            </sp>
+            <sp>
+               <speaker>Pierrot</speaker>
+               <p>Mon pauvre Polichinél, les Prussiens viennent de mettre le feu à mon moulin. Ils ont tué ma femme et mes enfants, je me suis défendu tant que j'ai pu. J'en ai tué trois mais <pb n="004" facs="19_F_GUERIN_LesPrussiensEnFrance_FR_GAD_004.JPG"/>les autres sont partis. Malheur aux Prussiens! Malheur ! Malheur aux Prussiens, et Polichinél que penses-tu de tout cela ?</p>
+            </sp>
+            <sp>
+               <speaker>Polichinél</speaker>
+               <p>Je pense que je boirais bien un bon coup, je meurs de soif et crève de faim.</p>
+            </sp>
+            <sp>
+               <speaker>Pierrot</speaker>
+               <p>Si tu veux m'en croire Polichinél, nous allons aller chez la Mère Bacanale, la grosse marchande de Vins du Coin, et là nous mangerons et nous boirons de bons coups.</p>
+            </sp>
+            <sp>
+               <speaker>Polichinél</speaker>
+               <p>Oui, oui, oui, oui ! Je meurs de faim.</p>
+            </sp>
+            <sp>
+               <speaker>Pierrot</speaker>
+               <p>Mais Polichinél, allons chercher nos fusils car les Prussiens pourraient bien nous faire avaler quelques pruneaux, qui pourraient nous donner la colique !</p>
+               <stage type="saut">Ils vont chercher les fusils.</stage>
+            </sp>
+            <sp>
+               <speaker>Polichinél</speaker>
+               <p>J'ai envie de m'engager au service militaire pour manger des pommes de terre, pour passer mon hiver, ça ferait bien mon affaire. Allons chez la Mère Bacanale.</p>
+               <stage type="saut">Ils partent. Arrivée du Sergent et de La Grenade.</stage>
+            </sp>
+            <sp>
+               <speaker>Le Sergent</speaker>
+               <p>Et bien La Grenade, comment trouves-tu que je te trouve ? Je crois que nous l'avons échappée belle, qu'en dis-tu ?</p>
+            </sp>
+            <sp>
+               <speaker>La Grenade</speaker>
+               <p>Oui mon Sergent, nous l'avons échappée car ces brigands là ne veulent pas nous laisser dormir tranquilles.</p>
+               <stage type="saut">Ils partent.</stage>
+            </sp>
+            <sp>
+               <speaker>Un Prussien</speaker>
+               <p>Man ne tarfél les Français ils être gachés par là. Nous allons voir ce que nous allons... <stage type="corps">(Cris de Polichinél, les Prussiens se sauvent.)</stage></p>
+            </sp>
+            <sp>
+               <speaker>Le Sergent</speaker>
+               <p>Mon ami La Grenade, tu vas monter la garde et ouvre l'oeil et le bon car ces maudits Prussiens n'épargnent rien. Je vais te donner le mot d'ordre et le mot de ralignement. Le mot d'orde c'est Paris et le mot de ralignement est Strasbourg. Tu crieras « Qui vive ? », si <pb n="005" facs="19_F_GUERIN_LesPrussiensEnFrance_FR_GAD_005.JPG"/>ils ne te répondent pas au bout de trois fois, feu et frappe sans miséricorde, du courage La Grenade ! Adieu.</p>
+            <stage type="saut">Ils s'embrassent.</stage>
+            </sp>
+            <sp>
+               <speaker>La Grenade</speaker>
+               <p>Moi pauvre soldat de 1870 et 1871, comme l'on te trompes. Nous nous battons, nous ne savons pas pourquoi, demandez aux soldats « Pour qui vous battez-vous ? », un vous répondra « Pour défendre mon pays », l'autre « Pour ma liberté », et bien moi je vais vous le dire nous nous sommes battus pour le Roi de Prusse, et voilà la vérité. Et nous nous battons pour le Roi de Prusse, attention au commandement, une deux une deux, à la voix du... <stage type="corps">(Il chante.)</stage></p>
+            <lg>
+               <l>À la voix du canon</l>
+               <l>D'alarme la France</l>
+               <l>Appelle ses enfants</l>
+               <l>Les soldats aux armes</l>
+               <l>C'est ma mère je la défends</l>
+               <l>Mourir pour la patrie, mourir pour la patrie</l>
+               <l>C'est le sort le plus beau, le plus digne d'envie !</l>
+               <l>C'est le sort le plus beau, le plus digne d'envie !</l>
+            </lg>
+            </sp>
+            <sp>
+               <speaker>Un Prussien</speaker>
+               <p>Man ne térfél carte tous le Français il être gaché par là.</p>
+               <stage type="saut">Il avance avec son fusil en tremblant.</stage>
+            </sp>
+            <sp>
+               <speaker>La Grenade</speaker>
+               <p>Qui vive, qui vive, qui vive !</p>
+            </sp>
+            <sp>
+               <speaker>Le Prussien</speaker><p>La Prusse !</p>
+            </sp>
+            <sp>
+               <speaker>La Grenade</speaker>
+               <p>Ah ! La Prusse ! Je vais t'en donner de la Prusse ! À nous deux ! <stage type="corps">(Grande bataille, La Grenade enfile le Prussien et le tient au bout de sa baïonnette.)</stage> Ah ! Quel bonheur de mourir pour sa patrie !</p>
+               <lg>
+                  <l>Mourir pour sa patrie</l>
+                  <l>Mourir pour sa patrie (etc.)</l>
+               </lg>
+               <p><stage type="corps">Deuxième Prussien. Grand combat entre La Grenade et le Prussien,<pb n="006" facs="19_F_GUERIN_LesPrussiensEnFrance_FR_GAD_006.JPG"/> La Grenade blessé.</stage>
+                  Moi, au secours ! Je suis perdu, l'on m'a assassiné. Je suis perdu, à moi !</p>
+               <stage type="saut">Le Prussien s'échappe. Arrivée de la Cantinière.</stage>
+            </sp>
+            <sp>
+               <speaker>[La Cantinière]</speaker>
+               <p>Ha pauvre La Grenade ! Buvez un coup, ça vous fera du bien. Ah ! Brigands de Prussiens qui viennent égorger nos enfants dans nos mains, La Grenade rentrez dans votre guérite et moi je me charge de vous venger. Mal'heur aux Prussiens ! <stage type="corps">(Elle prend la carabine et monte la garde.)</stage> Une deux, une deux. J'entends du bruit, il se cache le Prussien.</p>
+            <stage type="saut">Grande bataille, la Cantinière tue le Prussien, arrivée du Sergent et de Polichinél.</stage>
+            </sp>
+            <sp>
+               <speaker>[Polichinél]</speaker>
+               <p>Que faites vous là malheureuse ? Vous montez la garde, et La Grenade où est-il ? Le voilà, il est mort, non, mais il dort.</p>
+            </sp>
+            <sp>
+               <speaker>[La Cantinière]</speaker>
+               <p>Il est blessé, et moi je l'ai vengé, j'ai tué ce moricot, ce maudit Prussien.</p>
+            </sp>
+            <sp>
+               <speaker>Le Sergent</speaker>
+               <p>Je ferai mon rapport et vous serez décorée, et toi Polichinél tu vas monter la garde et ne les épargne pas, autrement mal'heur à toi. Voici le mot d'ordre et le mot de ralignement : Paris et Strasbourg.</p>
+            </sp>
+            <sp>
+               <speaker>Polichinél</speaker>
+               <p>C'est très bien. Courage.</p>
+            </sp>
+            <sp>
+               <speaker>Polichinél</speaker>
+               <stage type="pers">(seul)</stage>
+               <p>Non d'un petit bonhomme, je leur creverai la bredouille !  <stage type="corps">(Il chante.)</stage></p>
+               <lg>
+                  <l>J'ai du bon tabac dans ma tabatière</l>
+                  <l>J'ai du bon tabac, tu n'en auras pas !</l>
+                  <l>J'en ai du bon et du mauvais mais</l>
+                  <l>Ce ne sera pas pour ton fichu nez</l>
+                  <l>J'ai du bon tabac dans ma tabatière</l>
+                  <l>J'ai du bon tabac tu n'en auras pas !</l>
+               </lg><pb n="007" facs="19_F_GUERIN_LesPrussiensEnFrance_FR_GAD_007.JPG"/>
+               <p>Qui vive, rien. Qui vive, rien. Qui vive, rien.</p>
+            </sp>
+            <sp>
+               <speaker>[Prussien]</speaker>
+               <p>Prusse.</p>
+            </sp>
+            <sp>
+               <speaker>[Polichinél]</speaker>
+               <p>Ah ! Prussien du diable à nous deux !</p>
+               <stage type="saut">Grande bataille, coups de pistolets chargés à poudre. Arrivée de tous les Prussiens, grande bataille, mort de Prussiens. Arrivée du Roi Guillaume et de Bismark, mort de tous ces grands Prussiens. Le Diable qui emporte les Prussiens.</stage>
+            </sp>
+         </div>
+         <div type="5">
+            <head type="div5">Fin</head>
+         </div>
+      </body>
+   </text>
+</TEI>

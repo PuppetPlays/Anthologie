@@ -1,0 +1,821 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="https://puppetplays.eu/en/oeuvres/165793/polichinelle">Polichinelle</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Transcription and edition</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Google Books</distributor>
+        <availability status="free">
+          <licence>Public domain</licence>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>The hero gets rid of anyone standing in his way</note>
+        <note>Eugénie Foa’s novel Mémoires d’un polichinelle starts with
+          the tale of two children who, on New Year’s Eve, stop in front of a Polichinelle
+          puppet booth. The second chapter, written as a theatrical text, is a transcription
+          of the play: it is a somehow faithful rewriting of the show that was performed with
+          glove-puppets in open-air puppet booths, for example in Paris on the Champs-Élysées,
+          since the end of the 18th century. This version can be compared with that published
+          by Jules Rémond two years before, or with that of the anonymous collection Les
+          Grotesques.</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>Young audiences</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>National library of Naples. LP 8043</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 26</p>
+                <p>Number of acts in the original document: 2</p>
+                <p>Format of the original document: Printed</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main">Polichinelle</title>
+          <date>1840</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="">French</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques">
+          <term source="https://puppetplays.eu/en/techniques-d-animation/521/glove-puppets">Glove-puppet</term>
+        </keywords>
+        <keywords source="literaryTones">
+          <term>Comical</term>
+          <term>Farcical</term>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Song</term>
+          <term>Fight</term>
+          <term>Blow-with-a-stick</term>
+          <term>Death on stage</term>
+          <term>Comedy of language</term>
+          <term>Apparition of the Devil</term>
+          <term>Hanging scene</term>
+        </keywords>
+        <keywords source="genre">
+          <term>Drame en deux actes et en prose</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Attack</term>
+          <term>Wickedness</term>
+          <term>Cruelty</term>
+          <term>Cheekiness</term>
+          <term>Disobedience</term>
+          <term>Punishment</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+          Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+          re-evaluate the contribution of the puppets repertoire to the construction of
+          European cultural identity. Its main goals is to collect a corpus of
+          representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+          France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+          17th and the 21th century. It also tries to identify the characteristics of
+          puppet dramaturgy and their variations depending on eras, cultural spheres,
+          producing conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+          Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+          build upon the material in any medium or format for non-commercial purposes
+          only, and only so long as attribution is given to the creator. If you remix,
+          adapt, or build upon the material, you must license the modified material under
+          identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2025-03-01" who="#MSK">Text transcription and encoding.</change>
+      <change when-iso="2025-09-19" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="1" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_01.png"/>
+      <pb n="2" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_02.png"/>
+      <docAuthor>
+        <persName>Eugénie Foa</persName>
+      </docAuthor>
+      <docTitle>
+        <titlePart type="main">[Polichinelle]</titlePart>
+        <titlePart type="sub">Chapitre II</titlePart>
+      </docTitle>
+      <docDate>1840</docDate>
+      <docEdition>Drame en deux actes et en prose. </docEdition>
+      <castList>
+        <head type="personnage">[Personnages]</head>
+        <castItem>
+          <role>Polichinelle, </role>
+        </castItem>
+        <castItem>
+          <role>Le Cabaretier, </role>
+        </castItem>
+        <castItem>
+          <role>Sa Femme, </role>
+        </castItem>
+        <castItem>
+          <role>Le Commissaire, </role>
+        </castItem>
+        <castItem>
+          <role>Le Gendarme, </role>
+        </castItem>
+        <castItem>
+          <role>Le Bourreau, </role>
+        </castItem>
+        <castItem>
+          <role>Et le Diable.</role>
+        </castItem>
+      </castList>
+     
+      <set>
+        <p>La toile se lève ; le théâtre représente des promenades délicieuses, des jardins avec
+               des jets d’eau ; sur le côté droit de la scène on voit un cabaret avec cette enseigne
+               : au bon lapin ! Tout à coup, du fond de la salle part un cri perçant, strident et
+               étrange ; c’est la voix de Polichinelle, et qu’on ne s’y trompe pas, Polichinelle<pb n="3" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_03.png"/> a une voix qui
+               n’appartient personne, qui n’est qu’à lui, et la preuve, mes enfants, c’est que
+               souvent vous avez entendu votre papa, votre maman ou votre bonne, dire : Ce monsieur
+               a une voix de Polichinelle. Or, si Polichinelle n’avait pas une voix, on ne dirait
+               pas ça.</p>
+      </set>
+    </front>
+    <body>
+      <div type="1">
+        <head type="acte" n="1">[Acte I]</head>
+        <div type="3">
+          <head type="scene" n="2">Scène 1</head>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <stage type="pers"> (entrant en scène)</stage>
+            <p>Rouic... ic... ic... ic. bi bi bi. Rouic qui, qui, qui ; qui. Bi, bi, bi, bi,
+                     bi, bi, bi, bi, etc., etc. </p>
+            <stage type="saut">Il chante ces paroles sur l’air : « Malbrouck s’en va-t-en
+                     guerre ».</stage>
+          </sp>
+        </div>
+        <div type="3">
+          <head type="scene" n="2">Scène 2</head>
+          <listPerson>
+            <personGrp>
+              <name>Polichinelle, </name>
+              <name>le Cabaretier.</name>
+            </personGrp>
+          </listPerson>
+          <sp>
+            <speaker>Le Cabaretier</speaker>
+            <stage type="pers"> (salue Polichinelle)</stage>
+            <p>Bonjour, monsieur Polichinelle. </p>
+          </sp>
+          <pb n="4" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_04.png"/>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <stage type="pers"> (lui donne un coup de bâton) </stage>
+            <p>Rouic, quic, quic, ic...</p>
+          </sp>
+          <sp>
+            <speaker>Le Cabaretier</speaker>
+            <stage type="pers"> (salue) </stage>
+            <p>J’ai l’honneur de saluer monsieur Polichinelle. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <stage type="pers"> (lui donne un second coup de bâton) </stage>
+            <p>Rouic... ic... ic. </p>
+          </sp>
+          <sp>
+            <speaker>Le Cabaretier</speaker>
+            <stage type="saut">En colère s’élance sur Polichinelle, lui saisit son bâton, et
+                     se met à frapper ; mais celui-ci esquive le coup. Quand le cabaretier frappe à
+                     droite, Polichinelle est à gauche qui rit et crie : Rouic... quic... quic...
+                     Quand le cabaretier frappe à gauche, Polichinelle est à droite, qui lui fait
+                     les cornes ; enfin Polichinelle impatienté ressaisit le bâton et frappe le
+                     cabaretier avec une telle furie, que le cabaretier tombe mort ; Polichinelle
+                     recommence son Rouic... quic... quic... sur l’air de : « La victoire est à moi
+                     ! »</stage>
+          </sp>
+        </div>
+        <pb n="5" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_05.png"/>
+        <div type="3">
+          <head type="scene" n="3">Scène 3</head>
+          <listPerson>
+            <personGrp>
+              <name>Polichinelle, </name>
+              <name>le Cabaretier mort, </name>
+              <name>sa Femme.</name>
+            </personGrp>
+          </listPerson>
+          <sp>
+            <speaker>La Femme</speaker>
+            <p>Monsieur Polichinelle, pourriez-vous me donner des nouvelles de mon petit mari
+                     ? </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle </speaker>
+            <stage type="pers"> (lui donne un coup de bâton) </stage>
+            <p>Voilà pour ton petit mari. </p>
+          </sp>
+          <sp>
+            <speaker>La Femme</speaker>
+            <p>Fi donc, monsieur Polichinelle, pour un homme qui a reçu de l’éducation... </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <stage type="pers"> (l’interrompant avec un autre coup de bâton) </stage>
+            <p>Voilà pour ton éducation.</p>
+          </sp>
+          <sp>
+            <speaker>La Femme</speaker>
+            <stage type="pers"> (aperçoit son mari mort, et se jette sur son corps en poussant
+                     des cris lamentables) </stage>
+            <p>Mon petit mari, mon Giblolin, reviens à la vie, c’est ton épouse, ton Éléonore,
+                        <pb n="6" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_06.png"/>la mère de
+                     tes moutards, qui t’appelle, entends ma voix... Oh ! là ! là ! là... Qui mettra
+                     les chats en gibelotte désormais, si tu n’es plus, mon petit mari...? </p>
+            <stage type="saut">Le cabaretier, qui est mort, ne répond rien ; son épouse
+                     désolée le prend dans ses bras et rentre avec lui dans le cabaret à l’enseigne
+                     du Bon Lapin.</stage>
+          </sp>
+        </div>
+        <div type="3">
+          <head type="scene" n="4">Scène 4</head>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <stage type="pers"> (seul)</stage>
+            <stage type="saut">Il chante son Rouic... quic... en se promenant sur la scène,
+                     son redoutable bâton â la main. </stage>
+          </sp>
+        </div>
+        <div type="3">
+          <head type="scene" n="5">Scène 5</head>
+          <listPerson>
+            <personGrp>
+              <name>Polichinelle, </name>
+              <name>le Commissaire</name>
+              <stage type="pers"> (avec l’écharpe tricolore et une superbe paire de
+                        moustaches)</stage>
+            </personGrp>
+          </listPerson>
+          <sp>
+            <speaker>Le Commissaire</speaker>
+            <p>Bonjour, monsieur Polichinelle. </p>
+          </sp>
+          <pb n="7" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_07.png"/>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Qui diable êtes-vous ? </p>
+          </sp>
+          <sp>
+            <speaker>Le Commissaire</speaker>
+            <p>Vous ne me connaissez pas ? </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Ni envie de vous connaître. </p>
+          </sp>
+          <sp>
+            <speaker>Le Commissaire</speaker>
+            <p>Il faudrait pourtant que nous fassions connaissance ensemble, car vous avez tué
+                     je ne sais combien de personnes.</p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Si vous ne le savez pas, il faut aller l’apprendre.</p>
+          </sp>
+          <sp>
+            <speaker>Le Commissaire</speaker>
+            <p>D’abord, qui est-ce qui a tué l’homme d’en face ? </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Qu’est-ce que cela vous fait ? Cela ne vous regarde pas. </p>
+          </sp>
+          <pb n="8" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_08.png"/>
+          <sp>
+            <speaker>Le Commissaire</speaker>
+            <p>Je veux savoir qui a tué cet homme d’en face. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>C’est moi ! Eh bien ; après, êtes-vous content ? </p>
+          </sp>
+          <sp>
+            <speaker>Le Commissaire</speaker>
+            <p>Alors tu vas aller en prison, et tu seras pendu. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Je n’irai pas. </p>
+          </sp>
+          <sp>
+            <speaker>Le Commissaire</speaker>
+            <p>Tu iras. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Pourquoi irais-je ? </p>
+          </sp>
+          <sp>
+            <speaker>Le Commissaire</speaker>
+            <p>Parce que tu as tué le cabaretier. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Qui vous l’a dit ? </p>
+          </sp>
+          <pb n="9" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_09.png"/>
+          <sp>
+            <speaker>Le Commissaire</speaker>
+            <p>Toi.</p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Moi ? </p>
+          </sp>
+          <sp>
+            <speaker>Le Commissaire</speaker>
+            <p>Oui, toi. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Et vous l’avez cru ? </p>
+          </sp>
+          <sp>
+            <speaker>Le Commissaire</speaker>
+            <p>Sans doute. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Vous êtes un fameux Nicodème, de croire ainsi tout ce qu’on vous dit ; je l’ai
+                     dit pour rire. </p>
+          </sp>
+          <sp>
+            <speaker>Le Commissaire</speaker>
+            <p>Chansons que tout cela ! </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Ah ! vous voulez des chansons ? Aimez-vous cet air-là ? </p>
+            <stage type="saut">Il lui donne des coups de bâton.</stage>
+          </sp>
+          <sp>
+            <speaker>Le Commissaire</speaker>
+            <stage type="pers"> (se sauvant et toujours poursuivi par Polichinelle qui tape
+                     sans relâche) </stage>
+            <p>Au meurtre ! Au meurtre ! À l'assassin ! Au voleur ! Au feu ! </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Ah ! vous aimez les chansons ; j’en sais sur tous les tons, sur le haut, et sur
+                     le bas ton... </p>
+            <stage type="saut">Le commissaire parvient à trouver la porte, et se
+                     sauve.</stage>
+          </sp>
+        </div>
+        <div type="3">
+          <head type="scene" n="6">Scène 6</head>
+          <listPerson>
+            <personGrp>
+              <name>Polichinelle</name>
+              <stage type="pers"> seul, un moment après </stage>
+              <name>le Gendarme.</name>
+            </personGrp>
+          </listPerson>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Rouic... qui... qui... ic... </p>
+          </sp>
+          <sp>
+            <speaker>Le Gendarme</speaker>
+            <p>Quel bruit vous faites, monsieur Polichinelle ! </p>
+          </sp>
+          <pb n="10" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_10.png"/>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Je suis fâché que cela vous déplaise ; à moi, ça me plaît. </p>
+          </sp>
+          <sp>
+            <speaker>Le Gendarme</speaker>
+            <p>Je suis le gendarme ! </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Qui est-ce qui vous dit le contraire ? </p>
+          </sp>
+          <sp>
+            <speaker>Le Gendarme</speaker>
+            <p>Et je viens pour vous conduire dans une demeure où vous serez en sûreté. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Merci, je n’ai pas donné congé chez moi. </p>
+          </sp>
+          <sp>
+            <speaker>Le Gendarme</speaker>
+            <p>Soyez tranquille, monsieur Polichinelle ; là où je vais vous conduire, vous
+                     n’aurez pas de loyer à payer. </p>
+          </sp>
+          <pb n="11" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_11.png"/>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Vous êtes un plaisant personnage ! Est-ce que j’en paye jamais ?</p>
+          </sp>
+          <sp>
+            <speaker>Le Gendarme</speaker>
+            <p>Assez causé, et marchez. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Et si j’aime mieux causer que marcher ? </p>
+          </sp>
+          <sp>
+            <speaker>Le Gendarme</speaker>
+            <p>Alors je vais vous faire causer sur un autre ton.</p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Aimez-vous celui-ci ?... Rouic... qui... qui... ic... </p>
+            <stage type="saut">Il donne des coups de bâton au gendarme qui appelle ; trois
+                     autres gendarmes arrivent, se jettent sur Polichinelle, lui arrachent son
+                     bâton, le garrottent et l’emmènent. Polichinelle fait entendre un Rouic...
+                     désespéré. </stage>
+          </sp>
+        </div>
+      </div>
+      <div type="1">
+        <pb n="12" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_12.png"/>
+        <head type="acte" n="2">Acte II</head>
+        <div type="3">
+          <head type="scene" n="1">Scène 1</head>
+          <stage type="saut">La toile se lève ; on voit une prison et Polichinelle en prison.
+                  Le bourreau, avec la mine rébarbative, arrive ; il porte une potence garnie d’une
+                  corde à nœuds, qu’il plante sur la scène, puis il va ouvrir la porte de la prison
+                  de Polichinelle. </stage>
+          <listPerson>
+            <personGrp>
+              <name>Le Bourreau, </name>
+              <name>Polichinelle.</name>
+            </personGrp>
+          </listPerson>
+          <sp>
+            <speaker>Le Bourreau</speaker>
+            <p>Bonjour, monsieur Polichinelle, comment vous portez-vous ? </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <stage type="pers"> (tremblant) </stage>
+            <p>Bien, monsieur, et vous-même ? </p>
+          </sp>
+          <sp>
+            <speaker>Le Bourreau</speaker>
+            <p>Eh !... Ça ne va pas mal, monsieur Polichinelle ; l’appétit est bon. </p>
+          </sp>
+          <pb n="13" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_13.png"/>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Madame votre épouse se porle-t-elle bien ? </p>
+          </sp>
+          <sp>
+            <speaker>Le Bourreau</speaker>
+            <p>Très-bien. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Et vos enfants ? </p>
+          </sp>
+          <sp>
+            <speaker>Le Bourreau</speaker>
+            <p>Parfaitement, à l’exception de mon dernier qui fait les dents, de mon aîné qui
+                     a la coqueluche, de mon second qui s’est cassé hier la jambe, et de mon
+                     troisième qui se meurt d’une indigestion de galette. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Et les autres ? </p>
+          </sp>
+          <sp>
+            <speaker>Le Bourreau</speaker>
+            <p>Je n’en ai pas d’autres. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Tout cela me fait bien plaisir et redouble l’estime que je vous porte. </p>
+          </sp>
+          <pb n="14" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_14.png"/>
+          <sp>
+            <speaker>Le Bourreau</speaker>
+            <p>Moi aussi je vous estime certes beaucoup, mais faites-moi donc le plaisir
+                     d’avancer un peu, monsieur Polichinelle ; nous avons une petite affaire à
+                     terminer ensemble. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Je n’aime pas les affaires, parlez-en à mon épouse. </p>
+          </sp>
+          <sp>
+            <speaker>Le Bourreau</speaker>
+            <p>Celle-ci vous concerne un peu particulièrement, venez donc prendre l’air. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>J’ai peur des rhumes. </p>
+          </sp>
+          <sp>
+            <speaker>Le Bourreau</speaker>
+            <p>Celui-ci ne vous enrhumera pas... approchez donc.</p>
+            <stage type="saut">Voyant que Polichinelle ne vient pas, le bourreau va le
+                     chercher dans sa prison et le force à venir sur le devant de la scène.</stage>
+          </sp>
+          <pb n="15" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_15.png"/>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <stage type="pers"> (affectant une gaieté bien éloignée de son cœur) </stage>
+            <p>Rouic... qui... qui... ic. </p>
+          </sp>
+          <sp>
+            <speaker>Le Bourreau</speaker>
+            <p>À nous deux, maintenant ; mon cher monsieur Polichinelle, vous allez me faire
+                     l'amitié de passer votre tête dans ce nœud !... Quel beau nœud ! Est-il fait
+                     assez proprement. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Et après ?... </p>
+          </sp>
+          <sp>
+            <speaker>Le Bourreau</speaker>
+            <p>Après, je le serrerai très proprement encore.</p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Et après ?... </p>
+          </sp>
+          <sp>
+            <speaker>Le Bourreau</speaker>
+            <p>Et après ?... Dame ! Vous serez étranglé, mon cher monsieur Polichinelle. </p>
+          </sp>
+          <pb n="16" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_16.png"/>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Et très proprement aussi, je le suppose ? </p>
+          </sp>
+          <sp>
+            <speaker>Le Bourreau</speaker>
+            <p>De cela je m’en flatte ; ... allons, monsieur Polichinelle, faites les choses
+                     de bonne grâce, et mettez votre tête là ! </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Voyons, ne me cauchemardez pas davantage, mon bon ami ; quand je vous dis que
+                     je ne vous comprends pas ! </p>
+          </sp>
+          <sp>
+            <speaker>Le Bourreau</speaker>
+            <stage type="pers"> (ouvrant le nœud)</stage>
+            <p>Passez votre tête là, monsieur Polichinelle ! </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <stage type="pers"> (mettant la tête à droite du nœud) </stage>
+            <p>Là? </p>
+          </sp>
+          <sp>
+            <speaker>Le Bourreau</speaker>
+            <stage type="pers"> (montrant toujours l’ouverture) </stage>
+            <p>Non, là ! </p>
+          </sp>
+          <pb n="17" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_17.png"/>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <stage type="pers"> (mettant la tête à gauche du nœud) </stage>
+            <p>Alors là ?</p>
+          </sp>
+          <sp>
+            <speaker>Le Bourreau</speaker>
+            <p>Eh non ! C’est pourtant bien facile ce que je vous dis, monsieur Polichinelle.
+                  </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Pas si facile, puisque je ne comprends pas ; si c’est si facile, faites-le
+                     vous-même ! </p>
+          </sp>
+          <sp>
+            <speaker>Le Bourreau</speaker>
+            <stage type="pers"> (avec candeur et bonhomie) </stage>
+            <p>Je ne demande pas mieux : tenez, vous voyez bien cette boucle faite avec la
+                     corde ? On met, comme cela, la tête dedans.</p>
+            <stage type="saut">Il passe la tète dans la boucle.</stage>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <stage type="pers"> (serrant le nœud) </stage>
+            <p>Et on serre le nœud, je comprends parfaitement maintenant, et puis vous <pb n="18" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_18.png"/>êtes étranglé ;
+                     bonsoir la compagnie. Rouic... qui... qui... ic... Rouie... qui... Rui... ic </p>
+            <stage type="saut">Il saute, il danse sur le corps du bourreau étranglé.</stage>
+          </sp>
+        </div>
+        <div type="3">
+          <head type="scene" n="2">Scène 2</head>
+          <listPerson>
+            <personGrp>
+              <name>Polichinelle, </name>
+              <name>un Inconnu </name>
+              <stage type="pers">(avec une langue de feu, les pieds et les mains
+                        fourchus)</stage>
+            </personGrp>
+          </listPerson>
+          <sp>
+            <speaker>L'Inconnu</speaker>
+            <stage type="pers"> (saluant.) </stage>
+            <p>Bonjour, monsieur Polichinelle ! </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <stage type="pers"> (gaiement) </stage>
+            <p>J’ai bien l’honneur de vous saluer, monsieur... </p>
+          </sp>
+          <sp>
+            <speaker>L'Inconnu</speaker>
+            <p>Est-ce que vous ne me reconnaissez pas, monsieur Polichinelle ? </p>
+          </sp>
+          <pb n="19" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_19.png"/>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Ça me serait un peu difficile, monsieur, puisque je n’ai jamais eu l’honneur de
+                     vous voir. </p>
+          </sp>
+          <sp>
+            <speaker>L'Inconnu</speaker>
+            <p>Je suis le Diable, monsieur. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Enchanté de faire votre connaissance, monsieur... Qu’y a-t-il pour votre
+                     service ?</p>
+          </sp>
+          <sp>
+            <speaker>Le Diable</speaker>
+            <p>Monsieur, vous avez tué beaucoup de monde. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Si je les avais tous tués, ce serait la fin du monde, monsieur. </p>
+          </sp>
+          <sp>
+            <speaker>Le Diable</speaker>
+            <p>N’avez-vous rien à vous reprocher, monsieur Polichinelle ? </p>
+          </sp>
+          <pb n="20" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_20.png"/>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p> Rien, monsieur le Diable, pas la plus petite chose, je vous assure.</p>
+          </sp>
+          <sp>
+            <speaker>Le Diable</speaker>
+            <p>On dit pourtant que vous avez tué le cabaretier d’en face... </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Bast, monsieur, une plaisanterie... Mauvaise, je l’avoue, mais qui enfin, après
+                     tout, ne vaut pas la peine de faire du chagrin à un honnête homme pour une
+                     misère comme celle-là. </p>
+          </sp>
+          <sp>
+            <speaker>Le Diable</speaker>
+            <p>Vous avez battu sa femme... </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Une femme battue, monsieur le Diable, vous le savez, il y a toujours plus de
+                     bruit que de mal. </p>
+          </sp>
+          <sp>
+            <speaker>Le Diable</speaker>
+            <p>Oui, mais vous avez tué un commissaire avec votre bâton. </p>
+          </sp>
+          <pb n="21" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_21.png"/>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Je vous livre le bâton, monsieur. </p>
+          </sp>
+          <sp>
+            <speaker>Le Diable</speaker>
+            <p>De plus vous avez encore étranglé le bourreau.</p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Ah ! ça c’était son état.</p>
+          </sp>
+          <sp>
+            <speaker>Le Diable</speaker>
+            <p>Son état était d’étrangler les autres, et non d’être étranglé, monsieur
+                     Polichinelle.</p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Ça s’appelle jouer sur les mots, monsieur le Diable ; et pourvu qu’il y eût
+                     quelqu’un d’étranglé, c’était tout ce que voulait la police.</p>
+          </sp>
+          <sp>
+            <speaker>Le Diable</speaker>
+            <p>Enfin, monsieur Polichinelle, vous ne pouvez pas vous le dissimuler, vous êtes
+                     un assassin. </p>
+          </sp>
+          <pb n="22" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_22.png"/>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>C’est vrai, monsieur le Diable. </p>
+          </sp>
+          <sp>
+            <speaker>Le Diable</speaker>
+            <p>Vous êtes un voleur, un menteur, un gourmand, un débauché, un ivrogne, un
+                     tapageur, un émeutier. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <stage type="pers"> (en soupirant) </stage>
+            <p>C’est vrai, monsieur le Diable ; que voulez-vous ? L’homme n’est pas parfait.
+                     Polichinelle non plus. </p>
+          </sp>
+          <sp>
+            <speaker>Le Diable</speaker>
+            <p>Faites vos adieux à ce monde, monsieur Polichinelle, je viens pour vous
+                     emporter. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Votre courtoisie me plaît infiniment, monsieur le Diable, mais je me trouve
+                     bien où je suis, et j’y reste.</p>
+          </sp>
+          <pb n="23" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_23.png"/>
+          <sp>
+            <speaker>Le Diable</speaker>
+            <p>Désolé de vous contrarier, mais je suis chargé de vous conduire en enfer. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Bernique ! Il y fait trop chaud. </p>
+          </sp>
+          <sp>
+            <speaker>Le Diable</speaker>
+            <p>Vous y serez en ma compagnie, et en celle d’autres diables de ma famille, tous
+                     charmés ainsi que moi de faire votre connaissance. </p>
+          </sp>
+          <sp>
+            <speaker>Polichinelle</speaker>
+            <p>Ah çà, voulez-vous bien me laisser tranquille, et ne pas me cauchemarder plus
+                     longtemps ? Tenez, voilà pour vous</p>
+            <stage type="corps"> (il lui donne un coup de bâton sur la tête, le diable ne
+                     remue pas)</stage>
+            <p>, voilà pour votre père, voilà pour votre mère, voilà pour vos frères, voilà
+                     pour vos sœurs, voilà pour vos oncles, voilà pour vos tantes, voilà pour vos
+                     cousins, voilà pour vos cousines, voilà pour toute votre famille. </p>
+            <stage type="saut">Le diable reçoit tous les coups de bâton sans <pb n="24" facs="19_F_FOA_MemoireDUnPolichinelle_FRA_IA_24.png"/>sourciller, puis il
+                     profite d’un moment où Polichinelle reprend haleine, pour se jeter sur lui, lui
+                     arracher son bâton, et de sa main de feu saisissant celle de Polichinelle, il
+                     l’entraîne au fin fond des enfers.</stage>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

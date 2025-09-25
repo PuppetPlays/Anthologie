@@ -1,0 +1,1019 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="https://puppetplays.eu/oeuvres/245937/politicks-in-miniature">Politicks in Miniature</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CD">Cécile Decaix</name>
+          <resp>Transcription and edition</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor ref="https://books.google.fr/books?id=yHZZAAAAcAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false">Google Books</distributor>
+        <availability status="free">
+          <licence>Public domain</licence>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>Un membre du gouvernement démissionne</note>
+        <note>Politicks in Miniature (la politique en miniature) fait la
+          satire de l’homme politique Robert Walpole qui, à la tête de la Chambre des
+          Communes, jouait un rôle similaire à celui de Premier ministre. Le texte a été
+          imprimé dans un numéro du Westminster Journal de 1741, de façon
+          anonyme, et son auteur n'a pas pu être identifié. L’avant-propos
+          qui précède le texte utilise la métaphore répandue du theatrum mundi
+          qui compare le monde à une scène de théâtre. Ici, le gouvernement est représenté
+          comme une troupe de théâtre de marionnettes dont Punch est à la tête. Le personnage
+          qu’il incarne rappelle Robert Walpole, l'homme politique du parti Whig
+          (conservateur). L’intrigue se situe dans un contexte politique bien particulier et
+          reflète la chute de Walpole. En 1741, lors des élections générales britanniques, le
+          gouvernement Walpole est affaibli, même s’il conserve une mince majorité. L’année
+          suivante, Walpole se voit contraint de poser sa démission suite à une motion de
+          censure qui renverse son gouvernement. La pièce a été mise en scène à
+          Londres, au Old Theatre près de Pall Mall, avec de grandes marionnettes
+          ("rich and large figures"). Dans la plupart des éditions, le texte
+          de Politicks in Miniature est suivi d'une arlequinade elle aussi
+          satirique, The Political Rehearsal - Harlequin Le Grand : Or, the Tricks of
+          Pierrot le Primier (sic), mais celle-ci semble plutôt destinée à des
+          acteurs.</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>Non spécifié</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>British Library. 1486.b.14</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 15</p>
+                <p>Number of acts in the original document: 5</p>
+                <p>Format of the original document: Imprimé</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main"
+            ref="https://books.google.fr/books?id=yHZZAAAAcAAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false">Politicks in Miniature</title>
+          <title type="sub">Or, the Humours of Punch's Resignation</title>
+          <title type="alt">The State Puppet-Show: called the Humours of Punch's
+            Resignation.</title>
+          <date>1741</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="">Anglais</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques">
+          <term source="https://puppetplays.eu/techniques-d-animation/1217/marionnette-à-tringle-et-fils">Marionnette à tringle et à fils</term>
+        </keywords>
+        <keywords source="literaryTones">
+          <term/>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Annonce publique</term>
+          <term>Allusion à l'actualité politique</term>
+          <term>Scène de complot</term>
+          <term>Accent étranger comique</term>
+          <term>Épilogue</term>
+        </keywords>
+        <keywords source="genre">
+          <term>A Tragi-Comi-Farcical-Operatical Puppet-Show. With a new scene of Punch's Levee,
+            and the surprising metamorphosis of his puppets</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Complot</term>
+          <term>Politique</term>
+          <term>Manipulation</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+          Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+          re-evaluate the contribution of the puppets repertoire to the construction of
+          European cultural identity. Its main goals is to collect a corpus of
+          representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+          France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+          17th and the 21th century. It also tries to identify the characteristics of
+          puppet dramaturgy and their variations depending on eras, cultural spheres,
+          producing conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+          Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+          build upon the material in any medium or format for non-commercial purposes
+          only, and only so long as attribution is given to the creator. If you remix,
+          adapt, or build upon the material, you must license the modified material under
+          identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2025-09-18" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+      <change when-iso="2024" who="#CD">Transcription and encoding of the text.</change>
+      <change when-iso="2025-07-01" who="#MSK">Encoding revision.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="1" facs="18__GB_PoliticksInMiniature_ENG_BL_01.jpg"/>
+      <docTitle>
+        <titlePart type="main">Politicks in Miniature : Or, The Humours of Punch’s
+          Resignation.</titlePart>
+      </docTitle>
+      <docEdition>Anon., Politicks in Miniature. London: J. Mechell</docEdition>
+      <docDate>1741</docDate>
+      <pb n="2" facs="18__GB_PoliticksInMiniature_ENG_BL_02.jpg"/>
+      <!-- <docEdition>A Tragi-Comi-Farcical-Operatical Puppet-Show. With A New Scene of Punch’s
+                Levee, and the Surprising Metamorphosis of his Puppets. To which is added, <em>The
+                    Political Rehearsal. Harlequin Le Grand : Or, the Tricks of Pierrot le
+                    Primier.</em> With <em>The Cheats and Adventures of Punchinello, Mezotin,
+                    Scaramouch, Pantaloon, and others.</em> Being, A Tragi-Comi-Pantomimical
+                Performance Of two acts. In which are introduced A heroic scene of femal honour, and
+                a Very majestic pantomime scene of kicking. The whole interspersed with, Patriots,
+                chorus of patriots ; courtiers, chorus Of courtiers ; songs ; observations, critical
+                and Political. </docEdition>
+                <div>
+                <p>Taken from the Westminster journal of March 20, 1741-42, Oct. 30, and Nov. 6,
+                    1742. </p>
+                <p>From my lodgings in Spring-Gardens.</p>
+                <lg>
+                    <l><foreign xml:lang="la">Totus Mundus agit Histrionem – Ligneum</foreign></l>
+                    <l><foreign xml:lang="lat">Totus Mundus agit Histrionem – Ligneum</foreign></l>
+                </lg>
+                <p>That all the world is a stage-play, and all men are merely players, is a
+                    reflection as just as it is common. The similitude may be carried farther, by
+                    comparing it to a farce, in which the scenes have more of the ridiculous ; and,
+                    I think, yet farther, if we fall in the sentiments of my following
+                    correspondent, who sent me a scene of a puppet-show/ - I can say no more of
+                    where it was performed, or who are the <foreign xml:lang="lat">dramatis
+                        personae</foreign>, than Mr. Gay explains of the Secret History of
+                    What-d’ye-call-it,</p>
+                <lg>
+                    <l>There is a meaning in it, and no doubt </l>
+                    <l>You all have sense enough to find it out.</l>
+                </lg>
+
+            </div>-->
+      <castList>
+        <head type="personnage">[Cast list</head>
+        <castItem>
+          <role>Master,</role>
+        </castItem>
+        <castItem>
+          <role>Punch,</role>
+        </castItem>
+        <castItem>
+          <role>The Red Puppet,</role>
+        </castItem>
+        <castItem>
+          <role>Puppet Carlo,</role>
+        </castItem>
+        <castItem>
+          <role>Staunch,</role>
+        </castItem>
+        <castItem>
+          <role>Puppat Lawn,</role>
+        </castItem>
+        <castItem>
+          <role>Puppet Freeman,</role>
+        </castItem>
+        <castItem>
+          <role>Puppet Merit,</role>
+        </castItem>
+        <castItem>
+          <role>Puppet Winni,</role>
+        </castItem>
+        <castItem>
+          <role>Puppet H—ce,</role>
+        </castItem>
+        <castItem>
+          <role>Puppet Y—,</role>
+        </castItem>
+        <castItem>
+          <role>Captain Caledon,</role>
+        </castItem>
+        <castItem>
+          <role>Mr English,</role>
+        </castItem>
+        <castItem>
+          <role>Mr Worcester,</role>
+        </castItem>
+        <castItem>
+          <role>Puppet Will's wife]</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="1">
+        <pb n="3" facs="18__GB_PoliticksInMiniature_ENG_BL_03.jpg"/>
+        <head type="titre">Politics in Miniature:</head>
+        <div type="3">
+          <head type="scene" n="1">Scene 1</head>
+          <head type="nameS">Master of the puppet-show and Punch</head>
+          <sp>
+            <speaker>Master</speaker>
+            <p>Vhat, Master Punch, make you in such passion ?</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Z—ns ! All the puppets are in confederacy against me. — There are plots ; — plots in
+              the State, Sir.</p>
+          </sp>
+          <sp>
+            <speaker>Master</speaker>
+            <p>Plots ! Vhat you call plots, Master Punch ?</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>I’ll tell you what I call plots. — You know I have been the hero of the stage for
+              twenty years : I have acted the principal parts, I have diverted the public with
+              several ingenious pranks, made heroic and witty speeches, knocked down those puppets
+              that affronted me, kicked those off the stage that contradicted me, introduced those
+              that complimented me. This have I reigned, with distinguished lustre, at the head of
+              your company of wooden politicians.</p>
+          </sp>
+          <sp>
+            <speaker>Master</speaker>
+            <p>Vary vell, Master Punch, but vere be dis grand plot ? You have often talked of de
+              plat, and de plot, but vere be dis plot ?</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>There are parties formed against me, and some of the puppets have been bold enough to
+              say that I should not be at the head of the c[o]mpany any longer.</p>
+          </sp>
+          <sp>
+            <speaker>Master</speaker>
+            <p>Be dis de plot ! — Dis is only against <stage type="corps">you</stage>. I tought
+              against <stage type="corps">me</stage> dat it was laid by mine puppets.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Why, have I not told you [a] hundred times, that is the very same thing. Witness ye
+              Gods ! That through my sides they strike at you : they look on all my actions as
+              yours, they know I move and have my being from you, and whatever part I play, it is
+              with <stage type="corps">your</stage> consent.</p>
+          </sp>
+          <pb n="4" facs="18__GB_PoliticksInMiniature_ENG_BL_04.jpg"/>
+          <sp>
+            <speaker>Master</speaker>
+            <p>Very true. But if I command you to <stage type="corps">say dis</stage>, or <stage
+                type="corps">do dat</stage>, shall rascally damned puppets contradict me ? Don’t dey
+              know dat I hold de strings dat move dem about on de stage ? Dat it is I speak what you
+              s[p]eak out ? Dat —</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>But, Sir, they say that they have felt a new kind if inspiration ; and that some God,
+              or other, has endued them with new faculties and powers, and that they can speak and
+              act upon new principles. Therefore, in the scenes they now play, you are to look on
+              them not as mere pieces of wood, but as real characters.</p>
+          </sp>
+          <sp>
+            <speaker>Master</speaker>
+            <p>Oh ! Ho ! —Den dat — (vat you call !)— dat inspiration be de plot. And all mine
+              puppet in dis plot ?</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>No, no : I have a strong party, as you will see soon. If you will sit down here
+              behind the screen, you shall see such scenes played among your puppets, as will be an
+              arrant droll.</p>
+          </sp>
+          <sp>
+            <speaker>Master</speaker>
+            <p>And who move de strings all dis time ?</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>You are not to imagine them wooden figures. Be a spectator of real representation,
+              and I will begin the farce. — Whenever you think proper of speaking with us, it must
+              be behind the screen. — </p>
+          </sp>
+          <stage type="saut">Exit</stage>
+          <sp>
+            <speaker>Master</speaker>
+            <p>—Vary vell ! — Mine show house is full of spectators : the curtain draws up, and —ha
+              ! Ha ! Enter Master Punch for de prologue.</p>
+          </sp>
+          <stage type="saut">Enter Punch</stage>
+          <sp>
+            <speaker>Punch</speaker>
+            <lg>
+              <l>Britons attend ! — nor haughtily disdain, </l>
+              <l>To view the actions of out mimic scene ; </l>
+              <l>A group of various characters it brings, </l>
+              <l>All statesmen, and all moved by secret springs. </l>
+              <l>In fiction’s guise we real truths rehearse ; </l>
+              <l>The world, and the world’s rulers prove a farce : </l>
+              <l>Nor statesmen, dare our statesmen here despise ; </l>
+              <l>As you they’re honest, and as you they’re wise. </l>
+              <l>But, laying tragic rants aside, you see </l>
+              <l>The comic her[o] of the show in me. </l>
+              <l>In me behold him who never had his fellow, </l>
+              <l>Enabled by the title Punchinello.</l>
+              <pb n="5" facs="18__GB_PoliticksInMiniature_ENG_BL_05.jpg"/>
+              <l>Long over the stage I’ve bore tyrannic sway, </l>
+              <l>And made the puppet herd power obey ; </l>
+              <l>I blustered, laughed, swore, swaggered, kicked, and then, </l>
+              <l>In humblest mood I took some kicks again. </l>
+              <l>But now behold me in an odder station, </l>
+              <l>Playing the farce of statesman’s resignation, </l>
+              <l>A scene I still shall do less good than hurt in, </l>
+              <l>Then bid you kiss my —, and drop the curtain.</l>
+            </lg>
+          </sp>
+          <stage type="saut">Exit Punch</stage>
+          <sp>
+            <speaker>Master</speaker>
+            <p>O rare Punch, dat vas admirably vel spoke. —Now de scene opens with Punch’s puppets.
+              Dere be de Cockade puppets, de Blue, de Green, de Red, de Black and Vite — Vat you
+              call dis scene, Master Punch ?</p>
+          </sp>
+          <stage type="saut">Scene discovers Punch at his levee of puppets.</stage>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>This is the levee. — Though there is though to be much art required to play this
+              scene, it is not more than a woman of common beauty does every day in the drawing
+              room.</p>
+            <stage type="saut">Song</stage>
+            <lg>
+              <l>The Coquette, encircled round </l>
+              <l>With the fops she deigns to wound, </l>
+              <l>Shows the wisdom of the fair, </l>
+              <l>Smiling here, and ogling there ; </l>
+              <l>Raising hope, by kindly glancing ; </l>
+              <l>Seeming favours now advancing ; </l>
+              <l>All in turns expect the blessing ; </l>
+              <l>All insured of the possessing : </l>
+              <l>But the sly maid, at Love’s true call, </l>
+              <l>To some fond creature of her heart, </l>
+              <l>Who most she thinks can love impart, </l>
+              <l>Glad gives her hand, and jilts them all. </l>
+              <l>Like the art of the Coquette, </l>
+              <l>Is our conduct in the State ; </l>
+              <l>Circled by a hundred round, </l>
+              <l>Hundred little arts are found ; </l>
+              <l>Here by bowing, there assuring ; </l>
+              <l>Here by whipping, there alluring ;</l>
+              <pb n="6" facs="18__GB_PoliticksInMiniature_ENG_BL_06.jpg"/>
+              <l>All expect the favour granted ; </l>
+              <l>All sure of the place they wanted, </l>
+              <l>But find, mistaken in their friend, </l>
+              <l>The Stateman never favour gave, </l>
+              <l>But like the woman to the slave, </l>
+              <l>Who best he thought could serve his end.</l>
+            </lg>
+            <p>This has been my maxim from my coming into power, and I will retain it to my going
+              out of it. Among all these there may not be five but may wish me hanged, if it was not
+              their interest to have me at the head of them – and that can’t be long ; therefore I
+              must manage them with all the art I am master of.</p>
+          </sp>
+          <stage type="saut">Punch comes from the side scene towards the puppets, bowing very low to
+            them, and they all with many cringes return the compliment.</stage>
+          <sp>
+            <speaker>Punch</speaker>
+            <stage type="pers">(to a red puppet)</stage>
+            <p>I don’t remember, Sir, ever to have seen you <stage type="corps">here</stage>
+              before.</p>
+          </sp>
+          <sp>
+            <speaker>Puppet</speaker>
+            <p>No, Sir, my command in the army prevented me : as I was a Lieutenant-Colonel of a
+              Regiment, I thought it was my duty to be with it, while my Colonel was attending your
+              Honour, and the business of P—rl—t.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>I suppose then, good Sir, you have now a seat in the House, and have left the command
+              to the Major, or senior Captain, or Brigadier, or Sub-Brigadier, or —or—somebody or
+              other.</p>
+          </sp>
+          <sp>
+            <speaker>Puppet</speaker>
+            <p>No, Sir, I have no seat in the House : my affair is this. My Colonel is dead : I have
+              been Lieutenant Colonel above thirty years, and in the service near fifty : I am come
+              to solicit for this vacant Regiment, as my long and faithful services to my King and
+              country may plead in my favour. </p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Service to you King and country, Sir ? — What services, Sir ? — Why you have no seat
+              in the House, Sir :—I thought you might have had a seat in the House, I can’t do
+              anything in your affair, Sir. — Nay, I don’t know but the Regiment is disposed of.
+                —<stage type="corps">(Turns his heel from him.)</stage>Ask for a Regiment, and no
+              member : the fellow’s mad sure !<stage type="corps">To a Ducal Puppet at his
+                elbow</stage>
+            </p>
+          </sp>
+          <pb n="7" facs="18__GB_PoliticksInMiniature_ENG_BL_07.jpg"/>
+          <sp>
+            <speaker>The Red Puppet</speaker>
+            <stage type="saut">retiring</stage>
+            <lg>
+              <l>This is just as I was told. </l>
+              <l>Hence vile reproach sullies the soldier’s fame, </l>
+              <l>And as corruption’s minion brands his name : </l>
+              <l>Rough, and experienced in war’s honoured art, </l>
+              <l>Their tongue unguileful, and unstained their heart, </l>
+              <l>Our fathers served their country and their King ; </l>
+              <l>But modern G—n’ r—ls modern talents bring : </l>
+              <l>Hence Vice our honest soldier’s fame destroys, </l>
+              <l>Ensigns are Senators, and G—n’ R—ls Boys.</l>
+            </lg>
+          </sp>
+          <stage type="saut">Exit</stage>
+          <sp>
+            <speaker>Punch</speaker>
+            <stage type="saut">to a puppet with a star on his breast.</stage>
+            <p>And does your Grace really think of going into the army ?</p>
+          </sp>
+          <sp>
+            <speaker>Puppet M</speaker>
+            <p>I am determined on it. — I will be a soldier.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>A soldier ! No, no, your grace shall be no soldier. — you shall be a General. — There
+              is a regiment luckily just vacant.— I have been solicited for it, but — I am glad I
+              have an opportunity to offer it your Grace.</p>
+          </sp>
+          <sp>
+            <speaker>Puppet</speaker>
+            <p>I am your Honour’s most humble, and most obedient servant. —I shall endeavour to
+              return the favour. </p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>I don’t doubt it. <stage type="corps">(To another puppet.)</stage> O ! Your servant,
+              Mr Staunch. — A word with you. —I don’t know what to do about what you requested of me
+              —for—</p>
+          </sp>
+          <sp>
+            <speaker>Puppet</speaker>
+            <p>For what ? I am surprised at any demurs : I never asked anything for myself. — I
+              could not have thought after the services I have done you such a trifle —</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Don’t mistake me : I recommended your son to the board for a Fifty-Gun Ship, but was
+              answered he had not been a Lieutenant above a year : — What could I s[a]y ?</p>
+          </sp>
+          <sp>
+            <speaker>Puppet</speaker>
+            <p>What you would have said had you had a mind it should be done.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Well, Mr Staunch, I would not have you out of humour : your son shall be commissioned
+              as you desire : you shall be convinced of it now. <stage type="corps">(Calls a
+                puppet.)</stage> Chevalier Carolo, Mr Staunch’s son is, I hear, a very pretty fellow
+              in the Navy : is there any Fifty-Gun Ship vacant ?</p>
+          </sp>
+          <pb n="8" facs="18__GB_PoliticksInMiniature_ENG_BL_08.jpg"/>
+          <sp>
+            <speaker>Puppet Carolo</speaker>
+            <p>Not at present ; but we shall commission some next week for that secret expedition
+              you talked of.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>O ! very well : give Mr Staunch the first Fifty-Gun Ship you name.</p>
+          </sp>
+          <sp>
+            <speaker>Puppet Carolo</speaker>
+            <p>It shall be done.</p>
+          </sp>
+          <sp>
+            <speaker>Staunch</speaker>
+            <p>I thank your Honour ; I knew your Honour’s power if you would exert it.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>You’ll be at the House, Staunch ; we shall have warm work.</p>
+          </sp>
+          <sp>
+            <speaker>Staunch</speaker>
+            <p>Never doubt me, your Honour’s servant.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Plague on it, here comes a right R—vr—d Dun, which of all court duns is the most
+              troublesome and insatiable.</p>
+          </sp>
+          <sp>
+            <speaker>Puppet Lawn</speaker>
+            <p>I beg your Honour’s pardon for not waiting on you as soon as I came from my diocese
+              but I have been laid up with a fit of the gout.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>French wine and champagne, my Lord, have strange effects, ho ! ho ! ho !</p>
+          </sp>
+          <sp>
+            <speaker>Puppet Lawn</speaker>
+            <p>Your Honour pleases to be merry, but in truth this election affair did compel me to
+              exceed a little : I love, if I serve my friend, to serve him with spirit and
+              truth.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Then you serve your friend better than you do your G—. <stage type="corps"
+                >(Aside)</stage> I hear, my Lord, that you remarkably distinguished yourself by your
+              zeal.</p>
+          </sp>
+          <sp>
+            <speaker>Puppet Lawn</speaker>
+            <p>Sir, I exercised my pastoral authority over my flock, and dispersed circular letter
+              to order them how they should vote : I have been threatened by the faction on this
+              account, but I esteem myself safe enough under your Honour’s protection.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>My Lord, you have not much to apprehend : some silly fellows may indeed say that you
+              did not act becoming a member of the Church, that you were one of my tools, that you
+              were a mercenary priest, and that your robes ought to be striped over your ears.
+              Perhaps too you may be obliged to ask somebody pardon on your knees. But what’s all
+              this ? When ‘tis over you may bid them all kiss your a—.</p>
+          </sp>
+          <sp>
+            <speaker>Puppet Lawn</speaker>
+            <p>Ha ! ha ! ha ! Your Honour’s witty. <pb n="9"
+                facs="18__GB_PoliticksInMiniature_ENG_BL_09.jpg"/> —But, please your Honour, I have
+              news to tell you. — My Lord of —, who, you know, was of the other Party, was given
+              over this morning by his physicians. I am sorry for my brother of — : he was a good
+              sort of a man, but had not a right way of thinking it politics.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>And pray what honest fellow do you know of to succeed him.</p>
+          </sp>
+          <sp>
+            <speaker>Puppet Lawn</speaker>
+            <p>Why, —Umph ! —Why, —ha ! ha ! ha ! — Your Honour knows that See is two thousand a
+              year more than mine. — If your Honour thinks me a tolerably honest fellow. —Ha ! ha !
+              ha ! —I know your Honour likes a joke.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>I’ll tell you, my Lord, whoever has that B—ck, must make a free-will offering of five
+              thousand pounds to a certain female saint. If your Lordship’s orthodoxy can allow this
+              this Saint Worship, I shall. Think you an honest fellow enough. </p>
+          </sp>
+          <sp>
+            <speaker>Puppet Lawn</speaker>
+            <stage type="pers">(to himself)</stage>
+            <p>Five thousand for two thousand a year : —two years and a half pays the purchase
+              money. — I am forty-six ; —may live twenty or thirty years longer : — say seventy :
+              —that’s twenty-four : —that’s twenty-eight thousand pounds for five. —Please your
+              Honour your Saint may be assured of my devotion and offering.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>And you of the B—k.<stage type="corps">(Aside)</stage> Well, this will buy Polly a
+              pair of earrings. Oh ! Your servant, Mr Freeman, I did not see you before : have you
+              been with P—x—n ?</p>
+          </sp>
+          <sp>
+            <speaker>Puppet Freeman</speaker>
+            <p>Yes, please your Honour.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>And he has given you those papers of hints and instructions ?</p>
+          </sp>
+          <sp>
+            <speaker>Puppet Freeman</speaker>
+            <p>Yes, Sir.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Pray take care and write stronger : lash those factious tumultuous set of fellows,
+              the C—t-zens of L—n : lay about you as if you were [i]n earnest.</p>
+          </sp>
+          <sp>
+            <speaker>Puppet Freeman</speaker>
+            <p>I shall obey your honour’s commands.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>I have given P—-x—n a draught of fifteen hundred pounds for you : but out of it you
+              must give <pb n="10" facs="18__GB_PoliticksInMiniature_ENG_BL_10.jpg"/> the fellow a
+              hundred, who wrote the letter to a Member of Parliament. </p>
+          </sp>
+          <sp>
+            <speaker>Puppet Freeman</speaker>
+            <p>I will, Sir. —Damn your temper. — <stage type="corps">(Aside)</stage> Even in your
+              extravagance you can’t forbear your old trick of quartering.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Have you any business with me, Sir ? Or is this only a visit of compliment ?</p>
+          </sp>
+          <sp>
+            <speaker>Puppet</speaker>
+            <p>Sir, my name is Merit.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Merit ! Merit ! — I don’t know you. </p>
+          </sp>
+          <sp>
+            <speaker>Puppet</speaker>
+            <p>I was recommended to you by Doctor Galen.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Oh ! You are the Cambridge man that is going to print some learned expensive
+              work.</p>
+          </sp>
+          <sp>
+            <speaker>Puppet</speaker>
+            <p>Which I hope to have the honour to inscribe to your patronage.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Sir, these works of learning are of no use to me : I must be excused, you may find a
+              more proper patron ; but as I love to encourage learned men, there’s a guinea for you.
+                <stage type="corps">(Turns from him and goes on, followed by the other
+                puppets.)</stage>
+            </p>
+          </sp>
+          <sp>
+            <speaker>Puppet Merit</speaker>
+            <stage type="corps">Solus</stage>
+            <p>A Guinea ! —A single guinea ! —What a wretch ! —</p>
+            <lg>
+              <l>From these cursed walls with terror I will fly, </l>
+              <l>Where arts and science never come nigh : </l>
+              <l>Where the mean Sycophant, or venal slave, </l>
+              <l>Rival the honest, and supplant the brave : </l>
+              <l>To the loved banks of Cam, the muses’ seat, </l>
+              <l>Of learning and science the retreat, </l>
+              <l>Will I retire ; and, blest in my low sphere, </l>
+              <l>Leave Vice and Folly still to triumph here.</l>
+            </lg>
+          </sp>
+          <stage type="corps">Exit</stage>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Now for my senatorial puppets : <stage type="corps">(Goes forward and a circle is
+                formed.)</stage>Your servant, gentlemen. — We sat late last night.—</p>
+          </sp>
+          <sp>
+            <speaker>Puppet Winni</speaker>
+            <p>Had we carried your Honour’s point, we should not have grudged the hardship of the
+              service. You find we are staunch ; not death can affright us : the Sick, the Lame –
+              forget their diseases. Poor Mr W—lt—rs came beswaddled up in blankets ; yet all would
+              not do : we lost the question.</p>
+          </sp>
+          <sp>
+            <speaker>Puppet H—ce</speaker>
+            <p>Ay, that damned W—st—r election has done our business. Three or four thousand pounds,
+                <pb n="11" facs="18__GB_PoliticksInMiniature_ENG_BL_11.jpg"/> Well laid out last
+              summer, would have done more than three or fourscore thousand can now.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Brother, brother, that is the severest stroke we have felt : such another will compel
+              me to quit the stage.</p>
+          </sp>
+          <sp>
+            <speaker>Puppet H—ce</speaker>
+            <p>Quit the stage ! What will become of me ?</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Never fear : I have a way to bring you off safe, as well as myself.</p>
+          </sp>
+          <sp>
+            <speaker>Puppet H—ce</speaker>
+            <p>The Devil you have. —I am then one of the happiest dogs in England. What ! No account
+              for my American trans..ct.ons ? No enquiry ? No refunding ?</p>
+          </sp>
+          <stage type="saut">Enter Puppet Y— in a hurry.</stage>
+          <sp>
+            <speaker>Puppet Y—</speaker>
+            <p>Where, where’s his honour ?</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Why such in a hurry ? Mr Secretary ? What news from the army ?</p>
+          </sp>
+          <sp>
+            <speaker>Puppet Y—</speaker>
+            <p>There is a desertion on your <foreign xml:lang="fr">corps de reserve</foreign>. The
+              Welsh forces have openly revolted ; — but as for the Northern, I can give you no
+              certain account of them.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>They may try what forage they can get ; but will come back to their colours.</p>
+          </sp>
+          <sp>
+            <speaker>Puppet Y—</speaker>
+            <p>I have been making fine, smooth, oratorically-affecting speeches to them, and all to
+              no purpose : you must hasten into the field of battle yourself, and try if you can
+              rally your forces before you are entirely beat out of it.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>A most metaphorical description of having lost the M-j-r-ty. Well, Gentlemen, all go
+              and do your duty : this is the last public effort we can make. I have some important
+              affairs which I must first transact in another place, but I shall meet you at
+              Philippi.</p>
+          </sp>
+          <stage type="saut">Exeunt Punch and his Gang separately</stage>
+        </div>
+        <div type="3">
+          <head type="scene">Scene changes</head>
+          <stage type="saut">Enter three puppets in private conference.</stage>
+          <sp>
+            <speaker>Capt[ain] Caledon</speaker>
+            <p>Look ye, Gentlemen, I am against your proposal : I will not hear of a screen.</p>
+          </sp>
+          <pb n="12" facs="18__GB_PoliticksInMiniature_ENG_BL_12.jpg"/>
+          <sp>
+            <speaker>Mr English</speaker>
+            <p>Nor can I approve of your Latitudunarian principles of taking all into play.</p>
+          </sp>
+          <sp>
+            <speaker>Mr Worcester</speaker>
+            <p>I am against carrying things to extremity. — I hate Punch as much as any of you ; but
+              if he will voluntarily go off the stage, then his scene of action ends.</p>
+          </sp>
+          <sp>
+            <speaker>Capt[ain] Caledon</speaker>
+            <p>I don’t know that : we have characters which often speak from behind the scenes. In
+              short, we do nothing, if, after we have turned him out from being an actor, we make
+              him prompter. —The principal characters will get into his blundering way, from the
+              blundering cues he will give them.</p>
+          </sp>
+          <sp>
+            <speaker>Mr English</speaker>
+            <p>Though you may cast yourselves what parts you please ; you may play the General, and
+              you the cashier ; yet you know the master cannot bear the name of the old-fashioned,
+              high-buskined puppets, which he calls the Tory-Rories.</p>
+          </sp>
+          <sp>
+            <speaker>Capt[ain] Caledon</speaker>
+            <p>Without an absolute coalition of all the company, and expelling Punch even from
+              behind the scenes, I am determined not to act, but will only come on the stage, as
+              Cato did into the theatre, to go out again.</p>
+          </sp>
+          <sp>
+            <speaker>[Mr] Worcester</speaker>
+            <p>The business of the stage must not stand still ; and I would rather play any
+              tolerable part, than have it worse performed.</p>
+          </sp>
+          <sp>
+            <speaker>Capt[ain] Caledon</speaker>
+            <p>I find Punch has more interest than I imagined, and is pressing a sequel interlude
+              behind the scenes, while we are busy on the stage.</p>
+          </sp>
+          <sp>
+            <speaker>Mr English&gt;</speaker>
+            <p>Which he will call the mock-resignation.</p>
+          </sp>
+          <sp>
+            <speaker>Capt[ain] Caledon</speaker>
+            <p>And which will be damned, with every actor in it. —The moment therefore I see the
+              rehearsal of it begin, I will leave the company. — You know my sentiments. Adieu.</p>
+          </sp>
+          <sp>
+            <speaker>Mr English</speaker>
+            <p>This difference of opinion bodes no good. I know not what to think of it.</p>
+          </sp>
+          <sp>
+            <speaker>[Mr] Worcester</speaker>
+            <p>I must think of playing the part I have undertaken, as well as I can. And though I
+              appear in Punch’s place, I must not talk in the same tone.</p>
+          </sp>
+          <sp>
+            <speaker>Mr English</speaker>
+            <p>Nor act in the same manner ; unless you would meet with the fate Capt[ain] Caledon
+              prognosticated.</p>
+          </sp>
+          <pb n="13" facs="18__GB_PoliticksInMiniature_ENG_BL_13.jpg"/>
+          <sp>
+            <speaker>[Mr] Worcester</speaker>
+            <p>Bless me ! What means this change ? I am no longer free : some secret strings pulls
+              back my arm, another moves my tongue ; I am an errant puppet. </p>
+          </sp>
+          <sp>
+            <speaker>Mr English</speaker>
+            <p>Something has made a little alteration in me. I don’t move as vigorous as before.
+              Someone behind the curtain has got playing tricks with the strings.</p>
+          </sp>
+          <sp>
+            <speaker>[Mr] Worcester</speaker>
+            <p>Hey Day ! Here are half the puppets come on with new motions and new faces.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <stage type="pers">(behind the scenes)</stage>
+            <p>Now, Sirs, you shall see what you shall see. — Observe that puppet, that storms and
+              raves, and calls names : — with this little touch he is dumb. D’ye see him that stands
+              by the scene and won’t come on. — <foreign xml:lang="fr">Presto</foreign> — I dispatch
+              this [a]mbassador to him : he takes him by the hand, and he is in action immediately.
+              — What’s that fellow talking of war ? — Here, Sir, pull this little string, and he
+              turns about : Now, hark —</p>
+          </sp>
+          <sp>
+            <speaker>A puppet </speaker>
+            <stage type="pers">(squeaks)</stage>
+            <p>— Negociations, if honourable, and treaties of N—tr—y may sometimes be allowed. </p>
+          </sp>
+          <sp>
+            <speaker>Master</speaker>
+            <p>But Punch, dat vas you dat did squeak de negotiation.</p>
+          </sp>
+          <sp>
+            <speaker>Puppet</speaker>
+            <p>But that is not seen by anybody but you, and therefore in the playing this whole
+              scene, the joke lies in making them squeak my words in their own voices.</p>
+          </sp>
+          <sp>
+            <speaker>Master</speaker>
+            <p>Ver good shoke !</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>But you shall see a better between me and two or three puppets. <stage type="corps"
+                >(Goes and confers with puppets at the side of the stage.)</stage>
+            </p>
+          </sp>
+          <sp>
+            <speaker>Master</speaker>
+            <p>Oh ! Dose be mine tr—s—ry puppets —. Vell, and vare be de shole in giving dem pieces
+              of sticks ?</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Why truly that may be no joke to you, but it’s a very good one to me : that very joke
+              is worth fifty thousand pounds.</p>
+          </sp>
+          <pb n="14" facs="18__GB_PoliticksInMiniature_ENG_BL_14.jpg"/>
+          <sp>
+            <speaker>Master</speaker>
+            <p>I can’t find it out.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Oh ! That may be ; but I have made many such a joke without your finding it out. —
+              Now, Master, you shall make a joke, and that will crown the whole farce.</p>
+          </sp>
+          <sp>
+            <speaker>Master</speaker>
+            <p>Ha ! ha ! ha ! Me make joke, Punch ? — Ha ! ha ! ha !</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <stage type="pers">(leading up three puppets)</stage>
+            <p>You shall see —. Here is my old friend Will and his wife ; and here is your old
+              friend Punch and his daughter.</p>
+          </sp>
+          <sp>
+            <speaker>Master</speaker>
+            <p>And vat den ?</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Pull that master string and try.</p>
+          </sp>
+          <sp>
+            <speaker>Master</speaker>
+            <p>Ha ! ha ! ha ! Good shoke indeed ! — Punch and Will turn to just as Lords, and dere
+              wife and shild just as ladies : — Ha ! ha ! How dey strut, and de young wench and de
+              old womans flaunt it.</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>Polly, my dear, you must now remember your rank.</p>
+          </sp>
+          <sp>
+            <speaker>Puppet Pol[ly]</speaker>
+            <p>I warrant you, Papa ! —</p>
+            <stage type="saut">Song</stage>
+            <lg>
+              <l>As Lady of Qual, </l>
+              <l>I’ll flaunt in the mall, </l>
+              <l>While ‘tis said as I trip it along : </l>
+              <l>With no title Miss </l>
+              <l>A new Lady is </l>
+              <l>Old Lords and their Ladies among. </l>
+              <l>The people of rep </l>
+              <l>Blame Papa’s false step, </l>
+              <l>In ennobling the wench of his wh— </l>
+              <l>All his power must own, </l>
+              <l>For in this he has done </l>
+              <l>What was done by no subject before.</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <lg>
+              <l>O Pol ! Should a Duke </l>
+              <l>Thy lineage rebuke, </l>
+              <l>On his own bid him ponder well rather : </l>
+              <l>If true what Fame’s told </l>
+              <l>Some Nobles — so old — </l>
+              <l>A scoundrel have had for a father.</l>
+            </lg>
+          </sp>
+          <pb n="15" facs="18__GB_PoliticksInMiniature_ENG_BL_15.jpg"/>
+          <sp>
+            <speaker>Puppet Will’s Wife</speaker>
+            <lg>
+              <l>O Polly, my dear, </l>
+              <l>The titles we’ll bear </l>
+              <l>Your Papa and my spouse have got us, </l>
+              <l>The honours we claim, </l>
+              <l>Though their loss of fame, </l>
+              <l>On them lies the censure, and not us.</l>
+            </lg>
+          </sp>
+          <stage type="saut">Punch assembles all the puppets around him.</stage>
+          <sp>
+            <speaker>Punch</speaker>
+            <lg>
+              <l>You patriots of late, </l>
+              <l>Now courtiers so great, </l>
+              <l>Of my places you’ve my resignation ; </l>
+              <l>Now courtiers, true blue, </l>
+              <l>Play your parts to cue, </l>
+              <l>What a farce will you show to the nation !</l>
+            </lg>
+          </sp>
+          <sp>
+            <speaker>Grand Chorus</speaker>
+            <lg>
+              <l>All courtiers true blue, </l>
+              <l>We’ll play to your cue, </l>
+              <l>And a farce we will show to the nation.</l>
+            </lg>
+          </sp>
+          <stage type="saut">Curtain drops. Enter before it : Master and Punch. </stage>
+          <sp>
+            <speaker>Master</speaker>
+            <p>Vell, dis end vid very good shoke, but vat you come now for ?</p>
+          </sp>
+          <sp>
+            <speaker>Punch</speaker>
+            <p>O ! Sir, always an epilogue to so grand a performance is expected, and I am come to
+              speak it in form.</p>
+          </sp>
+        </div>
+        <div type="5">
+          <head type="div5">Epilogue</head>
+          <lg>
+            <l>Good people all, strange things we do </l>
+            <l>In this our burlesque puppet-show : </l>
+            <l>But strange as they appear to you, </l>
+            <l>They are not stranger than they’re true. </l>
+            <l>Some critics of deep penetration, </l>
+            <l>May damn our mimic resignation, </l>
+            <l>And say that our catastrophe </l>
+            <l>Does not with puppet rules agree : </l>
+            <l>Vengeance, for Punch’s crimes should catch him, </l>
+            <l>And at the last the Devil fetch him. </l>
+            <l>We have not brought this scene to view, </l>
+            <l>But yet the Devil may have his due.</l>
+          </lg>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

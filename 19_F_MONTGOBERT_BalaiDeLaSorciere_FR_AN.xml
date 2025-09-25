@@ -1,0 +1,2176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ref="https://puppetplays.eu/oeuvres/357152/balai-de-la-sorcière">Le Balai de la Sorcière</title>
+                <respStmt>
+                    <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+                    <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="PM">Pierre Massinon</name>
+                    <resp>Transcription and edition</resp>
+                </respStmt>
+                <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+                <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+                <funder>European Research Council - ERC</funder>
+            </titleStmt>
+            <publicationStmt>
+                <distributor/>
+                <availability status="free">
+                    <licence>Public domain</licence>
+                </availability>
+                <idno type="DOI"/>
+            </publicationStmt>
+            <notesStmt>
+                <note>Une sorcière poursuit un homme dans le but de l'épouser</note>
+                <note>Le Balai de la Sorcière est une pièce anonyme dont le
+                    manuscrit est conservé aux Archives nationales, dans les archives de la censure des
+                    théâtres. Elle a été soumise au Bureau des Ouvrages Dramatiques (censure des
+                    théâtres) en novembre 1852 par Mongobert, directeur du "Spectacle Fantoccini"
+                    (1852-1854), une salle parisienne spécialisée dans les féeries destinées au jeune
+                    public. Suivant un procédé théâtral très habituel dans la féerie sous
+                    le Second Empire, la pièce contient plusieurs calembours visuels: par exemple,
+                    lorsque Pierrot s'apprête à se servir un "canon" (un verre) de vin, un canon
+                    apparaît et lui tire dessus.</note>
+            </notesStmt>
+            <sourceDesc>
+                <listPerson>
+                    <personGrp role="audience">
+                        <p>Jeune public</p>
+                    </personGrp>
+                </listPerson>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Archives nationales (France),Intérieur; Théâtres. Censure des répertoires des "petits" théâtres parisiens : index des pièces (1802-1906), F/18/1327</repository>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Number of pages in the original document: 51</p>
+                                <p>Number of acts in the original document: 1</p>
+                                <p>Format of the original document: Manuscrit</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </listBibl>
+                <bibl>
+                    <title type="main">Le Balai de la Sorcière</title>
+                    <date>1852</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+            <textClass>
+                <keywords source="animationTechniques">
+                    <term source="https://puppetplays.eu/techniques-d-animation/2352/marionnettes-à-fils">Marionnette à fils</term>
+                </keywords>
+                <keywords source="literaryTones">
+                    <term>Comique</term>
+                    <term>Merveilleux</term>
+                </keywords>
+                <keywords source="theatricalTechniques">
+                    <term>Aparté</term>
+                    <term>Musique</term>
+                    <term>Disparition magique</term>
+                    <term>Prologue</term>
+                    <term>Apparition d'un génie</term>
+                    <term>Quête initiatique</term>
+                    <term>Apparition</term>
+                    <term>Coup</term>
+                    <term>Apparition des démons</term>
+                    <term>Course-poursuite</term>
+                    <term>Calembour visuel</term>
+                    <term>Danse des démons</term>
+                    <term>Apparition magique d'un objet</term>
+                </keywords>
+                <keywords source="genre">
+                    <term>Féerie en un acte</term>
+                </keywords>
+                <keywords source="keywords">
+                    <term>Domestique</term>
+                    <term>Relation père-fille</term>
+                    <term>Mariage</term>
+                    <term>Amour</term>
+                    <term>Sorcellerie</term>
+                    <term>Talisman</term>
+                    <term>Épée</term>
+                    <term>Magie</term>
+                    <term>Poursuite</term>
+                    <term>Bonheur</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization method="silent">
+                    <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+                    <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+                    <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+                    <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Punctuation has been corrected according to modern rules.</p>
+                </punctuation>
+            </editorialDecl>
+            <projectDesc>
+                <p>Text collected during the PuppetPlays project funded by European Union (Grant
+                    Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+                    re-evaluate the contribution of the puppets repertoire to the construction of
+                    European cultural identity. Its main goals is to collect a corpus of
+                    representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+                    France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+                    17th and the 21th century. It also tries to identify the characteristics of
+                    puppet dramaturgy and their variations depending on eras, cultural spheres,
+                    producing conditions, and the aimed public.</p>
+                <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+                <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                    Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+                </ref> licence. This license enables reusers to distribute, remix, adapt, and
+                    build upon the material in any medium or format for non-commercial purposes
+                    only, and only so long as attribution is given to the creator. If you remix,
+                    adapt, or build upon the material, you must license the modified material under
+                    identical terms. </p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change when-iso="2025-09-18" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+            <change when-iso="2024-07-01" who="#PM">Text transcription and encoding</change> <!-- mandatory, can be repeated as many times as necessary, @when-iso should always be YYYY-MM-DD, @who should always match a defined @xml:id  -->
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb n="02" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_02.jpg"/>
+            <docTitle>
+                <titlePart type="main">Le Balai de la Sorcière</titlePart>
+                <titlePart type="sub">Pièce féerie en trois actes et dix tableaux</titlePart>
+            </docTitle>
+            <docDate>1852</docDate>
+            <pb n="03" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_03.jpg"/>
+            <castList>
+                <head type="personnage">Personnages</head>
+                <castItem>
+                    <role>Cassandre</role>
+                </castItem>
+                <castItem>
+                    <role>Arlequin</role>
+                </castItem>
+                <castItem>
+                    <role>Pierrot</role>
+                </castItem>
+                <castItem>
+                    <role>Isabelle, </role>
+                    <roleDesc>fille de Cassandre</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Le Bon Génie</role>
+                </castItem>
+                <castItem>
+                    <role>La Sorcière</role>
+                </castItem>
+            </castList>
+        </front>
+        <body>
+
+            <pb n="04" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_04.jpg"/>
+            <div type="1">
+                <head type="acte" n="1">Acte I</head>
+                <stage type="saut">La scène se passe à Bologne en Italie</stage>
+                <div type="3">
+                    <head type="scene" n="1">Scène 1</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>Cassandre</name>
+                        </personGrp>
+                    </listPerson>
+                    <stage type="saut">Le théâtre répresente un salon chez Cassandre. Une cheminée
+                        au fond avec une glace dessus, à droite une armoire, à gauche une
+                        bibliothèque.</stage>
+                    <sp>
+                        <speaker>Cassandre</speaker>
+                        <stage type="pers"> (seul)</stage>
+                        <stage type="saut">Au lever du rideau, il range sa bibliothèque.
+                            Appelant.</stage>
+                        <p> Pierrot ! Pierrot !... Assez ordinairement on prend des domestiques pour
+                            se faire servir... Il n'en est rien chez moi... Je sers le mien qui
+                            laisse tout en désordre dans ma maison, et qui n'est jamais là quand
+                            j'ai besoin de ses services... <stage type="corps">(rappelant)</stage>
+                            Pierrot ! Pierrot ! L'animal ne viendra pas... Il est sans doute occupé
+                            à me voler... Ce butor est gourmand, curieux, bavard... Décidément, il
+                            faudra que je le renvoie... <stage type="corps">(le rappelant)</stage>
+                            Pierrot ! Pierrot ! <stage type="corps">(À ce moment Pierrot parait en
+                                baillant et en étendant les bras.)</stage>
+                            <pb n="05" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_05.jpg"/>
+                        </p>
+                    </sp>
+                </div>
+                <div type="3">
+                    <head type="scene" n="2">Scène 2</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>Pierrot, </name>
+                            <name>Cassandre</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p> Vous m'appelez, monsieur ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Cassandre</speaker>
+                        <p>Il est gentil... Il demande si je l'appelle, quand voilà deux heures que
+                            je m'égosille à crier... D'où viens-tu, vaurien ? </p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p> Monsieur, je viens de faire mon assiette.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Cassandre</speaker>
+                        <p> Comment ton assiette ? </p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p> Oui, monsieur, je viens de dormir pour avoir un peu de forces afin
+                            d'attendre le diner. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Cassandre</speaker>
+                        <p> Ah ! tu as fait la siesté, brute !... As-tu fait le ménage pendant mon
+                            absence ? </p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p>Non, monsieur, j'attendais que vous fussiez rentré. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Cassandre</speaker>
+                        <p> L'animal ! Qui m'en débarrassera !... Tu te fies sur la bonté que j'ai
+                            pour toi... Tu te crois indispensable depuis que je t'ai confié mes
+                            chagrins domestiques. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p> Tiens ! Vous faites des calembours ! </p>
+                        <pb n="06" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_06.jpg"/>
+                    </sp>
+                    <sp>
+                        <speaker>Cassandre</speaker>
+                        <p> Il n'est pas question de cela, brute ! Mais de la conduite que tu tiens
+                            dans ma maison, depuis que je t'ai dit de surveiller les démarches
+                            d'Arlequin, de cet histrion qui, sous prétexte qu'il veut épouser ma
+                            fille, se croit le droit de lui conter des sornettes... Mais qu'il
+                            prenne bien garde à lui !... Et qu'elle prenne bien garde à elle !...
+                            l'ingrate !... Qui ose se jouer de mes cheveux blonds... </p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p> Blonds... blonds...</p>
+                    </sp>
+                    <sp>
+                        <speaker>Cassandre</speaker>
+                        <p>Qu'as-tu dit ? </p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p> Rien ! notre maître. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Cassandre</speaker>
+                        <p>Et le plus affreux de tout ceci, c'est que pour ce baladin, elle refuse
+                            un parti superbe !... Le fils du brigadier de la maréchaussée, le jeune
+                            Léandre qui est appelé à remplacer son père dans ses éminentes
+                            fonctions. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p>Oh ! quant à cela, monsieur, vous avez raison de faire entrer la force
+                            armée dans votre famille, car, depuis quelque temps, ou ne parle à
+                            Bologne que de Bohémiens et de sorciers... Moi, je ris de tous ces
+                            contes... Mais enfin... Il faut prendre garde... On pourrait bien jeter
+                            un mauvais sort sur votre maison !... <pb n="07" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_07.jpg"/>
+                        </p>
+                    </sp>
+                    <sp>
+                        <speaker>Cassandre</speaker>
+                        <p>Tais-toi ! Bavard, vas-tu me casser la tête avec tes sornettes et tes
+                            mensonges ? </p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p>Sornettes... Mensonges... Si vous aviez entendu comme moi raconter à la
+                            veillée certaine histoire sur cette vieille mendiante qui court le pays
+                            un balai à la main... </p>
+                    </sp>
+                    <sp>
+                        <speaker>Cassandre</speaker>
+                        <p>Un balai à la main ?... Ce ne peut être qu'une balayeuse.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <stage type="pers"> (à part)</stage>
+                        <p> Est-il bête !... </p>
+                    </sp>
+                    <sp>
+                        <speaker>Cassandre</speaker>
+                        <p> Qu'as-tu dit ? </p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p>Je dis que vous êtes bien honnête, mais tenez monsieur... On disait que
+                            cette vieille mendiante à la puissance avec son balai de commander aux
+                            esprits... </p>
+                    </sp>
+                    <sp>
+                        <speaker>Cassandre</speaker>
+                        <p>Alors !... Je ne crains rien pour moi... </p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p> À telle enseigne qu'il y a huit jours, elle s'est présentée à la ferme
+                            du gros Thomas, et comme il l'a chassé... toutes ses bêtes sont mortes
+                            dans la nuit. Prenez bien garde à vous, not' maître </p>
+                        <pb n="08" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_08.jpg"/>
+                    </sp>
+                    <sp>
+                        <speaker>Cassandre</speaker>
+                        <p> Oh ! ceci ne peut m'atteindre... Je porte de la flanelle... Mais je
+                            m'amuse à t'écouter, quand je dois veiller sur l'honneur de ma race.
+                                <stage type="corps">(câlinant Pierrot)</stage> Va Pierrot, va mon
+                            garçon, associe-toi à ma noble tâche, veille sans relâche, et tu en
+                            seras récompensé largement par le plus malheureux des hommes. </p>
+                    </sp>
+
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p>Il sera bien temps de me récompenser, vous me devez déjà six mois de
+                            gages. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Cassandre</speaker>
+                        <p>Eh ! bien... Si tu me secondes en tous points dans ma noble entreprise...
+                            je te donnerai... </p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p>Quoi donc ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Cassandre</speaker>
+                        <p>Je te donnerai ma bénédiction. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p>Vieux cancre ! Va !...</p>
+                    </sp>
+                    <sp>
+                        <speaker>Cassandre</speaker>
+                        <p> Embrasse-moi mon ami !... Ah ! que les pères seraient heureux s'ils
+                            n'avaient pas d'enfants... <stage type="corps">(fausse sortie)</stage>
+                            Oh ! j'oubliais... Si pendant mon absence Arlequin s'introduisait dans
+                            la maison, je t'autorise à lui casser les reins ... Ça me fera plaisir. </p>
+                        <pb n="09" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_09.jpg"/>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p> Oui... Mais pas à lui !.. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Cassandre</speaker>
+                        <p>Peu m'importe, fais ce que je te dis. <stage type="corps">(Il sort.)
+                            </stage>
+                        </p>
+                    </sp>
+                    <stage type="saut">Musique</stage>
+                </div>
+                <div type="3">
+                    <head type="scene" n="3">Scène 3</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>Pierrot</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <stage type="pers"> (seul)</stage>
+                        <p> Il est bon le patron... Casser les reins, avec ça que c'est commode, et
+                            que monsieur Arlequin est homme à se laisser faire... Et puis... Il est
+                            brave... Et moi, je suis très poltron... Décidément, je préfère désobéir
+                            à monsieur Cassandre, il y a trop de dangers et pas assez de profits à
+                            son service... Qu'il s'arrange comme il voudra, le vieux podagre... Moi,
+                            je vais voir à la cuisine s'il n'y aurait pas quelque chose à
+                            grignoter... Tiens ! Mais j'aperçois mademoiselle Isabelle... On dirait
+                            qu'elle cherche quelqu'un... Impossible de l'éviter. </p>
+                    </sp>
+                </div>
+                <div type="3">
+                    <head type="scene" n="4">Scène 4</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>Isabelle, </name>
+                            <name>Pierrot</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Isabelle</speaker>
+                        <stage type="pers"> (agitée)</stage>
+
+                        <p>Te voilà, mon bon Pierrot... Dis-moi, mon père n'est-il pas allé chez
+                            monsieur Léandre ? Il me semble l'avoir vu se diriger du côté de la
+                            maison de son père... Voyons parle ! Toi son confident, sais-tu s'il
+                            veut toujours me marier avec cet imbécile ?... Ou plutôt laissons
+                            cela... Dis-moi si tu as vu Arlequin, car voici trois jours que je n'ai
+                            eu de ses nouvelles... Je suis d'une inquiétude !.. </p>
+                    </sp>
+                    <pb n="10" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_10.jpg"/>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p>D'abord, mamzelle, je ne sais rien, ensuite vous vous adressez mal, car
+                            monsieur Cassandre m'a chargé de vous surveiller. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Isabelle</speaker>
+                        <p>Me surveiller, toi Pierrot ! Et tu as accepté une pareille mission ! </p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p>Dam'... mademoiselle, écoutez donc, je suis au service de votre père pour
+                            tout faire, il me loge, il me nourrit... Mal c'est vrai, mais... il me
+                            nourrit, et quoiqu'il ne me paye pas bien exactement mes gages, je dois
+                            lui obéir... Il m'a dit : Pierrot ! mon ami, veille sur ma fille... et
+                            ... e lui dirai toutes vos actions. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Isabelle</speaker>
+                        <stage type="pers"> (lui tendant une bourse)</stage>
+
+                        <p> Voyons ! mon bon petit Pierrot, n'y aurait-il pas moyen de s'entendre
+                            avec toi ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <stage type="pers"> (prenant la bourse)</stage>
+
+                        <p>Si fait mademoiselle, je dirai tout à monsieur Cassandre, excepté ce que
+                            vous me défendrez de lui dire. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Isabelle</speaker>
+                        <p> Allons ! je vois que tu commences à me comprendre. <stage type="corps"
+                                >(à part)</stage> Cet imbécile de Pierrot n'est pas si dangereux que
+                            je le croyais... Mais voici Arlequin... pourvu que mon père ne rentre
+                            pas encore... Pierrot ! Veille à ce qu'on ne puisse nous surprendre.
+                        </p>
+                    </sp>
+                    <pb n="11" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_11.jpg"/>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p> C'est ça... Vous me faites faire un joli métier... Vous voulez donc me
+                            faire chasser !... </p>
+                    </sp>
+                    <sp>
+                        <speaker>Isabelle</speaker>
+                        <p>Quand je serai la femme d'Arlequin, je te prendrai à mon service. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p>C'est convenu. <stage type="corps">(Il sort.)</stage></p>
+                    </sp>
+                </div>
+                <div type="3">
+                    <head type="scene" n="5">Scène 5</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>Isabelle, </name>
+                            <name>Arlequin</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Arlequin</speaker>
+                        <stage type="pers"> (entrant à gauche)</stage>
+
+                        <stage type="saut">Musique</stage>
+                        <p>Bonjour, ma chère Isabelle... Qu'y a-t-il ? Vous paraissez soucieuse !
+                        </p>
+                    </sp>
+                    <sp>
+                        <speaker>Isabelle</speaker>
+                        <p>ll y a, mon cher Arlequin, que mon père veut toujours me marier avec
+                            monsieur Léandre, et que je ne sais comment faire pour me soustraire à
+                            ce mariage. Mais pourquoi avez-vous tant tardé à venir ? Qui donc vous
+                            retient loin de moi ? </p>
+                    </sp>
+                    <sp>
+                        <speaker>Arlequin</speaker>
+                        <p>Si je vous ai causé quelqu'inquiétude, pardonnez le moi chère Isabelle,
+                            en vérité ce n'est pas ma faute, car il vient de m'arriver une
+                            singulière aventure. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Isabelle</speaker>
+                        <p>Quoi donc ? </p>
+                    </sp>
+                    <pb n="12" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_12.jpg"/>
+                    <sp>
+                        <speaker>Arlequin</speaker>
+                        <p> Au moment où j'allais entrer dans votre maison, une vieille mendiante
+                            portant un balai à la main, s'est approchée de moi. J'ai cru d'abord
+                            qu'elle me demandait l'aumône, et prenant dans ma poche une pièce de
+                            monnaie, je m'apprêtais à la lui donner, quand la Bohémienne m'attirant
+                            vers elle, voulut à toute force me dire ma bonne aventure... Vous
+                            m'attendiez mon Isabelle, aussi je n'eus garde de l'écouter, et voulus
+                            passer outre... mais la vieille diablesse <stage>(car en verité c'en
+                                était une)</stage> ,pour me punir de mon peu de courtoisie, se mit à
+                            ma poursuite, et me barrant le chemin avec son affreux balai : « tu vas
+                            retrouver ta fiancée me dit-elle ; prends garde ! Arlequin, ceux qui ne
+                            m'écoutent pas sont mes ennemis !... Cours donc où tu crois trouver le
+                            bonheur, j'y serai avant toi. » Et la Bohémienne a disparu sans que je
+                            sache par où elle avait pu passer. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Isabelle</speaker>
+                        <p> Votre récit m'a bouleversée. Arlequin, mon Dieu ! S'il vous arrivait
+                            quelque malheur !</p>
+                    </sp>
+                    <sp>
+                        <speaker/>
+                        <p> Mon Dieu ! S'il vous arrivait quelque malheur !</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <stage type="pers"> (qui a écouté les derniers mots)</stage>
+
+                        <p>Là, quand je le disais à monsieur Cassandre que cette mendiante était une
+                            sorcière, il me riait au nez. </p>
+                    </sp>
+                    <pb n="13" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_13.jpg"/>
+                    <sp>
+                        <speaker>Arlequin</speaker>
+                        <p>Rassurez-vous, mon Isabelle, l'amour est un sorcier plus puissant que
+                            tous les autres, et si cette mendiante veut nous persécuter, nous
+                            saurons déjouer ses complots.</p>
+                        <stage type="saut">Musique</stage>
+                    </sp>
+                </div>
+                <div type="3">
+                    <head type="scene" n="6">Scène 6</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>Pierrot, </name>
+                            <name>La Sorcière, </name>
+                            <name>Isabelle, </name>
+                            <name>Arlequin</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>La Sorcière</speaker>
+                        <stage type="pers"> (apparaissant assise dans un fauteuil)</stage>
+
+                        <p>C'est ce que nous verrons !</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p>Te voilà donc affreuse mendiante ! Ah ! ah ! tu dis que tu es sorcière.
+                            Eh ! bien, je ne crains ni toi, ni ton balai. </p>
+                    </sp>
+                    <sp>
+                        <speaker>La Sorcière</speaker>
+                        <p>Mon balai - que tu ne crains pas, Pierrot ? - te poursuivra toujours, et
+                            nous verrons si tu te moqueras éternellement de la Sorcière Mélusine.
+                            Quant à toi, Arlequin, si tu veux renoncer à Isabelle et devenir mon
+                            époux, ton pouvoir deviendra l'égal du mien. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Arlequin</speaker>
+                        <p>Je ne veux ni de votre puissance ni du bonheur que vous m'offrez. J'aime
+                            Isabelle et veux être son époux.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Isabelle</speaker>
+                        <p>Merci, mon cher Arlequin, vous l'avez dit : notre amour sera plus
+                            puissant que toutes les sorcelleries du monde.</p>
+                    </sp>
+                    <pb n="14" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_14.jpg"/>
+                    <sp>
+                        <speaker>Arlequin</speaker>
+                        <p>Fiez-vous à moi, ne me quittez-plus. Je saurai bien vous protéger contre
+                            cette mégère.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p>Dites-donc la vieille, entendez-vous comne il vous traite ? </p>
+                    </sp>
+                    <sp>
+                        <speaker>La Sorcière</speaker>
+                        <p> Prends garde, misérable, je me vengerai. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Arlequin</speaker>
+                        <p> Je méprise tes menaces... Venez Isabelle, venez... </p>
+                    </sp>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p>Ah ! ça... Vous vous en allez... Et que dirai-je au Seigneur Cassandre,
+                            qui m'avait recommandé de veiller sur sa fille ? </p>
+                    </sp>
+                    <sp>
+                        <speaker>Arlequin</speaker>
+                        <p>Tu lui diras tout ce que tu voudras pour gagner du temps. <stage
+                                type="corps">(à Isabelle)</stage> Venez chère Isabelle, partons.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Isabelle</speaker>
+                        <stage type="pers"> (à part)</stage>
+
+                        <p> Adieu Pierrot... Dis à mon père que je l'aime toujours, mais que
+                            j'aimerais mieux mourir plutôt que d'épouser Léandre. Et comme j'aime
+                            mieux vivre, j'ai préféré suivre Arlequin. <stage type="corps">(Ils
+                                sortent.)</stage></p>
+                    
+                    <stage type="saut">Musique.</stage></sp>
+                </div>
+                <div type="3">
+                    <head type="scene" n="7">Scène 7</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>Pierrot, </name>
+                            <name>La Sorcière</name>
+                        </personGrp>
+                    </listPerson>
+                    <pb n="15" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_15.jpg"/>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <stage type="pers"> (apercevant la Sorcière)</stage>
+                        <p> Eh ! bien, que fais-tu là, vieille mendiante ? Veux-tu bien te sauver.
+                        </p>
+                    </sp>
+                    <sp>
+                        <speaker>La Sorcière</speaker>
+                        <p>Tu me chasses Pierrot ! Malheur à toi !<stage type="corps"> (Elle
+                                disparait dans les flammes.)</stage></p>
+                    
+                    <stage type="saut">Musique.</stage></sp>
+                </div>
+                <div type="3">
+                    <head type="scene" n="8">Scène 8</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>Pierrot</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Pierrot</speaker>
+                        <p>Pouah ! ça sent le souffre... On dirait l'antichambre de l'enfer...
+                            Décidément, je crois que j'ai mal fait de me mêler de tout ça. <stage
+                                type="corps">(Il sort.)</stage></p>
+                    
+                    <stage type="saut">Musique jusqu'à ce que les personnages du tableau suivant
+                        entrent en scène.</stage></sp>
+                    <div type="5">
+                        <head type="div5">Fin du prologue</head>
+                    </div>
+                </div>
+                <pb n="16" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_16.jpg"/>
+                <div type="2">
+                    <head type="tableau" n="2">Tableau II</head>
+                    <stage type="saut">Le théatre représente une forêt.</stage>
+                    <stage type="saut">Inscription : Route de Bologne à Ferrare. À gauche un
+                        buisson.</stage>
+                    <div type="3">
+                        <head type="scene" n="1">Scène 1</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Arlequin, </name>
+                                <name>Isabelle</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <p>Arrêtons-nous un moment, mon Isabelle, la route que nous venons de
+                                parcourir à travers cette forêt est pénible... Voyons, qu'avez-vous,
+                                vous repenteriez-vous de vous être confiée à ma loyauté ?</p>
+                        </sp>
+                        <sp>
+                            <speaker>Isabelle</speaker>
+                            <p>Non, mon cher Arlequin. Cependant, je ne puis m'empêcher de penser au
+                                chagrin que mon père doit ressentir de ma fuite, comme vous le
+                                dites, ce n'est qu'une épreuve pour lui arracher son consentement à
+                                notre mariage... Mais mon père est tenace dans ses résolutions, et
+                                j'ai bien peur que, d'un moment à l'autre, il ne nous trouve. Je
+                                sais alors ce qui m'attend, c'est le couvent... Mais je le préfère
+                                encore au malheur de devenir la femme de Léandre. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <p>Calmez votre tristesse, nous atteindrons bientôt Ferrare. Là, je
+                                chercherai un emploi pour nous faire vivre en attendant mieux.</p>
+                        </sp>
+                        <pb n="17" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_17.jpg"/>
+                        <sp>
+                            <speaker>Isabelle</speaker>
+                            <p>Mon Dieu ! Que je suis malheureuse !... Personne dans le monde n'aura
+                                donc pitié de nous ? </p>
+                        
+                        <stage type="saut">Musique en sourdine.</stage>
+                        <stage type="saut">En ce moment le buisson s'entr'ouvre et l'Amour apparait
+                            sous la forme d'une Colombe.</stage></sp>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="2">Scène 2</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Les mêmes, </name>
+                                <name>L'Amour</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>L'Amour</speaker>
+                            <p>Moi !</p>
+                        </sp>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <p>Vous ?...</p>
+                        </sp>
+                        <sp>
+                            <speaker>L'Amour</speaker>
+                            <p>Oui, moi, l'Amour qui suis cause de votre chagrin, de votre tourment.
+                                Il est bien juste que je cherche à vous protéger... ça ne sera pas
+                                facile, car vous avez pour ennemie acharnée la Sorcière Mélusine...
+                                Arlequin l'a irritée en ne cédant pas à la passion dont elle s'est
+                                éprise pour lui, aussi a-t-elle juré d'empêcher votre mariage par
+                                tous les moyens infernaux qu'elle a en son pouvoir. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Arlequin, Isabelle</speaker>
+                            <p>Ainsi, il n'y a plus d'espoir ? </p>
+                        </sp>
+                        <sp>
+                            <speaker>L'Amour</speaker>
+                            <p>Peut-être, mais il faut du courage pour lutter avec la Sorcière...
+                                Arlequin, te sens-tu la force d'aller seul au rocher noir ? C'est là
+                                que se réunissent les vendredis toutes les Bohémiennes, goules et
+                                mauvais génies<pb n="18" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_18.jpg"/> pour célébrer le Sabbat en réjouissance
+                                des maux qu'ils causent sur la terre... Au milieu du gouffre creusé
+                                dans cet antre ténébreux se trouve une pierre volcanique sur
+                                laquelle est poussée une branche de coudrier. Cette branche est un
+                                talisman qui permet de combattre à armes égales les génies
+                                infernaux. Il faut, Arlequin, que tu ailles la cueillir, je te ne
+                                cache pas les périls que tu auras à affronter, les monstres contre
+                                lesquels tu auras à lutter.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <p>Mais, c'est à la mort que vous m'envoyez. </p>
+                        </sp>
+                        <sp>
+                            <speaker>L'Amour</speaker>
+                            <p>Ne crains rien Arlequin, je te ferai remettre une épée dont la
+                                puissance t'aidera à vaincre les premiers obstacles que tu
+                                rencontreras à l'entrée de la grotte. Maintenant, mes protégés, de
+                                la sagesse ou tout serait perdu pour vous... Toi, Arlequin, du
+                                courage. Ce soir à minuit au rocher noir. </p>
+                       
+                        <stage type="saut">Musique</stage>
+                        <stage type="saut">Il disparait dans le buisson.</stage> </sp>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <p> Merci, bon génie, je n'oublierai pas votre recommandation. <stage
+                                    type="corps">(se retournant)</stage> Mais je ne me trompe pas,
+                                c'est votre père et Pierrot, fuyons !</p>
+                        </sp>
+                        <stage type="saut">Ils sortent.</stage>
+                        <pb n="19" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_19.jpg"/>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="3">Scène 3</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Cassandre, </name>
+                                <name>Pierrot</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Oui !.. mon infortuné Pierrot, il n'est que trop vrai. Ce misérable
+                                Arlequin a enlevé ma fille, mais avec de la patience nous la
+                                retrouverons.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p>Ah ! diable, diable, mais il faut nous hâter alors. Après tout, la
+                                maréchaussée est en embuscade sur tous les points de la forêt. Ils
+                                ne peuvent nous échapper. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Tu as raison mon pauvre ami, voyons, orientons-nous. Tiens, lis sur
+                                ce poteau : Route de Bologne à Ferrare, donc ils doivent passer par
+                                ici.</p>
+                            <stage type="saut">Changement du poteau.</stage>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p> Vous vous trompez patron, ils iront par là, voyez : Route de Bologne
+                                à Ferrare.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p> C'est juste, je me trompais. <stage type="corps">(changement se
+                                    retournant)</stage> Mais non, je ne me trompais pas. <stage
+                                    type="corps">(changement)</stage>
+                            </p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p>Ah ! ça, mais vieux crétin que vous êtes, vous perdez donc la tête.
+                            </p>
+                        </sp>
+                        <pb n="20" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_20.jpg"/>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <stage type="pers"> (se retournant)</stage>
+
+                            <p>Je le crois par moment, mais tu me manques de respect Pierrot.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p>Laissez donc ! Je vais cerner la route de Ferrare avec les hommes que
+                                votre imbécile de Léandre a mis à notre disposition. Vous, pendant
+                                ce temps, restez ici, et tâchez de ne pas vous endormir, vieille
+                                marmotte.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p> C'est entendu. Mais tu me manques toujours de respect. <stage
+                                    type="corps">(Pierrot sort.)</stage>
+                            </p>
+                        </sp>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="4">Scène 4</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Cassandre</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <stage type="pers"> (seul)</stage>
+
+                            <p> Je suis bien fâché de ne pas m'être fait accompagné par mon futur
+                                gendre. Il nous aurait aidé dans nos recherches, et j'aurais eu au
+                                moins quelques instans pour reposer mes malheureux membres, tandis
+                                qu'il faut que je veille, et je suis si fatigué ! Ma foi,
+                                asseyons-nous près de ce poteau. <stage type="corps">(Il
+                                    s'assied.)</stage> C'est drôle, mes yeux se ferment malgré moi,
+                                il me semble que je m'endors </p>
+                            <stage type="saut">Musique. Il dort. Pendant ce temps, un singe vient
+                                lui faire des malices.</stage>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <stage type="pers"> (se réveillant)</stage>
+
+                            <p>Eh bien ! Eh bien ! Qu'est-ce donc ? <stage type="corps">(Le singe
+                                    disparait.)</stage> Ce n'est rien. J'ai l'esprit inquiet, voilà
+                                tout. <stage type="corps">(Il se rendort.)</stage></p>
+                            <stage type="saut">Le singe va prendre le fusil que Cassandre a laissé
+                                au pied du poteau.</stage>
+                        </sp>
+                        <pb n="21" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_21.jpg"/>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <stage type="pers"> (se réveillant en sursaut)</stage>
+                            <p> Ah ! ça mais j'y pense, si ma fille et ce damné Arlequin étaient
+                                passés pendant le petit somme que je viens de faire, que
+                                répondrais-je à mon malheureux gendre ? Ah ! bah ! ils ne viendront
+                                pas par ici, rendormons-nous.</p>
+                            <stage type="saut">Il va pour dormir au moment où parait le singe qui le
+                                taquine, lui fait la grimace et le couche en joue avec le
+                                fusil.</stage>
+                            <p>Veux-tu bien laisser mon fusil vilaine bête, il est chargé. Oh ! si
+                                j'en avais un autre, je t'en ferais voir de drôles.</p>
+                            <stage type="saut">Le singe tire un coup de fusil et disparait.
+                                Cassandre tombe en criant.</stage>
+                            <p>Au secours ! Au secours !</p>
+                        </sp>
+                        <stage type="saut">Musique</stage>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="5">Scène 5</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Pierrot, </name>
+                                <name>Cassandre</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p> Qu'est ce qui se passe, d'où viennent ces cris ? </p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Ah ! moi aussi je suis mort.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p>Vous n'en avez pas l'air, vous étiez comme un aveugle.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p> Pierrot, ne vois-tu plus cet affreux singe qui m'a tiré un coup de
+                                fusil à un endroit si désagréable, qu'il me prive de m'asseoir pour
+                                le restant de mes jours. </p>
+                        </sp>
+                        <pb n="22" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_22.jpg"/>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <stage type="pers"> (regardant autour de lui)</stage>
+                            <p> Il n'y a pas plus de singe que sur le bout de votre nez. Voyons,
+                                appuyez-vous sur moi, vieil invalide, et partons. Dépêchez-vous, ou
+                                je vous laisse là pour servir de pâture aux corbeaux. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Ingrat, tu n'as donc pas pitié de ton malheureux maître. ... Oh ! la
+                                ! la ! Les gueux, m'exposer ainsi... Oh ! la ! la !</p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p> Allons, venez-vous !</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Je te suis. Les brigands, les gueux, les misérables. Oh ! la ! la !
+                            </p>
+                        </sp>
+                        <stage type="saut">Ils sortent. Musique.</stage>
+                        <pb n="23" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_23.jpg"/>
+                    </div>
+                </div>
+                <div type="2">
+                    <head type="tableau" n="3">Tableau III</head>
+                    <stage type="saut">Le théatre représente la Caverne du Sabbat. Les sorcières et
+                        les démons sont occupés à faire des conjurations autour d'un feu allumé. Ils
+                        attendent l'arrivée de la Sorcière.</stage>
+                    <div type="3">
+                        <head type="scene" n="1">Scène 1</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Toutes les Sorcières</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Première Sorcière</speaker>
+                            <p>Ne laisser point éteindre ce feu mes soeurs, c'est l'ordre de notre
+                                reine Mélusine.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Deuxième Sorcière</speaker>
+                            <p>Mais ne va-t-elle point venir ?</p>
+                        </sp>
+                        <sp>
+                            <speaker>Première Sorcière</speaker>
+                            <p>Nous devons l'attendre de minute en minute, et si elle n'est point
+                                encore arrivée, c'est qu'elle est retenue là-haut par
+                                quelqu'occupation diabolique. C'est aujourd'hui vendredi, et ce jour
+                                consacré au Sabbat ne s'est jamais passé sans qu'elle vînt nous
+                                présider. <stage type="corps">(Tam-tam)</stage></p>
+                        </sp>
+                        <sp>
+                            <speaker>Deuxième Sorcière</speaker>
+                            <p> J'entends le bruit qui précède ordinairement son arrivée. </p>
+                        
+                        <stage type="saut">Musique. Coup de tonnerre</stage>
+                        <stage type="saut">À ce moment la Sorcière Mélusine descend par le haut du
+                            théâtre. Elle est à cheval sur son balai. Toutes les sorcières
+                            s'inclinent à son arrivée.</stage></sp>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="2">Scène 2</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Toutes les Sorcières, </name>
+                                <name>Mélusine</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Mélusine</speaker>
+                            <p>Bien mes filles, bien, je vous trouve réunies. Approchez !<pb n="24" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_24.jpg"
+                                /> vous toutes, et vous aussi mes démons familiers, car j'ai une
+                                grande nouvelle à vous apprendre.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Toutes les Sorcières </speaker>
+                            <p>Est-il possible ?...</p>
+                        </sp>
+                        <sp>
+                            <speaker>Mélusine</speaker>
+                            <p>Oui, mes filles. Et voyez combien grande est son audace, il doit,
+                                protégé dit-il par l'Amour mon ennemi mortel, cueillir ici une
+                                branche de coudrier qui le fera triompher des pièges que je ne cesse
+                                de tendre sous ses pas. La folie ne vous fait-elle pas rire, mes
+                                soeurs ? </p>
+                            <stage type="saut">Rire satanique de toutes les Sorcières.</stage>
+                            <p> Qu'il ne sorte point d'ici, et que l'orgueil de cet insensé soit
+                                puni comme il le mérite.</p>
+                        </sp>
+                        <sp>
+                            <speaker>1ère Sorcière</speaker>
+                            <p> Reine, que faut-il faire ? </p>
+                        </sp>
+                        <sp>
+                            <speaker>Mélusine</speaker>
+                            <p>Apprêtez pour lui tout ce que l'enfer peut inventer de hideux. Allez
+                                mes filles, allez, qu'il soit fait comme je l'ordonne, et que sa
+                                mort me venge de ses dédains. </p>
+                        
+                        <stage type="saut">Musique</stage>
+                        <stage type="saut">Les sorcières et les démons sortent après avoir tourné et
+                            salué la reine d'une façon diabolique.</stage>
+                        <stage type="saut">Musique</stage></sp>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="3">Scène 3</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Mélusine</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Mélusine</speaker>
+                            <stage type="pers"> (seule)</stage>
+
+                            <p>Oui, je me vengerai de toi, Arlequin qui m'as dédaigné pour cette
+                                Isabelle que je hais... mais là ne s'arrêtera <pb n="25" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_25.jpg"/> par ma
+                                vengeance. Il faut encore que j'ai l'âme de ta fiancée... Et cet
+                                imbécile de Pierrot qui ne croit pas à ma puissance ! Il va venir
+                                aussi... Faisons lui une réception digne de l'enfer, digne de
+                                Mélusine. <stage type="corps">(Elle sort.)</stage></p>
+                        
+                        <stage type="saut">(Musique)</stage></sp>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="4">Scène 4</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Arlequin</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <stage type="pers"> (entre tenant à la main une épée lumineuse)</stage>
+                            <p> Enfin je suis arrivé ! Diable ce n'est pas sans peine, et si je
+                                n'avais eu cette épée que l'Amour m'a envoyée je crois qu'il
+                                n'aurait fallu renoncer à venir dans ce lieu maudit. Heureusement,
+                                j'ai déjà fait plus de la moitié du chemin, et les démons qui
+                                gardent l'entrée de cet affreux séjour se sont presque tous enfuis à
+                                mon approche. Allons, Arlequin, du courage ! Il te faut maintenant
+                                cueillir cette branche qui doit te faire gagner la main d'Isabelle
+                                si l'Amour a dit vrai. Allons donc, et que l'Amour me protège.</p>
+                        
+                        <stage type="saut">Musique jusqu'à la sortie d'Arlequin.</stage>
+                        <stage type="saut">Il n'est point épouvanté, il les combat tous avec son
+                            épée flamboyanté, et il sort triomphalement après avoir conquis la
+                            branche de coudrier.</stage></sp>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="5">Scène 5</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Pierrot</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <stage type="pers"> (seul à la porte)</stage>
+
+                            <p> Mais que peut donc faire si longtemps Arlequin dans ce vilain
+                                endroit ? Tiens, il n'y a personne, ma foi je me risque... <pb
+                                    n="26" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_26.jpg.jpg"/>
+                                <stage type="corps">(Pierrot entrant et saluant une tête de poisson
+                                    peinte sur la muraille.)</stage> Bonjour madame. <stage
+                                    type="corps">(La sorcière répond à son salut.)</stage> Au moins
+                                elle est polie celle-là. Ce n'est pas comme cette ignoble sorcière
+                                avec son balai. <stage type="corps">(À ce moment Pierrot, qui n'a
+                                    pas vu un balai placé derrière lui, en reçoit un coup dans le
+                                    derrière.)</stage> Ouf ! Voilà qui n'est pas gracieux.<stage
+                                    type="corps"> (se tournant vers le balai)</stage> Dites-donc
+                                l'ami, vous n'êtes guère plus aimable que votre damnée maitresse, en
+                                supposant que vous lui apparteniez. <stage type="corps">(Le balai
+                                    fait un profond salut à Pierrot.)</stage> Eh bien ! Vrai j'aime
+                                mieux ça, voyons, voyons, puisque je suis seul, il faut que
+                                j'examine un peu en détail le boudoir de Madame la Sorcière. <stage
+                                    type="corps">(Pierrot regarde la tête de mort.)</stage> Oh ! les
+                                vilaines dents ! Madame, je vous engage à vous faire poser un
+                                ratelier. <stage type="corps">(La tête lui fait des grimaces.
+                                    Pierrot met sa main sur la bouche qui le mord. Il jette un
+                                    cri.)</stage> Aie, aie ! Ce n'est pas drôle tout ca. J'aperçois
+                                un four, s'il y avait quelque chose à manger dedans encore. Allons
+                                voir... <stage type="corps">(Une flamme sort au moment où il y met
+                                    la main.)</stage> Ah ! c'est encore un tour de cette vieille
+                                mégère. </p>
+                            <stage type="saut">Musique jusqu'à la fin du tableau.</stage>
+                            <pb n="27" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_27.jpg"/>
+                            <stage type="saut">À ce moment, il sort de dessous terre un diable qui
+                                empoigne Pierrot, le met dans une chaudière et le broie avec un
+                                pilon. Aux cris de Pierrot apparaissent de tous côtés des groupes de
+                                démons, dragons volants, qui jettent des flammes, pendant que les
+                                sorciers dansent en rond devant le supplice de Pierrot.</stage>
+                        
+                        <stage type="saut">Flammes de Bengale.</stage>
+                        <stage type="saut">Musique d'ouverture</stage></sp>
+                    </div>
+                </div>
+            </div>
+            <div type="1">
+                <head type="acte" n="2">Acte II</head>
+                <div type="2">
+                    <head type="tableau" n="1">Tableau I</head>
+                    <stage type="saut">Le théâtre représente une chaumière abandonnée, un coffre au
+                        milieu, une armoire à gauche, un balai dans un coin.</stage>
+                    <div type="3">
+                        <head type="scene" n="1">Scène 1</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Isabelle</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Isabelle</speaker>
+                            <stage type="pers"> (seule courant dans la chaumière)</stage>
+
+                            <p>C'est bien ici qu'Arlequin m'a donné rendez-vous. Mon Dieu, que le
+                                chemin m'a semblé long pour arriver jusqu'à cette chaumière... Et
+                                qui sait encore s'il aura pu s'emparer de ce talisman qui doit nous
+                                rendre heureux ... Mais qu'il tarde donc à venir ! Ah ! fasse le ciel
+                                qu'il ne lui soit rien arrivé... 
+                            </p>
+                        
+                        <stage type="saut">Musique</stage></sp>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="2">Scène 2</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Arlequin, </name>
+                                <name>Isabelle</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <stage type="pers"> (entrant précipitamment)</stage>
+
+                            <p> Je me suis un peu fait attendre, ma chère Isabelle,<pb n="28" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_28.jpg"/> mais
+                                enfin me voici près de vous, et grâce à ce talisman, j'espère bien
+                                ne plus vous quitter.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Isabelle</speaker>
+                            <p>Ainsi donc, vous avez pu l'arracher des mains de nos ennemis. Mais
+                                pour cela, vous aurez couru de grands dangers ?...</p>
+                        </sp>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <p>Si cela était, ma chère Isabelle, je les aurais déjà oubliés en vous
+                                voyant. N'en parlons plus je vous prie, et songeons maintenant aux
+                                moyens qu'il nous faut prendre pour ne plus nous séparer jamais.
+                                Voyons, si nous nous reposions un peu avant de nous remettre en
+                                route ? </p>
+                        </sp>
+                        <sp>
+                            <speaker>Isabelle</speaker>
+                            <p> Je pense comme vous qu'un peu de repos nous ferait grand bien, mais
+                                cette chaumière me parait fort peu hospitalière, et je crois que le
+                                mieux est de chercher un gite ailleurs. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <p>Allons, voilà que vous oubliez que j'ai la puissance de vous procurer
+                                tout cela. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Isabelle</speaker>
+                            <p> Essayez alors car je n'en puis plus. <stage type="saut"
+                                    >Musique</stage>
+                            </p>
+                            <stage type="saut"> Arlequin lève en l'air sa branche magique et à
+                                l'instant le coffre se change en table ronde et deux chaises
+                                paraissent à côté.</stage>
+                        </sp>
+                        <pb n="29" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_29.jpg"/>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <p>Vous voyez que le bon génie ne nous a pas trompés </p>
+                            <stage type="saut">Ils se mettent à table et mangent.</stage>
+                        </sp>
+                        <sp>
+                            <speaker>Isabelle</speaker>
+                            <p>Ceci est vraiment merveilleux et je commence à croire que notre
+                                protecteur est tout puissant... Mais n'entendez -vous pas la voix de
+                                mon père ? <stage type="corps">(À ce moment on entend dans les
+                                    coulisses la voix de Cassandre qui dit à Pierrot : Par ici, par
+                                    ici, Pierrot, viens te dis-je.)</stage></p>
+                        
+                        <stage type="saut">Musique</stage>
+                        <stage type="saut">Les chaises disparaissent et les amoureux s'enfuient d'un
+                            côté, Cassandre entre de l'autre, suivi de Pierrot qui arrive lentement
+                            et en baillant.</stage></sp>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="3">Scène 3</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Cassandre, </name>
+                                <name>Pierrot</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Arriveras-tu, fainéant ?... </p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p>Fainéant me parait joli ! Je voudrais bien vous y voir... Si vous
+                                arriviez comme moi de là, broyé trop pendant deux heures, vous seriez
+                                plus fatigué que vous ne l'êtes, vieux crétin ! </p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p> Pierrot, je commence à m'apercevoir que tu deviens très impertinent,
+                                et j'ai bien envie de te chasser. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p> Bah ! le beau malheur, quand je n'aurai plus<pb n="30" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_30.jpg"/> le droit
+                                d'être rossé à votre service, et celui d'être un peu mieux nourri au
+                                service d'un autre.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p> C'est vrai, mon pauvre Pierrot, que depuis quelques temps, j'ai bien
+                                des petits reproches à me faire au sujet de ta nourriture, mais je
+                                tiendrai compte de tout cela en te payant tes gages. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p>Voyez le vieux cancre qui ne me paye jamais ! </p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>C'est vrai, mais je t'habille. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p> Eh bien, est-ce que je ne vous habille pas tous les jours, moi ?
+                                Tenez, vous êtes un affreux grigou et vous méritez bien tous les
+                                malheurs qui vous arrivent. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Voyons, mon bon Pierrot, ne prononce pas de malédiction sur ma tête,
+                                aide-moi plutôt à retrouver ma fille, et jamais un maître ne sera
+                                plus dévoué que moi à son domestique. <stage type="corps">(Une autre
+                                    table paraît.)</stage> Allons bon j'ai une table aussi,
+                                servez-vous tout seul. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <stage type="pers"> (cherchant à s'assoir)</stage>
+                            <p> Donne-moi une chaise alors. <stage type="corps">(Une chaise
+                                    parait.)</stage> Merci, mon bon Pierrot.</p>
+                        </sp>
+                        <pb n="31" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_31.jpg"/>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p>Il n'y a pas de quoi.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <stage type="saut">Au moment où Cassandre va s'asseoir, la chaise change
+                                de côté.</stage>
+                            <p> Ah ! ça, tu me prends ma chaise ! C'est donc à dire que tu abuseras
+                                éternellement de ma bonté !</p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p>Ma parole, vous devenez toqué ! Moi, je vous prends votre chaise ?
+                                Tenez, regardez vieille brute, elle est là, à votre place.</p> <stage
+                                    type="saut">À ce moment la chaise est revenue à sa place et il
+                                    en parait une autre pour Pierrot. Ils s'asseyent tous deux et
+                                    vont pour manger.</stage><p> Ma foi j'aime mieux ça, je vous
+                                servirai en mangeant. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Allons, mangeons...
+                            </p>
+                            <stage type="saut">À peine sont-ils à table que le
+                                    Bon Génie traverse le théâtre et, sur un signe de lui, tout ce
+                                    qui est sur la table disparait. Pierrot et Cassandre se lèvent
+                                    saisis d'effroi.</stage>
+                            <stage type="saut">Musique</stage>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p> Ah ! ça, mais c'est le diable qui s'en mêle...</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Je touve à vrai dire qu'il nous poursuit avec acharnement. </p><stage
+                                    type="saut">Ils vont pour se rasseoir, mais pendant qu'ils sont
+                                    levés, la table et les chaises ont disparu. Ils tombent tous
+                                    deux par terre.</stage>
+                            
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <stage type="pers">(toujours par terre)</stage>
+                            <pb n="32" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_32.jpg"/>
+                            <p>Y eut-il jamais sur la terre un domestique plus malheureux ! </p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Je crois que ce que nous avons de mieux à faire, c'est de nous
+                                relever et de nous en aller.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p> Pour la première fois de votre vie, vous avez dit une chose
+                                raisonnable.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p> Tu crois Pierrot que nous n'éprouverons pas de difficultés dans ces
+                                deux opérations ? </p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p>Moi, je ne réponds de rien. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Essayons toujours ! </p>
+                        </sp>
+
+                        <sp>
+                            <speaker>Pierrot et Cassandre</speaker>
+                            <stage type="pers">(se levant)</stage>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <stage type="pers">(se ravisant, allant à l'armoire et
+                                l'ouvrant.)</stage>
+                            <p> Non décidément je reste, il faut à tout prix que je mange... <stage
+                                    type="corps">(Fugue de musique, les pots de confitures
+                                    disparaissent et font place à des pots de nuit.)</stage> Fi !
+                                voilà qui est de la dernière malpropreté... </p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Je n'approuve ce genre de vases que pour la nuit. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p> Il faut que je me venge sur quelqu'un de toutes ces sorcelleries !
+                                    <stage type="corps">(Il va pour prendre le balai qui est placé
+                                    dans un coin de la chaumière.)</stage> Voila mon affaire. <pb
+                                        n="33" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_33.jpg"/><stage type="corps">(Il veut frapper Cassandre avec,
+                                    mais le balai se met à les poursuivre tous les
+                                deux.)</stage></p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Mais c'est épouvantable, jamais on n'a rien vu de pareil.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <stage type="pers"> (toujours poursuivi)</stage>
+
+                            <p>Si fait, si fait, je l'ai déjà vu, c'est mon ennemi mortel, le
+                                compagnon de cette damnée sorcière, j'aurais dû me méfier de quelque
+                                chose quand je l'ai retrouvé ici... Monsieur, aidez-moi à le briser,
+                                et nous verrons la fin de tous nos malheurs... </p>
+                            <stage type="saut">Pierrot et Cassandre courent toujours après le
+                                balai.</stage>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Scélérat... Ah ! tu es sorcière !... Brigand. <stage type="corps"
+                                    >(Musique jusqu'à la sortie.)</stage> Scélérat... <stage
+                                    type="corps">(Au moment où ils vont pour le saisir, le balai
+                                    s'enflamme et les poursuit tous deux.)</stage></p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot, Cassandre</speaker>
+                            <stage type="pers"> (sortent en courant)</stage>
+
+                            <p>Au secours, au secours...</p>
+                        </sp>
+                        <pb n="34" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_34.jpg"/>
+                    </div>
+                </div>
+                <div type="2">
+                    <head type="tableau" n="2">Tableau II</head>
+                    <stage type="saut">Le théâtre représente une place publique, une boutique de
+                        confiseur à gauche, une fontaine à droite, un banc dans le fond</stage>
+                    <div type="3">
+                        <head type="scene" n="1">Scène 1</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Arlequin, </name>
+                                <name>Isabelle</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <stage type="pers"> (arrivant d'un côte du théâtre)</stage>
+                            <p>Arrêtons-nous un moment sur cette place, ma chère Isabelle. Je n'y
+                                vois aucun danger pour nous, car votre père ne peut être sur nos
+                                traces. Je le crois toujours dans la chaumière avec Pierrot, et vous
+                                savez que celui-là n'abandonne pas facilement un bon repas.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Isabelle</speaker>
+                            <p>C'est vrai, mais mon père doit être bien malheureux... Tenez,
+                                Arlequin, il y a des moments où je regrette de vous avoir suivi, des
+                                moments où je voudrais retourner sur mes pas.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <p>Douteriez-vous de mon amour, de ma loyauté ?</p>
+                        </sp>
+                        <sp>
+                            <speaker>Isabelle</speaker>
+                            <p>Mais que faut-il donc faire pour vous prouver ma confiance, n'ai-je
+                                pas tout quitté pour vous suivre ?</p>
+                        </sp>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <stage type="pers"> (hésitant)</stage>
+
+                            <p>Il faudrait me suivre encore plus loin ; il faudrait <pb n="35" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_35.jpg"/>me
+                                suivre encore plus loin ; il faudrait quitter ce pays où les
+                                tribulations renaissent sans cesse sous mes pas. Il faudrait enfin
+                                vivre avec moi, et pour moi seul, ma chère Isabelle.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Isabelle</speaker>
+                            <stage type="pers"> (à demi vaincue)</stage>
+                            <p>Non jamais, jamais...</p>
+                        </sp>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <stage type="pers"> (entrainant Isabelle)</stage>
+                            <p>Venez Isabelle, venez, vous n'aurez pas à vous repentir de m'avoir
+                                confié votre vie...</p>
+                        </sp>
+                        <sp>
+                            <speaker>Isabelle</speaker>
+                            <stage type="pers"> (se laissant entrainer)</stage>
+
+                            <p>Puissiez-vous dire vrai ! </p>
+                        
+                        <stage type="saut">Musique en sourdine</stage>
+                        <stage type="saut">Au moment où ils vont pour partir, le Bon Génie traverse
+                            le théâtre et s'arrête au milieu.</stage></sp>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="2">Scène 2</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Arlequin, </name>
+                                <name>Le Bon Génie</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Le Génie</speaker>
+                            <p>Vous avez douté de moi, cela est mal, et je devrais vous punir en
+                                vous abandonnant à vos ennemis. Je veux pourtant bien encore vous
+                                venir en aide mais écoutez-moi vous deux. Vous, Arlequin, en
+                                entrainant cette jeune fille loin de son pays, ce n'était pas le
+                                Génie du Bien que vous écoutiez, c'était le démon de la séduction. Vous, Isabelle, en suivant
+                                Arlequin, ce n'était pas le bonheur que vous alliez trouver, c'était
+                                le remords et la honte. Le vrai bonheur n'est qu'avec la sagesse, ne
+                                l'oubliez plus si vous voulez encore que je vous protège.</p>
+                        </sp>
+                        <pb n="36" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_36.jpg"/>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <p>Mais où faut-il aller, que nous faut-il faire ?</p>
+                        </sp>
+                        <sp>
+                            <speaker>Le Génie</speaker>
+                            <p>Il faut conduire Isabelle en un lieu sûr, car je vous annonce que
+                                Pierrot et Cassandre ne vont pas tarder à se rendre ici.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <p>Votre père, grand Dieu ! Partons Isabelle ! </p>
+                        </sp>
+                        <sp>
+                            <speaker>Le Génie</speaker>
+                            <p>Allez mes enfants, et que l'Amour vous conduise si la sagesse vous
+                                guide. </p><stage type="saut">Musique</stage>
+                                <stage type="saut">Le Génie disparait dans les nuages.</stage>
+                            
+                        </sp>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <p>Je crois Isabelle que nous ferons bien de prendre le bateau à vapeur
+                                qui part pour Florence. Là, vous trouverez pour quelques jours
+                                l'hospitalité chez un parent à moi, et vous pourrez attendre
+                                patiemment que nous ayons pu vaincre les obstacles qui nous
+                                séparent. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Isabelle</speaker>
+                            <p>Cette fois Arlequin, je m'abandonne à vous, et je vous suis, car je
+                                suis certaine que vous ne voudriez pas nous faire perdre la
+                                protection de l'Amour.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <p>Oh ! non, car ce serait perdre le bonheur. <stage type="corps"
+                                    >(Apparition de la fontaine. Ils sortent tous deux.)</stage>
+                            </p>
+                        </sp>
+                        <pb n="37" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_37.jpg"/>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="3">Scène 3</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Cassandre, </name>
+                                <name>Pierrot</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Jamais dans toute l'Italie, on ne pourrait trouver un père aussi
+                                éreinté que moi. Je ne sens plus mes jambes... Dis donc Pierrot, que
+                                ferais-tu si tu possédais une fille qui te fît courir après elle de
+                                cette gentille façon ?</p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p>Moi, je courrais tout doucement et quand je serais fatigué je me
+                                reposerais.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <stage type="pers"> (marchant)</stage>
+
+                            <p>Tu te reposerais, tu te reposerais, c'est très facile à dire, mais je
+                                ne vois guère ici le moyen de s'asseoir... </p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p>Ah ! ça laisser monsieur, je vous savais bien imbécile, mais je ne vous
+                                croyais pas aveugle... Comment, vous ne voyez pas ce banc ? </p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p> Le drôle a par Dieu raison... Vois-tu Pierrot, je suis si fatigué que
+                                la tête n'y est plus...</p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p> Heureusement, vous n'avez pas besoin de votre tête pour vous
+                                asseoir. </p>
+                            <stage type="saut">Trait de musique</stage>
+                            <stage type="saut">Cassandre au moment de s'asseoir tombe, le banc ayant
+                                changé de place.</stage>
+                        </sp>
+                        <pb n="38" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_38.jpg"/>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p> Mais tu es donc créé pour me faire souffrir ! Qui t'a prié de
+                                changer ce banc de place ?...</p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <stage type="pers"> (à part)</stage>
+                            <p> Bon, voilà ses lubies qui le reprennent. <stage type="corps">
+                                    (haut)</stage> Dites donc, monsieur, vous serait-il agréable que
+                                je vous conduise à la maison des fous ?</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <stage type="pers"> (se relevant)</stage>
+
+                            <p>Je crois que tu m'as conduit au diable...</p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <stage type="pers"> (lui montrant le banc qui est revenu de l'autre
+                                côté)</stage>
+
+                            <p>Tenez, il est là le banc, vieil idiot... Laissez-moi donc cherchez à
+                                manger puisqu'on meurt de faim à votre service.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <stage type="pers"> (allant pour se rasseoir)</stage>
+
+                            <p>Enfin, je vais m'asseoir avec jubilation.</p> <stage type="saut">Trait de
+                                    musique</stage>
+                             <p>   <stage type="corps">(Il tombe, le banc ayant encore une fois changé
+                                    de place.)</stage> Que l'enfer extermine les sorciers qui se
+                                jouent ainsi de mes douleurs ! Pierrot, viens à mon aide, n'abandonne
+                                pas ton malheureux maître dans une positon aussi perplexe ! </p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <stage type="pers">(l'aidant à se relever)</stage>
+
+                            <p>Le fait est que la position n'est pas très élevée, monsieur. Je vous
+                                conseille d'y renoncer pour aujourd'hui. <stage type="corps">(Se
+                                    retournant vers la boutique du confiseur.)</stage> Moi, j'avise
+                                cette boutique de confiseur, sa vue m'affriande assez. <pb n="39" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_39.jpg"
+                                />Dites donc monsieur, restez là. Je vais vous rapporter un bon pot
+                                de marmelade de pommes.</p>
+                            <stage type="saut">(Il entre dans la boutique.)</stage>
+                        </sp>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="4">Scène 4</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Cassandre</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <stage type="pers"> (seul)</stage>
+
+                            <p>Son idée est assez bonne. Un peu de nourriture me réconfortera.</p>
+                        </sp>
+                    </div>
+                    <div type="3">
+
+                        <head type="scene" n="5">Scène 5</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Cassandre, </name>
+                                <name>Pierrot</name>
+                            </personGrp>
+                        </listPerson>
+                        <stage type="saut">Pierrot dans la boutique du confiseur qui s'est changée
+                            en maison de vidange, il est barbouillé.</stage>
+                        <stage type="saut">Musique</stage>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <stage type="pers"> (furieux)</stage>
+
+                            <p>C'est une horreur, c'est une infâmie, ce n'est pas ça que j'avais
+                                demandé.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Cette confiture est bien foncée ! <stage type="corps">(À ce moment
+                                    Arlequin et Isabelle paraissent d'un côté du théâtre. Cassandre
+                                    les aperçoit)</stage> Pierrot ! Pierrot, voilà les fugitifs, barre
+                                leur le passage... Ils se dirigent vers le chemin de fer. Cette fois
+                                ils ne m'échapperont pas. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p>Eh bien ! Vous partez sans moi. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p> Toi, tu nous suivras à pied, je t'ai pris pour tout faire.</p>
+                            <stage type="saut">(Il sort. Musique.)</stage>
+                        </sp>
+                        <pb n="40" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_40.jpg"/>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="6">Scène 6</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Pierrot</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <stage type="pers">(seul)</stage>
+
+                            <p>Eh bien va-t-en, vieil abruti, je quitte ton service ! Mais avant je
+                                ravagerai ta maison, et je me garderai bien de jamais servir un
+                                homme aussi ensorcelé que toi, car tu es la cause de tous mes
+                                malheurs. <stage type="corps">(Musique en sourdine. Pendant ce
+                                    monologue, la Sorcière sort de la fontaine. Pierrot
+                                    l'aperçoit.)</stage> Maintenant je ne m'étonne plus de rien,
+                                cette vieille affreuse était là... Si je pouvais amasser du monde et
+                                la faire arrêter.</p> <stage type="saut">Musique forte jusqu'à la sortie
+                                    de Pierrot</stage> <p>À la garde, à l'assassin, au voleur !<stage
+                                    type="corps">(La Sorcière disparait et Pierrot se sauve en
+                                    criant toujours.)</stage> Au secours...</p> <stage type="saut"
+                                    >Musique pour le changement</stage>
+                            
+                        </sp>
+                    </div>
+                </div>
+                <div type="2">
+                    <head type="tableau" n="3">Tableau III</head>
+                    <stage type="saut">Le théâtre représente un chemin de fer. Le convoi va partir.
+                        Dessous, le bateau à vapeur prêt à partir aussi. Cassandre est dans le
+                        chemin de fer. Arlequin et Isabelle sont dans le bateau.</stage>
+                    <div type="3">
+                        <head type="scene" n="1">Scène 1</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Pierrot, </name>
+                                <name>Cassandre</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <stage type="pers"> (arrivant)</stage>
+
+                            <p>Ah ! la bonne farce. Il a pris le chemin de fer tandis que sa fille
+                                est dans le bateau à vapeur. C'est bien fait <pb n="41" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_41.jpg"/>vieil
+                                égoïste, ça t'apprendra à partir sans moi. <stage type="corps"
+                                    >(criant à Cassandre)</stage> Monsieur, monsieur Arlequin et
+                                votre fille s'en vont en bateau à vapeur ! </p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Malheureux ! Qu'ai-je fait ! Chauffeurs, arrêtez... Prenez pitié d'un
+                                malheureux père qui n'a plus de fille. <stage type="corps"
+                                    >(S'adressant à Pierrot.)</stage> Je la retrouverai, quand je
+                                devrais sauter. </p>
+                            <stage type="saut">À ce moment le Génie paraît et fait sauter le wagon
+                                en l'air. Un vautour saisit Cassandre par le corps et l'emporte au
+                                milieu des airs. L'explosion.</stage>
+                            <stage type="saut">Une forte musique jusqu'à la fin de l'acte</stage>
+                        </sp>
+
+                        <pb n="42" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_42.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div type="1">
+                <head type="acte" n="3">Acte III</head>
+                <div type="2">
+                    <head type="tableau" n="1">Tableau I</head>
+                    <stage type="saut">Le théâtre représente une cave à droite et à gauche des
+                        tonneaux. Pierrot met son couvert sur un tonneau dans le fond.</stage>
+                    <div type="3">
+                        <head type="scene" n="1">Scène 1</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Pierrot</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p> Quand je songe à cet horrible vautour qui a emporté mon malheureux
+                                maître, il me vient des frissons. Après ça, est-ce bien un malheur
+                                qu'un être aussi insupportable ne soit plus sur la terre... Car au
+                                train dont il y allait, je le crois très haut placé maintenant. Pour
+                                ma part, je suis enchanté d'en être débarrassé, mon service n'était
+                                plus tenable... Il est là-haut... Qu'il y reste... Moi, je vais
+                                boire du vin, tout ce que je puis faire pour lui, c'est de le boire
+                                à sa santé. <stage type="corps">(Musique. Il va pour boire, mais son
+                                    vin disparait ainsi que tout son couvert.)</stage> Allons bon !
+                                Voilà les sorcelleries qui recommencent. <stage type="corps"
+                                    >(Pierrot se lève et va prendre une bouteille tout en
+                                    mangeant.)</stage> Il faudra que je me fasse exorciser, car
+                                cette affreuse sorcière m'a jeté un sort.</p>
+
+                            <stage type="saut">Il s'assied sur un escabeau placé près des tonneaux
+                                du fond. Sur un des tonneaux est la chandelle.</stage>
+
+                            <p> Voyons, que pourrais-je bien faire pour conjurer le malin esprit...
+                                Si je disais mon chapelet tout en buvant le vin de mon maître, ça
+                                pourrait bien<pb n="43" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_43.jpg"/> peut-être racheter ma mauvaise action.
+                                    <stage type="corps">(Musique pendant que Pierrot boit et
+                                    réfléchit, la chandelle est montée.)</stage> Monsieur Cassandre
+                                s'obstine à acheter de la chandelle de huit. J'ai beau lui dire
+                                que ça éclaire mal, c'est comme si je chantais... Que les
+                                domestiques sont à plaindre d'avoir de pareils maitres... <stage
+                                    type="corps">(Il s'aperçoit que la chandelle a grandi.)</stage>
+                                Voilà une chandelle d'une dimension peu usitée chez messieurs les
+                                épiciers. Ce doit être très gênant pour la lecture. <stage
+                                    type="corps">(L'escabeau sur lequel il est assis monte au niveau
+                                    de la chandelle, Pierrot s'en aperçoit.)</stage> Qui diable m'a
+                                grimpé là-haut ? Mais je ressemble étrangement à l'obélisque. C'est
+                                une horreur, c'est une abomination... Je veux descendre !.. À moi...
+                                Au secours... <stage type="corps">(Musique. La Sorcière paraît de
+                                    dessous le théâtre, le balai traverse le théâtre et l'escabeau
+                                    redescend.)</stage> Te voilà donc, horrible mégère, il faut
+                                qu'une bonne fois j'en finisse avec toi. Tiens, ton ignoble balai
+                                sera l'instrument de ton supplice, je vais purger la terre de ton
+                                affreuse présence. Nous allons voir si tous deux vous avez assez de
+                                puissance pour m'échapper. <stage type="corps">(Au moment où il va
+                                    saisir le balai, celui-ci entre dans le tonneau à
+                                    droite.)</stage> Allons bon ! Le voilà entré dans le tonneau, il
+                                est capable d'empoisonner le vin. Tant pis, ça ne m'empêchera pas
+                                d'en prendre un canon. <stage type="corps">(forte musique)</stage></p>
+                                <stage type="saut">À ce moment le tonneau se transforme en canon qui tire sur
+                                    Pierrot, lequel se trouve embroché par le balai.
+                                Il se sauve en criant dans la
+                                    coulisse.</stage><pb n="44" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_44.jpg"/> <p>Au meurtre, à l'assassin !</p> 
+                        </sp>
+
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="2">Scène 2</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>La Sorcière</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>La Sorcière</speaker>
+                            <stage type="pers"> (seule)</stage>
+                            <p> Tu doutais de ma puissance, Pierrot, et tu voulais lutter avec moi...
+                                Va, cours. Insensé, tu n'es pas au bout de tes peines. J'inventerai
+                                pour te convaincre des tourments plus grands encore... Et pourtant
+                                il est une puissance que je n'ai pas, celle de me faire aimer
+                                d'Arlequin, à qui je donnerais tous les trésors de mon empire si je
+                                pouvais parvenir à lui faire oublier son Isabelle... Jusqu'à minuit,
+                                je puis encore la lui enlever... Fasse l'enfer que je réussisse, car
+                                s'ils parviennent à m'échapper, à minuit j'aurai perdu et mon
+                                bonheur et ma puissance.</p>
+                        
+                        <stage type="saut">Elle disparait dans le dessous au milieu des
+                            flammes.</stage>
+                        <stage type="saut">Musique</stage>
+                        </sp>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="3">Scène 3</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Cassandre</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <stage type="pers"> (Tombant par le soupirail de la cave, il cherche à
+                                se reconnaître.)</stage>
+                            <p>Ouf ! je n'en puis plus ! mais d'où viens-je ? Où suis-je ? <stage
+                                    type="corps"> (reconnaissant sa cave)</stage> C'est-à-dire que
+                                je tombe des nues dans ma cave. Voyons, tâchons de reprendre un peu
+                                mes esprits,<stage type="corps"> (réfléchissant)</stage> Combien
+                                ai-je pu mettre de temps à faire mon voyage aérien ? Ma foi, je ne
+                                sais pas, n'ayant sur moi ni montre ni calendrier. Je sais seulement
+                                que cette course en vautour m'a donné un appétit féroce, et je
+                                donnerais <pb n="45" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_45.jpg"/> la moitié de la vie de mon domestique Pierrot
+                                pour une table bien servie. <stage type="corps">(Musique. Une table
+                                    sort du tonneau.)</stage> Ah ! voilà qui est merveilleux !
+                                    <stage type="corps">(fugue)</stage> Enfin ! Une fois dans ma
+                                vie, il m'arrive quelque chose d'agréable. Si tous ces plats ne sont
+                                pas ensorcelés, je vais bien manger, je vais boire, je vais me
+                                reposer. <stage type="corps">(avec satisfaction)</stage> Tous les
+                                bonheurs à la fois ! Il me semble que mes maux sont finis, et si je
+                                pouvais retrouver ma fille, rien ne manquerait à ma joie.</p><stage
+                                    type="saut">Musique jusqu'à la fin du tableau</stage>
+                               <p> <stage type="corps">(Il se met à table et va pour manger mais un
+                                    singe sort de la table, lui fait des grimaces et jette tout par
+                                    terre. Cassandre veut le prendre.)</stage> Va-t'en horrible
+                                singe, est-ce l'enfer qui t'envoie pour me tourmenter ?.. <stage
+                                    type="corps">(La chandelle s'enflamme et l'aveugle.)</stage> Au
+                                secours ... Au secours ... Au secours ... Au secours !... <stage
+                                    type="corps">(Il se sauve en criant de toutes ses
+                                    forces.)</stage>
+                            </p>
+                        </sp>
+                        <pb n="46" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_46.jpg"/>
+                    </div>
+                </div>
+                <div type="2">
+                    <head type="tableau" n="2">Tableau II</head>
+                    <stage type="saut">Musique. Le théâtre représente la place d'un village, à
+                        droite une auberge avec cette enseigne : Au marteau d'or. Près de l'auberge
+                        une perche sur laquelle sèche du linge. À gauche un puits.</stage>
+                    <div type="3">
+                        <head type="scene" n="1">Scène 1</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Cassandre</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <stage type="pers"> (seul en entrant)</stage>
+                            <p>Et dire que j'en suis réduit à être le domestique de mon domestique !
+                                À quel degré d'humiliation suis-je descendu mon Dieu ! Tout cela
+                                pour une péronnelle qui court les champs. Car Pierrot m'a dit : je
+                                veux bien vous aider à retrouver votre fille, mais vous m'obéirez en
+                                tous points. Or il m'a commandé de faire sécher son linge, je dois
+                                le faire si je ne veux pas qu'il m'abandonne à mon malheureux sort.
+                                    <stage type="corps">(allant vers le linge)</stage> Tout va bien,
+                                ce linge est presque sec... Pierrot sera content de moi. </p>
+                        </sp>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="2">Scène 2</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Cassandre, </name>
+                                <name>Pierrot</name>
+                            </personGrp>
+                        </listPerson>
+
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <stage type="pers">(en entrant d'un air digne)</stage>
+                            <p>Eh ! bien, que faites-vous là les bras croisés ? Vit-on jamais un
+                                pareil fainéant ? Voyons ce linge... Est-il prêt ?</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Ne te fâche pas mon petit Pierrot, j'ai fait tout ce que tu m'as
+                                commandé... Tu seras content, regarde, <pb n="47" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_47.jpg"/>ce linge n'est-il
+                                pas d'une blancheur éblouissante ? </p>
+                       
+                        <stage type="saut">fugue de musique</stage>
+                        <stage type="saut">Le linge disparait à ces derniers mots.</stage>
+ </sp>
+
+
+                        <sp>
+                            <speaker>Pierrot </speaker>
+                            <stage type="pers"> (se tournant du côté du linge)</stage>
+                            <p>Mais affreux crétin, qu'en avez-vous fait de mon linge ? Vous voyez
+                                bien qu'il n'est pas là.
+                            </p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                                <stage type="pers">(Cassandre qui se
+                                    tourne à l'instant vers la perche.)</stage>   <p>Mais alors tu l'as
+                                pris ? </p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p> Comment, je l'ai pris ?</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Mais oui, puisqu'il était là il n'y a qu'un instant avant ton arrivée
+                                ? </p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p> Monsieur Cassandre, je commence à perdre patience... Prenez garde à
+                                vous. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p>Pierrot, sois indulgent pour ton maître, tu sais bien combien il
+                                t'est dévoué.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p>Je sais que vous n'êtes qu'un idiot, et qu'il me prend l'envie de
+                                vous rouer de coups.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p> Au nom du ciel, ne m'abandonne pas !... Que deviendrai-je sans toi,
+                                livré comme je le suis à tous ces sorciers ? Vois-tu Pierrot, je suis
+                                abruti... </p>
+                        </sp>
+                        <pb n="48" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_48.jpg"/>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p> Parbleu, je m'en aperçois bien.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p> N'est-ce pas Pierrot, que mon intelligence n'est plus la même ? </p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p> Oui, je vous trouve encore plus bête qu'autrefois !</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p> C'est vrai Pierrot, je suis de ton avis.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p> Ah ! ça, mais vous croyez donc être seul à souffrir ?</p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p> Aurais-tu éprouvé quelque désagrément ?</p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p> J'ai été embroché par ce maudit balai, absolument comme un dindon.
+                                J'aurais compris cela pour vous, monsieur Cassandre, mais pour moi,
+                                fi donc. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <p> Le fait est que ce devait être bien gênant, mais dis donc Pierrot,
+                                puisque tu es remis de ton indisposition, si nous prenions quelque
+                                chose ?</p>
+                        </sp>
+                        <sp>
+                            <speaker>Pierrot</speaker>
+                            <p> Vous avez raison, voici justement une auberge. Au marteau d'or. Que
+                                n'ai-je eu ce marteau en ma puissance, j'en eusse frappé si bien et
+                                si fort sur ce balai qu'il serait rentré en lui-même.</p><pb n="49" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_49.jpg"/>
+                                <stage type="saut">Musique jusqu'à la sortie.</stage>
+                                <stage type="saut">Il va pour prendre le marteau, mais il se soulève
+                                    seul, frappe la tête de Pierrot et la lui enfonce. Pierrot
+                                    marche sans tête et se dirige vers la coulisse.</stage>
+                            
+                        </sp>
+                        <sp>
+                            <speaker>Cassandre</speaker>
+                            <stage type="pers"> (criant)</stage>
+                            <p>Pierrot, mon pauvre Pierrot, ils me l'ont abimé... <stage
+                                    type="corps">(Il sort en gémissant.)</stage>
+                            </p>
+                        </sp>
+
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="3">Scène 3</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Arlequin, </name>
+                                <name>Isabelle</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <p>Je crois, ma chère Isabelle, que nos maux sont près de finir, et que
+                                nous touchons au bonheur. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Isabelle</speaker>
+                            <p>Le pensez-vous, Arlequin ? Moi je ne crois plus à grand chose, et je
+                                n'aurai plus une minute de tranquillité tant que nous serons en la
+                                puissance de notre ennemie.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <p>Mais nous n'y sommes pas, ma chère Isabelle, nous n'y serons plus
+                                jamais. </p>
+
+                       
+                        <stage type="saut">(Musique en sourdine.)</stage>
+ </sp>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="4">Scène 4</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Les mêmes, </name>
+                                <name>La Sorcière</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>La Sorcière</speaker>
+                            <stage type="pers"> (paraissant d'un côté)</stage>
+                            <p> Tu te trompes Arlequin, car vous êtes en mon pouvoir et nulle
+                                puissance au monde ne saurait vous en arracher. </p>
+                        </sp>
+                        <pb n="50" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_50.jpg"/>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="5">Scène 5</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Les mêmes, </name>
+                                <name>Le Génie</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Le Génie</speaker>
+                            <stage type="pers"> (sortant du puits)</stage>
+                            <p>Excepté une puissance au-dessus de la tienne,Mélusine, et cette
+                                puissance m'a été donnée pour sauver ces enfants. Mais tu sais bien
+                                que je dis vrai, car tu n'as pas oublié qu'à minuit s'ils n'étaient
+                                point en ton pouvoir, ta puissance devait t'échapper. Rentre donc
+                                dans l'enfer dont tu n'aurais jamais dû sortir, et sois maudite pour
+                                tout le mal que tu as fait sur la terre. <stage type="corps">(Forte
+                                    musique. Minuit sonne, la Sorcière
+                                s'enfonce.)</stage>Vous mes enfants, venez avec moi.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Isabelle</speaker>
+                            <p>Mais où donc allez-vous nous conduire ? </p>
+                        </sp>
+                        <sp>
+                            <speaker>Le Génie</speaker>
+                            <p>Dans l'île du bonheur. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Isabelle</speaker>
+                            <p>Mais nous ne serons pas heureux si je ne retrouve pas mon père. </p>
+                        </sp>
+                        <sp>
+                            <speaker>Le Génie</speaker>
+                            <p> J'ai songé à tout. Votre père et Pierrot savent déjà que vous êtes
+                                ici, et par ma volonté ils vont être transportés où nous allons.
+                            </p>
+                        </sp>
+                        <sp>
+                            <speaker>Arlequin</speaker>
+                            <p> Mais nous donnera-t-il son consentement ? </p>
+                        </sp>
+                        <sp>
+                            <speaker>Le Génie</speaker>
+                            <p>Oh ! n'ayez aucune crainte... Cassandre est revenu <pb n="51" facs="19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN_51.jpg"/>de son
+                                entêtement et disposé à faire tout ce que je voudrai. Venez donc,
+                                et vous trouverez dans l'île du bonheur la récompense de votre
+                                vertu. </p>
+                        </sp>
+                    </div>
+                    <div type="3">
+                        <head type="scene" n="6">Scène 6</head>
+                        <listPerson>
+                            <personGrp>
+                                <name>Les mêmes, </name>
+                                <name>Pierrot</name>
+                            </personGrp>
+                        </listPerson>
+                        <sp>
+                            <speaker>Pierrot </speaker>
+                            <stage type="pers"> (accourant)</stage>
+                            <p>Par ici père Cassandre, nous les tenons.</p>
+                        </sp>
+                        <sp>
+                            <speaker>Le Génie</speaker>
+                            <p>Pas encore... <stage type="corps">(Musique pendant tout l'entracte. Le puits se change en ballon qui enlève les amoureux et le
+                                    Génie.)</stage>
+                            </p>
+                        </sp>
+                        <div type="5">
+                            <head type="div5">Changement</head>
+                        </div>
+                    </div>
+                </div>
+                <div type="2">
+                    <head type="tableau">Dernier Tableau</head>
+                    <stage type="saut">Musique aérienne. Aposthéose. Palais féerique.</stage>
+                    <listPerson>
+                        <personGrp>
+                            <name>Tous les personnages</name>
+                        </personGrp>
+                    </listPerson>
+                    <stage type="saut">Flammes de Bengale</stage>
+                    <div type="5">
+                        <head type="div5">Fin</head>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

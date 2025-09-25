@@ -1,0 +1,584 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="https://puppetplays.eu/oeuvres/398248/der-blinde">Der Blinde</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="AM">Anaïs Malfatti</name>
+          <resp>Transcription</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JB">Jean Boutan</name>
+          <resp>Transcription</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Stadtmuseum de Munich</distributor>
+        <availability status="free">
+          <licence>Public domain</licence>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>Un aveugle recherche sa bien-aimée</note>
+        <note>Quand il ouvre au public en 1907 son théâtre d’ombres dans le quartier
+          artistique de Schwabing, Alexander von Bernus veut proposer une nouvelle forme d’art
+          dont il revendique la filiation romantique et qui, distincte des spectacles du Chat
+          Noir à Paris, exploiterait davantage l’immatérialité de l’ombre pour s’aventurer sur
+          les terres de l’âme et du rêve. Le mysticisme prégnant dans les cercles
+          intellectuels et artistiques munichois au début du 20e siècle n’est pas étranger à
+          ce projet visant « l'union la plus métaphysique de l'image, de la poésie et de la
+          musique ». Der Blinde fut créé avec les silhouettes et
+          les décors de Dora Polster (1884-1958) qui, avant l’arrivée de Rolf von
+          Hoerschelmann (1887-1947), conçut tout le dispositif technique des premiers
+          spectacles des Schwabinger Schattenspiele. Dans ses mémoires, Alexander
+          von Bernus souligne la qualité de la pièce avant de faire allusion aux dérives
+          idéologiques de son ancien camarade (Will Vesper sera un haut fonctionnaire et un
+          écrivain respecté du Troisième Reich). </note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>Non spécifié</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>Stadtmuseum de Munich. XSCH 54-62</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 13</p>
+                <p>Number of acts in the original document: 1</p>
+                <p>Format of the original document: Imprimé</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main">Der Blinde</title>
+          <title type="sub">Ein Narrenspiel</title>
+          <date>1907</date>
+          <author>
+            <persName>Vesper Will</persName>
+            <idno type="IDREF">028481623</idno>
+          </author>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">Allemand</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques">
+          <term source="https://puppetplays.eu/techniques-d-animation/2440/théâtre-dombres">Théâtre d'ombre</term>
+        </keywords>
+        <keywords source="literaryTones">
+          <term>Lyrique</term>
+          <term>Merveilleux</term>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Personnage aveugle</term>
+          <term>Scène de reconnaissance</term>
+          <term>Succession de personnages</term>
+          <term>Répétition</term>
+          <term>Monologue</term>
+        </keywords>
+        <keywords source="genre">
+          <term>null</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Passion</term>
+          <term>Temps</term>
+          <term>Égarement</term>
+          <term>Cœur</term>
+          <term>Double</term>
+          <term>Synesthésie</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+          Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+          re-evaluate the contribution of the puppets repertoire to the construction of
+          European cultural identity. Its main goals is to collect a corpus of
+          representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+          France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+          17th and the 21th century. It also tries to identify the characteristics of
+          puppet dramaturgy and their variations depending on eras, cultural spheres,
+          producing conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+          Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+          build upon the material in any medium or format for non-commercial purposes
+          only, and only so long as attribution is given to the creator. If you remix,
+          adapt, or build upon the material, you must license the modified material under
+          identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2025-09-18" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+      <change when-iso="2024" who="#JB">Text transcription</change>
+      <change when-iso="2025-06-01" who="#AM">Text transcription</change>
+      <change when-iso="2025-07-01" who="#MSK">Encoding</change>
+      <!-- mandatory, can be repeated as many times as necessary, @when-iso should always be YYYY-MM-DD, @who should always match a defined @xml:id  -->
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="3" facs="20_D_VESPER_DerBlinde_ALL_MUN_003.jpg"/>
+      <docAuthor>
+        <persName>Will Vesper</persName>
+      </docAuthor>
+      <docTitle>
+        <titlePart type="main">Der Blinde</titlePart>
+        <titlePart type="sub">Ein Narrenspiel</titlePart>
+      </docTitle>
+      <docDate>1907</docDate>
+      <pb n="4" facs="20_D_VESPER_DerBlinde_ALL_MUN_004.jpg"/>
+      <castList>
+        <head type="personnage">Charaketere</head>
+        <castItem>
+          <role>Der Blinde, </role>
+        </castItem>
+        <castItem>
+          <role>Der Narr, </role>
+          <roleDesc>Vorübergehende</roleDesc>
+        </castItem>
+        <castItem>
+          <role>[Ein Frau, </role>
+        </castItem>
+        <castItem>
+          <role>Ein Mann, </role>
+        </castItem>
+        <castItem>
+          <role>Ein Mädchen, </role>
+        </castItem>
+        <castItem>
+          <role>Ein altes Weib]</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="3">
+        <pb n="5" facs="20_D_VESPER_DerBlinde_ALL_MUN_005.jpg"/>
+        <stage type="saut">Dunkler Wald; in der Mitte eine weite helle Lichtung, die anfänglich
+               dämmernd, dann heller beleuchtet wird. Ein Reh kommt und geht vorüber. Ihm
+               folgt.</stage>
+        <sp>
+          <speaker>Der Blinde</speaker>
+          <stage type="saut">Erst mit weitvorgestreckten Händen, die er dann sinken läßt,
+                  horchend.</stage>
+          <lg>
+            <l>Arsina, Schöne, hör ich deine Füße?</l>
+            <l>Wo gingst due hin? Ich fühl ein lichter Glänzen</l>
+            <l>Schwimmt um mich her. Die Luft von Blumen süße,</l>
+            <l>Arsina, Schöne, hör ich deine Füße?</l>
+            <l>atm ich den Duft von deinen nahen Kränzen?</l>
+            <stage type="saut">Das Reh tritt wieder aus dem Walde und weidet in der
+                     Lichtung.</stage>
+            <l>Arsina, sieh! Ich weiß, daß du mich siehst!</l>
+            <l>Arsina hör! Ich weiß, daß du mich fliehst.</l>
+            <l>Ach meine Hände sind gewöhnt gewesen</l>
+            <l>von deinem Leibe Heilige Schrift zu lesen,</l>
+            <l>einst als ich jung und schön und sehend war.</l>
+          </lg>
+          <pb n="6" facs="20_D_VESPER_DerBlinde_ALL_MUN_006.jpg"/>
+          <lg>
+            <l>Die Augen schloß ich, fühlend nur allein,</l>
+            <l>und wollte blind um ganz zu fühlen sein.</l>
+            <l>In deinen Haaren lag ich Tag und Jahr</l>
+            <l>bis ich erwachte und erblindet war.</l>
+            <l>Die Sonne all zu innrem Brand verbraucht,</l>
+            <l>zu inneren Strahlen Mond und Stern verraucht.</l>
+            <l>Das Auge in die Seele abgewandt,</l>
+            <l>nach außen tastet irre nur die Hand.</l>
+          </lg>
+          <lg>
+            <l>Arsina, o Arsina, meine Hände</l>
+            <l>sind durstig, o so durstig dich zu fühlen,</l>
+            <l>Der Brand in mir wird wüten ohne Ende,</l>
+            <l>kann nur an dir, an dir allein sich fühlen.</l>
+          </lg>
+          <lg>
+            <l>Mein Herz, Arsina, war ein Dom</l>
+            <l>durchstrahlt von rotem, heiligem Strom,</l>
+            <l>und von dem goldnen Altare hoch</l>
+            <l>Dein heilig Bild sich niederbog.</l>
+            <l>Arsina, ich war wie ein Kind so dumm,</l>
+            <l>hing dir Gottes blauen Mantel um,</l>
+            <l>ein Dunst um dich von Rauch und Traum,</l>
+            <l>du konntest gehn, ich merkte es kaum,</l>
+            <l>tastend in bunten Finsternissen,</l>
+            <l>Anbeter von Teppichen und von Kissen,</l>
+            <l>von Farb und Licht und Tuch und Hülle.</l>
+            <l>Arsina!</l>
+          </lg>
+        </sp>
+        <pb n="7" facs="20_D_VESPER_DerBlinde_ALL_MUN_007.jpg"/>
+        <stage type="saut">Ein Narr tritt hinter dem Reh aus dem Walde.</stage>
+        <sp>
+          <speaker>Der Blinde</speaker>
+          <stage type="pers"> (tastend)</stage>
+          <lg>
+            <l>Ich spür ein Herz, das schlägt ganz nah</l>
+            <l>Der Luftstrom zitternd gibt es leise wieder…</l>
+            <l>Waldes Rauschen nur geht auf und nieder</l>
+            <l>Und stört es mir, daß ich es ganz nicht sah.</l>
+            <stage type="saut">Beugt sich wieder tastend vor.</stage>
+            <l>Arsina, o Arsina doch ist da.</l>
+            <l>So ging kein Herz noch, das nicht ihres war.</l>
+            <l>Ich kenn es wieder, wärens hundert Jahr</l>
+            <l>Seit ich zuletzt die Brüste von dem Hammer,</l>
+            <l>der sie erschüttert, leise beben sah.</l>
+            <stage type="saut">Der Narr und das Reh kommen näher.</stage>
+            <l>Doch nun, zwei Herzen — drei in einer Kammer.</l>
+            <l>Wer ist da noch? Mein Herz und Deines und —</l>
+            <l>vielleicht begleitet dich ein Hund —</l>
+            <l>vielleicht begleitet dich ein Kind.</l>
+            <stage type="saut">Noch ein Reh mit Jungen tritt aus dem Walde. Die Rehe gehen
+                     vorüber.</stage>
+            <l>Wie sonderbar hier alle Dinge sind.</l>
+            <l>Nun ist mir schon als trieb mein Blut allein,</l>
+            <l>stets neuen Herzschlag mir ins Ohr hinein...</l>
+            <l>Die Luft ist still, kein Ton kommt wieder.</l>
+            <pb n="8" facs="20_D_VESPER_DerBlinde_ALL_MUN_008.jpg"/>
+            <l>Die Wälder wiegen sich nur auf und nieder,</l>
+            <l>und nicht zu ferne muß ein Wasser gehn</l>
+            <l>und eine Türe muß sich drehn. </l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Narr</speaker>
+          <lg>
+            <l>Guten Morgen, Tag, Abend oder was ihr wollt,</l>
+            <l part="I">was geistert ihr hier im Wald zwischen Nachtspuk und</l>
+            <l part="M">Kobold?</l>
+            <l part="I">Laßt sehen — was macht ihr für Augen, was macht </l>
+            <l part="M">ihr für ein Gesicht,</l>
+            <l>seid ihr ein Mensch oder seid ihr nicht?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Blinde</speaker>
+          <lg>
+            <l>Eure Stimme, Herr, ist mir nicht bekannt.</l>
+            <l>Ich bin verirrt und fremd in diesem Land.</l>
+            <l>Im Walde reist ich schon viele Stunden Wegs.</l>
+            <l>Kein Haus hab ich gefunden und keinen Steg.</l>
+            <l>Könnt ihr mir nicht weisen, nur mit der Hand,</l>
+            <l>wo finde ich Menschen, Stadt und bebautes Land?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Narr</speaker>
+          <lg>
+            <l>Wo kommt ihr her, wo wollt ihr hin?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Blinde</speaker>
+          <lg>
+            <l part="I">Her komme ich? — her komme ich?</l>
+          </lg>
+        </sp>
+        <pb n="9" facs="20_D_VESPER_DerBlinde_ALL_MUN_009.jpg"/>
+        <sp>
+          <speaker>Der Narr</speaker>
+          <lg>
+            <l part="M">— und hin?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Blinde</speaker>
+          <lg>
+            <l>Weiß ja nicht einmal, wo ich bin.</l>
+            <l>Aber hört, ihr kommt von dort herüber;</l>
+            <l>ging euch nicht eine Frau vorüber?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Narr</speaker>
+          <lg>
+            <l>Eine Frau vorüber? <stage type="corps"> (hastig)</stage> Eine schöne, ja:</l>
+            <l>sucht ihr die, die ich sah?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Blinde</speaker>
+          <lg>
+            <l part="I">Hatte ein rotes Kleid an?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Narr</speaker>
+          <lg>
+            <l part="M">Ja.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Blinde</speaker>
+          <lg>
+            <l>Und rotes, rotes, ganz rotes Haar.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Narr</speaker>
+          <lg>
+            <l>Ja, rotes Haar und Augen — wie gleich?</l>
+          </lg>
+        </sp>
+        <pb n="10" facs="20_D_VESPER_DerBlinde_ALL_MUN_010.jpg"/>
+        <sp>
+          <speaker>Der Blinde</speaker>
+          <lg>
+            <l>Augen? Wie? — das weiß man nie — nur bleich</l>
+            <l>ganz bleich war ihr Gesicht —</l>
+            <l part="I">Und ihre Brust?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Narr</speaker>
+          <lg>
+            <l part="M">sah ich nicht.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Blinde</speaker>
+          <lg>
+            <l>Nein, hörtet ihr nicht? Schlägt so laut</l>
+            <l>schlägt so vertraut.</l>
+            <l>Ihr Herz hört man schon</l>
+            <l>geht man vorbei, kennt man am Ton.</l>
+            <l>Führt mich zu ihr! Ist sie schon weit?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Narr</speaker>
+          <lg>
+            <l>Weit? Nein, sie ging müde, weit war ihr Kleid, </l>
+            <l part="I">schwer ihre Schritte.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Blinde</speaker>
+          <lg>
+            <l part="M">Führt mich schnell.</l>
+            <l>Lieber, ihr seid ein guter Gesell.</l>
+            <l>Und eure Stimme scheint mir jetzt bekannt.</l>
+            <l>Sah ich euch nicht? Reicht mir die Hand. —</l>
+            <l>Eisige Hand, eisiges Blut,</l>
+            <l>daß ich nicht an; führt mich nicht gut —</l>
+          </lg>
+        </sp>
+        <pb n="11" facs="20_D_VESPER_DerBlinde_ALL_MUN_011.jpg"/>
+        <sp>
+          <speaker>Der Narr</speaker>
+          <stage type="saut">Legt ihm fest den Arm um und zieht ihn fort</stage>
+          <lg>
+            <l>führt zu Arsina, führt dich nach Haus,</l>
+            <l>ruhst bald an ihrem Halse aus.</l>
+            <l>Komm nur ein Kindlein wiegt sie im Arm,</l>
+            <l>komm nur sein Mündlein macht wieder warm</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Blinde</speaker>
+          <lg>
+            <l>Laßt mich, laßt mich, wie faßt ihr gleich an.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Narr</speaker>
+          <lg>
+            <l>Komm nur, komme, bald ists getan.<stage type="corps"> (Ab.)</stage>
+                  </l>
+          </lg>
+        </sp>
+        <stage type="saut">Ein zwölfjähriges Mädchen tritt schnell auf die Lichtung. Rehe kommen
+               ihm entgegen.</stage>
+        <sp>
+          <speaker>Mädchen</speaker>
+          <lg>
+            <l>Ach die schönen Tiere,</l>
+            <l>darf ich sie nicht streicheln.</l>
+            <l>Kleines, Kleines, komm, komm,</l>
+            <l>da sei gut, da sei fromm.</l>
+          </lg>
+          <lg>
+            <l>Komm, komm, sei nicht bang,</l>
+            <l>komm, komm, hab dich so lieb,</l>
+            <l>bin ja kein Jäger, schieße dich nicht.</l>
+            <pb n="12" facs="20_D_VESPER_DerBlinde_ALL_MUN_012.jpg"/>
+            <l>Friß mein gutes, gutes komm,</l>
+            <l>ach so ein liebes, Kleines Gesicht.</l>
+            <l>Komm, komm geh mit nach Haus</l>
+            <l>Komm, komm hab dich so lieb</l>
+            <l>bin ja kein Jäger, schieße dich nicht.<stage type="corps"> (Mit den Rehen
+                        ab.)</stage>
+                  </l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Narr</speaker>
+          <stage type="saut"> führt den Blinden hastig dem Mädchen nach</stage>
+          <lg>
+            <l>Hörst du sie nicht — komm wir sind nah.</l>
+            <l>Bald kommt Arsina, bald bist du da.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Blinde</speaker>
+          <lg>
+            <l>Ach, Arsina, warum wartet sie nicht? </l>
+            <l>Wenn sie so läuft, holen wir sie nie ein.<stage type="corps"> (Ab.)</stage>
+                  </l>
+          </lg>
+        </sp>
+        <stage type="saut">Eine junge Frau und ein Mann gehen vorüber.</stage>
+        <sp>
+          <speaker>Die Frau</speaker>
+          <p>Wie kühl hier draußen der Wind weht.</p>
+        </sp>
+        <sp>
+          <speaker>Der Mann</speaker>
+          <p>Und wie bleich der Mond ist.</p>
+        </sp>
+        <pb n="13" facs="20_D_VESPER_DerBlinde_ALL_MUN_013.jpg"/>
+        <sp>
+          <speaker>Die Frau</speaker>
+          <p>Ich freue mich auf das warme Zimmer und die Ofenbank. Es wird unheimlich im
+                  Wald.</p>
+        </sp>
+        <sp>
+          <speaker>Der Mann</speaker>
+          <p>Und wie blaß du bist.</p>
+        </sp>
+        <sp>
+          <speaker>Die Frau</speaker>
+          <p>Das Licht ist so weiß, der Wald ist so weiß, der Weg und die Erde sind weiß, darum
+                  bin ich so blaß und du auch.</p>
+        </sp>
+        <sp>
+          <speaker>Der Mann</speaker>
+          <p>Mir ist, ich höre die ganze Zeit Schritte hinter uns.</p>
+        </sp>
+        <sp>
+          <speaker>Die Frau</speaker>
+          <p>Die Rehe laufen.</p>
+        </sp>
+        <sp>
+          <speaker>Der Mann</speaker>
+          <p>Nein, schwere Schritte; wollen wir nicht warten.</p>
+        </sp>
+        <sp>
+          <speaker>Die Frau</speaker>
+          <stage type="pers"> (hastig)</stage>
+          <p>Nein, nein, ich kann nicht mehr warten. Du mußt mir nicht Angst machen. Es ist
+                  Zeit, daß wir heimkommen. Mutter wird warten, Vater wird schelten, und das Kind
+                     weint.<stage type="corps"> (Ab.)</stage>
+               </p>
+        </sp>
+        <pb n="14" facs="20_D_VESPER_DerBlinde_ALL_MUN_014.jpg"/>
+        <sp>
+          <speaker>Der Narr und Der Blinde</speaker>
+          <stage type="pers"> (wie vorher)</stage>
+          <lg>
+            <l>Hörst du sie nicht, komm wir find nah. </l>
+            <l>Bald kommt Arsina, bald bist du da.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Blinde</speaker>
+          <lg>
+            <l>Ach Arsina, warum wartet sie nicht?</l>
+            <l>Wenn sie so läuft, holen wir sie nie ein.<stage type="corps"> (Ab.)</stage>
+                  </l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Ein Frau</speaker>
+          <stage type="pers"> (mit ihrem Kinde auf dem Arm geht vorüber und singt)</stage>
+          <lg>
+            <l>Schlaf mein Süßes, schlaf mein Liebes, schlaf.</l>
+            <l>Geht der Mond und scheinen Sterne,</l>
+            <l>kommen Englein aus der Ferne,</l>
+            <l>schlaf mein Süßes, schlaf mein Liebes, schlaf,</l>
+            <l>bringen dir viel Himmelsrosen,</l>
+            <l>von den weißen, von den roten;</l>
+            <l>schlaf mein Süßes, schlaf mein Liebes, schlaf.<stage type="corps">
+                        (Ab.)</stage>
+                  </l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Narr und Der Blinde</speaker>
+          <stage type="pers"> (wie vorher)</stage>
+          <lg>
+            <l>Hörst du sie nicht? Komm wir sind nah.</l>
+            <l>Gleich Kommt Arsina, gleich bist du da.<stage type="corps"> (Ab.)</stage>
+                  </l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Ein altes Weib</speaker>
+          <stage type="pers"> (an der Krücke)</stage>
+          <lg>
+            <l>Noch immer nicht zu Hause,</l>
+            <l>Herrgott, der Weg ist lang.</l>
+          </lg>
+          <pb n="15" facs="20_D_VESPER_DerBlinde_ALL_MUN_015.jpg"/>
+          <stage type="saut">Sie humpelt bis in die Mitte.</stage>
+          <lg>
+            <l>Man sollte nicht so lange im Wald bleiben,</l>
+            <l>was mag sich hier all umtreiben,</l>
+            <l>was kann einem geschehn,</l>
+            <l>hinter jedem Baum kann einer stehn.</l>
+            <l>Das tapst und plumpst hier und dort.</l>
+            <l>Der Wind ist oft als wie ein Wort,</l>
+            <l>fort! Fort! </l>
+            <stage type="saut">Sie geht ab, kommt zurück.</stage>
+            <l>Ruft da nicht wer?</l>
+            <l>Am Ende ists einer der irre ging,</l>
+            <l>der sich in den Schlingen der Wildnis fing,</l>
+            <l>Wart ich? Geh ich? Was liegt daran.</l>
+            <l>Bin so alt geworden, daß ich warten kann.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Blinde</speaker>
+          <stage type="pers"> (geht allein, tastend)</stage>
+          <p>O Seligkeit, ich spür Arsinas Herz</p>
+        </sp>
+      </div>
+      <div type="5">
+        <head type="div5">Vorhang</head>
+      </div>
+    </body>
+  </text>
+</TEI>

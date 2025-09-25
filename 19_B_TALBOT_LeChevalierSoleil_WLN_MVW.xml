@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc> <!-- mandatory, unique -->
+            <titleStmt> <!-- mandatory, unique -->
+              <title ref="https://puppetplays.eu/oeuvres/243270/le-chevalier-soleil">Le Chevalier Soleil</title>
+               <respStmt> <!-- mandatory, can be repeated as many times as necessary -->
+                  <name xml:id="GD">Guy Delsupexhe</name> <!-- mandatory, unique -->
+                  <resp>Chargé de la transcription</resp> <!-- mandatory, unique -->
+               </respStmt>
+               <respStmt>
+                  <name xml:id="FB">Baptiste Frankinet</name>
+                  <resp>Chargé de la relecture</resp>
+               </respStmt>
+               <respStmt>
+                  <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+                  <resp>Chargée de l'encodage et de l'édition</resp>
+               </respStmt>
+               <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal> <!-- mandatory, unique -->
+               <sponsor>PuppetPlays project (ERC GA 835193)</sponsor> <!-- mandatory, unique -->
+               <funder>European Research Council - ERC</funder> <!-- mandatory, unique -->
+            </titleStmt>
+           <publicationStmt>
+             <distributor ref="http://collections.viewallonne.be?queryid=8f836e47-15c3-4973-b5b8-ac310b8ad370"/>
+             <availability status="free">
+               <licence>Public domain</licence>
+             </availability>
+             <idno type="DOI"/>
+           </publicationStmt>
+           <notesStmt>
+             <note>Un chevalier meurt au combat</note>
+             <note>La dactylographie porte comme titre "Le Chevalier Soleil,
+               légende bouffonne en trois actes et un prologue, tirée de la pièce Le
+               Chevalier Soleil de Pierre-Paul Pinet et arrangée par Th. Talbot". Il s'agit
+               en effet d'une réécriture du Chevalier
+               Soleie de Pinet, composée une trentaine d'années plus tôt. L'action
+               est ici plus développée qu'elle ne l'était chez Pinet et le texte est écrit en vers
+               rimés. Elle s'achève par la mort du héros et la dimension humoristique se trouve
+               effacée. Talbot insère en outre, pour l'entrée en scène du Diable, l'air du Veau
+               d'or dans le Faust de Charles Gounod.La marionnette de
+               Tchantchet joue les rôles du sénéchal François, de son envoyé Rouquette, des deux
+               Meneurs et d'Adam.</note>
+           </notesStmt>
+           <sourceDesc>
+             <listPerson>
+               <personGrp role="audience">
+                 <p>Non spécifié</p>
+               </personGrp>
+             </listPerson>
+             <listBibl>
+               <msDesc>
+                 <msIdentifier>
+                   <repository ref="http://collections.viewallonne.be?queryid=8f836e47-15c3-4973-b5b8-ac310b8ad370">Province de Liège - Musée de la Vie Wallonne, MVW-2058823</repository>
+                 </msIdentifier>
+                 <physDesc>
+                   <objectDesc>
+                     <p>Number of pages in the original document: 15</p>
+                     <p>Number of acts in the original document: 3</p>
+                     <p>Format of the original document: Dactylographie</p>
+                   </objectDesc>
+                 </physDesc>
+               </msDesc>
+             </listBibl>
+             <bibl>
+               <title type="main"
+                 ref="http://collections.viewallonne.be?queryid=8f836e47-15c3-4973-b5b8-ac310b8ad370">Le Chevalier Soleil</title>
+               <date>Vers 1920</date>
+               <author>
+                 <persName>Talbot Thomas (dit Tchantchès d'Lîdge)</persName>
+                 <idno type="IDREF">276834895</idno>
+               </author>
+             </bibl>
+           </sourceDesc>
+         </fileDesc>
+        <profileDesc>
+          <langUsage>
+            <language ident="fra">Français</language>
+          </langUsage>
+          <textClass>
+            <keywords source="animationTechniques">
+              <term source="https://puppetplays.eu/techniques-d-animation/33866/marionnette-à-tringle">Marionnette à tringle unique</term>
+            </keywords>
+            <keywords source="literaryTones">
+              <term>Comique</term>
+              <term>Épique</term>
+              <term>Parodique</term>
+              <term>Merveilleux</term>
+            </keywords>
+            <keywords source="theatricalTechniques">
+              <term>Pièce en vers</term>
+              <term>Monologue</term>
+              <term>Récit</term>
+              <term>Apparition du Diable</term>
+              <term>Air chanté</term>
+              <term>Combat</term>
+              <term>Mort en scène</term>
+            </keywords>
+            <keywords source="genre">
+              <term>Légende bouffonne</term>
+            </keywords>
+            <keywords source="keywords">
+              <term>Chevalerie</term>
+              <term>Géant</term>
+              <term>Aventure</term>
+            </keywords>
+          </textClass>
+        </profileDesc>
+        <encodingDesc>
+          <editorialDecl>
+            <normalization method="silent">
+              <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+              <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+              <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+              <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+            </normalization>
+            <punctuation marks="some">
+              <p>Punctuation has been corrected according to modern rules.</p>
+            </punctuation>
+          </editorialDecl>
+          <projectDesc>
+            <p>Text collected during the PuppetPlays project funded by European Union (Grant
+              Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+              re-evaluate the contribution of the puppets repertoire to the construction of
+              European cultural identity. Its main goals is to collect a corpus of
+              representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+              France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+              17th and the 21th century. It also tries to identify the characteristics of
+              puppet dramaturgy and their variations depending on eras, cultural spheres,
+              producing conditions, and the aimed public.</p>
+            <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+            <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+              Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+            </ref> licence. This license enables reusers to distribute, remix, adapt, and
+              build upon the material in any medium or format for non-commercial purposes
+              only, and only so long as attribution is given to the creator. If you remix,
+              adapt, or build upon the material, you must license the modified material under
+              identical terms. </p>
+          </projectDesc>
+        </encodingDesc>
+         <revisionDesc> 
+            <change when-iso="2025-06-26" who="#GD">Text transcription </change>
+            <change when-iso="2025-06-26" who="#BF">Text revision</change>
+            <change when-iso="2025-07-07" who="#MSK">Text revision and encoding</change>
+         </revisionDesc>
+      </teiHeader>
+   <text>
+      <front>
+        <pb n="001" facs="19_B_TALBOT_LeChevallierSoleil_WLN_MVW_001"/>
+         <docAuthor>
+            <persName>Thomas Talbot</persName>
+         </docAuthor>
+         <docTitle>
+            <titlePart type="main">Le Chevalier Soleil</titlePart>
+            <titlePart type="sub">Légende bouffonne en trois actes et un prologue, tirée de la pièce « Le Chevalier Soleil » de Pierre Paul Pinet.</titlePart>
+         </docTitle>
+         <docDate>vers 1920</docDate>
+         <castList>
+            <head type="personnage">Personnages - Distribution :</head>
+            <castItem>
+               <role>Le roi Ténébreux - Roi couronné</role>
+            </castItem>
+            <castItem>
+               <role>Rosemonde, son épouse - Reine couronnée</role>
+            </castItem>
+            <castItem>
+               <role>Le Chevalier Soleil, leur fils - Chevalier Energique</role>
+            </castItem>
+            <castItem>
+               <role>Le Chevalier Mastique, cousin de Soleil - Chevalier</role>
+            </castItem>
+            <castItem>
+               <role>Esclarmonde, fiancée de Mastique - Princesse</role>
+            </castItem>
+            <castItem>
+               <role>Fier à Bras - Géant</role>
+            </castItem>
+            <castItem>
+               <role>François, sénéchal du roi Ténébreux - Tchantchès</role>
+            </castItem>
+            <castItem>
+               <role>Bouquète, son envoyé - Tchantchès</role>
+            </castItem>
+            <castItem>
+               <role>Le premier Meneur - Tchantchès</role>
+            </castItem>
+            <castItem>
+               <role>Le deuxième Meneur - Tchantchès</role>
+            </castItem>
+            <castItem>
+               <role>Adam - Tchantchès</role>
+            </castItem>
+            <castItem>
+               <role>Méphistophélès - Diable</role>
+            </castItem>
+            <castItem>
+               <role>Lucifer - Diable</role>
+            </castItem>
+            <castItem>
+               <role>Ditagna - Diable</role>
+            </castItem>
+            <castItem>
+               <role>Un homme sauvage</role>
+            </castItem>
+            <castItem>
+               <role>Quatre à huit chevaliers</role>
+            </castItem>
+            <castItem>
+               <role>La Garde : un chef et quatre soldats</role>
+            </castItem>
+            <castItem>
+               <role>Cochons, chevaux, dragons - Animal</role>
+            </castItem>
+         </castList>
+         <set><p>Décors :</p>
+            <p>Prologue - toile noire</p>
+            <p>Acte I – L’Île du Diable</p>
+            <p>Acte II – La Rentrée au foyer – salle d’audience</p>
+            <p>Acte III – La Mort du Chevalier Soleil – cour de château</p></set>
+      </front>
+      <body>
+        <div type="1"><pb n="002" facs="19_B_TALBOT_LeChevallierSoleil_WLN_MVW_002"/>
+            <head type="acte">Prologue</head>
+            <head type="nameA">Forme d’ouverture</head>
+            
+            <listPerson>
+              <personGrp>
+                <name>[Le Meneur, </name>
+                <name>Tchoucolo]</name>
+              </personGrp>
+            </listPerson>
+          <sp><speaker>Le Meneur</speaker>
+            <lg><l>Donc bonnes gens venus comme aux jeux olympiques
+          </l> <l>Prolétariens, bourgeois, banquiers, rats de boutique,
+          </l> <l>Malades, bons vivants, damoiseaux et tendrons
+          </l> <l>Peuple-idole, omnipotent, … nous te saluons.
+          </l> <l>Nous avons agencé <stage type="corps">(spectacles mirifiques) </stage>
+          </l> <l>Dans ce castel en staff, des poèmes tragiques
+          </l> <l>Chantés par des héros ! … Et c’est de parti pris
+          </l> <l>Pour détourner vos yeux, détourner vos esprits
+          </l> <l>Des quotidiens méfaits, des sottes platitudes
+          </l> <l>Qu’on vous a conviée, ô noble multitude
+          </l> <l>Devant ces tréteaux fastueux… 
+          </l> <l>Ne prenons nul souci d’alarme ou d’incendie ;
+          </l> <l>Que nous flambions un bien, que nous coulions un peu,
+          </l> <l>Le danger n’est pas là, je vous le certifie !
+          </l> <l>Mais de ces lieux nouveaux d’art pur, d’art souverain
+          </l> <l>Où le silence est d’or et le verbe d’airain
+          </l> <l>Repoussez sans égard l’insipide jactance ;
+          </l> <l>Chasses clabauds, dindons ; veuillez s’il est un chien
+          </l> <l>Égaré par mégarde ou folle inadvertance,
+          </l> <l>Ou quelque ruminant ou quelque propre à rien,
+          </l> <l>Qu’il se taise ou s’en aille avant qu’on ne commence,
+          </l> <l>J’ai dit ! …
+          </l> <l>Donc peuple, écoute, entends, regarde bien …
+          </l> <l>Ce sont des temps affreux de heurts et de batailles
+          </l> <l>Où les voix de l’église et les voix de l’amour
+          </l> <l>Aux jurons des forbans, aux bruits sourds des ferrailles,
+          </l> <l>Se mêlaient jour et nuit, se mêlaient nuit et jour
+          </l> <l>Nous revivons ces temps que vécurent nos pères
+          </l> <l>Car le poète ici s’en vient briser la pierre
+          </l> <l>De leurs tombeaux scellés par cinq cents ans d’oubli ;
+          </l> <l>Ils sortent des linceuls aux séculaires plis ;
+          </l> <l><stage type="corps">(On sonne l’airain.)</stage>
+          </l> <l>L’airain de tous résonne … et l’on double la garde
+          </l> <l>Aux portes de sortie … Entends, peuple et regarde.</l></lg> 
+               <stage type="saut">Sort par la droite. Passe de gauche à droite Napoléon avec des grognards. Le deuxième meneur chante dans les coulisses.</stage>
+            </sp>
+            
+            <sp><speaker>Tchoucolo</speaker>
+            
+            <lg><stage type="air">I</stage>
+          <l>Dj’aveû mètou a m’ fignèsse
+          </l> <l>On bê blanc cåré papî
+          </l> <l>Mins Nanèsse aboute si tièsse
+          </l> <l>Èt m’èl vina tot spîyî</l></lg> 
+            
+            <pb n="003" facs="19_B_TALBOT_LeChevallierSoleil_WLN_MVW_003"/>
+            
+            <lg><stage type="air">II</stage>
+          <l>Dj’aveû co 10 cèn’ è m’ potche		
+          </l> <l>Ni vou-dj’ nin qwîre li gote ?
+          </l> <l>Lès-èfants qui djouwît a l’ pote
+          </l> <l>Mi rapwèrtît dèl pihote.</l></lg>
+            
+            <lg><stage type="air">III</stage>
+          <l>Dj’aveû co ine vèye cok’mår
+          </l> <l>On vî molin à cafè
+          </l> <l>Dji l’ala mète ås Lombårds
+          </l> <l>Èt çoula po dè pèkèt.</l></lg>
+            
+            <lg><stage type="corps">(refrain pour les deux premiers couplets)</stage>
+            
+          <l>C’èst dès canayes fré Hinri
+          </l> <l>I n’ qwèrèt qu’à fé dèl ponne
+          </l> <l>C’èst dès canayes fré Hinri
+          </l> <l>I n’ qwèrèt qu’à fé displit</l></lg>
+            
+            <lg><stage type="corps">(refrain pour le dernier couplet)</stage>
+            
+          <l>Tchoucolo, tchoucocou
+          </l> <l>I-n-a l’ batê qu’ va so bèrdoye
+          </l> <l>Tchoucolo, tchoucocou
+          </l> <l>I-n-a l’ batê qu’ va so Brèssou.</l></lg>
+            
+            <lg><stage type="corps">(Après son chant, il entre en scène par la gauche.)</stage>
+            
+          <l>Silance adon, s’i v’ plêt, on va djouwer l’istwére 
+          </l> <l>A tos lès grands fôrfêts insi qui lès victwères
+          </l> <l>D’on clapant chèvalier qu’a t’nou tièsse å tonîre !
+          </l> <l>Li pus fwért dès guerriers ! Por lu, c’è-st-ine poûssîre…
+          </l> <l>C’è-st-ètindou èdon, li ci qui n’a qu’ine min 
+          </l> <l>Qui pète sol makète di s’ vwèsin 
+          </l> <l>Prumîr ake – l’île du diable. </l><stage type="corps">(Il sort par la droite.)</stage></lg></sp>
+            
+         </div>
+         <div type="1">
+            <head type="acte">Acte I</head>
+            <head type="nameA">L’Île du Diable</head>
+            <listPerson>
+               <personGrp>
+                  <name>[Le Chevalier Soleil, </name>
+                  <name>Tchantchès Adam, </name>
+                  <name>les trois Diables]</name>
+               </personGrp>
+            </listPerson>
+            
+            <sp><speaker>Le Chevalier Soleil</speaker> <stage type="pers">(entre tristement par la gauche)</stage>
+            
+            <lg><l>Ah ! destin tout puissant, me voici rejeté sur cette île.
+          </l> <l>C’est l’endroit périllant où vient se reposer le crocodile       
+          </l> <l>Moi, pauvre chevalier en quête d’aventure
+          </l> <l>J’ai perdu mon cousin, ma lance et ma monture
+          </l> <l>Ciel ! secourez-moi, oh ! comme je me rafiye
+          </l> <l>De me battre pour mon droit sur ce hopeau d’årzie <stage type="corps">(va voir aux coulisses droites)</stage>
+          </l> <l>Vois-tu ce grand serpent qui vomit de sa gueule
+          </l> <l>Du feu qui va brûler toute ma ville d’Argenteuil ?
+          </l> <l>Ah ! vilaine bête, je pourrais te jurer si j’avais mon épée
+          </l> <l>De te faire trépasser, moi, le Chevalier Soleie.</l></lg>
+            
+            <lg><l>Hélas ! Architecte Dieu, fabriqueur du monde
+            <pb n="004" facs="19_B_TALBOT_LeChevallierSoleil_WLN_MVW_004"/>
+          </l> <l>Reverrais-je jamais ma bien-aimée blonde ?</l></lg>
+            
+            <lg><l>Faites donc, vous le Divin, que de cette île déserte
+          </l> <l>Mon ange aux yeux fins me porte en terre verte.
+          </l> <l>Ah ! comme je suis troublé ! Est-ce vous l’enchanteresse
+          </l> <l>Qui me vient enchanter ? Non ! <stage type="corps">(colère)</stage> Maudite féesse.</l></lg>
+            
+            <lg><l>Allons, point de colère, qui n’a sa peine l’attend
+          </l> <l>Tu pleures mon cil de veûle
+          </l> <l>Courage et hardi traftons vers ce grand champ
+          </l> <l>Tout dispårdou de feuilles. <stage type="corps">(Il sort par la droite puis revient par la gauche.)</stage>
+          </l> <l>Dieu que la route est longue et quel drôle de coin
+          </l> <l>Je n’ai pas encore vu l’âme d’un être humain <stage type="corps">(regarde à droite)</stage>
+          </l> <l>Il me semble pourtant voir venir de ce côté
+          </l> <l>Quelque chose difforme. Allons, montrons-nous Chevalier. <stage type="corps">(va à gauche)</stage></l></lg>
+            
+            <stage type="saut">Tchantchès Adam entre par la droite.</stage>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Hé ! Bonjour mon ami, ne pourrais-tu me dire
+          </l> <l>Ton nom, où je suis et comment d’ici je puis sortir ?</l></lg>
+            
+           </sp><sp><speaker> Tchantchès Adam</speaker>
+           <lg><l>Sachez qu’en grande joie, c’est moi le père Adam
+          </l> <l>Qui n’a pour tout costume, que ce sarau tout blanc.
+          </l> <l>Où vous-êtes, dites-vous, mais au pays des Branches
+          </l> <l>Qu’on a du ralonguir l’autre jour avec des planches
+          </l> <l>Ici, c’est comme qui dirait l’[arche] di Noyé 
+          </l> <l>Nous avons toutes les bêtes que l’on fait accoupler
+          </l> <l>Nous avons des pourcês, des gades et des bês dj’vås 
+          </l> <l>Et nous avons des poyes qui rotêt-st-a pîds d’ hås 
+          </l> <l>Et qui pounèt dèl hoye.</l> </lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Ami, je le vois bien, ce sont là des merveilles
+          </l> <l>Mais dis-moi, je te prie, par où je dois sortir.</l></lg>
+            
+           </sp><sp><speaker> Tchantchès Adam</speaker>
+           <lg><l>Ah ! ah ! et bien… Vinez avou mi dji v’ va mostrer
+          </l> <l>Li vôye. <stage type="corps">(va à droite) </stage>Vos vèyez bin l’ grand pont
+          </l> <l>Qu’èst là tot å coron ? Vos n’avez qu’à dessus marcher.</l></lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+            <lg><l>Et si j’allais me noyer ?</l></lg>
+            
+           </sp><sp><speaker> Tchantchès Adam</speaker>
+           <lg><l>Vi nèyî ? Vos n’ polez må. C’è-st-on pont qu’èst fêt
+          </l> <l>Avou dès stipes èt qui sont raloyîs 
+            avec dès corons d’ tripes
+          </l> <l>Seulement fez attention si vos-alez par là
+          </l> <l>Dè rèscontrer le diabe et l’homme sauvage des bois.</l></lg>
+            
+            <pb n="005" facs="19_B_TALBOT_LeChevallierSoleil_WLN_MVW_005"/>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>C’est bien, mon ami et je t’en remercie
+          </l> <l>Tiens, prends ces écus, c’est pour toi, prends un verre.
+          </l> <l>Ah ! mes ancêtres, si vous me prêtez vie
+          </l> <l>Avant qu’il fasse nuit, j’aurai revu ma mère. <stage type="corps">(Il sort par la droite.)</stage></l></lg>
+            
+           </sp><sp><speaker>Tchantchès Adam</speaker>
+            <p>Ça y est, le voilà-t-envolé. Rentrons dans ma cabane <stage type="corps">(Il sort par la gauche.) </stage>et  allons embrasser Ève, ma chère femme.</p>
+            
+            <stage type="saut">Après un temps, on voit passer de droite à gauche, un cochon, des chevaux. Après un temps, le Chevalier Soleil entre par la gauche.</stage>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Cet homme a dit vrai, il ne m’a pas menti.
+          </l> <l>Déjà je viens de voir les bêtes qu’il m’a dit. <stage type="corps">(On entend crier un dragon.)</stage></l></lg>
+            
+          <lg><l>Qu’entends-je ? … Voilà certes qui n’est point banal. <stage type="corps">(va voir à droite)</stage>
+          </l> <l>Ah ! je n’en puis croire mes yeux ! Quel étrange animal.</l></lg>
+            
+           <lg><l>Il vient de ce côté ! … Il sent la chair humaine !
+          </l> <l>Voici pour ma bravoure, comme on dit, bonne aubaine. <stage type="corps">(crie à la bête)</stage></l></lg>
+            
+           <lg><l>Viens donc par ici, ourson mal léché,
+          </l> <l>Rhinocéros, hippopotame, mammifère, cétacé.
+          </l> <l>Viens donc, et si quand même tu t’appelles dragon
+          </l> <l>Je t’abattrai sans peur, étant fils d’Aragon. <stage type="corps">(va à gauche)</stage>
+          </l> <l>Allons, puisque le sort en est jeté
+          </l> <l>Et que la bête féroce s’avance de ce côté
+          </l> <l>Il s’agit pour toi, preux Chevalier Soleil,
+          </l> <l>De lui trancher la tête ainsi que ses oreilles. <stage type="corps">(va à gauche)</stage></l></lg>
+            
+           <stage type="saut">Le dragon entre par la droite en criant.</stage>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Dragon, bête féroce, écoute, fais ta prière
+          </l> <l>Car cette heure même est ton heure dernière.</l></lg>
+            
+           <stage type="saut">Combat : le Chevalier Soleil contre le dragon. [Il tue] dragon.</stage>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Allons donc plus avant et prions notre sort
+          </l> <l>Qu’il me préserve enfin de si vilaine mort <stage type="corps">(Il sort par la droite.)</stage></l></lg>
+            <pb n="006" facs="19_B_TALBOT_LeChevallierSoleil_WLN_MVW_006"/>
+           <stage type="saut">Après un temps, Ditagna chante dans les coulisses.</stage>
+            
+          </sp>  <sp><speaker>Ditagna</speaker>
+            
+           <lg><l>Notre maître Satan nous envoie faire la ronde
+          </l> <l>Nous avons pour vous des joies et des plaisirs
+          </l> <l>Nous venons flatter les plus heureux du monde
+          </l> <l>Car nos cœurs sont prêts pour les moindres désirs</l></lg>
+            
+          <lg> <l>Du haut de l’univers
+          </l> <l>Saluez Ditagna
+          </l> <l>Nous quittons les enfers
+          </l> <l>Saluez… nous voilà. </l></lg>
+             <stage type="saut">Ils entrent en scène par le ciel. Les trois diables sont Ditagna, Méphistophélès, Lucifer.</stage></sp>
+            
+           <sp> <speaker>Méphistophélès</speaker> <stage type="pers">(chante sur la scène)</stage>
+           <lg><l>Le veau d’or est encore debout
+          </l> <l>On encense		
+          </l> <l>Sa puissance <stage type="corps">([les deux derniers vers :] bis)</stage>
+          </l> <l>D’un bout du monde à l’autre bout
+          </l> <l>Pour fêter l’infâme idole
+          </l> <l>Peuples et rois confondus
+          </l> <l>Au tintement des écus
+          </l> <l>Forment une ronde folle
+          </l> <l>Autour de son piédestal
+          </l> <l>Autour de son piédestal
+          </l> <l>Et Satan conduit le bal.</l></lg>
+            
+            </sp><sp><speaker>Ensemble</speaker>
+              <lg><l>Conduit le bal.</l></lg>
+            
+            </sp><sp><speaker>Lucifer</speaker>
+           <lg><l>Le veau d’or est vainqueur des dieux
+          </l> <l>Dans sa gloire	
+          </l> <l>Dérisoire <stage type="corps">([les deux derniers vers :] bis)</stage>		
+          </l> <l>Son front abject brave les cieux
+          </l> <l>Il contemple ô rage étrange
+          </l> <l> À ses pieds le genre humain
+          </l> <l>Se ruant le fer en main
+          </l> <l>Dans le sang et dans la fange
+          </l> <l>Où brille l’ardent métal
+          </l> <l>Où brille l’ardent métal
+          </l> <l>Et Satan conduit le bal.</l></lg>
+            
+            </sp><sp><speaker>Ensemble</speaker>
+              <lg><l>Conduit le bal. <stage type="corps">(Ils rient tous.)</stage></l></lg>
+            
+            </sp><sp><speaker>Méphistophélès</speaker> <stage type="pers">(à gauche)</stage>
+           <lg><l>Quelle est cette âme blanche, qui vient de ce côté ?
+          </l> <l>Oh ! Satan, mon maître, je vais sur le damné.
+            </l> <l><stage type="corps">(aux autres) </stage>Mes amis, allez chacun à vos rendez-vous
+          </l> <l>Je vais attendre seul cet agneau qui vient vers nous.</l></lg>
+           <stage type="saut">Il se met à droite, Ditagna et Lucifer s’en vont par le ciel.</stage>
+            <pb n="007" facs="19_B_TALBOT_LeChevallierSoleil_WLN_MVW_007"/>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker> <stage type="pers">(entre à gauche)</stage>
+           <lg><l>Tiens que vois-je à cet arbre qui m’attend ?
+          </l> <l>Ma parole, c’est un drôle d’être vivant
+          </l> <l>Hé ! L’homme cornu es-tu de ce passage
+          </l> <l>Le gardien fidèle ?</l></lg>
+            
+            </sp><sp><speaker>Diable</speaker>
+           <lg><l>Plus que cela, homme sage
+          </l> <l>Je suis Messire Diable, j’ai quitté ma chaumière
+          </l> <l>Pour t’amener de gré ou de force près de Satan mon père.</l></lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Ah ! vilain, tu viens pour me tenter
+           </l> <l>Tire-toi de mon chemin ou je vais t’embrocher.</l></lg>
+            
+            </sp><sp><speaker>Diable</speaker>
+           <lg><l>Tu ne le feras pas, beau Chevalier Soleil
+           </l> <l>Vends ton âme au diable, l’enfer est sans pareil.</l></lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Honte à toi, manant, mon cœur haut comme cime
+          </l> <l>Fera tomber sur toi l’invite à tous les crimes. <stage type="corps">(Il le tue.)</stage>
+          </l> <l>Et maintenant, essayons d’atteindre le pont. <stage type="corps">(va voir à droite)</stage>
+          </l> <l>Mais quel est cet homme qui s’avance vers moi 
+          </l> <l>En faisant de grands pas ?</l></lg>
+            
+           <stage type="saut">L’homme sauvage entre par la droite. [Il] parle sauvage et se démène fort.</stage>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker> <stage type="pers">(à part)</stage>
+           <lg><l>Cette fois je le vois, si d’ici vivant je ne sors
+          </l> <l>C’est que je serais sûrement un homme mort.
+          </l> <l>Allons puisqu’il faut se battre pour de bon
+          </l> <l>Je ne veux devant lui passer pour un poltron.
+          </l> <l><stage type="corps">(à l’homme sauvage)</stage> Qui que tu sois, trop tu m’importunes
+          </l> <l>Allons défends toi bien, tu vas avoir ta prune.
+           </l> <l><stage type="corps">(Combat : Il tue l’homme sauvage.)</stage>
+          </l> <l>Maintenant que la route est belle et libre
+          </l> <l>Retournons chez ma mère pour que mon cœur vibre. <stage type="corps">(Il sort par la droite.)</stage></l></lg></sp>
+            
+            <div type="5">
+                        <head type="div5">Fin</head>
+                    </div>
+            
+         </div>
+         <div type="1">
+           <pb n="008" facs="19_B_TALBOT_LeChevallierSoleil_WLN_MVW_008"/>
+            <head type="acte">Acte II</head>
+            <head type="nameA">La Rentrée au foyer</head>
+            <listPerson>
+               <personGrp>
+                  <name>[Rosemonde, </name>
+                  <name>Tchantchès, </name>
+                  <name>Chevalier Soleil, </name>
+                  <name>Bouquète, </name>
+                  <name>Ténébreux]</name>
+               </personGrp>
+            </listPerson>
+            
+            
+            <stage type="saut">Décors : Salle d’audience. Au lever du rideau, la reine Rosemonde est assise dans un fauteuil à gauche. Tchantchès est sur la scène en place repos.</stage>
+            
+            <sp><speaker>Rosemonde</speaker>
+            <lg><l>Pourquoi mon pauvre cœur pleures-tu si tristement ?
+          </l> <l>J’ai perdu mon fils et mon homme pareillement.</l></lg>
+            
+           </sp><sp><speaker> Tchantchès</speaker>
+           <lg><l>Djans, n’ plorez pus, ènocinne
+          </l> <l>Vos pinsez todi qu’il ont r’çû leû ragognasse.
+          </l> <l>Hoûtez-m’, mètez-v’ a gngnos sol tére
+            Èt dihez sins v’s-arèster saqwantes påtèrs
+          </l> <l>Dji so sûr qwand vos lèpes si droûv’ront
+          </l> <l>Qui l’ bon Diu vis-ègzôc’rè po l’ bon !</l></lg>
+            
+            </sp><sp><speaker>Rosemonde</speaker>
+           <lg><l>Ah ! bon sénéchal, bien vous me conseillez
+          </l> <l>Et faire comme vous dites, je m’en vais essayer. <stage type="corps">(On frappe à droite.)</stage>
+          </l> <l>Mon Dieu comme mon cœur palpite
+          </l> <l>Sénéchal, ouvre la porte, vite.</l></lg>
+            
+           </sp><sp><speaker> Tchantchès</speaker> <stage type="pers">(va ouvrir la porte à droite)</stage>
+             <lg><l>Qui est-ce donc qu’est là ?</l></lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+            <lg><l>C’est moi, le Chevalier Soleil.</l></lg>
+            
+           </sp><sp><speaker> Tchantchès</speaker>
+           <lg><l>Vous demandez de la tièsse pressée ?
+           </l> <l>Je regrette mon ami, ici, ce n’est pas une cråsserèye.</l></lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Je te dis que je suis le Chevalier Soleil.</l></lg>
+            <pb n="009" facs="19_B_TALBOT_LeChevallierSoleil_WLN_MVW_009"/>
+            </sp><sp><speaker>Rosemonde</speaker>
+              <lg><l>Sénéchal, quel est cet homme ?</l></lg>
+            
+           </sp><sp><speaker> Tchantchès</speaker>
+             <lg><l>C’est un bribeur.</l></lg>
+            
+            </sp><sp><speaker>Rosemonde</speaker>
+              <lg><l>Fais le-z-entrer, il me semble qu’il m’apporte mon bonheur</l></lg>
+            
+           </sp><sp><speaker> Tchantchès</speaker> <stage type="pers">(au chevalier Soleil)</stage>
+            <lg><l>Entrez et essuyez vos pieds.</l></lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Ma mère, ah ! que je suis heureux
+           </l> <l>De vous revoir vivante là sous mes yeux.</l></lg>
+            
+            </sp><sp><speaker>Rosemonde</speaker>
+           <lg><l>Mon cher fils, que je suis contente de bien vous embrasser
+           </l> <l>Si vous saviez combien je vous ai pleuré. <stage type="corps">(Ils s’embrassent.)</stage></l></lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Ah ! ma mère, bannissez maintenant vos cruelles larmes.
+            </l> <l><stage type="corps">(à Tchantchès) </stage>Tchantchès, va faire du feu pour mieux sécher ses larmes.</l></lg>
+            
+           </sp><sp><speaker> Tchantchès</speaker>
+           <lg><l>J’y cours, j’y vole, cher Chevalier Soleil
+           </l> <l>Èt qwand dj’årè fêt l’ feû, dji m’ mèt’rè èl coulêye. <stage type="corps">(Il sort par la gauche.)</stage></l></lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Mais dites-moi sans halquiner, ma mère,
+           </l> <l>Où donc est-il allé mon cher et noble père ?</l></lg>
+            
+            </sp><sp><speaker>Rosemonde</speaker>
+           <lg><l>Depuis qu’il est quitté le château des tourelles
+          </l> <l>Pour courir sus aux païens les rebelles
+          </l> <l>Nous ne l’avons revu, voilà bientôt deux ans qu’à travers les vallons.
+          </l> <l>Il est parti envoyé, me laissant seule dans l’abandon.
+          </l> <l>Est-il mort ou enterré dedans une tombe ?
+          </l> <l>Mon fils, je ne le sais, car, pas une colombe
+          </l> <l>Ne m’a pendant ces ans apporté un message
+          </l> <l>Qui m’eut fixé sûrement si j’étais au veuvage.</l></lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Mère, consolez-vous, l’impénétré destin
+          </l> <l>Que chacun veut comprendre sera, j’en suis certain,
+          </l> <l>Plus clément que vous, non, vous ne pouvez rester dedans ces transes.
+            </l> <l><stage type="corps">(Il va à gauche et crie.) </stage>François, avancez mon coursier, mon haubert et ma lance
+          </l> <l>Mère, soyez toujours la reine Rosemonde.
+          </l> <l>Je vais courir envoie, jusqu’en Trétimonde
+          </l> <l>Si jamais les païens l’ont fait prisonnier,
+          </l> <l>Je saurais bravement l’en délivrer.</l></lg>
+            <pb n="010" facs="19_B_TALBOT_LeChevallierSoleil_WLN_MVW_010"/>
+            </sp><sp><speaker>Rosemonde</speaker>
+           <lg><l>Mon fils, que je suis fière de t’avoir engendré
+          </l> <l>Cher être de mes entrailles, qui longtemps t’ont porté
+          </l> <l>J’ai confiance en toi, mets un genou à terre afin que je bénisse
+          </l> <l>Mon œuvre maternelle. <stage type="corps">(Le chevalier Soleil se met à genoux.)</stage>
+          </l> <l>Oh ! Époux bien-aimé, vois ce sacrifice
+          </l> <l>Ton fils va partir à ton noble secours. <stage type="corps">(Il se relève et embrasse sa mère.)</stage></l></lg>
+            
+           </sp><sp><speaker> Tchantchès</speaker> <stage type="pers">(entre par la droite)</stage>
+          <lg><l>Reine Rosemonde, j’ai vu dedans la cour
+          </l> <l>Entrer on må fouté, qui bouhe à totes lès pwètes. <stage type="corps">(On frappe à droite.)</stage>
+          </l> <l>Qui est-ce qui bouhe ?</l> </lg>
+            
+          </sp><sp><speaker>Bouquète</speaker>
+            <lg><l>C’èst mi cint mèyes bonètes !</l></lg>
+            
+           </sp><sp><speaker> Tchantchès</speaker>
+             <lg><l>Quî vos ?</l></lg>
+            
+          </sp><sp><speaker>Bouquète</speaker>
+           <lg><l>Li grand sègneûr Bouquète
+           </l> <l>Dji vin dèl pårt dè rwè Ténébreux vi rapwèrter ine lète.</l></lg>
+            
+           </sp><sp><speaker> Tchantchès</speaker>
+           <lg><l>Ah ! ah ! achîyez-ve on pô sol soû, dji m’ va prév’ni lès djins.
+           </l> <l><stage type="corps">(à Rosemonde) </stage>Reine Rosemonde, c’è-st-in-èvoyé di vost-ome, vosse parint.</l></lg>
+            
+            </sp><sp><speaker>Rosemonde</speaker>
+              <lg><l>Oh ! Dieu, abèye ! Faites entrez !</l></lg>
+            
+           </sp><sp><speaker> Tchantchès</speaker>
+             <lg><l>Allez, Bouquette, entrez mais essuyez vos pieds.</l></lg>
+            
+            </sp><sp><speaker>Bouquète</speaker> <stage type="pers">(entre de droite)</stage>
+              <lg><l>Bondjoû turtos insi qui li k’pagnêye, å no dè Ténébreûs, dji vin d’ner dès bonès novèles. Tinez, vochal ine lète.</l></lg>
+            
+            </sp><sp><speaker>Rosemonde</speaker>
+              <lg><l>Prends-la, mon cher fils et lis-nous cette tablette.</l></lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Ciel, réjouissons-nous, mon père revient céans.
+          </l> <l>Il a déjà franchi la porte d’Orléans. <stage type="corps">(à François)</stage>
+          </l> <l>François, fais vite rassembler la cour afin que l’on festoie
+          </l> <l>Le héros glorieux de tant de batailles. <stage type="corps">(François sort par la droite.)</stage>
+          </l> <l><stage type="corps">(puis à Bouquette) </stage>Tant qu’à vous, mon ami, prenez cette bourse pleine
+          </l> <l>Et restez parmi nous.</l></lg>
+            
+          </sp><sp><speaker>Bouquète</speaker>
+            <p>Merci grand Chevalier. <stage type="corps">(Il regarde sa bourse.) </stage>I fåt èsse pice-crosse, i m’a d’né dès rondês d’ rècènes. </p>
+            <pb n="011" facs="19_B_TALBOT_LeChevallierSoleil_WLN_MVW_011"/>
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+            <lg><l>Vous dites ?</l></lg>
+          </sp><sp><speaker>Bouquète</speaker>
+            <lg><l>Je dis que vous m’avez donné des rondelles de carottes.</l></lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Ami, vous regardez bien mal. Cette cagnotte
+           </l> <l>Est pleine de pièces qui ne sont que de l’or.</l></lg>
+            
+          </sp><sp><speaker>Bouquète</speaker>
+           <lg><l>Ah ! c’èst dè lård. C’èst bon à savu
+          </l> <l>Dji frè mète deûs-oûs d’sus
+           </l> <l>Èt dj’årè-st-ine clapante fricassêye. <stage type="corps">(Il se met au fond.)</stage></l></lg>
+            
+           </sp><sp><speaker> Tchantchès</speaker> <stage type="pers">(entre par la droite)</stage>
+           <lg><l>Vola, dj’a fêt çou qu’ vos m’avez d’mandé.
+           </l> <l>Vos lès-alez vèyî turtos ariver. <stage type="corps">(Il se met à droite.)</stage></l></lg>
+            
+           <stage type="saut">Entrent six ou sept chevaliers qui se placent au fond.</stage>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Seigneurs, je vous ai fait mander pour vous annoncer
+          </l> <l>Que mon père le roi Ténébreux va bientôt rentrer
+          </l> <l>Et j’ai compté sur vous pour qu’on lui fasse fête.</l></lg>
+            
+          </sp><sp><speaker>Tous</speaker>
+            <lg><l>Sire, nos cœurs sont tout à lui ainsi que nos têtes. <stage type="corps">(On entend le tambour.)</stage></l></lg>
+            
+           </sp><sp><speaker> Tchantchès</speaker>
+             <lg><l>Vochal li gåre civique. <stage type="corps">(Il sort à droite et crie.) </stage>Par ici, vieux stoumac’.</l></lg>
+            
+           </sp><sp><speaker>Ténébreux</speaker> <stage type="pers">(entre vaillamment)</stage>
+            <lg><l>À vous tous rassemblés, mes barons et mes comtes
+          </l> <l>Va mon premier salut. À vous chère Rosemonde
+          </l> <l>Mes plus tendres baisers. <stage type="corps">(Ils s’embrassent.)</stage></l></lg>
+            
+            </sp><sp><speaker>Rosemonde</speaker>
+           <lg><l>Ah ! mon cher époux, j’ai bien craint pour vos jours
+          </l> <l>Depuis votre départ, comme sœur Anne à la tour,
+          </l> <l>Scrutant l’infini lointain, je me suis sans cesse demandée
+          </l> <l>Reviendra-t-il à Pâques ou à la trinité ?</l></lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Mon père, votre humble fils vous embrasse en émoi. <stage type="corps">(Ils s’embrassent.)</stage>
+           </l> <l>Racontez maintenant, à ces gens vos exploits.</l></lg>
+            
+          </sp><sp><speaker>Ténébreux</speaker>
+           <lg><l>Oui mes amis j’en ai vu de grise
+           </l> <l>Et peu s’en est fallu que sans chemise
+            <pb n="012" facs="19_B_TALBOT_LeChevallierSoleil_WLN_MVW_012"/>
+          </l> <l>Je fis le tour du monde. Parti de l’Occident,
+          </l> <l>J’allais bravement conquérir l’Orient.
+          </l> <l>Tout sur notre chemin, hameaux et villages
+          </l> <l>Ne put résister à mes hommes assoiffés de carnage.
+          </l> <l>Je fus toujours vainqueur 
+          </l> <l>Des mille combats livrés
+          </l> <l>J’ai tué le géant Ferragues la terreur,
+          </l> <l>J’ai tué le dragon, qui me crachait du feu,
+          </l> <l>J’ai conquis Babylone et le roi Constantin
+          </l> <l>Fut dans Constantinople tué de ma main,
+          </l> <l>Le fameux Don Quichotte que de mort j’ai frappé,
+          </l> <l>Après qu’il le fut, pardon m’a demandé.</l></lg>
+            
+          <lg> <l>Tous mes ennemis sont vaincus sans tambour ni trompettes
+          </l> <l>De leur corps j’en ai fait des fistous d’allumettes
+          </l> <l>Mais j’ai assez narré tous mes vaillants exploits,
+          </l> <l>Sachez que je reviens le plus grand roi des rois.</l></lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Mon père je suis bien fier d’être de votre lignée
+          </l> <l>Et je voudrais atteindre aussi votre renommée. <stage type="corps">(On frappe à droite.)</stage></l></lg>
+            
+          </sp><sp><speaker>Ténébreux</speaker> <stage type="pers">(à Tchantchès)</stage>
+          <lg><l>Écoute, cher François, on frappe-z-à la porte
+          </l> <l>Va-t-en donc voir qui c’est et quelle arme il porte.</l></lg>
+            
+           </sp><sp><speaker> Tchantchès</speaker> <stage type="pers">(à droite)</stage>
+             <lg><l>Quî èst-ce qui bouhe don-là ?</l></lg>
+            
+           </sp><sp><speaker>Mastique</speaker>
+           <lg><l>C’est moi, le Chevalier Mastique. <stage type="corps">(Il entre.)</stage>
+           </l> <l>Bonjour mon cher oncle et ma tante ainsi que toute la clique.</l></lg>
+            
+          </sp><sp><speaker>Ténébreux</speaker>
+           <lg><l>Sois le bienvenu, fils de ma sœur Pélagie,
+           </l> <l>Dis-nous ce qui nous vaut d’avoir ta compagnie.</l></lg>
+            
+           </sp><sp><speaker>Mastique</speaker>
+          <lg><l>Mon oncle, grand roi des rois, mon oncle Ténébreux
+          </l> <l>Comme vous me voyez, je suis bien malheureux.
+          </l> <l>Les gens de Fier à Bras m’ont enlevé Esclarmonde
+          </l> <l>Que j’aime plus que les bonheurs de ce bas monde.
+          </l> <l>Je viens vous demander la vaillante épée
+          </l> <l>De mon cousin Soleil, vienne leur donner une raclée.
+          </l> <l>Par les monts et les terres nous le poursuivrons
+          </l> <l>Dans son château de fer, l’assiéger nous irons.</l> </lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+          <lg><l>Mon père tant valeureux, à votre fils permettez
+          </l> <l>Qu’il aille contre Fier à Bras, une fois se mesurer.</l> </lg>
+            
+            <pb n="013" facs="19_B_TALBOT_LeChevallierSoleil_WLN_MVW_013"/>
+            
+          </sp><sp><speaker>Ténébreux</speaker>
+            <lg><l>À ta jeune bravoure, je ne puis refuser
+          </l> <l>Le désir légitime de me ressembler.
+          </l> <l>Mais prends garde à toi, car si tu revenais
+          </l> <l>Avec la tête coupée, cela me fâcherait.</l></lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>De joie je suis pétri car je crus à la gloire
+           </l> <l>Sus à Fier à bras, je commence mon histoire.</l></lg>
+           <stage type="saut">Il sort par la droite avec Mastique.</stage>
+            
+            </sp><sp><speaker>Rosemonde</speaker>
+              <lg><l>Mon fils, mon fils, Ah ! rendez-le-moi de suite.</l></lg>
+            
+          </sp><sp><speaker>Ténébreux</speaker>
+           <lg><l>Tu vois qu’il est trop tard, très chère, car ils ont pris la fuite.
+           </l> <l>Mes barons, je vous prie de rentrer, l’assemblée est levée.</l></lg>
+           <stage type="saut">Ténébreux sort par la gauche avec Rosemonde, ainsi que tous les Chevaliers et soldats.</stage>
+            
+           </sp><sp><speaker> Tchantchès</speaker>
+           <lg><l>Sint Stochèl quéne afêre
+          </l> <l>Li rinne va co sûr atraper dès fîves di campinêrs.
+          </l> <l>Dis don, Bouquète, si n’s-alîs èl couhène don, nos-ôtes
+          </l> <l>Rote, nos-îrans magnî ine fricassêye al rodje djote
+          </l> <l>Ou si t’inmes mîs, on froumadje avou dèl compote, c’èst come ti l’ètinds.</l></lg>
+            
+          </sp><sp><speaker>Bouquète</speaker>
+            <p>Sés-s´ bin qwè ? Nos-irans magnî ’ne tåte di sirôpe avou dèl makêye èt nos mètrans d’sus dè peûve, dè sé èt dèl canèle.</p>
+            
+           </sp><sp><speaker> Tchantchès</speaker>
+             <p>Alez ! î èstans-gn’ ?</p>
+            
+          </sp><sp><speaker>Bouquète</speaker>
+            <p>Awè !</p>
+            
+           </sp><sp><speaker> Tchantchès</speaker> <stage type="pers">(sortant par la gauche)</stage>
+           <p>Une, deux – une, deux – une, deux – une, deux – une, deux.</p></sp>
+            
+            
+            <div type="5">
+                        <head type="div5">Fin</head>
+                    </div> 
+            <pb n="014" facs="19_B_TALBOT_LeChevallierSoleil_WLN_MVW_014"/>
+            
+         </div>
+         <div type="1">
+            <head type="acte">Acte III</head>
+            <head type="nameA">Le château de fer - La Mort du Chevalier Soleil</head>
+            <listPerson>
+               <personGrp>
+                  <name>Fier à Bras, </name>
+                  <name>Esclarmonde, </name>
+                  <name>[Chevalier Soleil, </name>
+                  <name>Mastique]</name>
+               </personGrp>
+            </listPerson>
+            
+            
+          <sp><speaker>Fier à bras</speaker> <stage type="pers">(à droite)</stage>
+         <lg><l>C’est assez pleuré, vous dis-je madame
+          </l> <l>Il n’y a pas de tchic ni de tchac, vous serez ma femme.
+          </l> <l>Je vous ai enlevée au péril de ma vie
+          </l> <l>Au Chevalier Mastique. Aussi serait-ce folie
+          </l> <l>De vous rendre à lui ! S’il veut vous revoir,
+          </l> <l>Qu’il vienne me réclamer jusque dans ce manoir.
+          </l> <l>Je saurais lui montrer que vous êtes ma conquête
+          </l> <l>Et qu’avec tout son corps, je ferai des boulettes.</l></lg> 
+            
+          </sp><sp><speaker>Esclarmonde</speaker> <stage type="pers">(à gauche)</stage>
+           <lg><l>Homme vilain que vous êtes, plutôt la mort que vous aimer
+           </l> <l>Je vous hais, entendez-vous ! Et ne veux point vous marier.</l></lg>
+            
+          </sp><sp><speaker>Fier à bras</speaker>
+           <lg><l>Ah ! prenez garde Madame, si je sors de mes gonds
+           </l> <l>Vous me ferez dire des bêtises.</l></lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker> <stage type="pers">(dans la coulisse droite)</stage>
+           <lg><l>Fier à Bras, grand géant poltron
+           </l> <l>Ouvre-moi cette porte afin que je te donne une trempe.</l></lg>
+            
+          </sp><sp><speaker>Esclarmonde</speaker>
+            <lg><l>Ciel, c’est le cousin de mon amant Mastique.</l></lg>
+            
+          </sp><sp><speaker>Fier à bras</speaker>
+           <lg><l>Madame, l’heure a sonné de faire de la tripe
+          </l> <l>Retirez-vous tranquille, vous allez voir comment
+          </l> <l>Je vais arranger le cousin de votre amant.
+           </l> <l><stage type="corps">(Il pousse Esclarmonde dans la coulisse de gauche puis vient à droite.)</stage>
+          </l> <l>Hé ! vous qui criez du côté de cette porte,
+          </l> <l>Nous allons voir quelle vaillance tu portes. <stage type="corps">(ouvre la porte et vient se mettre à gauche)</stage></l></lg>
+            
+           <stage type="saut">Le Chevalier Soleil et Mastique entrent par la droite.</stage>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Cousin, veille-le dehors afin que nul ne pénètre céans lieux
+          </l> <l>Avant que je n’aie envoyé ce géant aux mânes de ces pieux.
+           </l> <l><stage type="corps">(Le Chevalier Mastique sort par droite.)</stage>
+          </l> <l>C’est donc toi Fier à Bras, le géant redouté
+          </l> <l>Qui te fie sur ta force pour faire tes méchancetés ?
+          </l> <l>Écoute si tu veux que je ne passe
+          </l> <l>Au fil de mon épée, rends-moi en cette place
+          </l> <l>Celle que tu ravis à celui qui t’attend.</l></lg>
+            <pb n="015" facs="19_B_TALBOT_LeChevallierSoleil_WLN_MVW_015"/>
+            
+          </sp><sp><speaker>Fier à bras</speaker> <stage type="pers">(colère)</stage>
+           <lg><l>Fils de [ribote], vilain manant
+          </l> <l>Ombre de mon ombre, poussière de mes mains
+          </l> <l>Fais ta dernière prière car pour toi il n’y a plus de lendemain.</l></lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Ta colère t’égare. Au reste, que m’importe
+          </l> <l>Que tu parles de la sorte
+          </l> <l>Et puisque de ta vie tu ne veux faire le bien
+          </l> <l>Mieux vaut pour toi qu’aujourd’hui tu meures comme un chien.
+          </l> <l>Vois-tu déjà planer aux créneaux de tes tours
+          </l> <l>Les corbeaux, les aigles et les vautours ?
+          </l> <l>Ce sont ceux qui te donneront ta dernière sépulture
+          </l> <l>Rien de toi ne restera, pas même ton ossature.</l></lg>
+            
+          </sp><sp><speaker>Fier à bras</speaker>
+           <lg><l>Tu ricanes, je crois, aurais-tu déjà peur
+          </l> <l>D’accepter ce combat que je t’offre d’ailleurs ?
+          </l> <l>Ah ! T’aurais bien mieux fait d’écouter ta mère
+          </l> <l>On ne s’engage pas ainsi à la légère.
+          </l> <l>Crois-moi, retourne d’où tu viens, occupe-toi d’autre chose.</l></lg>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <lg><l>Tu railles, géant, tu as honte que j’ose
+          </l> <l>Te montrer le sentier du bien
+          </l> <l>Que tu ne veux suivre en rien
+          </l> <l>Soit, donc puisque le sort en est jeté
+          </l> <l>Garde-toi de moi.</l></lg>
+            
+          </sp><sp><speaker>Fier à bras</speaker>
+            <lg><l>Allons donc et sans pitié.</l></lg>
+            
+           <stage type="saut">Combat : Fier à bras est tué. Chevalier Soleil est blessé à mort.</stage>
+            
+            </sp><sp><speaker>Mastique</speaker> <stage type="pers">(entre par la droite)</stage>
+            <p>Ah ! mon cousin, blessé gravement. Vite, cherchons pour laver sa blessure à voir Esclarmonde. Ah ! Esclarmonde, notre cousin se meurt.</p>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker> <stage type="pers">(pousse un râle)</stage>
+            <p>Ah ! Oh ! Vite !</p>
+           <stage type="saut">Ils reviennent auprès de Soleil.</stage>
+            
+          </sp><sp><speaker>Chevalier Soleil</speaker>
+           <p> Cousin, écoute, je le sens bien, bientôt je vais mourir. Tu reverras ma mère, je veux que tu ailles lui dire que mes lèvres se fermèrent en prononçant son nom. À mon père, tu diras qu’il n’assombrisse point son front. J’ai laissé ma vie en voulant faire le bien. <stage type="corps">(Il meurt.)</stage></p>
+            
+           </sp><sp><speaker>Mastique</speaker>
+           <lg><l>Adieu, cher Chevalier
+           </l> <l>Les anges du ciel descendent
+           </l> <l>Et ton âme s’envole au pays des légendes.</l></lg></sp>
+            
+            <div type="5">
+                        <head type="div5">Fin</head>
+                    </div>
+            
+            
+            
+         </div>
+      </body>
+   </text>
+</TEI>

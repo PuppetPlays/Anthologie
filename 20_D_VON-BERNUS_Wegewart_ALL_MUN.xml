@@ -1,0 +1,517 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="https://puppetplays.eu/oeuvres/396233/wegewart">Wegewart</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Transcription and edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JB">Jean Boutan</name>
+          <name xml:id="AM">Anaïs Malfatti</name>
+          <resp>Transcription and edition</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor/>
+        <availability status="free">
+          <licence>Public domain</licence>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>Une jeune fille attend son bien-aimé</note>
+        <note>Quand il ouvre au public en 1907 son théâtre d’ombres dans le quartier
+          artistique de Schwabing, Alexander von Bernus veut proposer une nouvelle forme d’art
+          dont il revendique la filiation romantique et qui, distincte des spectacles du Chat
+          Noir à Paris, exploiterait davantage l’immatérialité de l’ombre pour s’aventurer sur
+          les terres de l’âme et du rêve. Le mysticisme prégnant dans les cercles
+          intellectuels et artistiques munichois au début du 20e siècle n’est pas étranger à
+          ce projet visant « l'union la plus métaphysique de l'image, de la poésie et de la
+          musique ». Wegewart fut créée avec les silhouettes et
+          les décors de Dora Polster (1884-1958) qui, avant l’arrivée de Rolf von
+          Hoerschelmann (1885-1947), conçut tout le dispositif technique des premiers
+          spectacles des Schwabinger Schattenspiele.</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>Non spécifié</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>Münchner Stadtmuseum - Munich, Allemagne, XSCH 54-62</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 13</p>
+                <p>Number of acts in the original document: 1</p>
+                <p>Format of the original document: Imprimé</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main">Wegewart</title>
+          <title type="sub">Ein Märchenspiel</title>
+          <date>1907</date>
+          <author>
+            <persName>Adelheid Petersen (Adelheid von Sybel-Bernus)</persName>
+            <idno type="IDREF">284911739</idno>
+          </author>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">Allemand</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques">
+          <term source="https://puppetplays.eu/techniques-d-animation/2440/théâtre-dombres">Théâtre d'ombre</term>
+        </keywords>
+        <keywords source="literaryTones">
+          <term>Lyrique</term>
+          <term>Merveilleux</term>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Métamorphose</term>
+          <term>Attente</term>
+          <term>Succession de personnages</term>
+          <term>Scène de reconnaissance</term>
+        </keywords>
+        <keywords source="genre">
+          <term>null</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Amour</term>
+          <term>Malédiction</term>
+          <term>Oubli</term>
+          <term>Fleurs</term>
+          <term>Conte de fées</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+          Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+          re-evaluate the contribution of the puppets repertoire to the construction of
+          European cultural identity. Its main goals is to collect a corpus of
+          representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+          France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+          17th and the 21th century. It also tries to identify the characteristics of
+          puppet dramaturgy and their variations depending on eras, cultural spheres,
+          producing conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+          Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+          build upon the material in any medium or format for non-commercial purposes
+          only, and only so long as attribution is given to the creator. If you remix,
+          adapt, or build upon the material, you must license the modified material under
+          identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2025-09-25" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+      <change when-iso="2025-04-10" who="#AM">Correction of the previous transcription according to
+        the project's modernisation rules.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="3" facs="20_D_VON-BERNUS_Wegewart_ALL_MUN_003.jpg"/>
+      <docAuthor>
+        <persName>Alexander von Bernus</persName>
+      </docAuthor>
+      <docTitle>
+        <titlePart type="main">Wegewart</titlePart>
+        <titlePart type="sub">Ein Märchenspiel von Adelheid von Cybel-Bernus</titlePart>
+      </docTitle>
+      <docDate>1907</docDate>
+      <pb n="4" facs="20_D_VON-BERNUS_Wegewart_ALL_MUN_004.jpg"/>
+      <castList>
+        <head type="personnage">[Figuren]</head>
+        <castItem>
+          <role>Der Knabe</role>
+        </castItem>
+        <castItem>
+          <role>Das Mädchen</role>
+        </castItem>
+        <castItem>
+          <role>Eine Frau</role>
+        </castItem>
+        <castItem>
+          <role>Ein Holzhacker</role>
+        </castItem>
+        <castItem>
+          <role>Ein Hirte</role>
+        </castItem>
+        <castItem>
+          <role>Eine Ärhenleserin</role>
+        </castItem>
+        <castItem>
+          <role>Ein Winzer</role>
+        </castItem>
+        <castItem>
+          <role>Die Jungfrau Maria</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="1">
+        <pb n="5" facs="20_D_VON-BERNUS_Wegewart_ALL_MUN_005.jpg"/>
+        <stage type="saut">Ein Weg zwischen blühenden Bäumen. Ein Holzhacker kommt.</stage>
+        <sp>
+          <speaker>Holzhacker</speaker>
+          <p>Wo bin ich denn? Blühend und hell streckt sich das Land. Wiesen und Quellen —
+                  Blumen und Vögel - bin ich verwirrt?</p>
+        </sp>
+        <stage type="saut">Eine junge Frau kommt ihm entgegen.</stage>
+        <sp>
+          <speaker>Frau</speaker>
+          <p>Sie, Nachbar? Gott sei dank, mir graute. Was ist hier geschehen?</p>
+        </sp>
+        <sp>
+          <speaker>Holzhacker</speaker>
+          <p>Die Wildnis ist verschwunden, in der so viele sich verirrten und nie wiederkamen.
+                  Verschwunden ist das alte Schloß, wo die Here saß und Hagelwolken braute.</p>
+        </sp>
+        <sp>
+          <speaker>Frau</speaker>
+          <p>Noch gestern Abend, als der Mond hoch übern Berge stand, schaute ich herüber.
+                  Alles war wie immer:</p>
+          <pb n="6" facs="20_D_VON-BERNUS_Wegewart_ALL_MUN_006.jpg"/>
+          <lg>
+            <l>Die Tannenwipfel brausten wüst und kalt,</l>
+            <l>die Wetterwolken drückten tief den Wald,</l>
+            <l>in dessen bei uns die klaren Sterne gingen,</l>
+            <l>die schwarzen Vögel flogen aus und ein</l>
+            <l>beim alten Turm im roten Feuerschein,</l>
+            <l>die Luft zersprang fast von dem wehen Klingen,</l>
+            <l>das sehnsuchtsvoll und klagend jede Nacht</l>
+            <l>im Schlaf die Kinder weinen macht,</l>
+            <l>dass ihre Spiele ohne Lachen sind —</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Holzhacker</speaker>
+          <p>Wer kommt dort?</p>
+        </sp>
+        <stage type="saut">Ein jünger Hirte kommt mit seiner Herde.</stage>
+        <sp>
+          <speaker>Hirte</speaker>
+          <p>So bin ich hier?</p>
+        </sp>
+        <sp>
+          <speaker>Holzhacker</speaker>
+          <p>Nicht weit von unserm Dorf. Wo kommen Sie her?</p>
+        </sp>
+        <sp>
+          <speaker>Frau</speaker>
+          <p>Wollen Sie ein wenig Brot?</p>
+        </sp>
+        <pb n="7" facs="20_D_VON-BERNUS_Wegewart_ALL_MUN_007.jpg"/>
+        <sp>
+          <speaker>Hirte</speaker>
+          <lg>
+            <l>Brot — Brot? — Wo komm ich her?</l>
+            <l>Alles ist leer,</l>
+            <l>alles ist Dunkelheit.</l>
+            <l>Ich bin in den Wald gegangen,</l>
+            <l>da fasste mich, ein Bangen,</l>
+            <l>da wurde ich mir so schwer.</l>
+            <l>Eine Stimme fang von Leid,</l>
+            <l>nah wurde weit —</l>
+            <l>wo komm ich her? <stage type="corps">(Ab.)</stage>
+                  </l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Holzhacker</speaker>
+          <p>Der war verwunschen.</p>
+        </sp>
+        <sp>
+          <speaker>Frau</speaker>
+          <p>Ich gehe heim und rufe die Andern und hole die Kinder, die haben noch nie solch
+                  ein Blühen geseh'n. <stage type="corps">(Ab.)</stage>
+               </p>
+        </sp>
+        <sp>
+          <speaker>Holzhacker</speaker>
+          <p>Ich werde es dem Pfarrer sagen, was hier vorgegangen ist. Gott steh uns bei, was
+                  für Sachen! <stage type="corps">(Ab.)</stage>
+               </p>
+        </sp>
+        <stage type="saut">Der Zug der Erlösten zieht vorüber. <pb n="8" facs="20_D_VON-BERNUS_Wegewart_ALL_MUN_008.jpg"/>Der Knabe und das Mädchen kommen
+               einander entgegen.</stage>
+        <sp>
+          <speaker>Mädchen</speaker>
+          <p>Du –</p>
+        </sp>
+        <sp>
+          <speaker>Knabe</speaker>
+          <p>Du warst es!</p>
+        </sp>
+        <sp>
+          <speaker>Mädchen</speaker>
+          <p>Dich habe ich gefühlt!</p>
+        </sp>
+        <sp>
+          <speaker>Knabe</speaker>
+          <p>Dich habe ich gewusst in meiner Einsamkeit!</p>
+        </sp>
+        <stage type="saut">Sie berühren sich mit den ausgestreckten Händen.</stage>
+        <sp>
+          <speaker>Knabe</speaker>
+          <lg>
+            <l>Es war so lange still um meinen Stein,</l>
+            <l>seit ich im Zauber siel.</l>
+            <l>Da pochte, pochte es, zuerst von fern</l>
+            <l>ganz leise nur, und pochte näher</l>
+            <l>und pochte um mich Tag und Nacht,</l>
+            <l>so wie es hier in deinen Händen pocht</l>
+            <l>und das warst du!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Mädchen</speaker>
+          <lg>
+            <l>Es war so lange still um meinen Stein</l>
+            <l>seit ich im Zauber siel.</l>
+            <pb n="9" facs="20_D_VON-BERNUS_Wegewart_ALL_MUN_009.jpg"/>
+            <l>Da hob ein Strömen am zuerst von fern,</l>
+            <l>ganz leise nur und strömte näher</l>
+            <l>und strömte um mich Tag und Nacht,</l>
+            <l>so wie es hier im Leinen Adern strömt,</l>
+            <l>und das warst du!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Knabe</speaker>
+          <p>Du lagst in Qual und Angst und riefst nach mir!</p>
+        </sp>
+        <sp>
+          <speaker>Mädchen</speaker>
+          <p>Du lagst verzweifelnd wild und riefst nach mir!</p>
+        </sp>
+        <sp>
+          <speaker>Knabe</speaker>
+          <p>Nur dich zum Licht erlösen und verbluten!</p>
+        </sp>
+        <sp>
+          <speaker>Mädchen</speaker>
+          <p>Nur dich zum Licht erlösen und vergehn!</p>
+        </sp>
+        <sp>
+          <speaker>Knabe</speaker>
+          <lg>
+            <l part="I">Nur dich —</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Mädchen</speaker>
+          <lg>
+            <l part="M">nur dich!</l>
+          </lg>
+        </sp>
+        <pb n="10" facs="20_D_VON-BERNUS_Wegewart_ALL_MUN_010.jpg"/>
+        <sp>
+          <speaker>Knabe</speaker>
+          <lg>
+            <l part="F">Und alles war vorbei!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Mädchen</speaker>
+          <p>Da wurden endlich wir des Zaubers frei!</p>
+        </sp>
+        <stage type="saut">Kinder ziehen vorüber.</stage>
+        <sp>
+          <speaker>Knabe</speaker>
+          <p>Sich, die mit uns erlöst wurden, sind schon in der Ferne verschwunden. Nun will
+                  ich ins Königsschloß zu meinem Vater gehen und wo ich vorbeikomme, will ich den
+                  Menschen verkünden: Die Hexe ist verdorben und gestorben, das Land ist ihrer
+                  Künste frei! Seid fröhlich! Der Königssohn kommt heim und bringt die schönste
+                  Braut! <stage type="corps">(Sie umarmen sich.)</stage> Warte hier auf mich! Dann
+                  im goldenen Wagen will ich dich holen. Ehe der Abendwind weht, bin ich bei
+                  dir!</p>
+        </sp>
+        <sp>
+          <speaker>Mädchen</speaker>
+          <p>Laß mich mit dir gehen, denn du wirst mich vergessen!</p>
+        </sp>
+        <pb n="11" facs="20_D_VON-BERNUS_Wegewart_ALL_MUN_011.jpg"/>
+        <sp>
+          <speaker>Knabe</speaker>
+          <p>Dich vergessen?</p>
+        </sp>
+        <sp>
+          <speaker>Mädchen</speaker>
+          <p>Wenn deine Mutter dir die Augen küsst, wirst du mich vergessen.</p>
+        </sp>
+        <sp>
+          <speaker>Knabe</speaker>
+          <p>Sie soll mich nicht küssen. Sie soll in ihrem Königsschmucke mit mir in den Wagen
+                  steigen und dich holen Leb wohl! <stage type="corps">(Ab.)</stage>
+               </p>
+        </sp>
+        <sp>
+          <speaker>Mädchen</speaker>
+          <lg>
+            <l>Am Weg hier will ich deiner warten.</l>
+            <l>Ich weiß ein Sprüchlein von der Ahne her,</l>
+            <l>Heilsegen nannte sie's in Harrens Qual:</l>
+          </lg>
+          <lg>
+            <l>Still mein Herz, es hüllt dich ein</l>
+            <l>Blumenkelch, so groß und rein,</l>
+            <l>Wind und Wetter sehrt dich nicht,</l>
+            <l>keiner deine Blüte bricht,</l>
+            <l>warte du, es geht die Zeit</l>
+            <l>einmal in die Ewigkeit.</l>
+          </lg>
+        </sp>
+        <stage type="saut">Sie versinkt, eine Wegewartblüte steigt auf. Das Licht wird heller
+               und bekommt allmählich einen goldenen Glanz.</stage>
+        <pb n="12" facs="20_D_VON-BERNUS_Wegewart_ALL_MUN_012.jpg"/>
+        <sp>
+          <speaker>Ärhenleserin</speaker>
+          <stage type="pers"> (geht vorüber)</stage>
+          <lg>
+            <l>Das Norn ist reif und giebt heißen Schein,</l>
+            <l>bald wird es all geerntet sein,</l>
+            <l>bald tanzen wir den Erntetanz,</l>
+            <l>wen geb' ich meinen Blumenkranz?</l>
+            <l>Er soll aus Mohn und Raden sein,</l>
+            <l>ein goldnes Band schling ich hinein,</l>
+            <l>und wer ihn beim Tanz zerflattern macht,</l>
+            <l>der soll mich küssen eine ganze Nacht. <stage type="corps">(Das Licht wird
+                        rötlich. Winzer geht vorüber.)</stage></l>
+            <l>Nun fällt das Laub von leeren leichten Zweigen.</l>
+            <l>Wir ziehen heim und tragen großen Gegen</l>
+            <l>in unsern Händen — alles will nun Schweigen</l>
+            <l>und schlafen — stille wirds auf allen Wegen.</l>
+            <l>Von Norden kommt mit Weh der Wind gefahren,</l>
+            <l>wer wandernd geht,</l>
+            <l>wer wartend steht,</l>
+            <l>der soll sein Herz vor Furcht und Leid bewahren.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die jung Frau Maria</speaker>
+          <stage type="pers"> (geht vorüber)</stage>
+          <lg>
+            <l>Ich komm aus dem himmlischen Garten,</l>
+            <l>mein Kindlein lacht im Schnee,</l>
+            <l>barfuß ich suchen geh,</l>
+            <l>wo man auf uns mag warten.</l>
+            <pb n="13" facs="20_D_VON-BERNUS_Wegewart_ALL_MUN_013.jpg"/>
+            <l>Die Welt liegt tief verhüllet,</l>
+            <l>doch geht ein lichter Schein</l>
+            <l>in alle Herzen ein,</l>
+            <l>da nun die Zeit erfüllet.</l>
+          </lg>
+          <lg>
+            <l>Du Blume ganz verlassen,</l>
+            <l>in Paradieses Pracht</l>
+            <l>hab ich an dich gedacht,</l>
+            <l>dein Herz will ich umfassen.</l>
+          </lg>
+          <lg>
+            <l>Du sollst mir nicht verzagen</l>
+            <l>in deiner großen Treu,</l>
+            <l>sollst harren ohne Neu,</l>
+            <l>die Krone wirst du tragen! <stage type="corps">(Ab.)</stage>
+                  </l>
+          </lg>
+        </sp>
+        <stage type="saut">Es wird ganz hell wie zu Anfang. Der Knabe kommt.</stage>
+        <sp>
+          <speaker>Knabe</speaker>
+          <p>Ich kann nicht daheim bleiben. Es treibt mich Hinaus, rastlos über Berg und Tal,
+                  Tag und Nacht. Suchen muss ich, suchen und weiß nicht was! Etwas hab ich verloren
+                  und weiß nicht was. Wer Hilft mir in meiner Qual?</p>
+        </sp>
+        <stage type="saut">Die junge Frau kommt ihm entgegen.</stage>
+        <sp>
+          <speaker>Frau</speaker>
+          <p>Riefen Sie? Wollen Sie etwas fragen?</p>
+        </sp>
+        <pb n="14" facs="20_D_VON-BERNUS_Wegewart_ALL_MUN_014.jpg"/>
+        <sp>
+          <speaker>Knabe</speaker>
+          <p>Ich such' etwas, ich hab etwas verloren —</p>
+        </sp>
+        <sp>
+          <speaker>Frau</speaker>
+          <p>Ihrer Schwert?</p>
+        </sp>
+        <sp>
+          <speaker>Knabe</speaker>
+          <p>Schwert? — nein.</p>
+        </sp>
+        <sp>
+          <speaker>Frau</speaker>
+          <p>Ein Kleinod, ein Juwel?</p>
+        </sp>
+        <sp>
+          <speaker>Knabe</speaker>
+          <p>Nein nein, das alles nicht!</p>
+        </sp>
+        <sp>
+          <speaker>Frau</speaker>
+          <p>Haben sie ein Lieb verloren?</p>
+        </sp>
+        <sp>
+          <speaker>Knabe</speaker>
+          <p>Ein Lieb? — ich weiß nicht!</p>
+        </sp>
+        <sp>
+          <speaker>Frau</speaker>
+          <stage type="pers"> (an ihm vorübergehend)</stage>
+          <p>Gott helf Euch! <stage type="corps">(Ab.)</stage>
+               </p>
+        </sp>
+        <pb n="15" facs="20_D_VON-BERNUS_Wegewart_ALL_MUN_015.jpg"/>
+        <sp>
+          <speaker>Knabe</speaker>
+          <stage type="pers"> (geht auf die Wegewartblüte zu)</stage>
+          <p>Wäre ich tot! Oder ein Stein, der stille liegt, nichts fühlt, nichts weiß! Der
+                  hier im Gras bei dieser Blume ruhte! Die ist so schön, wie ich nie etwas sah, so
+                  schön, dass ich mich nicht mehr von ihr trennen kann!</p>
+        </sp>
+        <stage type="saut">Er kniet vor der Blume nieder, sie verschwindet, das Mädchen steht
+               wieder vor dem Knaben.</stage>
+        <sp>
+          <speaker>Mädchen</speaker>
+          <p>Ich wartete am Wege hier auf dich, du hast mich lange Zeit vergessen!</p>
+        </sp>
+      </div>
+      <div type="5">
+        <head type="div5">Vorhang</head>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1568 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title ref="https://puppetplays.eu/en/oeuvres/349152/il-noce-di-benevento">Il Noce di Benevento</title>
+                        <respStmt>
+                              <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+                              <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+                        </respStmt>
+                        <respStmt>
+                              <name xml:id="FG">Fiona Gazzaniga</name>
+                              <resp>Transcription and edition</resp>
+                        </respStmt>
+                        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+                        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+                        <funder>European Research Council - ERC</funder>
+                  </titleStmt>
+                  <publicationStmt>
+                        <distributor/>
+                        <availability status="free">
+                              <licence>Public domain</licence>
+                        </availability>
+                        <idno type="DOI"/>
+                  </publicationStmt>
+                  <notesStmt>
+                        <note>A woman abducted by an evil spirit reunites with her husband</note>
+                        <note>Il Noce di Benevento (The Walnut Tree of
+                              Benevento) is a subject very often used in puppet shows. The tree was
+                              already the object of a cult dedicated to the god Odin in the times of the
+                              Longobards (6th century AD) who hung goat skin to its branches. In the 7th century,
+                              Barbato the bishop of Benevento had the tree removed and killed the demon who had
+                              been hiding in its roots in the form of a snake. In a legendary tradition, the
+                              walnut tree is where the sabbaths of witches and demons are organised. Pietro
+                              Piperno wrote about this in Della superstitiosa noce di Benevento : trattato
+                              historico in 1640. This manuscript that dates back to 1824 is
+                              stored in the museum and library Casa di Carlo Goldoni (Carlo Goldoni’s House) in
+                              Venice. The paper used was made in Venice. In all likelihood, as the various edits
+                              suggest, the manuscript was written by the author and already had a list of
+                              accessories and several stage directions.</note>
+                  </notesStmt>
+                  <sourceDesc>
+                        <listPerson>
+                              <personGrp role="audience">
+                                    <p>All audiences</p>
+                              </personGrp>
+                        </listPerson>
+                        <listBibl>
+                              <msDesc>
+                                    <msIdentifier>
+                                          <repository>Museo Casa Goldoni</repository>
+                                    </msIdentifier>
+                                    <physDesc>
+                                          <objectDesc>
+                                                <p>Number of pages in the original document: 47</p>
+                                                <p>Number of acts in the original document: 3</p>
+                                                <p>Format of the original document: Manuscript</p>
+                                          </objectDesc>
+                                    </physDesc>
+                              </msDesc>
+                        </listBibl>
+                        <bibl>
+                              <title type="main">Il Noce di Benevento</title>
+                              <date>1824</date>
+                        </bibl>
+                  </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                  <langUsage>
+                        <language ident="it">Italian</language>
+                  </langUsage>
+                  <textClass>
+                        <keywords source="animationTechniques">
+                              <term source="https://puppetplays.eu/en/techniques-d-animation/2352/marionnettes-à-fils">String marionette</term>
+                        </keywords>
+                        <keywords source="literaryTones">
+                              <term>Fantasy</term>
+                              <term>Fantastic</term>
+                              <term>Comical</term>
+                        </keywords>
+                        <keywords source="theatricalTechniques">
+                              <term>Apparition of a genie</term>
+                              <term>Stormy scene</term>
+                              <term>Incantation</term>
+                              <term>Spying scene</term>
+                              <term>Confinement</term>
+                              <term>Fight with an animal</term>
+                              <term>Metamorphosis</term>
+                              <term>Versified passages</term>
+                              <term>Dance</term>
+                        </keywords>
+                        <keywords source="genre">
+                              <term>Spettacolo nuovissimo per le Marionette</term>
+                        </keywords>
+                        <keywords source="keywords">
+                              <term>Jealousy</term>
+                              <term>Spell</term>
+                              <term>Magic</term>
+                              <term>Virtues</term>
+                              <term>Love</term>
+                              <term>Initiation tests</term>
+                        </keywords>
+                  </textClass>
+            </profileDesc>
+            <encodingDesc>
+                  <editorialDecl>
+                        <normalization method="silent">
+                              <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+                              <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+                              <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+                              <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+                        </normalization>
+                        <punctuation marks="some">
+                              <p>Punctuation has been corrected according to modern rules.</p>
+                        </punctuation>
+                  </editorialDecl>
+                  <projectDesc>
+                        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+                              Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+                              re-evaluate the contribution of the puppets repertoire to the construction of
+                              European cultural identity. Its main goals is to collect a corpus of
+                              representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+                              France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+                              17th and the 21th century. It also tries to identify the characteristics of
+                              puppet dramaturgy and their variations depending on eras, cultural spheres,
+                              producing conditions, and the aimed public.</p>
+                        <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+                        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                              Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+                        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+                              build upon the material in any medium or format for non-commercial purposes
+                              only, and only so long as attribution is given to the creator. If you remix,
+                              adapt, or build upon the material, you must license the modified material under
+                              identical terms. </p>
+                  </projectDesc>
+            </encodingDesc>
+            <revisionDesc>
+                  <change when-iso="2025-07-18" who="#FG">Text transcription and encoding</change>
+                  <change when-iso="2025-08-25" who="#MSK">Encoding validation against schema.rng and correction of page break</change>
+                  <change when-iso="2025-08-26" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+            </revisionDesc>
+      </teiHeader>
+      <text>
+            <front>
+                  <pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_001"/>
+                  <pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_002"/>
+                  <docAuthor><persName></persName></docAuthor>
+                  <docTitle><titlePart type="main">Il Noce di Benevento ovvero il congresso delle streghe ogni sabato.</titlePart>
+                        <titlePart type="sub">Commedia fantastica in 3 atti</titlePart></docTitle>
+                  <docDate></docDate>
+                  <docEdition>Novara presso Enrico Crotti libraio</docEdition>
+                  <pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_003"/>
+                  <castList><head type="personnage">Personaggi</head>
+                        <castItem><role>Gualtieri, conte di Benevento,</role></castItem>
+                        <castItem><role>Argenide, sua moglie,</role></castItem>
+                        <castItem><role>Clearco, amico di Gualtieri,</role></castItem>
+                        <castItem><role>Leporiello, servo del conte,</role></castItem>
+                        <castItem><role>Il gran Demogorgone,</role></castItem>
+                        <castItem><role>Lirina, fata benefica,</role></castItem>
+                        <castItem><role>Canidia, fata malefica,</role></castItem>
+                        <castItem><role>Draghilla, seguace di Canidia,</role></castItem>
+                        <castItem><role>Tigrina, seguace di Canidia,</role></castItem>
+                        <castItem><role>Gattriride, seguace di Canidia,</role></castItem>
+                        <castItem><role>Orsetta, sotto il nome di Geronte, seguace di Canidia,</role></castItem>
+                        <castItem><role>Diavoli e Geni neri, satelliti di Canidia,</role></castItem>
+                        <castItem><role>Allieve di Canidia,</role></castItem>
+                        <castItem><role>Silfi seguaci di Lirina.</role></castItem></castList>
+                  
+                  <set><p>La scena è nel bosco di Benevento.</p></set>
+                  </front>
+            <body>
+      
+                  <pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_004"/>
+<div type="1"><head type="acte" n="1">Atto 1</head>
+      <stage type="saut">Notte. Bosco. In mezzo vi è il noce. Alla sinistra un masso, alla dritta un cespuglio: sotto il noce un sedile erboso.</stage>
+    
+<div type="3"><head type="scene" n="1">Scena 1</head>
+      <stage type="saut">Il gran Demogorgone assiso sul noce: alcun Geni neri fra i rami del medesimo con fiaccole. Canidia, Draghillia, Tigrina, Gattaride, Allieve di Canidia, Diavoli, ed altri Geni neri.</stage>
+      
+      <sp><speaker>Demogorgone</speaker>
+            <p>Udiste, o donne, gli ordini miei, l'aurora che già comincia a rosseggiare ci obbliga a separarci: andate, ed ognuna di voi collo
+                  spargere il maggior male che può sopra la terra, farà cosa assai grata a Plutone. Canidia, oggi avrai una grande avventura: fa buon uso delle
+                  mie istruzioni e del poter che ti ho dato, amami e in me confida.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Gran Demogorgone, o quanto maggiore sarebbe mai la gratitudine mia verso di te, se tu mi dessi il potere di vincere gl’incanti di Lirina mia nemica !</p></sp>
+
+      <sp><speaker>Demogorgone</speaker>
+            <p>Tu chiedi ciò che non è in poter mio di concederti. 
+                  Lirina è parimenti mia nemica; ma essa possiede incanti maravigliosi di cui le fu cortese il mio terribile avversario il Genio buono. 
+                  Non temere però, mia Canidia, colei non ti supera in valore e nulla può sulla tua <pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_005"/>persona. 
+                  Ma le ombre del tutto svaniscono, l'astro del giorno è ormai sull'orizzonte. Separiamci.</p>
+            <stage type="saut">(Un gran colpo di tuono. Il Demogorgone vola via in un globo di fuoco. I Geni neri partono in varie maniere.)</stage> </sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Che ne dite eh, mie care, di quella maledetta Lirina mia nemica ?</p></sp>
+
+      <sp><speaker>Draghilla</speaker>
+            <p>Vostra nemica ! Potete ben dire nemica acerrima di tutte noi.</p></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>Dice bene Draghilla; colei è nostra comune avversaria. Il solo suo nome mi fa tremare.</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>Ha preso a perseguitarci.</p></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>Ormai se il nostro gran maestro non ci pone rimedio, torneranno inutili i nostri incanti.</p></sp>
+
+      <sp><speaker>Draghilla</speaker>
+            <p>Ho giurato di vendicarmi, e metterò in opera tutta l’arte e tutto l’ingegno mio onde riuscirvi.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Vi farò vedere che saprò prendermi soddisfazione contro di colei... Ma il giorno è già cominciato, e non veggo il sole.</p>
+            <stage type="saut">(La scena a poco a poco si oscura.)</stage></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>Anzi, osservate, vedete come s’oscura il cielo.</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>Oh ! Come sono nere quelle nuvole !</p></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>Oh ! Veh ! Che minaccioso temporale !</p></sp>
+
+      <sp><speaker>Draghilla</speaker>
+            <p>Come si avanza terribilmente ! Fa spavento.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>lo tengo per certo che sia stato suscitato dal nostro maestro il gran Demogorgone. Compagne mie, ritiriamci nel nostro palazzo.</p>
+            <stage type="saut">(Partono.)</stage></sp></div>
+
+<div type="3"><head type="scene" n="2">Scena 2</head>
+      <listPerson>
+            <personGrp>
+                  <name>[Lirina]</name>
+            </personGrp>
+      </listPerson>
+      <stage type="saut">Previa una vampa, Lirina esce di mezzo del cespuglio.</stage>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Vi ho intese, vi ho intese ! Ma io veglierò piucchè mai per distornare le vostre imprese <pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_006"/>malvagie. 
+        Ah, se il potere accordatomi dal Genio buono fosse assolutamente maggiore di quello di Canidia, io lo adoprerei per distruggere questa maligna razza autrice di tanti mali.
+      <stage type="corps">(Il temporale si avanza: sentesi di lontano il tuono e veggonsi i lampi.)</stage> 
+      Ma il nembo tempestoso si avanza: chi sa a qual fine l’empio Demogorgone l’ha fatto insorgere ! Forse, oh Dio, per opprimere qualche infelice, la cui cattiva stella abbia guidato in questa selva. 
+      Ma io veglierò alla tua salvezza, qualunque tu sia, mortale sventurato. Comincia la pioggia: è meglio che io mi ritiri.</p>
+            <stage type="saut">(Rientra nel cespuglio.)</stage></sp></div>
+
+<div type="3"><head type="scene" n="3">Scena 3</head>
+      <listPerson>
+            <personGrp>
+                  <name>Leporiello,</name>
+                  <name>Argenide</name>
+            </personGrp>
+      </listPerson>
+      <stage type="saut">Pioggia, lampi e saette: indi gradatamente cessa il temporale.</stage>
+      <stage type="saut">Argenide in abito di cacciatrice armata di arco e frecce, e Leporiello che le dà mano.</stage>
+
+      <sp><speaker>Leporiello</speaker>
+            <stage type="pers">(nel venire in iscena)</stage>
+            <p>Ahi, ahi ! Oh povero me !... Quante saette ! Pare che costino nulla !
+                  Andiamo dunque... spirito... qui un saltarello... benissimo !... brava !...</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Oh Dio ! Non posso più reggermi... il mio piede vacilla, temo sol di cadere...</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Via, via, coraggio... al chiaror dei lampi io veggo lì una pianta assai fronzuta... andiamci sotto, ci riparerà un poco...</p>
+            <stage type="corps">(Vanno sotto il noce.)</stage>
+            <p>Va benissimo... ecco qui anche un canapè di erba... sieda signora contessina... si riposi... ma no... aspetti...</p>
+            <stage type="corps">(Tocca l’erba.)</stage>
+            <p>Fortuna ! È asciuttissimo... sieda pure... poveretta... cara padroncina ! Così buona, così graziosa !</p><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_006"/></sp>
+      
+      <sp><speaker>Argenide</speaker>
+            <stage type="pers">(Siede.)</stage>
+            <p>Gran Dio, ti ringrazio.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Oh povero Leporiello ! Che sarà mai di noi ?</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Sarà quello che avrà disposto il Cielo in cui ripongo tutte le mie speranze. Ma mi pare che il temporale si vada calmando un poco.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Oh, sì sì... dopo uno sfogo così strepitoso sarebbe strana cosa che non cessasse. Corpo della luna, quante saette spaventose ! 
+                  Ad ogni momento mi pareva di dover cadere incenerito !</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Ecco l’iride.</p>
+            <stage type="saut">(La scena si va rischiarando.)</stage></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Pigliamola per buon augurio. Oh, come son tutto bagnato.</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Io parimente. Osserva come sto.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Se si potesse accendere un po' di fuoco... eh ! Come è mai possibile ! 
+            Ora mi dispiace a dirglielo, Signora contessa, ma è tutta sua colpa. 
+            Bel divertimento, in vero, l’andare a caccia tutti i giorni ! 
+            Se ella facesse come molte altre signore che stanno a letto fino al mezzo dì, e il resto del tempo lo consumano alla toeletta, 
+            al passeggio, a tavola, al giuoco, a far all’amore coi galanti, allora non le accadrebbero di queste disgrazie, ed io non mi troverei in questa sventura.</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Zitto la... queste tue sciochezze son fuor di luogo.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Perdoni... ma intanto siamo in un bell’imbroglio.</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Ma i nostri cavalli ove saranno fuggiti ?</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Indovinalo tu, grillo ! Più che ci penso, meno la intendo. Io resto stordito ! 
+                  Bisogna pur dire che quelle malvage bestie avessero in corpo il demonio. Cospetto !... 
+                  Non avevamo fatto due miglia di cammino fuori di Benevento, e appena entrati in questo bosco si sono adombrati, né vi é stata forza in noi per guidarli...</p><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_007"/></sp>
+      
+      <sp><speaker>Argenide</speaker>
+            <p>A tal segno che i miei cacciatori non ci poterono tener dietro.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p> E quel che è peggio, ci hanno portati contro nostra voglia troppo addentro in questo bosco vastissimo, e poscia come se fossero stati
+                  d’accordo, ci sono caduti sotto stramazzandoci a terra, indi... oh cosa crudele ! Sono fuggiti abbandonandoci villanamente. Ah bestie... eh !
+                  Sì, sono bestie, dunque.</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Per fortuna io caddi sopra una macchia, né mi feci alcun male.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>La disgrazia era riservata tutta a me: altro che macchia ! 
+                  Precipitai in modo che non so come non mi sia ammazzato ! Mi duole ogni osso.</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Chi sa come mai potremo uscire da questa selva !</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>E dico io, come faremo a mangiare ? Ella ben sa come l’appetito mi serva mirabilmente...
+                  Oh ! Ora il temporale è del tutto svanito: osservi che bel sereno. E che faremo noi qui adesso ? 
+                  Il mio parere sarebbe di metterci in cammino, procurando d’indovinare la strada che abbiamo fatta e di ritrovare i nostri cacciatori e i nostri cavalli, e poi...</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Non dici male, ma la fatica durata nel camminare a piedi fra le spine, mi ha malconcia e sentomi stanca a segno, 
+                  che per ora non trovomi in grado di fare il benché menomo viaggio.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Oh, questa è bella ! Ma e come la faremo noi ? Si ha da star qui, pazienza ! 
+                  Almeno vi fosse il modo di procacciarsi qualche cosa da mangiare.</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Senti, Leporiello, potresti intanto andar tu per il bosco e procurar di trovare i nostri cavalli, o qualcuno de' miei servi e qui condurli.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Ma ed ella, signora contessa ?...</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>lo me ne starò qui attendendoti.</p><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_008"/></sp>
+      
+      <sp><speaker>Leporiello</speaker>
+            <p>Ci burliamo... E se intanto sbucasse fuori qualche lupo od altra fiera e la divorasse, che darebbe mai il signor marito, se io tornassi a Benevento senza di lei ?</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Va pure, Leporiello: io non ho timore alcuno, me ne starò qui con tutta franchezza, sono armata ed al caso saprei difendermi.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Ma... veramente... se debbo dire la verità... ho un po' di paura per me, se ella non ne ha per lei.</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Eh via, fatti coraggio. Va, io sono sicura che la tua gita avrà un esito felicissimo.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Me lo dice con tanta grazia...</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Sì buon Leporiello, a te mi raccomando.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Mi invio con un cuor da leone. Ella dunque non si muova da qui; vo e torno lesto come un levriere.</p>
+            <stage type="saut">(Parte.)</stage></sp></div>
+
+      
+      
+      <div type="3"><head type="scene" n="4">Scena 4</head>
+      <listPerson><personGrp>
+            <name>Argenide,</name>
+            <stage type="listPerson">indi</stage> 
+            <name>Canidia,</name>
+            <name>Draghilla,</name>
+            <name>Tigrina,</name>
+            <stage type="listPerson"> e </stage> <name>Gattiride.</name></personGrp></listPerson>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Misera Argenide ! A che ti ha condotto una per altro innocente passione! Ah, sì... 
+                  converrà che io moderi il trasporto per la caccia. Questa è già la terza volta che mi accade la disgrazia di smarrire la via e i compagni. 
+                  Ciò che mi dà maggior pena si è il pensare quale sarebbe mai l'allanno del mio caro consorte se vedesse ritornare i miei cacciatori senza di me... </p>
+            <stage type="corps">(pausa)</stage>
+            <p>Eh, lungi, lungi da me questo pensier funesto.. Io spero che fra poco sarà qui Leporiello o coi cavalli, o con alcuno dei miei cacciatori.</p>
+            <stage type="corps">(pausa)</stage>
+            <p>Questo bosco ha un certo non so che fra l'orrido<pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_009"/> e il piacevole che m’incanta. Sento come un dolce invito al sonno... </p>
+            <stage type="corps">(Si adagia sul canapè di erba.)</stage>
+            <p>Non posso più tener aperte le palpebre... Sì... dormirò alquanto, ed a mia difesa veglierà il cielo. </p>
+            <stage type="saut">(Si addormenta; previa una vampa, escono dal masso le streghe.)</stage></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Oh, osservate chi è qui.</p></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>Una cacciatrice che forse ha smarrita la via.</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Quanto è bella !</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>Sì, davvero, che lo è.</p></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>Ma come mai questa signora si trova qui così sola ?</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <stage type="pers">(Osservando Argenide.)</stage>
+            <p>lo non m'inganno... Oh che fortuna !... Ora intendo bene. Gran maestro, io ti ringrazio.</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Che ! La conoscete ?</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Se la conosco ! Ella è una mia rivale.</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>Vostra rivale ? Spiegatevi.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Questa è la sposa del conte Gualtieri del quale io ero perdutamente innamorata, ma non corrisposta, 
+                  perché Gualtieri adoratore delle virtù che pazzamente gli pareva di trovare in costei, giusta il costume degl’innamorati, sprezzò
+                  sempre i miei affetti, e se la sposò a mio sommo dispetto. Ma ora il gran Demogorgone la dà nelle mie mani onde mi vendichi di quel rialdo.</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>Ma che pensate di fare ? Poverina !... Miratela; ha una fisonomia così amabile...</p></sp>
+
+      <sp><speaker>Tirgina</speaker>
+            <p>È vero.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Nulla di male a lei, a Gualtieri tutto, col privarlo forse per sempre della sua sposa.</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Come dorme tranquillamente !... Ma, e in qual maniera può mai esser capitata qui tutta sola ?</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Io ben l’intendo. Ella è cacciatrice: il temporale<pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_010"/> l’avrà fatta smarrire nel bosco, ed ecco l’avventura promessami dal gran Demogorgone.
+                  Orsù, a momenti potrebbe forse svegliarsi...</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Che determinate dunque ?</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Mille cose mi ci presentano al pensiero !... Potrei... Ma no...</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>Contro il mio solito io mi sento una certa propensione per costei, che devo pregarvi di fare qualche cosa in suo favore.</p></sp>
+
+      <sp><speaker>Tigirina</speaker>
+            <p>Anch’io ve ne supplico.</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Od almeno nulla a suo danno.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Or bene, ho deciso: state attente ed approverete. 
+            <stage type="corps">(Batte la verga nel masso e ne esce un genio nero.)</stage>
+                  Olà recami quell’anguistara sulla quale sta scritto: liquore dell’obblio. 
+            <stage type="corps">(Genio parte.)</stage> 
+                  Lo spargerò sul capo di questa donna, così ella dimenticherà ogni cosa passata e per conseguente di essere sposa a Gualtieri.
+                  L’alloggeremo nel nostro palazzo: indi penserò al resto. 
+            <stage type="corps">(Esce il genio, dà l’anguistara a Canidia e parte. Canidia spruzza il liquore sul capo d’Argenide, fa colla verga de' circoli e la tocca.)</stage> 
+                  Ecco compiuto l’incanto ed in forza di
+                  esso, quando si sveglierà, quasi non sarà più in grado di riconoscer nemmen sè stessa.
+                  Ritiriamci... pare che si desti... indi se le presenteremo.</p>
+                  <stage type="saut">(Si ritirano fra le piante.)</stage></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <stage type="pers">(Si sveglia.)</stage>
+                  <p>Ah !... egli svani... fu un sogno... ma... come ? 
+               <stage type="corps">(Si guarda intorno e fa le maraviglie.)</stage> 
+                  Oh Dio !... Io qui sola ?... In questa selva ?...
+               <stage type="corps">(Si alza.)</stage> 
+                  Sola... e chi mai dovrebbe esser meco ?
+                  Quale confusione è questa mia !... Un’idea lontana...
+                  Ma no... mi pare. lo... queste piante...</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Signora contessa...</p>
+            <stage type="saut">(Le streghe si avanzano facendo inchini.)</stage><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_011"/></sp>
+      
+      <sp><speaker>Argenide</speaker>
+            <stage type="pers">[fra sé]</stage> <p>Oh !... Io... dunque non son sola ?.. E chi sono mai queste donne ?</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Abbiamo il bene di offrire a lei la nostra servitù.</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Mille grazie. 
+                  <stage type="corps">[fra sé]</stage> 
+                  E che risponderò io ?... La mia testa vacilla... ogni cosa mi sembra nuova.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Si degni di accettare la nostra amicizia.</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Sì... amicizia... sento come un certo vuoto dentro di me, che appunto ho d’uopo... 
+                  Di mille cose vorrei pregarvi; ma una folla d’idee vaghe ed a me sconosciute mi si affaccianno
+                  alla mente, indi svaniscono per dar luogo a mille altre... Ma, ditemi in grazia, chi siete voi ?</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Serve umilissime di lei, signora contessa, e pronte a servirla se ci comanda.</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Dunque io... sì... vorrei... ma non so che cosa... 
+                  quello che posso dire, e di cui sono quasi persuasa, si è ch’io vado sognando e sento una forte brama di terminare il mio sogno e svegliarmi dappoi...</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Sì capisco, ella ha bisogno di riposo: sì degni di entrare nel nostro palazzo, 
+                  queste sue vesti inzuppate d’acqua glie le cangeremo, e potrà adagiarsi su morbide piume.</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Sì... andiamo pure...</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <stage type="pers">(Colla verga tocca il masso che si apre.)</stage>
+                  <p>Favorisca con noi.</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Oh !... Ma, questo è un palazzo ?</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Si, ed assai comodo.</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>E noi tutte ci faremo un pregio in servirla.</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Vedrà di che siamo capaci.</p></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>L’ameremo come sorella.</p> 
+      <stage type="saut">(Entrano tutte con Argenide nel masso, il quale tosto si rinchiude.)</stage>
+            </sp></div></div>
+                  <div type="5"><head type="div5">Fine dell'atto primo.</head></div>
+      
+      
+                  <div type="1"><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_013"/><head type="acte" n="2">Atto II</head>
+<div type="3"><head type="scene" n="1">Scena 1</head>
+
+      <listPerson><personGrp><name>Camidia</name> <stage type="listPerson">vestita di bianco e col velo sul capo portando un’arpa,
+             indi</stage> <name>Draghilla.</name></personGrp></listPerson>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Ed ora che pensiero è il vostro ? Siete pur bizzarra !</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Draghilla mia, non ho avuto da che esisto una giornata più bella per me e più soddisfacente di questa. 
+                  Ho gettato le arti, e rilevai che Gualtieri si aggira affannoso in questa selva in cerca di Argenide; farò ch’egli entri nel mio palazzo. 
+                  Oh che giubilo è il mio ! Grazie o gran Demogorgone, questi son tutti favori tuoi.</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Oh bella ! Io non la intendo... nel palazzo vi è Argenide... egli la ritrova... e allora...</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Anzi da ciò appunto ne voglio trarre tutto il mio piacere, tutta la vendetta mia. 
+                  Argenide, mercè l’acqua dell’obblio, non conosce più alcuno, ed in forza altresi di un’altra mia incantagione, 
+                  abborrisce tutti gli uomini, ed è divenuta amante di una giovinetta mia allieva, che sotto spoglie virili chiamasi Geronte, 
+                  e con essa vuole star sempre. Guartieri la vedrà, Gualtieri sarà presente alle smanie sue pel finto amante, 
+                  e Gualtieri non avrà da Argenide che ripulse e strapazzi. Che ne dite, eh ? 
+                  Sarà un bel vedere gli atti di rabbia e di disperazione di lui ad un accidente cosi imprevisto e strano. Ma eccolo, ritiriamoci.</p></sp></div>
+      
+                        <div type="3"><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_014"/><head type="scene" n="2">Scena 2</head>
+
+      <listPerson><personGrp>
+            <name>Gualtieri</name><stage type="listPerson"> e </stage> 
+            <name>Clearco,</name><stage type="listPerson">e </stage>
+            <name>dette</name> <stage type="listPerson">nascoste</stage></personGrp></listPerson>
+
+      <sp><speaker>Gualtieri</speaker>
+            <p>Argenide, Argenide mia, ove sei ?...</p>
+                  <stage type="saut">(Canidia suona.)</stage></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <stage type="pers">(dopo il suono)</stage>
+                  <p>O tu, chiunque sii, che questa divina arte possiedi, dimmi, 
+                  per pietà, dimmi, se tu lo sai, ove trovasi la mia diletta Argenide.</p>
+                  <stage type="saut">(Canidia suona un allegrello.)</stage></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <p>Oh celeste armonia !... Deh a me ti scopri, tu mi sia d’aiuto... tu di guida per rinvenire la mia sposa.</p>
+                  <stage type="saut">(Canidia si avanza col volto velato.)</stage></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <stage type="pers">(a Clearco)</stage> <p>Chi sarà mai questa donna ?</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Invitto cavaliere, dà pace al tuo cuore; la tua Argenide è viva.</p></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <p>O creatura sovrumana, che tale devi essere, tu che rechi conforto al più afflitto dei viventi, ov’è la mia amata compagna ?</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Ah, ah ! Credi tu che Argenide pianga, che sia afflitta per te ?</p></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <p>lo ne sono ben certo, troppo grande è l’amore che ci lega.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Quant’è facile l’ingannarsi ! Forse vorrai non averla ritrovata. Andiamo.</p> 
+                  <stage type="saut">(Conduce Gualtieri.)</stage></sp></div>
+
+<div type="3"><head type="scene" n="3"> Scena 3</head>
+ <listPerson><personGrp>
+       <name>Clearco,</name><stage type="listPerson"> indi </stage>
+            <name>Leporiello.</name></personGrp></listPerson>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Ah !... Che è ciò ? Me infelice !... Questo è un luogo incantato ! Cielo !... Che sarà mai del mio Gualtieri ? Che avvervà di Argenide ?</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Oh signor cavaliere !... La fortuna fa che ci</p><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_015"/></sp></div>
+      
+      <!-- manque de texte -->
+      <div type="3"><head type="scene" n="5"> Scena 5</head>
+            
+      <sp><speaker>Canidia</speaker>
+            <p>Io già m'immagino le smanie che farà fra poco Gualtieri: assicuratevi che sorpasseranno l'aspettativa nostra.</p></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>Mi vien da ridere al vedere come Argenide si è innamorata di quella ragazza ch'ella crede essere un giovinetto.</p></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <stage type="pers">(a Canidia)</stage> <p>Gran forza hanno gl’incanti vostri.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Gattiride, qua venga Gualtieri.</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>Subito vi servo.</p> <stage type="saut">(parte)</stage></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>lo penso che non vi possa essere una pena più crudele di quella in cui vedrete Gualtieri.
+                  Ma ben gli sta, ed io son contenta che mi si sia presentata l’occasione di soddisfare l’offeso mio amore con una strepitosa vendetta. 
+                  Noi ci ritireremo, e non vedute ne saremo spettatrici.</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Come mai è restato sorpreso e mortificato quando vi siete scoperta a lui per Canidia !</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Ah, ah ! Voleva fare il bravo, ma ha dovuto calmarsi.</p></sp></div>
+
+<div type="3"><head type="scene" n="6">Scena 6</head>
+
+      <listPerson><personGrp>
+            <name>Gattiride,</name>
+            <name> Gualtieri</name><stage type="listPerson"> e </stage>
+            <name>detti,</name><stage type="listPerson">indi</stage>
+            <name>Argenide</name></personGrp></listPerson>
+
+      <sp><speaker>Gualtieri</speaker>
+            <p>Canidia, e posso finalmente sperare che tu mi permetta di vedere la mia cara e fedele Argenide ?</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Fedele ! Ah ! Ah ! Sì, sì, adesso verrà in questo luogo: tu qui l’attendi, e da te stesso ti potrai persuadere, che Argenide è una donna come tutte le altre. 
+                  </p><stage type="saut">(Le streghe entrano, ma restano in osservazione dietro la tenda della porta di mezzo e a suo tempo mostreranno il loro giubilo per le smanie di Gualtieri.)</stage></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <p>Infelice Gualtieri ! Quale trista sorte era mai destinata per te ! 
+                  E che mi poteva mai avvenire <pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_016"/>di peggio, che di cadere in mano di una donna vendicativa, indemoniata ! 
+                  Ma però se ho ritrovata la mia buona Argenide... Eccola... Vieni, vieni, mia cara, a questo seno...</p> 
+                  <stage type="saut">(Va con trasporto per abbracciarla.)</stage></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Sfacciato ! <stage type="corps">(Lo respinge.)</stage> E chi sei tu che tanto ardisci ?</p></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <p>Giusto Cielo ! Non son io il tuo Gualtieri, il tuo sposo ? Che ti ama con fervore che non ha pari ?...</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Tu ?... Mio sposo ?... Sfrontato, incivile !... Va ti scosta: io non ti conosco.</p></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <p>Non mi conosci ? Ma infelice !... Ma tu sogni...</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Son desta e presente a me stessa : t'allontana tosto da me.</p></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <p>Che da te m’allontani !... Io che tanto t’amo, che grandi pene incontrai per rintracciarti !</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Ora sì che posso ben dire a te che vaneggi. Tu rintracciar me ? A qual fine ?</p></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <stage type="pers">[fra sé]</stage>
+            <p>Ah, che la sua mente è stravolta, e ben veggo a forza di malie. Ritornale, per pietà, cielo benigno, ritornale la smarrita ragione.
+                  <stage type="corps">[a Argenide]</stage> Argenide mia, considera qual dolore soffre il tuo Gualtieri a queste ripulse.</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Tu sei Gualtieri ? Uh, che cosa m’importa che tu lo sia, se io non ti conosco: e qual diritto hai tu di pretendere ?...</p></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <p>lo sono il tuo consorte...</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Ma che sogni son questi tuoi ? Quali impudenti imposture ! lo non ebbi mai marito. 
+                  A Geronte sarò sposa; Geronte è l’amor mio; egli è il primo cui tutto consacrai il mio cuore: né so chi tu sia.</p></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <p>Sposata a Geronte... tu ?... Oh Dio !... Mi sento struggere... muoiu d’affanno... Sposa a Geronte ! Tu mi uccidi.</p></sp><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_017"/>
+      
+      <sp><speaker>Argenide</speaker>
+            <p>Ma... e quale maraviglia ti vai facendo ? Non posso io, libera qual sono, donare a chi più mi piace i miei affetti ? Quale diritto ne hai tu ?</p></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <p>Argenide !... Almeno potessi accetarmi che tu operi meco così a forza d’incanti ! Ah ! Sì non può essere altrimenti.</p></sp>
+
+      <sp><speaker>Argante</speaker>
+            <p>E che mi vai tu dicendo d’incanti ?... Credo bene che tu sia pazzo.</p></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <p>Ah, la rabbia mi divora: sento che non posso più resistere. Perfida Canidia ! 
+                  Uccidimi piuttosto che lasciarmi in queste pene. 
+                  Ben m’avveggo che tu barbaramente ti vendichi di me, perché non volli mai corrispondere all’indegno amor tuo. 
+                  Tu lo hai convertito nell'odio più crudele e te ne compiaci, e sei forse testimonio invisibile di quelle pene che fanno strazio del mio cuore.</p></sp>
+      
+      <sp><speaker>Argenide</speaker>
+            <p>A quel che mi pare, tu vai vaneggiando.</p></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <p>Canidia scellerata ! Infame donna...</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Ehi, ehi, se non ti moderi, prenderò io le parti della mia amica, e ti farò ben pentire delle tue follie. 
+                  Ma, e il mio Geronte dov’è ?
+                  <stage type="corps">(Aggirandosi per la scena.)</stage> 
+                  Senza di lui non posso stare un momento. Geronte, mio caro, ove sei ?
+                  Non lasciarmi un solo istante, se mi ami. 
+                  Ora il vedrai, tu che ti vanti di aver su di me delle pretensioni, vedrai quale differenza vi sia fra te e Geronte. 
+                  Eccolo che viene.</p></sp></div>
+
+<div type="3"><head type="scene" n="7">Scena 7</head>
+
+      <listPerson><personGrp>
+            <name>Geronte,</name><stage type="listPerson"> e </stage>
+            <name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Gualtieri</speaker>
+            <stage type="pers">[fra sé]</stage>
+            <p>Oh Dio ! Come resistere ?</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <stage type="pers">(Andando ad incontrar Geronte.)</stage> 
+            <p>Vieni, vieni, mio caro, non istaccarti più da me.</p></sp><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_018"/>
+      
+      <sp><speaker>Geronte</speaker>
+            <p>Mia cara Argenide, tu sai quanto ti amo; tu sei la luce degli occhi miei: non dubitare, 
+                  ancorchè qualche volta mi allontani, ardo continuamente di vivo amore per te. Mia cara.
+                  <stage type="corps">(Ridendo da sè.)</stage> E dico io che amore !</p></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <p>Oh rabbia ! Anche a questo son riservato !
+                  Un sì gran colpo tutta abbatte la mia costanza... no... non posso sopravvivere ! 
+                  Argenide, mira, io mi uccido avanti gli occhi tuoi.</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Se tu vuoi fare una tale pazzia, io starò mirandoti con tutta indifferenza. 
+                  A canto al mio Geronte ogni cosa mi diverte.</p></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <stage type="pers">(Fa smanie da disperato.)</stage> <p>O cielo, tu m'assisti.</p></sp>
+
+      <sp><speaker>Geronte</speaker>
+            <p>Sì, sì, se ha voglia di morire si uccida pure: suo danno. 
+                  Io però son persuaso che non sarà così pazzo di ammazzarsi perché una donna non sente amore per lui: mi pare che oggidì non sia più di moda.</p></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <p>Sì... il mio barbaro destino lo vuole... si muoia.</p>
+                  <stage type="saut">(Cava la spada.)</stage></sp></div>
+
+<div type="3"><head type="scene" n="8">Scena 8</head>
+
+      <listPerson><personGrp>
+            <name>Clearco,</name><stage type="listPerson"> e </stage>
+            <name>Leporiello</name><stage type="listPerson">coperli dal velo, e</stage>
+            <name>detti.</name></personGrp></listPerson>
+
+      <stage type="saut">Clearco, nel mentre che Gualtieri sta per ferirsi gli afferra il braccio, lo trattiene, e lo trascina a sé.</stage>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Ah, ah, ah, hai veduto Geronte ? 
+                  Il tuo rivale voleva uccidersi, ma pensando che il morire non è cosa conveniente e bella, ha creduto miglior consiglio l’andarsene.
+                  </p><stage type="saut">(Leporiello piglia Argenide per una mano.)</stage></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Ahi... oh Dio !!... chi mi prende ?</p>
+            <stage type="saut">(Leporiello la tira alquanto verso la porta.)</stage></sp><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_019"/>
+      
+      <sp><speaker>Argenide</speaker>
+            <p>No... no... chi mi strascina ?... Chi mi stacca dal mio Geronte ?</p></sp>
+
+      <sp><speaker>Geronte</speaker>
+            <p>Ma qui non vi è alcuno, sta pure a me vicina.</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>E che ? Credi tu ch'io sogni ?... Misera me !... mi sento... ma quale forza !... 
+                  Su via, Geronte, per carità, trattienimi... Ahi !... ahi !... Prendimi per quest’altra mano.... ma presto...</p>
+                  <stage type="saut">(Leporiello continua a tirarla.)</stage></sp>
+
+      <sp><speaker>Geronte</speaker>
+            <p>Tu il vuoi ? Si faccia... 
+                  <stage type="corps">(La prende per l’altra mano e la tira a sé.)</stage> 
+                  Ma io, ripeto, non veggo alcuno.</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Geronte... me misera !... Io parimente non iscorgo persona... ma una forza irresistibile...
+                  Ahi, ahi !... mi sento storpiare il braccio... Cava finalmente quella tua spada...</p></sp>
+
+      <sp><speaker>Geronte</speaker>
+            <p>Argenide mia... io non intendo come sia questa cosa... qui siamo soli... non ferirò che il vento.</p>
+                  <stage type="saut">(Cava la spada e vibra dei colpi a vuoto.)</stage></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <stage type="pers">(Si spaventa.)</stage> <p>Misericordia !... Signora contessa, coraggio: sono il suo Leporiello, il suo liberatore, andiamo.
+      </p><stage type="saut">(Alle parole di Leporiello il velo sparisce.)</stage></sp>
+
+      <sp><speaker>Geronte</speaker>
+            <p>Siamo traditi !</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Chi è questo ribaldo ?</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Corpo del diavolo ! Non conosce più il suo fedel servo Leporiello ?</p></sp></div>
+
+<div type="3"><head type="scene" n="9">Scena 9</head>
+            
+      <listPerson><personGrp>
+            <name>Le streghe</name><stage type="listPerson"> e </stage>
+            <name>detti,</name><stage type="listPerson">indi</stage>
+            <name>quattro demoni</name></personGrp></listPerson>
+
+      <sp><speaker>Canidia</speaker>
+            <stage type="pers">(sdegnata)</stage>
+            <p>Scellerato ! 
+                  <stage type="corps">(a Leporiello)</stage> 
+                  Ora ne pagherai la pena.
+                  <stage type="corps">(Fa con fretta dei circoli per terra colla verga.)</stage> 
+                  A me ! Olà, demoni punitori.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Povero me !... Per carità... la mi ascolti...</p></sp><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_020"/>
+      
+      <sp><speaker>Argenide</speaker>
+            <p>Sì, sì.... punitelo questo ribaldo che mi ha quasì storpiato un braccio.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Ah tiranna ! Ingrata !... Fellona !... Così ella tratta con me che tanto feci per liberarla ?.. Oh, donne donne, e mille volte donne !</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Non dubitare, sarai servito a seconda del tuo merito.</p></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>Scellerato !</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>Ladro indegnissimo !</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <stage type="pers">(Batte la verga in terra e vengono quattro demoni.)</stage>
+                  <p>Prendete questo briccone e dopo d’aver fatto di lui ciò che vi detterà il capriccio portatelo nel più profondo abisso.</p></sp>
+
+      <sp><speaker>Leporiello</speaker> 
+            <p>Ah, no no... la prego, illustrissima... mi ascolti... compatisca l’amore di un servo fedele...</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Zitto là... va al tuo destino...</p> 
+                  <stage type="saut">(I diavoli lo pigliano in ispalla)</stage></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Ahi, ahi ! Signori demoni, ahi ! Ah !... fate piano per carità.</p> 
+                  <stage type="saut">(I diavoli portano via Leporiello, e si cala la tenda.)</stage>
+                  </sp></div></div>
+                  <div type="5"><head type="div5">Fine dell'atto secondo.</head></div>
+      
+                  <div type="1"><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_021"/><head type="acte" n="3">Atto III</head>
+      
+            <stage type="saut">Bosco come nell’atto primo.</stage>
+
+<div type="3"><head type="scene" n="1">Scena 1</head>
+      <listPerson>
+            <personGrp>
+                  <name>[Canidia,</name>
+                  <name>Draghilia,</name>
+                  <name>Tigrina,</name>
+                  <name>Gattiride]</name>
+            </personGrp>
+      </listPerson>
+      <stage type="saut">Previa una vampa escono le streghe dal masso.</stage>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Che ne dite eh, sorelle mie, della fata Lirina ? Vedeste in quale maniera tentò involare le mie prede? Indegna ! Ma anche questa volta le andò fallito il colpo.</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Se quello sciocco di servo però non parlava, per cui svanì l’incantagione del velo, voi perdevate e Gualtieri ed Argenide senza nemmeno avvedervene.</p></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>Oh come fremerà di rabbia Lirina quando conoscerà il poco valore che hanno avuto i suoi incanti !</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>Dovrebb’ella oggimai persuadersi di lasciarci in pace e di attendere a’ fatti suoi.</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Ciò non sarà mai, perché il suo instituto è quello appunto di spiare le nostre azioni, di tergiversarle, di sconvolgerle.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Ah sì, pur troppo !</p></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>Nulla però abbiamo a temere, il nostro potere non è inferiore al suo.</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>E che ne faremo noi di quel balordo che è rimasto nelle nostre forze ?</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Penseremo anche a lui.</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Quanto meglio però sarebbe stato, se invece di costui, che ben si vede essere un uom dappoco, avessimo potuto inviluppare quell’altro;
+                  ma appena appena potemmo trattenere Gualtieri che non ci scappasse.</p></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>Il velo non perdette la sua virtù a favor di colui perché seppe stare zitto.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Or bene risolviamo.</p></sp><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_022"/>
+      
+      <sp><speaker>Draghillia</speaker>
+            <p>Lo vogliamo noi cangiare in un asino, e poi inviarlo a Lirina ?</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>Oh no, poverino, non merita poi tanto ! I geni neri nostri servi lo hanno già punito abbastanza: 
+                  lasciamlo pure in libertà, onde vada da Lirina ed a confusione sua le narri ogni cosa.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Gattiride non dice male, così si faccia. 
+                  <stage type="corps">(Batte la verga e n’esce un genio nero.)</stage> 
+                  A me sia condotto il servo del conte di Benevento 
+                  <stage type="corps">(Genio parte.)</stage> 
+                  Qual piacere però abbiamo provato nelle smanie di Gualtieri !</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Fu veramente una scena deliziosa !</p></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>Ma se si ammazzava ?...</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>Davvero ! E siete così dolce di credere che egli si volesse uccidere per una donna ?</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Eh, non sarebbe però il primo.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Forse fingeva di volersi dare la morte per vedere fino a qual punto Argenide volesse resistere... Ma ecco il servo.</p></sp></div>
+      
+<div type="3"><head type="scene" n="2">Scena 2</head>
+      <listPerson>
+            <personGrp>
+                  <name>[Dette,</name>
+                  <name>Leporiello]</name>
+            </personGrp>
+      </listPerson>
+      <stage type="saut">I diavoli portano Leporiello in mezzo alla scena e partono.</stage>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Oh me meschino !... Povero Leporiello !</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Ascolta, vile insetto, che pretendesti rapirmi Argenide, confessa il tuo fallo e chiedi perdono.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Tutto quello che comanda... mille perdoni... mi scusi... ma la prego di non consegnarmi più nelle mani di quei poco garbati cornuti, 
+                  e se le pare di permettermi... 
+            <stage type="corps">[fra sé]</stage> 
+            Ah, te potessi tirarti il collo !</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Ebbene io ti dono la libertà, e questa la devi alla tua ignoranza e dappocaggine.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <stage type="pers">[fra sé]</stage>
+            <p>Che complimento obbligante !</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Del resto avresti pagato ben caro il tuo tradimento. Va da Lirina, dalla tua gran protettrice <pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_023"/>e dille che la sprezzo, 
+                  che non la curo, che il poter suo è un nulla a paragone del mio.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Si signora, sarà servita.</p></sp>
+
+      <sp><speaker>Draghilli</speaker>
+            <p>Dille che Argenide è nelle nostre mani.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Questo lo sa anch'ella.</p></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>Dille, che della contessa possiamo fare tutto quanto ci piace, e cangiarla in mille guise stranissime.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Effetto della grande abilità loro.</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>E che Gualtieri sarà sempre nostro schiavo.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>E che mai più uscirà dal nostro palazzo.</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>E che sapremo vendicarci del perverso attentato.</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>E che mille cose faremo a suo dispetto.</p></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>E se non le dirai tutto appuntino, povero te !</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Una cosa sola che tu avessi a dimenticare ti manderemmo que’ nostri gentilissimi servi a pigliarti. 
+                  Se tu ben fossi anche nel ventre di una balena.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Oh povero me !... si... procurerò... ma sono tante le cose... ed io che sono sbalordito appunto dalle troppo finezze dei gentilissimi servi loro... 
+                  <stage type="corps">(con ironia)</stage> 
+                  Basta, farò il possilile.. ma per carità, se mai...</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Meno repliche. Udisti ? Fa quanto ti abbiamo detto, e sopra tutto se ti è cara la vita, non entrar mai più nel mio palazzo. 
+                  </p><stage type="saut">(Partono.)</stage></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Non ci torno per tutto l’oro del mondo. Ormai non posso più reggermi in piedi. 
+                  Oh, quei maledetti demoni !.. Raccapriccio ancora... Disgraziati padroni ! 
+                  Sa il cielo che vita meneranno in balia di quelle stregacce ! 
+                  Ah, Leporiello, qui vi vuole risoluzione. Eh, non v'è rimedio; la speranza di liberare que'meschini è svanita, ed io mi sacrificherei inutilmente.
+            <stage type="corps">(pausa)</stage> 
+                  Non v'è altro partito per me che <pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_024"/>quello di fuggire da questa selva dalle malavventure e tornarmene a Benevento !</p></sp></div>
+
+<div type="3"><head type="scene" n="3">Scena 3</head>
+
+      <listPerson><personGrp>
+            <name>Clearco,</name><stage type="listPerson"> e </stage>
+            <name>detto</name></personGrp></listPerson>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Oh, sei qui, Leporiello ?</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Eh, ci sono pur troppo, ci sono... ma ho già pensato e so che debbo fare.</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Per causa tua non si è potuto liberare quegli infelici !</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Per causa mia ? Anche questa ho da sentire ? Ed è lei che me lo dice !</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Tu hai parlato, ed ecco svani l'invisibilità del velo che ti copriva. 
+                  Il mio non perdette la sua virtù; ma quelle donne fatali vedendo che Gualtieri andava verso la porta, ne presero sospetto, 
+                  gli saltarono alle spalle e lo ritrassero di là, e a mala pena schivai io di essere avviluppato. Ah, se tu sapevi tacere !</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Che tacere ! quasi direi una bestemmia !... Mio caro dottore del <foreign xml:lang="latin">tibi quoque</foreign>, fa bel chiacchierare... 
+                  m’aveva dunque da lasciar infilzare come una beccaccia dallo spiedo di quella faccia di musico ?</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Ti hanno assai maltrattato ?</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Ah ! Orribilmente ! Mi hanno fatto questa piccola bagatella. Quei cornuti che le streghe chiamano Geni neri, ma che io posso accertare
+            essere diavoli di tutta perfezione; costoro, dico, mi hanno preso fra le unghie, e sono volati via portandomi per aria sopra un monte alto: giunti colà, loro è venuto lo strano capriccio
+            di giuocare al pallon-grosso; e mi cacciavano per aria facendomi passar sopra un precipizio orridissimo ! Povero me ! Un ammalato con febbre cocentissima non può sognare di peggio...</p></sp>
+      <pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_025"/>
+      <sp><speaker>Clearco</speaker>
+            <p>Povero Leporiello, quanto mi fai compassione... Ma via, e che vuoi fare ? Tu hai finora mostrato dello zelo verso i tuoi padroni: 
+                  sta meco, e non dubitare; vedrai quale ricompensa
+                  ti darà il conte se tu pure avrai operato per la loro liberazione.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <stage type="pers">(Tirandosi alcuni passi indietro e con enfasi.)</stage>
+            <p>Signor cavaliere ! Alto là ! Zitto là ! Ella non conosce chi è Leporiello. Sappia dunque che io son un galantuomo, onorato e di buon cuore.
+                  Tutto quello che ho fatto non mi fu consigliato da interesse alcuno, ma mi vi ha spinto l’amore che ho per i miei cari padroni: 
+                  e che ciò sia vero, eccomi qui, quasi dimentico di tutto
+                  quell’orrore che ho patito, eccomi a tentare con lei di nuovo qualunque impresa.</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Bravo Leporiello ! Tu mi consoli... Eh, già era un torto che ti faceva io a dubitare del tuo coraggio...</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Quanto al rimedio per la fame, sopra uno di quei cavalli vi è una valigia...</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Si, è quella del mio servo, che per buona precauzione alla caccia porta sempre seco qualche commestibile: mangerai a tua voglia. 
+                  Ma ora dunque non perdasi tempo: s’invochi di nuovo la fata Lirina, e se le chiegga consiglio ed aiuto 
+                  <stage type="corps">(si avvicina al cespuglio.)</stage> 
+                  O buona Lirina, o fata benefica...</p></sp></div>
+
+<div type="3"><head type="scene" n="4">Scena 4</head>
+      <listPerson><personGrp><name>Lirina</name><stage type="listPerson"> e </stage><name>detti.</name></personGrp></listPerson>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Miseri ! Io palpitai per voi: gettai le arti e tutta potei osservare la scena. Vidi qual duro governo i Geni neri fecero di questo disgraziato.</p></sp><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_026"/>
+      
+      <sp><speaker>Leporiello</speaker>
+            <p>Ah, che ne dice ella ?... Si poteva immaginare una cosa più diabolica ?</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Ah ! Finché sia incerta la sorte dei miei buoni amici i conti di Benevento, io ho il cuore piucchè mai angustiato ed oppresso...</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Ed io... ah !... Lungi, lungi rimembranze spaventevoli... quei diavoli, quei serpenti, precipizi !</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Tu però fosti la causa del tuo male e di quello degli altri: se tu continuavi a tacere sareste usciti tutti quattro salvi con ogni facilità.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <stage type="pers">[fra sé]</stage>
+            <p>Ed eccone un’altra col tacere !... 
+                  <stage type="corps">[a Lirina]</stage> 
+                  Ma, corpo di satanasso, non è ella cosa da gettare la testa ? Tacere !... S’io non parlava era bello e spedito, rimaneva infilzato come un tordo.</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Oh quanto maravigliai nel vedere che Argenide è innamorata di un giovine...</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>ll tutto a forza d’incanti: quella è una giovinetta sotto sembianze maschili: e se quest'uomo dabbene non avesse rotta l’ampolla che conteneva l’acqua della reminiscenza, 
+                  la magia di Canidia sarebbe stata distrutta.</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Noi vi preghiamo di nuovo, o generosa Lirina, di volerci graziare di altri mezzi onde liberare quei coniugi infelicissimi, e volentieri tenteremo qualunque ardua impresa.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>A proposito, avanti tutto, m’era dimenticato di un'importantissima commissione. Le streghe mi hanno incombenzato di dirle ch’ella è una... ma mi perdoni se le dico...</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Sì, sì, da me stesso tutto intesi allorché gettai le arti, ma io non curo le ingiurie loro. Cavalier gentile, ascoltatemi. 
+                  Io ho sin qui posto in opera tutto quanto era in mio potere: ho esaurita ogni mia arte, e, a dirvi il vero,
+                  non mi trovo in grado di potere questa volta superare la mia nemica. 
+                  Ma ella è tanto la <pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_027"/>compassione che sento di quegli infelici innocenti in preda di donne infami, che di nuovo consulterò il mio gran maestro il Genio buono.</p> 
+                  <stage type="saut">(Fa dei circoli colla verga, indi batte un colpo sul cespuglio, e n’escono due Silfi con un tripode d’oro su cui vi è acceso il fuoco.)</stage></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>E adesso mo che cosa fa ? Qualche diavoleria da farmi spavento ?</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Non temere, io non incuto timore a nessuno.</p>
+                  <stage type="saut">(Fa dei circoli, e da sé pronunzia alcune parole.)</stage></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Me ne persuado molto volontieri.</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Lasciala fare, non interrompere le sue operazioni.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Però potrebbe pigliare due colombi ad una fava, e cavare anche i numeri del lotto.</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Ecco compiuto quant'era duopo all'aria aperta. 
+                  <stage type="corps">(I Silfi partono col tripode.)</stage> 
+                  Ora vado nel mio gabinetto, e son certa di ritrovarvi assiso il gran maestro che invocai: in breve io tornerò.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Ma pian piano: e noi intanto dove l'aspettiamo ?</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Aggiratevi fra queste piante.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Non è cosa troppo salubre; se vengono fuori quelle stregacce... Bagatelle ! 
+                  Io non mi dimentico di quanto ho sofferto e di quanto mi fu promesso; ben persuaso che lo eseguirebbero a puntino.</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Leporiello ha ragione: noi potremmo avere degl'incontri...</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Giacché ella è cosi buona, la ci ricoveri intanto nel suo palazzo.</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Ciò mi è proibito: ma affinché possiate aspettarmi con tutta sicurezza e senza timore, appena io sarò entrata, venite in mezzo di <pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_028"/>questa macchia; 
+                  inosservati vedrete senza essere scoperti, e così le streghe non potranno offendervi.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Ottimo divisamento !</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Il ripiego è eccellente.</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Fra poco ci rivedremo.</p>
+            <stage type="saut">(Parte.)</stage></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Allons, andiamo diviato ad imboscarsi...</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Aspetta, aspetta, non aver tanta premura, quando sentiremo venire le streghe. 
+                  Già hai veduto che non si apre il masso che non ne esca da prima una vampa. 
+                  Quello sarà l’avviso per ritirarci.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Benissimo: ed intanto staremo qui a fare un poco di conversazione. 
+                  Ma per altro mi pare impossibile che di tanti cacciatori a piedi e a cavallo, del seguito della padrona, 
+                  nessuno per combinazione sia mai capitato qui.</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Non ti deve far meraviglia, ciò sarà senza dubbio in forza degl’incanti di queste pessime donne.</p> 
+                  <stage type="saut">(Esce una vampa dal masso.)</stage></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Aiuto !... Salva, salva...</p> 
+                  <stage type="saut">(Va nella macchia.)</stage></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Eccole.</p> <stage type="saut">(come sopra)</stage></sp></div>
+
+<div type="3"><head type="scene" n="5">Scena 5</head>
+      <listPerson><personGrp><name>Canidia,</name><name> Draghilla, </name><name>Gattiride, </name><name>Tigrina </name><stage type="listPerson"> e </stage> <name>detti</name> <stage type="listPerson">nascosti come sopra</stage></personGrp></listPerson>
+
+      
+
+      <sp><speaker>Leporiello</speaker>
+            <stage type="pers">(a Clearco)</stage> 
+                  <p>Adesso ci ho un gusto matto.</p></sp>
+
+     <sp> <speaker>Clearco</speaker>
+           <stage type="pers">(a Leporiello)</stage> <p>È pure la bella cosa vedere senza essere scoperti.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Ah, ch' io mi sento oppressa da contrari affetti ! La soddisfazione di vedere Gualtieri mordersi di rabbia e di gelosia mi alletta, mi consola; 
+                  ma un interno presentimento mi agita,
+                  mi conturba, e mi fa temere gravissimo danno per opera della nostra nemica Lirina, che ora starà macchinando contro di noi.</p></sp><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_029"/>
+      
+      <sp><speaker>Gattiride</speaker>
+            <p>Temo che per lo meno ci abbiano ad essere tolti dalle mani i nostri prigionieri.</p></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>Questo sarebbe il minor male; ma io pavento di peggio.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Per buona precauzione farò nascondere i loro cavalli.</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Benissimo.</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>Anch’io l’approvo.</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>In questa maniera se a Lirina riescisse anco di rapirceli, dovranno passare pel bosco a piedi, e noi avremo campo di avvedercene e di raggiungerli.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <stage type="pers">(Batte la verga ed esce un diavolo.)</stage> 
+                  <p>Olà, siano nascosti quei cavalli in una caverna impenetrabile, e tu sta a custodirli.</p> 
+                  <stage type="saut">(Diavolo parte.)</stage></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <stage type="pers">[fra sé]</stage> <p>Colui là era alla battuta.</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Canidia, il mio avviso sarebbe che in questa confusione d’idee e di timori invocassimo il consiglio del gran Demogorgone.</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>E chiedere ad esso il modo di difenderci da Lirina.</p></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>Questo è pure il mio parere, e giacché siamo all'aria aperta, potrebbesi operare.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Si faccia.</p>
+                  <stage type="saut">(Fa de'circoli, batte la verga in terra e n’esce un tripode.)</stage></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <stage type="pers">(a Clearco)</stage> <p>Adesso impariamo anche noi a diventar stregoni.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Andate, compagne mie, a prendere le anguistare coi liquori, onde fare i prescritti suffumigi.</p>
+                  <stage type="saut">(le streghe partono e tornano all’istante.)</stage></sp>
+      
+      <sp><speaker>Leporiello</speaker>
+            <stage type="pers">(a Clearco)</stage> <p>Che meraviglie vedremo qui adesso con questi stregamenti !</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <stage type="pers">[a Leporiello]</stage> <p>Quanti bramerebbero di essere con noi in questo cespuglio !</p> 
+                  <stage type="saut">(Vengono le streghe colle anguistare.)</stage></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Eccoci colle anguistare.</p></sp><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_030"/>
+      
+      <sp><speaker>Canidia</speaker>
+            <p>Accendasi il fuoco.</p> <stage type="saut">(Batte la verga sul tripode, ma il fuoco non si accende.)</stage></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Misere noi !</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>Oh sventura ! Il fuoco non si accende.</p></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>Adesso comincio davvero a temere.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Che sarà mai di noi il maestro ci ha abbandonate forse temendo la forza magica di Lirina.</p></sp>
+
+      <sp><speaker>Gattiride</speaker><p>Replicate l’incanto.</p> 
+            <stage type="saut">(Canidia fa de' circoli colla verga in diverse maniere, indi la batte sul tripode, il quale sparisce.)</stage></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Ah, siamo rovinate !</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Noi infelici !</p></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>Mi sento una bile contro quella iniqua...</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Lirina è sempre la cagione di tutti i nostri mali.</p></sp>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Ritiriamci ognuna nel nostro gabinetto e gettiamo di nuovo le arti: forse chi sa...</p></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>Andiamo con coraggio, non disperiamci.</p>
+                  <stage type="saut">( Si apre il masso e le donne se ne vanno, indi si chiude. Leporiello e Clearco escono dal cespuglio.)</stage></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Che viso da tragedia che ha la capitana delle streghe ! E come sono tutte arrabbiate !</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Preveggono la loro rovina.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Ma, e se intanto sfogassero la collera contro i miei padroni ?</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Ciò mi fa stringere il cuore. Oh, ma ecco la fata benefica.</p></sp></div>
+      
+      
+<div type="3"><head type="scene" n="6">Scena 6</head>
+      <listPerson><personGrp><name>Lirina, </name><stage type="listPerson"> e </stage> <name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Rallegratevi, amici: voi presto avrete cessato di palpitare. 
+                  Il mio buon maestro mi ha insegnato il modo di distruggere tutto il potere <pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_031"/>di quelle streghe, di scacciarle di questo bosco,
+                  e liberare il conte di Benevento e la moglie di lui.</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Oh Dio !... Voi mi rendete la vita.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Oh quale tripudio sarà mai !</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Ma è necessario che uno di voi operi meco.</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Voi avete tutto il diritto di comandare: la vita stessa io sacrificherò purché possa finalmente veder liberi i miei cari amici.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Corpo di un orso ! Sono qua anch'io pronto a dar prove novelle del mio coraggio !</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Ebbene, tu arrampicar devi su quel noce, che è quello che serve di trono al gran Demogorgone. 
+                  Arrivato in cima, cerca un ramoscello su cui vi sono cinque noci unite insieme: 
+                  in esse sta rinchiuso tutto l'incatesimo del palazzo di Canidia. 
+                  Tu lo devi svellere, staccarne ad una ad una le noci e gettarle a me, indi farò io il resto.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Vado su lesto come un gatto. 
+                  <stage type="corps">(S'avvia in fretta, poi si pente e torna indietro.)</stage> 
+                  Ma e non vi sarà poi pericolo che questo gran Demogorgone mi faccia una qualche brutta burla, 
+                  e ch'io per bella chiusa m’abbia a fraccare il collo giù dal noce ?</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Non avere il menomo timore, per quanto tu vegga o senta: la tua persona e da me difesa.</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Leporiello mio, ora è il tempo di farsi onore.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Si vada adunque da forti: a noi. 
+                  <stage type="corps">(Si avvicina al noce: si oscura tutt'ad un tratto il cielo, si ode un colpo di tuono, ed esce una vampa dall'albero.)</stage> 
+                  Misericordia ! Oh povero me ! Mal principio !... Ahi, ahi ! E forse più trista fine.</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Chi fai ? È questo il tuo valore ?</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Corpo di Saturne ! Non ha veduto ? Non ha sentito ?</p></sp><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_032"/>
+      
+      <sp><speaker>Lirina</speaker>
+            <p>Va su con franchezza, ti dico: alla presenza mia nulla può nuocerti, ti ripeto.</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Va su, via, va su, caro amico.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <stage type="pers">[fra sé]</stage>
+                  <p>Ah, ah, ecco un ricco cavaliere che onora col titolo di amico un povero servitore. Che non fa dire il bisogno !</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Va, ti prego.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>E questo per giunta. Vo con un cuor da guerriero !</p> 
+                  <stage type="saut">(Si arrumpica sulla pianta.)</stage></sp>
+
+      <sp><speaker>Una voce</speaker>
+            <p>Scostati, scellerato, o ti uccido.</p> 
+                  <stage type="saut">(tuoni, lampi e saette)</stage></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Grazie dell’avviso: ora sdrucciolo subito abbasso.</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Misero ! Se discendi, sei morto.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Povero Leporiello ! Queste sono ben avventure peggiori di quelle di Guerrin Meschino.</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Cerca tosto il ramoscello colle noci.</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Fa presto, Leporiello.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Corpo di baccone ! È una pianta sterilissima... io non veggo noci, o forse le streghe se le hanno beccate tutte. 
+                  Oh... aspetti... mi pare... un passo più in su... 
+                  <stage type="corps">(Va più in alto.)</stage>
+                  Oh, finalmente, ecco ecco il ramoscello: ora lo svelgo... Oh che belle noci !</p></sp>
+
+      <sp><speaker>Voce</speaker>
+            <p>Allontana, o miserabile, la sacrilega mano...</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Ahi, ahi !</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Non ascoltarlo, Leporiello.</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Strappa il ramoscello.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Eccolo bello strappato.</p>
+            <stage type="saut">(un gran colpo di tuono)</stage></sp>
+
+      <sp><speaker>Voce</speaker>
+            <p>Ah, siam perduti, non v’è più scampo.</p>
+                  <stage type="saut">(Dalla cima dell’albero esce una vampa e volano via da esso parecchi geni neri.)</stage></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Guarda... guarda !... ih !... Come volano rapidamente ! Non li veggo più... Ma che belle noci ! Come son grosse !</p></sp><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_033"/>
+      
+      <sp><speaker>Lirina</speaker>
+            <p>Separale e gettale a me.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Ubbidisco... ecco le noci...</p> 
+                  <stage type="saut">(Getta ad una ad una le noci a Lirina.)</stage></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Ora discendi pure.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Obbedisco.</p> <stage type="saut">(Discende.)</stage></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Bravo Leporiello !</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Tante grazie. Eh, qualche volta poi sono valoroso.</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Or si compia l'operazione.</p>
+            <stage type="saut">(Batte la verga, esce il tripode, vi accende il fuoco con un altro colpo e vi getta le noci. Colpi di tuono.)</stage></sp></div>
+
+<div type="3"><head type="scene" n="7">Scena 7</head>
+      <listPerson>
+            <personGrp>
+                  <name>[Detti,</name>
+                  <name>Canidia,</name>
+                  <name>Tigrina,</name>
+                  <name>Gattiride,</name>
+                  <name>Draghillia,</name>
+                  <name>Gualtieri,</name>
+                  <name>Argenide,</name>
+                  <name>Silfi,</name>
+                  <name>Ninfe]</name>
+            </personGrp>
+      </listPerson>
+      
+      <stage type="saut">Lirina batte tre volte il noce colla verga, il quale si cangia nel tempio della felicità, 
+            e tutto il bosco in un giardino delizioso: nel tempio veggonsi Gualtieri ed Argenide con Silfi e Ninfe.
+            In pari tempo il masso sparisce e vengono di là le streghe; 
+            indi Argenide e Gualtieri escono dal tempio accompagnati dai Silfi e dalle Ninfe.</stage>
+
+      <sp><speaker>Canidia</speaker>
+            <p>Ah, mi ha vinta questa volta, ma saprò vendicarmi.</p> 
+                  <stage type="saut">(parte)</stage></sp>
+
+      <sp><speaker>Tigrina</speaker>
+            <p>Una volta per uno.</p>
+                  <stage type="saut">(parte)</stage></sp>
+
+      <sp><speaker>Gattiride</speaker>
+            <p>Ci rivedremo fra non molto.</p> 
+                  <stage type="saut">(parte)</stage></sp>
+
+      <sp><speaker>Draghillia</speaker>
+            <p>La nostra vendetta sarà clamorosa.</p> 
+                  <stage type="saut">(parte)</stage></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Sconsigliate, miserabili, entr’oggi avrete il meritato castigo.</p></sp>
+
+      <sp><speaker>Gualtieri</speaker>
+            <p>Oh quanto vi debbo, mia liberatrice !</p></sp>
+
+      <sp><speaker>Argenide</speaker>
+            <p>Sarà eterna la nostra riconoscenza.</p></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Miei cari padroni, io sono estatico pel piacere.</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Chi nelle proprie azioni non ha da rimproverarsi dolo alcuno deve sempre sperare di trovar assistenza; e voi, o coniugi felicissimi, 
+                  a buon diritto foste per mezzo mio protetti <pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_034"/>dal Genio buono. 
+                  La vostra gratitudine si rivolga anche verso questo degno cavaliere che ha dato prove di vera amicizia, 
+                  e di questo servo che è un vero modello di zelo e di fedeltà.</p></sp>
+
+      <sp><speaker>Clearco</speaker>
+            <p>Quanto abbiamo palpitato per voi !</p> 
+                  <stage type="saut">(Abbraccia Gualtieri.)</stage></sp>
+
+      <sp><speaker>Leporiello</speaker>
+            <p>Ne ho passate veramente delle orribili, ma dimentico tutto ora che veggo liberi e contenti i miei cari padroni, 
+                  e con essi potrò tornare a Benevento. 
+                  Adesso andrò in cerca de' cavalli che erano qui...</p></sp>
+
+      <sp><speaker>Lirina</speaker>
+            <p>Ecco, osservate 
+                  <stage type="corps">(Mostrando fra le scene.)</stage> 
+                  i vostri scudieri, i vostri cacciatori che vengono a questa volta. 
+                  Miei cari, siate sempre coniugi fedeli e benefici verso i vostri simili, come lo foste fino adesso, e sarete felici.
+                  </p></sp></div></div>
+                  <div type="5"><head type="div5">Fine della commedia.</head><pb n="1" facs="19_I__IlNoceDiBenevento_IT_MCG_035"/></div>
+            </body>
+      </text>
+</TEI>

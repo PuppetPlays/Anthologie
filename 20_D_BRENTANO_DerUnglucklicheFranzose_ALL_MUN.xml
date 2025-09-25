@@ -1,0 +1,2984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="https://puppetplays.eu/oeuvres/381617/der-unglückliche-franzose-oder-der-deutschen-freiheit-himmelfarht">Der unglückliche Franzose oder Der Deutschen Freiheit Himmelfarht</title>
+            <respStmt>
+               <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+               <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="JB">Jean Boutan</name>
+               <resp>Transcription</resp>
+            </respStmt>
+            <respStmt>
+               <name xml:id="AM">Anaïs Malfatti</name>
+               <resp>Transcription</resp>
+            </respStmt>
+            <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+            <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+            <funder>European Research Council - ERC</funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>Stadtmuseum de Munich</distributor>
+            <availability status="free">
+               <licence>Public domain</licence>
+            </availability>
+            <idno type="DOI"/>
+         </publicationStmt>
+         <notesStmt>
+            <note>Un trublion devient saint</note>
+            <note>À Francfort, chez les Brentano, le théâtre d’ombres était un divertissement
+               familial qui réjouissait l’esprit touche‑à‑tout des frères Clemens et Christian en
+               leur permettant d’exercer leurs multiples talents. En 1850, dans la préface de la
+               pièce, Christian Brentano insistait sur ce contexte : « l’auteur voulait simplement
+               amuser le cercle familial de ses proches à Francfort‑sur‑le‑Main où de telles
+               productions étaient un moyen de divertissement traditionnel. » Présentée en 1816,
+               Der unglückliche Franzose oder Der Deutschen Freiheit Himmelfarht (Le
+               Malheureux Français, ou l'ascension de la liberté allemande), qui s’adressait à un
+               public d’enfants et d’adultes, ménageait plusieurs niveaux de lecture en faisant
+               référence à des numéros bien connus de la foire de Francfort et à l’actualité
+               politique. La pièce est une allégorie burlesque qui renvoie au
+               contexte européen du début du XIXe siècle, à la fin des guerres napoléoniennes et
+               aux aspirations libérales et nationales qui agitaient toute l’Europe. Redevenue
+               souveraine après le congrès de Vienne, Francfort était alors en pleine effervescence
+               car on y débattait de sa nouvelle constitution. Sous les traits du maître de ballet
+               français Sauteauciel, qui prend tour à tour l’apparence d’un ours, d’une otarie puis
+               d’un oiseau de la liberté, Christian Brentano reprend en les parodiant les
+               caricatures, les chansons et les discours anti-français qui nourrissaient alors la
+               fierté nationale après l’occupation. Comme il l’indique dans sa préface de 1850, il
+               observait avec distance l’enthousiasme de ses compatriotes, raillait leur idéalisme
+               politique et leur orgueil nationaliste. Sa pièce s’achève par un épilogue qui oppose
+               la foi aux libertés illusoires revendiquées par ses concitoyens : « Et tu ne
+               trouveras pas de porte / Pour sortir de la cage, / Que tu cherches près ou loin, /
+               Que celle que l’étoile de la foi te montre, / La porte des plaies du Seigneur.
+               »</note>
+         </notesStmt>
+         <sourceDesc>
+            <listPerson>
+               <personGrp role="audience">
+                  <p>Non spécifié</p>
+               </personGrp>
+            </listPerson>
+            <listBibl>
+               <msDesc>
+                  <msIdentifier>
+                     <repository>Stadtmuseum de Munich. XSCH 36 </repository>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <p>Number of pages in the original document: 50</p>
+                        <p>Number of acts in the original document: 5</p>
+                        <p>Format of the original document: Imprimé</p>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </listBibl>
+            <bibl>
+               <title type="main">Der unglückliche Franzose oder Der Deutschen Freiheit Himmelfarht</title>
+               <date>1816</date>
+               <author>
+                  <persName>Brentano Christian</persName>
+                  <idno type="IDREF">074023055</idno>
+               </author>
+               <edition>Christian Brentano, Der unglückliche Franzose oder Der
+                  Deutschen Freiheit Himmelfarht, édition présentée par Herbert Levin.
+                  München: Parcus und Co.,1923.</edition>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">Allemand</language>
+         </langUsage>
+         <textClass>
+            <keywords source="animationTechniques">
+               <term source="https://puppetplays.eu/techniques-d-animation/2440/théâtre-dombres">Théâtre d'ombre</term>
+            </keywords>
+            <keywords source="literaryTones">
+               <term>Burlesque</term>
+               <term>Satirique</term>
+               <term>Merveilleux</term>
+               <term>Parodique</term>
+            </keywords>
+            <keywords source="theatricalTechniques">
+               <term>Travestissement</term>
+               <term>Rebondissement</term>
+               <term>Théâtre dans le théâtre</term>
+               <term>Scène d'exécution</term>
+               <term>Montée au ciel</term>
+            </keywords>
+            <keywords source="genre">
+               <term>null</term>
+            </keywords>
+            <keywords source="keywords">
+               <term>Guerres napoléoniennes</term>
+               <term>Animal</term>
+               <term>Liberté</term>
+               <term>Spectacle</term>
+               <term>La Flûte enchantée</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <normalization method="silent">
+               <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+               <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+               <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+               <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+            </normalization>
+            <punctuation marks="some">
+               <p>Punctuation has been corrected according to modern rules.</p>
+            </punctuation>
+         </editorialDecl>
+         <projectDesc>
+            <p>Text collected during the PuppetPlays project funded by European Union (Grant
+               Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+               re-evaluate the contribution of the puppets repertoire to the construction of
+               European cultural identity. Its main goals is to collect a corpus of
+               representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+               France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+               17th and the 21th century. It also tries to identify the characteristics of
+               puppet dramaturgy and their variations depending on eras, cultural spheres,
+               producing conditions, and the aimed public.</p>
+            <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+            <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+               Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+            </ref> licence. This license enables reusers to distribute, remix, adapt, and
+               build upon the material in any medium or format for non-commercial purposes
+               only, and only so long as attribution is given to the creator. If you remix,
+               adapt, or build upon the material, you must license the modified material under
+               identical terms. </p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when-iso="2025-09-18" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+         <change when-iso="2025-07-18" who="#YT">Text transcription</change>
+         <change when-iso="2025-09-03" who="#MSK">Encoding</change>
+         <!-- mandatory, can be repeated as many times as necessary, @when-iso should always be YYYY-MM-DD, @who should always match a defined @xml:id  -->
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <pb n="7" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_007.jpg"/>
+         <docAuthor>
+            <persName>Christian Brentano</persName>
+         </docAuthor>
+         <docTitle>
+            <titlePart type="main">Der unglückliche Franzose</titlePart>
+            <titlePart type="sub">Oder der deutschen Freiheit Himmelfahrt.</titlePart>
+         </docTitle>
+         <docEdition>Ein Schattenspiel mit Bildern. Herausgegeben von Herbert Levin. Verlag
+                Parcus &amp;Co. München</docEdition>
+         <docDate>1923</docDate>
+         <pb n="35" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_035.jpg"/>
+         <castList>
+            <head type="personnage">Handelnde Personen und Figuren</head>
+            <castItem>
+               <role>Prologus,</role>
+            </castItem>
+            <castItem>
+               <role>Napoleon Sauteauciel</role>
+               <roleDesc>, als Mensch, als Bär, als Seelöwe, als Freiheitsvogel,</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Knollfink</role>
+               <roleDesc>, russischer Bärentreiber,</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Petz</role>
+               <roleDesc>, dessen Bär,</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Dame Charmante Continent</role>
+               <roleDesc>, dermalen Knollfinks Ergebene,</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Sir John Bullington</role>
+               <roleDesc>, englischer Welthändler,</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Der Freiheitsvogel,</role>
+            </castItem>
+            <castItem>
+               <role>Kandidat Pf...r</role>
+               <roleDesc>, Naturforscher,</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Der Teufel</role>
+               <roleDesc>, mit einem himmellangen Schweife, den er in vielen Kreisen
+                        aufgeringelt in der Hand trägt,</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Chimère</role>
+               <roleDesc>, ein Frosch,</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Ein Fischer,</role>
+            </castItem>
+            <castItem>
+               <role>und dessen Frau,</role>
+            </castItem>
+            <castItem>
+               <role>Publikum</role>
+               <roleDesc>, als Zuschauer 1, 2, 3, 4 und 5,</roleDesc>
+            </castItem>
+            <castItem>
+               <role>Epilogus.</role>
+            </castItem>
+         </castList>
+         <set>
+                <p>Aufzüge und Szenen
+                0. Prologus. 
+                I. Aufzug: Eine Waldgegend.
+                II. Aufzug: Marktplatz in der Stadt.
+                III. Aufzug: Einöde an der Meeresküste.
+                IV. Aufzug: Eine Schaubude mit verschiedenen Sehenswürdigkeiten.
+                V. Aufzug: Platz im Freien; Himmel und Erde, eine Wolke dazwischen.
+                0. Epilogus.</p>
+            </set>
+      </front>
+      <body>
+        <!-- <div type="1">
+            <pb n="36" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_036.jpg"/>
+            <pb n="37" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_037.jpg"/>
+            <stage type="saut">Der Vorhang beginnt an einem Ende aufzurollen, dadurch wird sichtbar Prologus,
+                    der an diesem Ende an einer Hand beweglich festhängt und so ihn festzuhalten
+                    scheint.</stage>
+            <head type="acte" n="0">Prologus</head>
+            <stage type="saut">Während er den Hut abzieht und mit ihm gestikulirt.</stage>
+            <sp>
+               <lg>
+                  <l>Halt ein! Ums Himmels willen halt!</l>
+                  <l>Noch nicht den Borhang aufgerollt!</l>
+                  <l>Zu grell möchte des Licht's Gewalt</l>
+                  <l>Manch' Aug, das ihr ergößen wollt,</l>
+                  <l>Beleid'gen, so, daß Klag uns bald</l>
+                  <l>Und Schmach statt Beifalls würd‘ gezollt.</l>
+               </lg>
+               <lg>
+                  <l>Wenn lichter Tag mit dichter Nacht</l>
+                  <l>Sich in Kontrast gestellet sieh't,</l>
+                  <l>Wird ein Effekt hervorgebracht,</l>
+                  <l>Den ein empfindlich Auge flieht;</l>
+                  <l>Längst hat es mir schon Sorg gebracht,</l>
+                  <l>Daß dieß im Schattenspiel geschieht.</l>
+               </lg>
+               <lg>
+                  <l>Und nun der lieben Augen Zahl,</l>
+                  <l>Die unser harmlos Spiel beehrt,</l>
+                  <l>So groß ich seh, - und schön zumal, -</l>
+                  <l>Fänd meine Sorg' sich noch gemehrt;</l>
+                  <l>Wär nicht in des Gesichtspunkts Wahl</l>
+                  <l>Das Auskunstmittel mir gewährt.</l>
+               </lg>
+               <lg>
+                  <l>Dem nicht zu grelles Licht zu schau'n,</l>
+                  <l>Aus dem statt-Lust nur Galle rührt,</l>
+                  <l>Und schiefer Ansicht vorzubau‘n,</l>
+                  <l>Die auch die Stimmung irre führt,</l>
+                  <l>Erwart‘ ich einzig mit Bertrau‘n .</l>
+                  <l>Vom Standort, der dem Spiel gebührt.</l>
+               </lg>
+               <pb n="38" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_038.jpg"/>
+               <lg>
+                  <l>So rath ich denn nicht vom Parterre</l>
+                  <l>Den Standpunkt an, das Spiel zu seh'n;</l>
+                  <l>Zu platt, zu nah der Handlung wär</l>
+                  <l>Die Stellung; man muß höher stehn;</l>
+                  <l>Am lustigsten bei meiner Ehr</l>
+                  <l>Säh' man's aus Paradieses Höhn!</l>
+               </lg>
+               <lg>
+                  <l>Do wer den Sozialismus scheu't</l>
+                  <l>Der Götter, welche thronen dort, </l>
+                  <l>Der heb' sich nicht so hoch für heut,</l>
+                  <l>Er traue meinem Rath und Wort,</l>
+                  <l>Wo sich die beste Ansicht beut,</l>
+                  <l>Will ich verrathen ihm den Ort.</l>
+               </lg>
+               <lg>
+                  <l>Wo ihre Logen hingebaut</l>
+                  <l>Gott Momus und Gott Phantasus,</l>
+                  <l>Wo Jokus launig niederschau't,</l>
+                  <l>Satyrisch spähend nach Genuß,</l>
+                  <l>Wo Schillers Millionen Braut</l>
+                  <l>Der ganzen Welt kredenzt den Kuß</l>
+               </lg>
+               <lg>
+                  <l>Dort nehmet Plaz! Dort ist das Feld,</l>
+                  <l>Dem unser Spiel und sein Berlauf</l>
+                  <l>Ward eigens zu Gesicht gestellt;</l>
+                  <l>Nicht Futter ist's für jede Rauf,</l>
+                  <l>Nicht Kaufmanns Gut für alle Welt,</l>
+                  <l>Und nun -zieht rasch den Vorhang auf!</l>
+               </lg>
+            </sp>
+            <stage type="saut">Prologus wird, in den Vorhang geworfen, unsichtbar, und mit demselben
+                    aufgezogen.</stage>
+         </div> -->
+         <div type="1">
+            <pb n="39" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_039.jpg"/>
+            <head type="acte" n="1">Aufzug I</head>
+            <div type="3">
+               <head type="scene" n="1">Auftritt 1</head>
+               <stage type="saut">Die Szene stellt einen Wald vor.</stage>
+               <listPerson>
+                  <personGrp>
+                     <name>Bärenführer Knollfink, </name>
+                     <name>Madame Charmante Continent </name>
+                     <name>und Petz der Bär.</name>
+                  </personGrp>
+               </listPerson>
+               <stage type="saut">Der Bär liegt da und ist im Begriff, seinen Geist aufzugeben,
+                        Madame Charmante Continent gibt ihm Arznei ein.</stage>
+               <sp>
+                  <speaker>Madame Charmante Continent</speaker>
+                  <p>Ah, du gutes Thierchen, ach! sperr doch noch ein einzigesmal dein
+                            Mäulchen auf, ach du liebes, liebes Herzensbärchen, du wirst mir doch
+                            nicht hier unter freiem Himmel sterben wollen? Kennst du mich denn nicht
+                            mehr? <stage type="corps">(küsst ihn)</stage> Kennst du denn deine liebe
+                            zärtliche Charmante nicht mehr? Habe ich dir denn nicht immer das beste
+                            Fleisch gegeben, das beim Herrn Wasenmeister zu triegen war? Ach sperr
+                            doch noch ein einzigesmal deine lieben Gudelchen auf; du mein treuer
+                            Herzens-Peß!</p>
+               </sp>
+               <sp>
+                  <speaker>Bär</speaker>
+                  <p>Mum-mum-mum-mum-mum.</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Bivat, die Bestie lebt noch! Lass mich hin, Weib, lass mich hin! Dass ich
+                            ihm den Puls fühlen kann. <stage type="corps"> (Er fühlt ihm den
+                                Puls.)</stage> Ja, ja! Er ist noch warm, das Klystier scheint
+                            gewirkt zu haben, jetzt legt ihm noch die warmen Umschläge auf den Leib,
+                            so kömmt er wohl wieder zu sich.</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Nein, nein! Besser ein Gläshen <foreign xml:lang="fra">Esprit de tendresse</foreign> in
+                            die Nase -das wird ihn eher zu Verstand bringen. <stage type="corps">(hält ihm ein Fläschchen vor)</stage>
+                  </p>
+               </sp>
+               <pb n="40" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_040.jpg"/>
+               <pb n="41" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_041.jpg"/>
+               <pb n="42" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_042.jpg"/>
+               <sp>
+                  <speaker>Bär</speaker>
+                  <p>Mum-mum-mum-mum.<stage type="corps"> (kriegt Konvulsionen und krepiert)</stage>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Ach, ach, ach, ach! Er ist- tot!-</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Weib! Was hast du gemacht? Hab ich dir nicht gesagt, du sollst ihm warme
+                            Umschläge geben nun ist er tot; daran bist du schuld mit deinem
+                            verfluchten Stinkwasser, das können die Bären nicht vertragen. Sie
+                            vertragen seine anderen Geister, als Bärendreck.</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Ach, warum nicht gar? Du willst alles besser wissen, wie oft hab ich
+                            nicht dieses und jenes solcher Gewaltthiere einzig durch die Kraft
+                            dieses unvergleichlichen Mittels neu zu beleben gewußt und aus den
+                            wüthendsten Krämpfen zu besserer Besinnung und galantester Raison
+                            gebracht.</p>
+                  <lg>
+                     <l>Abgesehen von soviel Horden,</l>
+                     <l>Die ich eingefaßt in Orden,</l>
+                     <l>Mussten nacheinander mir</l>
+                     <l>Tiger, Löwe, Panthertier</l>
+                     <l>Wie so manches andere Tier,</l>
+                     <l>Das da prangt als Wappenzier,</l>
+                     <l>Angehaucht von Kraft und Leben</l>
+                     <l>Solchen Geistes, sich ergeben;</l>
+                     <l>Und heraldisch bilden sie</l>
+                     <l>Nun meine Menagerie.</l>
+                     <l>Ein's statt aller; welche Ehr</l>
+                     <l>Macht nicht meiner Zucht und Lehr</l>
+                     <l>Der getreuen Hessen Leu</l>
+                     <l>Er, der Aller Schreck und Scheu'</l>
+                     <l>Sonst so grimmig blickt' und wild</l>
+                     <l>Aus des Seifensieders Schild,</l>
+                     <pb n="43" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_043.jpg"/>
+                     <l>O wie menschenfreundlich denkt</l>
+                     <l>Jetzt er, wo man Schnaps ausschenkt.</l>
+                     <l>Wie ein Hündlein wohl dressiert</l>
+                     <l>Wartet auf er, präsentiert</l>
+                     <l>Ein Schnapsgläslein Aquavit,</l>
+                     <l>Reizet selbst den Appetit,</l>
+                     <l>Zeigt, wie köstlich sei der Schmaus,</l>
+                     <l>Streckend roth die Zunge aus,</l>
+                     <l>Hebet hoch den Schweif empor,</l>
+                     <l>Wedelt fort der Fliegen Chor;</l>
+                     <l>Was kann man verlangen mehr -</l>
+                     <l>Als Beweisstück für die Lehr,</l>
+                     <l>Daß die wildeste Natur</l>
+                     <l>Wandelt zärtliche Kultur?</l>
+                  </lg>
+                  <p>All‘ diess ist mein Werk und Jedermann sieht daraus, wie innig vertraut
+                            ich mit der lieben Tierlein Art und Wesen bin, welche Gewalt ich über
+                            sie übe, und welche Verdienste ich um ihre Zivilisation habe. Ach! Wie
+                            sollte ich nicht? Liebe ich sie doch als Kinder meines Schooßes und
+                            behandle sie mit zärtlichster Bekümmerniß für ihre Erziehung. Ja, noch
+                            immer gebe ich's nicht auf, den mit seinem Stab und Küglein noch
+                            flüchtigen Gukuk, meinen jetzigen besondern Günstling, dereinst noch zur
+                            Positur eines standfesten Adlers zu bringen. Alles mit Tendresse; - und
+                            du willst mich noch meistern, mich belehren? Thor! Gerad deine Umschläge
+                            sind gar nichts nutz, die machen nur Wallungen. </p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Wallungen, - Wallungen, ja ich bin schon in Wallung! - Wovon jetzt leben?
+                            Der Bär ist todt; - wo krieg ich einen andern Bären her? Und der so
+                            schön tanzen kann?</p>
+               </sp>
+               <pb n="44" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_044.jpg"/>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Ach er konnte so schön tanzen, wie ein Bachstelzchen, wie ein
+                            Bachstelzchen. <stage type="corps">(weint)</stage> Uh -uh -uh.</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Und so gut brummen.</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Ach wie süß konnte er nicht brummen? Wie ein Honigbienlein! <stage type="corps">(weint)</stage> Ahu -hu -hu!</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Und so lieblich die Zähne blecken.</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Ach wie zärtlich konnte er die Zähne blecken? Wie ein Lachtäubchen, wie
+                            ein Lachtäubchen. <stage type="corps">(weint)</stage> Uhu -huh! Und nun
+                            ist all dies hin! Wie? Ich wäre schuld? Nein, du bist schuld.</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Schweig Weib, schweig! Mach mich nicht weichherzig.</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Ja, du. Warum hast du ihn in die Stadt geführt, wo er den französischen
+                            Balletmeister gesehen hat.</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Weib halt's Maul; bring, mich nicht zur Rührung!</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Ja, was wahr ist, ist doch wahr. Wie er die großen Sprünge des Monsieur
+                            Sauteauciel sah, da wollte es der liebe Petz nachmachen.</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Weib! Schmelz mir das Herz nicht!</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Und konnte nicht; und sprang und sprang, und wollte noch höher springen,
+                            und ach da muss er sich etwas im Leibe zersprungen haben, denn es that
+                            auf einmal: Knax und da lag er! Ja da lag er, Uhuhu! Da lag er.</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Weib! Ich kann meinem Herzen nicht widerstehen, seine Rührung ist zu
+                            groß, es muss was geschehen! Die Umschläge! Sie müssen gegeben werden,
+                            und weil sie dem Bären doch nichts mehr nützen können, so - <stage type="corps">(hebt seinen Prügel und geht auf sie zu)</stage> sollst
+                            du sie haben.</p>
+               </sp>
+               <pb n="45" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_045.jpg"/>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Halt ein! Du Tyrann, du Barbar! Ach wärest lieber du gestorben, als der
+                            gute Petz selig, wie viel glücklicher wollte im mit ihm gelebt haben,
+                            als mit dir.</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Halt's Maul, sage ich: wir müssen dem Petz das Fell abziehen.</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Ach sein Sterbehemdchen!</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Pack an, dass wir ihn den Baum hinan- ziehen. <stage type="corps">(Sie
+                                ziehen den Bären an einem Baum in die Höhe, Knollsint zieht ihm das
+                                Fell ab, während er folgendes spricht:)</stage>
+                  </p>
+                  <lg>
+                     <l>Alles Fleisch vergeht wie Heu,</l>
+                     <l>Auch das Stärkste wird zu Brei,</l>
+                     <l>Mit der Zeit und in der Zeit,</l>
+                     <l>Tod, wie ist dein Maul so breit!</l>
+                  </lg>
+                  <p>Das Bärenfett musst du in die Apotheke tragen, das gibt Geld! Hm, hm! Wo
+                            steckt es denn?</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Ach! Wie ist der gute Petz selig so mager! Ach! Er ist an der Auszehrung
+                            gestorben.</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Warum hast du ihn nicht besser gefüttert?</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Doch nein, an dem Balletmeister ist er gestorben.</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Nein, an deinem <foreign xml:lang="fra">Esprit de tendresse</foreign>.</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Nein, an dem großen Sprung.</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Oder am schlechten Futter.</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Oder an deinen Prügeln.</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Halt's Maul, rühr mich nicht! Ich sag: er ist gestorben, weil er
+                            gestorben ist und dabei bleibt's. Fett hat er keins. Wenn ich nur wüsste,
+                            wie der Bärendreck präpariert wird, vielleicht wär‘ da was zu profitieren.
+                            So jetzt ist das Fell herunter.</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Ach sein Sterbehemdchen!</p>
+               </sp>
+               <pb n="46" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_046.jpg"/>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Die Bratzen müssen dran bleiben, sonst wollt‘ ich sie verkaufen, oder
+                            fressen, denn es soll ein Leckerbissen sein. Jetzt, meine teuerste
+                            Charmante! Hör mich einmal an! Holdes Weibchen hör mich an, und sei
+                            vernünftig! Du weißt, Schätzchen, dass wir ohne Bär nicht leben
+                            können.</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Ja, aber wie kann ich da helfen?</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Sehr leicht, liebes Schätzchen. Sieh da das Sterbehemdchen! Weil dir das
+                            Sterbehemdchen doch so gefällt, -so kriech hinein und sei du der Bär!
+                        </p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Was sprichst du, bist du toll?</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Nein, Schätzchen, nein! Ach du wirst ein allerliebstes Bärchen sein. </p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Ich eine Dame von so eminenter Qualität und Bildung, ich in eine B-B-B
+                            Bärenhaut!!</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>O allerliebst, allerliebst! Welch eine hinreißende Bärenhäuterin wirst du
+                            sein! </p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Welch eine Zumuthung! O! Wohin hat mich die Liebe gebracht? </p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Ach ja, Engelchen! Das ist's ja eben, was mein Herz so an dich gefesselt
+                            hat deine Manieren, deine zarten Manieren! Nun allo Marsch hinein!
+                            Kriech‘ in den guten Petz.</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Nein, sein Petz ist mir zu warm.</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Ich geb' dich für einen Eisbären aus, begietz dich von Zeit zu Zeit mit
+                            Wasser. </p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Wenn ich rot werde, so sieht's niemand. </p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Ich erzähl's ihnen. </p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Und wenn ich lächle? </p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Bleckst du die Zähne.</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Und wenn ich seufzen will? </p>
+               </sp>
+               <pb n="47" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_047.jpg"/>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>So brummst du.</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Kurz, ich will's nicht!</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Du musst.</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Ich rufe Hilfe!</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Es hört's Niemand.</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Hilfe! He, hu! Hilfe!</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Hinein! Sag ich, kriech in den Petz! Gleich hinein mit dir! </p>
+               </sp>
+            </div>
+            <div type="3">
+               <head type="scene" n="2">Auftritt 2</head>
+               <listPerson>
+                  <personGrp>
+                     <name>Vorige </name>
+                     <name>und, mit ein paar großen Balletsprüngen auftretend</name>
+                     <name>, Monsieur Napoleon Sauteauciel.</name>
+                  </personGrp>
+               </listPerson>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Comment Monsieur !</foreign> Is das <foreign xml:lang="fra">Façon</foreign> ? Geht man so um mit
+                            di Dames? <foreign xml:lang="fra">Ah, Madame !</foreign> Ik offerir sie meine Dinste -erlaub sie, das ik
+                            mak ine mein <foreign xml:lang="fra">Compliment</foreign>. <stage type="corps"> (springt zurück und macht
+                                in der Entfernung Komplimente)</stage>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Weib! Das ist der verfluchte Balletmeister! </p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Der schuld an Petzens Tod ist. </p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Frau! Ich geb' dich los; hilf mir ihn fangen, da ist der Kerl, der muss in
+                            den Bären. Aber wie ihn kriegen? Er ist verdammt flüchtig.</p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>O lass mich nur machen, Männchen; durch anmutige Mienen und meinen Esprit
+                            de tendresse werde ich ihn zu meinen Füßen fesseln, dann wirf ihm
+                            geschwind das Sterbehemdchen um und wir nähen ihn ein. -Ach! Monsieur
+                            Sauteauciel, ach! Ach ach! Helfen Sie mir, mein Mann will mich
+                            umbringen! </p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <stage type="pers"> (springt über sie hinaus gegen Knollfink)</stage>
+                  <p>Suruk <foreign xml:lang="fra">traitre</foreign> ! Suruk von diese Dame Charmante.</p>
+                  <stage type="saut">Gefecht zwischen Knollfink und Sauteauciel. Der erste
+                            nimmt die Flucht.</stage>
+               </sp>
+               <pb n="48" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_048.jpg"/>
+               <pb n="49" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_049.jpg"/>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <stage type="pers">(zurückgesprungen vor Charmante)</stage>
+                  <lg>
+                     <l>
+                        <foreign xml:lang="fra">Me voila de retour,</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">O brillante victoire !</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">O remarquable jour,</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Qui m'a couvert de gloire !</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Mais hélas ! Ah! Mon cœur mou</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Blessé au plus profond</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Vient de vos doux faveurs</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Demander guérison.</foreign>
+                     </l>
+                     <l>Mei Schaas, mei süße Schaas!</l>
+                     <l>
+                        <foreign xml:lang="fra">Ma charmante déesse</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Ce sont vos charmes, vos grâces</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Qui guérissent et qui blessent.</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Mon ange, mon idôle</foreign>
+                     </l>
+                     <l>Ak ane ansit Blick</l>
+                     <l>Aus ihre süße Maul</l>
+                     <l>
+                        <foreign xml:lang="fra">Qu'il me ferait</foreign> glückelick!</l>
+                  </lg>
+                  <stage type="saut">Knollfink schleicht mit dem Bärenfell hinter ihn.</stage>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Ach Monsieur Sauteauciel! Ach! Ach, ach, ach!</p>
+                  <stage type="saut">Sie hält ihm den Flacon mit dem <foreign xml:lang="fra">Esprit de
+                                tendresse</foreign> entgegen.</stage>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <lg>
+                     <l>
+                        <foreign xml:lang="fra">Ah ! Quels soupirs de flammes</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Se glissent de vos yeux</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Non, je ne me tiens plus, mon âme !</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Me voilà à vos pieds.</foreign>
+                        <stage type="corps">(wirst sich ihr zu Füßen)</stage>
+                     </l>
+                  </lg>
+                  <stage type="saut">Knollfink, herbeigeschlichen, wirft das Fell über
+                            ihn.</stage>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Eh ! -Ah ! -Ou ! -Comment ? Quoi ! Qu’est que ça veut dire ?
+                                Mais laissez moi donc ! O mon <pb n="50" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_050.jpg"/> aimable
+                                duchesse ! Que deviendrai-je ? Votre mari -ah ! Maudit courage, où
+                                m'as-tu porté. Mais c'est contre le droit de guerre ça.</foreign>
+                  </p>
+                  <stage type="saut">Knollfink und Charmante werfen sich über ihn und nähen
+                            ihn ein.</stage>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Oui, contre le droit de guerre !</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Halt's Maul, du dummer Bär!</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">De venir par derrière.</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Halt's Maul! Du bist ein Bär.</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>Je m'en plaindrai au maire.</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <stage type="pers">(pufft ihn)</stage>
+                  <p>Willst kuschen, verdammter Bär!</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Hélas ! Que dois-je donc faire ?</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <stage type="pers">(gibt ihm einen Puff)</stage>
+                  <p>Das Maul halten! Herr Bär.</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Comment ? Je dois me taire ?</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>
+                     <foreign xml:lang="fra">C'est ça mon très cher</foreign> Bär.</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">O malheureuse affaire !</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Nun tanz er einmal, Herr Bär! Allo lustig! <foreign xml:lang="fra">Parlez-vous</foreign>
+                            Frankental 3 Stunden von Worms? -<foreign xml:lang="fra">Comment porzelez vous
+                            </foreign>der Trepp hinunter? <foreign xml:lang="fra">Allons, dansez, dansez
+                            </foreign>!</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Non</foreign>, ik mak nit. Wenn ik soll sei un Bär; ik will sei
+                                <foreign xml:lang="fra">un</foreign> Bär <foreign xml:lang="fra">de France</foreign>, uhn nik von
+                            Deuschlahnd. Ik will keh su di <foreign xml:lang="fra">chambre de</foreign> Bär von
+                            Frankreik zu Pari!</p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Pari? Pari? -Wart! Ich will dich Pari -ren lehren! <stage type="corps">(gibt ihm einen Puff)</stage>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Oh ! Mon dieu ! Oh ! Oh ! Oh ! Mon dieu !</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Hör er an, was er künftig für Conduite zu beobachten hat, wenn ihm seine
+                            Knochen lieb sind. Für's <pb n="51" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_051.jpg"/> Erste heißt er nicht
+                            mehr Sauteauciel, sondern Petz. Für's Zweite lass er seine<foreign xml:lang="fra"> oh mon
+                               dieu !</foreign> und <foreign xml:lang="fra">mort bleu </foreign>und was
+                            dergleichen Fratzen sind, und bedenk er, dass er ein Bär ist; und wenn er
+                            sprechen will, so sprech er vernünftig, mach‘ mum-mum-mum wie andere
+                            Bären, und sonst nichts! Versteht er mich?</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Mais pensez donc -</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <stage type="pers">(pufft ihn)</stage>
+                  <p>Mum-mum-mum; sag ich ihm, mum-mum-mum.</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Oui donc, oui !</foreign> Mum-mum-mum! </p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>So ist's recht, und wenn ich Musik mache, so tanzt er. </p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Quoi donc ? Pas de Rigaudon ? Aile de Pigeon ou Caprice de
+                                Vestris ?</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <stage type="pers">(pufft ihn)</stage>
+                  <p>Was hab ich gesagt? </p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>Mum-mum-mum. </p>
+               </sp>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>So ist's recht. Nein, nein, den Menuet von Wellington -den Blücher'schen
+                            Schleifer und den Waterlooer Kehraus! Und nun marsch in die Stadt, dass
+                            wir was verdienen! <stage type="corps">(Sie gehen ab.)</stage>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Sei nur still, lieber Petz! gib dich zufrieden. Es ist einmal nicht
+                            anders.</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>Mum! Mum! Mum!</p>
+               </sp>
+            </div>
+         </div>
+         <div type="1">
+            <pb n="52" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_052.jpg"/>
+            <head type="acte" n="2">Aufzug II</head>
+            <div type="3">
+               <head type="scene" n="1">Auftritt 1</head>
+               <stage type="saut">Marktplatz.</stage>
+               <listPerson>
+                  <personGrp>
+                     <name>Viele Menschen,</name>
+                     <stage type="pers"> in ihrer Mitte </stage>
+                     <name>Herr Knollfink, </name>
+                     <name>Madame Charmante </name>
+                     <name>und Sauteauciel</name>
+                     <stage type="pers"> als Bär.</stage>
+                  </personGrp>
+               </listPerson>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Herbei! Herbei! Meine Herrn und Damen! Hochzuverehrendes Publikum! Wer 
+                            nicht blind ist, der seh‘, wer nicht taub ist, der hör! Und wer nicht
+                            lahm ist, komm' herbei! -Hier ist die größte Rarität zu sehen: Eine
+                            Seltsamkeit der unerhörtesten Art! Ein Ding, das man kaum für möglich
+                            gehalten, und seit wohl 20 Jahren vergebens zu sehen verlangt hat. „Ein
+                            französischer Bär, der nah einer deutschen Pfeife tanzt.“</p>
+               </sp>
+               <stage type="saut">Charmante macht die Bären-Musik. Bum -bum -bum -bum, dihli di
+                        dihli, bum -bum.</stage>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Allons Monsieur </foreign>Petz! Die<foreign xml:lang="fra"> Courante</foreign>
+                            von Moskau! <stage type="corps">(Sauteauciel unter beständigen Prügeln
+                                vor Knollfink bis zu Ende der Bühne, kömmt von der andern Seite
+                                wieder zum Vorschein und so ein Paarmal.)</stage> So! Jetzt ein
+                            Chassé-passé über den Rhein nach der Bataille von Leipzig. <stage type="corps">(Sauteauciel macht verschiedene possierliche
+                                Sprünge.)</stage> So, schön! Herr Petz! -Jetzt den Salto-mortale von 
+                            Elba nach Paris. <stage type="corps">(Sauteauciel springt.)</stage>
+                            Höher! Bestie, höher! -</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <stage type="pers">(springt mit großer Anstrengung, und da die Näthe an der
+                            Bärenhaut platzen, -mehreren Personen auf Kopf und Budel)</stage>
+                  <p>
+                     <foreign xml:lang="fra">À la bonne heure ! Adieu Messieurs ! Me voilà sauvé.
+                                </foreign>
+                     <stage type="corps">(Springt ab, und ist mit wenigen
+                                Sprüngen dem Gesicht entschwunden)</stage> -Allgemeiner Tumult. </p>
+               </sp>
+               <sp>
+                  <speaker>Mehrere Stimmen</speaker>
+                  <p>Mein Kopf! -Mein Buckel! -Mein Hut! -Mein Shal! -Mein Mantel!</p>
+               </sp>
+               <pb n="53" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_053.jpg"/>
+               <sp>
+                  <speaker>Knollfink</speaker>
+                  <p>Mein Bär! Mein Bär! Lauft ihm nach! Halt ihn an! Fangt ihn ein! Vier 
+                            Dutzend Souveraine, wer ihn wieder fängt! </p>
+               </sp>
+               <sp>
+                  <speaker>Mehrere</speaker>
+                  <p>Vier Dutzend Souveraine? ein Mann, ein Wort; fangt ihn, fangt ihn! <stage type="corps">(laufen mit Knollfink dem Sauteauciel nach)</stage>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Ach, er entflieht! <foreign xml:lang="fra">-Ah il est perdu, mon amant, mon puissant
+                                amant -perdu, mon amant -perdu</foreign>; weh mir, ich zerfall in
+                            Ohnmacht! </p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 1</speaker>
+                  <p>Was war das!? - <stage type="corps">(deutet auf das Fell)</stage> Da
+                            liegt der Bär und ist tot. -Er war vom Teufel besessen, und der ist
+                            eben aus ihm ausgefahren. </p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 2</speaker>
+                  <p>Ja, in Gestalt einer Fledermaus. </p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 3</speaker>
+                  <p>Nein! Einer Heuschreck. </p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 4</speaker>
+                  <p>Nein! Eines Storchs. </p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 5</speaker>
+                  <p>Nein! Eines Drachens. </p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Ach nein, ihr lieben Leute, glaubt mir nur -es war ein Mensch! </p>
+               </sp>
+               <sp>
+                  <speaker>Alle</speaker>
+                  <p>Ein Mensch! Nie mehr! Es war </p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 1</speaker>
+                  <p>eine Speckmaus; </p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 2</speaker>
+                  <p>eine Heuschreck; </p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 3</speaker>
+                  <p>ein Storch; </p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 4</speaker>
+                  <p>ein Drachen. </p>
+               </sp>
+               <sp>
+                  <speaker>Charmante</speaker>
+                  <p>Ach ja wohl nein! Es war ja Monsieur Sauteauciel, es war ein Franzose.
+                        </p>
+               </sp>
+               <sp>
+                  <speaker>Alle</speaker>
+                  <p>Ein Franzose? -Ja, das kann sein, das ist möglich; ja, ja, ein Franzos!
+                            D'rum, das sah man deutlich, dass es kein Mensch war; es war ein
+                            Franzoseeeee.</p>
+               </sp>
+               <stage type="saut">Ende des zweiten Aktes.</stage>
+            </div>
+         </div>
+         <div type="1">
+            <pb n="54" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_054.jpg"/>
+            <head type="acte" n="3">Aufzug III</head>
+            <div type="3">
+               <head type="scene" n="1">Auftritt 1</head>
+               <stage type="saut">Wilde öde Gegend; nach einer Seite Wasser.</stage>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <stage type="pers"> (der eben in großer Hast und Erschöpfung ankömmt, später
+                            Chimere ein Frosch:)</stage>
+                  <lg>
+                     <l>Helas! Helas! Ak ik bin kepore su Malheur,</l>
+                     <l>Kaum bin ik schapir aus die Bär,</l>
+                     <l>Sein sie komme die Kreus und die Quer</l>
+                     <l>
+                        <foreign xml:lang="fra">Avec une lance de bois et une croix de fer,</foreign>
+                     </l>
+                     <l>Sieben Schwabe hinter mir her! -</l>
+                     <l>Sein ik kelauf' <foreign xml:lang="fra">comme un lièvre d'enfer</foreign>,</l>
+                     <l>Bis ik kekomm' in diese <foreign xml:lang="fra">Désert</foreign>,</l>
+                     <l>Wo sik is<foreign xml:lang="fra"> ni viande ni pain.</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Ah mon Dieu !</foreign> Ik muß <foreign xml:lang="fra">mourir de faim
+                                    !</foreign>
+                     </l>
+                  </lg>
+                  <p>
+                     <foreign xml:lang="fra">Brrr ! Par Dieu ! Mon estomac </foreign>rombelt wie ein Armanbir
+                            ; <foreign xml:lang="fra">mes entrailles sont serrées comme un nœud d'amour. - Mais ce
+                                serait pour se casser la tête ! Si je n'étais pas philosophe. Oui !
+                                Oui ! Je vais mourir -En attendant chantons !</foreign>
+                  </p>
+                  <lg>
+                     <l>
+                        <foreign xml:lang="fra">Triste raison</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">D'un estomac affamé</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Par quel chanson</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Dois-je mes tourmens exprimer ?</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Plus des égards</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Pour ma grande gloire</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Oh triste sort ! </foreign>
+                     </l>
+                     <pb n="55" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_055.jpg"/>
+                     <l>
+                        <foreign xml:lang="fra">Qui -je me sens</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Parfaitement </foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Près de la mort.</foreign>
+                     </l>
+                     <stage type="pers">Es quackt ein Frosch.</stage>
+                     <l>Qua --qua --qua!</l>
+                  </lg>
+                  <p>
+                     <foreign xml:lang="fra">Oh ciel ! Qu'entends-je ! Grâces aux dieux -voilà de quoi! Voilà
+                                du</foreign> Wildbret, un Frosch, un Frosch!</p>
+                  <stage type="saut">Der Franzose und der Frosch hüpfen einander nach.</stage>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Ha ! Traitre !</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Frosch</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Quoi -quoi -quoi -quoi !</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Quoi ? Tu demandes quoi -attends donc, attends ! Je ne te ferai
+                                point de mal par dieu non ! Je ne ferai que t'incorporer. Arrête
+                                donc, arrête ! Ah malheureux ! Arrête traitre.</foreign>
+                     <stage type="corps">(Der Frosch springt ins Wasser, der Franzos ihm
+                                nach.)</stage>
+                     <foreign xml:lang="fra"> Ah ! Que de malheur ! Me voilà dans l'eau -Diable est-ce un 
+                                marais ? Je n'en peux plus sortir. </foreign>
+                     <stage type="corps">(bemüht sich vergebens herauszuspringen) </stage>
+                     <foreign xml:lang="fra">-C'est en vain </foreign>-ik kann nit mehr aus, ik bin
+                            verwickelt in ei Neß von die Fischer -ik bin gans suat <foreign xml:lang="fra">-ah ! Je
+                                vais périr ; oui je me meurs ! Oui, oui, oui, oui, -berarara -je
+                                suis mort.</foreign>
+                  </p>
+               </sp>
+            </div>
+            <div type="3">
+               <head type="scene" n="2">Auftritt 2</head>
+               <listPerson>
+                  <personGrp>
+                     <name>Vorige, </name>
+                     <name>Fischer </name>
+                     <name>und seine Frau.</name>
+                  </personGrp>
+               </listPerson>
+               <sp>
+                  <speaker>Frau</speaker>
+                  <p>Nu‘ lass‘ uns einmal zusehen, was wir gefangen haben.</p>
+               </sp>
+               <sp>
+                  <speaker>Fischer</speaker>
+                  <p>Ach viel wird's nicht sein. Seit die verfluchte Franzose ihr Wesen
+                            treiben, ist kein Glück und kein Segen mehr in dem gemeinen Fischwesen.
+                        </p>
+               </sp>
+               <sp>
+                  <speaker>Frau</speaker>
+                  <p>Ja wie's erst anfing, da kamen die Emigranten.</p>
+               </sp>
+               <pb n="56" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_056.jpg"/>
+               <sp>
+                  <speaker>Fischer </speaker>
+                  <p>Ach! Die Zeiten sind vorbei; die Emigranten und Royalisten schwimmen 
+                            jetzt all die Seine hinauf; und was die Bonapartisten sind, die liegen
+                            jetzt alle auf dem Grund. Was fängt man da großes? -Hier und da 'n
+                            Tugendbündler! Aber die lassen sich nicht essen, schmecken Galle bitter,
+                            und ist überhaupt nicht viel d'ran. -Nun ziehen wir einmal, was uns heute
+                            bescheret ist. <stage type="corps">(Sie ziehen das Net heraus.)</stage>
+                            Oh! </p>
+               </sp>
+               <sp>
+                  <speaker>Frau</speaker>
+                  <p>Ah! </p>
+               </sp>
+               <sp>
+                  <speaker>Fischer</speaker>
+                  <p>Ah! Oh uh ah! -Sapperment, was ist denn da für ein Fisch drin. </p>
+               </sp>
+               <stage type="saut">(Sauteauciel zappett.)</stage>
+               <sp>
+                  <speaker>Frau</speaker>
+                  <p>Gott sei bei uns! Was ist das? Ein Meerwunder! </p>
+               </sp>
+               <sp>
+                  <speaker>Fischer</speaker>
+                  <p>Ein Seelöwe, ein veritabler Seelöwe! Ei der soll uns Geld verdienen; Frau!
+                            Den lassen wir für Geld sehen. </p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Hélas ! Hélas ! Hélas !</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Frau</speaker>
+                  <p>Horch! Was für eine Stimme aus dem Tier kömmt. </p>
+               </sp>
+               <sp>
+                  <speaker>Fischer</speaker>
+                  <p>Mein Seel, durch die Nase -ein prächtiges Tier -das soll uns Geld
+                            eintragen wie Heu! </p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Oh misérable, que je suis ! Ah, ah, ah ! </foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Frau</speaker>
+                  <p>Es scheint sich nicht recht wohl zu befinden. </p>
+               </sp>
+               <sp>
+                  <speaker>Fischer</speaker>
+                  <p>Ich will ihm ein bissel Schnaps in sein Maul gießen, und ein Stück Brod
+                            hineinstopfen, vielleicht tut ihm das gut; <stage type="corps"> (er
+                                tut's)</stage> wahrhaftig es macht die Augen auf. </p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Ah ! C’est bon,</foreign> Tausend Dahnk <foreign xml:lang="fra">-C'est bon
+                                !</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Frau</speaker>
+                  <p>Das Tier hat Sprache! </p>
+               </sp>
+               <sp>
+                  <speaker>Fischer</speaker>
+                  <p>Ja, wahrhaftig! Ein prächtiges Tier, aber keinen Verstand. Nun, wie
+                            geht's? Herr Seelöw!</p>
+               </sp>
+               <pb n="57" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_057.jpg"/>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>Ak -ich seihn kei Seelöw. Ik seihn eihn Mensch impérial, seihn von di
+                            Thron su Pari.</p>
+               </sp>
+               <sp>
+                  <speaker>Fischer</speaker>
+                  <p>Was! Ein Mensch? -Ja, das muss ich besser wissen. -Fängt man die Menschen
+                            im Wasser? Nein, mein Freund! Die Ausred' gilt nichts. </p>
+               </sp>
+               <sp>
+                  <speaker>Frau</speaker>
+                  <p>Ja und wo sieht denn ein Mensch so aus. Er hat ja dicken Pelz um den
+                            Hals. </p>
+               </sp>
+               <sp>
+                  <speaker>Fischer</speaker>
+                  <p>Es ist ein Seelöw. </p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>Nein, nein; die Pelz seihn von die Bär. Ik war gewes‘ aihn Bär. </p>
+               </sp>
+               <sp>
+                  <speaker>Fischer</speaker>
+                  <p>So? jetzt gar ein Bär? -Ein höchst unvernünftiges Tier. </p>
+               </sp>
+               <sp>
+                  <speaker>Frau</speaker>
+                  <p>Ja! Und voller Ausflüchte-</p>
+               </sp>
+               <sp>
+                  <speaker>Fischer</speaker>
+                  <p>Voller Lügen;</p>
+               </sp>
+               <sp>
+                  <speaker>Frau</speaker>
+                  <p>Voller Bosheit! </p>
+               </sp>
+               <sp>
+                  <speaker>Fischer</speaker>
+                  <p>Ja Freund, so geht's nicht; sonst gibt's Prügel. -Du musst bei der
+                            Wahrheit bleiben -hörst du? Du bist ein Seelöwe, und sonst nichts; hörst
+                            du? -Ich werd dich jetzt in eine große Bütt' mit Wasser setzen, und für
+                            Geld sehen lassen, und da führ dich gut auf; das sage ich dir. Denn dass
+                            du die Leut' belügen willst, du wärest ein Mensch -das sind
+                            Narrenspossen -das ist nichts! Nein, du bist und bleibst ein Seelöwe,
+                            verstehst du mich!</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Mais mon dieu !</foreign> So hör sie dok, ik- </p>
+               </sp>
+               <sp>
+                  <speaker>Fischer</speaker>
+                  <p>Halt's Maul! Ich mag nichts hören! Ja Frau, das Tier hat einen großen
+                            Fehler; es plappert zu viel. </p>
+               </sp>
+               <sp>
+                  <speaker>Frau</speaker>
+                  <p>Ich will ihm das Maul zunähen. </p>
+               </sp>
+               <sp>
+                  <speaker>Fischer</speaker>
+                  <p>Nein; da fällt mir was Besseres ein. Unten auf den Boden der Bütt' einen 
+                            Kloben; dadurch einen Strick um seinen Hals, und wenn es sprechen will,
+                            zieht man's unter's Wasser.</p>
+               </sp>
+               <pb n="58" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_058.jpg"/>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Oh malheur sans pareil !</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Fischer</speaker>
+                  <p>Still Seelöwe, still! Und wenn du künftig mehr sprichst als: Papa! Papa!
+                            so sollst du sehen, wie dir's geht. <stage type="corps">(Sie schleifen
+                                ihn ab.)</stage>
+                  </p>
+               </sp>
+               <stage type="saut">Ende des dritten Aktes.</stage>
+            </div>
+         </div>
+         <div type="1">
+            <head type="acte" n="4">Aufzug IV</head>
+            <stage type="saut">Szene: eine Shau-Bude mit mehreren Tieren, Büsten, dem großen
+                    Vogel, in der Mitte aber eine Bütte mit der Aufschrift „Northumberland“, worin
+                    Sauteauciel, einen Strick um den Hals, der in's Wasser hinab und wieder herauf
+                    geht.</stage>
+            <listPerson>
+               <personGrp>
+                  <name>-Herren und Damen als Zuschauer</name>
+                  <name>und Sir John Bullington. </name>
+               </personGrp>
+            </listPerson>
+            <div type="3">
+               <head type="scene" n="1">[Auftritt 1]</head>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Meine Herren und Damen, die Sie hier versammelt sind, um die großen
+                            Naturwunder zu sehen; sein Sie so gut und merken Sie auf! Hier kann
+                            jeder sehen, und sieht's bereits um sich herum, alle Arten von Affen und
+                            Meerkatzen, ausländische Esel und Papageien doch das sehen Sie alle
+                            Tage, das ist nichts. -Auch sehen Sie hier eine kurieuse Sammlung von
+                            Perückenstöcken, vorstellend alle lebenden Majestäten der ganzen Welt,
+                            aber das ist nichts, so wahr ich Sir John Bullington und ein Engländer 
+                            bin, es ist alles Nichts gegen die zwei Hauptstücke, die ich Ihnen zu
+                            zeigen die Ehre haben werde. </p>
+                  <p>Das erste ist gegenwärtiger Seelöwe, der erst gestern zu Rochefort von
+                            einem Fischer gefangen und für den Gouverneur von St. Helena bestimmt,
+                            für viele Tausend Pfund Sterling erkauft worden ist. Es kann dieses
+                            Tier die Landluft nicht vertragen, die ihm all zu vielen Appetit macht,
+                            und muss daher vermittelst eines Strickes, wie Sie sehen, alle Augenblick
+                            unter <pb n="59" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_059.jpg"/> Wasser getaucht werden, und ist übrigens
+                            derselbe Seelöwe, wovon Buffon schreibt, dass er ein Seelöwe sei.
+                            -Indessen wird es sich auf Verlangen emporheben, -die Pfote
+                            herausstrecken. -Was aber das Wunderwürdigste ist, ist, dass es in der
+                            kurzen Zeit seiner Gefangenschaft schon einige Worte vernehmlich
+                            sprechen gelernt hat und also für weitere Dressur große Hoffnungen von
+                            sich gibt; -daher weil es der näselnde Ton seiner Stimme vorzüglich zur
+                            Erlernung der französischen Sprache geeignet macht, beschäftigt man sich
+                            jetzt eben damit, ihm einige der vornehmsten Stellen aus Corneille,
+                            Racine und Voltaire auswendig zu lehren, um ihm alle die Anmuth
+                            beizubringen, deren ein Tier feines Geschlechts fähig ist.<foreign xml:lang="fra">
+                                Lève-toi Côcô !</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <stage type="pers">(hebt sich)</stage>
+                  <p>
+                     <foreign xml:lang="fra">Ah pour l’am-</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <stage type="pers">(zieht ihn geschwind unter)</stage>
+                  <p>
+                     <foreign xml:lang="fra">Tais-toi jusqu'à-ce-qu'on te demande. -Donne la patte -Allons la
+                                patte.</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <stage type="pers">(streckt die Hand heraus)</stage>
+                  <p>
+                     <foreign xml:lang="fra">Pour l'am-</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <stage type="pers">(hinunter)</stage>
+                  <p>
+                     <foreign xml:lang="fra">Tais-toi dis-je. Sais-tu bien ta leçon?</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Pa-pa -mais pour l’am-</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <stage type="pers">(Ihn hinunterziehend gibt ihm einen Puff)</stage>
+                  <p>
+                     <foreign xml:lang="fra">Il ne faut pas tout confondre malheureux animal. </foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Mehrere Stimmen</speaker>
+                  <p>Ach! Der arme Seelöwe! </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Ja es ist ein boshaftes Tier und muss mit Strenge behandelt werden. Wenn
+                            man ihm nur einen Fuß breit einräumt, so hat die Erfahrung gelehrt, will
+                            es gleich die ganze Welt haben.</p>
+               </sp>
+               <sp>
+                  <speaker>Herr Pf...r</speaker>
+                  <p>Verzeihen Sie, mein Herr, hier ist kein Seelöwe. </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Wie? Was mein Herr? -Was wollen Sie behaupten?</p>
+               </sp>
+               <pb n="60" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_060.jpg"/>
+               <sp>
+                  <speaker>Herr Pf...r</speaker>
+                  <p>Mein Herr, es ist-</p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <stage type="pers">(Ihn unterbrechend)</stage>
+                  <p>Ich bitte, Sie werden doch nicht?</p>
+               </sp>
+               <sp>
+                  <speaker>Herr Pf...r</speaker>
+                  <p>Es ist-</p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <stage type="pers">(unterbricht ihn)</stage>
+                  <p>Ich habe ihn dafür gekauft; es ist ein Seelöwe und damit: Punktum. </p>
+               </sp>
+               <sp>
+                  <speaker>Herr Pf...r</speaker>
+                  <p>Nein Komma! Es ist ein Mönchsrobbe, Herr! und damit Punktum. </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Ah pour ça !</foreign> <foreign xml:lang="eng">mähbi, mähbi!</foreign> <foreign xml:lang="fra">cela revient au
+                                même ;</foreign> Sie sind ein Naturforscher, mein Herr? Monksrobbe
+                     <foreign xml:lang="eng">-very well -mähbi -mähbi</foreign> -mag sein. </p>
+               </sp>
+               <sp>
+                  <speaker>Herr Pf...r</speaker>
+                  <p>Und seine Stimme ist keine Sprache, sondern nur ein unverständliches
+                            Kollern. </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>
+                     <foreign xml:lang="eng">Perfectly well </foreign>-Kollern <foreign xml:lang="eng">-Queit reit sir!</foreign> Mir war nur 
+                            bang, Sie wollten das Tier für einen Menschen ausgeben -monks-robbe
+                                <foreign xml:lang="eng">very well</foreign> -Kollern <foreign xml:lang="eng">very well!</foreign>
+                            - Nun lassen Sie sich das zweite Hauptstück zeigen: -Das zweite
+                            Hauptstück, meine Herren und Damen, besteht aus diesem großen Vogel, den
+                            Sie da sehen. Er ist zu Haus, wo es keine Menschen gibt und heißt
+                            „Freiheitsvogel“ oder -nach dem <foreign xml:lang="fra">dictionnaire imperial
+                            </foreign>-Vogelfrei. -Dieser Vogel hat einen langen Winterschlaf, worin
+                            er sich gegenwärtig wirklich befindet. Aus diesem Winterschlaf erwacht
+                            er aber wohl alle Säkula einmal, -weshalb der Klerus, bei welchem er
+                            seiner Säckelgelüste halber eben nicht beliebt ist, ihm auch den
+                            Säkular- oder Säckulir-Vogel zu nennen pflegt -; wonach er dann nicht
+                            nur sehr sonderbare Sachen spricht, sondern auch die schönsten
+                            Proklamationen aus sich herausgehen lässt. -Ich habe ihn in Frankreich,
+                            wo er, nachdem er sich ausgetobt, mit vieler Beschwernis wieder in
+                            Schlaf gebracht worden ist, <foreign xml:lang="fra">par Lettre de Cachet
+                            </foreign>bekommen, und führe <pb n="61" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_061.jpg"/> ihn nun nach
+                            Deutschland, um ihn, wenn er sich endlich versammelt haben wird, zu
+                            Frankfurt an dem Bundestag zu präsentieren, und abzuwarten, ob er etwa
+                            aufwacht, um ein Wort mitzusprechen, damit man ihn sogleich nach
+                            Umständen traktieren kann. </p>
+               </sp>
+               <sp>
+                  <speaker>Herr Pf...r</speaker>
+                  <p>Verzeihen Sie, mein Herr! Das ist der wahre Freiheitsvogel nicht. </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Wie? Mein Herr! </p>
+               </sp>
+               <sp>
+                  <speaker>Herr Pf...r</speaker>
+                  <p>Nein! Jener ist, wie Sie ganz richtig sagten, aus dem Land, wo es keine
+                            Menschen gibt. </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Nun, und das ist der nämliche. </p>
+               </sp>
+               <sp>
+                  <speaker>Herr Pf...r</speaker>
+                  <p>Bitt' um Verzeihung; dieser ist aus Sarastros Reich, -und heißt nach dem
+                            einstimmigen Urtheil aller Ornithologen „Papageno“. Er unterscheidet
+                            sich neben dem Pappelgelent an seinem Schnabel von dem wahren
+                            Freiheitsvogel noch dadurch, dass sich seine Federn zu Damenschmuck auf 
+                            altdeutschem Kostüm brauchen lassen und zu Herrenschmuck auf
+                            neudeutschen Offiziershüten -statt dass die Federn des Echten nur zu
+                            Pfeilen für Blut und Dinte und zu Trieb-Federn erstaunlicher Handlungen
+                            zu brauchen find. </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Mein Herr! Sie sind ein Besserwisser. Mir wurde er einmal als echt
+                            überantwortet und als solchen gebe ich ihn auch wieder aus. -Übrigens
+                            habe ich zum Beweis eine sehr schöne Prophezeiung einer Kartenschlägerin
+                            aus Preußisch-Afrika, die sich ganz auf ihn bezieht. </p>
+               </sp>
+               <sp>
+                  <speaker>Herr Pf...r</speaker>
+                  <p>Verzeihen Sie, Preußen hat keine Besitzungen in Afrika. </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Nicht? Verdiente sie aber zu haben, denn wenn Algerien in Afrika liegt, so
+                            hat es die angestammtesten Ansprüche. </p>
+               </sp>
+               <pb n="62" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_062.jpg"/>
+               <sp>
+                  <speaker>Zuschauer</speaker>
+                  <p>Eine Prophezeiung aus der Karte! O prächtig, prächtig! Dürften wir darum
+                            bitten?</p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Sehr gerne; aber sie ist sehr dunkel; sie lässt sich nur mit Fäusten
+                            greifen und lautet:</p>
+                  <lg>
+                     <l>Bum, bum, bum!</l>
+                     <l>Guckt Euch nicht um! </l>
+                     <l>Die Zeit geht h'rum, </l>
+                     <l>Dum, dum, didum! </l>
+                     <l>Vogel flieg' oder kriech', </l>
+                     <l>Nur dem Ew'gen bleibt der Sieg.</l>
+                  </lg>
+                  <lg>
+                     <l>Janus, weil er den Bart scheert nicht,</l>
+                     <l>Hat hinten und vornen kein Gesicht;</l>
+                     <l>D'rum lehren uns jetzt nur keine Karten,</l>
+                     <l>Was von dem Schicksal zu erwarten.</l>
+                     <l>Bum, bum, bum! </l>
+                     <l>Guckt Euch nicht um!</l>
+                  </lg>
+                  <lg>
+                     <l>Aus Tugend-Bund, doch ohne Eh' </l>
+                     <l>Schießt Ärndt aus Zeitgeist in die Höh‘.</l>
+                     <l>Die Zeit geht h'rum!</l>
+                     <l>Dum, dum, didum.</l>
+                  </lg>
+                  <lg>
+                     <l>Wills Österreich nur <foreign xml:lang="fra">permettre</foreign> nicht? </l>
+                     <l>Es trifft noch andres Wetter dich. </l>
+                     <l>Noch seh ich einen harten Berg,</l>
+                     <l>Der liegt im Wege überzwerg,</l>
+                     <l>Auf ihm viel Kreuz von Silberblech,</l>
+                     <l>Doch fließt am Fuße Judenpech.</l>
+                     <l>Bum, bum, bum! </l>
+                     <l>Guckt Euch nicht um! </l>
+                  </lg>
+                  <pb n="63" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_063.jpg"/>
+                  <lg>
+                     <l>Und auf ihn nieder fällt ein Stein,</l>
+                     <l>Rollt uns eine Lawin herein. </l>
+                     <l>
+                        <foreign xml:lang="fra">Coeur es, Coeur es</foreign> bedeutet viel</l>
+                     <l>In dieser Karten buntem Spiel.</l>
+                     <l>Dum, dum, didum, </l>
+                     <l>Die Zeit gebt h'rum.</l>
+                  </lg>
+                  <lg>
+                     <l>Und es erhebt sich großer Streit</l>
+                     <l>Gen Eisen au! gar mancher schreit,</l>
+                     <l>Der Freiheitsvogel -Vogelfrei</l>
+                     <l>Erhebet muthig sein Geschrei.</l>
+                     <l>Diderum, dum, dum! </l>
+                     <l>Gut Euch nicht um!</l>
+                  </lg>
+                  <lg>
+                     <l>Doch ach! verlor'n ist Hopf und Malz,</l>
+                     <l>Denn er ersticket an dem Schmalz,</l>
+                     <l>Bum, bum, bum! </l>
+                     <l>Guckt Euch nicht um! </l>
+                     <l>Zwar kriegt er ein Klystier von Wein,</l>
+                     <l>Doch schenket ihn nie -pur man ein.</l>
+                  </lg>
+                  <lg>
+                     <l>Ob er nun davon wird gesund,</l>
+                     <l>Das mache Euch die Zukunft kund.</l>
+                     <l>Vogel flieg', oder kriech', </l>
+                     <l>Nur dem Ew'gen bleibt der Sieg.</l>
+                     <l>Bum, bum, bum! </l>
+                     <l>Gut Euch nicht um, </l>
+                     <l>Die Zeit geht herum, </l>
+                     <l>Didum, dum, dum! -</l>
+                  </lg>
+               </sp>
+               <pb n="64" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_064.jpg"/>
+               <sp>
+                  <speaker>Zuschauer 1</speaker>
+                  <p>Ja wohl dumm, das ist eine sehr dunkle Prophezeiung. </p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 2</speaker>
+                  <p>Und worüber es ganz dunkel geworden ist. </p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 3</speaker>
+                  <p>Ja es ist schon spät; gehen wir heim. </p>
+               </sp>
+               <sp>
+                  <speaker>Alle</speaker>
+                  <p>Wir empfehlen uns. </p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 1</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Adieu,</foreign> Herr Seelöwe! </p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 2</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Adieu,</foreign> Herr Freiheitsvogel! </p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 3</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Adieu,</foreign> Herr Vogelfrei! </p>
+               </sp>
+               <sp>
+                  <speaker>Alle</speaker>
+                  <p>Empfehlen uns; <foreign xml:lang="fra">Adieu ?! Adieu !</foreign>
+                  </p>
+               </sp>
+               <stage type="saut">Die Zuschauer gehen ab.</stage>
+            </div>
+            <div type="3">
+               <head type="scene" n="2">Auftritt 2</head>
+               <listPerson>
+                  <personGrp>
+                     <name>Sir John </name>
+                     <stage type="pers">und </stage>
+                     <name>Sauteauciel.</name>
+                  </personGrp>
+               </listPerson>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>
+                     <foreign xml:lang="eng">God dam!</foreign> Du verdammter <foreign xml:lang="eng">french dog!</foreign>
+                            Kannst du denn nicht sein ruhig ein viertel Stund, bis wir kommen nach
+                            Helena! </p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Mais pour l'amour de dieu ! Faites-moi donc sortir.
+                            </foreign>Was sik war an mir von Sals un von Sucker, is sik schon
+                            aufgelös in di Wasser, all di Gift - un is sik nix mehr an mir, als was
+                            sik war von di Stockfisch. Das kann si nix schad‘ ihre nation; -drum laß
+                            sie mik aus, eh ik krik di Wassersuk!</p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Nichts, du bleibst in deiner Bütt‘ auf dem Northumberland, bis wir kommen
+                            auf Helena. Schlaf wohl!<stage type="corps">(schließt zu und geht
+                                ab)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="3">
+               <pb n="65" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_065.jpg"/>
+               <head type="scene" n="3">Auftritt 3</head>
+               <listPerson>
+                  <personGrp>
+                     <name>Sauteauciel </name>
+                     <stage type="pers">allein.</stage>
+                  </personGrp>
+               </listPerson>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>O Belsebu, Belsebu! -Has du mik gans verlasse. <foreign xml:lang="fra">-Où est ma force,
+                                qui m'a fait sauter sur tout le monde ?</foreign> Nok einmal, nok
+                            einmal! Sprach Simson in die Temple. <stage type="corps">(Er springt;
+                                der Strick reißt entzwei.)</stage>
+                     <foreign xml:lang="fra">Victoire ! </foreign>der Strick is ensuei; <foreign xml:lang="fra">c’était un
+                                cordon de France !</foreign> Wo spasir ik jes hinaus? <foreign xml:lang="fra">Par
+                                la cheminée ? Il n'y en a pas; voilà un maudit poêle d'Allemagne.
+                                Par la fenêtre ?</foreign> Verflut! <foreign xml:lang="fra">Voilà des fers de
+                                Russie ! Par la porte ? Malheur ! Voilà </foreign>ein englisch
+                            Righel <foreign xml:lang="fra">-Que faire ! -Me cacher ? -Où ? Dans un trou de souris ?
+                                Oh si je n'étais pas si grand !</foreign>
+                     <stage type="corps">(lamentabel)</stage> Un wenn si mik nit mehr find in
+                            die Bütt', - si werd mi suk <foreign xml:lang="fra">par tout,</foreign> si werd mi
+                            find; si werd si keb viel Slak uf meine Kop! <foreign xml:lang="fra">Oh mon dieu, que
+                                faire ? Que faire ?</foreign>
+                     <stage type="corps">(lustig)</stage>
+                     <foreign xml:lang="fra">Oui, oui ! C'est ça. - Oh quelle heureuse idée !</foreign> Da is
+                            di Perückestock, di is formirt nak meine Kop su Pari; <foreign xml:lang="fra">-Oui !
+                                Oui !</foreign> komm sik her. <stage type="corps">(Er holt die
+                                Büste.)</stage> Ik stek si in di Wasser und bind si an di Strick.
+                                <stage type="corps">(Er thuts.)</stage> Jetzt sein Sie ma personne.
+                            Un it? -wo krik it hin? <foreign xml:lang="fra">Ah ! Charmant ! </foreign>In die Vokel,
+                                <foreign xml:lang="fra">oui -oui</foreign> - in die Freiheitsvokel. <stage type="corps">(schlüpft in den Vogel)</stage>
+                  </p>
+               </sp>
+            </div>
+            <div type="3">
+               <head type="scene" n="4">Auftritt 4</head>
+               <listPerson>
+                  <personGrp>
+                     <name>Vorige</name>
+                     <stage type="pers">und</stage>
+                     <name> Sir John</name>
+                     <stage type="pers">, der
+                                eintritt mit zwei Matrosen.</stage>
+                  </personGrp>
+               </listPerson>
+               <sp>
+                  <speaker>[Sir John]</speaker>
+                  <p>
+                     <foreign xml:lang="eng">God dam! </foreign>Es ist gut, sag ich, dass das Schiff ist
+                            fertig, - was die Bestie bringt auf Helena. Ihr glaubt nicht, was einem
+                            so ein Tier für Sorge macht: denn es will immer heraus. <pb n="66" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_066.jpg"/>
+                     <pb n="67" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_067.jpg"/>
+                     <pb n="68" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_068.jpg"/> -Mich
+                            wundert, dass es jetzt so ruhig ist, mir scheint es schläft. Desto
+                            besser! Nun packt an! Fort mit, fort! glückliche Neis'! <stage type="corps">(Sie tragen die Bütte fort.)</stage> Gottlob, dass du
+                            fort bist. Mein Lebtag nehm ich kein solches Tier mehr, das so
+                            unvernünftig ist, immer vernünftig sprechen zu wollen.</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Liberté !</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Was... </p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Egalité !</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>… hör ich! </p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Et fraternité !</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>O Wunder, o Wunder! Der Vogel ist erwacht! </p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Au premier du droit des peuples.</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Welche verderbliche Sprache? </p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Donné dans la république des Oiseaux.</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Was Republik?! </p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Article premier. -Terre et mer sont libres comme l'air.
+                            </foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Gesinnungen aus dem Herzen der Revolution! Verräter! Schweig, oder du
+                            bist verloren. Wart ich will dir Mores lehren. - <stage type="corps">(geht auf ihn los)</stage>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <stage type="pers"> (beißt nach ihm)</stage>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Was Bestie, du willst beißen? Pah, pah! Du bist nicht die erste
+                            revolutionäre Bestie, mit der ich zu tun habe. Ha ha! Ich kenne deines
+                            Gleichen schon. Siehst du den Stock! Wart ich will dir den Teufel
+                            austreiben. </p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>Ak! Laß Si mik in di Vokel; ik will predike, was Si gern hör. </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>So? Nun laß hören! Aber andere Grundsätze, das bitt ich mir aus. -Nun!
+                            was willst du predigen? Was sind die Freiheiten eines guten
+                            Christen?</p>
+               </sp>
+               <pb n="69" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_069.jpg"/>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <lg>
+                     <l>Di Freiheit, liebe Leut!</l>
+                     <l>Von aine kute Krist</l>
+                     <l>Is, daß er jederseit</l>
+                     <l>Thut, was pefolen ist.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Bravo ! Bravo ! </foreign>Das läßt sich hören! Und namentlich
+                            des katholischen Konfessionisten?</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <lg>
+                     <l>Nach fürstlikem Placet</l>
+                     <l>Zu glauben, hoffen, lieben,</l>
+                     <l>Wie es im Kabinet</l>
+                     <l>Di 'ailik Schrift keschrieben.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Fast ein bisschen zu stark; doch item gut, sehr gut! Was sind die
+                            Freiheiten eines guten Patrioten?</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <lg>
+                     <l>Von seine Souverain</l>
+                     <l>Stets nak der Beif zu tanse,</l>
+                     <l>Un wo er will su gäh‘n</l>
+                     <l>Mit seine G'wehr un Ranse.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Bravo !</foreign> Weiter: was sind die Freiheiten des
+                            Philosophen? </p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <lg>
+                     <l>Silk stark su strablisir</l>
+                     <l>Um alle Fack un Klasse,</l>
+                     <l>Dem fürstlike Desir</l>
+                     <l>Aufs Beste an su passe.</l>
+                     <l>Auk mak er sich serquäl</l>
+                     <l>Sum Trost für alle Plinde,</l>
+                     <l>Im fürstlite Befehl</l>
+                     <l>Die Weisheit auf su finde.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Du bist ein allerliebster Vogel; morgen sollst du dem Volke präsentirt
+                            werden. Was sind die Freiheiten des Künstlers?</p>
+               </sp>
+               <pb n="70" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_070.jpg"/>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <lg>
+                     <l>Su male die Portrait</l>
+                     <l>Von ihre Majestät,</l>
+                     <l>Wie sie <foreign xml:lang="fra">pour ses sujets</foreign>
+                     </l>
+                     <l>In Angst und Sorke steht.</l>
+                     <l>Su make ain Kedicht</l>
+                     <l>Am Tak von ihre Nam,</l>
+                     <l>Su schreibe die Keschicht</l>
+                     <l>Von ihr illüstre Stamm. </l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Recht so! Recht; du bist ein rechtschaffener Vogel, ein patriotischer
+                            Vogel. Wie müssen die Freiheiten einer guten Konstitution beschaffen
+                            sein? </p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <lg>
+                     <l>Wenn die Pefehl kemeld,</l>
+                     <l>So stehn die Stände da,</l>
+                     <l>Und keben her das Keld</l>
+                     <l>Un saken: Ja, ja, ja!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Herrlich, herrlih! Gleich will ich das Volk versammeln; du sollst gleich
+                            predigen, du allerliebster Freiheitsvogel! Ja, gleich, und, wenn du es
+                            gut machst, so kriegst du den <foreign xml:lang="fra">Ordre si vile;</foreign>
+                     <stage type="corps">(Ruft hinaus!)</stage> Herein, herein! -Der
+                            Freiheitsvogel ist erwacht! -Herein, wer was hören will! -Der
+                            Freiheitsvogel spricht! -Herein, herein! Alle herein! <stage type="corps">(Es strömt eine Masse Volkes herein.)</stage> Der Vogel
+                            ist erwacht, der Freiheitsvogel! Fang an, edler Vogel, predige deine
+                            Weishbeit!</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <stage type="pers">(aus dem Vogel)</stage>
+                  <lg>
+                     <l>
+                        <foreign xml:lang="fra">Ah pour l’amour de dieu</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Ecoutez mon histoire,</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Mes Dames et Messieurs !</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Et daignez me la croire.</foreign>
+                     </l>
+                  </lg>
+               </sp>
+               <pb n="71" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_071.jpg"/>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Was für eine <foreign xml:lang="fra">Histoire</foreign> ? Zur Sache, edler Vogel! zur
+                            Sache!</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <lg>
+                     <l>
+                        <foreign xml:lang="fra">J’étois un grand héros</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Faisais des grands exploits</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Sautais sur têtes et dos</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">De tout le monde, ma foi !</foreign>
+                     </l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Wozu solche Weitläufigkeiten, mein edler Vogel; zur Sache, zur Sache!</p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Still, still! Fall er dem Vogel nicht ins Wort, laß er den Vogel
+                            reden!</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <lg>
+                     <l>
+                        <foreign xml:lang="fra">Mais il-y-avait une dame,</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">La Source de mes malheurs</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">De mes passions les flammes</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Tendoient après son cœur</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Oui ; Madame Continent</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Pour moi eût tant d'attraits</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Que je me fis serment</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">D'en devenir maitre parfait.</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Malheur ! Un oursier russe</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">À elle joignit sa main.</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Toute victoire que j’en eusse,</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Mon succès fut en vain.</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Car dans le même moment</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Que je fis ma cour sincère</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">À Madame Continent</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Il me prit par derrière.</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Dans un habit glacial</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Je fus entortillé,</foreign>
+                     </l>
+                     <pb n="72" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_072.jpg"/>
+                     <l>
+                        <foreign xml:lang="fra">Un courage aussi mäle</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Jouet d'un sort bilieux -?</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Quel changement affreux !</foreign>
+                     </l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Ach du verfluchter Lügenvogel. Ich dreh' dir den Hals herum, wenn du nicht
+                            gleich predigst, wie du versprochen hast.</p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Hinaus mit dem verfluchten Kerl, der den Freiheitsvogel nicht will
+                            sprechen lassen! Schmeißt ihn hinaus!</p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Was? Es ist mein Vogel; ich hab ihn gekauft; er isst mein Brot; dessen Brot
+                            ich esse, dessen Lied ich sing! Ja er muss sprechen, was ich will, god dam,
+                            was ich will.</p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Hinaus mit ihm! was will er? Der Freiheitsvogel darf sprechen, was er
+                            will! Hinaus, hinaus!</p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Wart, wart! Ich werd mich rächen. <stage type="corps">(ab)</stage>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Erzähl‘ weiter, edler Vogel! Erzähl’ weiter!</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <lg>
+                     <l>
+                        <foreign xml:lang="fra">L'on dirigea ma Course</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">D'une manière non charmante.</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Je dus danser en ours</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">De Moscau la courante ;</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Chassé passé du Rhin</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">De Leipsic à Paris ; -</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Et tous les hommes de bien</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">M'accompagnaient de ris.</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Enfin d'isle d'Elbe, pardieu !</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Tout le monde en fût surpris,</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Un saut mortel furieux</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Me ramène à Paris.</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Mais hélas ! Courte joie !</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Les sept suabes en alliance</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Me poursuivent à la foi</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Avec leur fameuse lance.</foreign>
+                     </l>
+                     <pb n="73" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_073.jpg"/>
+                     <l>
+                        <foreign xml:lang="fra">De Madame Continent</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">La funeste conduite :</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Par mille événements</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Me fit prendre la fuite.</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">D'un espoir la chimère</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Comme une grenouille formée</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Me tire enfin sur mer,</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Où l'on va m'attrapper.</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">On me prend dans un rèt</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Et, pour m'aprivoiser</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">L'on se sert du fouet ; -</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Oh pauvre prisonnier !</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Mes prières furent en vain</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Et sur le dos des Ondes</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Comme un monstre-marin</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">L’on me fit voir au monde.</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Et pour la sainte Hélène</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">L'on m'avait destiné,</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Oui, dans une caisse de chêne</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">On m'y a transporté.</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Oh quel destin terrible !</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Mais croyez, je n’y suis,</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Que par fantôme visible</foreign>
+                     </l>
+                     <l>
+                        <foreign xml:lang="fra">Mon âme est ici.</foreign>
+                     </l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer</speaker>
+                  <stage type="pers">(untereinander)</stage>
+                  <p>Was halten Sie von dem Vogel, Herr Vetter, Frau Baas, Herr Gevatter,
+                            Frau Nachbarin?</p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 1</speaker>
+                  <p>Ein erhabener Vogel, ein Heldenvogel.</p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 2</speaker>
+                  <p>Ein rührender Vogel, ein unglücklicher, leidender Vogel!</p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 3</speaker>
+                  <p>Ein weiser Vogel, ein Philosophenvogel.</p>
+               </sp>
+               <pb n="74" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_074.jpg"/>
+               <sp>
+                  <speaker>Zuschauer 4</speaker>
+                  <p>Ein possierlicher Vogel, ein Hanswurstenvogel!</p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 1</speaker>
+                  <p>Welch erhabene Geschichten er erzählt, ich bin begeistert.</p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 2</speaker>
+                  <p>Welch rührende Schicksale, ich bin in Tränen.</p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 3</speaker>
+                  <p>Welche tiefe Offenbarungen, ich bin im Forschen.</p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 4</speaker>
+                  <p>Was für närrische Märchen, ich möcht mich totlachen.</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Croyez m'en</foreign> ; nix als Wahrheit, <foreign xml:lang="fra">c'est la
+                                verité toute pure.</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 1</speaker>
+                  <p>Die Wahrheit ist immer die Sprache des Helden,</p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 2</speaker>
+                  <p>des Unglücklichen,</p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 3</speaker>
+                  <p>des Weltweisen,</p>
+               </sp>
+               <sp>
+                  <speaker>Zuschauer 4</speaker>
+                  <p>des Narren! Kinder und Narren sprechen die Wahrheit. Ach geh doch weg! Du
+                            bist ja dem närrischen Kerl sein Bruder; wer wird dir dann was
+                            glauben?</p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <stage type="pers">(stürzt herein)</stage>
+                  <p>Platz! Platz da! Platz! Da kömmt was Anderes. Hier habe ich das
+                            Todesurteil, den Berhaftbefehl und alles mit einander.</p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>So? Woher so geschwind, woher damit?</p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Allerhöchsten Ortes, aus dem babylonischen Turm. Ihre Exzellenz der
+                            Präsident, Geheimerath Unsinn, haben es selber verfasst und eigenpfotig
+                            unterschrieben, und es lautet sehr schön also:</p>
+                  <p>„Nachdem es den allerhöchst weisen Bemühungen sämtlicher vereinigten
+                            allerhöchst großen und allerhöchst kleinen Autoritäten endlich gelungen
+                            ist, den über das Kontinent fast Herr gewordenen Revolutionsgeist
+                            Sauteauciel <pb n="75" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_075.jpg"/> mit allerhöchster Anstrengung
+                            allerwärts zu vertreiben, ja seiner sogar mit allerhöchsten Unkosten in
+                            Person habhaft zu werden; auch derselbe bereits auf die Insel Helena in
+                            unbezweiselte sichere Verwahrung wirklich gebracht worden ist, kann man
+                            nicht anders als mit allerhöchstem Missfallen ersehen haben, dass fich
+                            derselbe demungeachtet nicht nur im Herzen des Landes aufhält, sondern
+                            auch, wo er doch als vogelfrei erklärt worden, sich als Freiheitsvogel
+                            dem Volke zu zeigen, keinen Anstand zu nehmen so frech zu sein kein
+                            Bedenken zu tragen sich unterfängt. - Da man nun mit allerhöchster
+                            Weisheit erwogen hat, wie es gegen alles Natur- und Völkerrecht sei,
+                            sich namentlich insbesondere als Staatsgefangener an mehreren Orten
+                            zugleich und zwar in Freiheit zu befinden; so beschließen wir hierdurch
+                            und haben bereits beschlossen wie folgt:</p>
+                  <p>ERSTENS Den erwähnten Vogelfrei zur gerechten Strafe seiner verübten oder
+                            noch zu verübenden verderblichen Verbrechen und zu Vermeidung alles
+                            ferneren Unglücks mit Beiseitsetzung ja Annullierung aller Ansprüche auf
+                            die Brand-Assekuranztasse, durch das Feuer vom Leben zum Tode zu
+                            bringen.</p>
+                  <p>ZWEITENS Ein wiewohl überflüssiges, jedoch standrechtliches Berhör mit
+                            demselben vorzunehmen.</p>
+                  <p>DRITTENS Sich seiner auf allen Wegen und mit Einschlagung aller Mittel zu
+                            bemächtigen und desselben habhaft zu machen.</p>
+                  <p>VIERTENS Ihn, falls er wider Vermuthen unschuldig befunden werden sollte, 
+                            alsogleich auf freien-Fuß zu stellen, und endlich.</p>
+                  <p>FÜNFTENS Ihn, falls sich, noch mehr und wider gar Alles Vermuthen, große
+                            Verdienste bei ihm finden sollten, zu würdigender Anerkennung,
+                            gebührender Belohnung und <pb n="76" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_076.jpg"/> allenfallsiger
+                            Dekoration mit dem großen Kreuze vom Irrlicht, oder dem kleinern vom
+                            Speckmaus-Orden in motivierten Vorschlag zu bringen. </p>
+                  <p>Gegeben im Traumsaal der babylonischen Wirtschaft.</p>
+                  <lg>
+                     <l>Unsinn, Präsident.</l>
+                     <l>Fingerlos, Sekretär.“</l>
+                  </lg>
+                  <p>Also! Habt es Ihr gehört? Also, schreiten wir zur Vollziehung. -Fürs Erste
+                            wird er verbrannt, -dann verhört, -dann</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>Ik protestir, -omkekehr, omkekehr: ehrs veröhr! </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Nein! Erst verbrannt.</p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Nein! Erst verhört! Wir wollen erst noch was hören; er soll verhört
+                            werden!</p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Nun in Gottes Namen! Aber Sie werden sehen, was für Lügen der
+                            unverschämte Vogel vorbringen wird.</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>Ik sein innocent; ik bin eine kute Vokel. -War si Alles nur Spahs. -Werd
+                            si dok verstehe Spahs.</p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Still! Und antworte. -Vogel! Was ist dein Vaterland? </p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>Ik bin so ehpen ahnkekomme, ihr Männer, aus Sarastro's Reik.</p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Hört Ihr die Lügen?</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>Ik werd stell Seuk!</p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Weiter! Wie heißt du und wer bist du?</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <lg>
+                     <l>Deher Papakeno bin ik ja </l>
+                     <l>Dideldudeli ja! Ja!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Hört Ihr den Lügner!</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>Ik 'ab Seuk!</p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Welche Geschäfte und geheime Absichten haben dich hierher geführt?</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <lg>
+                     <l>Ain Mädchen oder Uaibchen</l>
+                     <l>Wünscht Papakeno sik.</l>
+                  </lg>
+               </sp>
+               <pb n="77" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_077.jpg"/>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Bravo ! Bravo !</foreign> -O so ein süßes Täubchen, wär
+                            Seligkeit für mich! Dudeli ja! Ja! Dudeli ja! Ja! </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Unerhörter Verführer! Du lügst. </p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>Ik 'ab Seuk. </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>Wer ist's, der für dich zeugt. </p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>Hier diese 'Err! Laß Sie sprecke diese 'Err. </p>
+               </sp>
+               <sp>
+                  <speaker>Herr Pf...r</speaker>
+                  <p>Ja, allerdings! Ich wiederhole: wenn es wahr ist, dass man den Vogel an
+                            seinen Federn erkennt, so ist dieses der wahre Freiheitsvogel nicht,
+                            sondern Papageno aus dem Geschlechte Schikaneder und Mozart, womit auch
+                            sein Gesang übereinstimmt. </p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Ja! Ja, es ist unser lieber Papageno, unser Spaßvogel. Vivat! Vivat! Er
+                            soll leben; wir wollen ihn im Triumph herumtragen. </p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>O unglückliches Ereignis, das Volk hängt ihm an; der Sturz des Staates
+                            steht bevor! </p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <lg>
+                     <l>Das klingelt so herrlich,</l>
+                     <l>Das klingelt so schön! </l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>So hab ich all mein Lebetag nichts g'hört noch gesehn! Komm mit, edler
+                            Vogel, lieber Freiheitsvogel, tanz! Du sollst tanzen. </p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Oh mon dieu oui ! Mais ma foi ! j’ai l’appetit d'un levrier de
+                                douane.</foreign> -It ‘ab nix kekeß seit di
+                                <foreign xml:lang="fra">Courante</foreign> von<foreign xml:lang="fra"> Moscau</foreign>.</p>
+                  <lg>
+                     <l>Eh' ich der Mühe</l>
+                     <l>Mich unterziehe.</l>
+                     <l>Gib mir ein Frühstück!</l>
+                     <l>Gib mir ein Frühstück!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Ja, ja! Gebt ihm was zu fressen. Was willst du <pb n="78" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_078.jpg"/>
+                            fressen, lieber Vogel! Willst du ein Stück westphälischen Schinken mit
+                            Pumpernickel?</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Fidonc ! Cela me donnerait une indigestion !</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Englischen Käse?</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Ah cela m'est trop piquant.</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Ein Glas spanischen Wein mit Pfefferkuchen?</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Non ! Cela m'est trop échauffant !</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Russischen Marzipan mit Eis?</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Non ! Cela me ferait mourir de froid.</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Ein Dutzend Leipziger Lerchen! Das wär was!</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Ah cela me ferait vomir !</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Nun was ist dann dein gewöhnlicher Fraß? Was speisest du am liebsten?</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>Große Land, Geld -un Mensch <foreign xml:lang="fra">-oui,</foreign> das schmeck mi di
+                            best!</p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Wa-wa-wa-wa-wahs! Do bitt i gar schön; das is ja a verfluchter Appetit:
+                            -Große Länder -Geld -und Menschen? Und was machst du denn danach?</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>Groß Verspreckung, Red‘ und <foreign xml:lang="fra">Proclamations</foreign>!</p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Fort mit dem Vogel; fort! Zum Feuer mit dem Vogel; ein abscheulicher
+                            Vogel!</p>
+               </sp>
+               <sp>
+                  <speaker>Sir John</speaker>
+                  <p>
+                     <foreign xml:lang="eng">Blessed by God!</foreign> Kommt Ihr endlich zu Verstand, ja nur
+                            fort mit ihm, so geschwind als möglich!</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Mais mon dieu ! Écoutez donc !</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Nichts Kuttedon, Geldfresser -Menschenfresser -Länderfresser! nichts kuttedon;
+                            fort! Fort! Zum Feuer!</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>Ik werd mi abkewöhn, <foreign xml:lang="fra">parole d'honneur</foreign> ! Abkewöhn.</p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Fort! Versprechungmacher -Redenmacher -Proklamationenmacher! <stage type="corps">(Tragen ihn ab.)</stage>
+                  </p>
+               </sp>
+               <stage type="saut">Ende des vierten Aktes.</stage>
+            </div>
+         </div>
+         <div type="1">
+            <head type="acte" n="5">Aufzug 5</head>
+            <stage type="saut">Das Transparent stellt unten Erde, oben den Himmel vor, welche
+                    durch einen Streifen Wolken unterschieden werden. Unten in Mitte der Szene sieht
+                    man den Vogel an einem Spieß über dem Feuer.</stage>
+            <div type="3">
+               <head type="scene" n="1">Auftritt 1</head>
+               <listPerson>
+                  <personGrp>
+                     <name>Volk </name>
+                     <stage type="pers">und</stage>
+                     <name> Vogel </name>
+                     <stage type="pers">am Spieß und Feuer darunter.</stage>
+                  </personGrp>
+               </listPerson>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <stage type="pers">(singt)</stage>
+                  <lg>
+                     <l>Brate Vogel, brate!</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Mais ! C'est une cérémonie très échauffante cela !</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Es ist um dich nicht schade!</p>
+               </sp>
+               <sp>
+                  <speaker>Vogel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">C’est un climat d’Égypte ! Mais je crèverai de
+                                chaleur.</foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <lg>
+                     <l>Nur krepier!</l>
+                     <l>Solche Gier,</l>
+                     <l>Können wir nicht brauchen hier!</l>
+                  </lg>
+                  <p>Mehr Feuer unter den Geldfresser zugeschürt! Mehr Feuer unter den
+                            Menschenfresser.</p>
+                  <stage type="saut">Sie schüren das Feuer, der Vogel platzt; Sauteauciel
+                            springt heraus zunächst auf die Wolke, von wo er spricht.</stage>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Ah malheureux ! Vous ne saviez donc pas, que j'ai eu le secret
+                                de l’incombustible. Isidor Rocher ? Allez adieu ! Adieu, à jamais !
+                                Je m’en saute au ciel.</foreign>
+                     <stage>(Verschwindet in der Wolke.)</stage>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Was ist das? Er ist fort! Wo ist er hin? Sie sehen ihm durch Fernrohre
+                            nach.</p>
+               </sp>
+               <sp>
+                  <speaker>Erster Zuschauer</speaker>
+                  <p>Da seh ich einen großen Bären am Himmel, ob er das ist?</p>
+               </sp>
+               <pb n="80" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_080.jpg"/>
+               <pb n="81" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_081.jpg"/>
+               <sp>
+                  <speaker>Herr Pf...r</speaker>
+                  <p>Nein, das ist das Siebengestirn.</p>
+               </sp>
+               <sp>
+                  <speaker>Zweiter Zuschauer</speaker>
+                  <p>Ich sehe einen Wassermann, das wird er sein.</p>
+               </sp>
+               <sp>
+                  <speaker>Herr Pf...r</speaker>
+                  <p>Das ist ein Gestirn des Tierkreises.</p>
+               </sp>
+               <sp>
+                  <speaker>Dritter Zuschauer</speaker>
+                  <p>Ein Adler! Ein Adler, das ist er!</p>
+               </sp>
+               <sp>
+                  <speaker>Herr Pf...r</speaker>
+                  <p>Beware! Das ist ein Sternbild am nördlichen Himmel mit dem Atair einem
+                            Stern erster Größe. </p>
+               </sp>
+            </div>
+            <div type="3">
+               <head type="scene" n="2">Auftritt 2</head>
+               <listPerson>
+                  <personGrp>
+                     <name>Vorige; </name>
+                     <stage type="pers">später</stage>
+                     <name> der Teufel.</name>
+                  </personGrp>
+               </listPerson>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <stage type="pers">(erscheint mit einem neuen Sprung im Himmel)</stage>
+                  <p>
+                     <foreign xml:lang="fra">Ah que c’est joli ici ! Qu’il-y-a de l’empire ! Mais point de
+                                sujets !! -Pardieu ! </foreign>Der Immel is sik leer wie ein
+                                <foreign xml:lang="fra">Désert </foreign>; un ‘ab sik dok dahin keschik so viele
+                            Leut! Un is fik nit su sehn ein ansik von meine Unterdan!</p>
+               </sp>
+               <stage type="saut">Währenddem tritt im Himmel auf der Teufel.</stage>
+               <sp>
+                  <speaker>Der Teufel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Bonjour Camarade! Es-tu là ? Sois le bienvenu ! </foreign>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Mais bonjour monsieur Diable !</foreign> Wie komm Si dann hier
+                            in di Immel! Ik dak Ihr Hôtel wär<foreign xml:lang="fra"> dans l'abyme des enfers !
+                            </foreign></p>
+               </sp>
+               <sp>
+                  <speaker>Teufel</speaker>
+                  <p>Ein Narr! Seit die Welt verkehrt ist, hat sich Alles herumgedreht. Das
+                            Oberst‘ ist zu Unterst' und das Unterst' ist zu Oberst' gekommen.</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p><foreign xml:lang="fra">Charmant ! Mais pourquoi vos états sont-ils si dépeuplés ?
+                                Est-ce défaut du gouvernement ou de l’administration ? Où sont donc
+                                vos sujets ? L'armée, le clergé, la police, la bourgeoisie,
+                                comerçants, industriels, ouvriers, paysans </foreign>?</p>
+               </sp>
+               <pb n="82" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_082.jpg"/>
+               <pb n="83" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_083.jpg"/>
+               <sp>
+                  <speaker>Teufel</speaker>
+                  <p>Ach! Seitdem du alle Sünd auf dich genommen hast, sind alle übrigen
+                            Sünder frei gegeben. Seitdem du als Sündenbock gebraten worden, sind
+                            alle erlöst. </p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>
+                     <foreign xml:lang="fra">Mais fi donc ! Il faut réparer ça. </foreign>Ik werd sik werb'
+                            neu <foreign xml:lang="fra">partisans.</foreign>
+                     <stage type="corps">(schreit hinunter:)</stage>
+                     <foreign xml:lang="fra">Ah mes amis, ah qu’il fait beau ici !</foreign> Nix als Milk
+                            und Onik! <foreign xml:lang="fra">-Suivez moi, mes amis, suivez moi ! </foreign><stage type="corps">(singt)</stage>
+                  </p>
+                  <lg>
+                     <l>In diesen heiligen Hallen</l>
+                     <l>Kennt man die Rache nicht,</l>
+                     <l>Und ist ein Mensch gefallen</l>
+                     <l>Führt Liebe ihn zur Pflicht und so weiter.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Er singt, er ist im Himmel; er ist heilig; ja, er ist im Himmel.</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>Nun sprint si ‘erauf! Sprink si! Sprink si‘ erauf!</p>
+               </sp>
+               <sp>
+                  <speaker>Volk</speaker>
+                  <p>Ja, ja wir wollen zu ihm -wir wollen auch Milch und Honig. <stage type="corps">(Allgemeines vergebliches in die Höh‘ hüpfen und
+                                Springen.)</stage> Ach! wir können nicht, edler Vogel, wir vermögens
+                            nicht, der Himmel ist uns zu hoch.</p>
+               </sp>
+               <sp>
+                  <speaker>Sauteauciel</speaker>
+                  <p>Wart! Wart! Ik schik si ‘inunder di Immelsleiter.<stage type="corps">(Er läßt des Teufels langen Schweif hinab; sie hängen
+                            sich Alle dran und werden unter großem Jubel aufgezogen.)</stage>
+                  </p>
+                  <stage type="saut">Der Verfasser zeigt auf dem Transparente seinen Kopf im
+                            Scattenritß und sagt:</stage>
+                  <p>DAS SPIEL IST AUS: Was ist die Moral davon?</p>
+                  <stage type="saut">Der Vorhang fällt.</stage>
+                  <stage type="saut">Nach kurzer Pause hebt er sich wieder bis zur Hälfte und es
+                            zeigt sich Epilogus.</stage>
+               </sp>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="1">
+            <pb n="84" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_084.jpg"/>
+            <head type="acte">Epilog</head>
+            <head type="scene">Epilog: Was ist die Moral davon?</head>
+            <lg>
+               <l>Ihrer Zeiten Triller dreht </l>
+               <l>Nun die Welt, so lang sie steht,</l>
+               <l>Fand indeß zur Stunde noch</l>
+               <l>Für die Freiheit nicht das Loch.</l>
+               <l>Und es läuft das Erdenkind</l>
+               <l>In der Schlange Labyrinth</l>
+               <l>Fort und fort und -bleibet blind.</l>
+            </lg>
+            <lg>
+               <l>Sieht nicht wie es ganz umspangt</l>
+               <l>Das Gesuchte nie erlangt,</l>
+               <l>Und -dass unter seinem Fuß</l>
+               <l>Neu stets Altes kommen muß.</l>
+               <l>Weil der Hujus Säkli Geist,</l>
+               <l>Der bekanntlich Schlange heißt,</l>
+               <l>Selber in den Schwanz sich beißt.</l>
+            </lg>
+            <lg>
+               <l>Schon sechstausend Jahre sind</l>
+               <l>Abgehaspelt, Erdenkind!</l>
+               <l>Willst denn ewig haspeln du?</l>
+               <l>O steh ab! und gönn dir Ruh!</l>
+               <pb n="85" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_085.jpg"/>
+               <l>Hasple noch so lang und viel,</l>
+               <l>Unerreichbar bleibt das Ziel,</l>
+               <l>Und du selbst - der Schlange Spiel.</l>
+            </lg>
+            <lg>
+               <l>Ja! so lang ihr Fürst die Welt</l>
+               <l>Sich verlobt im Ringe hält,</l>
+               <l>Heiße König, heiße Knecht,</l>
+               <l>Steht's um deine Freiheit schlecht.</l>
+               <l>Und der Bräut'gam lachet laut</l>
+               <l>Dessen, der auf Dauer bau‘t,</l>
+               <l>Denn -Frau Babel heißt die Braut.</l>
+            </lg>
+            <lg>
+               <l>Morgen liegt zu Unterst gar,</l>
+               <l>Was noch heut' hoch oben war.</l>
+               <l>Aus der Schlange böser Macht,</l>
+               <l>Aus des Kerkers finstrer Nacht,</l>
+               <l>Aus dem Triller dieser Zeit,</l>
+               <l>Aus der Zeiten Noth und Streit,</l>
+               <l>Ist nur Einer, der befrei't.</l>
+            </lg>
+            <lg>
+               <l>Schmal den Weg, und eng die Pfort'</l>
+               <l>Nenn't der ew'gen Wahrheit Wort,</l>
+               <l>Und du findest keine Thür, </l>
+               <l>Die dich aus dem Käfig führ';</l>
+               <l>Suche nahe, suche fern,</l>
+               <l>Als die dir des Glaubens Stern</l>
+               <l>Zeigt, -die Wundenpfort des Herrn.</l>
+            </lg>
+            <p>Dieß des Scherzes ernster Kern.</p>
+         </div>
+         <pb n="86" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_086.jpg"/>
+         <div type="1">
+            <head type="acte">Anhang</head>
+            <stage type="saut">Denjenigen, welche die Erzählung Sauteauciel's S. 66-69, worin
+                    sich die satyrische Bedeutung der Scenen enthüllet findet lieber deutsch läsen,
+                    diene folgende Übersetzung:</stage>
+            <sp>
+               <speaker>Sauteauciel</speaker>
+               <stage type="pers">(aus dem Vogel)</stage>
+               <lg>
+                  <l>Von meinem Unglücksstern</l>
+                  <l>Historiam zu hör'n,</l>
+                  <l>Lasst Damen euch und Herrn,</l>
+                  <l>So lieb euch Gott, nicht stör'n.</l>
+               </lg>
+               <lg>
+                  <l>Ich war ein großer Held,</l>
+                  <l>Vollbrachte große Stück‘,</l>
+                  <l>Sprang rüstig aller Welt,</l>
+                  <l>Mein' Treu, auf Kopf und G'nick.</l>
+               </lg>
+               <lg>
+                  <l>Da war -ah! -eine Dam‘, -</l>
+                  <l>Heiß strebt mein Herz nah ihr,</l>
+                  <l>Die bracht' mir Leid und Gram,</l>
+                  <l>Ward Unglücksquelle mir.</l>
+               </lg>
+               <lg>
+                  <l>Frau Continent fürwahr</l>
+                  <l>Schien mir so hold und lieb,</l>
+                  <l>Dass ihrer ganz und gar</l>
+                  <l>Ich Meister werden wollt‘.</l>
+               </lg>
+               <lg>
+                  <l>Doch weh! ihr reicht ein Ruß,</l>
+                  <l>Der Bären Fürst die Hand,</l>
+                  <l>Trotz allen Siegen muß</l>
+                  <l>Erliegen ich mit Schand.</l>
+                  <pb n="87" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_087.jpg"/>
+                  <l>Denn in dem Augenblick,</l>
+                  <l>Daß meinen Augen sich</l>
+                  <l>Entschieden zeigt mein Glück, </l>
+                  <l>Packt man von hinten mich.</l>
+               </lg>
+               <lg>
+                  <l>Und in ein Eisgewand</l>
+                  <l>Sah ich mich eingezwängt;</l>
+                  <l>O Heldenmuth! wo fand </l>
+                  <l>Man herb'res Loos verhängt?</l>
+               </lg>
+               <lg>
+                  <l>Mich fuchtelnd vor sich her</l>
+                  <l>Trieb man, und weltbekannt</l>
+                  <l>Mußt' tanzen ich als Bär</l>
+                  <l>Von Moskau die Courant‘.</l>
+               </lg>
+               <lg>
+                  <l><foreign xml:lang="fra">Chassé Passé</foreign> zum Rhein</l>
+                  <l>Von Leipzig nach Paris</l>
+                  <l>Und was honett wollt sein,</l>
+                  <l>Voll Hohn den Marsch mir blies.</l>
+               </lg>
+               <lg>
+                  <l>Von Elba jetzt den Sprung -!</l>
+                  <l>O Welt! es setzt sein Glück</l>
+                  <l>Dich in Verwunderung,</l>
+                  <l>Mich nach Paris zurück.</l>
+               </lg>
+               <lg>
+                  <l>Doch, weh! die Freud‘ ist kurz,</l>
+                  <l>Der sieben Schwaben Speer</l>
+                  <l>Rück't schon zu meinem Sturz</l>
+                  <l>Auf's Neue grimmig her.</l>
+               </lg>
+               <lg>
+                  <l>Kurz, Madame Continent</l>
+                  <l>Braut's mir so bunt und kraus,</l>
+                  <l>Dass flüchtig ich am End.</l>
+                  <l>Nicht weiß, wo ein noch aus.</l>
+                  <pb n="88" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_088.jpg"/>
+                  <l>Doch eh‘ mir ganz erlosch</l>
+                  <l>Von Hoffnung die Idee,</l>
+                  <l>Hüpft sie vor mir als Frosch</l>
+                  <l>Und locket mich zur See. </l>
+               </lg>
+               <lg>
+                  <l>Wo mich ein Netz umschlang</l>
+                  <l>Und fuchtelnde Gewalt</l>
+                  <l>Mich -ach! zu tucken zwang</l>
+                  <l>In trauriger Gestalt.</l>
+               </lg>
+               <lg>
+                  <l>Ich musst‘, ist es nicht Schand?</l>
+                  <l>John Bull zu divertir'n,</l>
+                  <l>Auf dem Northumberland</l>
+                  <l>Als Seelöwe figurir'n. </l>
+               </lg>
+               <lg>
+                  <l>Und nach St. Helena</l>
+                  <l>Hat man mich fortgeschickt,</l>
+                  <l>Wähnt mich, der Hölle nah,</l>
+                  <l>Nun weit genug entrückt.</l>
+               </lg>
+               <lg>
+                  <l>Doch ist alldort von mir</l>
+                  <l>Nur caput mortuum; -</l>
+                  <l>Glaubt fest: mein Geist ist hier,</l>
+                  <l>Spukt in dem Vogel um.</l>
+               </lg>
+            </sp>
+            <pb n="89" facs="20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN_089.jpg"/>
+         </div>
+      </back>
+   </text>
+</TEI>

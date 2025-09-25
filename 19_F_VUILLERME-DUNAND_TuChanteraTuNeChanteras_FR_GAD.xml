@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style-xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="https://puppetplays.eu/en/oeuvres/168267/tu-chanteras-tu-ne-chanteras">Tu chanteras, tu ne chanteras</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="PM">Pierre Massinon</name>
+          <resp>Transcription and edition</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor/>
+        <availability status="free">
+          <licence>Public domain</licence>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>The hero is stuck between two contradictory orders</note>
+        <note>Known under different titles (Tu chanteras, tu ne chanteras
+          pas; Chantera, chantera pas…), this play is one of the
+          classical Guignol texts. It is a part of the second installment of the
+          Théâtre lyonnais de Guignol (The Guignol theatre from Lyon) published
+          by Jean-Baptiste Onofrio in 1870, a collection of the plays written by Laurent
+          Mourguet (1769-1844), the creator of Guignol, or by his descendants. Onofrio
+          introduces the play as a farcical sketch that the troupe performed before the main
+          show, as an introduction. The version described here is that of
+          the oldest known manuscript, kept in the Musée Gadagne of Lyon in the funds Léopold
+          Dor. It bears the initials of the Rhône subprefecture in Villefranche-sur-Saône,
+          dated from December 11th, 1852. Victor-Napoléon Vuillerme Dunand wrote « author »
+          next to his signature, as he did on every manuscript submitted to the subprefecture
+          so that he could be allowed to perform them - but they are actually older texts, in
+          the repertoire of the troupe of Laurent Mourguet’s descendants. It is impossible to
+          determine when they were first played. Here, we only have the plot
+          outlines with the principal lines and the stage directions. Comparisons with the
+          versions published by Onofrio in 1870 or Gaston Baty in 1934 show how the play
+          developed: running gags were emphasised, and actions were shortened and
+          justified.</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>Not specified</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>Collection Musées Gadagne - Ville de Lyon</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 3</p>
+                <p>Number of acts in the original document: 1</p>
+                <p>Format of the original document: Handwritten outline</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main">Tu chanteras, tu ne chanteras</title>
+          <date>First half of the 19th century</date>
+          <author>
+            <persName>Vuillerme-Dunand Victor-Napoléon</persName>
+            <idno type="IDREF">188286276</idno>
+          </author>
+          
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra">French</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques">
+          <term source="https://puppetplays.eu/en/techniques-d-animation/521/glove-puppets">Glove-puppet</term>
+        </keywords>
+        <keywords source="literaryTones">
+          <term/>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Running gag</term>
+          <term>Song</term>
+          <term>Dilemma</term>
+          <term>Blow-with-a-stick</term>
+        </keywords>
+        <keywords source="genre">
+          <term>null</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Noise</term>
+          <term>Illness</term>
+          <term>Contradiction</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+          Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+          re-evaluate the contribution of the puppets repertoire to the construction of
+          European cultural identity. Its main goals is to collect a corpus of
+          representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+          France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+          17th and the 21th century. It also tries to identify the characteristics of
+          puppet dramaturgy and their variations depending on eras, cultural spheres,
+          producing conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+          Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+          build upon the material in any medium or format for non-commercial purposes
+          only, and only so long as attribution is given to the creator. If you remix,
+          adapt, or build upon the material, you must license the modified material under
+          identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2024-06-01" who="#PM">Text transcription.</change>
+      <change when-iso="2025-04-29" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="5" facs="19_F_VUILLERME-DUNAND_LaParisienne_FR_GAD_005.jpg"/>
+      <docAuthor>
+        <persName>Victor-Napoléon Vuillerme-Dunand</persName>
+      </docAuthor>
+      <docTitle>
+        <titlePart type="main">Tu chanteras tu ne chanteras</titlePart>
+      </docTitle>
+      <docDate>Première moitié du 19e siècle</docDate>
+      <castList>
+        <head type="personnage">[Personnages</head>
+        <castItem>
+          <role>Le docteur,</role>
+        </castItem>
+        <castItem>
+          <role>Caporal,</role>
+        </castItem>
+        <castItem>
+          <role>Le militaire,</role>
+        </castItem>
+        <castItem>
+          <role>Guignol]</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="3">
+        <head type="scene">[Scène 1]</head>
+        <sp>
+          <speaker>Le docteur</speaker>
+          <p>Oui mon cher ami, je vous le répète, le moindre bruit peut la mettre en danger.
+                  [Vous êtes]. Veillez-y !</p>
+        </sp>
+        <sp>
+          <speaker>Caporal</speaker>
+          <p>Soyez tranquille chère Poupoule, je vais prévenir mon domestique de veiller à ce
+                  que personne ne chante ou crie sur le place.</p>
+        </sp>
+        <stage type="saut">Ils sortent.</stage>
+      </div>
+      <div type="3">
+        <head type="scene">[Scène 2]</head>
+        <sp>
+          <speaker>Le militaire</speaker>
+          <p>En avant, marche bataillon. J'ai sauté quand jai revu tonton et le chemin ne m'a
+                  pas semblé long. Il me reste encore deux lieux à faire pour embrasser ma bonne
+                  mère et mes deux petites soeurs. Entrons là chez père Bajason.</p>
+        </sp>
+        <stage type="saut">Il sort.</stage>
+      </div>
+      <div type="3">
+        <head type="scene">Scène 3</head>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Adieu, vieux grigoux, vieille asperge montée, vieux rossignol à gland. C'est vrai
+                  ça, il me dit ce matin "Guignol apporte moi ma tasse tout de suite et je lui monte
+                  sans faite". Attention un vieux pot de confiture, il croit que c'est pour me
+                  moquer de lui, il me fait mon compte et me v'la sans le pavé ! Mais comme dit mon
+                  bourgeaois quand j'ai de l'argent, je chante pour n'être pas triste, quand j'ai
+                  pas le sous, je chante parce que je suis gay. <stage type="corps">(bis)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Le militaire</speaker>
+          <p>Tu chantes très bien l'ami et pour te récompenser, tiens voici cinq francs mais à
+                  condition <pb n="6" facs="19_F_VUILLERME-DUNAND_LaParisienne_FR_GAD_006.jpg"/>que
+                  tu chantes devant cette auberge le temps que j'y resterai, tu boiras tant que tu
+                  voudras.</p>
+          <stage type="saut">Il sort.</stage>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Qu'est-ce que je vas donc lui canter. Ah ! Malbrough s'en vas s'en guerre mironton
+                  mirontaine.</p>
+        </sp>
+        <sp>
+          <speaker>Cadet</speaker>
+          <p>Eh dites donc l'ami, taisez-vous, il y a quelqu'un de malade. </p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>D'abord ça vous regarde pas, on me paye pour chanter, je chanterai !</p>
+        </sp>
+        <sp>
+          <speaker>Cadet</speaker>
+          <p>Ah ! L'on vous paye et combien vous donne-t-on ? </p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Cent sous.</p>
+        </sp>
+        <sp>
+          <speaker>Cadet</speaker>
+          <p>Voici dix francs et taisez-vous sans cela vous aurez affaire à moi !</p>
+        </sp>
+        <stage type="saut">Il sort.</stage>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>À la bonne heure, il y en a tant qui me paye pour travailler, celui là me paye
+                  pour rien faire. Je veux pas lui voler son argent.</p>
+        </sp>
+        <stage type="saut">Il se couche.</stage>
+        <sp>
+          <speaker>Le militaire</speaker>
+          <p>Comment il dort ? je vais te réveiller. <stage type="corps">(Il sort et rentre
+                     avec un baton.)</stage> Garde à vous peloton ! Arme, joue, feu ! <stage type="corps">(Il le frappe.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>T'as appuyé trop fort sur la cachette imbécile !</p>
+        </sp>
+        <sp>
+          <speaker>Le militaire</speaker>
+          <p>Je t'ai payé pour chanter, tu chanteras !</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Oui, qu'est-ce qui me ferait l'amitié de me dire ce qui se passe dans mon individu
+                  depuis <pb n="7" facs="19_F_VUILLERME-DUNAND_LaParisienne_FR_GAD_007.jpg"/>huit
+                  mois, je gémit, je soupire. Qu'est-ce qui se passe dans mon individu ?</p>
+        </sp>
+        <sp>
+          <speaker>Cadet</speaker>
+          <stage type="pers">(Il vient doucement, regarde, sort et revient avec un
+                  baton.)</stage>
+          <p>Tiens ! <stage type="corps">(Il le frappe.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Il m'a coupé le souffle.</p>
+        </sp>
+        <sp>
+          <speaker>Le militaire</speaker>
+          <p>Chante ! </p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Est-ce que vous prenez ma tête pour un enclume ?</p>
+        </sp>
+        <stage type="saut">Guignol se revenge et les frappe à son tour.</stage>
+        <sp>
+          <speaker>Le militaire</speaker>
+          <p>Je suis content de toi, tu t'es bien défendu. Mon village est à deux lieues d'ici,
+                  viens chez nous, tu seras le bienvenu là. Personne ne t'empecheras de chanter.
+               </p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Vous êtes un bon graçon, militaire. Soyez tranquille, je vous amuserai ! Partons,
+                  militaire et vous verrez que vous ne serez pas faché.</p>
+        </sp>
+        <stage type="saut">Ils partent.</stage>
+      </div>
+      <div type="5">
+        <head type="div5">Fin</head>
+      </div>
+    </body>
+  </text>
+</TEI>

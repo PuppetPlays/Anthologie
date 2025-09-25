@@ -1,0 +1,1978 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="https://puppetplays.eu/oeuvres/230850/thors-hammer">Thors Hammer</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Transcription and edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="JB">Jean Boutan</name>
+          <name xml:id="AM">Anaïs Malfatti</name>
+          <resp>Transcription and edition</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor/>
+        <availability status="restricted">
+          <p>null</p>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>Un dieu se travestit pour sauver son royaume</note>
+        <note>Quand il ouvre au public en 1907 son théâtre d’ombres dans le quartier
+          artistique de Schwabing, Alexander von Bernus veut proposer une nouvelle forme d’art
+          dont il revendique la filiation romantique et qui, distincte des spectacles du Chat
+          Noir à Paris, exploiterait davantage l’immatérialité de l’ombre pour s’aventurer sur
+          les terres de l’âme et du rêve. Le mysticisme prégnant dans les cercles
+          intellectuels et artistiques munichois au début du 20e siècle n’est pas étranger à
+          ce projet visant « l'union la plus métaphysique de l'image, de la poésie et de la
+          musique.» Autour d’Alexander von Bernus, Karl Wolfskehl, avec l’illustrateur Rolf
+          von Hoerschelmann, fait partie des co-fondateurs des Schwabinger
+          Schattenspiele ; une de ses pièces, Wolfdietrich und die Rauhe
+          Els, figure au programme d’inauguration du théâtre. Karl
+          Wolfskehl écrit trois pièces pour les Schwabinger Schattenspiele.
+          Celles-ci se distinguent des pièces oniriques d’Alexander von Bernus par leurs
+          thèmes (le rapport de force entre les sexes notamment) et une atmosphère plus sombre
+          et violente. Les trois pièces sont des adaptations de mythes nordiques ou de contes
+          orientaux. Dans le sillage de l’influente tradition philologie des universités
+          allemandes et de la nouvelle dynamique que connaît l’orientalisme scientifique au
+          début du siècle, Karl Wolfskehl s’intéresse à ces récits avant tout comme érudit et
+          bibliophile. Dans Thors Hammer (Le Marteau de Thor), il reprend « Le
+          Chant de Thrym », un poème de l’Edda poétique (un ensemble de poèmes
+          réunis dans un manuscrit islandais du XIIIe siècle qui est la principale source de
+          connaissances sur la mythologie scandinave). Ce chant raconte le vol du marteau de
+          Thor par le géant Thrym et sa récupération grâce à la ruse des dieux. Entre la fin
+          du 18e et le début du 20ème siècle, il fait l’objet d’une dizaine de traductions en
+          allemand. A partir de ce chant assez bref de trente-deux strophes, Karl Wolfskehl
+          opère un véritable travail de réécriture dramatique, en étoffant le texte initial de
+          dialogues vifs ou de tirades exaltées qui contribuent à l’individualisation des
+          personnages mythologiques. Le choc entre divinités et géants
+          inspire à Emile Preetorius des silhouettes expressives, assez massives et un décor
+          (celui du royaume polaire des géants notamment, avec sa faune et ses blocs glaciers)
+          très suggestif.</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>Non spécifié</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>Münchner Stadtmuseum - Munich, Allemagne, XSCH 54-62</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 45</p>
+                <p>Number of acts in the original document: 4</p>
+                <p>Format of the original document: Imprimé</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main">Thors Hammer</title>
+          <date>1908</date>
+          <author>
+            <persName>Wolfskehl Karl</persName>
+            <idno type="IDREF">029582474</idno>
+          </author>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">Allemand</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques">
+          <term source="https://puppetplays.eu/techniques-d-animation/2440/théâtre-dombres">Théâtre d'ombre</term>
+        </keywords>
+        <keywords source="literaryTones">
+          <term>Comique</term>
+          <term>Burlesque</term>
+          <term>Épique</term>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Mondes opposés</term>
+          <term>Songe</term>
+          <term>Messager</term>
+          <term>Personnage volant</term>
+          <term>Coup de théâtre</term>
+          <term>Travestissement</term>
+          <term>Aparté</term>
+        </keywords>
+        <keywords source="genre">
+          <term>null</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Mythologie scandinave</term>
+          <term>Marteau de Thor</term>
+          <term>Travestissement</term>
+          <term>Banquet</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+          Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+          re-evaluate the contribution of the puppets repertoire to the construction of
+          European cultural identity. Its main goals is to collect a corpus of
+          representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+          France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+          17th and the 21th century. It also tries to identify the characteristics of
+          puppet dramaturgy and their variations depending on eras, cultural spheres,
+          producing conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+          Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+          build upon the material in any medium or format for non-commercial purposes
+          only, and only so long as attribution is given to the creator. If you remix,
+          adapt, or build upon the material, you must license the modified material under
+          identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2025-09-25" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change><change when-iso="2025-04-10" who="#AM">Correction of the previous transcription according to
+        the project's modernisation rules.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="3" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_003.jpg"/>
+      <docAuthor>
+        <persName>Karl Wolfskehl</persName>
+      </docAuthor>
+      <docTitle>
+        <titlePart type="main">Thors hammer Von Karl Wolfstehl</titlePart>
+        <titlePart type="sub">Silhouetten von Emil Breetorius</titlePart>
+      </docTitle>
+      <docDate>1908</docDate>
+      <pb n="5" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_005.jpg"/>
+      <castList>
+        <head type="personnage">[Figuren]</head>
+        <castItem>
+          <role>Thor</role>
+        </castItem>
+        <castItem>
+          <role>Loki</role>
+        </castItem>
+        <castItem>
+          <role>Heidmall</role>
+        </castItem>
+        <castItem>
+          <role>Freia</role>
+        </castItem>
+        <castItem>
+          <role>Der Riese</role>
+        </castItem>
+        <castItem>
+          <role>Bewohner des Riesenreiches</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <pb n="7" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_007.jpg"/>
+      <pb n="9" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_009.jpg"/>
+      <div type="3">
+        <head type="scene" n="1">Szene 1</head>
+        <stage type="saut">Götterberg. Seitlich Haus der Freia.</stage>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Loki, Loki, Hilf mir! Lass mich nicht warten!</l>
+            <l>Hörst du nicht? Eil dich — rat ich dir, sonst schmettert</l>
+            <l>dir mein... ach, die Schmach! Ich muss mich verkriechen.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Was rumorst du, Thor? Mir gellen die Ohren,</l>
+            <l>weil du im ersten Früh-Graun tappst und brüllst.</l>
+            <l>Was treibt dich auf vom Lager und uns mit dir?</l>
+            <l>Noch steht die Nacht im Gewölk... </l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Ich droßle die Nacht.</l>
+            <l>Lag! ich schrei dich Herauf aus dem Meer. Herauf Lag!</l>
+            <l>Meine Schande mach allen offenbar,</l>
+            <l>Göttern und allen Geistern in Luft und Licht.</l>
+            <l>Lag, dem Loki sperr die Liber weit,</l>
+            <l>dass er sieht, was uns die Ruhe stiehlt!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Dass ich sehe, was dich, schreien macht!</l>
+          </lg>
+        </sp>
+        <pb n="10" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_010.jpg"/>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Haft du mich sonst schon schreien hören?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Wettern</l>
+            <l>Hört man dich oft genug! Gedröhn und Losen</l>
+            <l>ist dein Geschick! Wie fährst du dem Sturm in die Flanke!</l>
+            <l>Schneller als Stürme fliegt dein Bocksgespann,</l>
+            <l>schneller als dein Gespann dem...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Willst du schweigen!</l>
+            <l>Sverre die Augen auf, sag ich!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Thor, dein Hammer —</l>
+            <l>Wo ist dein Hammer hin? Leer deine Rauft,</l>
+            <l>die nicht Freund, nicht Feind im der weiten Welt</l>
+            <l>ohne den zuckenden Hammer nimmer sah,</l>
+            <l>ohne den Wahner, den Riesen-Zerschmetterer —</l>
+            <l>ab, wir Götter — mit ihn entfällt unser Reich!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Jammre nicht! Gib mir Rat, wo ist mein Hammer?</l>
+            <l>Du bist Kundig der gewundenen Steige.</l>
+            <l>Winde dich! Schlüpf in Schlund und Höhl und Druse!</l>
+            <l>Such die Wehr mir!</l>
+          </lg>
+        </sp>
+        <pb n="11" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_011.jpg"/>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Thor, dein Hammer fort!</l>
+            <l>Wann kam er dir von der Seite?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Dein dummes Fragen</l>
+            <l>macht mich rasend.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Dann hol dir ihn selbst!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Wart, Frechling!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Waffenlosem Arm steht übel das Drohn.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Grinsen steht dir freilich, Fraßen-Gesicht!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <stage type="pers"> (kommt)</stage>
+          <lg>
+            <l>In der heilgen Mark welch widrig Gezänk</l>
+            <l>früh am Morgen weckt aus mogendem Traum mich?</l>
+          </lg>
+        </sp>
+        <pb n="12" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_012.jpg"/>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Und aus den Armen welches Trauten ?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l part="M">Schmäh-Maul!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Wär ich der Traute!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l part="M">Warte bis zum Weltbrand,</l>
+            <l>willst du Gluten um dich spüren, Narr!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Ist nicht hochgeschworen. Der wärmt uns bald,</l>
+            <l>bald sengt rotes Dämmern die bläulichen Höhn</l>
+            <l>drauf wir Schüßlos stehn.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l part="M">Was heißt das, Thor?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Heut früh - dass ich der Frau mich vertrau - nicht gern springt</l>
+            <l>dir das Wort von der Lippe...</l>
+          </lg>
+        </sp>
+        <pb n="13" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_013.jpg"/>
+        <sp>
+          <speaker>Loki</speaker>
+          <stage type="pers"> (leise)</stage>
+          <lg>
+            <l part="M">Brumms in den Bart!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Würgt mich ein dumpfer Schlummer, so muss es sein</l>
+            <l>wenn der Todeswolf einen im Genick packt</l>
+            <l>und wir verenden, im geifrigen Fang gepreßt...</l>
+            <l>Wollt ich mich wälzen, lag wie ein Stein im Wasser,</l>
+            <l>fühllos wusst ich, dar ich gelähmt und fühllos —</l>
+            <l>nur mein Herz schlug, schlug im die schwarze Stille...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Angstvoll, Thor?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Angstvoll! Jetzt weiß ich, was Angst ist!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l>Hast das Gruseln gelernt?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Mein Hammer! . . . Lacht nur!</l>
+            <l>Als ich, dann endlich den Nachtmahr niedergerungen</l>
+            <l>um mich griff, ihn heimzuzahlen, wach stand,</l>
+            <l>meinen Arm hob, war der Hammer fort!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Also im Schlaf! Das war ein Wunderstück!</l>
+          </lg>
+        </sp>
+        <pb n="14" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_014.jpg"/>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Das mich Stärksten Schmach macht... Ich Gezwerg,</l>
+            <l>bolzenkundig, braucht sich anzuschleichen,</l>
+            <l>kann mich treffen.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l part="M">Uns alle mit dir treffen.</l>
+            <l>Loki, hilf uns zum Hammer!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Blutbund verpflichtet,</l>
+            <l>Loki, Bruder dich!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Dass du schmeicheln kannst, merk' ich.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Lass mich nicht betteln!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Thor, und wenn ich helfe</l>
+            <l>welchen Lohn?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Dass du, den niemand recht traut,</l>
+            <l>bleiben darfst im Götter-Rat!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Und welchen</l>
+            <l>lohn noch?</l>
+          </lg>
+        </sp>
+        <pb n="15" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_015.jpg"/>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Lohn genug, dass ich dich frage.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Mir nicht ganz! Mir scheinet, holde Freia</l>
+            <l>meinen Lohn muss ich mir selber werben,</l>
+            <l>Soldgelockte!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l part="M">Lass dein Geflunker!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Den Hammer</l>
+            <l>hol und tu was du willst!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Es gilt! Beschworen!</l>
+            <l>Freu dich, Thor! Jetzt fahr ich durch die Welt!</l>
+            <l>Wo dein Hammer liegt, erfährt der Kluge.</l>
+            <l>Leih dein Feder-Gewand mir, lächelnde Freia!</l>
+            <l>Durch die Welten schwing ich, späh ich aus,</l>
+            <l>alle Himmel droben, alle unten</l>
+            <l>wühl ich durch und durch. Mehr weiß ich, Götter,</l>
+            <l>wenn ich Wiederkehr . . .</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l part="M">Mein Fluggewand,</l>
+            <l>meiner Schätze besten! — Grinse nicht, Loki!</l>
+          </lg>
+        </sp>
+        <pb n="16" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_016.jpg"/>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Um euer Heil gehts!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Freia, gib das Gewirk ihm!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l>Weil denn Thor will — Komm ins Haus, ich weigre</l>
+            <l>Thor die Bitte nicht; mit dem Falken-Mantel</l>
+            <l>hüll ich dich, Loki.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Lustig nun, ihr Götter!</l>
+            <l>Loki hilft euch unbelohnt, du Freia</l>
+            <l>rauf dein Gelock nicht um mich, ums Zauberhemd nicht,</l>
+            <l>gib mirs schnell!</l>
+          </lg>
+        </sp>
+        <stage type="saut"> (Freia, Loki in Haus.)</stage>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Dass der Schlaue glücklich fahre,</l>
+            <l>bald mit guter Botschaft wiederkehre,</l>
+            <l>eh im Wirbel versinkt, was ich nicht schirme!</l>
+            <l>Leichenlaken verhängen schon die Himmel,</l>
+            <l>in zerflossenen Schwaden steigt ein Dampf</l>
+            <l>um die Götterstadt Hammer! Dunst-Zerteiler —</l>
+            <l>Loki, den Hammer!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <stage type="pers"> (aus der Luft)</stage>
+          <lg>
+            <l part="M">Urlaub nehm ich, Götter!</l>
+            <l>Behaltet gutes Muts! Der Helfer kreist!</l>
+          </lg>
+        </sp>
+        <pb n="17" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_017.jpg"/>
+      </div>
+      <div type="3">
+        <head type="scene" n="2">Szene 2</head>
+        <listPerson>
+          <personGrp>
+            <name>Riese, </name>
+            <name>Eiswelt</name>
+          </personGrp>
+        </listPerson>
+        <stage type="saut"> (Delphine tauchen auf, ein Eisberg mit Robben Schwimmt
+                    vorbei.)</stage>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l>Wohl ist euch, ich sehs, ihr Robben, ihr Wale</l>
+            <l>Schlossen-Tummler, Meister vom Sturm-Geroll,</l>
+            <l>schüttelt dem Meer die Mähne am Felsgerippe,</l>
+            <l>balgt euch, raust, ringt, zerwühlt, zerwühlt!</l>
+            <l>Aufwacht das Riesen-Reich, aufsteht sein Heerbann</l>
+            <l>bald führt der Herr euch zur strahlenden Götter-Stadt,</l>
+            <l>unbeschützter Stadt.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <stage type="pers"> (steht vor dem Riesen)</stage>
+          <lg>
+            <l part="M">Heil, Vogt der Eiswelt!</l>
+            <l>Heil, Riese — kennst mich nicht?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Loki nicht kennen,</l>
+            <l>wem wärs vergönnt!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Du freundlicher Wirt...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Wer rief dich,</l>
+            <l>Du zwischen uns und Göttern und Zwergen schlüpfend,</l>
+            <l>allen verwandt, keinem Genoß ... . Dein Kommen</l>
+            <l>dankt dir schlecht, wer dich lieber entbehrt.</l>
+          </lg>
+        </sp>
+        <pb n="18" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_018.jpg"/>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Für heute</l>
+            <l>Lass mich die Antwort verpassen. Du siehst, hier steh ich</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l>Trocknen Fußes, schweißlos, fuhrst bequem... </l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Trocknen Fußes kommt, wer von Göttern kommt,</l>
+            <l>selber ein Gott ist.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Ein Gott, was treibt dich zu uns dann?</l>
+            <l>War auf Götter: Besuch nicht gefasst…</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Nicht ohne Not</l>
+            <l>schleif' ich auf dem Eisblock die starrende Sohle —</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l>Spürst unier Wehn und Walten ?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Du kluger Ries!</l>
+            <l>Spür euch wohl, wir spüren noch andres Äbel —</l>
+            <l>Rotbeflügelt fahr ich durch die Welt,</l>
+            <l>um der Götter Willen ins Riesen-Land,</l>
+            <l>steh' als Bote vor dir...</l>
+          </lg>
+        </sp>
+        <pb n="19" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_019.jpg"/>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Weit mir heut wohl ist,</l>
+            <l>hör ich die Botschaft. Sprich, wie stehts bei euch?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Schlecht stehts — wie mich, friert!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Das ist Luft der Riesen.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Schlecht steht's bei uns! Ein Rauhreis knirscht durchs Land,</l>
+            <l>unser Glanz verfahlt.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Und euer Gewaltiger,</l>
+            <l>euer Helfer und Hort, der Hammer-Gott?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Hammer-Gott? Den gibts nimmer . . .</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Verließ euch Thor?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Thor ist unter uns, ringt die Hände...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Das Heiß ich</l>
+            <l>ungewohnte Wär! Dem zornfrohen Kriegsmann —</l>
+            <l>Riesen-Schreck hießt ihr ihn, Fels-Trümmerer ihn —</l>
+            <l>dem entfällt der Mut?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Dem Unbewehrten,</l>
+            <l>dem sein Hammer entfiel...</l>
+          </lg>
+        </sp>
+        <pb n="20" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_020.jpg"/>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Mir in den Schoß —</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Du, du hast ihn?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Musst ich's verschwätzen!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Du ihn?</l>
+            <l>Starker Ries, kluger Ries, wirklich?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Hätt' ich's verschwiegen!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Hast du ihn ganz gewusst?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Wird wohl so sein.</l>
+            <l>Mir bracht ein Zwergenfürst das Ding geschleppt,</l>
+            <l>dem euer Thor das ganze Volk zerstampft…</l>
+            <l>Doch der eine war ihm ins Wams gekrochen,</l>
+            <l>hat ihm, wie er schlief, die Waffe gelöst,</l>
+            <l>brach fast unter der Last das Rückenkreuz —</l>
+            <l>schwaches Gewichtel.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Ohne Zwergenbeistand</l>
+            <l>kommt kein Riese zu Glück und Gewinn — ich seh's.</l>
+            <l>Hast du den Hammer wohlvermahrt?</l>
+          </lg>
+        </sp>
+        <pb n="21" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_021.jpg"/>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Den senkt ich</l>
+            <l>lief ins Meer, in Lang und Muschel-Geschiebe.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Ist das wahr?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Du pack dich, wenn du deutelst!</l>
+            <l>Hörst: der Hammer ist hier bei mir.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Um den Hammer durchsuch ich die Welt!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Das dacht' ich!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Werden die Riesen schlau?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Und stark.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Ich glaub's nicht</l>
+            <l>bis ich ihn seh!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l>Wenns dich lüftet, wart! He! Grundwal!</l>
+            <l>Aufgetaucht mit dem Geschmeid, dem du Wächter bist.</l>
+          </lg>
+        </sp>
+        <stage type="saut"> (Der Hammer erscheint auf halber Höh im Maul eines
+                    Delphins.)</stage>
+        <pb n="22" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_022.jpg"/>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Beim Hammer! Der Hammer ist's!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Hinunter und hüte!<stage type="corps"> (Delphin verschwindet mit dem Hammer.)</stage>
+                  </l>
+            <l>Geh jetzt beim, erzähl, was du sahst, und ich käm bald</l>
+            <l>mit Gefolg, den Götter-Besuch zu erwidern!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Erst hätt' ich gern unser Gut.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Das ist jetzt mein.</l>
+            <l>Droll dich, Knirps!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Gib den Hammer, unsern Hammer!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l>Holt ihn euch, wenn ihr könnt!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Dir, Riese, taugt</l>
+            <l>unser Hammer nicht in der schweren Faust.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l>Doch in Thors Hand sprüht er Blitz und Sieg.</l>
+            <l>Letzt ist Ruh den Riesen vor euch, jetzt fürchtet,</l>
+            <l>Götter! Der Riesen Unrast, jetzt birst die Sturm-Nacht</l>
+            <l>freut euch, bald rütteln Riesen euch wach!</l>
+          </lg>
+        </sp>
+        <pb n="23" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_023.jpg"/>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Wir freun uns,</l>
+            <l>halten gern guten Nachbar-Frieden.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l>Weil ihr müsst.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Dass du uns, Riese, glaubst,</l>
+            <l>will ich Buße bieten für den Hammer.</l>
+            <l>Kriegst was du willst, die Götter halten Wort.</l>
+            <l>Heiliche! Wie ist der Hammer dir seil!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Alle Schätze</l>
+            <l>kaufen ihn nicht. Ich brauche nicht Götterkram.</l>
+            <l>Doch ist euch der Hammer wirklich wert:</l>
+            <l>einen Weg gäb's...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Sag ihn schnell!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Durch Brautbett.</l>
+            <l>Einer der euren schenk ich zur Morgengabe</l>
+            <l>was euch mangelt.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Welcher der unseren!</l>
+          </lg>
+        </sp>
+        <pb n="24" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_024.jpg"/>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Freia!</l>
+            <l>Die begehr' ich zum Weib, hörst du — Hörts Götter!</l>
+            <l>Die will ich.</l>
+            <l>Unbeweibt bin ich, allein auf Ödem-Lager,</l>
+            <l>unbemannt ist Freia, die passt zu mir.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Trefflich, Ries!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Ihre Hand schenkt euch den Hammer.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Raubt uns bloß das Lachen, Freias lachen.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l>Sie sei mein, herriche hier — ich tat mein Gebot.</l>
+            <l>Weiche jetzt, Loki! Künde des Riesen Wille,</l>
+            <l>Grüß meine Braut!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Die wird sich freun und sehnen!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l>Wenn sie in sieben Tagen nicht bei mir ist,</l>
+            <l>ganz allein im Brautschmuck nicht zu mir kommt,</l>
+            <l>gilt der Bund nicht — gilt Krieg!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Ich flieg und schick dir die Freia.</l>
+          </lg>
+        </sp>
+      </div>
+      <pb n="25" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_025.jpg"/>
+      <pb n="27" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_027.jpg"/>
+      <div type="3">
+        <head type="scene" n="3">Szene 3</head>
+        <stage type="saut">Szene wie 1. Seitlich steht vorgebeugt, spähend erhöht</stage>
+        <listPerson>
+          <personGrp>
+            <name>Heimdall, unten</name>
+            <name>Thor</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Heimdall, siehst du unsren Flieger noch nicht?</l>
+            <l>Wie ich auf deinen Hornruf harre!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Heidmall</speaker>
+          <lg>
+            <l part="M">Ich spähe</l>
+            <l>mir die Augen blöd.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Der kommt uns nimmer.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Heidmall</speaker>
+          <lg>
+            <l>Frisch, Thor, hebe die krausgezogene Stirn!</l>
+            <l>Schauft wie ein Greis verjammert daher.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Durch Wetter</l>
+            <l>muss ich schwirren, mit dem Hammer die Wetter jagen,</l>
+            <l>sonst frisst Rost mir das Herz.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Heidmall</speaker>
+          <lg>
+            <l part="M">Ein Flügelschlagen!</l>
+          </lg>
+        </sp>
+        <pb n="28" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_028.jpg"/>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Wo, ich seh nichts, wo?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Heidmall</speaker>
+          <lg>
+            <l part="M">Ich sehe selbst nichts,</l>
+            <l>aber ich spür, wie's scharf pfeift durch die Luft,</l>
+            <l>näher und näher.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Dank Wächter, ists Loki?</l>
+            <l>Schnell wie der...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <stage type="pers"> (von oben)</stage>
+          <lg>
+            <l part="M">Hammer saust aus Sieg-Thors Händen...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Hast du ihn? Gib!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Ich weiß, wo er ist.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Hast? Sahst ihn?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Lass mich nur erst aus der Luft und aus den schweren</l>
+            <l>Feder-Gewirk!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Von droben sprichst du die Antwort!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Hör denn! der Riese hält ihm am Meeresgrund</l>
+            <l>Tausendfach verwahrt!</l>
+          </lg>
+        </sp>
+        <pb n="29" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_029.jpg"/>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">O wär ich ein Schwimmer!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Unnütz wärs. Wärst du in Schachten zu Haus, wärs unnütz.</l>
+            <l>Der hält gut, was er hat.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Weh! Wen!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Hör, Thor!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Glaubst, dass der ihm läßt?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">So hör doch endlich!</l>
+            <l>Du zwar kriegst ihm nimmer — doch meine Künste…</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Lieber!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Berführen kann ich...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Und du...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Ich bringe</l>
+            <l>Kunde, wie du zu dem Hammer kommst.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Wie ich...</l>
+          </lg>
+        </sp>
+        <pb n="30" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_030.jpg"/>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Erst lass mich herunter, leis muss ich reden.</l>
+            <l>Weiß nicht, ob jedem die Nachricht . . .</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Komm, was verziehst du?</l>
+            <l>Was mag er wollen! Was wär um den Hammer nicht feil</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <stage type="pers"> (erscheint unten, ohne das Gewand:)</stage>
+          <lg>
+            <l>Also!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Endlich!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Er gibt den Hammer zurück,</l>
+            <l>wenn ihr ihm Freia als Gattin gewährt.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Auf, Freia!</l>
+            <l>Aus deiner Kammer eilends heraus! Wir haben</l>
+            <l>Botschaft für dich. Dein Festgeschmeid leg um den Hals!</l>
+            <l>Kommst du bald!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <stage type="pers"> (von innen)</stage>
+          <lg>
+            <l part="M">Wer rüttelt am Riegel?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Schick dich!</l>
+            <l>Mach dich bereit, du reisest noch heut!</l>
+          </lg>
+        </sp>
+        <pb n="31" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_031.jpg"/>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l part="M">Thor, du wagst was!</l>
+            <l>Meinst du, dem Bestohlenen folg ich gesüger,</l>
+            <l>ich, die vor dem Bewehrten die Schultern hob! —</l>
+            <l>Reisen soll ich, wohin?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Ins Riesen-Land.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l>Ich?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Mein Hammer ist dort. Der Riese will dich</l>
+            <l>für den Hammer, du werdest sein Weib.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l>Wer ist nun der frechste?</l>
+            <l>Du, der solche Schmach der Göttin ansinnt,</l>
+            <l>oder der Eis-Narr, der um mich wirbt?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Hör, Freia!</l>
+            <l>Frei und herrlich haust sich dort in der Hellnacht,</l>
+            <l>überm Geröll, wo die blanken Gletscher klirren.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l>Loki, glaubst du wahrhaftig, ich ginge? </l>
+          </lg>
+        </sp>
+        <pb n="32" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_032.jpg"/>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Siehst du</l>
+            <l>unsere Not nicht?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l part="M">Die mit meiner Not</l>
+            <l>auszuheilen gedenk ich nicht.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Mir zittert</l>
+            <l>all mein Leib. Thor fleht! Läßt du betteln mich?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l part="M">Mannstoll</l>
+            <l>dürft ihr mich alle offen schelten von nun an,</l>
+            <l>wenn mir ein Tropfen meines Blutes ja sagt...</l>
+            <l>Lasst mich ins Haus!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">So vergeh denn, Welt!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l part="M">Sie vergehe!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Heidmall</speaker>
+          <stage type="pers"> (tritt unter sie)</stage>
+          <lg>
+            <l>Zwingen kann sein Gott den andern Gott.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l>Und von selber gefügig werd' ich euch nicht.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Heidmall</speaker>
+          <lg>
+            <l>Götterrecht ist: wollen von selbst, doch bei Göttern</l>
+            <l>gibt's sein nie mehr.</l>
+          </lg>
+        </sp>
+        <pb n="33" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_033.jpg"/>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l part="M">Alter Ausweg-Finder,</l>
+            <l>mach mir den Bissen so süß du willst: ich schlucke</l>
+            <l>dir zulieb erst nicht, was ich bespie ...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Heidmall</speaker>
+          <lg>
+            <l part="M">Wer sagt dir</l>
+            <l>Freia, dass ich dich zu den Riesen ließe?</l>
+            <l>Wärst du fern von uns, das wäre böser,</l>
+            <l>als wenn wir hammerberaubt des Endes Harrten.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l>Dumm ist nicht, was du meinst...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Ganz Hirnverbrannt</l>
+            <l>Ist dein Gefasel!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Heidmall</speaker>
+          <lg>
+            <l part="M">Thor, du weißt, ich bin älter</l>
+            <l>als ihr Götter, ich wuchs' aus dem tiefen Meer,</l>
+            <l>wie noch Dunkel lag auf dem Meer: der erste</l>
+            <l>Glanz im Dunkel hieß Heimdall — Heimdall</l>
+            <l>heißt einst der legte sterbende Stern. Alles Wesens</l>
+            <l>Urstand sah ich, all End. Willst du Heimdalls Rat?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Meinen Hammer will ich!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Heidmall</speaker>
+          <lg>
+            <l part="M">Der fällt dir zu,</l>
+            <l>wenn ihr dem Riesen gewährt was er heischt.</l>
+          </lg>
+        </sp>
+        <pb n="34" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_034.jpg"/>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l part="M">Verräter!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Heidmall</speaker>
+          <lg>
+            <l>Schweig im Rat, Weib! Heimdall redet: Gewährs ihm!</l>
+            <l>Aber muss denn Freia selber fahren?</l>
+            <l>Seinen Hammer hol sich der Hammer-Herr!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Wie verstehst du das?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Heidmall</speaker>
+          <lg>
+            <l part="M">Die gütige Göttin</l>
+            <l>die ihr Falken-Gewand dem Späher lieh</l>
+            <l>wird dir gern ihre ganze Habe hertun:</l>
+            <l>rauschend wall um dich, das Frauenkleid,</l>
+            <l>bräutlich fließe der Schleier dir vom Haupt.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>So, gebot der Riese, komm ihm Freia.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Heidmall</speaker>
+          <lg>
+            <l>So kommt seine Freia, den sunkelnden Bart</l>
+            <l>ganz versteckt in Schleiers und Bauschs Gefältel,</l>
+            <l>neid, im Spangengenestel den mächtigen Arm:</l>
+            <l>wenn der frei wird, der Arm, der packt sich den Hammer!</l>
+          </lg>
+        </sp>
+        <pb n="35" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_035.jpg"/>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Was du verlangst, Heimdall, fast kommt mir das Lachen —</l>
+            <l>mich in Weibsrock mummen!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Nicht bloß in Weibsrock</l>
+            <l>ihren Gürtel, der lockt und verheißt, dass Lieblich,</l>
+            <l>wen er umschließt, dem heizen Begehren glüht,</l>
+            <l>ihren Gürtel legst du um die Lende.</l>
+            <l>Ich besprech ihn schon, vertrau ihn mir, Freia!</l>
+            <l>Um dein Jubelgeschmeid — der Strahl der Strahlen</l>
+            <l>viele Frau Thor um den Nacken!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Wohl, das gäbe</l>
+            <l>Loki, für dich einen Spaß! Bei Trunk und Spiel</l>
+            <l>löschte der Hohn nicht um den Weibs-Wann!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Heidmall</speaker>
+          <lg>
+            <l part="M">Der lieber</l>
+            <l>von einer Frau den Hammer besorgen ließ,</l>
+            <l>als dass er selber, wie es auch geh, sein Eigen</l>
+            <l>sich erstritte!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Heimdall, du redest recht.</l>
+            <l>Freia, leih Schleier und Leinzeug und was ein Weib braucht!</l>
+          </lg>
+        </sp>
+        <pb n="36" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_036.jpg"/>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l>Nimm was du willst!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Heimdall, dank deinem Rat!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l>Komm in mein Haus! Ich Schmück dich mit meinen Mägden.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Ich fahr' als Zofe mit dir — meine Zunge</l>
+            <l>taugt zum Weibergeflüster besser als...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Wahr ist's!</l>
+            <l>Schweigend will ich als Braut unterm Schleier warten,</l>
+            <l>bis ich endlich... was zaudert ihr! Mummt mich doch!</l>
+            <l>Schirrt mir indes mein Bocksgespann zur Ausfahrt!</l>
+            <l>Knirscher und Knistrer, aus dem Stall!</l>
+            <l>An den Wolfenwagen, meine Tiere!</l>
+            <l>Wären wir schon am eisigen Strand!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Heidmall</speaker>
+          <lg>
+            <l part="M">Glück auf, Thor!</l>
+          </lg>
+        </sp>
+      </div>
+      <div type="5">
+        <head type="div5">Vorhang.</head>
+      </div>
+      <pb n="37" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_037.jpg"/>
+      <pb n="39" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_039.jpg"/>
+      <div type="3">
+        <head type="scene" n="4">Szene 4</head>
+        <stage type="saut">Beim Riesen wie 2. Allerlei Ungetüme, Gezwerge x.,
+                    Riese.</stage>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l>Rüstet den Tisch! Rückt den Hochofen! Acht Habt, Knechte —</l>
+            <l>da brach ein Zapfen uraltes Eis von der Lehne,</l>
+            <l>wer war's? Ich schlag ihn in Stücke! Hierher, Faulpelz,</l>
+            <l>hart ans Meer muss der Tisch; der zackige Felsthron</l>
+            <l>ist ihr fürs erste wohl fremd — sie wird sich gewöhnen.</l>
+            <l>Schüttet Lang, dass sie's weich hat!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Knecht</speaker>
+          <lg>
+            <l part="M">Welch ein Umstand!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l>Nicht gemuckt! Holt die Fässer voll Meth und am Spieße</l>
+            <l>bringt die Ochsen und Elche, den Eber, das Meerzeug,</l>
+            <l>richtet das Brautmahl in der weißen Nacht!</l>
+            <l>Das ist ein Flimmern heut! Die Sterne zappeln</l>
+            <l>wie das Fischvolk im Netz. Freut ihr euch auch?</l>
+            <l>Gleich wird sie da sein. Fort, Gesindel! Die Herrin</l>
+            <l>grüß ich zuerst. Ich selber bediene die Braut.</l>
+            <l>Ob sie allein kommt, wie ich gewollt... Ein Rollen…</l>
+            <l>Hör ich recht, donnerts? Wie wenn der Bart-Gott brummt...</l>
+          </lg>
+        </sp>
+        <pb n="40" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_040.jpg"/>
+        <stage type="saut"> (Der Wagen erscheint in der Luft. Herunter ruft)</stage>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Heil dir Riese! Heil allem Riesengesind!</l>
+            <l>Freia naht dir, Riese!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Im Wagen des Thor?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Gern lieh Thor seinen Wagen für ihr Hausgut…</l>
+            <l>Hochgetürmt war der Wagen fast zu klein,</l>
+            <l>nur ich alte Dienerin fand noch Blatz</l>
+            <l>reben der Braut und den Schätzen.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Mägde und Habe</l>
+            <l>sollte sie nicht...</l>
+          </lg>
+        </sp>
+        <stage type="saut"> (Der Wagen ist inzwischen verschwunden.)</stage>
+        <sp>
+          <speaker>Loki Stimme</speaker>
+          <lg>
+            <l part="M">Gelandet!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Helft den Frauen, Knechte!</l>
+            <l>Wie sie stumm da stand, vom Schleier umbrandet!</l>
+            <l>Wie das Gewand ihr um die Lenden ging!</l>
+            <l>Wahrlich ich halte mich kaum!</l>
+          </lg>
+        </sp>
+        <pb n="41" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_041.jpg"/>
+        <sp>
+          <speaker>Loki</speaker>
+          <stage type="pers"> (erscheint mit Thor, beide verschleiert :)</stage>
+          <lg>
+            <l part="M">Die Braut begrüßt dich.</l>
+            <l>Halte zugut, dass die Dienerin mit ihr fährt,</l>
+            <l>ungewohnt ist sie des Magenlenkens —</l>
+            <l>Ich hab's gelernt — und ungewohnt ist Freia</l>
+            <l>sich allein zu schürzen und Schließ und Spange</l>
+            <l>sich zu heften. Der Götterjürstin dienen</l>
+            <l>Tausend schnelle Hände.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Die ließ sie daheim doch?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Bis auf meine, du siehst sie...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Was du schwätzest! . . .</l>
+            <l>Herrin, der Riese grüßt dich: im Riesenland</l>
+            <l>lebt sichs wohl. Gut, dass du kamst! Den Hochsitz</l>
+            <l>hab' ich dir schön belegt und das Essen wartet.</l>
+            <l>Bist du gern gekommen?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Wie käm sie nicht gern,</l>
+            <l>riese, zu dir, des Reich ob allen Reichen</l>
+            <l>grenzenlos im ewigen Weiß erglänzt!</l>
+          </lg>
+        </sp>
+        <pb n="42" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_042.jpg"/>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l>Meinst du? Doch was redet sie selber nicht?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Sitte ist nicht bei uns, dass die Braut ein Wort sagt,</l>
+            <l>vor sie angetraut. Verstatte, Freia,</l>
+            <l>unserem Brauch zu folgen!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Gern gewähr ichs.</l>
+            <l>Bald ja</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <stage type="pers"> (halblaut)</stage>
+          <lg>
+            <l part="M">Bist du der Dumme!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Freia, verschmäh nicht</l>
+            <l>meinem Mahl die Ehre zu tun!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Das läßt die</l>
+            <l>sich nicht zweimal jagen!</l>
+          </lg>
+        </sp>
+        <stage type="saut"> (Thor frisst und säuft ungeheuer.)</stage>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Wie malmt und schlingt sie!</l>
+          </lg>
+        </sp>
+        <pb n="43" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_043.jpg"/>
+        <sp>
+          <speaker>Loki</speaker>
+          <stage type="pers"> (halblaut)</stage>
+          <lg>
+            <l>Treibs nicht zu arg, Thor!</l>
+            <l>Laut Riese, das darf dich nicht wundern!</l>
+            <l>Keinen Bissen aß Freia, seit der Botschaft</l>
+            <l>von des Riesen Werbung fastete Freia,</l>
+            <l>so voll Gelüst war sie zum Bräutigam.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l>Wie sie säuft!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Kein Schluck netzt‘ ihre Lippen.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l>Ach, ihre Lippen! Nur einen Ruß!<stage type="corps"> (Biegt sich über Freia, fährt zurück.)</stage>
+                  </l>
+            <l part="M">Wie furchtbar</l>
+            <l>funkelt das Auge der Braut! Grell fackelnde Flammen</l>
+            <l>springen mir ins Gesicht. Du wärst die Holde?</l>
+            <l>Ganz Angst wird mir...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Riese, so voll Gier</l>
+            <l>lechzte Freia — muss ich's deutlich sagen —</l>
+            <l>auf dein Umfangen, dass sie kein Bett bestieg</l>
+            <l>seit ihr Loki gemeldet, du wählst sie.</l>
+            <pb n="44" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_044.jpg"/>
+            <l>„Nie“ — halblaut Still Thor, friß und schweig —<stage type="corps"> (fortfahrend)</stage>
+                  </l>
+            <l>„nie“, sprach sie,</l>
+            <l>„lohnt sich allein zu schlummern. O fühlt ich den Arm schon</l>
+            <l>meines Riesen gegürtet um mich! Von den Göttern,</l>
+            <l>von den Weichlingen war mir keiner recht.</l>
+            <l>Jetzt erst weiß ich, was Schnen heißt.“ So stand sie</l>
+            <l>Tag und Nacht am Söller unverwandt,</l>
+            <l>Tag und Nacht im rollenden Wagen dann,</l>
+            <l>sah sich die hellen Augen brennend rot,</l>
+            <l>bis deine Rüste taucht aus der Ferne. Feuer,</l>
+            <l>das ihr übernächtiger Blick entsprüht</l>
+            <l>schrecke nicht, sei dir Verheißung brünstigen Liebens!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l>Ist's das, Freia, dann freu dich! Deinem Verlangen</l>
+            <l>bäumt mein Verlangen zu! Was wart' ich! Faules Volk,</l>
+            <l>schlüpft und klettert und kriecht aus Schlucht und Fjord,</l>
+            <l>drängt euch zur Herrin, grüßt sie und zur Weihe,</l>
+            <l>dass die Fäden sich schlingen wie ich will,</l>
+            <l>rüste der Götter Siegsheil mir mein heil:</l>
+            <l>bringt zur Weih ihn, bringt meiner Braut… her Hammer!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <stage type="pers"> (Iosbrechend)</stage>
+          <lg>
+            <l>Wohl!</l>
+          </lg>
+        </sp>
+        <pb n="45" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_045.jpg"/>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l part="M">Wie das poltert!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Freia, hüte den Brauch!</l>
+            <l>Stumm bis die Zeit um! Hörst du wie die Stimme</l>
+            <l>dunkel dröhnt vor Luft?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <stage type="pers"> (stammelnd)</stage>
+          <lg>
+            <l part="M">Frei Freia, den Hammer</l>
+            <l>schwingst du zum Zauber-Bund! Dir dient seine Kraft</l>
+            <l>unser seine Kraft auf immer! Den Hammer</l>
+            <l>den behalt ich mir; die Götter-Wichte</l>
+            <l>glauben, sie kriegen ihn um dich, Frei-Freia.</l>
+            <l>Wer so dumm ist, dich von sich zu lassen,</l>
+            <l>kann nicht fordern, dass ich das Wort ihm halte.</l>
+            <l>Freia, weih dich mir, mich dir! Der Hammer,</l>
+            <l>hier ist der Hammer!</l>
+          </lg>
+        </sp>
+        <stage type="saut"> (Getös, Donner, Dunkel.)</stage>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Dieb, Hehler, Trugbold,</l>
+            <l>hier und hier und hier! Da lieg, du Nachtmahr!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Riese</speaker>
+          <lg>
+            <l>Känte-Thor! Dein das Reich!</l>
+          </lg>
+        </sp>
+        <pb n="46" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_046.jpg"/>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Dein Reich zerschmeiß' ich,</l>
+            <l>Riesen und Trolle, Höhlen- und Meer-Gezücht</l>
+            <l>Schlag ich im Wetter! Eissturm hast ausgebrauft!</l>
+            <l>Felsen zerknirschen vor mir; hoch steht der Tag!<stage type="corps"> (Es wird Hell. Regenbogen.)</stage>
+                  </l>
+            <l>Götter herbei! Den Hammer hält euer Thor,</l>
+            <l>schwingt euch den bunten Bogen von Welt zu Welt!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l>Auch im Weiber-Gewand unser Sieger-Thor!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Rothelfer Loki — neu ward der Bund!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Den Dank</l>
+            <l>sparst du! Ich hol ihn mir schon, ich hole die Freia.</l>
+          </lg>
+        </sp>
+        <stage type="saut">Freia und Heimdall kommen.</stage>
+        <sp>
+          <speaker>Freia</speaker>
+          <lg>
+            <l>Freia dankt Thor! Heil ihm! Mit Loki dem Bösen</l>
+            <l>ist der Dank gefährlich...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Loki</speaker>
+          <lg>
+            <l part="M">Still, sonst hörts Heimdall!</l>
+          </lg>
+        </sp>
+        <pb n="47" facs="20_D_WOLFSKEHL_ThorsHammer_ALL_MUN_047.jpg"/>
+        <sp>
+          <speaker>Heidmall</speaker>
+          <lg>
+            <l>Thor, die Brücke hast du den Göttern gehämmert.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l>Ich, weil ihr halst!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Drei</speaker>
+          <lg>
+            <l part="M">Dem Helfer —</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Thor</speaker>
+          <lg>
+            <l part="M">Ich weihe den Einzug,</l>
+            <l>weihe uns und den Tag.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Drei</speaker>
+          <lg>
+            <l part="M">Heil dir und dem Tag!</l>
+          </lg>
+        </sp>
+      </div>
+      <div type="5">
+        <head type="div5">Vorhang.</head>
+      </div>
+    </body>
+  </text>
+</TEI>

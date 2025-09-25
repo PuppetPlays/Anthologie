@@ -1,0 +1,3245 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ref="https://puppetplays.eu/en/oeuvres/279877/pulcinella-speziale-in-villa">Pulcinella speziale in villa</title>
+                <respStmt>
+                    <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+                    <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="FG">Fiona Gazzaniga</name>
+                    <resp>Transcription and edition</resp>
+                </respStmt>
+                <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+                <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+                <funder>European Research Council - ERC</funder>
+            </titleStmt>
+            <publicationStmt>
+                <distributor ref="https://www.google.fr/books/edition/Pulcinella_speziale_in_Villa_Dramma_gioc/OKr-mVs7zwYC?hl=fr&amp;gbpv=0"/>
+                <availability status="free">
+                    <licence>Public domain</licence>
+                </availability>
+                <idno type="DOI"/>
+            </publicationStmt>
+            <notesStmt>
+                <note>A young woman is lovesick</note>
+                <note>In the 17th and 18th centuries in Rome, the festivities of the Carnival
+                    often included puppet plays, many of which were set on the piazza Navona, or in its
+                    immediate vicinity. Some of these, meant for a popular audience, were staged outside
+                    or in temporary boxes; but aristocratic houses could accommodate, on miniature
+                    stages, sung performances using string or rod puppets. This was the case for
+                    instance of the Teatro de’ Granari, owned by the Pamphili family; most notably,
+                    Pulcinella speziale in villa (Pulcinella apothecary in the villa) and
+                    Pulcinella guardiano de' pazzarelli (Pulcinella keeper of the insane)
+                    were performed on this stage.Pulcinella speziale in villa
+                    is an anonymous play built on the model of Lo Speziale di
+                    villa, a melodramma by Giovanni Cosimo Villifranchi, staged
+                    in 1683 on music by Giovanni Maria Pagliardi, then in 1719 at the Teatro del
+                    Cocomero in Florence, and republished several times during the first third of the
+                    18th century. Pulcinella speziale in villa reworks it, dividing it
+                    into three acts. The libretto bears the words “dramma giocoso per musica, da
+                    rappresentarsi con figurine” (happy drama in music, to be performed with
+                    figurines). It seems to have been accompanied with music by Luca Antonio Predieri:
+                    as in other drammi per musica for puppets, which were fashionable at
+                    the end of the 17th century and at the beginning of the 18th, singers performed
+                    behind the stage while puppets were manipulated on it. The
+                    characters shown alongside Pulcinella are typical of the commedia
+                    dell’arte: Cannetella, described as a Neapolitan woman, speaks her local
+                    dialect, just like her master. Contrasting this couple, Delmira speaks the formal
+                    language of lofty comedies; however, her cross-dressing leads to a series of comical
+                    misunderstandings as it attracts Cannetella’s love. Rosaura’s osculation scenes also
+                    lead to a series of misunderstandings and to double meanings typical of baroque
+                    comedy.</note>
+            </notesStmt>
+            <sourceDesc>
+                <listPerson>
+                    <personGrp role="audience">
+                        <p>Not specified</p>
+                    </personGrp>
+                </listPerson>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository ref="https://www.google.fr/books/edition/Pulcinella_speziale_in_Villa_Dramma_gioc/OKr-mVs7zwYC?hl=fr&amp;gbpv=0">British Library</repository>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Number of pages in the original document: 60</p>
+                                <p>Number of acts in the original document: 3</p>
+                                <p>Format of the original document: Printed</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </listBibl>
+                <bibl>
+                    <title type="main">Pulcinella speziale in villa</title>
+                    <date>1728</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italian</language>
+            </langUsage>
+            <textClass>
+                <keywords source="animationTechniques">
+                    <term source="https://puppetplays.eu/en/techniques-d-animation/1217/marionnette-à-tringle-et-fils">Rod and string marionette</term>
+                </keywords>
+                <keywords source="literaryTones">
+                    <term>Melodramatic</term>
+                    <term>Burlesque</term>
+                    <term>Farcical</term>
+                    <term>Comical</term>
+                </keywords>
+                <keywords source="theatricalTechniques">
+                    <term>Music</term>
+                    <term>Dialect</term>
+                    <term>Popular speech</term>
+                    <term>Thwarted love</term>
+                    <term>Argument</term>
+                    <term>Love story</term>
+                    <term>Love rivalry</term>
+                    <term>Disguised character (false identity)</term>
+                    <term>Cross-dressing</term>
+                    <term>Character mistaken as a member of the other sex</term>
+                    <term>Love duet</term>
+                    <term>Sick character on stage</term>
+                    <term>Fainting</term>
+                    <term>Situation comedy</term>
+                    <term>Comic equivocation</term>
+                    <term>Scene of madness</term>
+                    <term>Final wedding</term>
+                </keywords>
+                <keywords source="genre">
+                    <term>Dramma giocoso per musica</term>
+                </keywords>
+                <keywords source="keywords">
+                    <term>Medicine</term>
+                    <term>Love</term>
+                    <term>Revenge</term>
+                    <term>Cure</term>
+                    <term>Unfaithfulness</term>
+                    <term>Forced marriage</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization method="silent">
+                    <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+                    <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+                    <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+                    <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Punctuation has been corrected according to modern rules.</p>
+                </punctuation>
+            </editorialDecl>
+            <projectDesc>
+                <p>Text collected during the PuppetPlays project funded by European Union (Grant
+                    Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+                    re-evaluate the contribution of the puppets repertoire to the construction of
+                    European cultural identity. Its main goals is to collect a corpus of
+                    representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+                    France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+                    17th and the 21th century. It also tries to identify the characteristics of
+                    puppet dramaturgy and their variations depending on eras, cultural spheres,
+                    producing conditions, and the aimed public.</p>
+                <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+                <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                    Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+                </ref> licence. This license enables reusers to distribute, remix, adapt, and
+                    build upon the material in any medium or format for non-commercial purposes
+                    only, and only so long as attribution is given to the creator. If you remix,
+                    adapt, or build upon the material, you must license the modified material under
+                    identical terms. </p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change when-iso="2025-07-18" who="#FG">Text transcription and encoding</change>
+            <change when-iso="2025-08-25" who="#MSK">Encoding validation against schema.rng</change>
+            <change when-iso="2025-08-26" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+        </revisionDesc>
+    </teiHeader>
+   <text>
+       <front>
+           <pb n="1" facs="18_I__PulcinellaSpeziale_IT_GB_001.jpg"/>
+           <docTitle><titlePart type="main">Pulcinella speziale in villa</titlePart>
+               <titlePart type="sub">Dramma giocoso per musica, Da rappresentarsi con figurine nel Teatro detto de'Granari, nel Carnevale dell’anno 1728</titlePart></docTitle>
+           <pb n="2" facs="18_I__PulcinellaSpeziale_IT_GB_002.jpg"/><pb n="3" facs="18_I__PulcinellaSpeziale_IT_GB_003.jpg"/>
+           <castList><head type="personnage">Interlocutori</head>
+           <castItem><role>Pulcinella speziale, creduto padre di</role></castItem>
+           <castItem><role>Rosaura, amante reamata di</role></castItem>
+           <castItem><role>Filarco,</role></castItem>
+           <castItem><role>Delmira, sotto nome di Lisardo garzone di Pulcinella amante di Filarco,</role></castItem>
+           <castItem><role>Damone, medico, amante di Rosaura,</role></castItem>
+           <castItem><role>Cannetella, napolitana serva di Rosaura.</role></castItem></castList>
+      
+      <!--  PROTESTA. Le Parole, Fato, Destino, Deità, Sorte, Fortuna, Numi, ecc. sono dettami d’una penna, che poeticamente scrive, non sentimenti d’un Cuore, che cattolicamente crede.-->
+           <pb n="4" facs="18_I__PulcinellaSpeziale_IT_GB_004.jpg"/>
+      <set><p>Bottega di speziale.</p>
+           <p>Cortile.</p>
+           <p>Sala.</p>
+           <p>La Scena si rappresenta in un casale vicino a Napoli.</p></set>
+            
+     
+       </front>
+       <body>
+           <div type="1"><pb n="5" facs="18_I__PulcinellaSpeziale_IT_GB_005.jpg"/><head type="acte" n="1">Atto I</head>
+           <div type="3"><head type="scene" n="1">Scena 1</head>
+               <stage type="saut">Bottega di speziale</stage>
+               <listPerson><personGrp><name>Pulcinella</name> <stage type="listPerson"> solo</stage></personGrp></listPerson>
+
+      <sp><speaker>[Pulcinella]</speaker>
+          <lg><l>Donne, e Uommene' mmalate,</l>
+              <l>State alliegrese non tremmate,</l>
+              <l>Polcenella spezeale</l>
+              <l>Co sciruppe, e servezeale</l>
+              <l>Ccà sta per ve servì de jornose notte</l>
+              <l>Alla primma mmedecina</l>
+              <l>Che de sera, ò de matina</l>
+              <l>Io ve dò, si nò schiattate</l>
+              <l>Pessecuro arresanate,</l>
+              <l>Vè faccio ascì de pena'nquato botte</l>
+              <l>Donne ecc.</l>
+              <l>Vide che specie è chesta !</l>
+              <l>Sò propio tanta ciucce</l>
+              <l>Li miedece, che stamo a sto paese;</l>
+              <l>M’anno fatto spezeale,</l>
+              <l>E imanco saccio fà lo servezeale.</l></lg></sp></div>
+
+               <div type="3"><head type="scene" n="2">Scena 2</head>
+                   <listPerson><personGrp><name>Cannetella,</name> <stage type="listPerson"> e </stage> <name>detto</name></personGrp></listPerson>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Ve lo' mpareragg'io</l>
+              <l>Bello patrone mmio, nò dobbetate</l>
+              <l>Cha pe fare servizie</l>
+              <l>Nui ate donne simmo fatte a posta.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Lo guajo, cha te sposta</l>
+              <l>Madamma mitte n’ante, pettolella,</l>
+              <l>Tu vuoje' mparare a me ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>No vè'nfadate.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Vide, che facce tosta !</l><pb n="6" facs="18_I__PulcinellaSpeziale_IT_GB_006.jpg"/>
+              <l>Non saccio chi me tene</l>
+              <l>Che no’nte dia di scoppolo.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>'Ntrattene.</l>
+              <l>Patrone mmio st’arraggia.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Presentosa.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Sia pe non ditto.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Appìla</l>
+              <l>Scirpia fetente, gliannola, zellofa;</l>
+              <l>'Mparare a me ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Che lotano !</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>A me, che me ne votto</l>
+              <l>De quante spezeale</l>
+              <l>Se trovano int'a tutte li spetale.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>N’aggio ditto pe chesto</l>
+              <l>Lo faccio, che vui site ommo saccente.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>E mente perché parle ?</l>
+              <l>Ne saccio tanto </l>
+              <stage type="corps">[fra sé]</stage>
+              <l>Che non saccio niente.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Io sulo lo ddeceva</l>
+              <l>Pecche nui ate femmene' nchest'arte</l>
+              <l>Simmo pratteche assaje.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Nè ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>S’ogne juorno</l>
+              <l>N’opera ne ponimmo quacche parte,</l>
+              <l>Si è pe’nchiaste agniente, e porvere</l>
+              <l>Chride a me, ch’a nullo cedono</l>
+              <l>Oggedi le noste femmene,</l>
+              <l>Ogne juorno ne mmanoiano</l>
+              <l>Pietto, e facce po se n’enchiono</l>
+              <l>Li capille se nc’allustrano,</l>
+              <l>E accosì le creppe copreno</l>
+              <l>S’arremediano accosì.</l>
+              <l>Si se tratta po de pinole</l>
+              <l>Triste chelle, che'nce'ncappano,</l><pb n="7" facs="18_I__PulcinellaSpeziale_IT_GB_007.jpg"/>
+              <l>Ne le fanno cierte gliottere,</l>
+              <l>Cha pe quanto s’affaticano</l>
+              <l>No’nce'taglio de le scennere</l>
+              <l>No le ponno addegeri.</l>
+              <l>Si ecc.</l></lg></sp></div>
+
+      
+      
+               <div type="3"><head type="scene" n="3">Scena 3</head>
+                   <listPerson><personGrp><name>Pulcinella</name><stage type="listPerson"> solo</stage></personGrp></listPerson>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Si è comme è lengoruta,</l>
+              <l>Videla vì, comm'è tellecarella</l>
+              <l>'Ntuono Polecenella;</l>
+              <l>Che è ? Te nne piacesse ?</l>
+              <l>Dico la veretà me và a fasulo;</l>
+              <l>Ma siente, nò commene a no patrone</l>
+              <l>Farese chiacchereà pe na creata,</l>
+              <l>Lo primmo non sarria, ne sarria sulo:</l>
+              <l>Po dimme, e che nce spiere ?</l>
+              <l>Chesta è Zetella, zita,</l>
+              <l>E me pare na femmena nnorata;</l>
+              <l>A tutto nc'è remmedio;</l>
+              <l>E che remmedio nc’è ? Mo te lo ddico,</l>
+              <l>P'agghiostare stò’ntrico</l>
+              <l>Me la'nguadio de pressa,</l>
+              <l>E addeventà la faccio spezeal essa.</l></lg></sp></div>
+
+               <div type="3"><head type="scene" n="4">Scena 4</head>
+                   <listPerson><personGrp><name>Cannetella,</name> <stage type="listPerson"> e </stage> <name>detto</name></personGrp></listPerson>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Teccotella, mo torna.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+           <lg><l>Si Patrone ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Cha dici Cannetella ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Ccà fora sai chi’ncè ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Chi ?</l></lg></sp>
+
+      <sp><speaker>Cantella</speaker>
+          <lg><l>Chello giovene,</l><pb n="8" facs="18_I__PulcinellaSpeziale_IT_GB_008.jpg"/>
+              <l>Che ve vorria servire pel' guarzone.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Siente, io lo piglieraggio,</l>
+              <l>Si è gusto toio però.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Che parlà è chesto ?</l>
+              <stage type="corps">[a Pulcinella]</stage>
+              <l>Sti mmierete io non aggio</l>
+              <l>Ussoria vuò abborlare.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Ma puro, che te pare ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Sì sì no mme despiace,</l>
+              <l>E me credo, che sia no buono figlio,</l>
+              <l>Pare na femmenella,</l>
+              <stage type="corps">[fra sé]</stage>
+              <l>Zitto, ch’ammore aiuta Cannetella.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Fallo trasire addonca,</l>
+              <l>Po saglietenne 'ncoppa.</l>
+              <l>Cha mo saglio pur'io,</l>
+              <l>Che t’aggio da parlà de na cosella</l>
+              <l>Propio de gusto; alliegro core mmio,</l>
+              <l>L’avimmo da fà negra.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Io no ve’ntenno.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Vattene và, che’appriesso nc è parlammo</l>
+              <l>Manname chello sa !</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Mo ve lo manno.</l></lg>
+              <stage type="saut">(via)</stage></sp></div>
+
+<div type="3"><head type="scene" n="5">Scena 5</head>
+    <listPerson><personGrp><name>Pulcinella</name> <stage type="listPerson">solo</stage></personGrp></listPerson>
+
+      <sp><speaker>[Pulcinella]</speaker>
+          <lg><l>Ha'esse coreosa</l>
+              <l>Quanno le diciarraggio</l>
+              <l>Che la voglio'nguadiare;</l>
+              <l>N’ora n’anno me pare.</l>
+              <l>Ohè quanno la scumpe !</l></lg></sp><pb n="9" facs="18_I__PulcinellaSpeziale_IT_GB_009.jpg"/></div>
+      
+<div type="3"><head type="scene" n="6">Scena 6</head>
+                  <listPerson><personGrp><name>Delmira,</name>
+                      <stage type="listPerson"> e </stage> <name>detto</name></personGrp></listPerson>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Son qui sig[nore] gli faccio riverenza.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Bonnì</l>
+              <stage type="corps">[fra sé]</stage>
+              <l>buona presenzea !</l>
+              <stage type="corps">[(A Delmira)]</stage>
+              <l>De che paese si ?</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Toscano, io sono.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Comme ?</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Firenze e la mia patria.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Ah ah,</l>
+              <l>Si sciorentino ?</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Appunto, e ottenni in dono...</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Nò mmoglio sapè auto;</l>
+              <l>P'aserzetà la professione nosta</l>
+              <l>Si propio fatto apposta.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>N’appresi più di quel, che si ricerca</l>
+              <l>Per puro dilettante</l>
+              <l>Dal genitor, che in essa era maestro.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>N’accorr’auto, me vasta</l>
+              <l>De sapè lo paese.</l>
+              <l>Si lo guarzone mmio, piglia possesso.</l>
+              <l>De tutte sti barattole, e st’agniente</l>
+              <l>Sacce servì cò spirito l’aggente.</l></lg></sp>
+
+     <sp><speaker>Delmira</speaker>
+         <lg><l>M’ingegnerò, non dubiti</l>
+             <l>La sorte par ch’arrida a miei voti.</l>
+             <l>Così benigno li secondi amore.</l></lg>
+         <stage type="saut">(Va guardando intorno.)</stage></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Mo sì, che lo neozio</l>
+              <l>Pare che vaa piglianno buona chiega;</l>
+              <l>Figlema la darraggio a lo dottore,</l>
+              <l>Io piglio Cannetella:</l>
+              <l>No miedeco parente</l>
+              <l>Nò guarzone saccente,</l><pb n="10" facs="18_I__PulcinellaSpeziale_IT_GB_010.jpg"/>
+              <l>E na mogliere bella</l>
+              <l>Tanno se vedarrà,</l>
+              <l>Quànta tornise fà stà potechella.</l>
+              <l>Funnachère, e potecàre</l>
+              <l>Si volite fà denare</l>
+              <l>Bella femmena pe’nzegna</l>
+              <l>A lo funnaco mettite,</l>
+              <l>E vedite, che sà fà.</l>
+              <l>A benzeffio l’abbentore</l>
+              <l>Tanno correno all'addore,</l>
+              <l>E’gne vota, che'nce sia</l>
+              <l>Da schiarirese la vista,</l>
+              <l>Sia la robba buona, ò trista</l>
+              <l>Sempre spaccio trovarrà.</l>
+              <l>Funachère ecc.</l></lg></sp></div>
+
+<div type="3"><head type="scene" n="7">Scena 7</head>
+    <listPerson><personGrp><name>Delmira</name> <stage type="listPerson">sola</stage></personGrp></listPerson>
+
+      <sp><speaker>[Delmira]</speaker>
+          <lg><l>Eccoti omai vicina a vendicarti</l>
+              <l>Ingannata Delmira. In quest'amena</l>
+              <l>Benche rustica parte</l>
+              <l>Filarco il traditor fà sua dimora;</l>
+              <l>E qui sen viene ancora</l>
+              <l>Colei, che a te lo rese</l>
+              <l>Forse senza sua colpa infido, e ingrato</l>
+              <l>Di giusto sdegno armato</l>
+              <l>All’impresa t’accingi offeso core;</l>
+              <l>E perché non rallenti</l>
+              <l>L’ira, che in me ti desta,</l>
+              <l>La memoria funesta</l>
+              <l>Del passato piacer, di quell’amore</l>
+              <l>Che un dì mi fù sì caro,</l>
+              <l>Perché più gravi sian gl’oltraggi suoi.</l><pb n="11" facs="18_I__PulcinellaSpeziale_IT_GB_011.jpg"/>
+              <l>Li benefici miei tu mi rammenta.</l>
+              <l>Dimmi, come dall'ira io l’involai</l>
+              <l>Di chi lo volea morto</l>
+              <l>Per vendicar da lui Fcrindo ucciso;</l>
+              <l>Quando non ricusai dargli ricetto</l>
+              <l>Entro il proprio mio tetto,</l>
+              <l>Ove lo tenni ascoso</l>
+              <l>Amiei congiunti, e allor, che fu scoperto</l>
+              <l>Per sottrarlo al rigore</l>
+              <l>Del giustamente irato genitore</l>
+              <l>L’allontanai dalle paterne soglie,</l>
+              <l>D’onde per non restare</l>
+              <l>Senza vita in un tempo, e senza speme</l>
+              <l>Di riveder il già perduto bene</l>
+              <l>Sotto mentite spoglie</l>
+              <l>Di li a non molto anch'io rivolsi il piede</l>
+              <l>E d’arno in sulla foce</l>
+              <l>Mi fè sua, preda un barbaro feroce;</l>
+              <l>Da cui libera al fine,</l>
+              <l>Mercè d’amica sorte</l>
+              <l>Misera qui ne venni in braccio a morte:</l>
+              <l>Contro l’infido amante</l>
+              <l>O mio tradito cor,</l>
+              <l>Ne sdegni miei costante</l>
+              <l>Mi serba, e sol mi detta</l>
+              <l>Al torbido pensiero</l>
+              <l>Idee di crudeltà;</l>
+              <l>E se per sua difesa</l>
+              <l>Mai mi parlasse amor,</l>
+              <l>Rammentami l’ofesa,</l>
+              <l>Dimmi che vuoi vendetta</l>
+              <l>Di, che non v’è pietà.</l>
+              <l>Contro ecc.</l></lg></sp><pb n="12" facs="18_I__PulcinellaSpeziale_IT_GB_012.jpg"/></div>
+      
+      
+<div type="3"><head type="scene" n="8">Scena 8</head>
+                <stage type="saut">Sala</stage>
+            <listPerson><personGrp><name>Rosaura,</name>
+                <stage type="listPerson">e poi</stage> <name>Cannetella</name></personGrp></listPerson>
+
+      <sp><speaker>Rosaura</speaker>
+            <lg><l>Lungi dal ben ch’adora</l>
+                <l>Non sà trovar mai pace</l>
+                <l>Un fido amante cor</l>
+                <l>Vive penand...</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">(ride)</stage>
+          <lg><l>Ah ah </l>
+              <l> Gnorella mia</l>
+              <l>Scusame si te spezzo</l>
+              <l>Parola'mocca, ah ah, ride tu puro.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Per qual cagion ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Abbia</l>
+              <l>Abbia, che si pò sbotte tutta’nsieme</l>
+              <l>Crideme a me tu criepe.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Ma pur, che v’è di novo ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Ncegna a ridere gioja.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Finiscela che noja !</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Lo viecchio ah ah...</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Chi ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Patreto...</l>
+              <l>Ah ah, ride. </l>
+              </lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Ti sbrighi ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Vuò mogliere.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Burli ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Sì non è vero</l>
+              <l>Ah ah, che me se schiatta lo vraghiero.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Sempre stai sulli scherzi.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Sghizzo sto vrache: siente</l>
+              <l>Cha mò vene lo meglio:</l>
+              <l>E se ll'hà sceuta zita, e tenerella,</l>
+              <l>Saje chi se vuò piglià ?</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Chi ?</l></lg></sp><pb n="13" facs="18_I__PulcinellaSpeziale_IT_GB_013.jpg"/>
+      
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Cannetella</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Dici da senno ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>E n’ata vota mò: n’averrà n’ora</l>
+              <l>Cha me Il'ha ditto bello tunno tunno.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Ma tu lo vuoi ?</l></lg></sp>
+
+      <sp><speaker>Canetella</speaker>
+          <lg><l>Primma me scenna gotta,</l>
+              <l>E me ne faccia ascire da sto munno;</l>
+              <l>Nce vuò auto pe mene, aggio abbistato</l>
+              <l>No cierto giovaniello forastiero,</l>
+              <l>Ch’è trasuto co d’iffo pe guarzone,</l>
+              <l>Chesto, se non me'nganna lo penziero,</l>
+              <l>L’ave da fare’nvarva a lo patrone.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Dunque tu l’ami già ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Me ne squaquiglio.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Però con fine onesto ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Nce se rentenne chesto:</l>
+              <l>Oh no'nsaje, che m’hà ditto</l>
+              <l>Patreto n’ante, che me vommecasse</l>
+              <l>Tutto lo core sujo ?</l></lg></sp>
+      
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Che ?</l></lg></sp>
+
+      <sp><speaker>Cannetela</speaker>
+          <lg><l>Siente, e sferra :</l>
+              <l>L’avimmo da fà negra.</l>
+              <stage type="corps">(contrafacendolo)</stage>
+              <stage type="corps">[fra sé]</stage>
+              <l>Malanno, che l’afferra</l>
+              <stage type="corps">[(A Rosaura)]</stage>
+              <l>a nno io no lo ntenneva</l>
+              <stage type="corps">[fra sé]</stage>
+              <l>Viecchio mocciufo, cancaro'mrodetto</l>
+              <l>Cha singhe mmaledetto.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>In cortesia lasciamo</l>
+              <l>Queste baje da parte, e dimmi: ai visto</l>
+              <l>Il mio Filarco ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Ancora</l>
+              <l>Nò, ch’è troppo mattino,</l>
+              <l>Dormarrà lo meschino.</l></lg></sp><pb n="14" facs="18_I__PulcinellaSpeziale_IT_GB_014.jpg"/>
+      
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Và, procura vederlo, e mi consola...</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Lengua'ndinto mmalora,</l>
+              <l>Cha mo vene lo gnore.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Verrà per tormentarmi.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Vide che sposo sfatto! Uh n'anticore.</l></lg></sp></div>
+
+      
+      
+    <div type="3"><head type="scene" n="9">Scena 9</head>
+        <listPerson><personGrp><name>Pulcinella,</name> <stage type="listPerson"> e </stage> <name>detti</name></personGrp></listPerson>
+
+      
+      
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Bonnì madama, che buò dice chesto ?</l>
+              <l>Perché tanto de pressa</l>
+              <l>Oje vo site sosuta ?</l>
+              <l>Non è soleto vuosto.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Ah.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Che sospiro !</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>No mpoteva dormire la scuressa.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Son molti, e molti giorni,</l>
+              <l>Ch’io non sò più, che sia riposo.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>E la caosa ?</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Mi sento</l>
+              <l>Oppresso il cor da incognito tormento.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Figlia mia, t’aggio’ntiso, tu stai male</l>
+              <l>Pe chesto aggio pensato...</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Che ? De mannarenella allo spetiale.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>De darete mmarito</l>
+              <l>No miedeco valiente.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Non se ne farrà niente.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Non è tempo di burle.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Borlare ? N’ante craje</l>
+              <l>Aje da essere sposa.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Non sia maje.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Sposa ? E di chi ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>De lo Signò Temmone.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>’Npietto dicerria n’auto.</l></lg></sp><pb n="15" facs="18_I__PulcinellaSpeziale_IT_GB_015.jpg"/>
+      
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Io non lo voglio.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Ne ! Nollo vuoje ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Nonce lo manna a dicere.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Nò che nol voglio.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Vide che mmalora !</l>
+              <l>E con sta facce tosta me lo ddici ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage>[fra sé]</stage>
+          <lg><l>Si che n’averra n’auta allevatora.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>E io voglio, che lo piglie si crepasse ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Priesto che se fà notte.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Alla prova.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Mannà ciento vrachiere,</l>
+              <l>Sò patre, e sò patrone.</l></lg></sp>
+        
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Della mia vita, non del mio volere.</l>
+              <l>E' ver, che padre sei</l>
+              <l>E puoi, se vuoi, ritormi</l>
+              <l>Quello che mi donasti,</l>
+              <l>Ma su gl’affetti miei</l>
+              <l>Forza non hai, che basti</l>
+              <l>per svellerli dal cor;</l>
+              <l>Sul libero volere</l>
+              <l>Ch'il Ciel nel sen m’impresse</l>
+              <l>L’arbitrio a me concesse,</l>
+              <l>Ne può l’altrui potere</l>
+              <l>Farsi di lui Signor.</l>
+              <l>Ever ecc.</l></lg></sp></div>
+
+<div type="3"><head type="scene" n="10">Scena 10</head>
+                   <listPerson><personGrp><name>Pulcinella,</name>
+                        <stage type="listPerson"> e </stage> <name>Cannetella</name></personGrp></listPerson>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>A Ie’ntiso Cannetella ? Che te pare.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Patrone mmio perdoname</l>
+              <l>Tu non la ssaie pigliare.</l>
+              <l>Nuje ate donne simmo</l>
+              <l>Comme le cacciottelle.</l><pb n="16" facs="18_I__PulcinellaSpeziale_IT_GB_016.jpg"/>
+              <l>Sì le voie mmaneiare a gusto toio</l>
+              <l>Menale cose duce, e susamielle.</l>
+              <l>Vide no piccirillo</l>
+              <l>Quanno chiagnenno stà</l>
+              <l>Projele na cosella</l>
+              <l>Lo vederraje accojetà;</l>
+              <l>Ma si pò lo sbravie</l>
+              <l>Tanno chiù forte chiagnere</l>
+              <l>Lo siente, e fà guà guà:</l>
+              <l>Così songo le femmene</l>
+              <l>No le piglià pe canna.</l>
+              <l>Cha tu le fai mpestà;</l>
+              <l>Ma falle di carizze</l>
+              <l>Cha subbeto se lassano</l>
+              <l>Sbotare, e mmanejà.</l>
+              <l>Vide ecc.</l></lg></sp></div>
+      
+<div type="3"><head type="scene" n="11">Scena 11</head>
+    <listPerson><personGrp><name>Pulcinella</name> <stage type="listPerson"> solo</stage></personGrp></listPerson>
+
+      <sp><speaker>[Pulcinella]</speaker>
+          <lg><l>Va' vattenne a mmalora,</l>
+              <l>Nò me canusci ancora,</l>
+              <l>Se figlema me fà sagli li flate</l>
+              <l>La'nchiudo int’a na cammera,</l>
+              <l>E le dongo na farma de mazzate.</l>
+              <l>Pe fi, che no me vene</l>
+              <l>La senepa a lo naso</l>
+              <l>Commo no locco stò;</l>
+              <l>Ma si me saglie pò,</l>
+              <l>Sò n’anemale:</l>
+              <l>Tanno me vide correre</l>
+              <l>Comm' a puorco feruto</l>
+              <l>Nò'nserve chiammà ajuto,</l>
+              <l>Mille ne scancarejo</l><pb n="17" facs="18_I__PulcinellaSpeziale_IT_GB_017.jpg"/>
+              <l>Cient'aute ne stroppejo</l>
+              <l>Crideme non è cosa naturale.</l></lg></sp></div>
+
+ <div type="3"><head type="scene" n="12">Scena 12</head>
+            <stage type="saut">Bottega di speziale con sedie.</stage>
+            <listPerson><personGrp><name>Delmira,</name>
+                <stage type="listPerson">e poi</stage> <name>Filarco</name></personGrp></listPerson>
+      
+      
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Per quanto m’aggirassi</l>
+              <l>Gelosa osservatrice in queste soglie.</l>
+              <l>Veder non potei ancora</l>
+              <l>Ne’l mio crudel nemico</l>
+              <l>Ne'l volto di colei, che l’innamora:</l>
+              <l>Ma, se pur nò m’inganna il mio sospetto</l>
+              <l>Ecco l’iniquo, che s’appressa. Amore</l>
+              <l>Non mi tradir; costanza offeso core.</l>
+              <l>Signor perche s’arresta !</l>
+              <stage type="corps">(verso la scena)</stage>
+              <l>Favorisca passar.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><stage type="corps">[fra sé]</stage>
+          <l>Oh Ciel che miro !</l>
+          <stage type="corps">[(A Delmira)]</stage>
+              <l>Quai voci ascolto, e qual sembianza è questa.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Dica, perché così</l>
+              <l>Stupido mi riguarda ?</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Affatto ignoto</l>
+              <l>Non mi sembra il tuo volto;</l>
+              <l>Parmi altra fiata averti visto.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>E dove ?</l>
+              <l>Se da lido remoto</l>
+              <l>Mi trasse a queste parti, e non ha molto,</l>
+              <l>Il mio destin</l>
+              <l><stage type="corps">[fra sé]</stage>
+              Non vuò scoprirmi ancora.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>M’ingannerò.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Così mi credo, e appena</l>
+              <l>Quì giunto ebbi la sorte</l>
+              <l>D'esser, benche senz'alcun merto, ammesso</l>
+              <l>Al servizio di lui, ch’altrui dispensa</l><pb n="18" facs="18_I__PulcinellaSpeziale_IT_GB_018.jpg"/>
+              <l>Succhi salubri, a riparar i danni</l>
+              <l>D’intempestiva minacciata morte.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Molto credilo a me, molto ne godo.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Grazia alla sua bontà: deggio servirla ?</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Non ai per il mio male</l>
+              <l>Farmaco confacente, ed a sanarlo</l>
+              <l>Fuori di chi n’è causa altrì non vale;</l>
+              <l>Pur potresti giovarmi.</l></lg></sp>
+     
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Eccomi pronto.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Posso di te fidarmi?</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Col dubitarne offende</l>
+              <l>La mia stima il mio onore.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Siedi dunque, e m’ascolta.</l></lg>
+              <stage type="saut">(Sedono.)</stage></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l> Per obbedirvi.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Or sappi, che Rosaura</l>
+              <l>Del tuo padron la figlia...</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>O’ già capito;</l>
+              <l>Il vostro mal altro non è, che amore,</l>
+              <l>Pure di risanarvi io non diffido,</l>
+              <l>Se il ver non m’ascondete.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Tutto saprò svelarti</l>
+              <l>L’interno del mio cor.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><stage type="corps">[fra sé]</stage>
+          <l>D’un core infido.</l>
+              <stage type="corps">[a Filarco]</stage>
+              <l>Dunque de vostri affetti</l>
+              <l>Questa Rosaura è l’arbitra ?</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Sì: regna</l>
+              <l>Essa sola in quest'alma.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Anima indegna !</l>
+      <stage type="corps">[a Filarco]</stage>
+              <l>Amaste altra giammai ?</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Il saper questo a te che giova ?</l></lg></sp>
+
+      <sp><speaker>Delia</speaker>
+          <lg><l>Assai.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Una certa Delmira</l>
+              <l>In tempo ch’io per varii affari miei</l><pb n="19" facs="18_I__PulcinellaSpeziale_IT_GB_019.jpg"/>
+              <l>Nella patria di lei facea dimora,</l>
+              <l>Di sua beltà m’accese</l>
+              <l>Il cor, che non avea</l>
+              <l>Le do'lcezze d’amor gustate ancora.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Care memorie.</l>
+          <stage type="corps">[(A Filarco)]</stage>
+              <l>Ed ella</l>
+              <l>Vi corrispose?</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>A mille, e mille segni</l>
+              <l>Altrettanta gentil, quant'era bella</l>
+              <l>Certo mi rese di sua fe costante;</l>
+              <l>Con generoso core</l>
+              <l>La patria, il genitor, la vita istessa ?</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>E poi l’abbandonasti ?</l>
+              <stage type="corps">(s’alza con sdegno.)</stage>
+              <l>Ah traditore !</l>
+              <stage type="corps">(risoluta)</stage>
+              <l>E non ti fà bersaglio</l>
+              <l>Di sue saette il Ciel</l>
+              <l>Cor perfido infedel,</l>
+              <l>E non t’inghiotte il suol.</l>
+              <stage type="corps">(Flebile)</stage>
+              <l>Delmira sventurata</l>
+              <l>Come potesti reggere</l>
+              <l>A un colpo così barbaro,</l>
+              <l>A un così acerbo duol</l>
+              <l>E non, ecc.</l></lg></sp></div>
+
+<div type="3"><head type="scene" n="13">Scena 13</head>
+    <listPerson><personGrp><name>Filarco</name> <stage type="listPerson">solo</stage></personGrp></listPerson>
+
+      <sp><speaker>[Filarco]</speaker>
+          <lg><l>Resto di sasso ! Se la mia Delmira</l>
+              <l>Non avesse frà l'onde</l>
+              <l>Del patrio arno lasciata,</l>
+              <l>Mentre in traccia di me venia, la vita.</l>
+              <l>Giurerei, che celata</l>
+              <l>Sotto mentite spoglie,</l>
+              <l>Condotta amor l’avesse</l><pb n="20" facs="18_I__PulcinellaSpeziale_IT_GB_020.jpg"/>
+              <l>A turbar la mia pace in queste soglie.</l>
+              <l>Ma di quell’infelice</l>
+              <l>E'troppo certo il fato acerbo, e rio,</l>
+              <l>Pur non cessano, oh D...</l>
+              <l>Di tormentarmi il core</l>
+              <l>Le rimembranze del passato amore.</l>
+              <l>Frà le ceneri di morte</l>
+              <l>Sin'ad or sen visse ascosa</l>
+              <l>L'amorosa</l>
+              <l>Mia facella:</l>
+              <l>Or si scopre, e benche sia</l>
+              <l>Moribonda, e quasi spenta</l>
+              <l>Pure tenta</l>
+              <l>Arder anch’ella.</l>
+              <l>Frà ecc.</l></lg></sp></div>
+
+<div type="3"><head type="scene" n="14"> Scena 14</head>
+    <stage type="saut">Cortile.</stage>
+<listPerson><personGrp><name>Pulcinella,</name>
+    <stage type="listPerson"> e </stage> <name>Damone</name></personGrp></listPerson>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>La vuoi sentì cantanno? No'nte vole.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Basterebbe, che voi</l>
+              <l>Voleste da dovero.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Mannà li vische toi,</l>
+              <l>Io che nc’aggio da fà, si le pparole</l>
+              <l>Sò jettate a lo viento,</l>
+              <l>Voi che la schiatta'ncuorpo de mazzate ?</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Oh questo nò.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Sapisse, che responne</l>
+              <l>Qumno de te le parlo.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>E che vi dice?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Pegliatelo pe bui ch'io nollo voglio.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Che temerario orgoglio !</l></lg></sp><pb n="21" facs="18_I__PulcinellaSpeziale_IT_GB_021.jpg"/>
+      
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Tu mo che'nce farrisse? Veramente</l>
+              <l>Farria na bella cosa,</l>
+              <l>S’avesse da vedere</l>
+              <l>Nudeco mmarretale</l>
+              <stage type="corps">[fra sé]</stage> 
+              <l>Siente bella parola !</l>
+              <stage type="corps">[a Damone]</stage>
+              <l>No Miedeco'nguadiato a no spezeale.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Che pazzo !</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Cosa dice ?</l>
+              <l>Che vaie'mbrosoneianno frà li diente?</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Niente Signore, niente.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>No’me parlà proibbeto.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Dissi solo, che son troppo infelice</l>
+              <l>Se, per non dimostrarmisi pietoso,</l>
+              <l>Si scorda il padre ancora</l>
+              <l>Di sua paterna autorità.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Mmalora</l>
+              <l>Si n’ommo cureolo,</l>
+              <l>Crideme si sapisse</l>
+              <l>Comme stà la faccenna</l>
+              <l>De sta manera mò non parlerisse.</l>
+              <l>Rosaura a me m’è à figlia, n’è lo vero ?</l>
+              <l>E pure io no lo sò, sì le sò patre.</l>
+              <l>Stà potecha è la mmia,</l>
+              <l>E pure io nò nne sò, si sò patrone;</l>
+              <l>Sacc’io chello, che dico.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Io non v’intendo;</l>
+              <stage type="corps">[fra sé]</stage>
+              <l>Da tronchi accenti suoi</l>
+              <l>Molto comprendo.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Sa che buo fa ! Vienela a mmiedecare.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Ha forse qualche male ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>No: si propio annemale,</l>
+              <l>Faglene venì tu na cinquantina,</l>
+              <l>A che te servarria la mmedecina ?</l></lg></sp><pb n="22" facs="18_I__PulcinellaSpeziale_IT_GB_022.jpg"/>
+      
+      <sp><speaker>Damone</speaker>
+          <lg><l>Sarebbe per Rosaura un gran tormento</l>
+              <l>S’io le potessi sol partecipare</l>
+              <l>Di quei mali il minor che per lei sento.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Addonca stai malato ! Che te dole ?</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Ridir non sò qual sia.</l>
+              <l>S'oltre essere infinita</l>
+              <l>Comprender non si può, la doglia mia.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Nè ! Patisce de doglie:</l>
+              <l>Miedeco mio vattènne</l>
+              <l>Nò me'nce caracuoglie.</l>
+              <l>Ai sto male, e pretienne,</l>
+              <l>Ch’io pe mogliere mo te dia na figlia</l>
+              <l>Che fusse fatta scampolo</l>
+              <l>D’argento vivo, e da sauza pariglia ?</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Voi scherzando, accrescete il mio dolore</l>
+              <l>Altro male io non sento</l>
+              <l>Fuori di quel che mi tormenta il core.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Ora no nce vò auto,</l>
+              <l>Mo'nce lo ddico, saglietenne'ncoppa</l>
+              <l>Parlale, che sacc’io , vatte'ngegnanno;</l>
+              <l>Si no’nsaie fà tu danno.</l></lg>
+              <stage type="saut">(Parte.)</stage></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Se mai ti fè pietà di cuore umano</l>
+              <l>Il rio crudel tormento,</l>
+              <l>In sì fatal momento</l>
+              <l>Un tuo fedelseguace aita amore:</l>
+              <l>E mentt'io stringerò la bella mano</l>
+              <l>Di chi mi fà languire</l>
+              <l>Pietoso al mio martire</l>
+              <l>Co'dolci lacci tuol gli stringi il core</l>
+              <l>Se ecc.</l></lg></sp></div></div>
+              <div type="5"><head type="div5">Fine dell'atto primo.</head></div>
+      
+           <div type="1"><pb n="23" facs="18_I__PulcinellaSpeziale_IT_GB_023.jpg"/><head type="acte" n="2">Atto II</head>
+               <div type="3"><head type="scene" n="1">Scena 1</head>
+                   <stage type="saut">Sala con sedie.</stage>
+            <listPerson><personGrp><name>Pulcinella,</name>
+                <stage type="listPerson"> e </stage> <name>Rosaura</name></personGrp></listPerson>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Rosa, Rosaura no me fa'nfadare</l>
+              <l>Tu stai malata, e'ntutte le manere</l>
+              <l>Io voglio, che te faccia mmedecare.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Io ammalata ! E da che lo conoscete ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Da sta facce gialluoteca, che tene</l>
+              <l>Che vorisse'mparare</l>
+              <l>A conosce la facce a no spezeale !</l>
+              <l>Mo senterraje lo mmiedeco</l>
+              <l>Uno delli chiù guappe, e prattecune</l>
+              <l>Cha stiano int’allo munno,</l>
+              <l>E nò' guardà, che sia no svarvatiello</l>
+              <l>'Nfia mo n’averrà accise no milliune.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg> <l>" Pur troppo il credo.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>" 'Nche te guarda, nfacce</l>
+              <l>" Te dice, che mal aje</l>
+                  <l>" Senterraje senterraje</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>" E difficil, che intenda</l>
+              <l>" Quel si grave tormento</l>
+              <l>" Per cui l’anima mia languire io sento.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>" 'Ntenne a me, cha no'nsaccio</l>
+              <l>" Alle bote manch’io chello, che dico:</l>
+              <l>" Considera.</l></lg></sp></div>
+    
+               <div type="3"><pb n="24" facs="18_I__PulcinellaSpeziale_IT_GB_024.jpg"/><head type="scene" n="2">Scena 2</head>
+                   <listPerson><personGrp>
+                       <name>Cannetella,</name>
+                       <name>Damone,</name>
+                       <stage type="listPerson"> e </stage> <name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">(di dentro)</stage>
+          <lg><l>Anzi lei bello Signore</l>
+              <l>Facite grazia</l>
+              <stage type="corps">(fuori)</stage>
+              <l>Solignò dottore.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Bè mmenuto sio chillo.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg> <l>Io li son schiavo;</l>
+              <l>E questa la signora</l>
+              <l>Che devo aver l’onore di curare !</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Chesta avite gnossi da mmiedecar.</l></lg>
+          <stage type="saut">(Siede.)</stage></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Con buona permissione.</l>
+              <l>Mi favorisca:</l>
+              <l>Che incommodo si sente ?</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Non vi posso vedere.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Mannaggia si cecata !</l>
+              <l>Oh vedite, che femmena besteale</l>
+              <l>Voleva proffedià, che n’avea male.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Se fissaste in quest’occhi un guardo solo.</l>
+              <l>Vedresti in essi il cuore</l>
+              <l>Cinto di vivo ardore.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Si si lo core puro le stà male;</l>
+              <stage type="corps">(A Cannetella)</stage>
+              <l>Siente comme'nce cuoglie.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Oh che annemale !</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Io mi sento morir, quando vi miro.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">(a Damone)</stage>
+          <lg><l>Si sana addonca la volite renne</l>
+              <l>No la'nfadate chiune, e jatevenne.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Pietà mio ben, pietà.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Che piatà ! La piatà no’nzerve a niente</l>
+              <l>Sempe aggio'ntiso addicere.</l>
+              <l>Cha miedeco piatuso</l>
+              <l>Fà la chiaga fetente.</l></lg></sp>
+      
+      <sp><speaker>Damone</speaker>
+          <lg><l>Perché così crudele !</l></lg></sp><pb n="25" facs="18_I__PulcinellaSpeziale_IT_GB_025.jpg"/>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Oh Dei m’offende</l>
+              <l>La vostra vista; andate,</l>
+              <l>Che il mio male da voi non si comprende.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Che sò ste smorfie, quanno la scompimmo.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Mi favorisca il polso.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <stage type="pers">(A Rosaura)</stage>
+          <lg><l>Via su priesto.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Obbedisco.</l>
+              <stage type="corps">[fra sé]</stage>
+              <l>Che tormento !</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Vide, vide patrò comme la tocca !</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>S’isso è miedeco locca.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <stage type="pers">(piano a Damone)</stage>
+          <lg><l>Questa è pena di morte.</l></lg></sp>
+    
+      <sp><speaker>Damone</speaker>
+          <lg><l>Faccia grazia la lingua.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Che pazienza.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Oh chesta e chiuù cureosa</l>
+      <l>Sarrà cavallo, che le guarda'mocca.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>S'isso è miedeco locca.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Avete ancor finito?</l>
+      <stage type="corps">[fra sé]</stage>
+              <l>Caro Filarco mio,</l>
+              <l>Qual pena io per te sento.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Rettoccale lo puzo, cha me pare</l>
+              <l>Che se scommova alquanto.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Oh Ciel cresce il tormento.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Ecco a stringer ritorno</l>
+              <l>La bella mano di colei, che adoro.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Più resister non posso, io manco io moro.</l></lg>
+              <stage type="saut">(Sviene.)</stage></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Patrona ? Bene mmio me cade ciessa.</l>
+              <l>Sentite è fatta fridda comm’a jaccio;</l>
+              <l>Patrò dalle nò vraccio</l>
+              <l>E jammola a portà nconppa a lo lietto.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Andiamo io la sostengo.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>E và vattenne</l>
+              <l>Ne vuoi bedè lo fine !</l><pb n="26" facs="18_I__PulcinellaSpeziale_IT_GB_026.jpg"/>
+              <l>Oh chesto si ch’è miedeco azzellente</l>
+              <l>Non fà stentà l’aggente.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Qual colpa io v’hò ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Vattenne</l>
+              <l>Cha si propio no miedeco annemale.</l>
+              <l>L’autre accideno, è vero, li mmalate,</l>
+              <l>Ma primma tutte danno</l>
+              <l>Quà poco de guadagno a lo spezeale.</l></lg>
+
+      <stage type="saut">(Via tutti fuor di Damone, il quale dopo esser stato alquanto attonito canta l’aria.)</stage></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Sbigottito, è immobil resta</l>
+              <l>Quel nocchier, che presso al lido</l>
+              <l>Già cessata la tempesta</l>
+              <l>Sorger vede un vento infido</l>
+              <l>Che lo spinge in alto mar:</l>
+              <l>Così appunto ora succede</l>
+              <l>Al mio cor, che mentre crede</l>
+              <l>Goder lieto il benè amato,</l>
+              <l>Dal rigor d’iniquo fato</l>
+              <l>Vien costretto a disperar.</l>
+              <l>Sbigottito ecc.</l></lg></sp></div>
+
+<div type="3"><head type="scene" n="3">Scena 3</head>
+                <stage type="saut">Bottega con sedie.</stage>
+    <listPerson><personGrp><name>Cannetella,</name><stage type="listPerson"> e </stage> <name>Delmira</name></personGrp></listPerson>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Ma pecche, gioia mia</l>
+              <l>State accosì colereco ? Decite,</l>
+              <l>Cha sì non spaporate</l>
+              <l>Ietteco morrarite, arrasso sia.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Deh per pietà più non mi tormentate.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Oh comme si'n cocciuso, maro tene</l>
+              <l>Io no’nte pozzo propio</l>
+              <l>Bedè de stà manera:</l><pb n="27" facs="18_I__PulcinellaSpeziale_IT_GB_027.jpg"/>
+              <l>Li sà crideme a mene,</l>
+              <l>Me ne schiatta lo core.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>E perché tanta parte</l>
+              <l>Nel mio duol vi prendete !</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Lo pecchè so sacc’io; lo sape...</l>
+              <l>Lo sape... Ammore.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Dunque voi siete amante ?
+              <stage type="corps">[fra sé]</stage></l>
+              <l>Fingerò non capirla.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Gnossì sò nnammorata</l>
+              <l>De chelle splennentisseme popille,</l>
+              <l><stage type="corps">[fra sé]</stage>
+              Creo, che pe la uregogna</l>
+              <l>Se siano fatti russili capille.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Povera sventurata</l>
+              <l>Ti compatisco.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Ne ?</l>
+              <l>Ma pecchè caosa m’aipiatà !</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Perché ?</l>
+              <l>Semplicetta tu, non sai</l>
+              <l>Quale sia d’amor l’affanno,</l>
+              <l>Io lo sò, che lo provai,</l>
+              <l>Ed ancor ne sento il danno.</l>
+              <l>Semplice ecc.</l></lg>
+              <stage type="saut">(via)</stage></sp></div>
+
+    <div type="3"><head type="scene" n="4">Scena 4</head>
+        <listPerson><personGrp><name>Cannetella</name> <stage type="listPerson">sola</stage></personGrp></listPerson>
+
+      <sp><speaker>[Cannetella]</speaker>
+          <lg><l>Vi comme è friddo ? Io pe me nò nsaccio.</l>
+              <l>Che me vaa vennenno;</l>
+              <l>Semp’aggio ntiso a dicere</l>
+              <l>Ch’allo munno nò nceie gusto maggiore</l>
+              <l>De chello, che se prova a fà l’ammore</l>
+              <l>Io pe me, sia doce, sia ammaro</l>
+              <l>Ccà nò nce riparo</l>
+              <l>Lo voglio provà.</l><pb n="28" facs="18_I__PulcinellaSpeziale_IT_GB_028.jpg"/>
+              <l>Ne socceda poi chello, che buò</l>
+              <l>Lo malanno sarrà tutto mio</l>
+              <l>Ma chesto golio</l>
+              <l>Mell’hò da caccià.</l></lg></sp></div>
+
+<div type="3"><head type="scene" n="5">Scena 5</head>
+    <listPerson><personGrp><name>Filarco,</name>
+        <stage type="listPerson"> e </stage> <name>detta</name></personGrp></listPerson>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Zi zi, non tanta fretta, una parola.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>A propuoseto, quanto</l>
+              <l>V’aggio desederato de bedè.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Eccomi al tuo commando.</l>
+              <l>Dimmi che nuova c’è ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Lo sio Tammone</l>
+              <l>Lo miedeco...</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Che ha fatto ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Pe dare sfazione</l>
+              <l>A lo patrone mmio, se n’èbenuto</l>
+              <l>A miedecà Rosaura vosta.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Come ?</l>
+              <l>Ha ella forse male ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Ah: lo patre annemale</l>
+              <l>Credea, che lo dottore</l>
+              <l>'Ntoccarele lo puzo</l>
+              <l>Porsì l’avesse a spertosà lo core.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>E Rosaura che ha detto ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>La scuressa</l>
+              <l>Che bolea dire ? Pel’ammore vuosto</l>
+              <l>Dolore accosì granne n’ha sentuto</l>
+              <l>Che n’ato poco ne cadeva ciessa</l>
+              <l>E mò davero stà mmalata.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Oh Ciel !</l>
+              <l>Morir mi sento a cosi rianovella.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Sa, che bolite fa ?</l><pb n="29" facs="18_I__PulcinellaSpeziale_IT_GB_029.jpg"/>
+              <l>Pe secotà l’ummore</l>
+              <l>De lo patrone mmio</l>
+              <l>Fegneteve d ottore.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>In che modo ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Decite</l>
+              <l>Cha vui fora da ccà stodeato avite</l>
+              <l>Chesta professeone,</l>
+              <l>E che mò la volite</l>
+              <l>Aserzetà infra nui: già lo patrone</l>
+              <l>Non ve canusce chiù de tanto. Io pò,</l>
+              <l>Cò scusa de la ghire a miedecare</l>
+              <l>Ve farraggio a Rosauora parlare.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Ma dimmi in cortesia</l>
+              <l>Come hò da esercitar la medicina:</l>
+              <l>Quando non sò ne pur che cosa sia ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Si che sarrai lo primmo</l>
+              <l>Nce ne sò tanta, e tanta,</l>
+              <l>Che se mparano a mente</l>
+              <l>Quatto nomme torchische,</l>
+              <l>Fanno'n coppa a na carta</l>
+              <l>Cierte scacamarrone,</l>
+              <l>Che mench’issa li'ntenneno, e accosì</l>
+              <l>Accideno l’aggente</l>
+              <l>Senza paura de cadè presone;</l>
+              <l>Nò dobbetà de niente,</l>
+              <l>Vatte allestenno, e lassa</l>
+              <l>Tutta la cura de lo riesto a mene.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Tu sola trar mi puoi d’affanni, e pene</l>
+              <l>In così ria procella</l>
+              <l>Tu sei la fida stella,</l>
+              <l>Per cvi spero toccar</l>
+              <l>L’amato porto.</l>
+              <l>Nelle tue braccia or sono,</l><pb n="30" facs="18_I__PulcinellaSpeziale_IT_GB_030.jpg"/>
+              <l>E in esse m’abbandono,</l>
+              <l>Tu sol mi puoi recar</l>
+              <l>Pace, e conforto.</l>
+              <l>In ecc.</l></lg></sp></div>
+
+    <div type="3"><head type="scene" n="6">Scena 6</head>
+        <listPerson><personGrp><name>Cannetella, </name><stage type="listPerson"> e poi </stage> <name>Pulcinella.</name></personGrp></listPerson>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Lo voglio servì propio,</l>
+              <l>Cha tutto è umanità</l>
+              <l>Si a vierzo suio se piglia,</l>
+              <l>Po chi sà, che no juorno</l>
+              <l>A rennere non m’aggia la pariglia.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Cannetè ; Cannetè.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Che commannate ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Figliema comme stà ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Stonata ancora.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Oh vide che mmalora ?</l>
+              <l>Ncagno de se guarì ; chesta stà male.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Ma si vui le chiammate</l>
+              <l>Pe falla miedecare, n’annemale.</l>
+              <l>Oh si patrò.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Che d'è !</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Hai visto chello giovene,</l>
+              <l>Che stace ccà becino</l>
+              <l>Int’a no palazzotto a belleggiare,</l>
+              <l>Chello melordo...</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Embè ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Chello è miedeco bravo, auto che...</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Nè ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Da isso se porria fà miedecare.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Sà che volimmo fa ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Che cosa !</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Siente;</l><pb n="31" facs="18_I__PulcinellaSpeziale_IT_GB_031.jpg"/>
+              <l>Pè bedè, qual è meglio</l>
+              <l>Provammo l’uno, e l’auto.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Sapiamente.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Tu chiamma lo melordo,</l>
+              <l>Cha io trovo Tammone.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Mo vao.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Sienteme a mene;</l>
+              <l>E lo neozio nosto ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Mo non è tiempo de parlà de chesto.</l></lg>
+              <stage type="saut">(Parte.)</stage></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Và và gioiello mmio, ma torna priesto.</l>
+              <l>Mill’anne, e chiù me pare</l>
+              <l>De me la nguadiare,</l>
+              <l>Vide la comm'è bella,</l>
+              <l>Sforgiusa, e cianciosella</l>
+              <l>La voglio craie sposà;</l>
+              <l>Po vide che pegnato</l>
+              <l>Maretato,</l>
+              <l>Na foglia tennerella</l>
+              <l>A l’ardo viecchio aonita</l>
+              <l>Te fà leccà le ddita:</l>
+              <l>Che nobbele magnà.</l>
+              <l>Mill ecc.</l></lg></sp>
+    </div>
+      
+<div type="3"><head type="scene" n="7">Scena 7</head>
+            <stage type="saut">Sala.</stage>
+    <listPerson><personGrp><name>Rosaura, </name><stage type="listPerson"> e </stage> <name>Cannetella</name></personGrp></listPerson>
+
+      <sp><speaker>Rosaura</speaker>
+          <stage type="pers">(a sedere)</stage>
+          <l>" In sì fieri tormenti</l>
+          <l>" Dunque son condannata a viver sempre !</l>
+          <l>" Ne mai vedrassi il mio destin crudele</l>
+          <l>" Cangiar sì dure tempre ?</l><pb n="32" facs="18_I__PulcinellaSpeziale_IT_GB_032.jpg"/>
+          <l>" In van pretende in vano ingiusta sorte</l>
+          <l>" Rapirmi il ben ch'io bramo</l>
+          <l>" Prima, che d’altri esser saprò di morte.</l></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Patrona allegramente.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Quai novelle mia fida ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Buone assai:</l>
+              <l>Lo sio Filarco...</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Oh caro amato nome.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Mo mo venerrà ccà.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Come ? Deh dimmi come ?</l>
+              <l>Io quì vedrò il mio ben ! Spiegati.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Ah ah</l>
+              <l>Lo vedarrite, e toccarite ancora</l>
+              <l>Sia con salute e buona sciorte.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Oh Dei !</l>
+              <l>Non mi dar più tormento;</l>
+              <l>Dimmi in qual guisa; io già del genitore</l>
+              <l>L’ira per lui pavento.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Non dobbetate, che lo gnore vuosto</l>
+              <l>E’ già d’accordo, e venarrà co isso</l>
+              <l>Pe fare no consurto co Tammone,</l>
+              <l>Ch’io l’aggio dato a credere</l>
+              <l>Ch'è no miedeco bravo.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Ma perché con Damone !</l>
+              <l>Potea condurlo solo.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Chiano, chiano</l>
+              <l>Na cosella pe vota,</l>
+              <l>Site cauda de rine</l>
+              <l>Tenite le formicole alle mmano.</l>
+              <l>No'npotea dà fospetto !</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Con ragione,</l>
+              <l>Ma Filarco è informato ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Si Signora</l><pb n="33" facs="18_I__PulcinellaSpeziale_IT_GB_033.jpg"/>
+              <l>Io l’aggio consortato alla fenzeone,</l>
+              <l>" E stà abbascio aspettanno alla poteca</l>
+              <l>" Cha venga lo patrone</l>
+              <l>" Ch’a trovare chill’auto se n’è ghiuto.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Quanto ti deggio, o cara.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Zitto, zitto,</l>
+              <l>Cha mo me pare se ne sia sagliuto</l>
+              <l>'Nsieme con li dottori</l>
+              <l>Io sio Polecenella.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>In tal cimento</l>
+              <l>Benigno i voti miei seconda amore.</l></lg></sp></div>
+
+<div type="3"><head type="scene" n="8">Scena 8</head>
+    <listPerson><personGrp><name>Pulcinella,</name><name>Filarco,</name><name>Damone,</name><stage type="listPerson"> e </stage> <name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Pulcinella</speaker>
+          <stage type="pers">(di dentro)</stage>
+          <lg><l>Porta le sseggie ccà pe sti Segnori </l>
+              <l>Cannetè ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Mo ve servo.</l></lg>
+              <stage type="saut">(Va per le sedie.)</stage></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Facite grazia.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Ahi vista i</l></lg>
+              <stage type="saut">(Escono.)</stage></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Passa passa ussoria.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Al suo merto m’inchino Signora</l>
+              <stage type="corps">(piano)</stage>
+              <l>del mio cor, dell’alma mia.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l> Io son sva serva umile</l>
+              <stage type="corps">(piano)</stage>
+              <l>addio mio bene.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Cheste sò propio scene.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Ad ichinarla io corno:</l>
+              <l>Scusi se troppo ardisco</l>
+              <l>Colpa è del genitor.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>La riverisco.</l></lg>
+              <stage type="saut">(Sosienuta.)</stage></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Ecco ccà la malata,</l>
+              <l>Cheste songo le sseggie,</l>
+              <l>Sedite, e conzortate</l>
+              <l>Ma, allo ssoleto uvosto</l><pb n="34" facs="18_I__PulcinellaSpeziale_IT_GB_034.jpg"/>
+              <l>Pe fa bedere, che'ntennite l'arte;</l>
+              <l>No ve pigliate infado, e no gridate.</l></lg>
+
+      <stage type="saut">(Siedono dope fatte le lor cirimonie, Rosaura in mezzo, Damone alla sinistra, e Filarco alla destra.)</stage></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Dica Signora, ove il suo mal risiede.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Nella parte sinistra</l>
+              <l>Il duol, che mi tormenta, ha la sua sede.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>E dalla destra ha ella mal veruno ?</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Mancarebbe sol questo,</l>
+              <l>Per rendere immortale in me il dolore,</l>
+              <l>Ch'il mio mal si trovasse</l>
+              <l>Nella parte del core.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Che dici, stai mbreaca ?</l>
+              <l>Da quanto'nquà lo ccore</l>
+              <l>Statte a mmano deritta !</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>E pur chi'l crederia</l>
+              <l>Il mio cor stà di quà.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Scusi Signora mia,</l>
+              <l>Se questo fosse vero</l>
+               <l>Sarebbe al certo mostruosità.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>" N’occorr’auto l’ha dato</l>
+              <l>" Lo mmale'ncapo figliema è mpazuta.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage>[fra sé]</stage>
+          <lg><l>Pazzo è chi no la'ntenne.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Secotate.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Dica, come le serve l’appetito ?</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Appetisco pur troppo.</l>
+              <l>Ma mi si vieta oh D...</l>
+              <l>Pascermi di quel cibo,</l>
+              <l>Che sol potria far pago il desir mio.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>La sete la tormenta !</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Quasi tantalo sempre</l>
+              <l>Bramo all’intorno ardor qualche ristoro</l><pb n="35" facs="18_I__PulcinellaSpeziale_IT_GB_035.jpg"/>
+              <l>L'onda ho vicina, e pur di sete io moro</l></lg>
+              <stage type="saut">(Guarda Filarco.)</stage></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage>[fra sé]</stage>
+          <lg><l>Sente come la tocca la zampogna.</l></lg>
+              <stage type="saut">(Gli toccano il polzo. In questa scena mai Rosaura guardi Damone.)</stage></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Che d’è sio d[ottor] Tammone ?</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Mi par molto agitato.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Sio melordo che dici ?</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Andar non può più giusto, e regolato.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Addonca si li puze non sò aguale</l>
+              <l>Ha' da stà meza buona, e mezza male:</l>
+              <l>Concordiammo na vota</l>
+              <l>P’ammore de lo Cielo.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Io l’ho per tutta fuoco.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Io tutta gelo.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg> <l>Una fridda, e na cauda !</l>
+              <l>Accosì fanno tutte li dottore</l>
+              <l>Signossi, non segnore,</l>
+              <l>Chest'è, chesto n’è stato;</l>
+              <l>Se chiajetano na mola</l>
+              <l>Pò chi ne va pe sotta ? lo malato.</l>
+              <l>Sto male sujo annerà a luongo assaje ?</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Con la ricetta mia guarirà in breve.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Ma co chell'auta non guarisce mai.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Facimmo a stà manera</l>
+              <l>No repece ped’uno;</l>
+              <l>Ch io pò pe'nformazione</l>
+              <l>Me ne vao a conzortà co lo guarzone.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Io per me son pronto,</l>
+              <l>A lei Signor Damone.</l></lg></sp>
+    
+      <sp><speaker>Damone</speaker>
+          <lg><l>Per obbedirla.</l></lg>
+              <stage type="saut">(Va a scrivere.)</stage></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <stage type="pers">(piano a Cannetella)</stage>
+          <lg><l>Io che cosa ho da scrivere,</l><pb n="36" facs="18_I__PulcinellaSpeziale_IT_GB_036.jpg"/>
+              <l>Se mai fatta non ho tal professione ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>’Nzò, che te vene a mente tra loro.</l>
+              <l>Chesto non serve a niente.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <stage type="per">[fra sé]</stage>
+          <lg><l>" Pe far noto al mio bene</l>
+              <stage type="corps">(scrive)</stage>
+              <l>" L'ardor di questo core</l>
+              <l>" Bella occasione mi presenta amore.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Ecco llà, quatto chiacchere,</l>
+              <l>Na toccata de puzo,</l>
+              <l>Neoppa a na carta quatto scarafune</l>
+              <l>Guadaguano denare a buon, e chiune.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Là sta la mia ricetta.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Ancor la mia.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Non ce accor’auto mo.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Per ora non mi pare</l>
+              <l>Che d’alcun altra cosa vopo vi sia.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Così è per l'appunto.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Vì, si siete di miedece annemale,</l>
+              <l>Avite da guardare.</l>
+              <l>Dint'a lo cantariello, e all'aurinale.</l>
+              <l>Cannetè va li piglia.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Non occorre.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Questa è un osservazione,</l>
+              <l>Che si suol far poiche la medicina</l>
+              <l>Ha fatto operazione.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>" Sì sì avite raggione</l>
+              <l>" Oh jatevenne, io non v'addengrazio,</l>
+              <l>" A che serveno tanto complimiente</l>
+              <l>" 'Nfrà nuje, che simmo della professeone ?</l>
+              <l>Addò si Cannetella apre la porta.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Iammo da chesta via, che e la chiù corta.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Signora al suo comando.</l></lg></sp><pb n="37" facs="18_I__PulcinellaSpeziale_IT_GB_037.jpg"/>
+      
+      <sp><speaker>Damone</speaker>
+          <lg><l>Io le fò riverenza.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Grazie ad entrambi.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Eh priesto, ch’aggio pressa.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Obbedisco.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>A tè mò, oh si melordo</l>
+              <l>Non hai scomputo de toccà lo puzo ?</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Son a servirla, vada.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>E n’ata vota mò.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Comanda ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Priesto;</l>
+              <stage type="corps">(Lo spinge.)</stage>
+              <l>Rompiteve lo cuollo pe le grada.</l></lg>
+              <stage type="saut">(Parte.)</stage></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Nasce in mezzo alle mie pene</l>
+              <l>Debil raggio di speranza,</l>
+              <l>Ma pur lieto il cor mi tiene,</l>
+              <l>E lusinga la mia fè.</l>
+              <l>Così al mesto passaggiero</l>
+              <l>Tal’or spunta in lontananza</l>
+              <l>Piccol lume, che'l sentiero</l>
+              <l>Nell’orror di notte oscura</l>
+              <l>Và scoprendo al dubbio piè.</l>
+              <l>Nasce ecc.</l></lg></sp></div>
+      
+      
+<div type="3"><head type="scene" n="9">Scena 9</head>
+            <stage type="saut">Cortile, e bottega.</stage>
+    <listPerson><personGrp><name>Delmira</name> <stage type="listPerson">sola</stage></personGrp></listPerson>
+
+      <sp><speaker>[Delmira]</speaker>
+          <lg><l>" In sì misero stato</l>
+              <l>" Che far pensi, o Delmira !</l>
+              <l>" Dunque sì presto in te svanì quell’ira</l>
+              <l>" Che giusta ti spronava alla vendetta ?</l>
+              <l>" Vendetta ? E contro chi ?</l>
+              <l>" Contro quell’infedel, che ti tradì.</l>
+              <l>" Ah che per vendicarmi</l>
+              <l>" Allor, che pronta, e risoluta io sono</l><pb n="38" facs="18_I__PulcinellaSpeziale_IT_GB_038.jpg"/>
+              <l>S’ei mi volge uno sguardo</l>
+              <l>Mi disarma la destra, e gli perdono.</l></lg></sp></div>
+
+<div type="3"><head type="scene" n="10">Scena 10</head>
+        <listPerson><personGrp>
+            <name>Pulcinella</name> <stage type="listPerson">con le ricette, 
+            e</stage> <name>detta.</name></personGrp></listPerson>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Lisà Lisà mo è tiempo</l>
+              <l>De farrete stimmare ommo valiente.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>" In che deggio servirvi ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Cheste sò di rizette,</l>
+              <l>Una dello dottor sio d[ottor] Tammone.</l>
+              <l>E l’ata de no miedeco melordo.</l>
+              <l>Tu cha si spezeale prattecone</l>
+              <l>Vide no poco qual’è meglio, chesta</l>
+              <l>De chi è ?</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Di Damone.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Videla, che te pare ?</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Non si può biasimare.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Vide chest'ata mò.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Oh Dei ! Son questi</l>
+              <l>Di Filarco i caratteri ben noti,</l>
+              <l>Un tempo a me sì cari, or si funesti:</l>
+              <l>Per poter favellare alla sua vaga</l>
+              <l>Ei si finse dottore:</l>
+              <l>E’ così, non ha dubio</l>
+              <l>Eccolo sottoscritto il Traditore.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Che d’è ? Si fatto jancho</l>
+              <l>Da che stà carta'mmano t’aggio data,</l>
+              <l>Fusse mai mmenenata.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Lessi riepilogata in questo foglio</l>
+              <l>L’alta cagion del fiero mio cordoglio.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Vì, che razza mardetta,</l>
+              <l>Sò sti Miedece cane;</l>
+              <l>Accideno l’aggente,</l><pb n="39" facs="18_I__PulcinellaSpeziale_IT_GB_039.jpg"/>
+              <l>Uno co lo parlare,</l>
+              <l>L’auto colla rezetta.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Non l’avessi mai letta.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Manco male, cha io non faccio leggere.</l>
+              <l>Si nò a me puro l’averria ficcata.</l>
+              <l>Lisà jettala a diavolo</l>
+              <l>L’aveva fatta netta la colata.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Nò, voglio, che la senta.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Arrasso sia.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Vuò, senza palesarmi</l>
+              <l>Scoprire il traditore</l>
+              <l>E dar principio alla vendetta mia.</l>
+              <stage type="corps">[(A Pulcinella)]</stage>
+              <l>Favorisca ascoltar.</l></lg></sp>
+    
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Lieggi, ma stà d’arrasso.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Non mi muovo un sol passo.</l></lg>
+              <stage type="saut">(Pulcinella sta aspettando con timore, che legga.)</stage></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Vita cara.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Ch'hai ditto ! Oh chesto si, che è</l>
+              <l>Songo spezeale, e saccio,</l>
+              <l>Cha chesta vita cara</l>
+              <l>Non è porvere, o agniento</l>
+              <l>Che pozza trasì dinto a no sceroppo;</l>
+              <l>Mo l’agghiust'io, Rosaura, Cannetella. Chiama.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">(di dentro)</stage>
+          <lg><l>Che nce patrone mmio?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Scennite abbascio;</l>
+              <l>Le voglio'mparà io a stà pettolella</l>
+              <l>A tenè mano à figliema.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Voi siete</l>
+              <l>Ingannato, ò Signore,</l>
+              <l>Sappiate, che Filarco</l>
+              <l>E un vile, io lo conosco, è un Traditore.</l></lg></sp><pb n="40" facs="18_I__PulcinellaSpeziale_IT_GB_040.jpg"/></div>
+      
+    <div type="3"><head type="scene" n="11">Scena 11</head>
+       <listPerson><personGrp>
+           <name>Cannetella,</name>
+           <stage type="listPerson">e poi</stage> <name>Rosaura,</name>
+           <stage type="listPerson"> e </stage> <name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Eccome ccà.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Be menga,</l>
+              <l>Si miettennante mia porta pollaste</l>
+              <l>Bello dottore m’ai trovato; vide</l>
+              <l>Vide no po, che nchiaste</l>
+              <l>Ave ordenate a figlema.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Che è stato ?</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <stage type="pers">(esce)</stage>
+          <lg><l>Par che m’abbia chiamato.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Gnossì.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Che mi comanda ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Te piace veramente</l>
+              <l>Lo miedeco melordo.</l>
+              <l>Chiù no me maraviglio,</l>
+              <l>Si le facive tanta comprimiente.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Io non l’intendo.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Liegge.</l>
+              <l>Liegge no poco là chella rezetta.</l></lg>
+              <stage type="saut">(Rosaura và a leggere la carta.)</stage></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Sio Patrone che è ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Mo senterraje tu puro aspetta, aspetta.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Che miro oh Ciel ! Incauto in questo foglio</l>
+              <l>Sensi amorosi il mio Filarco espresse.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Hai visto bello'mbroglio ?</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <stage>[fra sé]</stage>
+          <lg><l>Amor, se tu m’assisti, io mi confidoido</l>
+              <l>Di trovarci il ripiego.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker> 
+          <lg><l>Che ne dici?</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <stage type="pers">(piano a Delmira)</stage>
+          <lg><l>Senti non contradirmi, o ch'io t’uccido.</l>
+              <stage type="corps">[A Pulcinella]</stage>
+              <l>Che mal v’è in questa carta?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Niente, niente.</l><pb n="41" facs="18_I__PulcinellaSpeziale_IT_GB_041.jpg"/>
+              <l>Vide, che facce tosta !</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Quest'è un esatta regola di vita,</l>
+              <l>Che il dottor mi prescrive,</l>
+              <l>Per sino, che la cura sia compita.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Ne ! Pe te è già agghiustata,</l>
+              <l>Ma io non sò storduto,</l>
+              <l>Va leggendo Lisarto.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>" Vita cara.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Chesto che è ?</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Vol dire,</l>
+              <l>Se v’è cara la vita</l>
+              <l>Quel ch’io v’ordino avete ad eseguire.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>'Nnfi a ccà non dici male</l>
+              <l>Ma appriesso sta l’ombroglio; secoteja.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Brava patrona mia</l>
+              <l>Vì comme lo coffeja !</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>" Sappiate, che il dolore,</l>
+              <l>" Che l’alma affligge, si farà mortale.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>E chesto come nc’entra ?</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>M’avverte a medicarmi prontamente</l>
+              <l>Perche il duol, che m’affanna e così forte.</l>
+              <l>Che crescendo potria darmi la morte.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Che ne dici Lisà ?</l>
+              <l>Me pare, che vaa buono.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <stage type="pers">(piano a Delmira)</stage>
+          <lg><l>M’intendesti ?</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Non sò che dir.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Sì, sì và buono; appriesso.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>" Ma felice sia, quando</l>
+              <l>" Potrà gustare i desiati frutti.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Oh chesta n’è da tutti.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>E cosa trita;</l>
+              <l>Vuol, che non mangi frutti</l><pb n="42" facs="18_I__PulcinellaSpeziale_IT_GB_042.jpg"/>
+              <l>Fin che non son guarita.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Hai raggione; 'ncè auto ?</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>" Ond’è, che non badando al genitore</l>
+              <l>" Condescender vi prega a suoi voleri.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Io mo comme ncè traso ?</l></lg></sp>
+
+      <sp><speaker>Canettella</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Si fosse cosa sporca</l>
+              <l>Diciarria co lo naso.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Vuol dir, che a voi non badi,</l>
+              <l>Che appunto del mio mal siete cagione,</l>
+              <l>Con far, che m’abbia a medicar Damone.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Non se potea dì meglio, po che dice ?</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>" Filarco vostro.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Filarco vuosto?</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Oh Dei:</l>
+              <l>Voi mi fate morire,</l>
+              <l>Filarco vostro medico vuol dire.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Mo m’hai fatto capace</l>
+              <l>Pigliate chella carta</l>
+              <l>Fà a muodo de lo miedeco, e va'npa ce.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Dunque così si tratta</l>
+              <l>Una donzella onesta ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Mo tocca a nuie. </l>
+          <stage type="corps">[ad alta voce]</stage>
+          <l> Che baronata e chesta.</l></lg>
+          <stage type="saut">(Ride a parte.)</stage></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Scusateme.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Breogna</l>
+              <l>Scagno c’avite prese.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker><lg>
+          <l>Cha io non'ntenno troppo</l>
+          <l>Stà mmalora de lengua toscanese.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Non men scordarò mai.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Via mo pacienza,</l>
+              <l>Te ne cerco perdono.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Che gusto bene mmio.</l></lg>
+          <stage type="saut">(Ride.)</stage></sp><pb n="43" facs="18_I__PulcinellaSpeziale_IT_GB_043.jpg"/>
+      
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Facimmo pace.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Troppo offesa io sono.</l></lg>
+              <stage type="saut">(a quattro voci)</stage></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Quest’insulti una figlia innocente</l>
+              <l>Soffrir de ve ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Via mò che n’è niente.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>A me dicere porta pollaste ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Non toccammo via chiune stetasti.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>A me ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Deavolo vi ch’aggio fatto.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Si no rido mo criepo, mo schiatto.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <stage type="pers">(a Delmira)</stage>
+          <lg><l>Tu nc'ai corpa.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <stage type="pers">(Fra sé)</stage>
+          <lg><l>E non posso parlar !</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <stage type="pers">(piano a Delmira)</stage>
+          <lg><l>Odi, e taci.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <stage type="pers">(Fra sé)</stage>
+          <lg><l>Mi sento morir.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Io non credeva poteret'offennere.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Se ciò non è offesa qual’altra sarà ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <stage type="pers">(a Cannetella)</stage>
+          <lg><l>La buona nfammia mo te boglio rennere.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Primma m’accide, e puoi me vuoi sanà.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Eh dì quacche cosa.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Pur deggio tacer.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <stage type="pers">(piano a Delmira)</stage>
+          <lg><l>Se parli sei morto.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <stage type="pers">[fra sé]</stage>
+          <lg><l>Che fiero martir.</l></lg></sp></div></div>
+           <div type="5"><head type="div5">Fine dell' atto secondo.</head></div>
+      
+      
+           <div type="1"><pb n="43" facs="18_I__PulcinellaSpeziale_IT_GB_043.jpg"/><head type="acte" n="1">Atto III</head>
+
+<div type="3"><head type="scene" n="1">Scena 1</head>
+                <stage type="saut">Bottega.</stage>
+<listPerson><personGrp>
+    <name>Rosaura,</name>
+    <stage type="listPerson"> e </stage> <name>Cannetella</name></personGrp></listPerson>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Non potea quasi contener le risa.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Crideme sà Patrona,</l>
+              <l>Cha si n’ato tantillo</l>
+              <l>Chella storia dorava</l>
+              <l>O le redeva'nfacce, o me crepava.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>L’hai più veduto.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Chilo gnore.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Sì.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Mo'nante.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>E che te disse ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Uh quanta cosa !</l>
+              <l>Annava passejanno</l>
+              <l>Arraggia to accosì,</l>
+              <l>E diceva; uh malora ch’aggio fatto. Paseggie furiosa.</l>
+              <l>Mannaggia lo guarzone</l>
+              <l>Isso me fice fà stò bell'accatto</l>
+              <l>Aggio male trattata Cannetella,</l>
+              <l>E chi sà mo se chella</l>
+              <l>Me vuò chiù pe marito:</l>
+              <l>Lo Cielo me de scampe</l>
+              <l>Tanno diceva io.</l>
+              <l>Che stava affoleanno a no pontone,</l>
+              <l>E isso non m’avea beduta ancora.</l>
+              <l>E che bediste allora</l>
+              <l>Sore mia ! Che chiante, e che perdono!</l><pb n="45" facs="18_I__PulcinellaSpeziale_IT_GB_045.jpg"/>
+              <l>Fice propio no trivolo vattuto.</l>
+              <l>Ma lassammo ì sti lotane, e pensammo</l>
+              <l>A dare la cartella a d[ottor] Tammone.</l>
+              <l>Io aggio già allestita</l>
+              <l>Na certa mmenzeone,</l>
+              <l>Che le darrà la vita:</l>
+              <l>Saglietenne ncoppa</l>
+              <l>Cha mo vengo pur io</l>
+              <l>Quanto vao a piglià</l>
+              <l>La mmedecina, ch’isso ave ordenata,</l>
+              <l>Epo ve dico subbeto</l>
+              <l>Comm’avite da fa.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Vado, ma ti rammento</l>
+              <l>Che ad un alma, che aspetta il suo piace.</l>
+              <l>Un secolo rassembra ogni momento.</l>
+              <l>Non hà pace, e non riposa</l>
+              <l>Pellegrin, che in selva ombrosa</l>
+              <l>Stanco giace, e aspettail dì:</l>
+              <l>Fissa al Cielo i lumi immoti</l>
+              <l>Eco voti</l>
+              <l>Affretta il sole,</l>
+              <l>Che la notte gli rapi.</l>
+              <l>Non ecc.</l></lg></sp></div>
+      
+<div type="3"><head type="scene" n="2">Scena 2</head>
+    <listPerson><personGrp><name>Cannetella</name> <stage type="listPerson">sola</stage></personGrp></listPerson>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>No dobbetà, nc’aggio da penzà io</l>
+              <l>'Nfrà poco vederraie,</l>
+              <l>Che cosa mai sa fa sta cerecoccola;</l>
+              <l>Saccio lo fatto mmio.</l>
+              <l>Pe mmaneià sta pasta</l>
+              <l>Crideme a mene, che so fatta apposta</l>
+              <l>Sò donna, e tanto abbasta.</l><pb n="46" facs="18_I__PulcinellaSpeziale_IT_GB_046.jpg"/>
+              <l>Si se tratta de malizia</l>
+              <l>Ommo mio aggie pacienza</l>
+              <l>Sott' à nuie besogna stà;</l>
+              <l>Cha la donna pe stò cunto</l>
+              <l>Chiù no punto</l>
+              <l>De lo Deavolo ne sà.</l>
+              <l>Si ecc.</l></lg></sp></div>
+      
+    <div type="3"><head type="scene" n="3">Scena 3</head>
+        <listPerson><personGrp><name>Damone,</name>
+            <stage type="listPerson">e poi</stage> <name>Pulcinella</name></personGrp></listPerson>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Da due barbari tiranni</l>
+              <l>Combattuto è questo core</l>
+              <l>Spem’e l’un, l’altr’è timore</l>
+              <l>E non sò qual vincerà.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Mannaggia aguanno...</l>
+              <l>Oh sio Tammone havea proprio necessità de te bedere.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>In che debbo servirla ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Hai da sapere</l>
+              <l>Ch'a st’ora averrà figliema pigliata</l>
+              <l>La medecina toja, io mo vorria,</l>
+              <l>Cha me decisse si sarrà guaruta.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Non dubitate, in breve</l>
+              <l>La vedrete del tutto risanata.</l>
+              <l>Se sapeste di quanta perfezzione</l>
+              <l>Sia quella medicina ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Si, me l’ha ditto ancora lo guarzone.</l>
+              <l>Ma chill’ato melordo puro à fatta</l>
+              <l>Na bella scritta, e si sapisse quanto</l>
+              <l>Nc’ha boluto pe'ntennela; io pe me</l>
+              <l>Nol la capivo propio.</l>
+              <l>Si figliema non era, e Cannetella.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Avrei a caro vederla</l><pb n="47" facs="18_I__PulcinellaSpeziale_IT_GB_047.jpg"/>
+              <l>Per impararvi qualche casa.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Siente.</l>
+              <l>Pe chesto po nc’è da'mpparare assaie.</l>
+              <l>Mo te la vao a piglia...</l></lg></sp></div>
+
+<div type="3"><head type="scene" n="4">Scena 4</head>
+    <listPerson><personGrp><name>Cannetella,</name><name>Rosaura,</name><stage type="listPerson"> e </stage> <name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Cannetella</speaker>
+          <stage type="pers">(di dentro)</stage>
+          <lg><l>Potta de craie</l>
+              <l>No’nse po propio tenere currite.</l>
+              <l>Sio patro, bona aggente.</l></lg>
+              <stage type="saut">(Esce.)</stage></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Embè ch’è stato ?</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Che grida mai son queste ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Vedite llà vedite</l>
+              <l>La vosta mmedecina</l>
+              <l>Comme Iiave agghiostata pe le feste.</l>
+              <stage type="corps">(Rosaura ballando esce)</stage>
+              <l>La la larai ecc.</l>
+              <l>A me ritorna</l>
+              <l>Sposo adorato</l>
+              <l>Ch’al suono grato</l>
+              <l>Della tua cetera</l>
+              <l>Con questo satiro</l>
+              <l>Voglio io ballar.</l>
+              <l>A ecc.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Ah ah ah.</l>
+              <stage>(Ride dopo essere stato attonito a guardar la figlia.)</stage>
+              <l>Taralla la ra la ra ecc.</l>
+              <stage type="corps">(Contrafacendola, e ridendo.)</stage>
+              <l>La là, lara là là che bella cosa !</l>
+              <l>Manco male, na vota</l>
+              <l>Puro te vedo stare alleegramente.</l>
+              <stage type="corps">(a Damone)</stage>
+              <l>Oh mò si che ce creo ommo saccente.</l></lg></sp><pb n="48" facs="18_I__PulcinellaSpeziale_IT_GB_048.jpg"/>
+      
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>A noi, ch'Orfeo, già viene,</l>
+              <l>Non ascoltate il suono !</l>
+              <l>Della famosa lita ?</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Misero me, delira !</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <stage>(a Pulcinella)</stage>
+          <lg><l>Gentil satiro in tuono</l>
+              <l>Dammi la mano, e muovi</l>
+              <l>Con ordin regolato</l>
+              <l>A seconda del suon l’irsuto piè.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Ah ah ride accosi ?</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Va bene :</l>
+              <l>Dimmi v’hai gusto di ballar con me ?</l></lg>
+              <stage type="saut">(Balla ridendo.)</stage></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Generosi ah ah.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Aspetta.</l>
+              <l>Ch’ei principi a suonar non tanta fretta.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Dimmelo tu qnann'aggio</l>
+              <l>A principiare.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Attendi la cadenza</l>
+              <l>La rai.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Che gusto bene mmio.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Ma l’idol mio dov’è ? Chi me l’asconde.</l>
+              <l>Orfeo, diletto, Orfeo.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Chi è mo sto chiasseo.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Non mi risponde ?</l>
+              <l>Io son la tua Euridice,</l>
+              <l>A me ritorna, o caro.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Dice a te non la siente.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Oh me infelice ?</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Ma son pur folle, ò Dei, segno, vaneggio</l>
+              <l>Cchiamo l’amato sposo, e non m'avveggio</l>
+              <l>Che lo sospiro in vano</l>
+              <l>S’egli da me lontano</l>
+              <l>Vive piangendo il mio destin crudele</l><pb n="49" facs="18_I__PulcinellaSpeziale_IT_GB_049.jpg"/>
+              <l>Che qui mi trasse viver sempre in pene</l>
+              <l>Lungi dal caro bene.</l>
+              <l>E'pur questo di morte</l>
+              <l>Il regno disperato</l>
+              <l>Or lo ravviso al nero fuoco, e all'ombra</l>
+              <l>Che i mesti rai m’ingombra</l>
+              <l>Odo già il roco flebile latrato</l>
+              <l>Del trifauce guardian, che sempre veglia</l>
+              <l>Alla custodia delle chiuse porte.</l>
+              <l>Ahi duolo, ahi sorte ria</l>
+              <l>Pluto, ecco là.</l></lg>
+              <stage type="saut">(Additando Damone.)</stage></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Protone arrasso sia:</l>
+              <l>No mmoglio chiù abballare.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Colle furie seguaci ei mi minaccia</l>
+              <l>L’irata faccia a me rivolge, e freme</l>
+              <l>Ma in van contro Euridice, in van s'adira</l>
+              <l>Che intrepida lo mira, e non lo teme:</l>
+              <l>O a me rendi il caro sposo</l>
+              <l>Mostro rio crudele in degno</l>
+              <l>O che fin dentr'al tuo regno</l>
+              <l>Guerra eterna io ti farò:</l>
+              <l>Col bel ciglio lagrimoso</l>
+              <l>Sento già quell'infelice</l>
+              <l>Che ad ogn’or mi chiama, e dice</l>
+              <l>Quand’oh Dio, ti rivederò.</l></lg></sp></div>
+
+<div type="3"><head type="scene" n="5">Scena 5</head>
+    <listPerson><personGrp><name>Pulcinella;</name><name>Cannetella,</name><stage type="listPerson"> e </stage> <name>Damone.</name></personGrp></listPerson>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Ch’è chesto Cannetè</l>
+              <l>Fusse mpazzuta figliema ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Alla primma</l>
+              <l>L’avite annevenata</l>
+              <l>Stò dettore de meuza.</l><pb n="50" facs="18_I__PulcinellaSpeziale_IT_GB_050.jpg"/>
+              <l>Colla rezetta soia ve l’ha ficcata.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Ah mariuolo frabutto.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Io vao de pressa</l>
+              <l>Pè la secoteià, che non vorria</l>
+              <l>Che da se s’accidesse la scuressa.</l></lg>
+              <stage type="saut">(Parte.)</stage></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Va priesto bene mmio. Brutt'assassino</l>
+              <l>Guaadame guà.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Sentite.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Appila cano</l>
+              <l>Vattenne mo da chà.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Fiero destino.</l>
+              <l>Senta prima.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Và a molora.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Già lo sdegno mi divora.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>M’aie nà figlia assassinata.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Mia Ia colpa non è stata.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Si nò ciuccio.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Son Dottore</l>
+              <l>Ea parlar t’imparerò.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Và che venga n’antecore</l>
+              <l>A te e achi t'addorrorò.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Partirò.</l></lg></sp>
+       
+    <sp><speaker>Pulcinella</speaker>
+           <lg><l>Quando la seompe</l>
+              <l>Mai lo cuollo non te rompe</l></lg></sp>
+    
+    <sp><speaker>Damone</speaker>
+        <lg><l>Ma ben presto a sar vendetta</l>
+              <l>De miei torti io tornerò</l></lg></sp>
+    
+    <sp><speaker>Pulcinella</speaker>
+         <lg><l>Pulcenella ccà t’aspetta</l>
+              <l>Torna, e chiavame stà facce.</l>
+              <l>Addò sole no'nce pò.</l></lg></sp></div>
+
+<div type="3"><head type="scene" n="6">Scena 6</head>
+            <stage type="saut">Cortile.</stage>
+    <listPerson><personGrp><name>Filarco,</name> <stage type="listPerson"> e </stage> <name>Cannetella</name></personGrp></listPerson>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Dunque s’è finta pazza ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Gnore mmio si.</l></lg></sp><pb n="51" facs="18_I__PulcinellaSpeziale_IT_GB_051.jpg"/>
+      
+      <sp><speaker>Filarco</speaker>
+          <lg><l>E il padre l'ha creduto ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>De che manera: crideme ch'è restato</l>
+              <l>Comme nò'nsallanuto;</l>
+              <l>Via jatelo a trovare e le dicite</l>
+              <l>Che, s’isso ve la dace pè mogliere</l>
+              <l>Ne'nattemo la figlia guarasite.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Mà Rosaura è in formata ?</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Sà gne cosa:</l>
+              <l>No nce perdite tiempo</l>
+              <l>Afferratela priesto st’accasione</l>
+              <l>E facitela’nvarva a d[ottor] Tammone.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Colmo di bella spene</l>
+              <l>In braccio al caro bene</l>
+              <l>Men volo a riposar.</l>
+              <l>Vado nel suo bel seno</l>
+              <l>De miei passati affanni</l>
+              <l>I danni a ristorar.</l></lg></sp></div>
+
+<div type="3"><head type="scene" n="7">Scena 7</head>
+    <listPerson><personGrp><name>Cannetella,</name><stage type="listPerson"> e </stage> <name>Delmira</name></personGrp></listPerson>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Veat'isso che può</l>
+              <l>Spera sta buona sciorta,</l>
+              <l>Accosì potess'io</l>
+              <l>Sperare de guade Lisarto mio.</l>
+              <l>Mà iusto teccotello</l>
+              <l>Avisse nommenato ciento scute;</l>
+              <l>Videlo comm’è caro, e comm'è bello</l>
+              <l>Addio nennillo, addio.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>No ioso incontro.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Che t’aggio fatto, che me guarde stuorto.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Felice voi, che siete</l>
+              <l>D’un'umor sempre, e fuor del piacer vostro</l><pb n="52" facs="18_I__PulcinellaSpeziale_IT_GB_052.jpg"/>
+              <l>Altra cura nel seu mai non avete.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>E tu ch’ai da pensare alla mogliere.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Se un sol punto vedere</l>
+              <l>Entro del petto mio poteste il core</l>
+              <l>Compiangereste al certo il mio dolore</l>
+              <l>Dite che fà Rosaura.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Accosì ancora</l>
+              <l>Ma non passerà n’ora</l>
+              <l>Ch'allo sio d[ottor] Felarco</l>
+              <l>La vederaie'n guadiata</l>
+              <l>Da po, che la pazzia</l>
+              <l>Isso de capo l’averà cacciata.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Oh colpo rio.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Te cagne de colore ?</l>
+              <l>Dimme la veretà</l>
+              <l>Nc'avisse eu acche po de pretenzeione</l>
+              <l>Te puoie sciacqna, lo puosto è già pigliato.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Più non mi tormentar, son disperato.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Si nc’avisse quà golio.</l>
+              <l>Fato mio</l>
+              <l>Fallo passà:</l>
+              <l>P'auti songo sti contiente</l>
+              <l>E li diente</l>
+              <l>Tu te puie spizzoleà.</l></lg></sp></div>
+
+<div type="3"><head type="scene" n="8">Scena 8</head>
+    <listPerson><personGrp><name>Delmira</name> <stage type="listPerson">sola</stage></personGrp></listPerson>
+
+      <sp><speaker>[Delmira]</speaker>
+          <lg><l>Delmira udisti ! Ed avrai cuor si forte</l>
+              <l>Da soffrir di veder nell'altrui braccia.</l>
+              <l>Chi giurò d’esser tuo ?</l>
+              <l>No non sia mai, prima sarò di morto</l>
+              <l>Son risoluta sì, non più dimora</l>
+              <l>A lui si vada, e pria che stringa appieno</l><pb n="53" facs="18_I__PulcinellaSpeziale_IT_GB_053.jpg"/>
+              <l>L'odiato laccio a piedi suoi si mora.</l>
+              <l>Colle voci di quel sangue</l>
+              <l>Che son già vicino a spargere</l>
+              <l>Chieder voglo a lui pietà:</l>
+              <l>Agli Elisi andrà fastosa</l>
+              <l>Se cader due sole stille</l>
+              <l>Dall'ingrate sue pupille</l>
+              <l>La spirante alma vedrà.</l></lg></sp></div>
+
+<div type="3"><head type="scene" n="9"> Scena 9</head>
+        <stage type="saut">Sala.</stage>
+        <listPerson><personGrp><name>Pulcinella,</name>
+            <stage type="listPerson"> e </stage> <name>Filarco</name></personGrp></listPerson>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>O'ce vuò auto.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Averta.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Oh cha l'è bella,</l>
+              <l>Falla guarì te dico, e pigliatella.</l>
+              <l>Mò vao, e la chiammo. Zitto cha me pare</l>
+              <l>Sentirela cantare.</l></lg></sp></div>
+
+<div type="3"><head type="scene" n="10">Scena 10</head>
+        <listPerson><personGrp>
+            <name>Rosaura,</name>
+            <name>Cannetella,</name>
+            <stage type="listPerson"> e </stage> <name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Rosaura</speaker>
+          <stage type="pers">(di dentro)</stage>
+          <lg><l>Chi m’insegnia il ben ch’adoro.</l>
+              <l>Chi mi insegna, oh dio, dov’è !</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Dolce, e caro mio tesoro.</l>
+              <l>Impaziente io vengo a te.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <stage type="pers">(esce)</stage>
+          <lg><l>Che ascolto oh Ciel, che veggio</l>
+              <l>Son desta, o pur vaneggio</l>
+              <l>Mio beno, amato Orfeo</l>
+              <stage type="corps">(gli corre incontro)</stage>
+              <l>Se desso, ò pur m’inganna il desir mio</l>
+              <l>Sento, che il cor mi dice</l>
+          <l>Che tu sei quello.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Si quello son io</l>
+              <l>Sospirata Euridice;</l>
+              <stage type="corps">(A Pulcinella)</stage>
+              <l>E' forza secondarla.</l></lg></sp><pb n="54" facs="18_I__PulcinellaSpeziale_IT_GB_054.jpg"/>
+      
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Fà chello, cho te pare</l>
+              <l>Già tu l'aje da nguadiare.</l>
+              <l>Se la guarisce cheste</l>
+              <l>Li uostri patti songo,</l>
+              <l>E se accosì la vuoi</l>
+              <l>Accosì pazza pure te la dongo.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Pur ti riveggio, e pur t’abbraccio al fine</l>
+              <l>Mio dolce amor per tanto tempo, e tanto</l>
+              <l>Da me bramato, e pianto.</l></lg>
+              <stage type="saut">(L'abbraccia.)</stage></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Comme se lo mmaneja.</l></lg></sp></div>
+
+<div type="3"><head type="scene" n="11">Scena 11</head>
+    <listPerson><personGrp>
+        <name>Damone</name> <stage type="listPerson">con foglio,
+        e</stage> <name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Numi, che miro !</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Ecco sconceca juoco.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Oh Ciel, m’aggiro</l>
+              <l>Ancora frà l’ombre ?</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Nò cor mio siam fuori</l>
+              <l>Mercè del grato suon della mia lira</l>
+              <l>De tenebrosi orrori.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Ma quel che bieco, e torbido mi guata</l>
+              <l>Non è Pluto l’indegno ? Ahi che spavento</l>
+              <l>Fuggiam, fuggiam che or torna</l>
+              <l>A rapirmi da te quel mostro orrendo.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Non paventar mia vita io ti difendo.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Comme ccà si tornata n’ata vota</l>
+              <l>Vàtenne, omo te sfraveco la faccia.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Non lasciate, ch'ei veda</l>
+              <l>L'operazione mia.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Si me contento,</l>
+              <l>Tirate da una parte</l>
+              <l>E'mpara ciuccio mio si nò 'nfai l'arte.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Nce lo bole, che gusto.</l></lg></sp><pb n="55" facs="18_I__PulcinellaSpeziale_IT_GB_055.jpg"/>
+      
+      <sp><speaker>Damone</speaker>
+          <lg><l>Aspetta, aspetta</l>
+              <l>E vedrai in questo foglio</l>
+              <l>Or ora la mia vendetta.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Questo puro liquore</l>
+              <l>Ch’alle labbra v’appresso, ora fuggete</l>
+              <l>Ch'ogni timor visgombrerà dal core.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Ecco la prendo.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <stage type="pers">(piano a Rosaura)</stage>
+          <lg><l>E poi dormir fingete.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <stage type="pers">(siede)</stage>
+          <lg><l>Non ti partir.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Son teco</l>
+              <stage type="corps">(dorme Rosaura)</stage>
+              <l>Doppo d’un breve sonnno</l>
+              <l>In virtù di nettare soave</l>
+              <l>Non più torbida, e grave</l>
+              <l>La mente sua smarrita</l>
+              <l>All'ufficio primiero</l>
+              <l>Ritornerà spedita.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <stage type="pers">(a Damone)</stage>
+          <lg><l>Vide comme se miedeca annemale</l>
+              <stage type="corps">(a Filarco)</stage>
+              <l>Quando sarà scetata</l>
+              <l>Dalle puro la mano e nguadiatella</l>
+              <l>Cha tel hai guadagnata.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Chi tal cosa comanda ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Io accosì voglio.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>E qual potere ai tu</l>
+              <l>Sopra di quest'amabil donzella.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Si le sò patre.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Non è vero. Quella</l>
+              <l>Nn è Rosaura, ma Dorisbe, e figlia</l>
+              <l>Tua mai non fù, ma dell'estinto Alceste</l>
+              <l>Come Lesbo morendo in questo foglio</l>
+              <l>Che tu vedere or puoi lasciollo scritto:</l>
+              <l>Ora perché il min onor negletto offeso</l>
+              <l>Chiede giusta vendetta, io tel paleso.</l><pb n="56" facs="18_I__PulcinellaSpeziale_IT_GB_056.jpg"/>
+              <l>Pera sì, pera il mio amore</l>
+              <l>Purche l’empio ingannatore</l>
+              <l>Più non ridasi di me;</l>
+              <l>Ora và, sprezzami, e godi</l>
+              <l>Del mio mal, delle tue frodi</l>
+              <l>Questa incauto è la mercè.</l></lg></sp>
+      
+      <sp><speaker>Filarco</speaker>
+          <stage type="pers">(a Pulcinella)</stage>
+          <lg><l>Tu perché taci, è vero.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Si segnore</l>
+              <l>Ma io non c’aggio corpa</l>
+              <l>Lesbo me fece fà stò mal afficio</l>
+              <l>Ch’io per me non avea tanto jodicio.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Come, come.</l></lg>
+              <stage type="saut">(S'alza in fretta.)</stage></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>L’à'ntiso.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Io dunque sono</l>
+              <l>Arbitra di me stessa ?</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Gnossì; mo non si pazza</l>
+              <l>Te ne cerpo perdono.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Più non si finga, oh mio gradito amore</l>
+              <l>Ecco la destra, e colla destra il core.</l></lg></sp></div>
+
+    <div type="3"><head type="scene" n="12">Scena 12</head>
+        <listPerson><personGrp>
+            <name>Delmira,</name>
+            <stage type="listPerson"> e </stage> <name>tutti</name></personGrp></listPerson>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Feerma anch'un poco, a te stringer non lice</l>
+              <l>Sinche viva son io</l>
+              <l>Per la fè che giurommi</l>
+              <l>In modo marital quelch’è già mio.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Stolto, che dici ?</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Ohimè, che sento.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Mira</l>
+              <l>Mirami in volto traditore, e poi</l>
+              <l>Niega se puoi di ravvisar Delmira.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Delmira mia. Dunque frà l’onde assorta</l><pb n="57" facs="18_I__PulcinellaSpeziale_IT_GB_057.jpg"/>
+              <l>Con fama bugiarda il grido sparse</l>
+              <l>Tu non restasti in un sepolta, e morta ?</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Vivo per tuo tormento</l>
+              <l>Vissi per tuo rimprovero fin ora,</l>
+              <l>Ma non temer, ch'or ora</l>
+              <l>Lo toglierò dagl’occhi tuoi la mano</l>
+              <l>Mi porgi sol per sodisfare a quella</l>
+              <l>Fede, che un giorno mi giurasti, e poi</l>
+              <l>Per non turbar la gioja tua amorosa</l>
+              <l>Mi vedrai morir lieta</l>
+              <l>E cederti contenta</l>
+              <l>Alla nuova di te più degna sposa.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Grand’amor, gran costanza.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Lo guarzone mio è donna ! Oh bella cosa.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Qual stravaganza, è questa ? E quai chimere</l>
+              <l>Folle ti vai sognando</l>
+              <l>Eh, che tu fingi, e mentitrice sei.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Non fingo nò, nè mentitrice sono</l>
+              <l>Quel cor di cui fè dono</l>
+              <l>A te quell'infedel, prima fù mio</l>
+              <l>Con quanti affanni oh Dio mel guadagnai</l>
+              <l>Per quello abbandonai</l>
+              <l>E patria, e genitor. Or vedi poi</l>
+              <l>Se non t'accieca ancora il tuo desio.</l>
+              <l>Se questo core giustamente e mio.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Oh come i casi suoi muovono al core</l>
+              <l>Una dolce pietà</l>
+              <l>Che rispondi Filarco... E perché taci ?</l>
+              <l>Disse il vero costei ?</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Che vuoi, che ti risponda ? Il ver ti disse</l>
+              <l>Ed io, cui già trafisse</l>
+              <l>Il cor la rea novella di sua morte</l><pb n="57" facs="18_I__PulcinellaSpeziale_IT_GB_057.jpg"/>
+              <l>A te rivolsi il core.</l>
+              <l>Ma poiche la mia bella</l>
+              <l>Non viva solo, ma fedel ritrovo;</l>
+              <l>Rosaura mi perdona, a te m’invola</l>
+              <l>Dura necesità, che pur m’è grata.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Benche pur forte sia</l>
+              <l>Dalla ragion la mia passione è vinta.</l>
+              <l>La tua bella Delmira</l>
+              <l>Goda teco felice</l>
+              <l>Quella gioia, ch’a me rapisce amore.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Ecco la destra o cara.</l></lg></sp>
+
+      <sp><speaker>Delmira</speaker>
+          <lg><l>Son tua mio bene, ancor nol crede il core.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Oh mo te puoi piglia lo sio Tammone.</l></lg></sp>
+
+      <sp><speaker>Filarco</speaker>
+          <lg><l>Si bella, se in voi regna</l>
+              <l>Qualche bontà per me non ricusata</l>
+              <l>Di consolar chi vi sospira.</l></lg></sp>
+
+      <sp><speaker>Rosaura</speaker>
+          <lg><l>Io sono</l>
+              <l>Al suo voler disposta;</l>
+              <l>Ecco la mano.</l></lg></sp>
+
+      <sp><speaker>Damone</speaker>
+          <lg><l>Oh caro</l>
+              <l>Tanto al mio cor quanto impensato dono.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Io sula restaraggio a dienti asciutte.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>Pigliate a me, che simmo spose tutte</l>
+              <l>Me vuoje.</l></lg></sp>
+
+      <sp><speaker>Cannetella</speaker>
+          <lg><l>Gnor nò, si dico sì non vale.</l></lg></sp>
+
+      <sp><speaker>Pulcinella</speaker>
+          <lg><l>A me me basta d’esser spezeale.</l></lg></sp>
+
+      <sp><speaker>Coro</speaker>
+          <lg><l>Doppo tanti affanni, e pene</l>
+              <l>Pur sian giunti un di a goder.</l>
+              <l>Se improviso a noi sen viene</l>
+              <l>E più grato anch'il piacer.</l></lg></sp></div></div>
+           
+           <div type="5"><head type="div5">Il fine.</head><pb n="59" facs="18_I__PulcinellaSpeziale_IT_GB_059.jpg"/><pb n="60" facs="18_I__PulcinellaSpeziale_IT_GB_060.jpg"/></div>
+       </body>
+   </text>
+  </TEI>  

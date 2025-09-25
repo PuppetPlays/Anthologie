@@ -1,0 +1,572 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="https://puppetplays.eu/en/oeuvres/239073/burlesque-upon-magistracy-or-punch-out-of-humour">Burlesque upon Magistracy; or, Punch out of Humour</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="CD">Cécile Decaix</name>
+          <resp ref="">Transcription and edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="PM">Pierre Massinon</name>
+          <resp ref="stagiaire">Transcription and encoding</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Royal Irish Academy - Dublin, Ireland</distributor>
+        <availability status="free">
+          <licence>Public domain</licence>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>A thief disguises himself as a magistrate</note>
+        <note>Burlesque upon Magistracy; or, Punch out of
+                    Humour is a play printed in London and in Dublin in
+                    1736. The title page indicates that the show can be seen at the
+                    “Roiting House" of a certain Don Parabocka, but that its script is printed because
+                    it is entirely new and an "intelligent interpreter" has not yet been
+                    found.</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>Not specified</p>
+          </personGrp>
+          
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>Royal Irish Academy</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 8</p>
+                <p>Number of acts in the original document: 1</p>
+                <p>Format of the original document: Printed</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main">Burlesque upon Magistracy; or, Punch out of Humour</title>
+          <date>1736</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques">
+          <term source="https://puppetplays.eu/en/techniques-d-animation/1217/marionnette-à-tringle-et-fils">Rod and string marionette</term>
+        </keywords>
+        <keywords source="literaryTones">
+          <term/>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Arrest scene</term>
+          <term>Court scene</term>
+        </keywords>
+        <keywords source="genre">
+          <term>Farce</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Revenge</term>
+          <term>Judgment</term>
+          <term>Thief</term>
+          <term>Morality</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+        Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+        re-evaluate the contribution of the puppets repertoire to the construction of
+        European cultural identity. Its main goals is to collect a corpus of
+        representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+        France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+        17th and the 21th century. It also tries to identify the characteristics of
+        puppet dramaturgy and their variations depending on eras, cultural spheres,
+        producing conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal
+        investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+            Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+        build upon the material in any medium or format for non-commercial purposes
+        only, and only so long as attribution is given to the creator. If you remix,
+        adapt, or build upon the material, you must license the modified material under
+        identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2024-01-09" who="#CD">Transcription and first encoding</change>
+      <change when-iso="2024-07-01" who="#PM">Encoding correction</change>
+      <change when-iso="2025-03-24" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="1" facs="18_IRL__BurlesqueUponMagistracy_ENG_RIA_01.png"/>
+      <!-- <docEdition>
+                This is to give notice to all Gentlemen,
+                    Ladies and others, that there is to be seen
+                    at the roiting house of the late famous Don Parabocka; a new and
+                    diverting Puppet Show, called The
+            </docEdition> -->
+      <docTitle>
+        <titlePart type="main">Burlesque upon magistracy; or, Punch out of humour</titlePart>
+      </docTitle>
+      <docEdition>Dublin
+          </docEdition>
+      <docDate>1736</docDate>
+      <!--  <docEdition>As this farce is entirely new, and we have not been able to procure an intelligent interpreter; it is humbly hoped, that this
+                method of dispersing copies of the representation will not be prejudicial to us
+                when it comes to appear upon the stage.
+            </docEdition> -->
+      <castList>
+        <head type="personnage">The Chief Puppets are</head>
+        <castItem>
+          <role>Gormoncho</role>
+          <roleDesc>The Mock Magistrate</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Punch</role>
+          <roleDesc>His Son</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Wyario</role>
+          <roleDesc>His Clerk</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Mopsa</role>
+        </castItem>
+        <castItem>
+          <role>The Magistrate's Daughter</role>
+        </castItem>
+        <castItem>
+          <role>Burghers</role>
+        </castItem>
+        <castItem>
+          <role>Common-Council-Men</role>
+        </castItem>
+        <castItem>
+          <role>Constables</role>
+        </castItem>
+        <castItem>
+          <role>Serjeants</role>
+        </castItem>
+        <castItem>
+          <role>And other Attendants, as at a Sessions</role>
+        </castItem>
+      </castList>
+      <pb n="2" facs="18_IRL__BurlesqueUponMagistracy_ENG_RIA_02.png"/>
+    </front>
+
+    <body>
+      <div type="1">
+        <head type="nameA">This is to give notice to all Gentlemen, Ladies and others, etc
+                </head>
+        <stage type="saut">The first figure we present you is Punch, who 
+                    seems to be in a great fury at some insult he 
+                    heard had been offered to his sister, Mopsa.
+                </stage>
+        <sp>
+          <speaker>Punch</speaker>
+          <lg>
+            <l>By all the Gods, I’ll fret my guts,
+                         </l>
+            <l>To fiddle strings – I’ve learnt my struts –
+                         </l>
+            <l>My honour cannot bear such usage,
+                         </l>
+            <l>Since Father now is on a new stage;
+                         </l>
+            <l>Now sage Gormoncho rules the city,
+                         </l>
+            <l>Now sister Mopsa’s grown so pretty;
+                         </l>
+            <l>I’ll teach those riotous defamers,
+                         </l>
+            <l>Of what respect we now are claimers;
+                         </l>
+            <l>I’ll vengence have, confound me, will I,
+                         </l>
+            <l>Must Punch be thought for ever silly?
+                        </l>
+          </lg>
+        </sp>
+        <stage type="saut">Gentlemen and Ladies pray take notice, the next
+                            figure we present you is the beautiful Mopsa,
+                            encouraging her brother Punch to hasten his
+                            revenge.
+                        </stage>
+        <sp>
+          <speaker>Mopsa</speaker>
+          <lg>
+            <l>Dear Brother, by your ties of duty,
+                       </l>
+            <l>Redress the wrong that’s done my beauty;
+                           
+                  </l>
+            <pb n="3" facs="18_IRL__BurlesqueUponMagistracy_ENG_RIA_03.png"/>
+            <l>Was ever tender maid so hurted,
+                       </l>
+            <l>By one whom I so often have courted?
+                       </l>
+            <l>Whom I – (but may my curses catch him)
+                       </l>
+            <l>Oh, haste, dear Fatty, to dispatch him –
+                       </l>
+            <l>My injuries I’ve often repeated,
+                       </l>
+            <l>Wants still your courage to be whetted?
+                       </l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Punch</speaker>
+          <lg>
+            <l>Mopsa, I own I’m flow of thinking,
+                    </l>
+            <l>Oft’ are my senses fog’d by drinking;
+                    </l>
+            <l>Nor is my courage of the quickest,
+                    </l>
+            <l>Unless a tender point thou prickest.
+                    </l>
+            <l>But now, as you were just appearing,
+                    </l>
+            <l>I have been swaggering, storming, swearing;
+                    </l>
+            <l>No boyling water is more frothy,
+                    </l>
+            <l>No Captain Bluff was half so wrothy;
+                    </l>
+            <l>When quick – strange chilliness of blood!
+                    </l>
+            <l>Confounded at your sight I stood ---
+                    </l>
+            <l>I shook more fast than leaf of aspin,
+                    </l>
+            <l>My throat I thought Alanio grasping;
+                    </l>
+            <l>No culverin discharged was quieter,
+                    </l>
+            <l>I fancy ev’ry bush a rioter ---
+                    </l>
+            <l>My fears are now again defeated,
+                    </l>
+            <l>Repeat your wrongs, to keep me heated.
+                    </l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Mopsa</speaker>
+          <lg>
+            <l>No – dastardly misshapen Elfe,
+                    </l>
+            <l>I’ll execute my rage myself –
+                    </l>
+            <l>To old Gormoncho I’ll complain,
+                    </l>
+            <l>Papa don’t bear the rod in vain;
+                    </l>
+            <l>I know he hates Alanio’s kindred,
+                    </l>
+            <l>To all his Friends has malice inbred;
+                    </l>
+            <l>Will punish for his filthy song,
+                    </l>
+            <l>No matter whether right or wrong.
+                        <pb n="4" facs="18_IRL__BurlesqueUponMagistracy_ENG_RIA_04.png"/>
+                  </l>
+            <l>But see – he makes his publick entry –
+                    </l>
+            <l>What crowds of corporation gentry!
+                    </l>
+            <l>See how he struts it in regalia –
+                    </l>
+            <l>So oft’ I’ve seen of Ham Westfalia;
+                    </l>
+            <l>Fat slices graced with leaves of laurel,
+                    </l>
+            <l>Or ill-sav’d God in clean hoop’d Barrel – 
+                    </l>
+            <l>But what care I, how much uncomely,
+                    </l>
+            <l>He looks – so I my Vengeance come by –
+                    </l>
+          </lg>
+        </sp>
+        <stage type="saut">The next figure we present you is the sage
+                    Gormoncho, with a white wand in his hand,
+                    Not unlike a mayor’s rod, he should have made
+                    His appearance in the regalia that his daughter
+                    Mopsa fancies him drest in, but as we
+                    were coming to this town, a vagabond fellow,
+                    who had once been Sub-Sheriff of the county
+                    G ---, and was obliged to fly for malpractices,
+                    met us on the road, and robbed us of 
+                    them all.
+                </stage>
+        <sp>
+          <speaker>Gormoncho</speaker>
+          <lg>
+            <l>Call in Wyario – fix my cushion,
+                    </l>
+            <l>See that no bold insulters rush on – 
+                    </l>
+            <l>In silence let the mob adore us,
+                    </l>
+            <l>Let all complainants come before us –
+                    </l>
+            <l>But first Wyario, read the indictment,
+                    </l>
+            <l>For our regalia that by slight went --
+                    </l>
+            <l>For tho delinquent’s <stage type="corps">non inventus</stage>,
+                    </l>
+            <l>To find the bill that shan’t prevent us;
+                    </l>
+            <l>I can the vagrant paint minutely;
+                    </l>
+            <l>His birth and life know most acutely – 
+                        <pb n="5" facs="18_IRL__BurlesqueUponMagistracy_ENG_RIA_05.png"/>
+                  </l>
+            <l>And, tho’s our daughter has a grievance,
+                    </l>
+            <l>That wants (she says) our quick relievance;
+                    </l>
+            <l>Yet since that’s but a private evil,
+                    </l>
+            <l>To hear a public wrong’s more civil.
+                    </l>
+          </lg>
+        </sp>
+        <stage type="saut">Here Wyario reads a long accusation against
+                    persons unknown, for robbing the Show-Man
+                    of his regalia, as also a proclamation with
+                    reward to anyone that shall discover the thief,
+                    and then concludes as you shall hear.
+                </stage>
+        <sp>
+          <speaker>Wyario</speaker>
+          <lg>
+            <l>Oyes – It is his worship’s pleasure,
+                    </l>
+            <l>All people hear his tale at leisure.
+                    </l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Gormoncho</speaker>
+          <lg>
+            <l>Good burghers, councilmen and commons,
+                      </l>
+            <l>Know you, for what I sent my summons;
+                      </l>
+            <l>I sent – because in public meeting,
+                      </l>
+            <l>To tell such vilanies is fitting;
+                      </l>
+            <l>That so by many one’s assistance,
+                      </l>
+            <l>We’ll nab the rogue tho’ now at distance –
+                      </l>
+            <l>This wretch (tho’ once I thought him honest
+                      </l>
+            <l>Often if men our notion’s wrongest)
+                      </l>
+            <l>From poor but virtuous folk took birth,
+                      </l>
+            <l>Far westward on our Irish earth.
+                      </l>
+            <l>His parents held a decent dwelling,
+                      </l>
+            <l>Fit for their calling, good ale selling,
+                      </l>
+            <l>This I know well for to this minute,
+                      </l>
+            <l>They still live there, and draw ale in it –
+                      </l>
+            <l>Their son (our royal robes purloiner,
+                      </l>
+            <l>Don’t think I’m of a fiction coiner)
+                          <pb n="6" facs="18_IRL__BurlesqueUponMagistracy_ENG_RIA_06.png"/>
+                  </l>
+            <l>With Sub-Attorney served as [ap]prentice,
+                      </l>
+            <l>From thence to act as Sheriff sent is;
+                      </l>
+            <l>The county’s money (strong temptation,
+                      </l>
+            <l>For such a reptile education)
+                      </l>
+            <l>Is wisely to his trust committed,
+                      </l>
+            <l>And he as well the county fitted;
+                      </l>
+            <l>He humbly owns himself their debtor
+                      </l>
+            <l>Will reimburse, when times are better;
+                      </l>
+            <l>But for the present begs excuse,
+                      </l>
+            <l>He’ll put your money out to use –
+                      </l>
+            <l>This forced the wretch to skulk among us,
+                      </l>
+            <l>Waiting for power and time to wrong us –
+                      </l>
+            <l>His make is of the lower stature,
+                      </l>
+            <l>Tho’ vile his heart, has smiling feature;
+                      </l>
+            <l>And when in private has undone you,
+                      </l>
+            <l>Is most in public fawning on you;
+                      </l>
+            <l>His paunch rotu[nd] and somewhat gross is,
+                      </l>
+            <l>Near my own size he pretty close is;
+                      </l>
+            <l>By this d[e]scription you may guess him,
+                      </l>
+            <l>Dear friends be zealous, to suppress him,
+                      </l>
+            <l>Now Mopsa, child, declare, why grieve you,
+                      </l>
+            <l>Your father’s power shall soon relieve you.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Mopsa</speaker>
+          <lg>
+            <l>Good Sir, were not that Punch a coward,
+                   </l>
+            <l>More base than is your serjeant H-;
+                   </l>
+            <l>Your Worship need not now be vext,
+                   </l>
+            <l>Nor my young heart so long perplex –
+                   </l>
+            <l>But since he’s frighted – this my Case is – 
+                   </l>
+            <l>And sure you’ll think it worth redress is –
+                       <pb n="7" facs="18_IRL__BurlesqueUponMagistracy_ENG_RIA_07.png"/>
+                  </l>
+            <l>One night (your Worship then was farming)
+                   </l>
+            <l>As in my bed I just was warming;
+                   </l>
+            <l>I heard (don’t bid me sp[ea]ke it plainly)
+                   </l>
+            <l>I heard Alanio sing obscenely;
+                   </l>
+            <l>His song I can’t repeat so naught it,
+                   </l>
+            <l>His voice it was or so I thought it –
+                   </l>
+            <l>And sure to know that voice was easy,
+                   </l>
+            <l>That voice had once sole power to please me;
+                   </l>
+            <l>Surprized at such an odd proceeding,
+                   </l>
+            <l>I rose to check his want of breeding;
+                   </l>
+            <l>Perhaps abused him in my passion,
+                   </l>
+            <l>For full my heart was of vexation;
+                   </l>
+            <l>To hear him such affronts negotiate,
+                   </l>
+            <l>With Porabock that vile associate;
+                   </l>
+            <l>The whole abuse I don’t remember,
+                   </l>
+            <l>I know he wished me some good member
+                   </l>
+            <l>(So chast[e] my mind it did not strike it)
+                   </l>
+            <l>For Sir indeed, I do not like it,
+                   </l>
+            <l>He comes – Oh punish such offenses,
+                   </l>
+            <l>His very sight distracts my senses –</l>
+          </lg>
+        </sp>
+        <stage type="saut">The figure we present you is Alanio, who comes
+                    attented with two constables to arrest
+                    Gormoncho, who tho’ arrived to, and concealed
+                    under the magistracy, is at last dicovered to be the very rogue that stole the regalia. But 
+                    before Alanio has time to sp[ea]ke, Gormoncho
+                    bawls out.
+                </stage>
+        <pb n="8" facs="18_IRL__BurlesqueUponMagistracy_ENG_RIA_08.png"/>
+        <sp>
+          <!-- No stage direction here. Gormoncho ?  -->
+          <lg>
+            <l>Sergeants, my friends, secure that vil[l]ain,
+                   </l>
+            <l>Here you Wyario, bring the bill in;
+                   </l>
+            <l>That slave shall feel my utmost fury –
+                   </l>
+            <l>(Since brother burghers are his jury)   <stage type="corps">(Aside)</stage>
+                  </l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Alanio</speaker>
+          <lg>
+            <l>Deluded people read this warrant,
+                        <stage type="corps">(Your ruler proves a knave most arrant)</stage>
+                  </l>
+            <l>From western justices directed –</l>
+            <l>His full blown crimes are now detected –</l>
+            <l>This is the very rogue you fought for,</l>
+            <l>Such a vile wretch who can say ought for</l>
+            <l>Your Pris[o]ner, quickly, sergeants, haul away,</l>
+            <l>Strip him, and send him back to G -</l>
+          </lg>
+          <stage type="saut">Exeunt</stage>
+          <lg>
+            <l>A Moral in our little Shew is
+                    </l>
+            <l>Nor it’s design so hard to know is.</l>
+          </lg>
+        </sp>
+      </div>
+      <div type="5">
+        <head type="div5">Finis</head>
+      </div>
+    </body>
+  </text>
+</TEI>

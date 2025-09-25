@@ -1,0 +1,861 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="https://puppetplays.eu/oeuvres/407211/turlupition">Turlupiton</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="PM">Pierre Massinon</name>
+          <resp>Transcription and edition</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>This is the distributor for the images used in PuppetPlays' website : Archives nationales (France),Intérieur; Théâtres. Censure des répertoires des "petits" théâtres parisiens : index des pièces (1802-1906), F/18/1216</distributor>
+        <availability status="free">
+          <licence>Public domain</licence>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>Un domestique dupé se venge de l’imposture</note>
+        <note>Cette pièce fait partie du répertoire ancien de Guignol et il en existe
+          plusieurs copies manuscrites. Celle décrite ici est un exemplaire copié et signé par
+          Victor-Napoléon Vuillerme-Dunand, conservé au Musée des Arts de la Marionnette
+          (Musées Gadagne) à Lyon. Elle porte le visa de la sous-préfecture de Villefranche en
+          date du 24 décembre 1852, ainsi qu’un visa de la préfecture du Rhône, partiellement
+          effacé mais daté de 187…. La pièce a été acquise le 1er mai 1927
+          auprès de Joanny Durafour, marionnettiste établi au 69 rue Cuvier, à Lyon. Une autre
+          copie manuscrite, datée de 1866, est conservée aux Archives nationales (Censure des
+          petits théâtres): elle a été réalisée à l'occasion des représentations de Guignol
+          Lyonnais données par Victor-Napoléon Vuillerme-Dunand et Laurent Josserand dans un
+          café de la rue Popincourt, à Paris, entre 1866 et 1867. Victor-Napoléon
+          Vuillerme-Dunand, qui maîtrisait le mieux l'écriture, était généralement chargé
+          d'établir les copies des pièces représentées par Louis Josserand, Laurent Josserand
+          et lui, mais ces textes étaient sans doute élaborés collectivement.</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>Non spécifié</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>Collection Musées Gadagne - Ville de Lyon</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 4</p>
+                <p>Number of acts in the original document: 1</p>
+                <p>Format of the original document: Manuscrit</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main">Turlupiton</title>
+          <date>1852</date>
+          <author>
+            <persName>Vuillerme-Dunand Victor-Napoléon</persName>
+            <idno type="IDREF">188286276</idno>
+          </author>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra">Français</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques">
+          <term source="https://puppetplays.eu/techniques-d-animation/521/glove-puppets">Marionnette à gaine</term>
+        </keywords>
+        <keywords source="literaryTones">
+          <term/>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Personnage caché</term>
+          <term>Comique de situation</term>
+          <term>Comique de langage</term>
+          <term>Coup de bâton</term>
+          <term>Mort en scène</term>
+        </keywords>
+        <keywords source="genre">
+          <term>null</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Argent</term>
+          <term>Magie</term>
+          <term>Tromperie</term>
+          <term>Vengeance</term>
+          <term>Mort</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+          Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+          re-evaluate the contribution of the puppets repertoire to the construction of
+          European cultural identity. Its main goals is to collect a corpus of
+          representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+          France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+          17th and the 21th century. It also tries to identify the characteristics of
+          puppet dramaturgy and their variations depending on eras, cultural spheres,
+          producing conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+          Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+          build upon the material in any medium or format for non-commercial purposes
+          only, and only so long as attribution is given to the creator. If you remix,
+          adapt, or build upon the material, you must license the modified material under
+          identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2025-09-18" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+      <change when-iso="2024-07-01" who="#PM">Text transcription and encoding</change>
+      <!-- mandatory, can be repeated as many times as necessary, @when-iso should always be YYYY-MM-DD, @who should always match a defined @xml:id  -->
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="03" facs="19_F_JOSSERAND_Turlupiton_FRA_AN_001.JPG"/><pb n="03" facs="19_F_JOSSERAND_Turlupiton_FRA_AN_003.jpg"/><docAuthor>
+        <persName>Laurent Josserand</persName>
+      </docAuthor>
+      <docTitle>
+        <titlePart type="main">Turlupiton</titlePart>
+        <titlePart type="sub">Pièce en un acte</titlePart>
+      </docTitle>
+      <docDate>1866</docDate>
+      <castList>
+        <head type="personnage">[Personnages</head>
+        <castItem>
+          <role>Galmar</role>
+        </castItem>
+        <castItem>
+          <role>Guignol</role>
+        </castItem>
+        <castItem>
+          <role>Le Voleur</role>
+        </castItem>
+        <castItem>
+          <role>Turlupiton]</role>
+        </castItem>
+      </castList>
+      <set>
+        <p ana="set">La scène se passe sur une place publique.</p>
+      </set>
+    </front>
+    <body>
+      <div type="3">
+        <head type="scene" n="1">Scène 1</head>
+        <listPerson>
+          <personGrp>
+            <name>Galmar</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Galmar</speaker>
+          <stage type="pers">(seul)</stage>
+          <p>Je viens de recevoir une lettre de mon notaire dans laquelle il me dit que si je
+                  pouvais lui prêter deux-mille francs, je lui rendrais un grand service. Parbleu,
+                  pour un ami que ne ferait-on pas, surtout pour celui là, il m'a tiré d'embarras
+                  bien des fois. Seulement, il me marque dans sa lettre que j'ai à lui envoyer de
+                  suite ce qu'il me demande, voilà ce qui m'embarrasse ; car je ne puis m'absenter
+                  vu que j'ai du monde. Oh ! mais j'y suis, et mon domestique Guignol auquel je ne
+                  pensais pas, lui est très capable de me faire cette commission. <stage type="corps">(appelant)</stage> Guignol, Guignol.</p>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="2">Scène 2</head>
+        <listPerson>
+          <personGrp>
+            <name>Galmar, </name>
+            <name>Guignol</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Présent notre maître, présentement, voilà.</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Tu vas aller me faire une commission.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <stage type="pers">(faisant une fausse sortie)</stage>
+          <p>Tout de suite maître.</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Guignol, mais où vas-tu ?</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Je n'en sais rien, mais vous me le direz bien quand je reviendrai.</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Mais non, reste donc là et écoute moi.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Bon je vous écoute maître, que-t'est-ce qui y'a !</p>
+          <pb n="04" facs="19_F_JOSSERAND_Turlupiton_FRA_AN_004.jpg"/></sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Tu vas aller chez mon notaire Delbost, tu lui porteras de ma part un portefeuille
+                  dans lequel je vais mettre deux mille francs.</p>
+        </sp>
+        <sp>
+          <speaker> Un voleur</speaker>
+          <stage type="pers">(écoutant)</stage>
+          <p>Merci.</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <stage type="pers">à Guignol</stage>
+          <p>Tu n'as pas besoin de dire merci, ce n'est pas pour toi.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Moi, mais je n'ai rien dit.</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Tu as dit merci, j'ai bien entendu, enfin passons, tu remettras le portefeuille en
+                  mains propres.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>S'il a les mains sales, j'y dirai d'aller se les laver.</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Mais non ce n'est pas ça, à lui seul si tu comprends mieux.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>S'il est en compagnie je me reviens, bon.</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Pas du tout, je te dis de ne pas remettre le portefeuille à d'autres personnes que
+                  monsieur Delbost.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Ah ! cette fois j'ai compris, petit maître.</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>C'est pas malheureux ; et tu auras le soin de te faire donner un reçu.</p>
+        </sp>
+        <sp>
+          <speaker>Le voleur</speaker>
+          <stage type="pers">(écoutant toujours)</stage>
+          <p>Sans reçu...</p>
+          <pb n="05" facs="19_F_JOSSERAND_Turlupiton_FRA_AN_005.jpg"/></sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Non, un seul suffit.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Pourquoi que vous en demandez cent ?</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Comment pourquoi, mais je ne suis pas fou j'ai bien entendu que tu as dit cent
+                  reçus.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Mais non pauvre maître, décidément je crois bien que vous tournez.</p>
+        </sp>
+        <sp>
+          <speaker>Le voleur</speaker>
+          <p>Mais oui il tourne.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Ah ! vous voyez bien que vous êtes fou.</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Je soutiens que non, que c'est toi.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Voyons maître, est-ce moi ou vous ?</p>
+        </sp>
+        <sp>
+          <speaker>Le voleur</speaker>
+          <p>Tous les deux.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Allons bon, voilà que c'est tous les deux.</p>
+        </sp>
+        <stage type="saut">Le Voleur donne une tape à Guignol.</stage>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Ah ça, dites donc maître, vous n'avez pas bientôt fini de me chapoter le bec ?</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Mais je ne t'ai pas touché, tu t'es trompé. <stage type="corps">(Le voleur lui
+                     donne une tape.)</stage> Ah ! cette fois je t'y prends. <stage type="corps">(Il
+                     donne un soufflet à Guignol. Sitôt après le voleur lui en donne un
+                     autre.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Allons bon je reçois deux cognons, et à la<pb n="06" facs="19_F_JOSSERAND_Turlupiton_FRA_AN_006.jpg"/><stage type="corps">(Le voleur lui redonne un soufflet.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Dites donc maître, faudrait pas rien recommencer, toujours à la même place, je
+                  peux pas m'y habituer.</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Allons viens, suis moi, je vais te remettre le portefeuille.</p>
+        </sp>
+        <stage type="saut">Il rentre suivi de Guignol.</stage>
+      </div>
+      <div type="3">
+        <head type="scene" n="2">Scène 2</head>
+        <listPerson>
+          <personGrp>
+            <name>[Guignol, </name>
+            <name>Le Voleur, </name>
+            <name>Turlupiton, </name>
+            <name>Galmar]</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Le Voleur </speaker>
+          <stage type="pers">(seul)</stage>
+          <p>Les deux imbéciles ! Allons deux mille francs entre les mains de ce bêta, ils
+                  seront bientôt en mon pouvoir. Mon stratagème habituel, il ne laisse jamais de
+                  trace et par ce moyen l'on n'est jamais pris. <stage type="corps">(On entend la
+                     voix de Guignol.)</stage> Oh ! oh ! on vient de ce côté, éloignons-nous. <stage type="corps"> (Il s'éloigne.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Soyez tranquille maître, je vous promets que je ne m'arrêterai pas. Il vient de me
+                  donner deux mille francs, c'est deux petits chiffons de papier, je savais pas rien
+                  qui y avait de l'argent en papier moi, il m'a promis quarante sous si je fais vite
+                  ma commission, dépêchons-nous. <stage type="corps"> (À ce moment le voleur arrive
+                     brusquement avec un bâton dont il frappe Guignol.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Ouashalek la la kaouadji becraine.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Que diable est-ce qu'y chante ce gone-là ?</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Où vais-je où cours-je ?</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Dites donc vous, quand on voyage avec une canne pareille on doit<pb n="07" facs="19_F_JOSSERAND_Turlupiton_FRA_AN_007.jpg"/></p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Malheureux ! Vous ne savez pas à qui vous avez l'honneur de parler.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Tu n'es peut être pas le Diable !</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Non l'ami, merci. Oh ! merci, j'ai tort.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <stage type="pers">(à part)</stage>
+          <p>Ah ça, mais il est fou ce gone, il vient de Charenton.</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Vous avez le droit tout comme moi de rester sur cette place, mais figurez-vous que
+                  sans vous en douter vous venez de me sauver la vie.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Ah ! bah, et comment donc ça ?</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>C'est le bas de mon pantalon qui s'était pris dans le haut du clocher.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Dans le haut du clocher, par où donc que vous marchez ?</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Je marche en l'air, je vole.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>C'est une nouvelle mécanique, et où donc que sont vos ailes ?</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Au bout de mes doigts.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Ah ! il vole avec les doigts, c'est ancien.</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Vous pourriez me rendre un grand service.</p>
+          <pb n="08" facs="19_F_JOSSERAND_Turlupiton_FRA_AN_008.jpg"/></sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Si je peux je veux bien.</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Ce serait celui de m'indiquer le meilleur hôtel de l'endroit, j'ai besoin de
+                  prendre un peu de repos.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Le meilleur hôtel ? <stage type="corps">(à part)</stage> Si on pendait à la mine,
+                  y'a longtemps que sa carcasse serait sèche à celui-là. <stage type="corps">(haut)</stage> Tenez là de ce côté chez la mère Bouvard, vous aurez du sommeil
+                  à trois sous la portion.</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Vous vous trompez, il est vrai qu'à ma mise, on ne se douterait pas que je suis
+                  trois fois millionnaire.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <stage type="pers">(à part)</stage>
+          <p>Trois millions de puces, oui.</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Je suis le petit-fils du grand magicien Rothomago, c'était mon grand-père.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Et ben votre grand-père avait un petit-fils que n'était pas beau.</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Il se repose pour trois cents ans.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Moi qui suis fainéant je voudrais bien faire comme lui.</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Et pendant son sommeil, il m'a laissé cette baguette. <stage type="corps"> (Il
+                     frappe un coup sur la scène.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <stage type="pers">(à part)</stage>
+          <p>Cette baguette, y'a de quoi assommer un bœuf.</p>
+          <pb n="09" facs="19_F_JOSSERAND_Turlupiton_FRA_AN_009.jpg"/></sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <stage type="pers">(continuant)</stage>
+          <p>Qui a le pouvoir de rendre visible et invisible quiconque la possède.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Comment, on vous voit et on ne vous voit ?</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Comme vous le dites.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Allez donc conter ça à Plume-pattes, le perruquier des zouaves, mais pas à
+                  Guignol.</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Vous ne me croyez pas ?</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Oh ! que non.</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Je veux vous prouver que je ne mens jamais, regardez et écoutez bien. <stage type="corps"> (Il fait des passes avec sa baguette.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Que faites-vous donc ?</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Je coupe la colonne d'air, et je dis Turlupiton un, turlupiton deux, turlupiton
+                  trois. Tu me vois ?</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Parbleu vous êtes là je vous vois ben.</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <stage type="pers">(frappant la tête de Guignol)</stage>
+          <p>Tu ne me vois plus. <stage type="corps"> (Il se cache derrière
+                  Guignol.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <stage type="pers">(cherchant)</stage>
+          <p>Hé ben où est-il donc, hé monsieur Turlupiton, où donc que vous êtes ? Ohé venez
+                  donc.</p>
+          <pb n="10" facs="19_F_JOSSERAND_Turlupiton_FRA_AN_010.jpg"/></sp>
+        <sp>
+          <speaker>Turlupiton</speaker>
+          <stage type="pers">(se mettant devant Guignol et donnant un coup de bâton sur la
+                  scène)</stage>
+          <p>Tu veux me voir, me voici.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Comment c'est vous, mais où donc que vous étiez ?</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Je n'ai pas bougé de cette place.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Mais pourtant je viens d'y passer.</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>Je le sais, dès que je me métamorphose mon corps se transforme en air.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Alors je vous ai passé dans le ventre sans vous sentir.</p>
+        </sp>
+        <sp>
+          <speaker>Le Voleur</speaker>
+          <p>C'est tel que vous le dites.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Alors c'est une allée qui traverse, saperlotte que voilà une baguette qui m'irait
+                  bien. Dites monsieur Turlupiton, vous ne pourriez pas me la prêter un peu votre
+                  baguette ?</p>
+        </sp>
+        <sp>
+          <speaker>Turlupiton</speaker>
+          <p>Me séparer de ma baguette ? Allons donc, mon grand-père ne me le pardonnerait pas.
+                  Pourtant, vous avez une bonne figure, je vous loue si vous voulez ma baguette deux
+                  cent mille francs pour vingt-quatre heures.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Je vous en donne quatre sous.</p>
+        </sp>
+        <sp>
+          <speaker>Turlupiton</speaker>
+          <p>Allons donc vous voulez rire, vous ne <pb n="11" facs="19_F_JOSSERAND_Turlupiton_FRA_AN_011.jpg"/></p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Je ne dis pas, mais où diable voulez-vous que je pêche deux cent mille francs
+                  ?</p>
+        </sp>
+        <sp>
+          <speaker>Turlupiton</speaker>
+          <p>Eh bien, essayez et vous me paierez quand vous aurez fait fortune. <stage type="corps">(Il donne son bâton à Guignol.)</stage>
+               </p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <stage type="pers">(prenant le bâton)</stage>
+          <p>C'est entendu, comment est-ce vous dites que l'on dit ?</p>
+        </sp>
+        <sp>
+          <speaker>Turlupiton</speaker>
+          <p>Coupez d'abord la colonne d'air.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Ah ! oui c'est vrai. <stage type="corps">(Il fait des passes.)</stage> Et
+                  maintenant ?</p>
+        </sp>
+        <sp>
+          <speaker>Turlupiton</speaker>
+          <p>Turlupiton un, Turlupiton deux, Turlupiton trois, tu me vois, et tu ne me vois
+                  pas.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Turlupiton un, Turlupiton deux, Turlupiton trois. Vous me voyez ?</p>
+        </sp>
+        <sp>
+          <speaker>Turlupiton</speaker>
+          <p>Parbleu, puisque vous êtes là.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <stage type="pers">(lui donnant un coup de bâton)</stage>
+          <p>Tu ne me vois pas.</p>
+        </sp>
+        <sp>
+          <speaker>Turlupiton</speaker>
+          <stage type="pers">(se frottant la tête)</stage>
+          <p><stage type="corps">(à part)</stage> Sapristi comme il y va ! <stage type="corps">(haut)</stage> Pardon l'ami, je vous vois.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Vous voyez bien que votre baguette ne vaut rien.</p>
+          <pb n="12" facs="19_F_JOSSERAND_Turlupiton_FRA_AN_012.jpg"/></sp>
+        <sp>
+          <speaker>Turlupiton</speaker>
+          <p>Pardon c'est une maladresse de ma part, j'ai oublié de vous dire que pour que la
+                  baguette ait de la vertu, il ne fallait pas avoir un seul sou sur soi à moins que
+                  l'argent ne provienne du talisman, vous avez peut-être quelques valeurs dans vos
+                  poches.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Moi, ma foi non. Ah, dites donc, vieux, allez donc jusque chez l'épicier à côté
+                  pour voir l'heure qu'il est s'il vous plait.</p>
+        </sp>
+        <sp>
+          <speaker>Turlupiton</speaker>
+          <p>Avec plaisir l'ami. <stage type="corps"> (Il sort à gauche.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <stage type="pers">(prenant le bâton sur la scène)</stage>
+          <p>C'est mes deux mille francs qui arrêtent la mécanique, je vais les cacher dans un
+                  coin. <stage type="corps">(Pendant ce temps Turlupiton n'a cessé
+                     d'observer.)</stage> Là, voilà mon affaire. <stage type="corps">(Il cache le
+                     portefeuille à gauche.)</stage> Maintenant, Turlupiton, te peux venir. <stage type="corps"> (Il reprend son bâton.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Turlupiton </speaker>
+          <stage type="pers">(entrant)</stage>
+          <p>Neuf heures et demie l'ami.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Neuf heures et demie, c'est justement l'heure qu'il me faut, vous allez voir que
+                  ça va marcher cette fois.</p>
+        </sp>
+        <sp>
+          <speaker>Turlupiton</speaker>
+          <p>Allez-y, ferme, et ne tremblez pas.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Oh, je ne tremble pas, du reste vous allez en juger <stage type="corps">(Il fait
+                     des passes.)</stage> Turlupiton un, Turlupiton deux, Turlupiton trois, tu me<pb n="13" facs="19_F_JOSSERAND_Turlupiton_FRA_AN_013.jpg"/><stage type="corps">(Il lui donne un coup de bâton.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Turlupiton</speaker>
+          <stage type="pers">(feignant de ne pas le voir)</stage>
+          <p>Mais je ne le vois plus, s'il m'emporte ma baguette je suis ruiné. Oh ! l'ami,
+                  paraissez, je vous en prie ; paraissez... <stage type="corps"> (Il va prendre
+                     l'argent que Guignol a caché et se sauve.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <stage type="pers">(riant)</stage>
+          <p>Ah, ah, ah, nom d'un rat que c'est donc canant, il ne me voit pas, ah, ah, ah.
+                     <stage type="corps">(appelant)</stage> Hé, monsieur Turlupiton, où êtes vous
+                  donc ? Je ne veux pas vous garder votre baguette, venez donc, tiens il est parti,
+                  oh ! il me cherche. Ouye v'la mon maître, je vais essayer sur lui.</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <stage type="pers">(entrant)</stage>
+          <p>Ah, te voilà Guignol, tant mieux mon ami, figure-toi que mon notaire vient
+                  d'arriver et qu'alors il est...</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <stage type="pers">(lui coupant la parole)</stage>
+          <p><stage type="corps">(Il fait des passes.)</stage> Turlupiton un, Turlupiton
+                  deux,</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Ah ça, que diable me chantes-tu là avec tes Turlupiton ?</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <stage type="pers">(continuant)</stage>
+          <p>Turlupiton trois, vous êtes bien sûr de me voir, n'est-ce pas maître ?</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Mais certainement, et bien après ?</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <stage type="pers">(lui donnant un coup de bâton)</stage>
+          <p>Et bien vous ne me voyez plus.</p>
+          <pb n="14" facs="19_F_JOSSERAND_Turlupiton_FRA_AN_014.jpg"/></sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Comment drôle, tu te permets de me donner des coups de bâton ? Voyons, donne-moi
+                  mon portefeuille et je te chasse.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Comment, maître vous me voyez toujours ?</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Certainement que je te vois, tu es là.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <stage type="pers">(à part)</stage>
+          <p>C'est que je n'ai pas assez précipité le mouvement. <stage type="corps">(haut)</stage> Eh ben si vous êtes persuadé de me voir, <stage type="corps">(le frappant)</stage> vous ne me voyez plus <stage type="corps">(Il le
+                     refrappe.)</stage> et vous ne me voyez plus.</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <stage type="pers">(se frottant la tête)</stage>
+          <p>Mais tu vas m'assommer si tu continues. Ah, je ne te vois pas ? Tiens. <stage type="corps">(Il lui donne plusieurs soufflets.)</stage> Penses-tu que je te
+                  vois ?</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Je vous sens moi, il parait que ma baguette ne vaut rien.</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Voyons, mon portefeuille, donne-le moi.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Quel portefeuille ?</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Eh bien mes deux mille francs parbleu.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Ah ! c'est vos deux mille francs, on va vous les donner pardine. Vous n'avez pas
+                  besoin de tant crier. <stage type="corps"> (Il cherche le portefeuille où il l'a
+                     déposé puis, ne le trouvant pas, il regarde dans tous les coins.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Qu'est-ce que tu cherches par là ?</p>
+          <pb n="15" facs="19_F_JOSSERAND_Turlupiton_FRA_AN_015.jpg"/></sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Eh ben votre portefeuille.</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Mon portefeuille, est-ce que par hasard tu l'aurais entreposé par là ?</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Eh oui parce que Turlupiton a dit qu'il ne fallait pas avoir d'argent sur soi pour
+                  se rendre invisible.</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Je comprends tout maintenant, c'est-à-dire que tu as eu affaire à un fripon et que
+                  tu es volé.</p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>C'est pas moi qui suis volé, j'ai pas le sou, c'est vous.</p>
+        </sp>
+        <sp>
+          <speaker>Galmar</speaker>
+          <p>Ah ! tu le prends sur ce ton-là, eh bien je vais porter ma plainte à monsieur le
+                  Bailli, et si dans deux heures tu n'as pas retrouvé mes deux mille francs, je te
+                  fais arrêter et je te fais pendre. <stage type="corps">(Il sort
+                  furieux.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Je crois bien que Turlupiton m'a enturlupitonné, je vais faire un tour dans le
+                  pays et si je le rencontre, son affaire n'est pas claire. <stage type="corps"> (Il
+                     donne un coup de bâton sur la scène et sort à gauche.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Turlupiton</speaker>
+          <stage type="pers">(il regarde de tous côtés)</stage>
+          <p>Ouf. Voilà cinq minutes que je cours, à merveille, on revient toujours à la même
+                  place où l'on a<pb n="16" facs="19_F_JOSSERAND_Turlupiton_FRA_AN_016.jpg"/><stage type="corps">(Guignol écoute.)</stage> Ah ! tout de même il était temps de faire cette
+                  capture, depuis longtemps je marchais sur la mauvaise herbe et je ne savais
+                  comment vivre, tandis que maintenant avec ces deux mille francs, je peux quitter
+                  ce pays où mon signalement est donné depuis longtemps. Allons mon ami, décampe et
+                  ne perds pas de temps. <stage type="corps">(À ce moment Guignol lui donne
+                     plusieurs coups de bâton.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Tiens je te signe ton passeport, donne-moi voir mon portefeuille, <stage type="corps"> (Il le fouille.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Turlupiton </speaker>
+          <stage type="pers">(se débattant)</stage>
+          <p>Ah ! vous me volez, au secours au voleur ! <stage type="corps">(Deux cavaliers
+                     arrivent et emènent Turlupiton qui se débat toujours.)</stage></p>
+        </sp>
+        <sp>
+          <speaker>Guignol</speaker>
+          <p>Maintenant que j'ai le portefeuille, je vas le porter à mon maître, ça fait qu'y
+                  ne me fera pas serrer le corgnolon !</p>
+          <stage type="saut">Le rideau baisse.</stage>
+        </sp>
+        <div type="5">
+          <head type="div5">Fin</head>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

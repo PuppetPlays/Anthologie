@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title ref="https://puppetplays.eu/en/oeuvres/358794/il-mostro-torchino-o-bellinda-e-azor-o">Il mostro torchino o Bellinda ed Azor ossia La Virtù premiata</title>
+                        <respStmt>
+                              <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+                              <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+                        </respStmt>
+                        <respStmt>
+                              <name xml:id="FG">Fiona Gazzaniga</name>
+                              <resp>Transcription and edition</resp>
+                        </respStmt>
+                        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+                        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+                        <funder>European Research Council - ERC</funder>
+                  </titleStmt>
+                  <publicationStmt>
+                        <distributor/>
+                        <availability status="free">
+                              <licence>Public domain</licence>
+                        </availability>
+                        <idno type="DOI"/>
+                  </publicationStmt>
+                  <notesStmt>
+                        <note>A young girl marries a prince thanks to her kindness</note>
+                        <note>Il mostro torchino o Bellinda ed Azor ossia La Virtù premiata
+                              (The turquoise monster, or Bellinda and Azor or the rewarded virtue) is an anonymous
+                              text for puppets published in the collection of popular booklets “Raccolta teatrale”
+                              published by Fratelli Miglio. It is visibly inspired by the fairytale La
+                              Belle et la bête (Beauty and the Beast), made famous by
+                              Jeanne-Marie Leprince de Beaumont’s version (1756).</note>
+                  </notesStmt>
+                  <sourceDesc>
+                        <listPerson>
+                              <personGrp role="audience">
+                                    <p>Not specified</p>
+                              </personGrp>
+                        </listPerson>
+                        <listBibl>
+                              <msDesc>
+                                    <msIdentifier>
+                                          <repository>Instituto Per I Beni Marionettistici e la cultura Popolare, Grugliasco, Italy</repository>
+                                    </msIdentifier>
+                                    <physDesc>
+                                          <objectDesc>
+                                                <p>Number of pages in the original document: 32</p>
+                                                <p>Number of acts in the original document: 3</p>
+                                                <p>Format of the original document: Printed</p>
+                                          </objectDesc>
+                                    </physDesc>
+                              </msDesc>
+                        </listBibl>
+                        <bibl>
+                              <title type="main">Il mostro torchino o Bellinda ed Azor ossia La Virtù premiata</title>
+                              <date>Between 1875 and 1880</date>
+                        </bibl>
+                  </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                  <langUsage>
+                        <language ident="it">Italian</language>
+                  </langUsage>
+                  <textClass>
+                        <keywords source="animationTechniques">
+                              <term source="https://puppetplays.eu/en/techniques-d-animation/2352/marionnettes-à-fils">String marionette</term>
+                        </keywords>
+                        <keywords source="literaryTones">
+                              <term/>
+                        </keywords>
+                        <keywords source="theatricalTechniques">
+                              <term>Thunderbolt</term>
+                              <term>Aside</term>
+                              <term>Dinner scene</term>
+                              <term>Song</term>
+                              <term>Metamorphosis</term>
+                        </keywords>
+                        <keywords source="genre">
+                              <term>Rappresentazione per le marionette</term>
+                        </keywords>
+                        <keywords source="keywords">
+                              <term>Love</term>
+                              <term>Sacrifice</term>
+                              <term>Honesty</term>
+                              <term>Greed</term>
+                              <term>Monster</term>
+                              <term>Promise</term>
+                        </keywords>
+                  </textClass>
+            </profileDesc>
+            <encodingDesc>
+                  <editorialDecl>
+                        <normalization method="silent">
+                              <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+                              <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+                              <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+                              <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+                        </normalization>
+                        <punctuation marks="some">
+                              <p>Punctuation has been corrected according to modern rules.</p>
+                        </punctuation>
+                  </editorialDecl>
+                  <projectDesc>
+                        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+                              Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+                              re-evaluate the contribution of the puppets repertoire to the construction of
+                              European cultural identity. Its main goals is to collect a corpus of
+                              representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+                              France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+                              17th and the 21th century. It also tries to identify the characteristics of
+                              puppet dramaturgy and their variations depending on eras, cultural spheres,
+                              producing conditions, and the aimed public.</p>
+                        <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+                        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                              Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+                        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+                              build upon the material in any medium or format for non-commercial purposes
+                              only, and only so long as attribution is given to the creator. If you remix,
+                              adapt, or build upon the material, you must license the modified material under
+                              identical terms. </p>
+                  </projectDesc>
+            </encodingDesc>
+            <revisionDesc>
+                  <change when-iso="2025-07-18" who="#FG">Text transcription and encoding</change>
+                  <change when-iso="2025-08-25" who="#MSK">Encoding validation against schema.rng</change>
+                  <change when-iso="2025-08-26" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+            </revisionDesc>
+      </teiHeader>
+      <text>
+            <front>
+                  <pb n="1" facs="19_I__IlMostroTorchino_IT_IBM_001.jpg"/><pb n="2" facs="19_I__IlMostroTorchino_IT_IBM_002.jpg"/>
+                  <pb n="3" facs="19_I__IlMostroTorchino_IT_IBM_003.jpg"/>
+                  <docTitle><titlePart type="main">Il Mostro Torchino o Bellinda ed Azor ossia la virtù premiata</titlePart>
+                        <titlePart type="sub">Rappresentazione per le Marionette</titlePart></docTitle>
+                  <docEdition>Prezzo Cont 25. Novara. Tipografia Frat[telli] Miglio fu Gaudenzio</docEdition>
+                  <pb n="4" facs="19_I__IlMostroTorchino_IT_IBM_004.jpg"/>
+                  <castList><head type="personnage">Personaggi</head>
+                        <castItem><role>Petronio (o Tartaglia), mercante padre di</role></castItem>
+                        <castItem><role>Bellinda, ed</role></castItem>
+                        <castItem><role>Isabella,</role></castItem>
+                        <castItem><role>Leandro, marito d’Isabella.</role></castItem>
+                        <castItem><role>Azor, Principe Tartaro.</role></castItem>
+                        <castItem><role>Gerolamo, servo di Petronio.</role></castItem>
+                        <castItem><role>Ombra che parla.</role></castItem>
+                  </castList>
+      
+      <set>
+            <p>La scena si finge in Astracan e vicinanze.</p></set></front>
+
+      <body>
+            <div type="1"><pb n="5" facs="19_I__IlMostroTorchino_IT_IBM_005.jpg"/><head type="acte" n="1">Atto I</head>
+                  <stage type="saut">Casa di campagna.</stage>
+            <div type="3"><head type="scene" n="1">Scena 1</head>
+                  
+                  <listPerson><personGrp><name>Isabella, </name><name>Leandro</name><stage type="listPerson"> e </stage><name>Bellinda</name></personGrp></listPerson>
+
+      <sp><speaker>Isabella</speaker>
+            <p>No, non è possibile ch'io mi possa adattare a questo nuovo sistema di vita. Avvezza a lungo tempo a godere i piaceri d’una allegra società della capitale, 
+               come si può tollerare il silenzio e la noia della campagna ?</p></sp>
+
+      <sp><speaker>Leandro</speaker>
+            <p>Eppure, signora moglie, bisogna fare di necessità virtù o uniformarsi al cangiamento delle circostanze.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>Son pochi giorni che siamo passati dalla città a questo villaggio, e mi sembrano secoli; ma tutto in grazia delle vostre dissipazioni; mio padre mi ha precipitata, 
+                  maledetto il momento cho mi sono maritata con voi.</p></sp>
+
+      <sp><speaker>Leandro</speaker>
+            <p>Incolpate piuttosto la vostra sciocca vanità, signora mia, quell’orgoglio di figurare, e di farvi creder più grande di quella che siete. Voi avete fabbricata la nostra rovina.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Via calmatevi. Dimenticatevi di un disgustoso passato, e siate altrettanto ragionevole per accontentarvi del vostro stato presente.
+               Se aveste tenuto una condotta più moderata come vi ho suggerito più volte per vostro vantaggio, quante inquietudini e pentimenti  vi sareste risparmiato ! Ma il male è fatto,
+               soſfrite con rassegnazione il cangiamento del vostro stato.</p></sp><pb n="6" facs="19_I__IlMostroTorchino_IT_IBM_006.jpg"/>
+      
+      <sp><speaker>isabella</speaker>
+            <p>La signora dottoressa ha sputato tondo la sua sentenza 
+            <stage type="corps">(con ironia)</stage>. Io non ho bisogno dei vostri suggerimenti.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Io non pretendo farvi dei rimproveri, ma soltanto di persuadervi a tollerare il cangiamento della nostra contraria fortuna, come faccio io.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>Voi siete una sciocca, che avete sempre nudrito dei bassi sentimenti, e per conseguenza sapete uniformarvi a tutto. 
+                  Bisogna avere un’anima grande e sensibile come è la mia per sentire tutta la disgrazia che ci perseguita.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>E coi vostri sentimenti di grandezza non avete fatto che sempre più affrettare la nostra rovina.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>Finitela una volta con queste vostre massime triviali, e se siete tanto stupida per soffrire,
+                  senza lagnarvi, la povertà a cui siamo ridotti, io per me non saprò mai tollerarla.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>E non vedete che questa è appunto una disposizione del cielo per punire i disordini della vostra condotta ?</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>Insolente, a tanto arriva la vostra temerità ?
+                  Troverò ben io il modo di far tacere una sciocca che pretende trovar delle colpe, dove non vi è che grandezza d’animo e liberalità di cuore.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Sarebbe stato meglio per voi se aveste avuto un poco più di prudenza e di giudizio.</p></sp></div>
+
+<div type="3"><head type="scene" n="1">Scena 2</head>
+      <listPerson><personGrp><name>Petronio</name><stage type="listPerson"> e </stage><name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Petronio</speaker><p>Cos’è questo chiasso, signori miei ?</p></sp>
+      
+      <sp><speaker>Isabella</speaker>
+            <p>Tutto n’è causa quella vostra cara gioia di Bellinda.</p></sp><pb n="7" facs="19_I__IlMostroTorchino_IT_IBM_007.jpg"/>
+      
+      <sp><speaker>Leandro</speaker>
+            <p>Ella è sempre il motivo di tutti i sconcerti che seguono in casa vostra.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Non rammaricatevi, che spero che fra breve avran fine i nostri affanni.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>Dite davvero ?</p></sp>
+
+      <sp><speaker>Leandro</speaker>
+            <p>In qual modo ?</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Volesse il cielo ch'io potessi vedervi contento e terminati i vostri affanni.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Consolatevi, figlie mie, che spero vederli riparati. 
+                  Mi giunse in questo punto una lettera consolante, che mi dà notizia di esser giunto salvo in porto un bastimento carico di merci di ragione della nostra compagnia mercantile, che si credeva perduto.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <stage type="pers">(colla massima allegrezza)</stage> 
+            <p>Dite davvero, signor padre ? Dunque presto potremo tornare in città.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Almeno lo spero.</p></sp>
+
+      <sp><speaker>Leandro</speaker>
+            <p>Io ve lo desidero con tutto il cuore.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Se ciò ve lo concede il cielo, sappiatene far miglior uso pei vantaggi della vostra famiglia.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <stage type="pers">[fra sé]</stage> 
+            <p>Non sa pronunziare un accento che non sia ingiurioso per me.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Assecondi il cielo i miei desideri. Io mi dispongo tosto per la partenza. Ehi Gerolamo ?</p></sp></div>
+      
+<div type="3"><head type="scene" n="3">Scena 3</head>
+      <listPerson><personGrp><name>Gerolamo</name><stage type="listPerson"> e </stage><name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Son qua pronto come le disgrazie ai galantuomini.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Bisogna allestire il bagaglio perché a momenti devo partire.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Per acqua o per terra ?</p></sp><pb n="8" facs="19_I__IlMostroTorchino_IT_IBM_008.jpg"/>
+      
+      <sp><speaker>Petronio</speaker>
+            <p>Metti in ordine i cavalli.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Sapete che mancano le selle, o non vi sono che due basti da somaro, ereditati dalla felice memoria dei vostri parenti.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Procura di bardarli del miglior modo.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Mancano ancora gli stivali.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Non importa. Per ora ci adatteremo come possiamo, e in seguito io spero che si provvederà a tutto.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Oh che bei viaggiatori che saremo noi, non aver neanche gli stivali che ci difendano dalla pioggia o dalle mosche.</p>
+                  <stage type="saut">(parte)</stage></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Isabella, vi prego a comportarvi con prudenza, e non darmi motivi di nuovi disgusti, e tu Bellinda ti raccomando di mantenere la pace, tutto mi prometto dalla tua saviezza.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>Signor padre, vi prego al vostro ritorno di portarmi il taglio di un bell’abito, dei merletti e delle gioie, che mi trovo sprovveduta di tutto.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>E tu Bellinda non mi chiedi nulla ?</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Una cosa soltanto.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>E quale ?</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Altro non vi chiedo che al vostro ritorno mi portiate una pianta di rose.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <stage type="pers">[fra sé]</stage>
+            <p>Che ridicola ostentazione per farsi tener savia.</p></sp></div>
+      
+            <div type="3"><head type="scene" n="4">Scena 4</head>
+                  <listPerson><personGrp><name>Gerolamo</name><stage type="listPerson"> e </stage><name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Signor padrone i cavalli sono belli e pronti bardati all’uso dei somari.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Benissimo.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Vi raccomando signor padrone di camminare <pb n="9" facs="19_I__IlMostroTorchino_IT_IBM_009.jpg"/>adagio, per non essere costretti a mettersi dopo il viaggio nelle mani del chirurgo.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Addio mie care figlie. Fate per me dei voti al cielo perché feliciti le mie buone intenzioni. 
+                  Ti raccomando, mia cara Bellinda, gli affari della nostra famiglia.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>Io pregherò il cielo che vi faccia ritornare carico di ricchezze, che ne abbiamo bisogno.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Io vi desidero ogni bene, o che la suprema mano benefica vi preservi dai pericoli e da nuove disgrazie.</p></sp>
+
+      <sp><speaker>Leandro</speaker>
+            <stage type="pers">(piano a Petronio)</stage><p>
+                  Ci avete poi lasciato a sufficenza per sostentarci durante la vostra assenza ?</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <stage type="pers">(crucciato)</stage> <p>Eh non temete, ho lasciato quanto permetteva la ristrizione del mio stato presente.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Signor padrone, i cavalli saranno stanchi di fare una lunga anticamera.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Vengo. Addio care le mie figlie, ci rivedremo presto.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Il cielo vi benedica, mio caro padre.</p> 
+                  <stage type="saut">(Petronio parte.)</stage></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>Tornate con dei denari.</p>
+                  <stage type="saut">(parte)</stage></sp>
+
+      <sp><speaker>Leandro</speaker>
+            <p>Questi sono i nostri desideri.</p>
+                  <stage type="saut">(parte)</stage></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Andate pure, giacché lo esigono le nostre circostanze, e spero che breve sarà la vostra lontananza e che il cielo colmerà di gioia e consolazione la nostra famiglia.
+                  </p></sp></div></div>
+            <div type="5"><head type="div5">Fine dell’atto primo.</head></div>
+      
+            <div type="1"><pb n="10" facs="19_I__IlMostroTorchino_IT_IBM_010.jpg"/><head type="acte" n="2">Atto II</head>
+                  <stage type="saut">Sala magnifica nel palazzo d’Azor.</stage>
+                  <stage type="saut">Nell’alzar il sipario s’ode temporale che va calmandosi.</stage>
+
+<div type="3"><head type="scene" n="1">Scena 1</head>
+      <listPerson><personGrp><name>Petronio</name><stage type="listPerson"> e </stage>
+            <name>Gerolamo</name></personGrp></listPerson>
+
+      <sp><speaker>Petronio</speaker>
+            <stage type="pers">(da una parte della scena)</stage> <p>Nemica fortuna e quando avrai tu cessato di opprimere uno sventurato ?</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <stage type="pers">(dall'altra parte della scena)</stage>
+                  <p>Oh maledetta fortuna, figlia d’un becco cornuto, dovrò ancora soffrire le tue maligne insolenze ?</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Povere mie speranze, vi ho veduto morire nel vostro primo nascere.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Che cattivo viaggio, ho creduto che tutti gli elementi fossero insatanassati a farmi guerra.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Povere figlie, non ho a recarvi che lagrime di disperazione.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Mi credevo di guadagnarmi qualche cosa in questo maledotto viaggio, o ci ho rimesso anche quel poco che mi restava.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Pure in mezzo ai miei disastri ringrazio il cielo se mi trovo salvo in questo luogo, ove spero dai miei ospiti trovare qualche tratto di compassione e di umanità.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Come diavolo si può dare di trovare una sì bella locanda in mezzo a questi boschi e deserti ?</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Chi sa mai dove sarà capitato il mio povero servo.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Chi sa dove il vento avrà portato il mio <pb n="11" facs="19_I__IlMostroTorchino_IT_IBM_011.jpg"/>povero padrone, il disgraziato signor Petronio.</p>
+                  <stage type="saut">(sorte)</stage></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Chi chiede di me ? Forse Gerolamo ?</p>
+                  <stage type="saut">(sorte)</stage></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>È qui ai vostri ordini.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Io ti ho creduto smarrito per il bosco.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Ed io ho creduto che qualche fiera prendendovi per un polpettone vi avesse fatto servire per la cena.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Son salvo grazie al cielo. In mezzo all’acqua che cadeva a diluvio ed alla tempesta ho veduto da lontano un lumicino, e camminando dietro alle sue traccie arrivai in questo luogo;
+                  trovai per sorte una comoda stalla da collocare il mio cavallo, e non manca che di trovare qualche ristoro anche per noi.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Fate conto signor padrone che anche a me è accaduto lo stesso. Oh il gran cattivo viaggio che ho fatto con quella maledetta cavalcatura da somaro !</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Abbi pazienza, caro Gerolamo, e tutto soffri per amor mio. Ma dimmi, non hai tu incontrato nessuno in questo luogo ?</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Io no, se questa fosse una locanda saremmo già stati complimentati dal cameriere.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Convien dire che questo palazzo sia abitato da qualche fata; là vedi, vi è una tavola già preparata, o nell’altra sala vi è un buon camino acceso da scaldarsi.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Signor padrone, prima di tutto possiamo sederci a tavola, che mi sento una fame da suonatore di contrabasso.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>E poi quando avremo mangiato se non abbiamo un soldo da pagare il conto ?</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Si mangia prima e poi non mancano aggiustamenti. Alla più disperata lasceremo in pegno le nostre cattive cavalcature.</p></sp><pb n="12" facs="19_I__IlMostroTorchino_IT_IBM_012.jpg"/>
+      
+      <sp><speaker>Petronio</speaker>
+            <p>Dici bene. Ma a buon conto fa una gita per il palazzo per vedere se incontri qualcuno.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Ma voi sapete ch’io sono poco coraggioso, e se incontro qualche brutta figura io muoio dallo spavento.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Va, e non temer di nulla.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Mi proverò; ma se mai sentite gridare venito a soccorrermi.</p>
+                  <stage type="saut">(parte)</stage></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Finalmente se mi approfitto della buona occasione che mi si presenta che male può esserci ?
+                  Quando venga il padrone o i servitori e mi trovano qui, spero che osservando lo stato in cui mi trovo mi perdoneranno la libertà che mi son presa. 
+                  Se in questo asilo tutto trovo disposto a render meno crudele la mia disgrazia, non devo credere che sia questa una disposizione del cielo che vuole mitigare il rigore de' miei mali ?</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <stage type="pers">(Che ritorna.)</stage> 
+                  <p>Ho girato le stanze sotto e dissopra o non ho trovato un cane. Bisogna che questo comodo albergo sia stato piantato a posta per noi. 
+                  Andiamo a tavola prima che la cena si raffreddi, e non pensiamo più altro.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Giacché la necessità ci stimola prendiamo qualche refezione.</p> 
+      <stage type="saut">(Siedono a mensa e mangiano.)</stage></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Oh che buoni bocconi ! Altro che i salami italiani, la busecca milanese, il riso novarese e le polpette delle serve !</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Io non so concepire come non possa comparire nessuno, per attestare almeno la mia riconoscenza per un sì opportuno soccorso ai nostri bisogni, e sono tuttavia compreso dallo stupore e dalla meraviglia.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Signor padrone non vi sturbate, che avremo presto il cameriere con il conto.</p></sp><pb n="13" facs="19_I__IlMostroTorchino_IT_IBM_013.jpg"/>
+      
+      <sp><speaker>Petronio</speaker>
+            <p>Per me non lo desidero, perché non ho con che pagarlo.</p> 
+                  <stage type="saut">(Si leva da tavola.)</stage></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Mi nasce un sospetto che quest'abitazione sin di qualche diavolo, che ci abbia tirati nella rete, per farci questa notte un brutto servizio allorché saremo addormentati.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Non temere. Il cielo avrà pietà di due poveri sventurati, e ci preserverà da ulteriori disgrazie. Andiamo, inoltriamoci negli appartamenti se mi riesce trovare qualche cosa. 
+                  </p><stage type="saut">(parte)</stage></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Il padrone dice bene; ma io mi sento un tremore in corpo che sembro assalito dalla febbre quartana. Questo è siouro l’ultimo giorno ch'io resto a questo mondo. 
+                  </p><stage type="saut">(parte)</stage></sp></div>
+ 
+ <div type="3"><head type="scene" n="2">Scena 2</head>
+       <stage type="saut">Giardino con cespuglio di rose.</stage>
+       <listPerson><personGrp><name>Petronio</name><stage type="listPerson"> e </stage><name>Gerolamo</name></personGrp></listPerson>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Non ho mai potuto sortire dal mio stupore, nel vedermi tanto ben servito, e sono costretto di dover partire col dispiacere sul cuore, di non poter almeno ringraziare i cortesi miei ospiti.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Voi volete partire sì presto ed io ci resterei per tutta la vita.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Le mie circostanze non mi permottono di più a lungo trattenermi.
+                  Ho promesso alle mie figlie di tornare tra poco, e non voglio lasciarle nel timore e nell'incertezza.
+                  Hai pronti i cavalli ?</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Signor sì, e sono stati anch'essi serviti di fieno, di biada, e gli ho trovati già belli e strigliati.</p></sp><pb n="14" facs="19_I__IlMostroTorchino_IT_IBM_014.jpg"/>
+      
+      <sp><speaker>Petronio</speaker> 
+            <p>Oh prodigio, oh prodigio ! Io resto di sasso.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker> 
+            <p>Ed io di lapislazzoli.</p></sp>
+
+      <sp><speaker>Petronio</speaker> 
+            <p>Quello che più mi sorprende è il veder in questa stagione un giardino si ridente e fiorito come nel più verde di primavera. 
+            Ma mi sovviene, al veder queste rose, che la mia figlia Bellinda mi raccomandò che al mio ritorno le portassi una pianta di rose. Qui ne posso cogliere quante ne voglio.</p>
+            <stage type="saut">(Nell'atto che s’accosta per istirpare una pianta di rose, rumoreggia il tuono e lampeggia il cielo. Petronio resta nel massimo stordimento, e Gerolamo più ancora spaventato.)</stage></sp></div>
+      
+<div type="3"><head type="scene" n="3">Scena 3</head>
+      <listPerson><personGrp><name>Azor</name><stage type="listPerson"> da mostro e </stage><name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Azor</speaker>
+            <stage type="pers">(Comparisce allo scuotimento della terra ed al balenar del lampo.)</stage>
+            <p>Fermati, uomo incivile ed ingrato. Io ti ho salvato la vita ricevendoti nel mio palazzo, ti ho dato ricovero, ti ho ristorato; 
+            e tu in ricompensa di tanto bene ardisci rubarmi una pianta di rose che forma l’oggetto più caro delle mie cure ? 
+            Può solamente la tua morte riparar questo fallo. Non ti dò che un quarto d’ora di tempo per domandar perdono al cielo, e tu ed il servo
+            disponetevi a pagar il fio del commesso attentato.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <stage type="pers">(S’inginocchia.)</stage>
+                  <p>Ah signore, abbiate pietà di me, confesso di aver' mancato alle leggi dell'ospitalità, ma io commisi un errore che tale non lo credei.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <stage type="pers">(Fa lo stesso.)</stage> 
+                  <p>Ah illustrissimo eccellenza signor mostro vi domando perdono... 
+                        <stage type="corps">[fra sé]</stage> Costui si fa pagar caro la cena che ci ha data.</p></sp><pb n="15" facs="19_I__IlMostroTorchino_IT_IBM_015.jpg"/>
+      
+      <sp><speaker>Petronio</speaker>
+            <p>Io, signore, non ho creduto di offenderla cogliendo una pianta di rose, per portarla alla minore delle mie figlie, che me l’aveva richiesta.</p></sp>
+
+      <sp><speaker>Azor</speaker>
+            <p>Io non sono né signore, né eccellenza; mi chiamo un mostro e non mi curo di adulazioni né di cerimonie. 
+                  Voglio che si parli meco come si pensa. Se credi di adescarmi colle lusinghe e le lodi t’inganni a partito. 
+                  Tu dicesti che hai delle figlie. Se così è ti perdono, con patto però che una di esse venga spontaneamente a morir per te. 
+                  In caso poi che nessuna di loro voglia sacrificare la propria vita per salvare la tua, ti do allora tre mesi di tempo per disporre delle cose tue. 
+                  Rifletti e decidi.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+           <stage type="pers">[fra sé]</stage> <p>Oh Dio che crudele alternativa !</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <stage type="pers">[fra sé]</stage>
+            <p>Oh questo signor mostro ci vuol procurare una cattiva digestione. 
+                  Sarebbe stato il meno male che ci avesse portato il conto, secondo l’uso degli ostieri.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <stage type="pers">[fra sé]</stage>
+            <p>Qui non v’è altro scampo che piegar la fronte ai decreti del mio cattivo destino. 
+            <stage type="corps">(Ad Azor)</stage> 
+                  Giuro per quanto v’ha di più sacro in terra, di ritornare in questo giorno istesso a subire la pena del mio involontario delitto, tosto che
+                  avrò abbracciato per l’estrema volta le mie care figlie.</p></sp>
+
+      <sp><speaker>Azor</speaker> 
+            <p>Ebbene, tu puoi dunque partire quando ti aggrada, ma non voglio che tu parta di qui senza darti un'altra prova delle mie beneficenze.
+            Ritorna nella camera dove hai dormito. Vi troverai un gran forziere vuoto. Riempilo pure di tutto ciò che v’è di più prezioso nel mio palazzo. 
+            Ch'io te lo permetto, e sarà poi mia cura il mandartelo a casa. Addio. Guardati <pb n="16" facs="19_I__IlMostroTorchino_IT_IBM_016.jpg"/>bene di non esser spergiuro, mentre la parte anche più rimota della terra non ti potrà salvare dalle mie vendette. 
+          </p><stage type="saut">(Parte tra i lampi.)</stage></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Barba Giove ti ringrazio, che quel garbato signor mostro ce l’ha fatta ancora a buon mercato. 
+                  Quello che è sicuro, che subito che sono a casa bisogna che mi metta nelle mani del medico.</p></sp>
+
+      <sp><speaker>Petronio</speaker> 
+            <stage type="pers">(Che si scuote dal suo stordimento.)</stage> 
+                  <p>Quando il cielo avrà cessato di perseguitare un infelice !
+                  Ma se così sta scritto nel mio fato che io debba morire in questo luogo accordandomi ch'io ritorni in seno alla mia famiglia, avrò almeno il contento di lasciarle con che vivere comodamente. 
+                  Gerolamo conduci alla porta del palazzo i cavalli; ch'io vado intanto ad approfittare della generosità del mostro, 
+                  ed il pensiero che ho trovato modi di poter giovar ai miei figli mi rende meno doloroso il sagrifizio ch'io debbo fare della mia vita. 
+                  </p><stage type="saut">(parte)</stage></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>L’ho sempre detto che quelle fortune che capitano con tanta felicità, sono come quelle pillole inargentate che nascondono i cattivi effetti d’una violenta evacuazione. 
+                  </p><stage type="saut">(parte)</stage></sp></div>
+      
+<div type="3"><head type="scene" n="4"> Scena 4</head>
+      <stage type="saut">Casa come nell'atto primo.</stage>
+      <listPerson><personGrp><name>Leandro</name><stage type="listPerson"> e </stage>
+      <name>Isabella</name></personGrp></listPerson>
+
+      <sp><speaker>Leandro</speaker> 
+            <p>Temo, signora moglie, che le vostre speranze d’ingrandimento sieno convertite in fumo.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>E perché ?</p></sp>
+
+      <sp><speaker>Leandro</speaker>
+            <p>È facile l’indovinarlo.</p></sp><pb n="17" facs="19_I__IlMostroTorchino_IT_IBM_017.jpg"/>
+      
+      <sp><speaker>Isabella</speaker>
+            <p>È forse naufragata di nuovo la nave che doveva giungere in porto di ragione della compagnia dei mercatanti ?</p></sp>
+
+      <sp><speaker>Leandro</speaker>
+            <p>Anzi è arrivata effettivamente; ma se un mio amico non mi scrive il falso, mi fa sapere che i creditori di vostro padre appena hanno avuto notizia dell'arrivo di questo legno mercantile, 
+                  vi hanno fatto pure il sequestro, per quella porzione però che apparteneva al signor Petronio.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>Eh non è possibile. Io lo credo piuttosto un giuoco di mano ordito dai nostri nemici, suggerito a mio padre, 
+                  per aver un apparente pretesto di sollevarsi dal peso di continuare a mantenerci.</p></sp>
+
+      <sp><speaker>Leandro</speaker>
+            <p>Per me non lo desidero.</p></sp></div>
+      
+      
+      <div type="3"><head type="scene" n="5">Scena 5</head>
+            <listPerson><personGrp><name>Bellinda</name><stage type="listPerson"> e </stage><name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Nostro padre non è ancora arrivato ?</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>Lo chiedete a me ?</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Si, perché vostro marito frequenta tutti i caffè della città vicina, può meglio raccogliere delle notizie.</p></sp>
+
+      <sp><speaker>Leandro</speaker>
+            <p>Io non sono né novellista, né gazzettiere.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Oh siete pure un uomo inurbano !</p></sp></div>
+      
+      
+<div type="3"><head type="scene" n="6">Scena 6</head>
+      <listPerson><personGrp><name>Gerolamo</name><stage type="listPerson"> e </stage><name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Porto il fausto annunzio che a momenti sarà qui vostro padre.</p></sp><pb n="18" facs="19_I__IlMostroTorchino_IT_IBM_018.jpg"/>
+      
+      <sp><speaker>Isabella</speaker>
+            <p>Che sappiate, ha portato degli abiti, e dei denari ?</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Degli abiti, delle gioie, e ancho dei denari ne arriveranno, non per voi.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>Per chi dunque ?</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Per quelle che li meritano più di voi.</p></sp></div>
+      
+<div type="3"><head type="scene" n="7">Scena 7</head>
+      <listPerson><personGrp><name>Petronio</name><stage type="listPerson"> e </stage><name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Mie care figlie, il cielo mi ha ancora concesso di abbracciarvi per l’ultima volta.</p> 
+                  <stage type="saut">(piange)</stage></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Ah caro padre, perché quel pianto ?</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Questo pianto è il frutto del nostro cattivo viaggio.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>Dite, mi avete portato gli abiti cho vi ho ordinato ?</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Ma voi celate in seno qualche nuovo disastro ?</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Ah compiangete, mie care figlie, il più infelice dei padri. 
+                  Arrivato al porto dove stava ancorato il legno ricuperato, allorché feci conoscere le mie ragioni sopra una parte di quelle merci, 
+                  mi vidi sorpreso da mille cabale e raggiri, e nell'impotenza di portare ai tribunali la giustizia de' miei diritti, credetti di rinunziare alle mie pretese o ritornarmene povero come prima. 
+                  Ma nel ritorno mi sovrastava la peggiore di tutte le disgrazie. Assalito da un orrido temporale, mi ricoverai in un albergo che certamente deve essere di qualche Nume. 
+                  Trovai in esso ricovero e conforto; quando nel partire ricordandomi di aver promesso una pianta di rose a Bellinda, e trovandone nel giardino di questo palazzo incantato <pb n="19" facs="19_I__IlMostroTorchino_IT_IBM_019.jpg"/>una bellissima, 
+                  nell’atto di schiantarla mi vidi assalito da un orribile mostro, che in pena del mio preteso delitto m’intimò la morte.
+                  Manifestandogli che avevo delle figlie mi disse che qualora una di esse si offrisse spontaneamente a morir per me, egli mi accordava il perdono, 
+                  ma che nell’uno e nell’altro caso ogli richiedeva una vittima, e mi costrinse a pronunziare un sacro giuramento. 
+                  Io avrei senza pena subito una morte per terminar tanti mali; ma il desiderio di vedervi per l’estrema volta a di darvi un ultimo abbraccio, mi ha impegnato ad un'inviolabile promessa.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Siete pur buono a mantener la parola a quel balordo; voi potete mancarvi comodamente senza farvi alcun scrupolo.</p></sp>
+      
+      <sp><speaker>Petronio</speaker>
+            <p>Prendi, figlia mia, queste rose, che costeranno la vita al tuo povero padre !</p> 
+            <stage type="saut">(Le dà le rose.)</stage></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>Io sento pietà del vostro infelice stato !
+                  <stage type="corps">(con affetto)</stage> 
+                  Guardate quell'insensata di Bellinda non versa neppure una lagrima sulla disgrazia di nostro padre. 
+                  Ecco il bel frutto della sua ignoranza.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Perché volete ch'io pianga ? Non accetta il mostro in sua vece una delle sue figlie ? 
+                  Ebbene bene, io mi sacrifico volentieri al suo furore, e sarò felice se potrò morendo salvar la vita al mio caro padre.</p></sp>
+
+      <sp><speaker>Isabella</speaker> <p>Ecco l’eroina del secolo, che pretende mostrare un coraggio che non ha mai avuto. 
+            Per terminare ogni contesa mio marito andrà ad uccidere il feroce mostro, e darà prova del suo valore.</p></sp>
+
+      <sp><speaker>Leandro</speaker>
+            <p>Per me non son pronto.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Non lo sperate. Egli è impossibile di resistere <pb n="20" facs="19_I__IlMostroTorchino_IT_IBM_020.jpg"/>alla ferocia, e di superare la forza di questa bestia. 
+                  Aggiungereste nel cimentarvi la vostra morte alla mia. Mi compiaccio del vostro affetto e del buon cuore di Bellinda; ma non voglio esporla alla morte. 
+                  Son vecchio e mi restano pochi anni di vita. Li sacrifico volontieri e, non mi rincresce di sacrificarli per voi. 
+                  Il mostro però ha avuto compassione di voi e mi ha dato un ricco tesoro per lasciarvi da vivere in comodo stato, o lo ritroverete nella mia camera. 
+                  Addio per sempre mie care figlie, compiangete il destino di un padre che vi ha sempre amate.</p> 
+                  <stage type="saut">(piange)</stage></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>No, caro padre, non potete vietarmi di seguirvi, ed io sono risoluta di farlo a qualunque costo.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Signor padrone, ricordatevi anche di me che avanzo tanti mesi di salario.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <stage type="pers">[fra sé]</stage>
+            <p>Ha parlato l’oracolo.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Mie care figlie, il tempo vola. Ho promesso di rendermi al mostro tra poche ore e non posso mancare senza essere spergiuro.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Son pronta a seguirvi...</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Ma...</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>Via, lasciate venire, che finalmente se vien divorata dal mostro, fate una perdita di poco conto.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Giacchè sei disposta a far questo doloroso sacrifizio per me, andiamo. Addio mia cara figlia. 
+                  Forse sarà breve il mio ritorno, se pure mi concederà il cielo di sopravvivere a questo  fiero disastro.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Sorella mia, lasciate che vi abbracci per l'ultima volta. 
+                  Vi prego di accordarmi il vostro perdono se vi ho dato motivo di disgusto, e almeno per l’affetto del sangue versate qualche lacrima sulla memoria d’una infelice germana che ha data la vita per quella <pb n="21" facs="19_I__IlMostroTorchino_IT_IBM_021.jpg"/>d’un padre.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Gerolamo andiamo.</p> 
+                  <stage type="saut">(parte con Bellinda)</stage></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Avreste potuto risparmiarmi questo secondo incomodo.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>Felice viaggio.</p> 
+                  <stage type="saut">(parte)</stage></sp>
+
+      <sp><speaker>Leandro</speaker>
+            <p>E salute a chi resta.</p> 
+                  <stage type="saut">(parte)</stage></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Che cuor di tigre che hanno questi birbanti. 
+                  Povera Bellinda, mi sento le lacrime agli occhi perché son sicuro che sarà pascolo del brutto mostro.</p> 
+                  <stage type="saut">(parte)</stage>
+            </sp></div></div>
+            <div type="5"><head type="div5">Fine dell'atto secondo.</head></div>
+      
+            <div type="1"><pb n="22" facs="19_I__IlMostroTorchino_IT_IBM_022.jpg"/><head type="acte" n="3">Atto III</head>
+            <stage type="saut">Palazzo d'Azor come nell'atto II.</stage>
+
+<div type="3"><head type="scene" n="1">Scena 1</head>
+      <listPerson><personGrp><name>Petronio, </name><name>Bellinda</name><stage type="listPerson"> e </stage><name>Gerolamo</name></personGrp></listPerson>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Eccoci arrivati a quella locanda dove abbiam pagata troppo cara la nostra nottata.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Questo, mia cara figlia, è il palagio dove abita il mostro, e convien dire che sotto le spoglie di questa bestia si celi qualche mistero.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Si vede però che questo signor mostro è il re dei galantuomini perché ci ha già preparato il pranzo.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Via, caro padre, fatevi coraggio, non vi attristate sulla mia sorte, io son disposta a tutto per risparmiare i vostri giorni. Qui osservo una mensa preparata, sedete meco e refezionatevi.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Come poss'io gustare di questi cibi coll’amarezza nel cuore e il pianto sul ciglio ?</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Animo, signor padrone, pasteggiamo allegramente; pensiamo al presente e in quanto all’avvenire sarà quel che sarà !</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Sediamo a mensa, la mia fermezza sia per voi di eccitamento e di conforto a tollerare tutto ciò che ci prepara il nostro destino avvenire.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Ammiro la tua costanza; ma non posso reprimere il dolore della tua perdita.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Confidando nella assistenza del cielo io più nulla temo.</p></sp><pb n="23" facs="19_I__IlMostroTorchino_IT_IBM_023.jpg"/>
+      
+      <sp><speaker>Gerolamo</speaker>
+            <p>Presto signori miei sedetevi a tavola perché le pietanze raffreddano.
+                  <stage type="corps">(Petronio e Bellinda siedono a mensa)</stage> 
+                  Signor padrone, signora padrona, vi prego a mangiar poco perché se viene il mostro, farete più facilmente la vostra digestione. 
+                  <stage type="corps">[fra sé]</stage> 
+                  Ho bisogno che mangino poco perché io possa mangiar molto. 
+                  <stage type="corps">(Durante il breve tempo della mensa Gerolamo farà diversi movimenti di sorpresa e di timore, ora 
+                        guardando per le scene, ora alla tavola, sinché si sente suonare dolcemente ed a cantare la seguente)</stage>:</p>
+                  <lg><l>Non turbarti, o mia Bellinda,</l> 
+                        <l>La sovrana qui tu sei,</l>
+                        <l>E i clementi eterni Dei</l>
+                        <l>Senton pur di te pietà.</l>
+                        <l>Vivi lieta e non paventa;</l>
+                        <l>Pochi istanti di timore</l>
+                        <l>Porteran nel tuo bel cuore</l>
+                        <l>Dolce amor, felicità !</l></lg>
+                  <stage type="saut">(Terminata la musica si sente strepito, Gerolamo fa per fuggire ma non sa dove, Petronio
+                  si spaventa e la sola Bellinda è quella
+                  che si mostra intrepida).</stage></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Maledetto, è qui il mostro a farci una seconda incomoda visita, e non mi ha dato tempo di far la mia tavola.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Ah mia cara figlia, io ti perdo per sempre !</p> 
+                  <stage type="saut">(piange)</stage></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Più mi trafigge il vostro pianto che il timore di perder la vita.</p></sp></div>
+      
+      
+                  <div type="3"><pb n="24" facs="19_I__IlMostroTorchino_IT_IBM_024.jpg"/><head type="scene" n="2">Scena 2</head>
+      <listPerson><personGrp><name>Azor</name><stage type="listPerson"> e </stage>
+            <name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Bellinda</speaker>
+            <stage type="pers">[fra sé]</stage>
+           <p>Oh Dio ! che orrida figura.</p></sp>
+
+      <sp><speaker>Azor</speaker>
+            <stage type="pers">(con voce spaventevole)</stage> 
+            <p>Ditemi, qui vi trasse uno spontaneo volere ?</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Sì, mio Signore...</p>
+            <stage type="saut">(impaurita)</stage></sp>
+
+      <sp><speaker>Azor</speaker>
+            <p>Vi ringrazio buona fanciulla 
+                  <stage type="corps">(dolcemente)</stage>
+                  Voi partite tosto 
+                  <stage type="corps">(a Petronio)</stage>, 
+                  e se vi preme la vita qui non tornate mai più.</p> 
+                  <stage type="saut">(parte)</stage></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Che parlar laconico ha costui.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Mia cara figlia io son perduto, non ho più forza di reggermi dallo spavento. 
+                  No, non sarà mai vero ch'io t’abbandoni al furore, e alla indiscrezione di un mostro cotanto crudele.
+                  Voglio o viver teco, o morire insieme.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Mio caro padre, voi dovete partire, non fate resistenza al vostro fato. 
+                  Abbandonatemi pure nelle mani del cielo. Confido nel suo soccorso, egli protegge gl’innocenti, ed avrà pietà anche di me.</p> 
+                  <stage type="saut">(Si ascolta di nuovo un orribile strepito, accompagnato da un traballamento di tutto il palasso, ed esce.)</stage></sp></div>
+      
+      
+      <div type="3"><head type="scene" n="3">Scena 3</head>
+           <listPerson><personGrp>
+                 <name>Fata</name><stage type="listPerson"> e </stage>
+                 <name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Fata</speaker>
+            <p>State di buon animo, figlia mia. La lodevole azione di sagrificare voi stessa per salvar la vita del padre vostro merita ricompensa, e sarà presto premiata.</p> 
+                  <stage type="saut">(dispare)</stage></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Signor padrone, partiamo presto, perché ho paura che s’io resto qui ancora per poco, di non potervi fare più compagnia nel vostro ritorno.</p></sp><pb n="25" facs="19_I__IlMostroTorchino_IT_IBM_025.jpg"/>
+      
+      <sp><speaker>Bellinda</speaker>
+            <p>E dopo tuttociò che avete udito, che vi resta a temere ? 
+                  Non sono manifesti i segni ch'io non dovrò perire.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Tale è la mia speranza. Addio parte più cara delle mie viscere. T’assista il cielo. 
+                  Ti rammenta del tuo padre infelice e tutti i miei voti saranno per la tua salvezza.</p> 
+                  <stage type="saut">(parte)</stage></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Signora padrona, altro non occorrendo ci rivedremo all’altro mondo.</p> 
+                  <stage type="saut">(parte)</stage></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Povero mio padre, e chi sa che non soccomba al mio dolore. Oh giorno il più funesto della mia vita. 
+                  Numi possenti, Numi, senza il vostro soccorso io dovrò perire sotto il peso di tanti mali. 
+                  Io non ho più padre, e abbandonata a me stessa vedo tutto l’abisso di quelle spaventevoli sciagure che mi circondano. 
+                  Voi che conoscete la purità de' miei sentimenti, voi che proteggete l’innocenza, che difendete la virtù, salvate quest'infelice, salvate i giorni dello sventurato mio genitore.</p></sp></div>
+
+      <div type="3"><head type="scene" n="4">Scena 4</head>
+            <listPerson><personGrp><name>Azor</name><stage type="listPerson"> e </stage><name>detta</name></personGrp></listPerson>
+
+      <sp><speaker>Bellinda</speaker>
+            <stage type="pers">(Sente strepito.)</stage> 
+            <p>Oimè, qui ritorna a funestarmi la visita del mostro. 
+                  Armiamoci di coraggio e di fermezza.</p></sp>
+
+      <sp><speaker>Azor</speaker>
+            <p>Mi sarà concesso, o ammirabile Bellinda, il trattenermi un momento con voi ?</p>
+            <stage type="saut">(con dolcezza)</stage></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <stage type="pers">(tremando)</stage>
+            <p>Ne siete il padrone.</p></sp>
+
+      <sp><speaker>Azor</speaker>
+            <p>No, qui non vi è altro padrone che voi. Anzi mostratevi meco sincera, se vi fa ribrezzo l’orridezza del mio sembiante, io mi ritirerò da voi. 
+                  Ah perché non posso mostrarmi diverso di quello ch'io sono ?</p></sp><pb n="26" facs="19_I__IlMostroTorchino_IT_IBM_026.jpg"/>
+      
+      <sp><speaker>Bellinda</speaker>
+            <p>Certamente, signore, che il vostro aspetto ispira terrore, e spavento, ma si vede che avete altrettanto più buono il cuore.</p></sp>
+
+      <sp><speaker>Azor</speaker>
+            <p>Il peggior de' miei mali, si è che oltre di coprirmi di queste deformi spoglie, natura mi negò e spirito e talenti, per garantirmi almeno di quell'orrore che la mia figura ispira.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Non può dirsi ignorante colui che suppone di non aver dei meriti.</p></sp>
+
+      <sp><speaker>Azor</speaker>
+            <p>Supplirà a tutto, io spero, la beneficenza mia. 
+                  Questo palagio e tutto ciò che contiene è vostro, ed io sentirei il maggior dispiacere se sapessi che non foste contenta. 
+                  La vostra solitudine sarà divertita con diversi trattenimenti.
+                  Deponete ogni timore e succeda nel vostro cuore la tranquillità, l’allegria e la sicurezza.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Ah signore, voi avete troppa bontà per me, e vi confesso che non saprei desiderare di meglio, e tanta è la generosità che manifestate per me, che più non temo di voi, e si è
+                  persino scemato al mio sguardo il ribrezzo e lo spavento che provai in vedervi.</p></sp>
+
+      <sp><speaker>Azor</speaker> <p>Oh se avessi il dono dell'ingegno, vi risponderei all’onore che mi fate; ma un ignorante non può che ringraziarvi della bontà che avete per lui. 
+            Voi non avete che a manifestare i vostri desiderii per essere all'istante servita.
+            Vedete là quell'appartamento ? Egli è destinato per voi. 
+            Favorite di andare ad osservarlo un momento, vedrete se vi è tutto ciò che vi occorre, e nulla mi risparmiate di tutto ciò che può contribuire ai vostri comodi.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Vado per ubbidirvi.</p> 
+                  <stage type="saut">(parte)</stage></sp>
+
+      <sp><speaker>Azor</speaker>
+            <p>La fata inesorabile e crudele che mi tramutò in questo orride spoglie, mi disse, lo rammento ancora! 
+                  Ch'io resterei in questo deforme <pb n="27" facs="19_I__IlMostroTorchino_IT_IBM_027.jpg"/>aspetto sin che una fanciulla consentisse a sposarmi.
+                  Oh ciel benigno, sarebbe questo il giorno di veder terminata la dura condizione del crudele mio stato ? 
+                  Bellinda si offre spontaneamente a farsi mia preda per salvare i giorni di suo padre; si mostra grata ai miei benefici; ma potrò mai io sperare ch’ella senta amore per me ? 
+                  Poniamoci adunque a questo duro cimento. Oh me per sempre sventurato s’ella ricusa d’essermi sposa !</p> 
+                  <stage type="saut">(piange)</stage></sp></div>
+
+            <div type="3"><head type="scene" n="5">Scena 5</head>
+                  <listPerson><personGrp><name>Bellinda</name><stage type="listPerson"> e </stage><name>detto</name></personGrp></listPerson>
+
+      <sp><speaker>Bellinda</speaker>
+            <stage type="pers">(affannosa)</stage>
+            <p>Ah, signore, nuove sciagure vengono ad opprimermi il cuore !</p></sp>
+
+      <sp><speaker>Azor</speaker>
+            <p>Che sia mai !</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Nella stanza che mi avete destinata degna della grandezza del vostro cuore vi trovai uno specchio, curiosa d’osservarvi la mia imagine, vidi, oh prodigio, il mio povero padre assalito da violenta malattia pel disgusto d’avermi perduta. 
+                  Ah, signore, che mostrate di esser tanto compiacente per me, sareste per accordarmi la grazia di rivederlo ancora una volta ?
+                  Ah datemi, vi prego, questa sola soddisfazione; e vi prometto, di restar sempre con voi, mentre se me la negate voi godrete poco della mia compagnia, e morrò senz'altro di dolore.</p></sp>
+
+      <sp><speaker>Azor</speaker>
+            <p>Tolgalo il cielo ch'io mi opponga a questa vostra ragionevole domanda, perderei mille volte la vita, piuttosto che recarvi il menomo disgusto. 
+                  Ma sareste voi altrettanto compiacente per non negarmi la vostra destra.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <stage type="pers">[fra sé]</stage>
+            <p>Oh Dio, che sento !</p></sp></div>
+      
+                  <div type="3"><pb n="28" facs="19_I__IlMostroTorchino_IT_IBM_028.jpg"/><head type="scene" n="8">Scena 8</head>
+      <listPerson><personGrp><name>Bellinda</name><stage type="listPerson"> e </stage><name>detti</name></personGrp></listPerson>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Venite, signorn padroncina, ch'io sono contentissimo di vedervi.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Vi ringrazio dell’amore che avete per me, è appena per un prodigio venni informata dello stato di tristezza e di dolore in cui eravate immersi per la malattia di nostro padre, 
+                  volai in questo luogo a consolarvi, che il mio stato è più lieto di quello che non speravo. 
+                  Egli mi tratta come la prima sovrana del mondo, e mi ama col maggior affetto.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>E come viene da voi corrisposto ?</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Io gli voglio bene per puro sentimento di gratitudine.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>E non avete timore che qualche giorno vi faccia servire per suo pascolo ?</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>No, perché egli non è una fiera selvaggia, e suppongo che sotto quelle deformi sembianze nasconda qualche genio benefico che ha preso a proteggere la nostra sventurata famiglia ?</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <p>Ditemi un poco, e tutti quei denari che ha fatto pervenire a nostro padre dove sono ?</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Nel mio appartamento.</p></sp>
+
+      <sp><speaker>Leandro</speaker>
+            <p>E perché ricusa vostro padre di farne parte anche a noi ?</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Molte cose mi restano a dirvi su questo proposito, ma il tempo è già trascorso, e devo ritornare dal mostro secondo la mia fedele promessa.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <stage type="pers">[fra sé]</stage>
+                  <p>Qui bisogna studiare il modo di trattenerla più del bisogno. 
+                  <stage type="corps">[A Bellinda]</stage>
+                        Venite meco nella mia camera, che devo confidarvi alcune cose che vi riguardano, nel tempo stesso potrete prendere <pb n="29" facs="19_I__IlMostroTorchino_IT_IBM_029.jpg"/>qualche refezione, poi se vi piace partirete.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Sono con voi, ma per restare sol pochi momenti.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <stage type="pers">[fra sé]</stage>
+            <p>Tutto si tenti per farla cadere in disgrazia del suo preteso benefattore.</p>
+            <stage type="saut">(Partono.)</stage></sp></div>
+      
+<div type="3"><head type="scene" n="9">Scena 9</head>
+            <stage type="saut">Giardino come nell’atto secondo.</stage>
+      <listPerson><personGrp><name>Azor</name><stage type="listPerson">solo</stage></personGrp></listPerson>
+
+      <sp><speaker>Azor</speaker>
+            <p>Son già trascorse tre ore e Bellinda ancor non ritorna. 
+                  Ella forse annoiata di me, o sedotta dalla maligna germana ha violato la sua promessa. 
+                  Ahi, donna ingrata, poteva io più fare per interessarti per me ? 
+                  Io mi sento opprimer d’affanno, di rabbia o di dolore...
+                  La tua tardanza per me mi causerà senz’altro la morte. 
+                  Perfida donna, io morrò, ma tu vivrai col rimorso d’avermi ingannato.</p> 
+                  <stage type="saut">(Si ritira da una parte della scena e si adagia vicino ad un cespuglio.)</stage></sp></div>
+      
+      
+      <div type="3"><head type="scene" n="10">Scena 10</head>
+            <listPerson><personGrp><name>Bellinda</name><stage type="listPerson">indi</stage><name>Azor</name></personGrp></listPerson>
+            
+            <sp><speaker>Bellinda</speaker>
+                  <p>Misera me ! Scorsi ogni luogo del palagio, e più non trovo il mio Azor. 
+                        Gridai, lo chiamai per nome, ma un cupo silenzio regna in questo luogo deserto. 
+                        Ohimé ! Dunque non lo <pb n="30" facs="19_I__IlMostroTorchino_IT_IBM_030.jpg"/>rivedrò mai più ! Ora che lo perdei sento tutta la tenerezza per amarlo.</p></sp>
+
+      <sp><speaker>Azor</speaker>
+            <p>Oh Dio, qual voce ascolto ?</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Che sento ! Che fosse questi Azor ? 
+                  <stage type="corps">(Accorre dove sente la voce.)</stage> 
+                  Ah mio caro Azor voi siete qui ? In quale stato io vi riveggo ?</p></sp>
+
+      <sp><speaker>Azor</speaker>
+            <p>Voi mancate alla vostra promessa, ed io credendo di avervi perduta, disperato e stanco di sostenere la mia sciagura risolvei di perire di fame, muoio però contento nel vedervi ancora una volta.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>No, mio caro Azor, vivrete, si vivrete per esser mio sposo. Da questo momento giuro di esser vostra per sempre.</p></sp>
+
+      <sp><speaker>Azor</speaker>
+            <p>Oh momento felice, voi mi avete data la vita, e qui han termine tutti i miei mali. 
+            <stage type="corps">(Il giardino si trasforma in una reggia illuminata e Azor riprende l’aspetto di Principe.)</stage>
+                  Oh giorno il più bello di mia vita ! Grazie eterne a voi sien rese o virtuosa Bellinda.
+                  Voi mi avete liberato da quello stato d’angustia, di pena e di avvilimento in cui mi condannò una Fata malvagia.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <p>Ma dov'è il mostro che era prossimo a spirare a me vicino ?</p></sp>
+
+      <sp><speaker>Azor</speaker>
+            <p>Eccolo ai vostri piedi.
+            <stage type="corps">(s'inginocchia)</stage>
+                  Eccolo quel principe sventurato, che per aver disprezzato il maggiore dei Numi fu ricoperto da quelle orride spoglie. 
+                  Io doveva restare in quella mostruosa figura sinché un'amabile fanciulla si disponesse a darmi la sua mano.
+                  Io non potevo sperare di essere tratto da quello stato infelice che, dal vostro bel cuore, che si lasciò vincere dalla bontà del mio carattere. 
+                  Io sono uno dei più grandi monarchi, <pb n="31" facs="19_I__IlMostroTorchino_IT_IBM_031.jpg"/>ma la corona che v’offro non rimerita bastantemente gli obblighi che vi professo.</p></sp>
+
+      <sp><speaker>Bellinda</speaker>
+            <stage type="pers">[fra sé]</stage>
+            <p>Sogno o pur son desta ? Io son soprafatta dallo stupore e dalla meraviglia.</p></sp>
+
+      <sp><speaker>Azor</speaker>
+            <p>Ma la vostra felicità dev’essere interamente compiuta. Venite amici a felicitare questo giorno lieto.</p></sp></div>
+
+<div type="3"><head type="scene" n="2">Scena 11</head>
+      <listPerson><personGrp><name>Leandro, </name><name>Isabella, </name><name>Petronio  </name><stage type="listPerson"> e </stage><name>Gerolamo</name></personGrp></listPerson>
+
+      <sp><speaker>Azor</speaker>
+            <p>Ecco, qui è raccolta la vostra famiglia.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Oh che bel luogo che è mai questo, che vedo... La signora Bellinda...</p></sp>
+
+      <sp><speaker>Azor</speaker>
+            <p>E voi Petronio mio caro, in premio della fedeltà delle vostre promesse passerete presso di noi il restante dei vostri giorni.</p></sp>
+
+      <sp><speaker>Petronio</speaker>
+            <p>Ah signore, vi feliciti il cielo per mille secoli avvenire.</p></sp>
+
+      <sp><speaker>Gerolamo</speaker>
+            <p>Illustrissimo, eccellentissimo signor Principe, giacché siete tanto disposto a far del bene a tutti, non dimenticatevi di me che sono un povero uomo nemico giurato della fatica.</p></sp>
+
+      <sp><speaker>Azor</speaker>
+            <p>Sì, tu resterai in questa corte presso ai tuoi buoni padroni.</p></sp>
+
+      <sp><speaker>Isabella</speaker>
+            <stage type="pers">[fra sé]</stage>
+                  <p>La fortuna favorisce sempre i più ignoranti.</p></sp>
+
+      <sp><speaker>Leandro</speaker>
+            <p>E noi, signore ?</p></sp>
+
+      <sp><speaker>Azor</speaker> <p>E voi che avete sempre seguita la strada del disordine e della dissipazione, che vi siete <pb n="32" facs="19_I__IlMostroTorchino_IT_IBM_032.jpg"/>lasciati dominare dall'invidia, dalla malignità, 
+            e che avete insultato la saviezza e la virtù, sarete per tutta la vita confinati in una torre per piangere gli errori della vostra imprudenza e della vostra doppiezza.</p></sp>
+
+      <sp><speaker>Isabella</speaker><p>Ah signore...</p></sp>
+
+      <sp><speaker>Azor</speaker>
+            <p>Il mio decreto è immutabile. Andate, e terminate di funestare la gioia di un giornoche sarà sempre caro al mio cuore. Numi, io vi ringrazio.
+                  Nulla più resta a sperare se non da chi fu testimonio dello mio angosciose vicende che un segno manifesto del loro cortese aggradimento.
+                  </p></sp></div></div>
+            <div type="5"><head type="div5">Fine.</head><pb n="33" facs="19_I__IlMostroTorchino_IT_IBM_033.jpg"/><pb n="34" facs="19_I__IlMostroTorchino_IT_IBM_034.jpg"/></div>
+      </body>
+      </text>
+</TEI>

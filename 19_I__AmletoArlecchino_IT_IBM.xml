@@ -1,0 +1,1447 @@
+<?xml version='1.0' encoding='utf-8'?><?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="https://puppetplays.eu/en/oeuvres/241540/amleto">Amleto</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="FG">Fiona Gazzaniga</name>
+          <resp>Transcription and edition</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor/>
+        <availability status="free">
+          <licence>Public domain</licence>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>A son must avenge the murder of his father</note>
+        <note>Amleto, ovvero Arlecchino principe di Danimarca (Hamlet, or
+          Arlequin, Prince of Denmark) is a rewriting of Shakespeare’s tragedy, published in
+          Trieste in a collection of commediole per marionette (short comedies
+          for puppets) gathered by the bookseller-publisher G. Chiopris. These comedies
+          featuring Facanapa and Arlecchino use various Italian dialects: Facanapa comes from
+          Veneto (Verona or Rovigo) and Arlequin from Bergamo, in Lombardy. Despite the title
+          of the collection, the anonymous author describes their Amleto as a
+          tragedy: although the characters from the commedia dell'arte keep
+          their traits (gluttony and cowardice) and their comic strands, the plot broadly
+          follows that of Shakespeare’s tragedy; however, a final twist was added. This play
+          most notably featured in the repertoire of Bepe Pastrello (1906-1991), a
+          glove-puppeteer from Castelfranco Veneto (in Veneto).</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>Not specified</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>Instituto Per I Beni Marionettistici e la cultura Popolare, Grugliasco, Italy</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 32</p>
+                <p>Number of acts in the original document: 3</p>
+                <p>Format of the original document: Printed</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main">Amleto</title>
+          <title type="sub">ovvero Arlecchino principe di Danimarca</title>
+          <date>1898</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="">Italian</language>
+      </langUsage>
+      <textClass>
+        <keywords source="literaryTones">
+          <term>Dramatic</term>
+          <term>Comical</term>
+          <term>Fantastic</term>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Apparition of a ghost</term>
+          <term>Monologue</term>
+          <term>Off-stage voice</term>
+          <term>Spying scene</term>
+          <term>Murder on stage</term>
+          <term>Duel scene</term>
+          <term>Death on stage</term>
+          <term>Fake death</term>
+          <term>Dialect</term>
+        </keywords>
+        <keywords source="genre">
+          <term>Dramma tragico</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Rewriting</term>
+          <term>Revenge</term>
+          <term>Impossible love</term>
+          <term>Family</term>
+          <term>Shakespeare</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+          Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+          re-evaluate the contribution of the puppets repertoire to the construction of
+          European cultural identity. Its main goals is to collect a corpus of
+          representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+          France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+          17th and the 21th century. It also tries to identify the characteristics of
+          puppet dramaturgy and their variations depending on eras, cultural spheres,
+          producing conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+          Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+          build upon the material in any medium or format for non-commercial purposes
+          only, and only so long as attribution is given to the creator. If you remix,
+          adapt, or build upon the material, you must license the modified material under
+          identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2025-07-18" who="#FG">Text transcription and encoding</change>
+      <change when-iso="2025-08-25" who="#MSK">Encoding validation against schema.rng</change>
+      <change when-iso="2025-08-25" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+    </revisionDesc>
+  </teiHeader>
+   
+  <text>
+    <front>
+      <pb n="1" facs="19_I__AmletoArlecchino_IT_IBM_001.jpg"/>
+      
+      <docTitle>
+        <titlePart type="main">Amleto ovvero Arlecchino principe di Danimarca</titlePart>
+        <titlePart type="sub">Dramma tragico in tre
+          atti</titlePart>
+      </docTitle>
+      <docEdition>G. Chiopris Editore Trieste</docEdition>
+      <docDate/>
+      <pb n="2" facs="19_I__AmletoArlecchino_IT_IBM_002.jpg"/>
+      <castList>
+        <head type="personnage">Personaggi</head>
+        <castItem>
+          <role>Claudio, re di Danimarca</role></castItem>
+          <castItem><role>Arlecchino (Amleto), figlio d’altro re e nipote di Claudio,</role></castItem>
+          <castItem><role>Brighella (Polonio), ciambellano,</role></castItem>
+          <castItem><role>Facanapa (Orazio), amico di Arlecchino,</role></castItem>
+          <castItem><role>Laerte, figlio di Brighella,</role></castItem>
+          <castItem><role>Marcello, ufficiale,</role></castItem>
+          <castItem><role>Lo spettro del padre di Arlecchino,</role></castItem>
+          <castItem><role>Gertrude, regina di Danimarca,</role></castItem>
+          <castItem><role>Ofelia, figlia di Brighella,</role></castItem>
+          <castItem><role>Un becchino.</role></castItem>
+        
+      </castList>
+      <set>
+        <p>La scena è in Elsinoro.</p>
+      </set>
+    </front>
+    <body>
+      
+      <pb n="3" facs="19_I__AmletoArlecchino_IT_IBM_003.jpg"/>
+      <div type="1"><head type="acte" n="1">Atto I</head>
+    <stage type="saut">La piattaforma di una torre.</stage>
+        <div type="3"><head type="scene" n="1">Scena 1</head>
+          <listPerson><personGrp>
+            <name>Arlecchino,</name>
+            <name>Facanapa</name>
+            <stage type="listPerson"> e </stage>
+            <name>Marcello</name></personGrp></listPerson>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Orco can ! Che fredo che xe ! L'aria piziga, ma go anca un poco de spagheto.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ostrega ! No me parlar a mi de spagheto. Se ti me podessi vardar in t'un liogo che so mi,
+          ti vedaressi che el se ga strenzuo tanto che no ghe pasaria gnanca un ago.</p>
+      </sp>
+      <sp>
+        <speaker>Marcello</speaker>
+        <p>E veramente, è una cosa terribile l’apparizione di uno spettro.</p><stage type="saut">(Si ode in distanza un
+          colpo di cannone.)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Anime sante del purgatorio !</p><stage type="saut">(Fa un salto e va per fuggire.)</stage>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Aiuto ! El spetro ga zigà una bruta parola.</p><stage type="saut">(Si accascia a terra tremante.)</stage>
+      </sp>
+      <pb n="4" facs="19_I__AmletoArlecchino_IT_IBM_004.jpg"/>
+      <sp>
+        <speaker>Marcello</speaker>
+        <p>Ma che ! È il cannone ! Annunzia che il re si è seduto a tavola.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>In malora ! El podeva mandarnelo a dir, no gavaressimo ciapà sto spasimo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Lu el bancheta, e co' le magnade e co' le bevude el ghe stropa la boca e i oci a
+          tuti.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Sentì, creature ! Inveze de star qua a' spetar i spetri, no podaressimo andar anca noi a
+          dar una bona spanzada ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Tasi ! In sto momento me trema el stomigo e no podaria magnar gnanca un chilo de
+          macaroni. Xe l’ombra de mio pare, ti sà, che aspetemo, l’ombra del re Amleto.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Va ben ! Ma mi digo che a stomigo pien no se ga più paura guanca dei morti. Mi per
+          esempio, co' go fame, anca se una mosca me' varda storto, casco in svanimento, casco.
+          Question de famestomegomania.</p>
+      </sp>
+      <sp>
+        <speaker>Marcello</speaker>
+        <p>Suona mezzanotte. Non udite il canto del gallo ? È l’ora in cui i morti escono dalle lor
+          tombe.</p>
+      </sp>
+      <pb n="5" facs="19_I__AmletoArlecchino_IT_IBM_005.jpg"/>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Sgnesole ! Marcelo ! Lassè che me fico in t’una vostra scarsela.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Mi prima gavevo paura, ma adesso me par de aver magnà un toco de leon. Go un coragio,
+          che andaria, senza tremar, anca a l’inferno.</p>
+      </sp>
+      <sp>
+        <speaker>Marcello</speaker>
+        <p>Non vedete un'ombra là in fondo ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Un'ombra ! Mi no vedo gnente.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Gnanca mi !</p>
+      </sp>
+      <sp>
+        <speaker>Marcello</speaker>
+        <p>Eccola, ritta su quei merli !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Aiuto ! Aiuto ! Che tremarela ! Me desfo tuto in liquido ! Vado in brodo de fasoi. Che
+          fredo e che caldo ! Povare le mie braghesse !</p>
+      </sp>
+      <sp>
+        <speaker>Marcello</speaker>
+        <p>Principe Arlechino ! Non vedete voi l’ombra del padre vostro ?</p>
+      
+      <stage type="saut">(Arlecchino esterrefatto, non può rispondere. Trema e guarda, con le mani levate verso il punto indicato da Marcello.)</stage></sp>
+      
+      <sp>
+        <speaker>Marcello</speaker>
+        <p>Prence ! Non rispondete ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Amigo. <stage type="corps">(con voce piagnucolosa)</stage> Amigo mio ! Fate coragio. Ti vedi, anca mi son qua in boca
+          al lovo. Se ti mori ti da la paura, me vien un colpo anca a mi.</p>
+      </sp>
+      <pb n="6" facs="19_I__AmletoArlecchino_IT_IBM_006.jpg"/>
+      <sp>
+        <speaker>Marcello</speaker>
+        <p>Prence ! È indegno di voi questo terrore.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Lassa che tremo mi, che go za una tremarela cussì granda che bastaria per tuti i omeni
+          che ghe xe, ghe xe stadi e ghe sarà.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(facendo uno sforzo)</stage> <p>Fradei, go perso la parola. La me gera cascada in fondo ai budei.
+          Adesso apena, con un gran sforzo, la go tirada fora col tirabusson.</p>
+      </sp>
+      <sp>
+        <speaker>Marcello</speaker>
+        <p>Dunque la vedete anche voi la ombra ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino e Facanapa</speaker>
+        <stage type="pers">(a due)</stage> <p>Mi no ! Mi no !</p>
+      </sp>
+      <sp>
+        <speaker>Marcello</speaker>
+        <p>E allora, perchè tremate tanto ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Trememo perché ve credemo su la parola. Basta che ti la vedi ti.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Diseghe che la se fazza un poco in parte, che posso passar. Mi me la bato.</p>
+      </sp>
+      <sp>
+        <speaker>Marcello</speaker>
+        <p>Vergognatevi, Facanapa ! Un gentiluomo che fugge dinanzi a un ombra !...</p>
+      </sp>
+      <pb n="7" facs="19_I__AmletoArlecchino_IT_IBM_007.jpg"/>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Varè che bel furbo. Mi go le gambe per corer. E fin che coro no me ciapè.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Facanapa, te prego ! No me lassar solo. Almeno fin che te vedo tremar a ti me vien a mi
+          un poco de coragio.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>E alora, povaro mi ! Resto. Cussì tremaremo insemola.</p>
+      </sp>
+      <sp>
+        <speaker>Marcello</speaker>
+        <p>Eccola ! Eccola ! Si avanza ! Vi chiama ! Principe, rispondete !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ma, alora, stanote, mi go i oci fodrai de parsuto. No vedo gnente.</p>
+      </sp><sp>
+        <speaker>Facanapa</speaker>
+        <p>Ah! Aaah ! Che caldo ! Che caldo in te le braghesse ! </p></sp></div>
+      
+      <div type="3"><head type="scene" n="2">Scena 2</head>
+        
+        <listPerson><personGrp><name>Lo spettro</name><stage type="listPerson"> e </stage><name>detti</name></personGrp></listPerson>
+        
+        <stage type="saut">(Nel
+          momento in cui lo spettro apparisce s’ode un fortissimo tuono; Arlecchino e Facanapa,
+          dando un urlo, cadono a terra, bocconi.)</stage>
+      
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Son morto !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Son crepà ?</p>
+      </sp>
+      <sp>
+        <speaker>Marcello</speaker>
+        <p>Ombra del mio re; che vuoi ?</p>
+      </sp>
+      <pb n="8" facs="19_I__AmletoArlecchino_IT_IBM_008.jpg"/>
+      <sp>
+        <speaker>Spettro</speaker>
+        <p>Parlare al figliuol mio. T'allontana ! <stage type="corps">(Marcello esce rinculando.)</stage> Amleto ! Arlecchino !
+          Alzati ! M’ascolta ! Lo voglio ! Levati !</p> <stage type="saut">(Lo prende per il colletto dell'abito e lo mette
+          in piedi.)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Oh, sior pare ! No steme far gnente de mal ! Mi son un bon fio ! Scuseme ! Ma go una
+          paura maledeta ! Me par de morir ! Spetè che fermo sta gamba che la me bala la
+          monfrina.</p>
+      </sp>
+      <sp>
+        <speaker>Spettro</speaker>
+        <p>Mi segui !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ma ! Vu parlè ben ! Ma chi me dise che vu sè mio pare, bon' anima ! No poderia esser sto
+          qua un zogheto del signor diavolo, per far un bocon de mi ? Capisso che no'l trovaria che
+          ossi da magnar. Ma co' la carestia che ghe xe per el mondo de bei giovani...</p>
+      </sp>
+      <sp>
+        <speaker>Spettro</speaker>
+        <p>Sono tuo padre ! Vuoi farmi credere che tu sia un vile ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ma ! Credè quel che volè. No gavaria paura gnanca de zento milioni de soldai, ma coi
+          morti xe un altro per de braghe.</p>
+      </sp>
+      <pb n="9" facs="19_I__AmletoArlecchino_IT_IBM_009.jpg"/>
+      <sp>
+        <speaker>Spettro</speaker>
+        <p>Finiscila ! Vieni ! Tel comando.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Se fe quei bruti oci, no vegno de sicuro !</p>
+      </sp>
+      <sp>
+        <speaker>Spettro</speaker>
+        <p>Vieni ! Disgraziato ! Qui non posso parlarti !</p> <stage type="saut">(Afferra Arlechino per un braccio e lo
+          trascina via.)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Aiuto ! Facanapa ! Facanapa ! In malora tua, tieme ! Aiuto...</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <stage type="pers">(destandosi)</stage> <p>Me par che i me gabi ciamà. Ciò ! Vara ! L'ombra che porta via Arlechin !
+          Digo ! Laselo star in pase Ombra ! Feme sto piazer, molelo ! <stage type="corps">(Si leva.)</stage> Adesso mi ghe coro
+          drio. La siora ombra gavarà da far con mi. Lori i va da quela parte e mi scampo da st'altra.
+          <stage type="corps">(Corre via.)</stage></p>
+      </sp>
+        <div type="3"><head type="scene" n="3">Scena 3</head>
+          <stage type="saut">Parte più remota della piattaforma.</stage>
+          <listPerson><personGrp>
+            <name>Lo spettro</name>
+            <stage type="listPerson"> e </stage>
+            <name>Arlecchino</name></personGrp></listPerson>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Dove volè condurme ? Varè ! Me sento qua per tera e no vegno più avanti.</p>
+      </sp>
+      <pb n="10" facs="19_I__AmletoArlecchino_IT_IBM_010.jpg"/>
+      <sp>
+        <speaker>Spettro</speaker>
+        <p>E più oltre non andremo ! Prestami attento l’orecchio. È terribile quello che sto per
+          dirti. Prossima è l’ora in cui devo piombare tra fiamme di zolfo divoratrici.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ve prego, moleme !</p>
+      </sp>
+      <sp>
+        <speaker>Spettro</speaker>
+        <p>No, finchè non mi avrai udito !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Alora parlè svelto, perchè altrimenti no ve resterà in te le man che el mio cadavere.
+          Son giazao, insempiao, inzucao e tuto quel che volè in ao.</p>
+      </sp>
+      <sp>
+        <speaker>Spettro</speaker>
+        <p>Sarò breve ! Ascoltami.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Tremo, ma ve scolto.</p>
+      </sp>
+      <sp>
+        <speaker>Spettro</speaker>
+        <p>Io sono l’anima di tuo padre, condannata, per un certo tempo, ad errare la notte e ad
+          essere imprigionato il giorno tra le fiamme, finchè le colpe impure che lordarono i miei
+          dì nella vita non sieno deterse !...</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Povaro pare ! Me fè compassion !</p>
+      </sp>
+      <sp>
+        <speaker>Spettro</speaker>
+        <p>Raffrena le tue lacrime ! Udrai cose ben peggiori ! Vendica la mia snaturata
+          uccisione.</p>
+      </sp>
+      <pb n="11" facs="19_I__AmletoArlecchino_IT_IBM_011.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>I ve ga copà ! Ah, sta qua la me xe nova ! Chi xe sto bogia, sto razza de can che ve ga
+          copà ?</p>
+      </sp>
+      <sp>
+        <speaker>Spettro</speaker>
+        <p>Si fece correre la voce che, mentre dormivo nel mio giardino, un serpente mi punse, e
+          tutta la Danimarca fu infamemente ingannata...</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Povera Danimarca !</p>
+      </sp>
+      <sp>
+        <speaker>Spettro</speaker>
+        <p>Fu infamemente ingannata da un racconto bugiardo della mia morte, ma sappi tu, nobile
+          giovine, che il serpente il quale tolse di vita tuo padre porta ora la sua corona.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Oh ! Profetica anima mia ! Fiol d’un can ! El xe sta mio zio ! Speta che lo cuco
+          !...</p>
+      </sp>
+      <sp>
+        <speaker>Spettro</speaker>
+        <p>Sì, quel mostro incetuoso, adultero che, col fascino del suo spirito, con doni traditori,
+          tirò alle sue brutte voglie la mia regina, in apparenza sì casta. Addormentato nel mio
+          giardino, secondo il costume che avevo, nelle ore meridiane, giovandosi della mia
+          sicurezza, tuo zio venne furtivo presso di me con una fiala d’iosiamo, ch' ei mi versò in
+          un'orecchio. Così, dormendo, mi fu tolto dalla mano di un fratello la vita, la sposa e la
+          corona, così venni ucciso in mezzo ai miei peccati e fui costretto a comparire davanti al
+          mio giudice carico di tutto il peso delle mie infermità.</p>
+      </sp>
+      <pb n="12" facs="19_I__AmletoArlecchino_IT_IBM_012.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Oh, can ! Oh, tre volte can ! Pare ! Spetè che lo beco, ghe tiro el colo !</p>
+      </sp>
+      <sp>
+        <speaker>Spettro</speaker>
+        <p>Se in te è un po' di cuore, non sopportarlo ! Vendicami ! Ma comunque tu adoperi per
+          vendicarmi, serba intera la mente e non macchinar nulla contro tua madre. Il verme
+          lucente, il cui fuoco inoffensivo comincia a impallidire, annuncia l’appressarsi del dì.
+          Addio, addio Arlecchino ! Ricordati di me !</p> <stage type="saut">(Esce.)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Oh, santi del paradiso ! Angeli e arcangeli e cherubini ! Aiuteme ! Me vien vogia de
+          baterme la testa in tei muri ! O mio cor, no far <foreign xml:lang="french">tic tac</foreign> cussì forte ! Me par che me
+          cominzia girar le carozzete Sior pare ! El xe andà via da bon ! Oh, va in malora, cossa
+          ch’el me ga contà ! El velen in t’una recia ! E mi ghe le taiarò tute do, a quel birbante
+          de mio zio e ghe le farò magnar e po' ghe tajarò la testa e ghe la farò magnar anca quela.
+          Oh, che bela figura ch'el farà !</p>
+      </sp>
+      <pb n="13" facs="19_I__AmletoArlecchino_IT_IBM_013.jpg"/>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <stage type="pers">(di fuori)</stage><p> Arlechin ! Ciò, digo, ti xe morto ?</p>
+      </sp>
+      <sp>
+        <speaker>Marcello</speaker>
+        <p>Oh, mio principe ! </p>
+      </sp>
+        </div>
+        <div type="1"><head type="acte" n="4">Scena 4</head>
+          
+          <listPerson>
+            <personGrp>
+              <name>Facanapa,</name>
+              <name>Marcello</name>
+              <stage type="listPerson"> e </stage>
+              <name>detto</name></personGrp></listPerson>
+          
+        <sp><speaker>Facanapa</speaker>
+        <p>Amigo mio ! Xe un' ora che ghe coro drio a l’ombra e no la posso ciapar. Go un coragio
+          adesso !</p>
+      </sp>
+      <sp>
+        <speaker>Marcello</speaker>
+        <p>Che avvenne, prence !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Cossazze ! Cossazze !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Continele anca a nu, che, almeno, no gabio avudo per gnente quela tremarela.</p>
+      </sp>
+      <pb n="14" facs="19_I__AmletoArlecchino_IT_IBM_014.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>No posso, perchè vualtri sè come le babe; andaressi a contarghelo a tuti.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>E alora conta e noi chiuderemo le orecie.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Basta ! Se ti parli ancora, ciamo l’ombra !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>No parlo altro per vintimila ani.</p>
+      </sp>
+      <sp>
+        <speaker>Marcello</speaker>
+        <p>Spunta il giorno; andiamo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Un momento ! Prima dovè zurarme che no ghe contarè a anima viva quel che xe nato
+          stanote.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa e Marcello</speaker>
+        <p>Lo giuriamo !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Su la mia spada.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa e Marcello</speaker>
+        <p>Su la tua spada !</p>
+      </sp>
+      <sp>
+        <speaker>Spettro</speaker>
+        <stage type="pers">(di sotterra)</stage><p>Su la sua spada giurate !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Aiuto, mama ! <stage type="corps">(Facendo un salto.)</stage> El spetro ga zigà soto le mie gambe.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Tasè, pare, ste bon ! Andè a dormir, adesso !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Sto natarelo par che no’l gabi mai sono. E sì ch' el xe vecio !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Zuremo in st'altro posto !</p>
+      </sp>
+      <pb n="15" facs="19_I__AmletoArlecchino_IT_IBM_015.jpg"/>
+      <sp>
+        <speaker>Facanapa e Marcello</speaker>
+        <p>Lo giuriamo !</p>
+      </sp>
+      <sp>
+        <speaker>Spettro</speaker>
+        <p>Giurate !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <stage type="pers">(facendo un altro salto)</stage><p>Orco ! El la ga con mi ! Ma gavemo zurado, orco tron ! Ste
+          scosse me fa andar el sangue in aseo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Adesso andemo. Se lo beco ghe tiro el colo.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>A chi ? A un polastro ? Ghe stago anca mi. Giusto go el stomigo a remengo !</p>
+      </sp>
+      <sp>
+        <speaker>Spettro</speaker>
+        <stage type="pers">(con un urlo)</stage><p>Arlecchino, ricordati.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>In malora ! Se stago qua, crepo.</p> <stage type="saut">(Corre via.)</stage>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(correndo)</stage> <p>Se lo beco, ghe tiro el colo !</p></sp></div></div>
+        
+        <div type="5"><head type="div5">Fine del primo atto.</head></div>
+          
+      <div type="1"><head type="acte" n="2">Atto II</head>
+        <div type="3"><head type="scene" n="1">Scena 1</head>
+          <stage type="saut">Una stanza nella reggia.</stage> 
+          <listPerson><personGrp>
+            <name>Il re,</name>
+            <name>la regina,</name>
+            <name>Brighella</name>
+            <stage type="listPerson"> e </stage>
+            <name>Ofelia</name></personGrp></listPerson>
+      
+      <pb n="16" facs="19_I__AmletoArlecchino_IT_IBM_016.jpg"/>
+      <sp>
+        <speaker>Re</speaker>
+        <p>Amata regina, hai osservato come il gioviale carattere d’Arlecchino si sia mutato d’un
+          tratto ? Alle parole ch'io gli rivolgo, acerbamente risponde.</p>
+      </sp>
+      <sp>
+        <speaker>Regina</speaker>
+        <p>L'ho osservato e il mio affetto di madre ne prova infinito dolore. Forse che qualche
+          doglia amorosa turba il suo giovane spirito.</p>
+      </sp>
+      <sp>
+        <speaker>Re</speaker>
+        <p>Dolce Ofelia, sai tu dirne se non sia così ?</p>
+      </sp>
+      <sp>
+        <speaker>Ofelia</speaker>
+        <p>Non arrossirò confessando che fino a poco tempo fa Arlecchino mi amava, ed io pure lo
+          amavo. Ora mi sfugge o se mi parla, mi offende.</p>
+      </sp>
+      <pb n="17" facs="19_I__AmletoArlecchino_IT_IBM_017.jpg"/>
+      <sp>
+        <speaker>Brighella</speaker>
+        <p>L'è pensoso come el mercante quando l’osserva el libro de la mercanzia dada a credenza.
+          E’l tira sospiri che podaria servir de risposta a una bataria de mortareti. Mi digo che 'I
+          xe inamorà e che, con rispetto parlando, ghe manca qualche rodela.</p>
+      </sp>
+      <sp>
+        <speaker>Re</speaker>
+        <p>Questo suo contegno mi rattrista e vorrei scoprirne la vera causa. Voi, mio buon
+          ciambellano, osservatelo e scrutate l’animo suo. </p>
+      </sp>
+          <sp>
+            <speaker>Brighella</speaker><p>El pelo de un aseno de dodise ani
+          che no sin mai sta bastonado, la lingua de una vecia de setant'ani che no abia mai
+          mormorado, le onge de un cassier che no gabia mai sgrafignado, xe cose impossibili da
+          trovar; ma mi ghe prometo, sire, ch' el segreto de Arlechin lo trovarò.</p></sp>
+      <sp>
+        <speaker>Regina</speaker>
+        <p>Ofelia, mia diletta, procura di avere un colloquio con mio figlio e forse che a te
+          confiderà la causa delle sue pene.</p>
+      </sp>
+      <pb n="18" facs="19_I__AmletoArlecchino_IT_IBM_018.jpg"/>
+      <sp>
+        <speaker>Ofelia</speaker>
+        <p>Gli parlerò, purchè voglia ascoltarmi.</p> <stage type="saut">(Escono tutti.)</stage></sp></div>
+          
+          <div type="3"><head type="scene" n="2">Scena 2</head>
+            <listPerson><personGrp>
+              <name>Arlecchino</name>
+              <stage type="listPerson">poi</stage>
+              <name>Ofelia</name></personGrp></listPerson>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(Entra leggendo.)</stage> <p>Ciacole ! Ciacole ! Ciacole ! Tuto quel che xe sta scrito a sto mondo, no
+          xe che ciacole. Nissun mai ga savesto scioglier el problema: esser o no esser ? Magnar o no
+          magnar ? Cantar o no cantar ? Bastonar o ciapar bote ? Xe meio darghele a uno e andar in
+          galera o ciaparle e restar galantomo ? Robar e sgionfarse de boni boconi o tignir le onge a
+          casa e restar co' la panza svoda e dar una bona crepada ? Crepar, e dopo ? Ostrega ! Qua sta
+          el <foreign xml:lang="latin">busilis</foreign>. Co mi penso a la schizza, me vien la pele d’oca. Pensar che anca mi, un giorno
+          sarò senza naso e che inveze de sti do oci sbiseghini, gaverò do busi negri e fondi,
+          fondi, brr... Mi ghe pagaria la marenda a chi me savesse dir se al mondo de là se magna e
+          se beve. Se se sta sempre a boca suta, mi resto qua, perché, dopo morto, no vogio morir de
+          fame. Ah, xe qua la bela Ofelia ! Oh, cara ! La par un anzolo ! Solo ghe manca le ale. Ma
+          quele se ghe le pol tacar.</p>
+      </sp>
+      <pb n="19" facs="19_I__AmletoArlecchino_IT_IBM_019.jpg"/>
+      <sp>
+        <speaker>Ofelia</speaker>
+        <p>Mio buon signore, come viveste in questi giorni ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ve ringrazio ! Go vivesto ben come un porco.</p>
+      </sp>
+      <sp>
+        <speaker>Ofelia</speaker>
+        <p>Signore ! Un tempo mi amavate; ora sembra che il mio aspetto vi cruci.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Diseme ! Se vu onesta ?</p>
+      </sp>
+      <sp>
+        <speaker>Ofelia</speaker>
+        <p>Signore !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Seu bela ?</p>
+      </sp>
+      <sp>
+        <speaker>Ofelia</speaker>
+        <p>Signore, che intendete dire ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>El dise el proverbio che sete coli ga Roma e sete pazzie una dona. Se sè bela e onesta
+          andè drita in convento a farve moniga. Nualtri semo tuti malandrini. Andè via da mi,
+          perchè, se me ste assai a rente corè rischio de no poder dir più: mi conto per una
+          sola.</p>
+      </sp>
+      <pb n="20" facs="19_I__AmletoArlecchino_IT_IBM_020.jpg"/>
+      <sp>
+        <speaker>Ofelia</speaker>
+        <p>Principe mi offendete.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Dove xe quel mato de vostro pare ?</p>
+      </sp>
+      <sp>
+        <speaker>Ofelia</speaker>
+        <p>A casa, signore !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Fe che i ghe seri drio tute le porte. Se no quel là ve ciapa el svolo e'l ve casca
+          inte'l ospedal dei mati.</p>
+      </sp>
+      <sp>
+        <speaker>Ofelia</speaker>
+        <p>Oh, soccorrilo, pietoso Cielo !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>E se ti te maridi, te auguro de restar un toco de giazzo fin che ti mori; e, se ti vol
+          maridarte ad ogni costo, sposa un mato, perché i savi sa abastanza quanti metri de corni
+          che ghe regalè. Va a farte moniga.</p>
+      </sp>
+      <sp>
+        <speaker>Ofelia</speaker>
+        <p>Potenze celesti, rendetegli la ragione.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>E po go sentio dir tante altre belle cose de le done. Se false da la testa ai piè; falsi
+          i cavei, falsi i denti, falsa la pele perché la xe impiturada e false ante altre cose che
+          no se vede. Va al chiostro ! Fate moniga.</p>
+      </sp>
+      <sp>
+        <speaker>Ofelia</speaker>
+        <p>Oh, me infelice ! La sua ragione è perduta !</p> <stage type="saut">(Esce.)</stage>
+      </sp>
+      <pb n="21" facs="19_I__AmletoArlecchino_IT_IBM_021.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ti fate moniga e mi me farò frate ! Cussì anderemo perfetamente d’accordo. Diremo le
+          nostre orazion insieme.</p></sp></div>
+        
+        <div type="3"><head type="scene" n="3">Scena 3</head>
+          <listPerson><personGrp><name>Brighella</name><stage type="listPerson"> e </stage><name>detto</name></personGrp></listPerson>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ecolo qua st’ altro martufo, che vien a tastarme. Ghe farò passar la vogia de scherzar
+          col gato.</p> <stage type="saut">(Riprende la lettura.)</stage>
+      </sp>
+      <sp>
+        <speaker>Brighella</speaker>
+        <p>Come stà el mio bon prinzipe Arlechin ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Come un galo, su do piè.</p>
+      </sp>
+      <sp>
+        <speaker>Brighella</speaker>
+        <p>Me conosseu ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchin</speaker>
+        <p>Altrochè ! Sè un vecio strazzariol.</p>
+      </sp>
+      <sp>
+        <speaker>Brighella</speaker>
+        <p>Varrè che ciapè un granzo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Alora, con quel muso, no podè esser altro ch' el boia.</p>
+      </sp>
+      <sp>
+        <speaker>Brighella</speaker>
+        <p>In tal caso ve consegio de esser mio amico.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Gavè ragion. E per cominziar ben ciapè, ciapè, ciapè.</p> <stage type="saut">(Gli mena calci facendolo correr
+          via.)</stage>
+      </sp>
+      <pb n="22" facs="19_I__AmletoArlecchino_IT_IBM_022.jpg"/>
+      <sp>
+        <speaker>Brighella</speaker>
+        <stage type="pers">(fuggendo)</stage> <p>Aiuto. L'è mato ! Lighelo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(ridendo)</stage> <p>Ah ! Ah ! Ah ! Xe più de zinquanta ani che quel vecio no ga corso tanto. Adesso el
+          ghe porta al re le mie peade perché el giudichi se son mato da seno. In quanto al re, co
+          lo trovo solo, ghe tiro el colo. </p>
+      </sp></div>
+        
+        <div type="3"><head type="scene" n="4">Scena 4</head>
+          <listPerson><personGrp>
+            <name>La regina</name>
+            <stage type="listPerson"> e </stage>
+            <name>detto</name>
+            <stage type="listPerson">indi</stage><name>Brighella,</name>
+            <stage type="listPerson">che si
+          nasconde</stage></personGrp></listPerson>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Oh, eco mia mare ! Giudizio Arlechin, che se te sbrissa le man capita fora l’ombra.</p>
+      </sp>
+      <sp>
+        <speaker>Regina</speaker>
+        <p>Arlecchino, battendo Polonio, tu hai offeso molto tuo padre.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Cara mare, scuseme ma ve zira. Mio pare xe stra de là de morto e sepelio.</p>
+      </sp>
+      <sp>
+        <speaker>Regina</speaker>
+        <p>Stranamente rispondi.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>E vu strambamente parlè.</p>
+      </sp>
+      <sp>
+        <speaker>Regina</speaker>
+        <p>Volevo chiederti ragione del tuo contegno, ma, invece me ne vado.</p>
+      </sp>
+      <pb n="23" facs="19_I__AmletoArlecchino_IT_IBM_023.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>No, mare, senteve là, che go mi da parlarve.</p> <stage type="saut">(La costringe a sedersi.)</stage>
+      </sp>
+      <sp>
+        <speaker>Brighella</speaker>
+        <stage type="pers">(di dietro un arazzo)</stage> <p>Aiuto ! El la copa !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Un sorzo ! Qua ghe xe un sorzo ! Daghe al sorzo.</p> <stage type="saut">(Ferisce Polonio attraverso
+          l’arazzo.)</stage>
+      </sp>
+      <sp>
+        <speaker>Brighella</speaker>
+        <p>Aiuto ! El me ga sbusà le buele ! Son morto ! Crepà ! Ostrega santa !</p>
+      </sp>
+      <sp>
+        <speaker>Regina</speaker>
+        <p>Oh, atto crudele e sanguinoso ! Che hai tu fatto.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Mah ! Mi me par de aver mazzà el sorzo ! Gera forsi el re qua da drio ?</p> <stage type="saut">(Alza gli arazzi
+          e trae innanzi Polonio.)</stage>
+      </sp>
+      <sp>
+        <speaker>Regina</speaker>
+        <p>Oh, terribile fatto.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ol d’un can de vecio, el se gaveva sconto per far la spia ! Ben ghe stà ! L'è morudo
+          proprio sul serio. Carogna ! Cussì un'altra volta l’impararà a far da sorzo.</p>
+      </sp>
+      <sp>
+        <speaker>Regina</speaker>
+        <p>Figlio ! La tua è terribile crudeltà.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Mare, gavè quasi ragion ! Ma la xe altretanto granda crudeltà de copar un re e sposar
+          el cugnà ! Ah, mare, mare ! Mare del diavolo ! Perché gavè verto le recie a quel che ghe
+          suffiava dentro Belzebù. No iera assai meio che ve fussi messa in salamora, meio che ve
+          fussi fatta fumigar come i persuti, meio che ve fussi fatta brustolar come le mandole,
+          meio che ve fussi fatta incaramelar come i fighi sechi, che no cometer quel che gavè
+          comesso.</p>
+      </sp>
+      <pb n="24" facs="19_I__AmletoArlecchino_IT_IBM_024.jpg"/>
+      <sp>
+        <speaker>Regina</speaker>
+        <p>Di che intendi parlare !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Me intendo mi e me intendè anca vu ! EI zervel ve fazeva aqua, quel giorno. Copar el mio
+          povero pare ! A sgionfirghe le recie de velen ! Ah, cani, sassini ! Pare ! Pare ! Pare !</p>
+          <stage type="saut">(Dà in pianto rumoroso, urlando come un cane ferito.)</stage>
+      </sp>
+      <sp>
+        <speaker>Regina</speaker>
+        <p>Oh, povera me ! Egli sa tutto.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>E no gavè paura, vualtri do che ve magno ? Un giorno che go fame, a quel tuo re del
+          diavolo, ghe magno el naso. E vu ! Chi me tien, che no fazzo un maricidio !</p>
+      </sp>
+      <sp>
+        <speaker>Regina</speaker>
+        <p>Aiuto !</p>
+      </sp>
+      <pb n="25" facs="19_I__AmletoArlecchino_IT_IBM_025.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Tignime ! No ghe xe nissun ! Me tegno solo, alora ! Oh, se no me tegnisse, quasi faria
+          una fritaia general.</p>
+      </sp>
+      <sp>
+        <speaker>Spettro</speaker>
+        <stage type="pers">(Si mostra nel vano di una porta.)</stage> <p>Arlecchino ! Arlecchino ! Rispetta tua madre !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Aiuto, babe ! El xe qua ! Ombra, va via che me vien la tremarela e anca qualcos'altro con
+          ela. Ombra no farò gnente de mal ! Va via.</p>
+      </sp>
+      <sp>
+        <speaker>Regina</speaker>
+        <p>Arlecchino, che hai ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ghe vedo dopio !</p>
+      </sp>
+      <sp>
+        <speaker>Spettro</speaker>
+        <p>Arlecchino ! Rispetta tua madre !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>In malorsiga ! Le sbuele no tien più. Aiuto ! Scampo prima che me scampi.</p> <stage type="saut">(Lo spettro
+          sparisce.)</stage> 
+      </sp></div>
+        
+          <div type="3"><head type="scene" n="5">Scena 5</head>
+            <listPerson><personGrp>
+              <name>Il Re,</name> 
+              <name>Laerte</name>
+              <stage type="listPerson"> e </stage>
+              <name>detta</name></personGrp></listPerson>
+      <sp>
+        <speaker>Regina</speaker>
+        <p>Accorrete ! Aiuto ! Arlecchino ha ucciso Polonio.</p>
+      </sp>
+      <sp>
+        <speaker>Re</speaker>
+        <p>E perché ? Orrenda vista !</p>
+      </sp>
+      <sp>
+        <speaker>Regina</speaker>
+        <p>In un accesso di pazzia furiosa.</p>
+      </sp>
+      <pb n="26" facs="19_I__AmletoArlecchino_IT_IBM_026.jpg"/>
+      <sp>
+        <speaker>Laerte</speaker>
+        <p>Mio padre ! Oh, mio povero padre ! Oh, nobile mio genitore ! La mano di un vile ti ha
+          assassinato ! Ah, ma io ti vendicherò ! E la vendetta dovrà essere tremenda.</p> <stage type="saut">(Si getta
+          piangendo sul cadavere di Polonio.)</stage>
+      </sp>
+      <sp>
+        <speaker>Re</speaker>
+        <stage type="pers">(alla Regina, piano)</stage> <p>Come avvenne il fatto ?</p>
+      </sp>
+      <sp>
+        <speaker>Regina</speaker>
+        <stage type="pers">(piano)</stage> <p>Arlecchino sa il nostro delitto.</p>
+      </sp>
+      <sp>
+        <speaker>Re</speaker>
+        <p>Oh ! Terrore ! Ebbene ! Gli apprenderò come i nostri delitti devono essere ignorati. Egli
+          deve morire !</p>
+      </sp>
+      <sp>
+        <speaker>Laerte</speaker>
+        <p>Oh, mio re ! Guardatevi tutti dalla pazzia di Arlecchino ! Egli finge ed è un assassino.
+          Mi si conceda che vendichi mio padre !</p>
+      </sp>
+      <sp>
+        <speaker>Re</speaker>
+        <p>È giusto il tuo desiderio. Provoca Arlecchino ed egli accetterà la sfida. Ti procurerò,
+          a tal uopo, un ferro avvelenato. M'intendi ?</p>
+      </sp>
+      <sp>
+        <speaker>Laerte</speaker>
+        <p>Non dubitate, o Sire ! Avesse egli la pelle di Achille, saprei trovargli il cuore.</p>
+      </sp>
+      <sp>
+        <speaker>Regina</speaker>
+        <p>Povero Arlecchino ! </p>
+      </sp></div>
+            <div type="3"><head type="scene" n="6">Scena 6</head>
+              <listPerson><personGrp>
+                <name>Marcello</name>
+                <stage type="listPerson"> e </stage>
+                <name>detti</name></personGrp></listPerson>
+      <pb n="27" facs="19_I__AmletoArlecchino_IT_IBM_027.jpg"/>
+      <sp>
+        <speaker>Marcello</speaker>
+        <stage type="pers">(Entra correndo.)</stage><p>Una terribile disgrazia !</p>
+      </sp>
+      <sp>
+        <speaker>Re</speaker>
+        <p>Che avvenne.</p>
+      </sp>
+      <sp>
+        <speaker>Marcello</speaker>
+        <p>La povera Ofelia, impazzita per il dolore di vedersi abbandonata da Arlecchino, ch’ella
+          amava, s’è gittata nel fiume e perì miseramente.</p>
+      </sp>
+      <sp>
+        <speaker>Regina</speaker>
+        <p>Oh ! Triste caso !</p>
+      </sp>
+      <sp>
+        <speaker>Laerte</speaker>
+        <stage type="pers">(furibondo)</stage> <p>Oh, quest'uomo ha distrutto la mia famiglia ! Infame ! Traditore ! Vile !
+          Sangue ! Sangue ! Sangue !</p>
+      </sp>
+      <sp>
+        <speaker>Re</speaker>
+        <p>Corriamo a vedere la infelice giovinetta.</p> <stage type="saut">(Partono.)</stage> 
+      </sp></div>
+              <div type="3"><head type="scene" n="7">Scena 7</head>
+                <listPerson><personGrp><name>Arlecchino</name></personGrp></listPerson>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Varè sto nato d’un can, no lo posso mai ciapar co'l xe solo. El ga el diavolo dalla sua.
+          Ma te becarò, vecio ! Ostrega se te becarò ! Te cavarò el cor e ghe lo darò ai gati.
+          </p>
+      </sp> </div></div>
+        <div type="5"><head type="div5">Fine del secondo atto.</head></div>
+      
+                <div type="1"><head type="acte" n="3">Atto III</head> 
+                  <stage type="saut">Un cimitero.</stage> 
+                  <listPerson><personGrp><name>Un becchino,</name> <stage type="listPerson">poi</stage> <name>Arlecchino</name> <stage type="listPerson"> e </stage>
+          <name>Facanapa</name></personGrp></listPerson>
+                  <div type="3"><head type="scene" n="1">Scena 1</head>
+      <pb n="28" facs="19_I__AmletoArlecchino_IT_IBM_028.jpg"/>
+      <sp>
+        <speaker>Becchino</speaker>
+        <stage type="pers">(Cantando getta fuori da una fossa teschi umani.)</stage> <p>In gioventù, quando amavo e amavo,
+          parevami fosse così dolce cosa ; ma al matrimonio feci sempre il viso dell'armi e proprio
+          buono a nulla lo riputavo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ciò, varda Facanapa ! Quel bel mato el buta per aria le schizze e'l se la canta, come
+          s’el cavasse patate da la tera.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Mi, se un giorno morirò e se la mia zuca cascarà in te le man de sto pizzigamorti e ch'
+          el me tratarà cussì, ghe darò una sciafazza.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>E mi ghe spudarò in t’un ocio. <stage type="corps">(al becchino)</stage> Digo, Carogna de omo !</p>
+      </sp>
+      <pb n="29" facs="19_I__AmletoArlecchino_IT_IBM_029.jpg"/>
+      <sp>
+        <speaker>Becchino</speaker>
+        <p>In questo punto siamo tutti fratelli.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Fradei, un corno ! Semo tuti carogne, dopo morti, ma ti ti sarà più carogna de mi,
+          perché ti xe carogna anca da vivo.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ben cazzada !</p>
+      </sp>
+      <sp>
+        <speaker>Becchino</speaker>
+        <p>Miei signori, possono dirmi quello che vogliono, non mi offendo; ho la pelle dura.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ti ga la pele de l’aseno.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>De chi xe sta zuca, che xe qua, che la me guarda coi oci spalancai e la ride ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Vara, ciò che boca storta che la ga.</p>
+      </sp>
+      <sp>
+        <speaker>Becchino</speaker>
+        <p>Questo era il cranio di Jorik, il buffone del re.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ah, per questo el ride. Par impossibile ! Gnanca dopo morto nol ga finì de far el
+          bufon.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Se capisse che adesso el ghe fa da bufon ai morti. Del resto, come el fa a parlar che
+          no'l ga più lingua ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Bisogna dir che i morti i se parla a moti. I xe tuti sordo muti.</p>
+      </sp>
+      <pb n="30" facs="19_I__AmletoArlecchino_IT_IBM_030.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ti credi, Facanapa, che anca mi e ti gavaremo sto bruto muso de bacalà ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ostrega ! No me parlar de ste porcarie, che me vien mal de panza.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Co' mi te vedarò così spelado, darò una gran crepada da rider.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Andemo, andemo via de quà. Spuzza come de bestia crepada.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Cossa xe tuta quela zente che vien in tel zimitero. Un funeral. Ghe xe anca el re e la
+          regina.</p>
+      </sp>
+      <sp>
+        <speaker>Becchino</speaker>
+        <p>Conducono all'ultima dimora la bella Ofelia, la figlia di Brighella. Si è uccisa per
+          amore.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ah, Facanapa mio, la xe la bela Ofelia ! Oh, mia pasta de zucaro ! Ah mia pasta de
+          ciocolata ! Oh, pastizieria mia cara. Sta volta crepo dal dolor !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ma dai ! No star far stupidezzi. Adesso che la xe morida, no la val più gnanca mezo
+          scheo. Ti trovarà un altra: siora Geltrude o siora Durotea.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Tasi macaco, che no ti sa gnente. Vien con mi.</p>
+      </sp></div>
+                  
+      <div type="3"></div><head type="scene" n="2">Scena 2</head>
+        <listPerson><personGrp>
+          <name>Il Re,</name> 
+          <name>la Regina,</name> 
+          <name>Laerte,</name>
+          <name>Marcello</name>
+          <stage type="listPerson"> e </stage>
+          <name>altri gentiluomini,</name> 
+          <stage type="listPerson">che portano la bara di</stage> 
+          <name>Ofelia</name></personGrp></listPerson>
+        
+      <pb n="31" facs="19_I__AmletoArlecchino_IT_IBM_031.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Fermeve ! Fermeve ! Che lo vedo ancora una volta quel bel muso de pagnacona. Mi te go
+          dito che ti te fazessi moniga e no che ti mori. Stupida ! Ti dovevi dimandarme prima
+          consiglio a mi. Te gavaria dito che a morir ghe xe sempre tempo. Oh, budin de puina o
+          torta de mandole indorada !</p>
+      </sp>
+      <sp>
+        <speaker>Regina</speaker>
+        <p>Che vuoi qui, Arlecchino ? Fuggi.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Sè mata ? Adesso me sepelisso anca mi e patron sior lustro.</p>
+      </sp>
+      <sp>
+        <speaker>Laerte</speaker>
+        <p>Ma prima dovrai darmi ragione della morte di mio padre e di quella di mia sorella. Voglio
+          il tuo sangue.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Varè st’altro. Andè in malora, caro vu. No go tempo da perder adesso. Facanapa,
+          distrighite ti con lui.</p>
+      </sp>
+      <pb n="32" facs="19_I__AmletoArlecchino_IT_IBM_032.jpg"/>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Marameo ! Mi salvo la panza per i fighi.</p>
+      </sp>
+      <sp>
+        <speaker>Laerte</speaker>
+        <p>Arlecchino ! E tu sei un principe ? Tu sei figlio di re ? Tu sei un vile, un assassino
+          !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Oh, a pian con sti titoli ! No go magnà mai la polenta con vu e ve prego de no tratarme
+          con tanta fameiarità. Del resto, se gavè voia de farve mazzar, andè dal boia.</p>
+      </sp>
+      <sp>
+        <speaker>Laerte</speaker>
+        <p>Ed io ti ammazzerò, allora, come un cane.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>E va ben, alora ! Pezo per vu ! Fora el speo e prepareve a ciaparve le budele in
+          man.</p>
+      </sp>
+      <sp>
+        <speaker>Re</speaker>
+        <p>Arlecchino, tu devi questa soddisfazione a Laerte.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Vu andè a remengo.</p>
+      </sp>
+      <sp>
+        <speaker>Re</speaker>
+        <p>Ti compatisco. Prima che incominci il duello, che dev'essere mortale, si porti una tazza
+          di vino, acciochè, feriti, possano ritorarsi.</p> <stage type="saut">(Un gentiluomo porta una tazza.)</stage>
+      </sp>
+      <sp>
+        <speaker>Laerte</speaker>
+        <p>Su ! Cominciamo !</p>
+      </sp>
+      <pb n="33" facs="19_I__AmletoArlecchino_IT_IBM_033.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Cominziemo, in malora vostra ! Ste atento come che ve tiro fora el figà.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Creature, no steve far assai mal !</p>
+      </sp>
+      <sp>
+        <speaker>Laerte</speaker>
+        <stage type="pers">(combattendo)</stage> <p>Voglio passarti il cuore.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(combattendo)</stage> <p>Alora gavè cossa zogar col vostro speo. El cor lo go vendù per quatro
+          soldi, a un becher. Ciò ! No gavevo tabaco.</p>
+      </sp>
+      <sp>
+        <speaker>Laerte</speaker>
+        <stage type="pers">(come sop[ra])</stage> <p>Il tuo sangue freddo non m'impressiona.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>E a mi el vostro sangue caldo me fa da rider. Che bruto muso de pianzoto, che fe.</p>
+      </sp>
+      <sp>
+        <speaker>Laerte</speaker>
+        <p>Ti beverò tutto il sangue.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Tuto, po ! Andè a rischio de imbriagarve.</p>
+      </sp>
+      <sp>
+        <speaker>Laerte</speaker>
+        <p>Adesso ti ammazzo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Comodeve ! Ma no steme rovinar el vestito.</p>
+      </sp>
+      <sp>
+        <speaker>Laerte</speaker>
+        <p>Sei toccato ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p><stage type="corps">(piano)</stage> Una buona idea ! <stage type="corps">(forte)</stage> Sì ! Cambiemo i spei, adesso.</p>
+      </sp>
+      <pb n="34" facs="19_I__AmletoArlecchino_IT_IBM_034.jpg"/>
+      <sp>
+        <speaker>Laerte</speaker>
+        <p>Perché ? Non voglio !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(piano)</stage> <p>Vara se la gò indovinada.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Cussì se usa ! Bisogna cambiar i spei.</p>
+      </sp>
+      <sp>
+        <speaker>Re</speaker>
+        <p>Non posso permetterlo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(piano)</stage> <p>Ah, anca ti ti xe de la ganga ! <stage type="corps">(forte)</stage> E mi lo voio. Qua el speo !</p> 
+          <stage type="saut">(Scambiano le
+          spade.)</stage>
+      </sp>
+      <sp>
+        <speaker>Laerte</speaker>
+        <p>Bene ! Ricominciamo !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Che tremarela che gave ! Se ve ocore qualcossa podè andar dove che volè; ve speto !
+          Ciapè intanto !</p>
+      </sp>
+      <sp>
+        <speaker>Laerte</speaker>
+        <stage type="pers">(Cade ferito.)</stage> <p>Aiuto ! Son morto.</p>
+      </sp>
+      <sp>
+        <speaker>Regina</speaker>
+        <stage type="pers">(Bevendo dalla tazza.)</stage> <p>Ah ! La tazza era avvelenata ! lo muoio.</p>
+      </sp>
+      <sp>
+        <speaker>Re</speaker>
+        <p>Oh, sventura ! lo fuggo !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ah, no che no ti scampi, razza de can, sassin ! Ciapa ! Te infilzo come un oseleto. Crepa
+          e va al diavolo. Adesso che ti xe inspeà, va a farte rostir.</p>
+      </sp>
+      <sp>
+        <speaker>Laerte</speaker>
+        <p>Arlecchino ! Perdono ! La mia spada era avvelenata ! Muoio !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ah ! Son morudo anca mi ! Povero mi ! Me zira la ciribiricocola ! Me fiscia le rece e me
+          bala i budei. Qua xe morti tutti, Facanapa, mori anca ti ! Ciao ! Arivederse co la
+          schizza.</p> <stage type="saut">(Si lascia cadere a terra.)</stage>
+      </sp>
+      <pb n="35" facs="19_I__AmletoArlecchino_IT_IBM_035.jpg"/>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Che bel tomo ! Perché xe morti tuti, dovaria morir anca mi. No son miga mato. Vado magnar
+          un per de chili de polenta per farme passar sta comozion.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ciò, Facanapa, vegno anca mi !</p> <stage type="saut">(Si leva in piedi.)</stage>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>No ti xe morudo ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Vara, che mincion ! Mi gavevo magnà la foia che el speo de Laerte el iera invelenà e go
+          fato finta de esser stà ferido. Cussì gavemo cambià i spei e mi go la panza salva per i
+          fighi.</p>
+      </sp>
+      <sp>
+        <speaker>Brighella</speaker>
+        <p>Ti xe una bela macia !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Andemo dala siora polenta. Vara che bela fritaia ! <stage type="corps">(Indicando i morti.)</stage> Pecà che no la
+          se pol magnar.</p>
+      </sp></div></div> 
+      <div type="5"><head type="div5">Fine.</head></div>
+    </body>
+  </text>
+</TEI>

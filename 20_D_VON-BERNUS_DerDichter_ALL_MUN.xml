@@ -1,0 +1,735 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="https://puppetplays.eu/en/oeuvres/16571/der-dichter">Der Dichter</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="PR">Paul Robert</name>
+          <resp ref="PR">Transcription and edition</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Münchner Stadtmuseum</distributor>
+        <availability status="free">
+          <p>Public domain</p>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>Lack of understanding between art and people</note>
+        <note>The first of three one-act plays in the Larifari collection, Der
+                    Dichter is a satire of the messianic stance assumed by the symbolist poet
+                    Stefan George (1868-1933) and his art circle. The front cover of the collection
+                    already alluded to this discreetly, using the swastika field that then adorned
+                    George’s magazine Blätter für die Kunst (1892-1919): this symbol did
+                    not yet have the significance it acquired after the war and the rise of National
+                    Socialism. In doing so, Blümel distances himself from the main trends of early
+                    20th-century modernism. George, on the other hand, had a decisive influence on
+                    writers such as Karl Wolfskehl and Hugo von Hofmannsthal, both of whom also wrote
+                    puppet plays.</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>Not specified</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository/>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 20</p>
+                <p>Number of acts in the original document: 1</p>
+                <p>Format of the original document: Printed</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main">Der Dichter</title>
+          <date>1909</date>
+          
+          <author>
+            <persName>Blümel Otto</persName>
+            <idno type="IDREF">135543584</idno>
+          </author>
+          <edition>Otto Blümel: Larifari. München, Buchendorfer Verlag, 1996</edition>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">German</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques">
+          <term source="https://puppetplays.eu/en/techniques-d-animation/521/glove-puppets">Glove-puppet</term>
+        </keywords>
+        <keywords source="literaryTones">
+          <term>Burlesque</term>
+          <term>Parodistic</term>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Monologue</term>
+          <term>Versified passages</term>
+          <term>Comical regional accent</term>
+          <term>Parody of formal language</term>
+          <term>Dialogue of the deaf</term>
+          <term>Song</term>
+          <term>Puppet theatre within the theatre</term>
+          <term>Metadiscourse on puppet theatre</term>
+          <term>Blow-with-a-stick</term>
+          <term>Murder on stage</term>
+          <term>Chorus</term>
+          <term>Allegory</term>
+        </keywords>
+        <keywords source="genre">
+          <term>Traurige Komödie</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Poetry</term>
+          <term>Beer</term>
+          <term>Popular</term>
+          <term>Gluttony</term>
+          <term>Bavaria</term>
+          <term>Radish</term>
+          <term>Sausage</term>
+          <term>Beauty</term>
+          <term>Symbolism</term>
+          <term>George, Stefan Anton</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+        Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+        re-evaluate the contribution of the puppets repertoire to the construction of
+        European cultural identity. Its main goals is to collect a corpus of
+        representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+        France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+        17th and the 21th century. It also tries to identify the characteristics of
+        puppet dramaturgy and their variations depending on eras, cultural spheres,
+        producing conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal
+        investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+            Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+        build upon the material in any medium or format for non-commercial purposes
+        only, and only so long as attribution is given to the creator. If you remix,
+        adapt, or build upon the material, you must license the modified material under
+        identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2021-01-01" who="#PR">Text transcription and encoding</change>
+      <change when-iso="2025-03-24" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <!-- Ajout d'une page de titre de l'oeuvre complète -->
+      <docAuthor>
+        <persName>Alexander von Bernus</persName>
+      </docAuthor>
+      <docTitle>
+        <titlePart type="main">Vormitternacht</titlePart>
+        <titlePart type="sub">Ein Schattenspiel der Seele von Alexander von
+                    Bernus</titlePart>
+      </docTitle>
+      <docEdition>Otto Blümel: Larifari. München, Buchendorfer Verlag.</docEdition>
+      <docDate>1907</docDate>
+      <castList>
+        <head type="personnage">[Figuren</head>
+        <castItem>
+          <role>Der Dichter</role>
+        </castItem>
+        <castItem>
+          <role>Ein Vogel</role>
+        </castItem>
+        <castItem>
+          <role>Die Verwandelte]</role>
+        </castItem>
+      </castList>
+    </front>
+    
+    <body>
+      <div type="1">
+        <pb n="1" facs="20_D_VON-BERNUS_DerDichter_ALL_MUN_003.jpg"/>
+        <head type="acte">Der Dichter, ein Vorspiel</head>
+        <pb n="2" facs="20_D_VON-BERNUS_DerDichter_ALL_MUN_004.jpg"/>
+        <listPerson>
+          <personGrp>
+            <name>Der Dichter </name>
+            <name>Ein Vogel </name>
+            <name>Die Verwandelte</name>
+          </personGrp>
+        </listPerson>
+        <pb n="3" facs="20_D_VON-BERNUS_DerDichter_ALL_MUN_005.jpg"/>
+        <stage type="saut">Ein Fliederbaum auf dem ein Vogel singt. Gegenüber auf einer Bank
+                    im Grase schläft der Dichter und träumt.</stage>
+        <sp>
+          <speaker>Der Vogel</speaker>
+          <lg type="centre">
+            <l>Ziküt ziküt</l>
+            <l>es grünt, es blüht</l>
+          </lg>
+          <lg>
+            <l>mein lieber Baum, mein Fliederbaum!</l>
+          </lg>
+          <lg type="centre">
+            <l>ziküt ziküt</l>
+            <l>im Ried, im Ried</l>
+          </lg>
+          <lg>
+            <l>du Dichter träumst du süßen Traum?</l>
+          </lg>
+          <lg type="centre">
+            <l>ziküt ziküt</l>
+            <l>nun zieht, nun zieht</l>
+          </lg>
+          <lg>
+            <l>ein Zug vorbei, du hörst ihn kaum.</l>
+          </lg>
+          <lg type="centre">
+            <l>ziküt ziküt</l>
+            <l>mein Lied, mein Lied</l>
+          </lg>
+          <lg>
+            <l>begleitet ihn wie Silbersaum...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Dichter</speaker>
+          <stage type="pers"> (im Traume sprechend)</stage>
+          <lg>
+            <l>Wer rief? Wer rief? Wie wird mir licht!</l>
+            <l>War's ihre frühe Stimme nicht?</l>
+          </lg>
+        </sp>
+        <pb n="4" facs="20_D_VON-BERNUS_DerDichter_ALL_MUN_006.jpg"/>
+        <sp>
+          <speaker>Der Vogel</speaker>
+          <lg type="centre">
+            <l>Ziküt ziküt</l>
+            <l>sie schied, sie schied.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Dichter</speaker>
+          <lg>
+            <l>Es rief schon wieder — süßer Klang</l>
+            <l>ach dir verließest mich so lang!</l>
+            <l>Und sieh, mit einmal bist du da?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Vogel</speaker>
+          <lg type="centre">
+            <l>Ziküt ziküt</l>
+            <l>man zieht, man zieht</l>
+          </lg>
+          <lg>
+            <l>ein Zug vorbei und sie ist nah.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Dichter</speaker>
+          <lg>
+            <l>Geliebter Ton, so warm und weich,</l>
+            <l>was führst du her? Ein Feenreich?</l>
+            <l>Bist du belebt? Kein Lug? Kein Schein?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Vogel</speaker>
+          <lg type="centre">
+            <l>Ziküt ziküt</l>
+            <l>und Glied um Glied</l>
+          </lg>
+          <lg>
+            <l>und Bild um Bild ist alles dein!</l>
+          </lg>
+        </sp>
+        <pb n="5" facs="20_D_VON-BERNUS_DerDichter_ALL_MUN_007.jpg"/>
+        <stage type="saut">Der Dichter hat sich im Traume aufgerichtet und einem Zuge
+                    zugewandt, der schemenhaft vorüberzieht und dessen wechselnde Erscheinungen er
+                    mit Ausrufen begleitet.</stage>
+        <sp>
+          <speaker>Der Dichter</speaker>
+          <p>O Jugend! — O Taumel! — O Sehnsucht! — O Not! — O Torheit! — O Träne! — O
+                        Grauen! — O Tod! — O Liebe!</p>
+        </sp>
+        <stage type="saut">Eine schöne weibliche Gestalt, die letzte des Zuges, beugt sich
+                    im Vorübergleiten über ihn und fußt ihn. Er führt erwacht empor und macht eine
+                    staunend sinnende Gebärde.</stage>
+        <sp>
+          <speaker>Der Dichter</speaker>
+          <lg>
+            <l>Was ist mir? Wo bin ich? Mir träumte: es zog</l>
+            <l>das Leben vorüber in fernem Gewog,</l>
+            <l>und Eine und Eine die liebte mich ach!</l>
+            <l>Und neigte sich nieder und küsste mich wach.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Vogel</speaker>
+          <lg type="centre">
+            <l>Ziküt ziküt</l>
+            <l>er sieht, er sieht</l>
+          </lg>
+          <lg>
+            <l>mich nicht und hab ihm doch geküsst, </l>
+            <l>ich selbst, ich selbst, o wenn ers wüsst!</l>
+          </lg>
+        </sp>
+        <pb n="6" facs="20_D_VON-BERNUS_DerDichter_ALL_MUN_008.jpg"/>
+        <sp>
+          <speaker>Der Dichter</speaker>
+          <lg>
+            <l>Was singst du Vogel dort im Gäst?</l>
+            <l>Mir war's: du sangest aus deinem Nest</l>
+            <l>in meinem Traum so für, so süß!</l>
+            <l>Weißt du wohl wo ich die Liebste ließ?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Vogel</speaker>
+          <lg type="centre">
+            <l>Ziküt ziküt</l>
+            <l>sie blüht, sie glüht,</l>
+          </lg>
+          <lg>
+            <l>berühre meines Baumes Stamm, </l>
+            <l>dann sind wir Braut und Bräutigam.</l>
+          </lg>
+        </sp>
+        <stage type="saut">Da rührt der Dichter an den Stamm. Der Vogel fliegt herab und vor
+                    dem Fichter steht die schöne weibliche Gestalt, die ihn im Traume küsste.</stage>
+        <sp>
+          <speaker>Der Dichter</speaker>
+          <p> O Wunder! O Liebe! Wer bist du, sprich?</p>
+        </sp>
+        <sp>
+          <speaker>Die Verwandelte</speaker>
+          <lg>
+            <l>Dein bin ich, dein eigen, durch dich für dich!</l>
+            <l>Und was ich gesungen und was du geträumt,</l>
+            <l> das hat deine Seele zum Lied gesäumt.</l>
+          </lg>
+        </sp>
+              
+      </div><div type="5">
+        <head type="div5">
+          Vorhang
+        </head>
+      </div> 
+      <div type="1">
+        <pb n="7" facs="20_D_VON-BERNUS_DerDichter_ALL_MUN_009.jpg"/>
+        <head type="main">Vormitternacht</head>
+        <head type="sub">Ein Schattenspiel der Seele</head>
+        <pb n="8" facs="20_D_VON-BERNUS_DerDichter_ALL_MUN_010.jpg"/>
+        <castList>
+          <castItem>
+            <role>Der Kranke</role>
+          </castItem>
+          <castItem>
+            <role>Seine Wärterin</role>
+          </castItem>
+          <castItem>
+            <role>Die Frau</role>
+          </castItem>
+          <castItem>
+            <role>Ihre Tochter</role>
+          </castItem>
+        </castList>
+      </div>
+      <pb n="9" facs="20_D_VON-BERNUS_DerDichter_ALL_MUN_011.jpg"/>
+      <div type="3">
+        <head type="scene" n="1">Erste Szene</head>
+        <stage type="saut">Vormitternacht. Die Leere. Der Umriss einer männlichen und einer
+                    weiblichen Gestalt tauchen plotzlich auf.</stage>
+        <sp>
+          <speaker>Die männliche Gestalt</speaker>
+          <lg>
+            <l>Hier bist du wieder mein, ganz mein.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die weibliche Gestalt</speaker>
+          <lg>
+            <l>Wir mussten einmal einsam sein.</l>
+            <l>Wir einen uns im zweiten Sein. </l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die männliche Gestalt</speaker>
+          <lg>
+            <l>So lang – es war ein müdes Stück. </l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die weibliche Gestalt</speaker>
+          <lg>
+            <l>Nun fließt das vordere Licht zurück. </l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die männliche Gestalt</speaker>
+          <lg>
+            <l>Denkst du noch wie im engen strengen Ring </l>
+            <l>der Leib den Leib zur Bitternis umfing?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die weibliche Gestalt</speaker>
+          <lg>
+            <l>Ich denk es noch — wie ist das nun so lang </l>
+            <l>seit uns das Leben auseinander zwang!</l>
+          </lg>
+        </sp>
+        <pb n="10" facs="20_D_VON-BERNUS_DerDichter_ALL_MUN_012.jpg"/>
+        <sp>
+          <speaker>Die männliche Gestalt</speaker>
+          <lg>
+            <l part="I">Doch ich vergaß dich nie.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die weibliche Gestalt</speaker>
+          <lg>
+            <l part="M">Ich weiß es gut.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die männliche Gestalt</speaker>
+          <lg>
+            <l part="I">Mein Leib vergaß dich nur.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die weibliche Gestalt</speaker>
+          <lg>
+            <l part="M">Und dich mein Blut.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die männliche Gestalt</speaker>
+          <lg>
+            <l>Leib — Blut sind eines — Falter Kuss und Baum </l>
+            <l>sie haben all in einem Abend Raum.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die weibliche Gestalt</speaker>
+          <lg>
+            <l>Du brachst den Bann, mich hält die Zeit noch fest.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die männliche Gestalt</speaker>
+          <lg>
+            <l>Ich dringe zu dir durch des Traums Gäst.</l>
+          </lg>
+        </sp>
+        <stage type="saut">Die Gestalten verschwinden plötzlich.</stage>
+      </div>
+      <div type="3">
+        <pb n="11" facs="20_D_VON-BERNUS_DerDichter_ALL_MUN_013.jpg"/>
+        <head type="scene" n="2">Zweite Szene</head>
+        <stage type="saut">Vormitternacht. Ein Zimmer. Rechts und Iinks eine Türe, in der
+                    Mitte ein Bett, Schrank, Stühle. Auf dem Bette liegt ein Kranker, dessen zweites
+                    Ich zuvor vom Leibe losgelost erschien. Der Kranker ist in schwerem Fieber. Am
+                    Fußende seines Bettes, ihm zugekehrt, regungslos und schemenhaft, schwebt wieder
+                    der Umriss seines zweiten Ichs, fast wie sein Doppelgänger. Sonst ist niemand in
+                    dem Zimmer. </stage>
+        <sp>
+          <speaker>Der Kranke</speaker>
+          <stage type="pers"> (sich im Fieber halbaufrichtend, führt wirre
+                        Zwiesprach)</stage>
+          <lg>
+            <l>Guten Morgen! Wo kommen Sie her?</l>
+            <l>Freut mich sehr,</l>
+            <l>bitte setzen Sie sich.</l>
+            <l>Ich kenne Sie — wer sind Sie eigentlich?</l>
+            <l>Ha ha ha, Sie sind ich?</l>
+            <l>Sie sind sehr spaßhaft, mein Lieber!</l>
+            <l>Sie haben wohl Fieber?</l>
+            <l>Sie wollen mir ein Rätsel aufgeben:</l>
+            <l>Was ist das Leben?</l>
+            <l>Bitte lösen Sie das selber. </l>
+            <l>Sehn Sie, das Laub wird immer gelber,</l>
+            <l>nun ist es schon Winter.</l>
+            <l>Und dahinter</l>
+            <l>steht, steht — ja was kann da stehen?</l>
+            <l>Eine Frau? — Ich, sehe sie auf mich zugehen,</l>
+            <l>o du, du bist es die sich verlässt </l>
+            <l>ich dringe zu dir durch des Traums Gäst!</l>
+          </lg>
+        </sp>
+        <pb n="12" facs="20_D_VON-BERNUS_DerDichter_ALL_MUN_014.jpg"/>
+        <stage type="saut">Der Kranker ist aufgefahren, die letzten Worte laut und inbrünstig
+                    ausrufend. Die Wärterin tritt ins Zimmer und an sein Lager. Die Erscheinung, die
+                    am Bette stand, ist verschwunden.</stage>
+        <sp>
+          <speaker>Die Wärterin</speaker>
+          <lg>
+            <l part="I">Was ist Ihnen?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Kranke</speaker>
+          <lg>
+            <l part="M">Wärterin, sind Sie hier?</l>
+            <l part="I">Wo ist sie?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Wärterin</speaker>
+          <lg>
+            <l part="M">Riefen Sie nicht nach mir?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Kranke</speaker>
+          <lg>
+            <l>Aber sie ging mir doch entgegen!</l>
+            <l part="I">Wo ist sie?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Wärterin</speaker>
+          <lg>
+            <l part="M">Sie sollen sich wieder legen,</l>
+            <l part="I">Sie werden sich sonst erkälten — </l>
+            <l part="M">sie legt ihn zurück</l>
+            <l part="F">sacht...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Kranke</speaker>
+          <lg>
+            <l part="I">Wie spät ist's?</l>
+          </lg>
+        </sp>
+        <pb n="13" facs="20_D_VON-BERNUS_DerDichter_ALL_MUN_015.jpg"/>
+        <sp>
+          <speaker>Die Wärterin</speaker>
+          <lg>
+            <l part="M">Kurz vor Mitternacht.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Der Kranke</speaker>
+          <lg>
+            <l>Da ist es Zeit zum Maskenball,</l>
+            <l>schon schwirren und irren die Larven all.</l>
+            <l>Wie sie im Takte tanzen und knixen,</l>
+            <l>Wassermann Feen Kobold und Rixen.</l>
+            <l>Musik — es hebt mich, es trägt mich hin —</l>
+            <l>da ist sie wieder, die Königin!</l>
+            <l>Du, du — ich komme, gleich o gleich! —</l>
+          </lg>
+        </sp>
+        <stage type="saut">Er hat sich ganz aufgerichtet, dann fällt er zurück.</stage>
+        <sp>
+          <speaker>Die Wärterin</speaker>
+          <stage type="pers"> (über ihn gebeugt)</stage>
+          <lg>
+            <l>Herr Jesus Christus nimm ihn zu dir in dein Reich!</l>
+          </lg>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="3">Dritte Szene</head>
+        <stage type="saut">Vormitternacht. Ein Wohnzimmer. Die Frau, deren zweites Ich zuvor
+                    vom Leibe losgelöst erschien, lehnt in einem Sessel eingeschlafen. Ihr gegenüber
+                    sitzt ihre halberwachsene Tochter, die Mutter betrachtend. Die Frau fährt aus
+                    dem Schlafe auf. </stage>
+        <sp>
+          <speaker>Die Frau</speaker>
+          <lg>
+            <l part="I">… Mich Hält die Zeit noch fest! —</l>
+            <l part="M">Was ist? Wer rief?</l>
+            <pb n="14" facs="20_D_VON-BERNUS_DerDichter_ALL_MUN_016.jpg"/>
+            <l>Du bist noch auf mein Kind? Nichtwahr, ich schlief? </l>
+            <l>Es ist schon spät, ich fühl mich so erschlafft.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Tochter</speaker>
+          <lg>
+            <l>Mutter, du schliefst sehr heiß und fieberhaft — </l>
+            <l part="I">und dann…</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Frau</speaker>
+          <lg>
+            <l part="M">Fahr fort.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Tochter</speaker>
+          <lg>
+            <l part="F">Dann sprachst du auch im Traum.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Frau</speaker>
+          <lg>
+            <l part="I">Ich sprach? Was sprach ich?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Tochter</speaker>
+          <lg>
+            <l part="F">Ich verstand es kaum:</l>
+            <l>Von einem Glück, das dir zu früh zerrann…</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Frau</speaker>
+          <lg>
+            <l part="I">Von einem Glück?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Tochter</speaker>
+          <lg>
+            <l part="M">Und einem fremden Mann.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Frau</speaker>
+          <lg>
+            <l part="I">Und er?</l>
+          </lg>
+        </sp>
+        <pb n="15" facs="20_D_VON-BERNUS_DerDichter_ALL_MUN_017.jpg"/>
+        <sp>
+          <speaker>Die Tochter</speaker>
+          <lg>
+            <l part="M">Er ging, du riefst ihm schmerzlich nach.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Frau</speaker>
+          <lg>
+            <l>Geh schlafen und vergiss, Kind, was ich sprach.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Tochter</speaker>
+          <lg>
+            <l>Du solltest dich auch legen, du siehst hohl </l>
+            <l part="I">und krank aus, Mutter…</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Frau</speaker>
+          <lg>
+            <l part="M">Geh nur Kind, schlaf wohl!</l>
+            <stage type="corps"> (Die Tochter ab.)</stage>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Frau</speaker>
+          <stage type="pers"> (zu sich)</stage>
+          <lg>
+            <l>Wie sonderbar, so spurlos zu zerrinnen!</l>
+            <l>Was war es doch? Ich kann mich nur besinnen:</l>
+            <l>ich habe unbegreifliches geträumt. —</l>
+            <l>Ja einmal war das Leben hell gesäumt,</l>
+            <l>ich sah es schimmern wie durch farbenes Glas –</l>
+            <l>das ist so lang, dass ich es ganz vergaß.</l>
+            <l>Und nun — was rückt das Ferne in die Nähe?</l>
+            <l>Wenn ich ihn heute plötzlich, wiedersähe…</l>
+            <l>Was rede ich? Es ist längst Zeit zu ruhn,</l>
+            <l part="I">ich will...</l>
+          </lg>
+        </sp>
+        <pb n="16" facs="20_D_VON-BERNUS_DerDichter_ALL_MUN_018.jpg"/>
+        <stage type="saut">Sie ist aufgestanden und im Begriff zu gehen. Da steht das
+                    Scheinbild dessen, von dem sie sprach, vor ihr.</stage>
+        <sp>
+          <speaker>Die Frau</speaker>
+          <stage type="pers"> (aufschreiend)</stage>
+          <lg>
+            <l part="M">Wo kommst du her? Was willst du tun?</l>
+            <l>Mein Gott! Starr mich nicht an, sprich nur ein Wort!</l>
+            <l>Sie ist auf den Stuhl zurückgesunken, die Erscheinung ist weg.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Tochter</speaker>
+          <stage type="pers"> (im Nachtkleide eintretend)</stage>
+          <lg>
+            <l part="I">Was ist dir? Rede Mutter!</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Frau</speaker>
+          <lg>
+            <l part="M">Ging er fort?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Tochter</speaker>
+          <lg>
+            <l part="I">Wer, Mutter?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Frau</speaker>
+          <lg>
+            <l part="M">Bist du ihm denn nicht begegnet?</l>
+            <l part="I">Mir ist, ich hör ihn noch...</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Tochter</speaker>
+          <lg>
+            <l part="M">Es stürmt und regnet</l>
+            <l>Du sieberst – ob ich nach dem Arzte sende?</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Die Frau</speaker>
+          <lg>
+            <l>Nein Kind, bleib bei mir — laß mir deine Hände!</l>
+          </lg>
+        </sp>
+      </div>
+      <div type="5">
+        <head type="div5">Vorhang</head>
+        <pb n="17" facs="20_D_VON-BERNUS_DerDichter_ALL_MUN_019.jpg"/>
+      </div>
+    </body>
+  </text>
+</TEI>

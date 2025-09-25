@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="https://puppetplays.eu/en/oeuvres/2292/critique-de-didon-tragédie">Critique de Didon tragédie</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="FR">Françoise Rubellin</name>
+          <resp ref="francoise.rubellin@univ-nantes.fr">Transcription</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor ref="https://gallica.bnf.fr/ark:/12148/btv1b9061126v/f444.item.r=théâtre%20inédit%20de%20la%20foire">Bibliothèque nationale de France. Département des Manuscrits. Français 9313</distributor>
+        <availability status="free">
+          <licence>Public domain</licence>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>A conversation about a recent show</note>
+        <note>The manuscript mentions no author. It is found in volume FF 9313 of the
+                    Soleinne collection, which is kept in the Département des manuscrits (manuscripts
+                    Department) in the Bibliothèque nationale de France. This short play was sung and
+                    seems to have been meant for a high society show. The reference to Lefranc and
+                    Pompignan’s tragedy, Didon, performed at the Comédie-Française as a
+                    “new play”, allows us to date the text back to 1734. But Charles Magnin
+                    (Histoire des marionnettes en Europe, 1862, p. 165) gives the date of
+                    a revival, in 1740.Gaston Baty’s handwritten transcription is kept
+                    in the Institut International de la Marionnette (don Temporal).</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>Not specified</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository ref="https://gallica.bnf.fr/ark:/12148/btv1b9061126v/f444.item.r=théâtre%20inédit%20de%20la%20foire">Bibliothèque nationale de France</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 7</p>
+                <p>Number of acts in the original document: 1</p>
+                <p>Format of the original document: Manuscript</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main" ref="https://gallica.bnf.fr/ark:/12148/btv1b9061126v/f444.item.r=théâtre%20inédit%20de%20la%20foire">Critique de Didon tragédie</title>
+          <date>1734?</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra">French</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques">
+        <term>null</term>
+        </keywords>
+        <keywords source="literaryTones">
+        <term>null</term>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Criticism of actors' theatre</term>
+          <term>Song</term>
+          <term>Current affairs</term>
+        </keywords>
+        <keywords source="genre">
+          <term>null</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Society Theatre</term>
+          <term>Tragedy</term>
+          <term>Greek mythology</term>
+          <term>Comédie Française</term>
+          <term>Social Conversation</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+        Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+        re-evaluate the contribution of the puppets repertoire to the construction of
+        European cultural identity. Its main goals is to collect a corpus of
+        representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+        France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+        17th and the 21th century. It also tries to identify the characteristics of
+        puppet dramaturgy and their variations depending on eras, cultural spheres,
+        producing conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal
+        investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+            Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+        build upon the material in any medium or format for non-commercial purposes
+        only, and only so long as attribution is given to the creator. If you remix,
+        adapt, or build upon the material, you must license the modified material under
+        identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2025-03-21" who="MSK">Text transcription and encoding.</change>
+      <change when-iso="2025-03-24" who="MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="01" facs="18_F_CritiqueDeDidon_FRA_BnF_001.jpg"/>
+      <docTitle>
+        <titlePart type="main">Critique de Didon, tragédie</titlePart>
+        <titlePart type="sub">Marionnettes</titlePart>
+      </docTitle>
+      <docDate>1734</docDate>
+      <docEdition/>
+      <castList>
+        <head type="personnage">Personnages</head>
+        <castItem>
+          <role>Celiante, </role>
+        </castItem>
+        <castItem>
+          <role>Dorimene, </role>
+        </castItem>
+        <castItem>
+          <role>Le Marquis, </role>
+        </castItem>
+        <castItem>
+          <role>Le Chevalier, </role>
+        </castItem>
+        <castItem>
+          <role>Émilie, </role>
+          <roleDesc>Nièce du Chevalier.</roleDesc>
+        </castItem>
+      </castList>
+      <set>
+        <p>La scène est chez Céliante.</p>
+      </set>
+    </front>
+    <body>
+      <div type="3">
+        <head type="scene" n="1">Scène 1</head>
+        <listPerson>
+          <personGrp>
+            <name>Celiante, </name>
+            <name>Dorimène.</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Celiante</speaker>
+          <p>Eh bien, ma chère, comment gouvernez-vous les spectacles ?</p>
+        </sp>
+        <sp>
+          <speaker>Dorimène</speaker>
+          <p>Je vous avouerais qu’il y a un temps infini que je n’y ai été, comme j’aime
+                        extrêmement la promenade, c’est un supplice, <pb n="02" facs="18_F_CritiqueDeDidon_FRA_BnF_002.jpg"/>pour moi, de me voir
+                        renfermée quatre heures de suite.</p>
+        </sp>
+        <sp>
+          <speaker>Celiante</speaker>
+          <p>On dit qu’il y a une pièce qui attire beaucoup de monde au faubourg Saint
+                        Germain. C’est Énée et Didon. Je suis curieux de savoir si Énée a pleuré
+                        comme Virgile ou rit comme Scarron.</p>
+        </sp>
+        <sp>
+          <speaker>Dorimène</speaker>
+          <p>C’est une tragédie où je suis sûre que Scarron n’a aucune part.</p>
+        </sp>
+        <sp>
+          <speaker>Celiante</speaker>
+          <p>C’est donc une parodie où je crois que Virgile est travesti. Mais voici le
+                        Marquis.</p>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="2">Scène 2</head>
+        <listPerson>
+          <personGrp>
+            <name>Celiante, </name>
+            <name>Dorimène, </name>
+            <name>Le Marquis.</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Celiante</speaker>
+          <p>Laissons les compliments. Rendez-nous compte des pièces nouvelles.</p>
+        </sp>
+        <sp>
+          <speaker>Le Marquis</speaker>
+          <p>Vous me prenez sans voix. J’ai la même curiosité que vous. Tout ce que je
+                        sais, c’est que l’opéra est tombé. Les Italiens ne jouent que d’anciennes
+                        pièces. Il n’y a que la Comédie Française. Le chevalier vient avec sa nièce.
+                        Ils ont vu Didon, ils nous en rendront compte.</p>
+        </sp>
+        <sp>
+          <speaker>Dorimène</speaker>
+          <p>J’aime la bonne Émilie. C’est un prodige que cet enfant. <pb n="3" facs="18_F_CritiqueDeDidon_FRA_BnF_003.jpg"/>Le chevalier est aimable. Cependant, il est quelquefois d’un froid à
+                        glacer.</p>
+        </sp>
+        <sp>
+          <speaker>Le Marquis</speaker>
+          <p>Il faut lui faire prendre son air de gaieté !</p>
+        </sp>
+      </div>
+      <div type="3">
+        <head type="scene" n="3">Scène 3</head>
+        <listPerson>
+          <personGrp>
+            <name>Les précédents, </name>
+            <name>Le Chevalier, </name>
+            <name>Émilie.</name>
+          </personGrp>
+        </listPerson>
+        <sp>
+          <speaker>Dorimène</speaker>
+          <p>Comment vous portez-vous, chevalier ?</p>
+        </sp>
+        <sp>
+          <speaker>Le Chevalier</speaker>
+          <p>Mon visage annonce ma bonne santé !</p>
+        </sp>
+        <sp>
+          <speaker>Dorimène</speaker>
+          <p>Vous avez vu la nouvelle comédie ? Faites-nous-en le détail.</p>
+        </sp>
+        <sp>
+          <speaker>Le Chevalier</speaker>
+          <p>Volontiers, donnez-moi le ton.</p>
+        </sp>
+        <sp>
+          <speaker>Celiante</speaker>
+          <stage type="saut">Air « Mirliton »</stage>
+          <lg>
+            <l>Dans la ville de Carthage</l>
+            <l>Qui peut exciter ce bruit,</l>
+            <l>Qui peut faire ce tapage,</l>
+            <l>Pour un troyen qui s’enfuit.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Le Chevalier</speaker>
+          <p>C’est un mirliton !</p>
+          <stage type="saut">Air « Réveillez-vous »</stage>
+          <lg>
+            <l>Didon, cette reine si bonne,</l>
+            <l>Qui partageait tous les malheurs,</l>
+            <pb n="4" facs="18_F_CritiqueDeDidon_FRA_BnF_004.jpg"/>
+            <l>Ne peut plus rien sur sa personne</l>
+            <l>Le beau mignon rit de ses pleurs.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Dorimène</speaker>
+          <stage type="saut">Air « Confiteor »</stage>
+          <lg>
+            <l>Suffit-il d’être amant aimé,</l>
+            <l>Pour devenir amant volage ?</l>
+            <l>Amour, dans un cœur enflammé,</l>
+            <l>Pourquoi détruis-tu ton ouvrage ?</l>
+            <l>Il est charmé par tes rigueurs,</l>
+            <l>Et dégagé par tes froideurs.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Le Chevalier</speaker>
+          <stage type="saut">Air « Lon la »</stage>
+          <lg>
+            <l>Que vois-je, c’est Didon qui suit</l>
+            <l>Cet aventurier qui la fuit.</l>
+            <l>La douleur et ses craintes</l>
+            <l>Lui font pousser avec grand bruit</l>
+            <l>Les amoureuses plaintes.</l>
+            <l>Lon, la, etc.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Émilie</speaker>
+          <stage type="saut">Air « Joconde »</stage>
+          <lg>
+            <l>Ah ! Traître ! Ah scélérat ! Ah chien !</l>
+            <l>Dont j’étais obsédée,</l>
+            <l>Tu croyais me tromper vaurien,</l>
+            <l>Quelle était ton idée ?</l>
+            <l>Tu livrais mon fidèle amour</l>
+            <l>Aux douleurs mortelles,</l>
+            <l>Sans vouloir retarder d’un jour,</l>
+            <l>Ta fuite criminelle.</l>
+          </lg>
+          <pb n="5" facs="18_F_CritiqueDeDidon_FRA_BnF_005.jpg"/>
+        </sp>
+        <sp>
+          <speaker>Émilie</speaker>
+          <stage type="saut">Air « Sur Monlan la »</stage>
+          <lg>
+            <l>Que les vagues en colère</l>
+            <l>Que l’aquilon en furie</l>
+            <l>Fassent ce que n’a pu faire</l>
+            <l>Pour fixer ici ton cœur</l>
+            <l>Mon beau <foreign xml:lang="unclear">[illisible]</foreign> etc.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Le Chevalier</speaker>
+          <stage type="saut">Air du « Pendu »</stage>
+          <lg>
+            <l>Énée, à ce doux compliment,</l>
+            <l>Lui répond fort civilement.</l>
+            <l>Vous perdre, mon aimable brune,</l>
+            <l>C’est perdre ma bonne fortune.</l>
+            <l>Je voudrais faire mon devoir</l>
+            <l>Mais, je n’en ai pas le pouvoir.</l>
+          </lg>
+          <stage type="saut">Air « Et vogue la galère »</stage>
+          <lg>
+            <l>Au même instant il vole,</l>
+            <l>Il est sur ses vaisseaux,</l>
+            <l>L’ingrat au gré d’Éole, </l>
+            <l>Fend les airs et les eaux</l>
+            <l>Et vogue etc.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Émilie</speaker>
+          <stage type="saut">Air « Est-ce que ça se demande ? »</stage>
+          <lg>
+            <l>Didon, dans son transport fougueux,</l>
+            <l>Le suit jusqu’aux rivages</l>
+            <l>Lui disant d’un ton douloureux,</l>
+            <l>Plein d’amour et de rage :</l>
+            <pb n="6" facs="18_F_CritiqueDeDidon_FRA_BnF_006.jpg"/>
+            <l>Reviens courant</l>
+            <l>Amour aidant.</l>
+            <l>Il faut bien qu’on l’entende,</l>
+            <l>Et fi Didon, songez-y donc,</l>
+            <l>Est-ce que ça se demande.</l>
+          </lg>
+        </sp>
+        <sp>
+          <speaker>Émilie</speaker>
+          <stage type="saut">Air « Tourlourirette »</stage>
+          <lg>
+            <l>Il te manque un crime</l>
+            <l>Poursuis ton dessein</l>
+            <l>Je suis ta victime</l>
+            <l>Pour mon tourlourirette</l>
+            <l>Pour mon lon larirette</l>
+            <l>Pour moi le suis.</l>
+          </lg>
+          <stage type="saut">Air « Le bruit des armes »</stage>
+          <lg>
+            <l>Mais laissons un vain murmure</l>
+            <l>Grands dieux ! Lancez sur lui vos traits</l>
+            <l>Accourez, vengez mon injure.</l>
+            <l>Et pour mieux remplir mes souhaits,</l>
+            <l>Offrez partout à ce parjure</l>
+            <l>Des maux dignes de ses forfaits.</l>
+          </lg>
+          <stage type="saut">Air « Travaillons de bon cœur à multiplier la vigne »</stage>
+          <lg>
+            <l>Dieux des vents, dieux des ondes,</l>
+            <l>Hâtez-vous de sortir,</l>
+            <l>Ouvrez pour l’engloutir</l>
+            <l>Vos cavernes profondes,</l>
+            <l>Et travaillez de bon cœur</l>
+            <l>À punir cet infidèle.</l>
+            <pb n="7" facs="18_F_CritiqueDeDidon_FRA_BnF_007.jpg"/>
+            <l>Et travailler de bon cœur</l>
+            <l>À réparer mon honneur.</l>
+          </lg>
+          <stage type="saut">Air « Vieilles nouvelles »</stage>
+          <lg>
+            <l>Mais non, c’est sur mon amour</l>
+            <l>Que je dois me venger é-é-é.</l>
+            <l>Dieux sauvez ce que j’aime,</l>
+            <l>Cessez de l’outrager é-é-é</l>
+            <l>Pour en perdre la mémoire</l>
+            <l>Dans le fleuve d’oubli.</l>
+            <l>Biribi etc.</l>
+          </lg>
+          <stage type="saut">Air « La faridondaine »</stage>
+          <lg>
+            <l>Mon sang qui coule avec effort</l>
+            <l>Lui rend son innocence.</l>
+            <l>Grands dieux, apprenez-lui mon sort</l>
+            <l>Et ma triste vengeance.</l>
+            <l>Mais épargnez le <foreign xml:lang="unclear">[illisible]</foreign></l>
+            <l>La faridondaine etc.</l>
+            <l>Et qu’il ne soit jamais puni.</l>
+            <l>Biribi etc.</l>
+          </lg>
+          <p>Voilà l’histoire en deux mots.</p>
+        </sp>
+        <sp>
+          <speaker>Celiante</speaker>
+          <p>Que je vous embrasse par reconnaissance.</p>
+        </sp>
+        <sp>
+          <speaker>Le Chevalier</speaker>
+          <p>J’ai entendu des violons, voulez-vous que je vous donne un petit cadeau.</p>
+        </sp>
+        <sp>
+          <speaker>Celiante</speaker>
+          <p>Volontiers, mais vous souperez ici.</p>
+        </sp>
+      </div>
+      <div type="5">
+        <head type="div5">Fin</head>
+      </div>
+    </body>
+  </text>
+</TEI>

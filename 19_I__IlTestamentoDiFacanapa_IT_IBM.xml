@@ -1,0 +1,2060 @@
+<?xml version='1.0' encoding='utf-8'?><?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="https://puppetplays.eu/en/oeuvres/353388/il-testamento-di-facanapa">Il testamento di Facanapa</title>
+        <respStmt>
+          <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+          <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="FG">Fiona Gazzaniga</name>
+          <resp>Transcription and edition</resp>
+        </respStmt>
+        <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+        <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+        <funder>European Research Council - ERC</funder>
+      </titleStmt>
+      <publicationStmt>
+        <distributor/>
+        <availability status="free">
+          <licence>Public domain</licence>
+        </availability>
+        <idno type="DOI"/>
+      </publicationStmt>
+      <notesStmt>
+        <note>A couple’s wedding depends on a will</note>
+        <note>Il testamento di Facanapa ovvero Il morto risuscitato
+          (Facanapa’s will, or the resurrected dead) is part of an anonymous series of texts
+          written for puppets, Raccolta di commediole, and released by G.
+          Chiopris, a publishing house from Trieste. The theme of the play echoes that of
+          texts written for actor theatre, and is meant for a family audience. The resurrected
+          dead is an expedient used in numerous comedies, as is that of the living person
+          pretending to be dead or of the dead person pretending to be alive. They are often
+          performed during scenes involving the signature of a contract or a will. In this
+          version, Facanapa, created by Friulian puppeteer Antonio Reccardini (1804-1876) in
+          the first half of the 19th century, plays the role of Ottavio’s servant; Arlecchino
+          and Pantalone play the roles of the doctors, which is unusual.</note>
+      </notesStmt>
+      <sourceDesc>
+        <listPerson>
+          <personGrp role="audience">
+            <p>All audiences</p>
+          </personGrp>
+        </listPerson>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>Instituto Per I Beni Marionettistici e la cultura Popolare, Grugliasco, Italy</repository>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <p>Number of pages in the original document: 48</p>
+                <p>Number of acts in the original document: 2</p>
+                <p>Format of the original document: Printed</p>
+              </objectDesc>
+            </physDesc>
+          </msDesc>
+        </listBibl>
+        <bibl>
+          <title type="main">Il testamento di Facanapa</title>
+          <title type="sub">Il morto risuscitato</title>
+          <date>1908</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italian</language>
+      </langUsage>
+      <textClass>
+        <keywords source="animationTechniques">
+          <term source="https://puppetplays.eu/en/techniques-d-animation/2352/marionnettes-à-fils">String marionette</term>
+        </keywords>
+        <keywords source="literaryTones">
+          <term/>
+        </keywords>
+        <keywords source="theatricalTechniques">
+          <term>Aside</term>
+          <term>Macaronic Latin</term>
+          <term>Blow-with-a-stick</term>
+          <term>Disguised character (false identity)</term>
+          <term>Fake death</term>
+          <term>Resurrected character</term>
+        </keywords>
+        <keywords source="genre">
+          <term>Commedia in 2 atti</term>
+        </keywords>
+        <keywords source="keywords">
+          <term>Last will and testament</term>
+          <term>Inheritance</term>
+          <term>Wedding</term>
+          <term>Love</term>
+          <term>Swindling</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <normalization method="silent">
+          <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+          <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+          <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+          <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+        </normalization>
+        <punctuation marks="some">
+          <p>Punctuation has been corrected according to modern rules.</p>
+        </punctuation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Text collected during the PuppetPlays project funded by European Union (Grant
+          Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+          re-evaluate the contribution of the puppets repertoire to the construction of
+          European cultural identity. Its main goals is to collect a corpus of
+          representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+          France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+          17th and the 21th century. It also tries to identify the characteristics of
+          puppet dramaturgy and their variations depending on eras, cultural spheres,
+          producing conditions, and the aimed public.</p>
+        <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+        <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+          Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+        </ref> licence. This license enables reusers to distribute, remix, adapt, and
+          build upon the material in any medium or format for non-commercial purposes
+          only, and only so long as attribution is given to the creator. If you remix,
+          adapt, or build upon the material, you must license the modified material under
+          identical terms. </p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when-iso="2025-07-18" who="#FG">Text transcription and encoding</change>
+      <change when-iso="2025-08-25" who="#MSK">Encoding validation against schema.rng</change>
+      <change when-iso="2025-08-26" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <pb n="1" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_001.jpg"/>
+      <pb n="2" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_002.jpg"/>
+      <pb n="3" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_003.jpg"/>
+      <docAuthor>
+        <persName/>
+      </docAuthor>
+      <docTitle>
+        <titlePart type="main">Il testamento di Facanapa ovvero il morto risuscitato</titlePart>
+        <titlePart type="sub">Commedia brillante, in 2 atti</titlePart>
+      </docTitle>
+      <docEdition>G. Chiopris Editore Trieste e Fiume</docEdition>
+      <docDate/><pb n="4" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_004.jpg"/>
+      <castList>
+        <head type="personnage">Personaggi</head>
+        <castItem>
+          <role>Geronte</role>
+        </castItem>
+        <castItem>
+          <role>Ottavio, suo nipote,</role>
+        </castItem>
+        <castItem>
+          <role>Facanapa, servo di Ottavio,</role>
+        </castItem>
+        <castItem>
+          <role>Lisetta, cameriera di Geronte,</role>
+        </castItem>
+        <castItem>
+          <role>Eugenia, madre di</role>
+        </castItem>
+        <castItem>
+          <role>Isabella, amante di Geronte poi di Ottavio,</role>
+        </castItem>
+        <castItem>
+          <role>Scrupolo, notaio,</role>
+        </castItem>
+        <castItem>
+          <role>Gasparo, notaio,</role>
+        </castItem>
+        <castItem>
+          <role>Arlecchino, medico,</role>
+        </castItem>
+        <castItem>
+          <role>Pantalone, medico,</role>
+        </castItem>
+        <castItem>
+          <role>Brighella, servo di Isabella.</role>
+        </castItem>
+      </castList>
+      <set>
+        <p/>
+        <lg>
+          <l/>
+        </lg>
+      </set>
+    </front>
+    <body>
+     
+      <pb n="5" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_005.jpg"/>
+      <div type="1"><head type="acte" n="1">Atto I</head>
+      <stage type="saut">Una stanza in casa di Geronte.</stage>
+        <div type="3"><head type="scene" n="1">Scena 1</head>
+      <listPerson><personGrp>
+        <name>Lisetta</name>
+        <stage type="listPerson"> e </stage>
+        <name>Facanapa</name></personGrp></listPerson>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <stage type="pers">(incontrandosi con Facanapa)</stage> 
+        <p>Buon giorno il mio caro Facanapa !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Adio, belezza tirana. Me ha mandesto qua el mio paron, zelantissimo, de saver come el
+          signor Geronte gabbia passà la notte.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>In verità l’ha passata assai male.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>El povaro vecio el combate co la morte, ma, dopo aver fato trionfar i dotori e i spezieri
+          el dovarà distirar i crachi anca lu e morir. Oh, mia cara Liseta ! Se el mio paron fusse
+          fato suo erede universal, son zerto ch'el faria le spese del funeral.</p>
+      </sp>
+      <pb n="6" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_006.jpg"/>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Io credo che non possa molto durare. Gli ho dato ier sera la medicina e due volte mi è
+          caduto fra le braccia svenuto.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>S’el fusse morto saria stado mal, perché separandose el spirito dal corpo mortale senza
+          nostro permesso, saria stada la ruvina del mio paron e la strage del suo umilissimo
+          servo.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Cospetto ! Signor Facanapa, voi parlate in punto e virgola.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ma se sa; propio in punto e varigola... Ma lascemo i scerzi e venimo al fato. E come che
+          ghe lo diseva nualtri dovemo far tutti i sforzi possibili perché el sior Geronte el fazza
+          testamento per el mio paron Otavio; perché, se lu el resta escluso de questa eredità,
+          sarà difizile ch'el se possa cambiar più de camisa e el sarà costreto de star in dieta,
+          senza che la ghe sia ordinada del miedigo. De più po', madama Eugenia no ghe voria dar in
+          moglie so’ fia. De più, me promete el mio paron che, se le cosse le va ben, el me darà
+          una ricompensa de sessanta spudi. Questi sessanta spudi promessi a le mie laboriose
+          fadighe, sarà quei che farà scorer più presto i cadenazzi del nostro matrimonio e me
+          rendarà l’alto onor de esser possidente e possesor della di lei amara belezza.</p>
+      </sp>
+      <pb n="7" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_007.jpg"/>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Qualunque sia la mia bellezza, non sarà tale da essere paragonata al vostro merito.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Vezzosa, brillante, garbata ! Ah ! Mi moro per ti !</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Acchetati, pazzo, che giunge il tuo padrone.</p>
+      </sp></div>
+        <div type="3"><head type="scene" n="2">Scena 2</head>
+          <listPerson><personGrp>
+            <name>Ottavio</name>
+            <stage type="listPerson"> e </stage>
+            <name>detti</name></personGrp></listPerson>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ah ! Cara Lisetta ! Levami di pena; mio zio in che stato si trova.</p>
+      </sp>
+      <pb n="8" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_008.jpg"/>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Sta male assai; credevo che la notte passata dovesse essere l’ultima per lui.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Me ne piange il cuore, e del suo caso sento un dolore estremo.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Cussì iero disperado anca mi, quando la mia cara sposa la xe andada a trovar le anime dei
+          morti. Mentre rimiravo quel cadavere esangue, me sentivo straziar el cor, ma rifletendo
+          che me gero liberà de quel imbrogio, con una scassadina de spale me son fato coragio e go
+          pensà de far come tanti che ghe ha toccà una simile fortuna.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Il mio dolore è sincero; e benchè molto speri da mio zio, ciononostante mi rincresce il
+          suo stato.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Egli stesso deve sentirsi assai male, poiché mi ha ordinato di chiamare due nodari.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Dimmi, ti prego, in confidenza: posso sperare che il testamento sia in mio favore ?</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>lo credo che possiate molto sperare. Voi sapete che qui viene a fargli visita madama
+          Eugenia insieme ad lsabella, sua figlia. Io li ho intesi più volte, alla sfuggita, parlare
+          di matrimonio, ed io credo per certo che il vecchio voglia dichiararvi suo erede a
+          condizione che sposiate Isabella.</p>
+      </sp>
+      <pb n="9" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_009.jpg"/>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ah ! Lisetta ! Tu mi doni la vita; e se ciò è vero io sono il più felice fra i
+          viventi.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Oh che bela natura ch'el ga, paron ! Come ch’el se risente !</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <stage type="pers">(osservando)</stage> 
+        <p>Cambiamo discorso ! Viene il signor Geronte !</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Vattene, Facanapa: lasciami in libertà con mio zio e, per sollecitare questo affare,
+          corri in traccia di due notai e conducili qui.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Lo ubidisso. <stage type="corps">(a Lisetta)</stage> Adio, luse vezosa, che ti me fa morir quando te miro. 
+          </p><stage type="saut">(Esce.)</stage>
+      </sp></div>
+        <div type="3"><head type="scene" n="3">Scena 3</head> 
+          <listPerson><personGrp><name>Geronte</name> 
+            <stage type="listPerson">in veste da camera, berretto, bastone e il braccio destro al collo, e</stage>
+          <name>detti</name></personGrp></listPerson>
+      <pb n="10" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_010.jpg"/>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Addio, caro nipote.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Signor zio, m’inchino a voi. Sono molto allegro perché vi vedo in parte ristabilito.
+          Sedetevi, signor zio, vi troverete meglio e più comodo.</p> <stage type="saut">(Siede.)</stage>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <stage type="pers">(Di quando in quando tossisce.)</stage> <p>È vero, caro Ottavio; vi ringrazio della vostra
+          attenzione. Ah questa notte ho passato una fiera burrasca !</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Dalla chiarezza del volto, si conosce il vostro miglioramento. Conviene al presente
+          profittare di questa crisi e con efficaci cordiali, affrettare il ristabilimento della
+          vostra salute.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>È vero che questi cordiali portano assai giovamento, ma costano un tesoro e giacchè si
+          deve morire è meglio risparmiare.</p>
+      </sp>
+      <pb n="11" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_011.jpg"/>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p><stage type="corps">[fra sé]</stage> Che sordida avarizia ! 
+          <stage type="corps">[ad alta voce]</stage> lo farò le spese, se siete contento, per
+          ciò che occorrerà.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Eh ! Figliuolo mio, gettereste il vostro denaro, e ne avreste lo stesso profitto che
+          trova uno che accomodi il tetto della casa, quando le fondamenta sono guaste. Lisetta, hai
+          tu detto ai notai che li attendo ?</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Sì, signore; e a momenti saranno da voi.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Benché io sia vecchio e colle sciatiche che mi tormentano, la gotta che mi opprime, il
+          catarro che mi incomoda; sento di tempo in tempo un certo vigore che non mi cangerei con
+          un giovane di quindici anni.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Ah ! In verità che ci sono dei giovani che non hanno sì bella ciera; voi fate invidia ad
+          uno che crepi di salute.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Davvero !</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Avete un certo non so che negli occhi che vi rende adorabile.</p>
+      </sp>
+      <pb n="12" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_012.jpg"/>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Ho conosciuta questa figlia sempre sincera. Ditemi, Ottavio: conoscete voi madama Eugenia
+          ?</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Sì signore, la conosco.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Cosa si dice di lei nel paese ?</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Molto bene, signore; fra tutte le buone qualità ch'ella possede, ha quella della
+          saviezza.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Avete mai veduto sua figlia Isabella ?</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <stage type="pers">(a Lisetta)</stage> <p>Lisetta, ohimé !</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <stage type="pers">[fra sé]</stage> <p>Coraggio !</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>No; apritemi il vostro cuore; non abbiate riguardo.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Oh, signor zio, a voi lo confesso; non ho mai veduto bellezza eguale.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Ho piacere che sia di vostro genio.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Perché ?</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Perché Isabella domani sarà mia sposa.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <stage type="pers">[fra sé]</stage> <p>Ohimé !</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <stage type="pers">[fra sé]</stage> <p>Misericordia !</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p><stage type="corps">[fra sé]</stage> Simulazione assistimi ! 
+          <stage type="corps">[ad alta voce]</stage> In verità, signor zio, non potevate fare
+          scelta migliore e nel vostro caso farei anch'io lo stesso.</p>
+      </sp>
+      <pb n="13" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_013.jpg"/>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Signor padrone, ha pensato a quello che fa ?</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>La mia stessa salute vuole che io prenda moglie. Così avrò finito di vedermi intorno una
+          turba di parenti indiscreti che ad altro non aspirano che a impossessarsi delle mie
+          sostanze.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p><stage type="pers">[fra sé]</stage> Son rovinato !</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p><stage type="pers">[fra sé]</stage> Ah vecchio senza giudizio !</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Sento gente.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>È il servitore della signora Eugenia.</p>
+      </sp></div>
+        <div type="3"><head type="scene" n="4">Scena 4</head>
+          <listPerson><personGrp><name>Servitore</name> 
+            <stage type="listPerson"> e </stage> 
+            <name>detti</name></personGrp></listPerson>
+      <sp>
+        <speaker>Servitore</speaker>
+        <p>Madama Eugenia e sua figlia desiderano rivedervi.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Che vengano. <stage type="corps">(a Lisetta)</stage> Presto la parrucca.</p>
+      </sp>
+      <sp>
+        <speaker>Servitore</speaker>
+        <p>Servo suo.</p> <stage type="saut">(via)</stage>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Non è necessaria la parrucca... Siete in convalescenza.</p>
+      </sp>
+      <pb n="14" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_014.jpg"/>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Lisetta, non parlar mai degli accidenti che mi vengono.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <stage type="pers">[fra sé]</stage> <p>Non è necessario ch’io lo dica, poiché, se avranno buon naso, se ne
+          accorgeranno.</p>
+      </sp></div>
+          <div type="3"><head type="scene" n="5">Scena 5</head> 
+            <listPerson><personGrp>
+              <name>Eugenia,</name> 
+              <name>Isabella</name> 
+              <stage type="listPerson"> e </stage> 
+              <name>detti</name></personGrp></listPerson>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>Abbiamo ricevuto una nuova poco consolante. Mi è stato riferito che questa notte siete
+          stato molto male.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Non date retta alle ciarle, signora Eugenia. Sono i miei eredi che fanno correre questa
+          falsa voce, poiché mi vorrebbero già morto per appropriarsi delle mie sostanze.</p>
+      </sp>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>lsabella, ecco lo sposo che vi ho destinato. Fate il vostro dovere e riconoscete nella
+          mia scelta l’intenzione che ho di vedervi contenta e felice.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Sì madamigella, voi siete quella che deve guarire ogni mio male. lo vi considero più che
+          Ipocrate e Galeno. Mi renderete più vivace di un giovine di vent'anni.</p>
+      </sp>
+      <pb n="15" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_015.jpg"/>
+      <sp>
+        <speaker>Isabella</speaker>
+        <p>Il dovere di figlia obbediente mi farà acconsentire a ciò che voi volete. Ma se il
+          signor Geronte crede di trovar in me quell’incentivo che lo possa guarire, s’inganna.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>È ben differente la mia dalla vostra intenzione. Spero più presto di quello che pensate,
+          di vedermi intorno un bel bambino e sentirmi dire papà, papà !</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Oh per la morte di mio nonno, non posso più tacere ! Signora Eugenia, io mi meraviglio
+          di voi. Vostra figlia nell'età più fresca, dimanda un suo eguale. Pigliatevi una rosa nel
+          suo fiorire, unitela ad un garofano appassito e secco e poi poneteli in petto ad una donna
+          e osservate qual disgraziata figura faranno. Tale sarebbe vostra figlia dandola al mio
+          padrone. Ricorra piuttosto a un buon notaio, signor Geronte, faccia testamento con tutta
+          quiete e si prepari a l'ultimo passo.</p>
+      </sp>
+      <pb n="16" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_016.jpg"/>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Brava mo', brava, signorina ! Chi vi ha affilato così bene la lingua ?</p>
+      </sp>
+      <sp>
+        <speaker>Isabella</speaker>
+        <p>La ragione.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Io per me sostengo che miglior incontro ella non può avere. Un uomo ricco che le fa
+          donazione di tutto il suo, un uomo posato, lontano da quelle debolezze che ordinariamente
+          accompagnano la gioventù... rispettabile per la sua età di 70 anni.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Non li ho ancora compiti; mancano quattro mesi e sei giorni. Accertatevi, bellissima
+          lsabella, che.... <stage type="corps">(voltandosi a Lisetta)</stage> Ohimé ! Lisetta...</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Comandate.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <stage type="pers">[fra sé]</stage> <p>La medicina che ho preso comincia a farsi sentire.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Non so che farvi.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Signora Eugenia, se la bellissima Isabella non rifiuta al mio amore... E che... Ohimé !</p>
+         <stage type="saut">(Si contorce dai dolori.)</stage>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Che avete, signor zio, che cambiate di colore ?</p>
+      </sp>
+      <pb n="17" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_017.jpg"/>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>Terminate il vostro discorso.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Se l’amore... Lisetta !...</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Signore !</p>
+      </sp>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>Ma che volete dire ?</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Ottavio, fa tu compagnia a queste signore. Di grazia, perdonate !... Un certo affare
+          premuroso mi chiama altrore; in breve sarò di ritorno.</p> <stage type="saut">(Parte accompagnato de
+          Lisetta.)</stage>
+      </sp>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>Il colpo è buono: non sono sì sciocca da perderlo. Seguimi, Isabella.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ah ! No, no, trattenetevi, signora Eugenia ! Per poco ancora ! Ascoltatemi !...</p>
+      </sp>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>Ma, caro signor Ottavio, tutto è vano !</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ed è possibile che vogliate sacrificare l’unica vostra figlia al nume dell’interesse.
+          Mio zio non ha che pochi momenti di vita e volete ridurre la signorina Isabella ad esser
+          prima vedova che maritata.</p>
+      </sp>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>Della mia condotta non sono tenuta a render conto a chicchessia. lo sono padrona di mia
+          figlia, e come tale posso disporne a mio talento.</p>
+      </sp>
+      <pb n="18" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_018.jpg"/>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>E voi, signorina Isabella, acconsentirete a queste nozze ?</p>
+      </sp>
+      <sp>
+        <speaker>Isabella</speaker>
+        <p>Io dipendo da mia madre.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>E vorrete dunque, signora Eugenia, vedermi miseramente morire ? lo amo vostra figlia,
+          sono disperato !</p>
+      </sp>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>Non manco alla mia parola.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ma se non mancate alla vostra parola, perché dunque non me la concedete ? Voi me l’avete
+          pure promessa.</p>
+      </sp>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>È vero, ve l'ho promessa quando voi mi avevate assicurata che sareste stato l'erede di
+          vostro zio.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>E tale sarei, se voi stessa non mi rovinaste.</p>
+      </sp>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>Come ?</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Se voi non deste lsabella a mio zio. Non maritandosi, egli è fuor di speranza di aver
+          altri eredi.</p>
+      </sp>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>Ma se io mi sciolgo dal contratto col signore Geronte e che poi non vi fa suo erede
+          ?</p>
+      </sp>
+      <pb n="19" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_019.jpg"/>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Eh ! Io lo sarò, signora Eugenia, io ve lo giuro ! Ch'egli cerchi altra donna per
+          maritarsi io non credo; stando al suo fianco, gli farò conoscere il suo errore; e poi egli
+          non pratica alcuno, non esce mai di casa. Fidatevi della mia parola.</p>
+      </sp>
+      <sp>
+        <speaker>Isabella</speaker>
+        <p>In verità, cara madre, non parla male.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Rinnovatemi la vostra promessa ed io m'impegno che sarò l’erede di mio zio.</p>
+      </sp>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>Sentite ! A questa condizione vi rinnovo la promessa; ma se dovesse essere diversamente
+          non isperate lsabella, ch'ella per voi è morta.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Sì ! Sono contentissimo ! E vi accerto di quanto vi prometto, ma bisogna che voi vi
+          sciogliate dall'impegno contratto.</p>
+      </sp>
+      <sp>
+        <speaker>Isabella</speaker>
+        <p>Questo è il punto principale.</p>
+      </sp>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>Non perorate tanto, signorina, che già v’intendo.</p>
+      </sp>
+      <sp>
+        <speaker>Isabella</speaker>
+        <p>Io sono obbediente ai vostri comandi.</p>
+      </sp>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>Vi ho già capito. Io scendo abbasso nel piccolo studio; vado a scrivere un biglietto al
+          signor Geronte e mi scioglierò dall'obbligo. Usate voi tutta l'arte per ottenere il vostro
+          intento ed Isabella sarà vostra.</p>
+      </sp>
+      <pb n="20" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_020.jpg"/>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ah ! Voi mi consolate, ed il premio è tanto per me prezioso, che, a costo del mio sangue,
+          otterrò l'intento.</p>
+      </sp>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>lsabella, seguimi.</p> <stage type="saut">(Per partire.)</stage>
+      </sp>
+      <sp>
+        <speaker>Isabella</speaker>
+        <p>Vi obbedisco !</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <stage type="pers">(ad Isabella)</stage> <p>Addio, mia unica speranza !</p>
+      </sp>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <stage type="pers">(voltandosi)</stage> <p>Cos'è ?</p>
+      </sp>
+      <sp>
+        <speaker>Isabella</speaker>
+        <p>Guardava il ricamo del mio manicotto che è molto bello.</p> <stage type="saut">(Parte con Eugenia.)</stage>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>O sorte non mi tradire ! Ho guadagnato assai se ella scrive questo viglietto. Mio zio si
+          sdegnerà e sarà mio l'impegno di fomentare la sua collera; per il resto lascio alla sorte
+          la decisione del mio destino.</p>
+      </sp></div>
+            <div type="3"><head type="scene" n="6">Scena 6</head> 
+              <listPerson><personGrp><name>Facanapa</name> 
+                <stage type="listPerson"> e </stage> 
+                <name>detto</name></personGrp></listPerson>
+      <pb n="21" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_021.jpg"/>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>In verità, sior paron, go coresto come un disperado inseguido dai creditori; son andà in
+          tute le case de sti nodari, ma tuti i gera fora. Go caminà come un can rabiado e zercà per
+          tuto finché li go trovesti. El sior Gasparo el gera da un usoraio che fazeva testamento,
+          el ghe lasava tutte le sue facoltà al Boia in ricompensa de no averlo impicado; el sior
+          Scrupolo el gera a tavola con una bela giovine, che ghe acomodava certe scriture per
+          meterle al rigistro e i ma disesto che i vegnarà quanto prima e senza falo.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Sai tu perché mio zio ha fatto chiamare i notai ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>O bela ! Per far testamento, mi digo.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>No ! Per fare il suo contratto di matrimonio.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ah raza de can ! Cosa po el vol far de la mugier ? E chi xe quella mata che vol viver
+          vizin a quel cadavere spirante ?</p>
+      </sp>
+      <pb n="22" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_022.jpg"/>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Eppure se n’è trovata una. La signora Eugenia gli dava sua figlia Isabella, ma ora tutto
+          è cangiato, e la signora Eugenia mi fa sperare che si scioglierà dall’impegno.</p>
+      </sp> 
+              <sp><speaker>Facanapa</speaker>
+          <p>Per altro no bisogna fidarse, perché la dona la pol cambiare da un momento all’altro e
+          mancar de parola. A mi me se vegnu un pensieroso pensier ch'el saria adatatissimo in
+          questa ocasion. La senta. El dovaria dirghe a quela canagia de vecio ch’el ga un amigo
+          medico e virtuosissimo ch'el vegnarà a consultar el so mal seuza nissun interesse. Questo
+          xe el mio amico, el Dottor Arlechin. El xe un omo che con pochi soldi ghe femo dir quel
+          che volemo e far a nostro modo. Se volemo, el ghe cava anca sangue dal colo come ai cavai.
+          E mi vado subito a trovarlo perché el 
+            <pb n="23" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_023.jpg"/>
+            vegna e ch’el ghe cava al vecio l’idea de maridarse,
+          fazendoghe creder che questo matrimonio el xe la sua ultima ruvina, cossa diselo, mo’
+          ?</p></sp>
+      
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Non mi dispiace il tuo pensiero; va a trovare questo Arlecchino che io parlerò a mio
+          zio.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Sior paron, el se ricorda che l’omo vive de l’omo e che se elo el xe l’erede no xe de
+          giusto che mi resto cola boca suta. Lo saludo !</p> <stage type="saut">(via)</stage>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Voglia il cielo che tutto termini in bene e che unendomi ad Isabella il mio cuore possa
+          essere felice.</p>
+      </sp></div>
+              <div type="3"><head type="scene" n="7">Scena 7</head>
+                <listPerson><personGrp>
+                  <name>Geronte,</name> 
+                  <name>Lisetta</name> 
+                  <stage type="listPerson"> e </stage> 
+                  <name>detto</name></personGrp></listPerson>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Ho una debolezza tale, che appena mi reggo in piedi.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Sedetevi, se volete.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Mi son preso la libertà, caro zio amatissimo, di far venire un dottore, insigne per la
+          sua virtù, perché esamini il vostro male e sono certo che farà più questo in una visita
+          sola di quello che abbia fatto il vostro medico in sei mesi di cura.</p>
+      </sp>
+      <pb n="24" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_024.jpg"/>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Non voglio altri dottori, non voglio gettar via ancora denari. So quanto mi costa sino al
+          presente il mio male.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ma questo, caro zio, non prende un soldo. È un uomo ricco, caritatevole e tutto quello
+          che fa, lo fa per amor del prossimo.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Che sia benedetto ! Fallo venire, che lo ascolterò volentieri. Dimmi, Ottavio, si è
+          forse sdegnata la signora Eugenia per averla così incivilmente lasciata ?</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>lo non lo credo ! Ma, se si fosse sdegnata, avrebbe torto, perché la necessità non ha
+          legge.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Vorrei farle un presente che facesse un bell'effetto e che costasse poco.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Io vi servirò con tutta attenzione e per le nozze, se sarete contento, io vi farò
+          l’economo.</p>
+      </sp>
+      <pb n="25" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_025.jpg"/>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Sì, ma che sia poca la spesa. Farai due piatti grandi, uno di fichi secchi e l’altro di
+          nocciuole; prepara poi un piatto di limoni tagliati sottili sottili col loro zucchero, e
+          fa che quelli siano i primi mangiati. Invece di rosolio, piglia un poco di spirito e
+          metici non molto zucchero che da tutti sarà creduto un Iiquore. Infine, ti darò uno
+          zecchino ! Tu farai il pasto, pagherai i suonatori, i Iumi, il rinfresco e quello che
+          avanza, lo terrai per te.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <stage type="pers">[fra sé]</stage> <p>Non sarà di che riempirsi lo stomaco.</p>
+      </sp></div>
+                <div type="3"><head type="scene" n="8">Scena 8</head>
+                  <listPerson><personGrp>
+                    <name>Servitore</name> 
+                    <stage type="listPerson"> e </stage> 
+                    <name>detti</name></personGrp></listPerson>
+      <sp>
+        <speaker>Servitore</speaker>
+        <p>La mia padrona, signore, vi manda questo viglietto.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Povera signora Eugenia ! Ella sarà inquieta per sapere lo stato di mia salute. Lisetta,
+          dammi i miei occhiali...</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Date a me, che lo leggerò senza occhiali...</p>
+      </sp>
+      <pb n="26" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_026.jpg"/>
+      <sp>
+        <speaker>Servitore</speaker>
+        <p>Prendete !</p> <stage type="saut">(Porge il foglio.)</stage>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <stage type="pers">(Legge.)</stage> <p>"Avendo fatto riflessione alla vostra età ed agli incomodi vostri, veggo che
+          sarebbe un rovinare mia figlia dandovela in isposa. Non vi sdegnate adunque, se ritratto
+          la mia parola e vi lascio in piena libertà. Vostra serva Eugenia." Questo è un congedo in
+          tutte le regole.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Che cosa ne dici, Ottavio ! È mai possibile ?</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Dico che questa è un'azione indegna e dovete fare in modo che vi mantenga la parola
+          data.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Mi guardi il cielo di seguire il tuo consiglio. Sia pur finita. lo ti confesso che a
+          queste nozze mi aveva spinto il desiderio di un erede e non già l’amore.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Non ho gran pena a crederlo !</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <stage type="pers">(al servitore)</stage>
+        <p>Andate abbasso, che adesso vi manderò la risposta.</p>
+      </sp>
+      <sp>
+        <speaker>Servitore</speaker>
+        <p>Va benissimo, signore.</p> <stage type="saut">(via)</stage>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Farete molto bene a liberarvi da questo imbroglio. Avete assai da combattere col vostro
+          male, senza cercar nuovi disastri... Ecco il vostro dottore.</p>
+      </sp></div>
+                <div type="3"><head type="scene" n="9">Scena 9</head>
+                  <listPerson><personGrp>
+                    <name>Pantalone,</name> 
+                    <name>Geronte,</name>
+                    <name>Ottavio</name> 
+                    <stage type="listPerson"> e </stage> 
+                    <name>Lisetta</name></personGrp></listPerson>
+      <pb n="27" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_027.jpg"/>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Servo del sior Geronte.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Signor dottore eccellentissimo, vi saIuto.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Come aveu passà la notte ?</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Assai male.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <stage type="pers">(a Lisetta)</stage> <p>Gli avete data la medicina ?</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Sì signore; ma l’ha molto conturbato.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>El polso no xe mal, la lengua la xe rossa e umida. Xe bon segno.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Si sente tanto bene che voleva ammogliarsi.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Ammoiarse ? Corpo de Baco ! Nò gavaria miga fato mal ?</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Dite davvero, signor dottore ?</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Ma se sa che digo da bon. El matrimonio, almeno nel suo prinzipio, el porta con lu
+          qualche alegria de cuore seguendo l’idea dei filosofi, questa alegrezza la ga un’atività
+          che rinforza el corpo e opera megio de qualunque medizina. Inoltre le atenzion che la ga
+          la mugier no le pol aver una serva e tante volte se vede efeti maravigliosi causai
+          propiamente dal bon governo.</p>
+      </sp>
+      <pb n="28" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_028.jpg"/>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Oh ! Farò che la signora Eugenia mi mantenga la parola.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <stage type="pers">[fra sé]</stage> <p>Costui mi rovina senza saperlo.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Noi gavemo molti de sti casi. E cussì, chi può maridarse no fa mai mal.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <stage type="pers">[fra sé]</stage> <p>Che tu sia maladetto.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Voglio seguire il vostro consiglio, signor Pantalone carissimo, e voglio ammogliarmi.</p>
+          <stage type="saut">(Battono alla porta.)</stage>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Chi batte ?</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Signor zio, è qui il medico di cui vi ho parlato.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Che venga, avrò piacere che si consulti col signor Pantalone.</p>
+      </sp>
+      <pb n="29" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_029.jpg"/>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Volentieri ! Mi son pronto a tutto.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Resti servito, signor dottor Arlecchino. 
+          <stage type="corps">(piano)</stage> lo corro da Isabella.</p> 
+          <stage type="saut">(Parte.)</stage>
+      </sp></div> 
+                <div type="3"><head type="scene" n="10">Scena 10</head>
+          <listPerson><personGrp>
+            <name>Arlecchino</name> 
+            <stage type="listPerson"> e </stage> 
+            <name>detti</name></personGrp></listPerson>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Oh, stupiditissimi signori, bona sera.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Venga pure avanti, signore !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Sior dottor Polenton, no ste esser arabiado, se me vedè qua, perché mi no son venudo col
+          intenzion de farve del mal.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Oh, anzi go piazer, che se venudo. <stage type="corps">(piano)</stage> Perché cussì asieme podaremo mandarlo più
+          presto a far pipe.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(Tocca il polso.)</stage> <p>Deme el polso. El polso el xe assai alterado.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <stage type="pers">(Tocca a sua volta.)</stage> <p>Dotor Arlechin, adesso che gavè tocà el polso vu, el me par anca a
+          mi assai alterà.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <stage type="pers">(a Geronte)</stage><p> Qual xe el vostro mal ?</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Ho avuto un insulto di apoplessia che mi ha fatto perdere questo braccio.</p>
+      </sp>
+      <pb n="30" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_030.jpg"/>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ma no che no lo gavè perso. Se'l xe qua ?</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Dico che non posso muoverlo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Bon !</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Mi vengono sovente dei capogiri.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Meglio !</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Tosse, catarro, dolori !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Queste xe cosse che no se conta. Gavè altro ?</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Grazie al cielo, del resto mi sento bene.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>E come l’avè tratà, sior Pantalon ?</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>No go mancà da cavarghe sangue e go dà dei cordiali ristorativi, <foreign xml:lang="latin">secundum artem</foreign>, per
+          veder de ristabilirlo.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>E per ultimo, il signor dottore non disapprovava una medicina matrimoniale.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Come ! Come ! Cossa xela sta medizina !</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Una buona moglie.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Oh, che sia ditto con tuto el rispeto de Pantalon, no la me par una cossa bona.</p>
+      </sp>
+      <pb n="31" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_031.jpg"/>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Perché mo' ?</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Un omo abandonà dal calor natural, sfibrà per el mal ch'el patisse, come volè ch'el
+          possa resister al matrimocolo ? <stage type="corps">(piano)</stage> Se sto crepà de vecio el se marida no'I dura più
+          de un'ora.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Non mi ammoglio più.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Perdonè, caro Arlecchin, ma vu la prezipitè tropo la cossa. El matrimonio podaria
+          guarirlo per tante rason e ve ne darò le prove.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Qualunque sia la rason, che me dirè, la sarà stupida, perché questo saria el massimo
+          dei spropositi.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>E mi ve provarò co la rason e con autori classici, ch'el matrimonio lo pol guarir.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>E mi ve provarò che el matrimocolo fa morir anca i sani. In lu po' la natura distila
+          malamente; essendo che l'umida metropoli del cataro, dita da Ippocrate 
+          <foreign xml:lang="latin">sons potuites</foreign>, no
+          ricevendo dal stomigo suo promotor patematico, calore suficente, si convertirebero gli
+          umori in cativi catari che passando ne la nobile cavità del torace, per la glandula
+          osculatoria, lo renderebero in pochi minuti cadavere fredissimo e spuzolente.</p>
+      </sp>
+      <pb n="32" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_032.jpg"/>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Falsa la xe la proposizion, perché no xe vero che <foreign xml:lang="latin">motus est causa caloris</foreign>; la natura
+          dissipa quante le xe le parte e formule che la distilla con fluido concorso di umidità
+          vaporose, atenindose a la forza focosa e sublime ne la parte più alta, dove per
+          refrigerante de l’ambiente, el vaporoso umor in pure e sutilissime stile se va liquefando.
+          <foreign xml:lang="latin">Ad querendam novam formam substantialem</foreign>.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Ohimè ! Mi sento morire dallo spavento !</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Nego: <foreign xml:lang="latin">suppositum</foreign> !</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Negate quanto volete, vi ringrazio tutti due, ma andate.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>L’onor mio vol che sostegna la mia rason.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>La vostra rason la se posada sul falso e dovè confessar che avè dito un spoposito.</p>
+      </sp>
+      <pb n="33" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_033.jpg"/>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Signori ! Di grazia non vi alterate.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>El sior Arlerchin no'l sa quel ch'el dise.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>E vu sè un animal dotorado per forza.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>E vu sé un asino, dotorado per protezion.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Per carità, partite !</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Andate ! Ne avete dette abbastanza.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Me apelarò a la Facoltà medica.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>Ve farè conosser per quel che sè.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>La vedaremo !</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>E mi son pronto a farvela tegnir.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Ve farò smatricolar.</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>La vose dei aseni no va a capitolo.</p>
+      </sp>
+      <sp>
+        <speaker>Arlecchino</speaker>
+        <p>Vu sè una bestia !</p>
+      </sp>
+      <sp>
+        <speaker>Pantalone</speaker>
+        <p>E vu un somaro !</p> <stage type="saut">(Si bastonano, urtano Geronte che cade a terra.)</stage>
+          
+      </sp></div></div>
+      <div type="5"><head type="div5">Fine dell'atto primo.</head></div>
+      
+      <div type="1"><head type="acte" n="1">Atto II</head> 
+        <stage type="saut">Camera come nell’atto I.</stage>
+              <div type="3"><head type="scene" n="1">Scena 1</head> 
+                <listPerson><personGrp>
+                  <name>Ottavio</name>
+                  <stage type="listPerson"> e </stage>
+                  <name>Facanapa</name></personGrp></listPerson>
+      <pb n="34" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_034.jpg"/>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Go trovado el dottor Richelin el me ga disesto che la cosa la xe andada ben e benon.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Sì ! Tutto è andato a seconda. Mio zio mi ha dichiarato suo erede. Solo mancano i
+          notai.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>I nodari noi manca, no, perché li go menasti con mi e i xe abasso che i speta.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Bravo Facanapa ! Tu sei un uomo meraviglioso.</p>
+      </sp></div>
+                <div type="3"><head type="scene" n="2">Scena 2</head>
+                  <listPerson><personGrp>
+                    <name>Lisetta</name> 
+                    <stage type="listPerson"> e </stage> 
+                    <name>detti</name></personGrp></listPerson>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <stage type="pers">(Gridando.)</stage> <p>Aiuto ! Misericordia ! Soccorso ! Aiuto !</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Che cosa è stato ?</p>
+      </sp>
+      <pb n="35" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_035.jpg"/>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Siamo rovinati !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Cossa nasse ? Te se scampà el gatto ? O crepada la gallina.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Altro che gallina ! Il padrone è morto ! Morto.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ah ! Sono perduto !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Adio, sior testamento !</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>E come avvenne ? Narra, per pietà !</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Quando l’ho condotto nella sua camera si è gettato sul letto; tutto ad un tratto gli è
+          mancato il respiro, ha voltato gli occhi e non ha più parlato; gli ho tastato il polso, e
+          non ho sentito alcun movimento.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ah ! Sono rovinato ! Al presente tutti gli altri parenti pretenderanno la loro parte e
+          forse l’ultima sarà la mia.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>E mi che go menesto anca i nodari ?</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>E la speranza che aveva io di essere beneficata ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>E tutti i mii debiti, che speravo de pagar col favor de sto testamento ?</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Che faremo Facanapa ?</p>
+      </sp>
+      <pb n="36" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_036.jpg"/>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Tuto quel che volè... Basta che me lassè pensar un momento. <stage type="corps">(pensando)</stage> Se podaria...</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Animo, Facanapa ! Fammi conoscere il tuo pensiero.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>La go trovada ! Sentì ! Se mi me vestissi coi vistiti del sior Geronte, co la baretta in
+          testa, con tutte le finestre serade, con un picolo lumineto e che facendo entrar i nodari,
+          faria finta de esser Geronte ? Alora se podaria far el testamento in vostro favor ! Cossa
+          ve par ?</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ah, caro Facanapa ! Tu mi consoli !</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Sei un uomo prodigioso.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Liseta, andè a preparar in t'un'altra camara el leto e i vestiti che vegno subito.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Vado subito, subito !</p> <stage type="saut">(via)</stage>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Tu mi ridoni la vita, caro Facanapa ! Lascia a me la cura di premiare l'amore e lo zelo
+          che tu hai per me.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Mi farò... ma no se pol far altro.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Perché ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>El testamento chi xe che lo sottoscrive ? Mi no zertamente; se femo fiasco, no vojo miga
+          andar in galera.</p>
+      </sp>
+      <pb n="37" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_037.jpg"/>
+      <sp>
+        <speaker>Ottavia</speaker>
+        <p>Sciocco ! Non vedi come la fortuna ci favorisce ? Mio zio, per il colpo d'apoplessia
+          ricevuto nel braccio destro, era inabile allo scrivere.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Alora, dunque, va benon ! Andemo subito ne l’altra camera a preparar tutto e a finir sto
+          imbrogio.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Andiamo, andiamo ! E tutto andrà bene.</p> <stage type="saut">(Escono.)</stage>
+      </sp></div>
+              <div type="3"><head type="scene" n="3">Scena 3</head> 
+                <listPerson><personGrp>
+                  <name>Facanapa,</name> 
+                  <name>Lisetta</name> 
+                  <stage type="listPerson"> e </stage>
+                  <name>Ottavio</name></personGrp></listPerson>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Qua tutto è all’ordine e le finestre sono chiuse.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <stage type="pers">(nei panni di Geronte, a letto)</stage> <p>O povareto mi ! Con sti vestiti adosso, go odor de
+          cadavere. Me sento un zerto scombusolamento, che no so spiegar. Lisetta ! Cossa distu !
+          Prima me fazo la barba per mi e per ti e po' per el sior Otavio.</p><stage type="saut"> (piano)</stage>
+      </sp>
+      <pb n="38" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_038.jpg"/>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Posso chiamare i notai ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Sì ! Sì ! El li ciama pur e presto se no mi moro de paura.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Lisetta, chiama i notai.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Subito ! Vado e vengo !</p> <stage type="saut">(Esce e subito ritorna.)</stage>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ti raccomando di fare le cose per bene e sarai ricompensato. Zitto che sono qui.</p>
+      </sp></div>
+              <div type="3"><head type="scene" n="4">Scena 4</head>
+          <listPerson><personGrp>
+            <name>Scrupolo,</name> 
+            <name>Gasparo</name> 
+            <stage type="listPerson"> e </stage> 
+            <name>detti</name></personGrp></listPerson>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Venite, venite ! Signori, ecco il povero mio padrone. Vi attende.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Benché sia in <foreign xml:lang="latin">estremis estremis</foreign> de la mia vita, me la godo de vederli in salute o
+          signori. È tempo, ormai, che disponendo con bon ordine le mie cosse, me preparo a quel
+          passo che contro mia voglia son forzado de fare.</p>
+      </sp>
+      <sp>
+        <speaker>Scrupolo</speaker>
+        <p>Non vi faccia alcuna pena se, al presente, con un testamento regolate i vostri affari,
+          poiché questo non diminuisce il vivere; anzi mette il cuore in calma.</p>
+      </sp>
+      <pb n="39" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_039.jpg"/>
+      <sp>
+        <speaker>Gasparo</speaker>
+        <p>Sarà necessario, signore, di far ritirare questi signori acciò possiate, senza riguardo
+          alcuno, dire il vostro sentimento.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>No, no, possono restare: bramo che siano presenti alle ultime mie volontà.</p>
+      </sp>
+      <sp>
+        <speaker>Scrupolo</speaker>
+        <stage type="pers">(Siede.)</stage><p> Come vi piace. Avanti di noi, giurati notai, dite ciò che volete...</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Prima de tuto numero uno, che si paghi tutti i miei debiti...</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ma che debiti avete, zio ? lo non ne so nessuno.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ne ho più che non pensiate. All’osto della spada, per pranzi e zene, fate in conpania de
+          diverse donete, ghe devo scudi dozento. Al formajaro, per tanto formaio, butiro, candele,
+          ecetera, scudi trenta. Al caligaro, per scarpe per me per amizi e amiche, scudi
+          venti.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <stage type="pers">(piano)</stage><p> Ah, che briccone !</p>
+      </sp>
+      <sp>
+        <speaker>Gasparo</speaker>
+        <p>Come volete essere seppellito ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Per questo no me preme gnente afato. Spendano poco; questo xe quel che ghe
+          racomando.</p>
+      </sp>
+      <pb n="40" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_040.jpg"/>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Io avrò la cura che vi sia fatto onore.</p>
+      </sp>
+      <sp>
+        <speaker>Scrupolo</speaker>
+        <p>Dite ora come volete disporre de' vostri effetti.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Un momento de pazienza ! Lasso unico erede de tute le mie facoltà, nissuna ecetuada,
+          Otavio, mio nipote, diseredando ogni sorta de parente, tanto machio che femina e ancora
+          qualunque altra bestia mia parente lontana, e dei fioi che gavessi senza saver.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>O adorabile zio ! Oh momento fatale !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Spetè un poco ! Vedarè che adorabile che son.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Cosa dite, caro zio ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Idem - Idem, lasso a Lisetta...</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Ohimè !...</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>In ricompensa della sua fedel servitù, a condizione però che sposi Facanapa.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Ohimè ! Io manco !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Sostenila, caro nipote, la povera puta Ia me fa pietà.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Oh ! Che amabile padrone ch'io perdo.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Le lascio due mila scudi, denaro contante, che sarà subito levato dal mio scrigno.</p>
+      </sp>
+      <pb n="41" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_041.jpg"/>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p><stage type="corps">[fra sé]</stage> Oh maledetto ! Cosa fa costui. <stage type="corps">[a Facanapa]</stage> Signor zio.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Pago a questa figlia le mie obligazioni !</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Non credo che abbiate altro !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ancora due o tre bagatelle da dire; Idem, Idem, lasso a Facanapa.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>A Facanapa ? Signor zio, sapete che egli è un briccone !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Lo conosso meglio di voi. Egli xe el re dei galantomeni perciò gli lasso cento scudi a
+          l’ano vita durante.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ma pensa...</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Se me fê andar in colera, ghe ne lasso do mila.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <stage type="pers">(piano)</stage> <p>Ah indegno !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Avrei qualche amico, a cui lasciare qualche cossa.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Io credo che abbiate finito, e che non vi sia più nessuno.</p>
+      </sp>
+      <sp>
+        <speaker>Gaspare</speaker>
+        <p>È finito ?</p>
+      </sp>
+      <pb n="42" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_042.jpg"/>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Sì, xe terminato.</p>
+      </sp>
+      <sp>
+        <speaker>Gaspare</speaker>
+        <p>Segnate col vostro nome !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ah ! Signor ! Io farai ben di cuor ma gavendo perduto el bracio drito, per un colpo de
+          apopleticazione son inabile de scriver.</p>
+      </sp>
+      <sp>
+        <speaker>Gaspare</speaker>
+        <p>Non potendo per impotenza firmar il signor Geronte, resta con giuramento da noi segnato e
+          firmeremo noi il testamento.</p> <stage type="saut">(Firmano il testamento.)</stage>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Favoritemi el testamento.</p>
+      </sp>
+      <sp>
+        <speaker>Scrupolo</speaker>
+        <p>Non è possibile ! Esso resta in deposito presso di noi; ma fra poco ve ne porterò la
+          copia. Il Cielo vi salvi !</p> <stage type="saut">(I notai partono.)</stage>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Liseta, compagna quei signori.</p> <stage type="saut">(Lisetta esce.)</stage>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ma dimmi un poco, disgraziato, ti pare che sia giusto di lasciare a Lisetta duemila scudi
+          ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Per dir la verità no me par tropo.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>E per te cento scudi, vita durante...?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ma come me podevi creder cussì ignorante de meter la carne al fogo per i altri senza
+          zercar el brodo.</p>
+      </sp>
+      <pb n="43" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_043.jpg"/>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ma mi pare che tu abbia fatto molto bene il tuo interesse.</p>
+      </sp></div>
+              <div type="3"><head type="scene" n="5">Scena 5</head> 
+                <listPerson><personGrp>
+                  <name>Lisetta</name> 
+                  <stage type="listPerson">correndo e</stage>
+          <name>detti</name></personGrp></listPerson>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Soccorso, per carità ?</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Che cosa è successo ?</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Oh Dio ! Geronte è vivo !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Preson, galera, e forca, aspeteme !</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ahimè ! Sono perduto !</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Dopo che ho accompagnato i notai, nel salire le scale, ho veduto Geronte sulla porta, che
+          mi ha chiamata e mi ha domandato la veste. lo sono corsa. Facanapa dammi la veste.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Lisetta ! Vegno ! Vegno ! Va avanti !</p> <stage type="saut">(Escono Lisetta e Facanapa, poi questo
+          ritorna.)</stage>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ah non vi è più speranza ! Siamo tutti rovinati !</p>
+      </sp></div>
+              <div type="3"><head type="scene" n="6">Scena 6</head> 
+                <listPerson><personGrp>
+                  <name>Eugenia,</name> 
+                  <name>Isabella,</name> 
+                  <name>Ottavio</name> 
+                  <stage type="listPerson"> e </stage>
+          <name>Facanapa</name></personGrp></listPerson>
+      <pb n="44" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_044.jpg"/>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>Attendo ancora la risposta del signor Geronte. Ha fatto attendere il servitore abbasso,
+          sulla scala, più di due ore ed alla fine è ritornato a casa, ed io sono venuta apposta
+          perché voglio essere chiarita qual sia l’intenzione del signor Geronte.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ah ! Madama, sono disperato !</p>
+      </sp>
+      <sp>
+        <speaker>Isabella</speaker>
+        <p>Vi sovrasta forse qualche male ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Eh ! Siora mia. Semo passionai perché gavemo paura che dovaremo viazar.</p>
+      </sp>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>E chi vi costringe ? Forse il signor Geronte ?</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ah ! Madama sono disperato, appunto per lui.</p>
+      </sp>
+      <sp>
+        <speaker>Isabella</speaker>
+        <p>Perché ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Perché nualtri semo tropo spiritosi.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ohimé ! Ecco mio zio !</p>
+      </sp></div>
+                <div type="3"><head type="scene" n="7">Scena 7</head> 
+                  <listPerson><personGrp>
+                    <name>Geronte,</name> 
+                    <name>Lisetta</name> 
+                    <stage type="listPerson"> e </stage> 
+                    <name>detti</name></personGrp></listPerson>
+      <pb n="45" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_045.jpg"/>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Non ho più fiato. Ottavio, io credo che per me la sia spedita. Questo è stato un gran
+          colpo.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <stage type="pers">[fra sé]</stage> <p>A mi pò me par che no 'l sia sta abastanza.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <stage type="pers">(piano)</stage><p> Non so che dirgli.</p>
+      </sp>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>Signor Geronte, attendevo la risposta del mio viglietto e nulla ho veduto; che mi
+          rispondete...?</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Rinunzio ogni mia pretesa sopra la signora lsabella. A dirvi la verità, ho altra voglia
+          che di maritarmi. Vado a fare il mio testamento e lascio Ottavio mio erede universale.
+          Dimmi, Lisetta, quando vengono i notai ?</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Ora son fritto !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>E mi biscotà !</p>
+      </sp></div>
+              <div type="3"><head type="scene" n="8">Scena 8</head> 
+                <listPerson><personGrp>
+                  <name>Scrupolo</name> 
+                  <stage type="listPerson">con testamento in mano e</stage> 
+                  <name>detti</name></personGrp></listPerson>
+      <sp>
+        <speaker>Scrupolo</speaker>
+        <p>Servo umilissimo del signor Geronte.</p>
+      </sp>
+      <pb n="46" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_046.jpg"/>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Servitor suo, signor Scrupolo. Ella ha fatto assai bene a venire.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <stage type="pers">(a parte)</stage> <p>E per noi assai mal !</p>
+      </sp>
+      <sp>
+        <speaker>Scrupolo</speaker>
+        <p>Ecco la copia del testamento.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Che copia ? Che testamento ?</p>
+      </sp>
+      <sp>
+        <speaker>Scrupolo</speaker>
+        <p>Quello che ella ha fatto.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Io ho fatto testamento ?</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Si po' el lo gà fato avanti che ghe vegna el colpo.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Può darsi che il male mi abbia reso stordito. Cosa ne dice il signor notaio ?</p>
+      </sp>
+      <sp>
+        <speaker>Scrupolo</speaker>
+        <p>lo dico che ciò è vero e questi sono i sentimenti da voi espressi.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Leggete acciocché io sappia che cosa ho fatto.</p>
+      </sp>
+      <sp>
+        <speaker>Scrupolo</speaker>
+        <stage type="pers">(Legge.)</stage> <p>Avanti di noi notari giurati... ecetera ecc. Prima che siano pagati tutti i miei
+          debiti...</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Che debiti ? lo non ne tengo.</p>
+      </sp>
+      <sp>
+        <speaker>Scrupolo</speaker>
+        <p>Eccoli spiegati : All’oste della spada, per tante cene e pranzi fatti in compagnia di
+          varie donnette, scudi duecento; al formaggiaro per tanto formaggio, burro, candele ed
+          altro scudi trenta; al calzolaio per tante scarpe fatte per me, per amici e amiche scudi
+          venti.</p>
+      </sp>
+      <pb n="47" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_047.jpg"/>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Vi dico che io non ho mai avuti questi debiti.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Epur, sior Geronte, ghe giuro, che mi ghe ve go inteso parlar. Lo sa tuta la zità.</p>
+      </sp>
+      <sp>
+        <speaker>Scrupolo</speaker>
+        <p>Idem. Lascio unico erede di tutte le mie facoltà niuna eccettuata, Ottavio, mio nipote,
+          diseredando ogni sorta di parenti maschi o femmine e ancora qualunque altra bestia di
+          parente lontano e figli che avessi senza saperlo.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Come ! Come ! Io non sono stato mai capace di queste cose.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>El ga fato benon a scarigar la sua coscienza.</p>
+      </sp>
+      <sp>
+        <speaker>Scrupolo</speaker>
+        <p>Idem ldem a Lisetta...</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Anche a Lisetta ?</p>
+      </sp>
+      <sp>
+        <speaker>Scrupolo</speaker>
+        <p>Due mila scudi, in danaro contante che sarà subito levato dal mio scrigno.</p>
+      </sp>
+      <pb n="48" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_048.jpg"/>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Eh ! Che questo è un inganno ! Questa non è mai stata la mia intenzione.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Xe sta l’ultimo svenimento. <stage type="corps">(a parte)</stage> Mi moro da la paura.</p>
+      </sp>
+      <sp>
+        <speaker>Scrupolo</speaker>
+        <p>Idem, lascio a Facanapa...</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>El cor el me salta in peto ! Adesso la sciopa !</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Cosa c’entra qui Facanapa ?</p>
+      </sp>
+      <sp>
+        <speaker>Scrupolo</speaker>
+        <p>Gli lascio cento scudi a l’anno, vita sua durante.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Vi dico, signor notaio...</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ma la senta, ma la scolti ! Ma la creda che el svenimento lassa la memoria cussì
+          debole.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Questo è un inganno ed io annullo questo testamento, e voglio sapere chi ne sia
+          l’autore.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <stage type="pers">(inginocchiandosi)</stage> <p>Ah signor zio, perdono !</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <stage type="pers">(inginocchiandosi)</stage> <p>Ah signor padrone, pietà !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <stage type="pers">(inginocchiandosi)</stage> <p>Sior Geronte, misericordia !</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Che vuol dir ciò ?</p>
+      </sp>
+      <pb n="49" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_049.jpg"/>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Sappiate che noi abbiamo creduto, nel vostro svenimento, che foste morto, e, per timore
+          che gli altri parenti, non avendo voi dichiarata la vostra volontà, pretendessero la loro
+          parte, Facanapa, fingendo di essere voi ha testato in vece vostra. Ora vi domandiamo
+          perdono ed aspettiamo da voi, amorosissimo zio, il nostro castigo.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Ah, sior vecio, privo de gioventù, la me perdoni.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Oh, signor padrone, perdono !</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Siete una bella razza di birbanti. <stage type="corps">(a Ottavio)</stage> lo però ti aveva destinato mio erede e
+          tale ora ti dichiaro; ma per tuo castigo approvo il testamento fatto, così ti resterà
+          tanto di meno.</p>
+      </sp>
+      <sp>
+        <speaker>Lisetta</speaker>
+        <p>Ah, respiro !</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Evviva ! Evviva ! Sior Geronte ? Ghe daria un baso, ma no ghe arivo.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Signora Eugenia, voi vedete ch'io mantengo quanto ho promesso, e adempite voi pure la
+          vostra promessa: concedetemi di sposare la signora Isabella.</p>
+      </sp>
+      <pb n="50" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_050.jpg"/>
+      <sp>
+        <speaker>Eugenia</speaker>
+        <p>Sebbene l’eredità sia diminuita, io ne sono contenta e quando il signor Geronte lo
+          approvi, io vi concedo la di lei mano.</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>lo per me approvo la loro unione.</p>
+      </sp>
+      <sp>
+        <speaker>Ottavio</speaker>
+        <p>Finalmente sono compiute le mie speranze !</p>
+      </sp>
+      <sp>
+        <speaker>Isabella</speaker>
+        <p>Ed io ho finito di sospirare e piangere.</p>
+      </sp>
+      <sp>
+        <speaker>Scrupolo</speaker>
+        <p>E intanto chi mi paga ?</p>
+      </sp>
+      <sp>
+        <speaker>Geronte</speaker>
+        <p>Vi pagherà chi vi ha dettato il testamento.</p>
+      </sp>
+      <sp>
+        <speaker>Facanapa</speaker>
+        <p>Son contento, contentin, e contenton, perché la xe una gran bela cosa far e pagar le
+          spese coi bezi dei altri. Senti, Liseta ! Za che la sorte ne ga favorido tutti do saremo
+          marì e mugier ! Intanto domandeghe pardon a sto uditorio cortese, che xe sta a sentir i
+          stramboti del testamento de Facanapa.</p>
+      </sp></div></div>
+      <div type="5"><head type="div5">Fine.</head><pb n="51" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_051.jpg"/><pb n="52" facs="19_I__IlTestamentoDiFacanapa_IT_IBM_052.jpg"/></div>
+    </body>
+  </text>
+</TEI>

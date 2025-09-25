@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="style_xml.css" type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ref="https://puppetplays.eu/oeuvres/200016/lalchimiste">Le Monstre et l'alchimiste</title>
+                <respStmt>
+                    <name xml:id="MSK">Maxine Schoehuys-Kreiss</name>
+                    <resp ref="maxine.schoehuys-kreiss@univ-montp3.fr">Edition</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="PM">Pierre Massinon</name>
+                    <resp>Transcription and edition</resp>
+                </respStmt>
+                <principal ref="didier.plassard@univ-montp3.fr" xml:id="DP">Didier Plassard</principal>
+                <sponsor>PuppetPlays project (ERC GA 835193)</sponsor>
+                <funder>European Research Council - ERC</funder>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Archives nationales (France)</distributor>
+                <availability status="free">
+                    <licence>Public domain</licence>
+                </availability>
+                <idno type="DOI"/>
+            </publicationStmt>
+            <notesStmt>
+                <note>Un alchimiste doit se débarrasser du monstre auquel il a donné
+                    naissance</note>
+                <note>La pièce fait partie du répertoire pour Guignol tel qu'il était joué dans
+                    les années 1850-1860 à Lyon, soit au Caveau des Célestins (1850-1862), soit au Café
+                    Condamin de la rue Port-du-Temple (1862-1869). Elle nous est connue par deux copies
+                    manuscrites. La première, réalisée par le marionnettiste Joanny Durafour (1853-1938)
+                    sur un cahier d'écolier à partir de manuscrits perdus de Vuillerme-Dunant, est
+                    conservée dans le fonds Léopold Dor du Musée des Arts de la Marionnette - Musées
+                    Gadagne (Lyon). La seconde, ici décrite, fait partie du répertoire joué
+                    à Paris par Laurent Josserand et Victor-Napoléon Vuillerme-Dunand, entre 1866 et
+                    1868, lorsque ceux-ci tentent d'y créer un Théâtre Guignol régulier dans un café de
+                    la rue Popincourt. Son manuscrit, sous le titre Le Monstre et
+                    l'alchimiste, est conservé aux archives de la censure (Archives Nationales,
+                    F/18/1216), avec un visa en date du 23 janvier 1867. Si l'action est identique dans
+                    cette deuxième version, on observe de nombreuses différences dans le nom des
+                    personnages (Amélie devient Émilie, le Baron de Valbreuze devient Baron de Kermann),
+                    le dialogue et le découpage en scènes.</note>
+            </notesStmt>
+            <sourceDesc>
+                <listPerson>
+                    <personGrp role="audience">
+                        <p>Non spécifié</p>
+                    </personGrp>
+                </listPerson>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Archives nationales (France),Intérieur; Théâtres. Censure des répertoires des "petits" théâtres parisiens : index des pièces (1802-1906), F/18/1216</repository>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <p>Number of pages in the original document: 21</p>
+                                <p>Number of acts in the original document: 3</p>
+                                <p>Format of the original document: Manuscrit</p>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </listBibl>
+                <bibl>
+                    <title type="main">Le Monstre et l'alchimiste</title>
+                    <title type="alt">Le Monstre et l'alchimiste</title>
+                    <date>1867</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+            <textClass>
+                <keywords source="animationTechniques">
+                    <term source="https://puppetplays.eu/techniques-d-animation/521/glove-puppets">Marionnette à gaine</term>
+                </keywords>
+                <keywords source="literaryTones">
+                    <term>Fantastique</term>
+                    <term>Comique</term>
+                </keywords>
+                <keywords source="theatricalTechniques">
+                    <term>Monologue</term>
+                    <term>Comique de langage</term>
+                    <term>Langue régionale comme marqueur social</term>
+                    <term>Aparté</term>
+                    <term>Pyrotechnie</term>
+                    <term>Explosion</term>
+                    <term>Apparition d'un monstre</term>
+                    <term>Fausse sortie</term>
+                    <term>Chute comique d’un personnage</term>
+                    <term>Évanouissement</term>
+                    <term>Disparition magique</term>
+                    <term>Course-poursuite</term>
+                    <term>Personnage mort parlant</term>
+                    <term>Apparition d'un fantôme</term>
+                    <term>Chanson finale</term>
+                </keywords>
+                <keywords source="genre">
+                    <term>Pièce fantastique</term>
+                </keywords>
+                <keywords source="keywords">
+                    <term>Alchimie</term>
+                    <term>Monstre</term>
+                    <term>Double</term>
+                    <term>Mariage</term>
+                    <term>Cimetière</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization method="silent">
+                    <p>The semi-diplomatic norms applied are intended to guide and facilitate the reading of the original texts. The transcriptions therefore include spelling and grammatical corrections according to current standards.</p>
+                    <p>The author's orthographic and grammatical corrections have been integrated into the text without being marked. Cuts for performance purposes have not been adopted in the transcription.</p>
+                    <p>Syntax has been modernised where it is naturally incorrect or has become incomprehensible today. Additions are limited and indicated by square brackets.</p>
+                    <p>The copyist's obvious errors (scene numbers, character attributions, etc.) have been corrected. The list of characters could also be corrected.</p>
+                </normalization>
+                <punctuation marks="some">
+                    <p>Punctuation has been corrected according to modern rules.</p>
+                </punctuation>
+            </editorialDecl>
+            <projectDesc>
+                <p>Text collected during the PuppetPlays project funded by European Union (Grant
+                    Agreement 835193) under Horizon 2020. The PuppetPlays project aims to
+                    re-evaluate the contribution of the puppets repertoire to the construction of
+                    European cultural identity. Its main goals is to collect a corpus of
+                    representative plays from Western Europe (Germany, Austria, Belgium, Spain,
+                    France, Great Britain, Italy, Netherlands, Portugal, Switzerland) between the
+                    17th and the 21th century. It also tries to identify the characteristics of
+                    puppet dramaturgy and their variations depending on eras, cultural spheres,
+                    producing conditions, and the aimed public.</p>
+                <p>This edition is the result of university research work, reviewed by the principal investigator.</p>
+                <p>This transcription and the editorial work are distributed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative
+                    Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA)
+                </ref> licence. This license enables reusers to distribute, remix, adapt, and
+                    build upon the material in any medium or format for non-commercial purposes
+                    only, and only so long as attribution is given to the creator. If you remix,
+                    adapt, or build upon the material, you must license the modified material under
+                    identical terms. </p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change when-iso="2025-09-18" who="#MSK">TEI Header created from a JSON extraction of the PuppetPlays' database.</change>
+            <change when-iso="2024-07-01" who="#PM">Text transcription and encoding</change> <!-- mandatory, can be repeated as many times as necessary, @when-iso should always be YYYY-MM-DD, @who should always match a defined @xml:id  -->
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>
+                <persName>Laurent Josserand</persName>
+            </docAuthor>
+            <docTitle>
+                <titlePart type="main">Le Monstre et l'alchimiste</titlePart>
+                <titlePart type="sub">Pièce fantastique en quatre tableaux</titlePart>
+            </docTitle>
+            <docDate>1867</docDate>
+            <castList>
+                <head type="personnage">Personnages </head>
+                <castItem>
+                    <role>Émile, </role>
+                    <roleDesc>alchimiste</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Guignol</role>
+                    <roleDesc>, son domestique</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Le Baron de Kermann</role>
+                </castItem>
+                <castItem>
+                    <role>Émilie</role>
+                    <roleDesc>, fille du Baron</roleDesc>
+                </castItem>
+                <castItem>
+                    <role>Le Monstre</role>
+                </castItem>
+                <castItem>
+                    <role>Un ancien Alchimiste</role>
+                </castItem>
+                <castItem>
+                    <role> Un Squelette</role>
+                </castItem>
+                <castItem>
+                    <role>Deux Fantômes</role>
+                </castItem>
+            </castList>
+            <set><p>Décors : Le laboratoire. Le salon. Le cimetière. La place du
+                village.</p></set>
+        </front>
+
+        <body>
+            <div type="1">
+                <head type="acte" n="1">Acte I</head>
+                <div type="3">
+                    <head type="scene" n="1">Scène 1</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Guignol]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Oui maître, soyez tranquille, tout sera prêt. Ah mon Dieu ! Dire que
+                            c'est peut-être aujourd'hui notre dernier jour, aujourd'hui que le
+                            maître termine sa dernière expérience, en vl'à une idée de vouloir créer
+                            un homme à lui tout seul. Je croyais qui n'y avait que les mamans pour ça.
+                            Aussi, crainte d'une catastrophe, j'ai voulu plus d'une fois quitter son
+                            service. Impossible, la première fois il m'a fait une favette, je suis revenu
+                            malgré moi. Enfin pourvu qu'il réussisse, il ne veut pas se marier sans
+                            ça. Si c'était moi, je l'épouserais ben tout de suite. Tiens, une idée !
+                            S'il réussit à faire son homme, je lui dirai de me faire une femme mais
+                            je la veux pas trop grande, pas trop petite, pas trop mince, pas trop
+                            grosse, et pas entêtée, je la veux exprès pour moi. Voici le maître.</p>
+                    </sp>
+                </div>
+                <div type="3">
+                    <head type="scene" n="2">Scène 2</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Émile, </name>
+                            <name>Guignol]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Eh bien Guignol, as-tu fait tout ce que je t'ai commandé ? </p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Pas tout à fait. Vive donc petit maître, c'est ben le dernier, t'y pas
+                            ? </p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Oui mon Guignol, c'est ma dernière épreuve. Si elle réussit, je serai au
+                            comble de mes voeux. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Dites donc maître, vous auriez bien mieux fait de fabriquer une femme
+                            bien canante, au moins je l'aurais épousée. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Allons c'est bien, rentre. Tu finiras de piler toutes les racines que je
+                            t'ai données.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Ce sera pas trop tôt, à chaque coup de pilon que je donne, j'éternue ou
+                            ben je danse, en vl'à un amusement.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Je te le répète, cette fois c'est la dernière que je m'occupe
+                            d'alchimie.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Vous ne ferez pas mal, je ne veux plus faire d'ascension sans ballon. Ah !
+                            je me souviens encore de ça comme si c'était aujourd'hui malgré qu'il y
+                            a six mois. Nous étions tous les deux à cette même place, vous attendiez
+                            l'effet d'une expérience comme vous appelez ça, tout d'un coup la machine
+                            éclate, je saute en l'air et je me trouve perché sur votre crocodile,
+                            heureusement pour moi, sans lui j'étais en morceaux. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Tu n'as eu que quelques contusions dont je t'ai guéri. Voyons bavard,
+                            retourne à ton ouvrage. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>J'y vas maître, c'est égal, il me tarde que la journée soit finie. <stage
+                                type="corps">(Il sort.)</stage></p>
+                    </sp>
+                </div>
+                <div type="3">
+                    <head type="scene" n="3">Scène 3</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Émile]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <stage type="pers">(il regarde le creuset)</stage>
+                        <p>Enfin, j'ai fini de réaliser les substances nécessaires pour terminer
+                            cette expérience qui doit me donner la fortune [à], et mettre le comble, ma
+                            réputation. J'aurai accompli ce que pas un alchimiste n'a osé tenter,
+                            créer un être vivant beau, fort, soumis à ma puissance, un être qui
+                            possèdera toutes les perfections. Ce sera le fruit de dix années de
+                            travail. Aussi ma récompense sera grande car je pourrai offrir à celle
+                            que j'aime un nom illustré par le talent et par les actes si je peux
+                            réussir. Guignol, Guignol !</p>
+                    </sp>
+
+                </div>
+                <div type="3">
+                    <head type="scene" n="4">Scène 4</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Guignol, </name>
+                            <name>Émile]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Maître, me voilà, j'ai fini de tout préparer. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>C'est bien. Dans quelques instants, ma fiancée et son père vont arriver,
+                            tu les introduiras ici puis tu viendras me prévenir, tu as bien compris
+                            ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Oui, maître.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Je compte sur toi.<stage type="corps"> (Il sort.)</stage></p>
+                    </sp>
+
+                </div>
+                <div type="3">
+                    <head type="scene" n="5">Scène 5</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Guignol]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <stage type="pers">(il regarde)</stage>
+                        <p>Et dire que c'est dans c'te marmite que va sortir un homme <stage
+                                type="corps">(Un serpent arrive.)</stage> Ah ! c'te gredine qui
+                            s'est échappée du bocal, veux-tu rentrer, attends. <stage type="corps"
+                                >(Il va chercher une couverture et enveloppe la vipère.)</stage> Là,
+                            dans le bocal. <stage type="corps">(Il sort. On entend sonner.)</stage>
+                            On y va. Qui est-ce, qui est là ?</p>
+                    </sp>
+
+                </div>
+                <div type="3">
+                    <head type="scene" n="6">Scène 6</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Le Baron, </name>
+                            <name>Émilie, </name>
+                            <name>Guignol, </name>
+                            <name>Émile]</name>
+                        </personGrp>
+                    </listPerson>
+
+                    <sp>
+                        <speaker> Le Baron et sa fille</speaker>
+                        <p>Nous. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Qui nous ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>C'est moi, Guignol ! Tu ne nous reconnais donc pas ? </p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Oh ! oui ! Attendez ! Maître, c'est mademoiselle Émilie et son papa, [qu'est]-ce qu'y faut leur dire ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Mais maraud, va vite leur ouvrir.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Ah bon, vous êtes bien sûr que c'est
+                            vous ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Oui, oui, ouvre vite.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Maître ! Ils m'ont assuré que c'étaient eux. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Mais va donc vite, je ne puis pas quitter ce que je fais.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Vous pouvez entrer, monsieur Émile me l'a dit.</p>
+                    </sp>
+
+                </div>
+                <div type="3">
+                    <head type="scene" n="7">Scène 7</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Le Baron, </name>
+                            <name>Émilie, </name>
+                            <name>Guignol]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>C'est très heureux, c'est pire que l'entrée d'une citadelle.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Le Baron</speaker>
+                        <p>C'est que Guignol est un domestique modèle.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Ton maître, où est-il ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Il va venir mademoiselle. Il est occupé. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Ne le dérange pas, nous attendrons bien quelques minutes. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Bon, mademoiselle, je [vais] lui dire. <stage type="corps">(Il
+                                sort.)</stage></p>
+                    </sp>
+
+                </div>
+                <div type="3">
+                    <head type="scene" n="8">Scène 8</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Le Baron, </name>
+                            <name>Émilie]</name>
+                        </personGrp>
+                    </listPerson>
+
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p> Regardez, mon père, comme tout cela est curieux.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Le Baron</speaker>
+                        <p>C'est vrai, mon enfant, mais bientôt il abandonnera tout cela, et tu n'en
+                            sera pas fâchée.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>C'est vrai, mon père, je l'aime tant que je crains toujours pour lui
+                            quelque accident.</p>
+                    </sp>
+
+                </div>
+                <div type="3">
+                    <head type="scene" n="9">Scène 9</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Le Baron, </name>
+                            <name>Émilie, </name>
+                            <name>Émile]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Monsieur le Baron, et vous mademoiselle, daignez me pardonner de vous avoir fait
+                            attendre mais vous le savez, un alchimiste ne s'appartient pas
+                            toujours.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Le Baron</speaker>
+                        <p>Vous n'avez pas besoin de vous excuser mon cher Émile, le temps de
+                            visiter votre laboratoire, puis ensuite nous vous laisserons à vos
+                            travaux !</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>N'est-ce pas là ce fameux creuset d'où doit sortir votre dernière
+                            expérience, celle qui doit mettre le comble à votre gloire ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Et me rendre digne de vous, mademoiselle, si je réussis.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Ai-je donc besoin de cela pour vous aimer ? Mais dites-moi, mon ami,
+                            pourquoi ce creuset est-il plutôt en terre qu'en fer ou en fonte ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Parce qu'en terre, il peut supporter cent degrés de chaleur de plus.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Le Baron</speaker>
+                        <p>Allons, mon enfant, retirons-nous, ne gênons pas plus longtemps
+                            Émile.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Je vous suis mon père, vous savez ce que vous m'avez promis, j'ai foi en
+                            votre parole. Demain, à midi au plus tard, je vous attends chez mon père.
+                            Ah ! qu'il me tarde que tout soit fini !...</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Soyez sans crainte, il n'y a aucun danger pour moi. Demain avant midi, je
+                            serai près de vous.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Le Baron</speaker>
+                        <p>Au revoir, mon gendre. Viens, ma fille.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Monsieur le Baron, mademoiselle, j'ai l'honneur de vous saluer. Guignol,
+                            accompagne monsieur le Baron et ma fiancée jusqu'à leur voiture. Pardon,
+                            je me trouve forcé de vous laisser. <stage type="corps">(Il
+                                sort.)</stage></p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Au revoir Émile, à demain.</p>
+                    </sp>
+
+                </div>
+                <div type="3">
+                    <head type="scene" n="10">Scène 10</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Le Baron, </name>
+                            <name>Émilie, </name>
+                            <name>Guignol]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Le Baron</speaker>
+                        <p>Voyons mon enfant, sois raisonnable et partons.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Écoute mon bon Guignol, je sais que tu aimes ton maître. Et bien, s'il y a
+                            quelque danger, prends sa place et je te récompenserai. <stage
+                                type="corps">(Le Baron sort.)</stage></p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>C'est ça, quand je serai mort, vous me donnerez des étrennes, merci.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Tu es bien courageux ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Je crois que oui, j'en suis pas bien sûr mademoiselle.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Par amitié pour lui, et pour moi, veille à ce qu'il n'arrive rien. À
+                            demain. <stage type="corps">(Elle sort.)</stage>
+                        </p>
+                    </sp>
+
+                </div>
+                <div type="3">
+                    <head type="scene" n="11">Scène 11</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Guignol]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Elle croit que c'est facile de veiller, moi surtout qui suis peureux
+                            comme un rat.</p>
+                    </sp>
+
+                </div>
+                <div type="3">
+                    <head type="scene" n="12">Scène 12</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Émilie, </name>
+                            <name>Guignol]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Guignol ! Voyons, que fais-tu là ? Vite, le temps presse, apporte ce flaçon
+                            qui contient de la langue de perroquet.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Oui maître, tout de suite. <stage type="corps">(Il sort et
+                                revient.)</stage> Voilà. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Bien, maintenant les paquets qui sont sur la table.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Voilà maître.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Maintenant, observe le plus grand silence. C'est étrange, cette flamme
+                            qui voltige ne présage rien de bon. Me serais-je trompé ? Aurais-je
+                            oublié quelque substance ? Guignol, j'ai peur, serais-je déçu dans mon
+                            attente ? Prends garde, nous sommes perdus !</p>
+                    </sp>
+                    <stage type="saut">Explosion du creuset. Il en sort un monstre qui regarde
+                        Guignol, va vers Émile et se sauve.</stage>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <stage type="pers">(crie)</stage>
+                        <p>Maître, c'est fait de nous, je suis mort.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Malheureux, qu'ai-je fais, Guignol reviens à toi, courons après ce
+                            monstre. Tâchons de l'arrêter, pourvu qu'il n'ait pas occasionné quelque
+                            malheur, mais viens donc ! <stage type="corps">(Ils sortent.)</stage></p>
+                    </sp>
+                    <stage type="saut">On entend des cris, le bruit des cloches, l'orage au
+                        loin.</stage>
+
+                </div>
+            </div>
+            <div type="1">
+                <head type="acte" n="2">Acte II</head>
+                <div type="3">
+                    <head type="scene" n="1">[Scène 1]</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Le Baron, </name>
+                            <name>Émilie, </name>
+                            <name>Guignol]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Le Baron</speaker>
+                        <p>Rassure-toi mon enfant. Émile est sain et sauf, dans quelques instants il
+                            sera ici.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Je suis d'une inquiétude ! Peut-être me cachez-vous quelque chose... Mais
+                            Guignol, comment n'est-il pas encore venu me rassurer ? </p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Monsieur le Baron, mademoiselle.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Enfin le voici ! Guignol, et Émile où est-il ?</p>
+                    </sp>
+
+                </div>
+                <div type="3">
+                    <head type="scene" n="2">Scène 2</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Émilie, </name>
+                            <name>Guignol]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <stage type="pers">(il tremble)</stage>
+                        <p>Il me suit ! Ah mademoiselle, si vous l'aviez vu ! Il y a de quoi mourir
+                            de frayeur.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Il est donc bien affreux.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Un vrai monstre, mademoiselle, il fait sauver tout le monde.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Pauvre Émile, qu'il doit être désolé.</p>
+                    </sp>
+
+                </div>
+                <div type="3">
+                    <head type="scene" n="3">Scène 3</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Émile</name>
+                            <name>Émilie, </name>
+                            <name>Le Baron, </name>
+                            <name>Guignol]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Monsieur le Baron, mademoiselle, vous le savez déjà sans doute, mon
+                            oeuvre a été fausse malgré mes efforts, je n'ai pu créer qu'un
+                            monstre.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>N'en ayez point de regret mon ami, cela vous guérira de votre passion
+                            pour la chimie. Maintenant vous serez tout à votre femme.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Merci. Près de vous j'oublierai tout, je vous le jure.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Le Baron</speaker>
+                        <p>Comme tout cela ne nous empêcheras pas de signer le contrat aujourd'hui,
+                            vous allez me suivre mon gendre, nous avons à parler d'affaire. Et toi,
+                            mon enfant, pense à ta toilette, Venez. <stage type="corps">(Il
+                                sort.)</stage></p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>À bientôt, ma belle fiancée.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>À bientôt, mon ami. <stage type="corps">(Guignol va pour sortir. Émilie
+                                l'appelle.)</stage> Guignol écoute, tu l'as vu ce monstre, il est
+                            bien laid ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Comme je vous vois !</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Il est bien grand ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Oui ! Non ! Si. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Quelle couleur est-il ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Jaune, bleu, gris, vert, il a une bouche plus grande qu'un four, des yeux
+                            comme une grosse cloche, des cheveux on dirait des serpents, les pieds
+                            tout crochus. Ah ! mademoiselle, si vous le voyiez, il vous ferait mourir
+                            de frayeur.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>C'est bien, j'en sais assez. Va-t-en. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Oui mademoiselle, je peux y aller à la cuisine ? J'aurais bien besoin de
+                            prendre un bouillon.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Oui, va, laisse-moi. <stage type="corps">(Il sort en
+                            tremblant.)</stage></p>
+                    </sp>
+                </div>
+                <div type="3">
+                    <head type="scene" n="4">Scène 4</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Émilie]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Il a bien fait de s'en aller, ce qu'il me racontait de ce monstre, malgré
+                            moi, me donnait le frisson. Ne songeons plus à cela, ne pensons plus
+                            qu'à mon bonheur. Cher Émile, qu'il me tarde d'être sa femme. <stage
+                                type="corps">(Le Monstre paraît, regarde avec curiosité et suit tous
+                                les mouvements d'Émilie.)</stage> Quelle toilette mettrai-je ? Le
+                            rose me sied assez bien et dans mes cheveux, mes camélias. <stage
+                                type="corps">(Elle se regarde dans la glace et jette un
+                                cri.)</stage> Ah ! voilà qui est étrange, là dans cette glace, il m'a
+                            semblé voir un monstre. Effet de mon imagination, sans doute : les paroles
+                            de Guignol qui me reviennent à la pensée. Folle que je suis ! Comment ce
+                            monstre aurait-il pu s'introduire dans ce salon ? Voyons, du courage, je
+                            veux m'en assurer. <stage type="corps">(Elle regarde.)</stage> Ah ! cette
+                            fois, je ne me trompe pas, cet horrible visage. <stage type="corps"
+                                >(Elle se retourne et voit le Monstre à côté d'elle.)</stage> Au
+                            secours ! Mon père, à moi ! <stage type="corps">(Émile paraît, [il] sort
+                                chercher des armes pour tuer le Monstre qui disparait dans la glace,
+                                pendant ce temps Guignol, qui l'a vu, pousse des cris affreux. On
+                                entraîne Émilie évanouie.)</stage></p>
+                    </sp>
+                </div>
+                <div type="3">
+                    <head type="scene" n="5">Scène 5</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Guignol, </name>
+                            <name>Émile]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Grâce, ne me faites pas de mal !</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Guignol, viens, suis moi. Je veux à tout prix détruire ce monstre et c'est
+                            dans le cimetière près de la tombe d'un ancien alchimiste que je trouverais l'herbe qui doit le rendre à la
+                            terre. Allons, viens ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Ah ! maître, soutenez-moi, sans ça jamais j'arrive.</p>
+                    </sp>
+
+                </div>
+            </div>
+            <div type="1">
+                <head type="acte" n="3">Acte III</head>
+                <div type="3">
+                    <head type="scene" n="1">Scène 1</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Guignol]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Oh ! que ça fait vilain par ici, j'aimerais pas y demeurer, enfin c'est
+                            égal, pourvu que le maître trouve ce qu'il est venu y chercher. Je ne
+                            sais pas pourquoi, j'ai toujours devant les yeux la tête du Monstre.
+                                <stage type="corps">(Au moment où il dit cela, il se trouve en face
+                                du Monstre et pousse un cri)</stage> Ah ! maître, au secours !
+                                <stage type="corps">(Le Monstre disparait.)</stage></p>
+                    </sp>
+
+                </div>
+                <div type="3">
+                    <head type="scene" n="2">Scène 2</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Émile, </name>
+                            <name>Guignol, </name>
+                            <name>Le Squelette]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Qu'as tu donc ? Pourquoi ces cris ? Encore ta poltronnerie. Voyons,
+                            aide-moi à chercher cette herbe ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Oui maître, c'est l'autre que je vois toujours en face <stage type="corps">(Un
+                                Squelette paraît.)</stage> Ah ! carême !</p>
+                    </sp>
+                    <sp>
+                        <speaker>Le Squelette</speaker>
+                        <p>Faible mortel, que veux-tu ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p> Que tu m'indiques l'herbe qui doit détruire le Monstre que j'ai créé.
+                        </p>
+                    </sp>
+                    <sp>
+                        <speaker>Le Squelette</speaker>
+                        <p>Je ne puis rien, adresse-toi à cette tombe qui est à côté, c'est celle
+                            d'un vieux alchimiste. Il t'indiquera ce que tu cherches. Adieu et ne
+                            reviens plus profaner nos tombes. <stage type="corps">(Il
+                                disparait.)</stage></p>
+                    </sp>
+                </div>
+                <div type="3">
+                    <head type="scene" n="3">Scène 3</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[L'Alchimiste, </name>
+                            <name>Guignol, </name>
+                            <name>Émile]</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker>L'Alchimiste</speaker>
+                        <p>Enfin, j'ai quelques chances de réussite. Guignol, que fais-tu là ?
+                            Reviens à toi, il n'y a aucun danger.</p>
+                    </sp>
+
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Carême est-il parti ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Oui, je vais m'approcher de cette tombe, si elle s'ouvre je suis sauvé.
+                            Allons Guignol, tâche d'avoir du courage.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Je veux bien maître, pourvu qu'y ait pas de danger. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Tais-toi, ne m'interromps plus. <stage type="corps">(Il frappe.
+                                L'Alchimiste paraît.)</stage></p>
+                    </sp>
+
+                    <sp>
+                        <speaker>L'Alchimiste</speaker>
+                        <p>Quel est l'audacieux qui ose venir me troubler dans mes méditations ?</p>
+                    </sp>
+
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Pardonnez ma témérité, à vous seul le savoir, à vous seul la science, je
+                            viens implorer vos conseils. </p>
+                    </sp>
+
+                    <sp>
+                        <speaker>L'Alchimiste</speaker>
+                        <p>Oui, je le sais, tu as voulu faire plus que tes ancêtres, tu as voulu
+                            créer un être soumis à tes volontés et tu n'as fait qu'un Monstre, tu as
+                            même cherché à le détruire avec une arme à feu. Insensé, tu ne sais pas
+                            que ce Monstre ne vit que par toi ? En le tuant, tu te tuerais toi-même
+                            car il ne te quitte pas, il te suit comme ton ombre. Dans quelques
+                            instants, il sera ici. Cette tombe l'engloutira. S'il fait résistance,
+                            des fantômes l'entraineront dans les entrailles de la terre. Toi aussi,
+                            l'alchimiste, et ne viens plus troubler le repas des morts. Adieu.
+                                <stage type="corps">(Il rentre dans la tombe.)</stage></p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p> Guignol, nous sommes sauvés, tu n'as donc pas entendu ce que
+                            l'alchimiste vient de me dire. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <stage type="pers">(il lève doucement la tête)</stage>
+                        <p>Est-il parti Mardi-gras ? </p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Mais oui, imbécile. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>En v'là un qui a une meilleure gargotte que l'autre, il se porte bien.
+                        </p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Le Monstre ne peut tarder de venir, sa dernière [heure] va bientôt sonner.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Il va encore venir ? Où diable pourrai-je me cacher ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Silence, le voici. <stage type="corps">(Guignol se cache. Le Monstre
+                                s'approche de la tombe, puis recule devant la flamme.)</stage> Le
+                            malheureux, il voudrait résister. <stage type="corps">(Même jeu)</stage>
+                            Guignol, viens m'aider ! <stage type="corps">(Il va pour s'approcher du
+                                monstre, des flammes le font reculer.)</stage>
+                        </p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p> Vous aider, maître ! Non, non, je ne veux pas renouveler sa
+                            connaissance.</p>
+                    </sp>
+                    <stage type="saut">Le monstre se rapproche de la tombe. Deux fantômes le
+                        saisissent et s'engloutissent avec lui.</stage>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Guignol ! Englouti ! Disparu ! Enfoncé ! Nous sommes sauvés !</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Tiens, par où est-il donc passé ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Là, là, vois plutôt.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <stage type="pers">(s'approche, une flamme le fait reculer)</stage>
+                        <p>Ah ! je savais bien qu'il me ferait encore une farce. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Ne restons pas plus longtemps ici. Maintenant, je ne crains plus rien.
+                            Viens, suis moi chez monsieur le Baron.</p>
+                    </sp>
+
+                </div>
+            </div>
+            <div type="1">
+                <head type="acte" n="4">Acte IV</head>
+                <div type="3">
+                    <head type="scene" n="1">Scène 1</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>[Les paysans, </name>
+                            <name>Gnafron, </name>
+                            <name>Guignol]</name>
+                        </personGrp>
+                    </listPerson>
+
+                    <sp>
+                        <speaker>Gnafron</speaker>
+                        <p>Comme ça tu dis donc, Chignol, que c'est en partie toi qui as détruit ce
+                            monstre ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Oui, moi et mon courage ! Sans cela, le maître et mademoiselle Émilie
+                            étaient perdus. Ils étaient dévorés mais, grâce à mon énergie, je les en
+                            ai débarrassés. </p>
+                    </sp>
+                    <stage type="saut">Il raconte ce qui s'est passé au cimetière, le tout à son
+                        avantange.</stage>
+                    <sp>
+                        <speaker>Tous</speaker>
+                        <p>Oh ! quel courage !</p>
+                    </sp>
+                </div>
+
+                <div type="3">
+                    <head type="scene" n="2">[Scène 2]</head>
+                    <listPerson>
+                        <personGrp>
+                            <name>Le Baron, </name>
+                            <name>Émilie, </name>
+                            <name>Émile, </name>
+                            <name>Guignol, </name>
+                            <name>Gnafron</name>
+                        </personGrp>
+                    </listPerson>
+                    <sp>
+                        <speaker></speaker>
+                        <stage type="saut">Tous saluent monsieur le Baron et la compagnie.</stage>
+                    </sp>
+                    <sp>
+                        <speaker>Le Baron</speaker>
+                        <p>Bonjour mes amis, vous savez que c'est fête au château. Vous avertirez
+                            vos camarades, il y a bombance générale. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p> Que vous êtes bon mon père, je suis si heureuse que vous vouliez que tout
+                            le monde le soit.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Guignol, tu ne voudrais pas me tromper toi, n'est-ce pas que ce Monstre,
+                            sans que l'on sache comment, s'est introduit dans le salon, que c'est
+                            bien lui que j'ai vu ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p> Oui ! <stage type="corps">(On lui fait signe.)</stage> Non ! Comment
+                            donc qu'il faut dire ?</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Avouez-moi la vérité, je la préfère à cette incertitude. </p>
+                    </sp>
+                    <sp>
+                        <speaker>Émile</speaker>
+                        <p>Eh bien oui, mademoiselle, vous ne vous étiez pas trompée, mais à présent
+                            vous n'avez plus aucune crainte à avoir, ce monstre est complétement
+                            disparu et ne reparaitra jamais.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>J'en réponds, mademoiselle, c'est moi qui l'ai poussé quand il s'est
+                            enfoncé dans la terre.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Émilie</speaker>
+                        <p>Puisque tu es si courageux que cela, je tiendrai ma promesse, je te
+                            marie.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <p>Merci, mademoiselle, je l'ai bien mérité.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Le Baron</speaker>
+                        <p>Nous ferons les deux noces ensembles.</p>
+                    </sp>
+                    <sp>
+                        <speaker>Guignol</speaker>
+                        <stage type="air">Couplet</stage>
+                        <lg>
+                            <l>Mon maître a quitté l'alchimie,</l>
+                            <l> Il était temps je me sentais mourir.</l>
+                            <l>Mais j'espérais qu'en quittant cette vie</l>
+                            <l>Vous m'auriez tous gardé un souvenir.</l>
+                            <l> Mais si un jour dans vos heureux ménages,</l>
+                            <l>Un moment hideux troublait vos doux instants,</l>
+                            <l>Pour l'éloigner faites donc du tapage</l>
+                            <l>Applaudissez, venez nous voir souvent. <stage type="corps">(bis)</stage></l>
+                        </lg>
+                    </sp>
+                    <stage type="air"> Le rideau tombe</stage>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
