@@ -1,0 +1,1 @@
+Ici se trouvent toutes les transcriptions encodées en XML TEI de l'anthologie du projet ERC PuppetPlays. Ces fichiers sont aussi disponibles dans la collection Nakala : https://nakala.fr/collection/10.34847/nkl.1ded03r2
