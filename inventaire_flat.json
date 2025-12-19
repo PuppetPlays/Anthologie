@@ -1,0 +1,4959 @@
+[
+  {
+    "dc:title": [
+      "Jonas: Ein lustigs",
+      "auch kurtzes",
+      "vnd nicht minder nutzes Spiel",
+      "von der Buszpredigt Jona des Propheten zu Niniue",
+      "Vnd wie alles Volck der Stadt",
+      "seinen worten glaubt",
+      "vnd ernstliche Busz gethan habe",
+      "..."
+    ],
+    "dc:subject": "https://puppetplays.eu/oeuvres/245866/jonas",
+    "dc:date": "1582",
+    "dc:description": [
+      "Imprimé",
+      "écriture gothique."
+    ],
+    "dc:publisher": [
+      "Biblioteka Jagiellońska - Cracovie",
+      "Pologne"
+    ],
+    "dc:identifier": "https://fbc.pionier.net.pl/id/oai:jbc.bj.uj.edu.pl:928463",
+    "dc:source": [
+      "Biblioteka Jagiellońska",
+      "Berol Yq 766 R"
+    ],
+    "dc:language": "deu",
+    "dc:relation": "16_D_KLEIN_ROTH_Jonas_ALL_JAG",
+    "dc:coverage": [
+      "Ausbourg",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Roth, Simon ; Klein, Balthasar ; http://www.idref.fr/179812580/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les Prétendants de Caroline",
+    "dc:subject": "https://puppetplays.eu/oeuvres/286060/les-prétendants-de-caroline",
+    "dc:description": "dactylographie",
+    "dc:publisher": "Bibliothèque nationale de France",
+    "dc:language": "fra",
+    "dc:relation": "20_F_BATY_LesPretendantsDeCaroline_FR_BNF",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:creator": "Baty, Gaston",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Azachiels Zauberfluch",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.d6e5w986",
+    "dc:source": "DESSM",
+    "dc:language": "deu",
+    "dc:relation": "_D__AzachielsZauberfluch_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Casperl im Uhrkasten",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.fcba33j4",
+    "dc:source": "DESSM",
+    "dc:language": "deu",
+    "dc:relation": "_D__CasperlImUhrkasten_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Casperls geburt und abenteuer",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.65daq86p",
+    "dc:source": "DESSM",
+    "dc:language": "deu",
+    "dc:relation": "_D__CasperlsGeburtUndAbenteuer-1_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Casperls geburt und abenteuer",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.d42ebt8g",
+    "dc:source": "DESSM",
+    "dc:language": "deu",
+    "dc:relation": "_D__CasperlsGeburtUndAbenteuer-2_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Graf Reimund",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.cbc991qs",
+    "dc:source": "DESSM",
+    "dc:language": "deu",
+    "dc:relation": "_D__GrafReimund_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Casperl todt und lebendig",
+    "dc:date": "1859",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.bdfe3wmh",
+    "dc:source": "DESSM",
+    "dc:language": "deu",
+    "dc:relation": "_D_SCHMID_CasperlTodtUndLebendig_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Schmid, Joseph Leonhard",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Isarblich vulgo Rheingold",
+    "dc:date": "1869",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.87f35022",
+    "dc:source": "DESSM",
+    "dc:language": "deu",
+    "dc:relation": "19_D__IsarblichVulgoRheingold_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Lust-spiele für das Pulcinell Theater",
+    "dc:date": "1878",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.dccajwv5",
+    "dc:source": "DESSM",
+    "dc:language": "deu",
+    "dc:relation": "19_D_MULLER_SechsNeueLustspieleFurDasPolicinellTheater_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Müller, Alphonse",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Crème au lait",
+    "dc:date": "1859",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.8cce7jh9",
+    "dc:source": [
+      "DESSM. Manuskript",
+      "Fundus Schmid/Winkler: PS-2016/42.1.288"
+    ],
+    "dc:language": "deu",
+    "dc:relation": "19_D_KOBELL_CremeAuLait_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Kobell, Franz von",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Kapitän Dreÿfuss",
+    "dc:date": "1900",
+    "dc:description": [
+      "Lors de la numérisation",
+      "la deuxième partie qui était incomplète à l&apos;origine",
+      "a été remplacée par une version plus tardive"
+    ],
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.a88fvxfq",
+    "dc:source": [
+      "DESSM. Manuskript",
+      "Albert Wünsch: Ms 8'/9574"
+    ],
+    "dc:language": "deu",
+    "dc:relation": "20_D__KaptanDreyfuss_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Sherlock Holms der meister-detektiv",
+    "dc:date": "192X",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.abefpr57",
+    "dc:source": "DESSM. TM51",
+    "dc:language": "deu",
+    "dc:relation": "20_D__SherlockHolms_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Puppenspiele",
+    "dc:date": "1929",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.93bf10gh",
+    "dc:source": "DESSM.  XP 1",
+    "dc:language": "deu",
+    "dc:relation": "20_D_FRANCK_Puppenspiele_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Franck, Philipp ; http://www.idref.fr/15879690X/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Das puppenspiel",
+    "dc:date": "1917",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.a9be446y",
+    "dc:source": "DESSM. V 45",
+    "dc:language": "deu",
+    "dc:relation": "20_D_SYLVESTER_DasPuppenspiel_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Ernst, Sylvester",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Der Dichter Ein vorspiel Vormitternacht Ein Schattenspiel der Seele von Alexander von Bernus",
+    "dc:subject": "https://puppetplays.eu/oeuvres/398292/der-dichter",
+    "dc:date": "1907",
+    "dc:description": [
+      "cahier de la maison d&apos;édition Schwabinger Schattenspiele",
+      "Munich. Version corrigée de la main de l&apos;auteur"
+    ],
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.37d267i8",
+    "dc:source": "DESSM. XSCH 54-62",
+    "dc:language": "deu",
+    "dc:relation": "20_D_VON-BERNUS_DerDichterAnnotated_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Bernus, Alexander von ; http://www.idref.fr/134862937/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Sieben Schattenspiele",
+    "dc:date": "1910",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.34b1uqy7",
+    "dc:source": "DESSM. XSCH 33",
+    "dc:language": "deu",
+    "dc:relation": "20_D_VON-BERNUS_SiebenSchattenspiele_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Bernus, Alexander von ; http://www.idref.fr/134862937/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "Grey and Co. oder King Edward&apos",
+      "s unselige erben"
+    ],
+    "dc:subject": "https://puppetplays.eu/oeuvres/4947/grey-co",
+    "dc:date": "1917",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.e1bd3h7n",
+    "dc:source": "DESSM. XP 401",
+    "dc:language": "deu",
+    "dc:relation": "20_D_VON-OSTINI_GreyAndCoOderKingEdwardsUnseligeErben_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Ostini, Fritz von ; http://www.idref.fr/053429060/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.0abc06y3",
+    "dc:source": "DESSM. 7214",
+    "dc:language": "deu",
+    "dc:relation": "_D__7214_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Histoire du terrible Chevalier Fichtou",
+    "dc:subject": "https://puppetplays.eu/oeuvres/243007/histoire-du-terrible-chevalier-fichtou",
+    "dc:date": "18XX",
+    "dc:description": [
+      "Cahier. Retranscription manuscrite par Pierre-Paul Pinet d&apos;une pièce de théâtre de marionnettes du Comte de Tressan. fermé: 21 × 17 × 0",
+      "5 cm. ouvert: 21 × 34 cm. Écriture manuscrite ; Encre  noire et rouge sur Papier"
+    ],
+    "dc:publisher": "Province de Liège-Musée de la Vie Wallonne",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.63ddlz6q",
+    "dc:source": "Province de Liège-Musée de la Vie Wallonne. MVW-2098702",
+    "dc:language": "wln",
+    "dc:relation": "19_B_PINET_HistoireDuTerribleChevalierFichtou_WLN_MVW",
+    "dc:coverage": [
+      "Liège",
+      "Belgique"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Pinet, Pierre Paul ; http://www.idref.fr/275595617/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Dans le grand désert blanc ou Chanchet au Pôle Nord",
+    "dc:date": "1969",
+    "dc:description": [
+      "Texte littéraire. Texte d&apos",
+      "une pièce faisant partie du répertoire du théâtre de marionnettes liégeoises. 29 × 23 cm. Dactylographie sur papier en noir et blanc"
+    ],
+    "dc:publisher": "Province de Liège-Musée de la Vie Wallonne",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.c9f88h6i",
+    "dc:source": "Province de Liège-Musée de la Vie Wallonne. MVW-2072211",
+    "dc:language": "wln",
+    "dc:relation": "20_B__DansLeGrandDesertBlanc_WLN_MVW",
+    "dc:coverage": [
+      "Liège",
+      "Belgique"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "La Dame du Château d&apos",
+      "Amblève"
+    ],
+    "dc:date": "1925",
+    "dc:description": [
+      "Feuilles. Dactylographie de la pièce de théâtre des marionnettes liégeoises : \"La Dame du Château d&apos;Amblève\". feuillets au format  A4",
+      "soit: 27",
+      "4 × 21",
+      "4 cm. Dactylographie ; Encre de couleur  bleue sur Papier vert. Les Amis de l&apos;Art populaire - Section des Marionnettes liégeoises"
+    ],
+    "dc:publisher": "Province de Liège-Musée de la Vie Wallonne",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.ad2b9f33",
+    "dc:source": "Province de Liège-Musée de la Vie Wallonne. MVW-2298787",
+    "dc:language": "wln",
+    "dc:relation": "20_B__LaDameDuChateauDAmbleve_WLN_MVW",
+    "dc:coverage": [
+      "Liège",
+      "Belgique"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Destin de la Princesse Eglantine",
+    "dc:subject": "https://puppetplays.eu/oeuvres/244793/le-destin-de-la-princesse-%C3%A9glantine",
+    "dc:date": "1927",
+    "dc:description": [
+      "Feuilles. Dactylographies de la pièce de théâtre des marionnettes liégeoises : \"Le Destin de la Princesse Eglantine\". La plupart des feuillets au format  A4",
+      "soit: 28 × 22 cm. Dactylographie ; Encre de couleur  bleue et noire sur Papier"
+    ],
+    "dc:publisher": "Province de Liège-Musée de la Vie Wallonne",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.088cg3xl",
+    "dc:source": "Province de Liège-Musée de la Vie Wallonne. MVW-2098915",
+    "dc:language": "wln",
+    "dc:relation": "20_B__LeDestinDeLaPrincesseEglantine_WLN_MVW",
+    "dc:coverage": [
+      "Liège",
+      "Belgique"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les Quatre Fils Aymon",
+    "dc:date": "1925",
+    "dc:description": [
+      "Feuilles. Dactylographie du chapitre 1 de la pièce de théâtre des marionnettes liégeoises : Les Quatre Fils Aymon. Les feuillets au format  A4 (sauf un)",
+      "soit: 27",
+      "5 × 22 cm. Dactylographie ; Encre de couleur  bleue sur Papier"
+    ],
+    "dc:publisher": "Province de Liège-Musée de la Vie Wallonne",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.e910rgfa",
+    "dc:source": "Province de Liège-Musée de la Vie Wallonne. MVW-2095793",
+    "dc:language": "wln",
+    "dc:relation": "20_B__LesQuatresFilsAymon_WLN_MVW",
+    "dc:coverage": [
+      "Liège",
+      "Belgique"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "Ogier l&apos",
+      "Ardennois"
+    ],
+    "dc:subject": "https://puppetplays.eu/oeuvres/373614/ogier-lardennois-ou-le-danois",
+    "dc:date": "1937",
+    "dc:description": [
+      "Livret. Edition de \"Ogier l&apos;Ardennois\"",
+      "comédie en un acte pour Théâtre de marionnettes. fermé: 21 × 17",
+      "1 cm. ouvert: 21 × 34",
+      "3 cm. Techniques d&apos;impression en Noir et blanc sur Papier"
+    ],
+    "dc:publisher": "Province de Liège-Musée de la Vie Wallonne",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.cef6shn8",
+    "dc:source": "Province de Liège-Musée de la Vie Wallonne. MVW-2028871",
+    "dc:language": "wln",
+    "dc:relation": "20_B_DE-WARSAGE_OgierLArdennois_WLN_MVW",
+    "dc:coverage": [
+      "Liège",
+      "Belgique"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "de Warsage, Rodolphe ; http://www.idref.fr/035394013/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Histoire du Paladin Roland",
+    "dc:subject": "https://puppetplays.eu/oeuvres/242061/histoire-de-paladin-roland",
+    "dc:date": "1910",
+    "dc:description": "Cahier. manuscrit contenant plusieurs histoires de chevalerie jouées au théâtre par Pierre-Paul Pinet. 22 × 17 cm.",
+    "dc:publisher": "Province de Liège-Musée de la Vie Wallonne",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.645e6u6i",
+    "dc:source": "Province de Liège-Musée de la Vie Wallonne. MVW-2104600007780",
+    "dc:language": "wln",
+    "dc:relation": "20_B_PINET_HistoireDuPaladinRoland_WLN_MVW",
+    "dc:coverage": [
+      "Liège",
+      "Belgique"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Pinet, Pierre Paul ; http://www.idref.fr/275595617/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Li naissance",
+    "dc:subject": "https://puppetplays.eu/oeuvres/149519/li-naissance",
+    "dc:date": "1910",
+    "dc:description": "Cahier. manuscrit contenant la version de Li naissance de Pierre-Paul Pinet. 22 × 17 cm",
+    "dc:publisher": "Province de Liège-Musée de la Vie Wallonne",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.ebae8147",
+    "dc:source": "Province de Liège-Musée de la Vie Wallonne. MVW-2104600007777",
+    "dc:language": "wln",
+    "dc:relation": "20_B_PINET_LiNaissance_WLN_MVW",
+    "dc:coverage": [
+      "Liège",
+      "Belgique"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Pinet, Pierre Paul ; http://www.idref.fr/275595617/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Ourson tête de fer",
+    "dc:date": "1910",
+    "dc:description": [
+      "Cahier manuscrit reprenant le texte de la version de Pierre-Paul Pinet d&apos;Ourson tête de fer",
+      "suite d&apos;Ogier le Danois. 22 × 17 cm"
+    ],
+    "dc:publisher": "Province de Liège-Musée de la Vie Wallonne",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.5dc95b0a",
+    "dc:source": "Province de Liège-Musée de la Vie Wallonne. MVW-2104600037194",
+    "dc:language": "wln",
+    "dc:relation": "20_B_PINET_OursonTeteDeFer_WLN_MVW",
+    "dc:coverage": [
+      "Liège",
+      "Belgique"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Pinet, Pierre Paul ; http://www.idref.fr/275595617/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les 600 Franchimontois",
+    "dc:date": "1934",
+    "dc:description": [
+      "Livret. Pièce de théâtre de marionnettes imprimée : Les 600 Franchimontois",
+      "\"Chant de chevalerie du Moyen-Age en 5 chapitres\". fermé: 23",
+      "2 × 14",
+      "2 cm. ouvert: 23",
+      "2 × 28",
+      "3 cm. Techniques d&apos;impression en bleu sur Papier"
+    ],
+    "dc:publisher": "Province de Liège-Musée de la Vie Wallonne",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.a6db13i9",
+    "dc:source": "Province de Liège-Musée de la Vie Wallonne. MVW-2298774",
+    "dc:language": "wln",
+    "dc:relation": "20_B_TALBOT_Les600Franchimontois_WLN_MVW",
+    "dc:coverage": [
+      "Liège",
+      "Belgique"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Talbot, Thomas",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Scène humoristique - Election du 5 Avril 1925",
+    "dc:date": "1925",
+    "dc:description": [
+      "Texte littéraire. \"Pièce de théâtre",
+      "en wallon liégeois",
+      "mettant en scène des marionnettes liégeoises",
+      "écrite dans le contexte des élections d&apos;avril 1925. Quelques variantes entre les exemplaires. 27",
+      "8 × 21",
+      "2 cm. Dactylographie ; encre mauve sur papier"
+    ],
+    "dc:publisher": "Province de Liège-Musée de la Vie Wallonne",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.decc2v6i",
+    "dc:source": "Province de Liège-Musée de la Vie Wallonne. MVW-2058824",
+    "dc:language": "wln",
+    "dc:relation": "20_B_TALBOT_SceneHumouristique_WLN_MVW",
+    "dc:coverage": [
+      "Liège",
+      "Belgique"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Talbot, Thomas",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Passion",
+    "dc:subject": "https://puppetplays.eu/oeuvres/145228/la-passion",
+    "dc:date": "1948",
+    "dc:description": [
+      "Texte littéraire. Textes de la pièce du répertoire des marionnettes liégeoises \"La Passion\" de Victor Verrées. grand format: 33",
+      "6 × 21",
+      "4 cm. petit format: 27",
+      "8 × 21",
+      "5 cm. Dactylographie en Nnir et blanc sur papier ; écriture manuscrite",
+      "encre de Chine (=encre au carbone) sur carton"
+    ],
+    "dc:publisher": "Province de Liège-Musée de la Vie Wallonne",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.11ebo40v",
+    "dc:source": "Province de Liège-Musée de la Vie Wallonne. MVW-2043118",
+    "dc:language": "wln",
+    "dc:relation": "20_B_VERREES_LaPassion_WLN_MVW",
+    "dc:coverage": [
+      "Liège",
+      "Belgique"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Verrées, Victor ; http://www.idref.fr/275595099/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "L'Africaine",
+    "dc:date": "1864",
+    "dc:description": "cahier manuscrit",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.be26b5oh",
+    "dc:language": "fra",
+    "dc:relation": "19_F_ROUSSET_LAfricaine_FR_DP",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Rousset, Pierre",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Parodie de Robert le diable",
+    "dc:description": "cahier manuscrit",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.46fb9d22",
+    "dc:language": "fra",
+    "dc:relation": "19_F_ROUSSET_ParodieDeRobertLeDiable_FR_DP",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Rousset, Pierre",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Roméo et Juilette",
+    "dc:date": "1868",
+    "dc:description": "cahier manuscrit",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.98d3o8qp",
+    "dc:language": "fra",
+    "dc:relation": "19_F_ROUSSET_RomeoEtJuliette_FR_DP",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Rousset, Pierre",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "La Prise de Philisbourg",
+      "pr. et vaud.",
+      "juil. 1734."
+    ],
+    "dc:subject": "https://puppetplays.eu/oeuvres/15219/la-prise-de-philippsbourg",
+    "dc:date": "1734",
+    "dc:description": [
+      "Manuscrit. Numérisation effectuée à partir d&apos",
+      "un document de substitution : R 73407 (MF 22413). Pièce extraite du manuscrit"
+    ],
+    "dc:publisher": "Bibliothèque nationale de France",
+    "dc:identifier": [
+      "<div style=\"padding: 0",
+      "padding-bottom: 104.29068503080828%",
+      "position: relative",
+      "display: block",
+      "height: 0",
+      "\"><iframe style=\"position: absolute",
+      "top: 0",
+      "bottom: 0",
+      "left: 0",
+      "width: 100%",
+      "height: 100%",
+      "border: 0",
+      "\" src=\"https://gallica.bnf.fr/ark:/12148/btv1b9061741m/f303.item.mini\"></iframe></div>"
+    ],
+    "dc:source": "Bibliothèque nationale de France. Département des Manuscrits. Français 9315",
+    "dc:language": "fra",
+    "dc:relation": "18_F_CAROLET_LaPriseDePhilisboug_FRA_BnF",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Carolet, Denis ; http://www.idref.fr/189887990/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Racine",
+    "dc:date": "1927",
+    "dc:description": "manuscrit",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.4e1cp6wl",
+    "dc:source": "GAD. D127 Paquet 15",
+    "dc:language": "fra",
+    "dc:relation": "20_F__LaRacine_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Marchand d'Aiguilles",
+    "dc:subject": "https://puppetplays.eu/oeuvres/196808/le-marchand-de-picarlats",
+    "dc:date": "1866",
+    "dc:description": "cahier manuscrit pour la censure",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.7fca77a8",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LeMarchandDAiguilles_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:creator": "Josserand",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Voyage de Fontaine",
+    "dc:date": "1866",
+    "dc:description": "cahier manuscrit pour la censure",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.9cd2blfu",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LeVoyageDeFontaine_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:creator": "Josserand",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Demande en mariage",
+    "dc:date": "1866",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.aaceb215",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906). F/18/1217"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LaDemandeEnMariage_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:creator": "Josserand",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Faux testament",
+    "dc:date": "1866",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.03a23r03",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906). F/18/1219"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LeFauxTestament_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:creator": "Josserand",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Pont du diable",
+    "dc:date": "1866",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.6ca71w7n",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906). F/18/1223"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LePontduDiable_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:creator": "Josserand",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les Amants malheureux",
+    "dc:date": "1866",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.d345a4d9",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906). F/18/1224"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LesAmantsMalheureux_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:creator": "Josserand",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les Amours de Guignol",
+    "dc:date": "1865",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.b1e3vyn9",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906). F/18/1225"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LesAmoursDeGuignol_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:creator": "Josserand",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les Cent louis d'or",
+    "dc:date": "1866",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.8f5c0943",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906). F/18/1226"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LesCentLouisDOr_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:creator": "Josserand",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les Conscrits",
+    "dc:date": "1866",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.2f1cu88v",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906). F/18/1227"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LesConscrits_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:creator": "Josserand",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les deux poltrons",
+    "dc:date": "1866",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.1535500r",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906). F/18/1228"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LesDeuxPoltrons_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:creator": "Josserand",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les deux rendez-vous",
+    "dc:date": "1866",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.e5ee1so8",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906). F/18/1229"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LesDeuxRendezVous_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:creator": "Josserand",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les Secret d'une famille",
+    "dc:date": "1866",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.4fb3q44p",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906). F/18/1230"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LeSecretDUneFamille_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:creator": "Josserand",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Tonneau de de harengs",
+    "dc:subject": "https://puppetplays.eu/oeuvres/197024/le-marchand-de-harengs",
+    "dc:date": "1867",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.a27d7323",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906). F/18/1231"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LeTonneauDeHarengs_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:creator": "Josserand",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Guignol dans la Lune",
+    "dc:subject": "https://puppetplays.eu/oeuvres/11584/guignol-dans-la-lune",
+    "dc:date": "1830",
+    "dc:description": "Féérie en 8 tableaux manuscrit",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.a8fd4q1o",
+    "dc:source": [
+      "GAD. B86 D88. Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "le 1er mai 1927"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_MOURGUET_GuignolDansLaLune_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Mourguet, Laurent ; http://www.idref.fr/080879640/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La lune de miel",
+    "dc:date": "1894",
+    "dc:description": "tribulations conjugales en 4 tableaux cahier manuscrit. le 5 avril 1894",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.a5eaj4ax",
+    "dc:source": [
+      "GAD. B86 D98. Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "le 1er mai 1927"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_ROUSSET_LaLuneDeMiel_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Rousset, Pierre ; http://www.idref.fr/127340882/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les aventures de Guignol et Gnafron à Tananariv",
+    "dc:subject": "https://puppetplays.eu/oeuvres/85614/voyage-de-guignol-et-gnafron-%C3%A0-madagascar",
+    "dc:date": "1896",
+    "dc:description": [
+      "\"Les aventures de Guignol et Gnafron à Tananariv",
+      "Guignol et Gnafron à Madagascar\" pièce inédite en 3 actes et 1 prologue",
+      "épilogue d&apos",
+      "actualité. carnet manuscrit et non paginé"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.9ca897a7",
+    "dc:source": [
+      "GAD. B98 Répertoire du théâtre Guignol du passage de l&apos",
+      "Argue n°12"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_TARDY_LesAventuresDeguignolEtGnafronATananarive_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Tardy, Tony ; http://www.idref.fr/254365922/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Lohengrin",
+    "dc:date": "1896",
+    "dc:description": "parodie bouffe mêlée de chants en 2 actes et 4 tableaux. carnet manuscrit et non paginé. Visa de la prefecture du 23 novembre 1896",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.6ae0910b",
+    "dc:source": [
+      "GAD. B98 Répertoire du théâtre Guignol du passage de l&apos;Argue",
+      "n°13"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_TARDY_Lohengin_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Tardy, Tony ; http://www.idref.fr/254365922/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La rosière de Rochecardon",
+    "dc:subject": "https://puppetplays.eu/oeuvres/366713/la-rosière-de-rochecardon",
+    "dc:date": "1896",
+    "dc:description": "guignolerie bouffonne en 3 actes et 5 tableaux carnet manuscrit et non paginé. janvier 1896",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.aa1cr8j6",
+    "dc:source": [
+      "GAD. B98 Répertoire du théâtre Guignol du passage de l&apos",
+      "Argue n°10"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_VIRES_LaRosiereDeRochecardon_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Virès, Pierre ; http://www.idref.fr/07853058X/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le dentiste",
+    "dc:date": "1872",
+    "dc:description": "pièce manuscrite. reliure en mauvais état manuscrit. Visa de la Préfecture du Rhône. Même folio que \"Le Charivari\"",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.1282bfwi",
+    "dc:source": "GAD. B29 paquet 6/pochette 78",
+    "dc:language": "fra",
+    "dc:relation": "19_F_VUILLERME-DUNAND_GuignolDentiste_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Vuillerme-Dunand, Victor-Napoléon ; http://www.idref.fr/188286276/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Guignol Revenant",
+    "dc:date": "1853",
+    "dc:description": [
+      "mauvais",
+      "nombreuses déchirures.Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "le 1er mai 1927. Visa de la sous-Préfecture de Villefranche du 4 janvier 1853. Visa de la Préfecture du Rhône le …187..."
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.5abe2kqm",
+    "dc:source": "GAD. B29 paquet 6/pochette 78",
+    "dc:language": "fra",
+    "dc:relation": "19_F_VUILLERME-DUNAND_GuignolRevenant_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Vuillerme-Dunand, Victor-Napoléon ; http://www.idref.fr/188286276/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le charivari",
+    "dc:date": "1872",
+    "dc:description": "reliure en mauvais état. manuscrit. Visa de la Préfecture du Rhône. Même folio que \"Le dentiste\"",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.1079h899",
+    "dc:source": "GAD. B29 paquet 6/pochette 78",
+    "dc:language": "fra",
+    "dc:relation": "19_F_VUILLERME-DUNAND_LeCharivari_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Vuillerme-Dunand, Victor-Napoléon ; http://www.idref.fr/188286276/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les Etourderies de Guignol",
+    "dc:description": [
+      "mauvais",
+      "nombreuses déchirures. acquis de Durafour 69 rue Cuzier Lyon le 1er mai 1927. Pièce en un acte par Viullerme Dunand. Cours Bourbon 103. Pour Condamin sur Ecorcheboeuf 16 manuscrit. Sur la 1ère page formant couverture et sur la 1ère page du texte",
+      "tampon A.J. sur la 1ère page formant couverture tampon de la Préfecture du Rhône",
+      "187…"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.b9613j3b",
+    "dc:source": "GAD. B29 paquet 6/pochette 78",
+    "dc:language": "fra",
+    "dc:relation": "19_F_VUILLERME-DUNAND_LesEtourderiesDeGuignol_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Vuillerme-Dunand, Victor-Napoléon ; http://www.idref.fr/188286276/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La bourse ou la vie",
+    "dc:description": [
+      "Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "1er mai 1927. Manuscrit non relié",
+      "10 folios non numérotés. Même folio que \"Le savetier et le financier\""
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.c2a943mp",
+    "dc:source": [
+      "GAD. B5918 Fonds Dor",
+      "Grataloup. Acquis de Durafour. Pièces dactylographiées",
+      "1927",
+      "musique."
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19-20_F__LaBourseOuLaVie_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Propriétaire surpris",
+    "dc:description": "un acte",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.f5f764df",
+    "dc:source": "GAD. Fonds de la compagnie EMMA. N°56",
+    "dc:language": "fra",
+    "dc:relation": "19-20_F__LeProprietaireSurpris_FR_GAD",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les conscrits",
+    "dc:description": "pièce en 4 tableaux manuscrit",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.8e3ej3w9",
+    "dc:source": [
+      "GAD. B86 D140. Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "le 1er mai 1927"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19-20_F__LesConscrits_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les deux poltrons",
+    "dc:description": [
+      "pièce en 1 acte. 28x20. Traces d&apos;humidité",
+      "salissures",
+      "déchirures",
+      "tâches d&apos;encre. Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "1er mai 1927. Manuscrit non relié",
+      "9 folios non numérotés. Même folio que \"les trois demandes\" et \"un manuscrit sans titre\""
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.77acd8xb",
+    "dc:source": [
+      "GAD. B5918 Fonds Dor",
+      "Grataloup. Acquis de Durafour. Pièces dactylographiées",
+      "1927",
+      "musique."
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19-20_F__LesDeuxPoltrons_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les trois demandes",
+    "dc:description": [
+      "vaudeville en 1 acte. 30x20. Salissures",
+      "tâches d&apos;humidité et déchirures sur la 1ère page. Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "1er mai 1927. Manuscrit non relié",
+      "22 folios non numérotés (dont 7 folios vierges)"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.088e95z3",
+    "dc:source": [
+      "GAD. B5918 Fonds Dor",
+      "Grataloup. Acquis de Durafour. Pièces dactylographiées",
+      "1927",
+      "musique."
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19-20_F__LesTroisDemandes_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le marchand de coups de bâton",
+    "dc:date": "1927",
+    "dc:description": "manuscrit en ronde. Sur la couverture tampon : Copies dramatiques et littéraires Agence Seduc. J. Battu S\" 5 rue Hyppolyte Sebas",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.a18b8119",
+    "dc:source": [
+      "GAD. B83 Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "20_F__LeMarchandDeCoupsDeBaton_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le savetier et le financier",
+    "dc:description": [
+      "Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "1er mai 1927. Manuscrit non relié",
+      "10 folios non numérotés. Même folio que \"la bourse ou la vie\""
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.6e83p937",
+    "dc:source": [
+      "GAD. B5918 Fonds Dor",
+      "Grataloup. Acquis de Durafour. Pièces dactylographiées",
+      "1927",
+      "musique."
+    ],
+    "dc:language": "fra",
+    "dc:relation": "20_F__LeSavetierEtLeFinancier_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les bobardements de Guignol - revue 1940",
+    "dc:date": "1940",
+    "dc:description": [
+      "Revue en 6 tableaux. Cahier manuscrit paginé de 124 pages. Nombreux tampons \"Contrôle des Informations de presse - Lyon - 33",
+      "cours de Verdun\". Beaucoup de corrections à la main",
+      "collées ou épinglées. Couverture illustrée en couleur."
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.b0d47kvf",
+    "dc:source": "GAD. Vente Conan",
+    "dc:language": "fra",
+    "dc:relation": "20_F_CHANAY_LesBobardementsDeGuignol_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Chanay, Albert ; http://www.idref.fr/19066732X/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "Coups de trique",
+      "revue de J. Guillard"
+    ],
+    "dc:date": "1950",
+    "dc:description": [
+      "Cahier manuscrit. Du 25 février au 25 mars 1950 14 séances",
+      "4 semaines"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.f7484or4",
+    "dc:source": "GAD. Fonds de la compagnie EMMA. N°88bis",
+    "dc:language": "fra",
+    "dc:relation": "20_F_GUILLARD_CoupsDeTrique_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Guillard, J",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "Théâtre Guignol Mourguet",
+      "Au temps de l&apos;An \"Chelut\""
+    ],
+    "dc:description": [
+      "Revue locale en 1 prologue",
+      "2 actes avec apothéose phosphorescente",
+      "anticafardeuse",
+      "émolliente et radiotomique. 31x24",
+      "5. Cahier manuscrit non paginé de 183 pages. Nombreuses annotations au crayon",
+      "répliques barrées. Modifications faites sur feuilles et collées sur le texte original. Pages épinglées. Coupures de presses concernant la revue sont collées sur la 2e de couverture. Des partitions de musiques sont glissées à la fin de l&apos;ouvrage"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.cbcddysj",
+    "dc:source": "GAD. Vente Conan. Chemise rouge 165 CONAN 05/11/2019",
+    "dc:language": "fra",
+    "dc:relation": "20_F_MANDY_AuTempsDeLAnChelut_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Mandy, Henry",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Malle",
+    "dc:subject": "https://puppetplays.eu/oeuvres/109774/la-malle",
+    "dc:date": "1922",
+    "dc:description": [
+      "Rotolithe Clichy. 33",
+      "5x25",
+      "5. Tapuscrit illustré. \"Reproduction et représentation interdite\". Illustrations encre et aquarelle protégées par du papier de soie"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.151d3md0",
+    "dc:source": "GAD. B21 Fonds Justin Godart 53.323 (barré)",
+    "dc:language": "fra",
+    "dc:relation": "20_F_PONTEAU_LaMalle_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Lefebvre, Eugène ; http://www.idref.fr/18359455X/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "La parodie de l&apos",
+      "étranger"
+    ],
+    "dc:date": "1913",
+    "dc:description": [
+      "Edition du Tout Lyon. 33",
+      "5x25",
+      "5. Tapuscrit illustré. \"Reproduction et représentation interdite\". Illustrations encre et aquarelle protégées par du papier de soie"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.cac9lpo9",
+    "dc:source": "GAD. B21 38.173 (barré)",
+    "dc:language": "fra",
+    "dc:relation": "20_F_PONTEAU_LaParodieDeLEtranger_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Lefebvre, Eugène ; http://www.idref.fr/18359455X/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Brillant",
+    "dc:date": "1929",
+    "dc:description": [
+      "Tapuscrit illustré avec notamment le texte d&apos;une pièce de théâtre de Guignol. 33",
+      "5x25",
+      "5. Illustrations encre et aquarelle protégées par du papier de soie. Ajout de 3 documents : bons de commande",
+      "prospectus recto verso",
+      "feuille avec photo de guerre"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.4c4fq05r",
+    "dc:source": "GAD. B21 38.181(barré)",
+    "dc:language": "fra",
+    "dc:relation": "20_F_PONTEAU_LeBrillant_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Lefebvre, Eugène ; http://www.idref.fr/18359455X/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le chapeau de paille à la Zalie",
+    "dc:date": "1928",
+    "dc:description": [
+      "Parodie en 3 actes et une préface de Justin Godart. 33",
+      "5x25",
+      "5. Tapuscrit illustré. Illustrations encre et aquarelle protégées par du papier de soie"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.d9628x04",
+    "dc:source": "GAD. B21 38.180 (barré)",
+    "dc:language": "fra",
+    "dc:relation": "20_F_PONTEAU_LeChapeauDePailleALaZalie_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Lefebvre, Eugène ; http://www.idref.fr/18359455X/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "L&apos",
+      "entetation amatée"
+    ],
+    "dc:date": "1925",
+    "dc:description": "Gognandise en 1 acte. La rotolithe et les arts graphiques Clichy. Tapuscrit illustré. \"Reproduction et représentation interdite\". Illustrations encre et aquarelle",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.ab9e3957",
+    "dc:source": "GAD. B21 Fonds Justin Godart 53.332 (barré)",
+    "dc:language": "fra",
+    "dc:relation": "20_F_PONTEAU_LEntetationAmatee_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Lefebvre, Eugène ; http://www.idref.fr/18359455X/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Que de Guignon",
+    "dc:date": "1914",
+    "dc:description": [
+      "Pièce en une longueur tramée soye et coton. 33",
+      "5x25",
+      "5. Tapuscrit. \"Reproduction et représentation interdite\""
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.1ddf285t",
+    "dc:source": "GAD. B21 38.174",
+    "dc:language": "fra",
+    "dc:relation": "20_F_PONTEAU_QueDeGuignon_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Lefebvre, Eugène ; http://www.idref.fr/18359455X/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Mariage forcé",
+    "dc:description": "pièce en 1 acte. cahier de 45 pages manuscrites avec couverture rigide noire. même folio que \"les orphelins\"",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.0d53kebv",
+    "dc:source": [
+      "GAD. B83 Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "20_F_ROUSSET_LeMariageForce_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Rousset, Pierre ; http://www.idref.fr/127340882/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les orphelins",
+    "dc:description": "pièce en 1 acte. cahier de 45 pages manuscrites avec couverture rigide noire. même folio que \"le mariage forcé\"",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.15d98iaw",
+    "dc:source": [
+      "GAD. B83 Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "20_F_ROUSSET_LesOrphelins_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Rousset, Pierre ; http://www.idref.fr/127340882/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "Lyon dé…Boché",
+      "Revue d&apos;actualité"
+    ],
+    "dc:date": "1944",
+    "dc:description": [
+      "Revue en 2 actes et 6 tableaux. 31x22",
+      "5. Cahier manuscrit non paginé de 134 pages. Nombreuses pages ajoutées",
+      "modifications manuscrites",
+      "répliques barrées et modifiées",
+      "annotations au crayon"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.6ed1ibfk",
+    "dc:source": "GAD. Vente Conan. Chemise rouge 165 CONAN 05/11/2017",
+    "dc:language": "fra",
+    "dc:relation": "20_F_SOULIGNAC_LyonDeBoche_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Soulignac, A",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "La Revue 1945 DA Soulignac",
+      "tous en atome mobile",
+      "Revue atomique de la 4e République"
+    ],
+    "dc:date": "1945",
+    "dc:description": [
+      "Cahier manuscrit non paginé de 150 pages. 30",
+      "3x23. Nombreuses pages ajoutées",
+      "modifications manuscrites",
+      "répliques barrées et modifiées",
+      "annotations au crayon",
+      "pages épinglées"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.9eadg2gp",
+    "dc:source": "GAD. Vente Conan. Chemise rouge 165 CONAN 05/11/2016",
+    "dc:language": "fra",
+    "dc:relation": "20_F_SOULIGNAC_TousEnAtomeMobile_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Soulignac, A",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Guignol premier. Empereur du Sahara",
+    "dc:date": "1904",
+    "dc:description": [
+      "pièce sucrée en 2 règnes 6 changements. manuscrit. Lyon",
+      "le 30 janvier 1904"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.06a0vo84",
+    "dc:source": [
+      "GAD. B86 D91. Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "le 1er mai 1927"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "20_F_TARDY_GuignolPremierEmpereurDuSahara_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Tardy, Tony ; http://www.idref.fr/254365922/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Commerce dangereux",
+    "dc:date": "1921",
+    "dc:description": "Théâtre Guignol lyonnais. 7e série. Brochure D Valentin éditeur Lyon",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.93e3v24i",
+    "dc:source": "GAD. B3 11. Brochures Valentin 4 mai 1927",
+    "dc:language": "fra",
+    "dc:relation": "20_F_VALENTIN_CommerceDangereux_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Pont du Diable",
+    "dc:description": "pièce en 1 acte et 4 tableaux. Cahier manuscrit. même folio que \"Les souterrains du chateau des revenants\"",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.6fb69s8i",
+    "dc:source": "GAD. Fonds de la compagnie EMMA. N°51",
+    "dc:language": "fra",
+    "dc:relation": "19-20_F__LePontduDiable_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Carotte mûre",
+    "dc:description": "un acte. Cahier manuscrit. Même folio que \"les deux billets\"",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.5aab21n5",
+    "dc:source": "GAD. Fonds de la compagnie EMMA. N°22",
+    "dc:language": "fra",
+    "dc:relation": "19-20_F_CHANAY_LaCarotteMure_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Chanay, Albert ; http://www.idref.fr/19066732X/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les Deux billets",
+    "dc:description": "un acte. Cahier manuscrit. Même folio que \"la carotte mure\"",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.c0d16l1u",
+    "dc:source": "GAD. Fonds de la compagnie EMMA. N°22",
+    "dc:language": "fra",
+    "dc:relation": "19-20_F_CHANAY_LesDeuxBillets_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Chanay, Albert ; http://www.idref.fr/19066732X/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Carotte mûre",
+    "dc:description": [
+      "Répertoire Ernest. Lyon",
+      "le 19 novembre 1910. Même folio que \"La Meunière\" et \"l&apos;ordonnance\""
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.5f0023ir",
+    "dc:source": "GAD. Fonds de la compagnie EMMA. N°34",
+    "dc:language": "fra",
+    "dc:relation": "20_F_NEICHTHAUSER_LaCarotteMure_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Neichthauser, Ernest",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Meunière",
+    "dc:description": [
+      "Répertoire Ernest. Lyon",
+      "le 28 novembre 1910. Même folio que \"la carotte mure\" et \"l&apos;ordonnance\""
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.3c62y91f",
+    "dc:source": "GAD. Fonds de la compagnie EMMA. N°34",
+    "dc:language": "fra",
+    "dc:relation": "20_F_NEICHTHAUSER_LaMeuniere_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Neichthauser, Ernest",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "L&apos",
+      "Ordonnance"
+    ],
+    "dc:description": [
+      "Répertoire Ernest. Lyon",
+      "le 17 novembre 1910. Même folio que \"la carotte mure\" et \"la meunière\""
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.8a8466oa",
+    "dc:source": "GAD. Fonds de la compagnie EMMA. N°34",
+    "dc:language": "fra",
+    "dc:relation": "20_F_NEICHTHAUSER_LOrdonnance_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Neichthauser, Ernest",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les Deux caprices de Madame",
+    "dc:date": "1914",
+    "dc:description": [
+      "Repertoire Ernest. arrangée par Eneichthauser",
+      "Vichy le 1 Juillet 1914. Même folio que \"Guignol dentiste\""
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.fcf1ag28",
+    "dc:source": "GAD. Fonds de la compagnie EMMA. N°50",
+    "dc:language": "fra",
+    "dc:relation": "20_F_NEICHTHAUSER_LesDeuxCapricesDeMadame_FR_GAD",
+    "dc:coverage": [
+      "Vichy",
+      "France"
+    ],
+    "dc:creator": "Neichthauser, Ernest",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Guignol dentiste",
+    "dc:date": "1913",
+    "dc:description": [
+      "Repertoire Ernest. refaite par T. Tardy",
+      "Vichy le 13 aout 1913. Même folio que \"Les deux caprices de Madame\""
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.0b2d46kv",
+    "dc:source": "GAD. Fonds de la compagnie EMMA. N°50",
+    "dc:language": "fra",
+    "dc:relation": "20_F_TARDY_GuignolDentiste_FR_GAD",
+    "dc:coverage": [
+      "Vichy",
+      "France"
+    ],
+    "dc:creator": "Tardy, Tony ; http://www.idref.fr/254365922/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Revenant ou Le mort-vivant",
+    "dc:description": [
+      "Manuscrit. Même folio que \"Poisson d&apos",
+      "avril\""
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.305buz3a",
+    "dc:source": "GAD. Fonds de la compagnie EMMA. N°14bis",
+    "dc:language": "fra",
+    "dc:relation": "19-20_F_ROUSSET_LeRevenantOuLeMortVivant_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Rousset, Pierre ; http://www.idref.fr/127340882/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "Poisson d&apos",
+      "avril"
+    ],
+    "dc:description": "Manusrit. Même folio que \"Le revenant ou le mort vivant\"",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.4edb637m",
+    "dc:source": "GAD. Fonds de la compagnie EMMA. N°14bis",
+    "dc:language": "fra",
+    "dc:relation": "19-20_F_TARDY_PoissonDAvril_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Tardy, Tony ; http://www.idref.fr/254365922/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "L'Avare et Guignol",
+    "dc:date": "1922",
+    "dc:description": "Petites parodies de Guignol",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.2d920876",
+    "dc:source": "GAD. B3 Brochures Valentin 4 mai 1927",
+    "dc:language": "fra",
+    "dc:relation": "20_F_VALENTIN_LAvareEtGuignol_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Valentin, D",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Docteur Guignol",
+    "dc:date": "1922",
+    "dc:description": "Revue imprimée D. Valentin. Petites parodies de Guignol",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.d5dbdte4",
+    "dc:source": "GAD. B3 Brochures Valentin 4 mai 1927",
+    "dc:language": "fra",
+    "dc:relation": "20_F_VALENTIN_LeDocteurGuignol_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Valentin, D ; https://nakala.fr/10.34847/nkl.d5dbdte4",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Malade bien portant",
+    "dc:date": "1922",
+    "dc:description": "Revue imprimée D. Valentin. Petites parodies de Guignol",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.499053uj",
+    "dc:source": "GAD. B3 Brochures Valentin 4 mai 1927",
+    "dc:language": "fra",
+    "dc:relation": "20_F_VALENTIN_LeMaladeBienPortant_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Valentin, D ; https://nakala.fr/10.34847/nkl.499053uj",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Marchand d'Aiguilles",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:source": "GAD. B86. Paquet 15.",
+    "dc:language": "fra",
+    "dc:relation": "20_F__GuignolMarchandDAiguilles-LeMarchandDePicarlats-LePortrait-LeMariageForce_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Apollon Polichinelle",
+    "dc:subject": "https://puppetplays.eu/oeuvres/2195/apollon-polichinelle",
+    "dc:date": "1734",
+    "dc:description": "Manuscrit. Ms FF 9313",
+    "dc:publisher": "Bibliothèque nationale de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.bbddkudt",
+    "dc:source": "Bibliothèque nationale de France. Département des Manuscrits. Français 9313",
+    "dc:language": "fra",
+    "dc:relation": "18_F__ApollonPolichinelle_FR_BNF",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Conscrit",
+    "dc:date": "1853.0",
+    "dc:description": [
+      "mauvais",
+      "nombreuses déchirures. acquis de Durafour",
+      "69 rue Cuvier Lyon",
+      "le 1er mai 1927. Manuscrit de Vuillerme-Durand. A la fin signature de Vuillerme-Durand et visa de la sous-Préfecture de Villefranche du 25 janvier 1853. Sur la 1ère page",
+      "tampon de la Préfecture du Rhône"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.a1456yt8",
+    "dc:source": "GAD. B29 paquet 6/pochette 78",
+    "dc:language": "fra",
+    "dc:relation": "19_F_VUILLERME-DUNAND_LeConscrit_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Vuillerme-Dunand, Victor-Napoléon ; http://www.idref.fr/188286276/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Turlupiton",
+    "dc:subject": "https://puppetplays.eu/oeuvres/407211/turlupition?",
+    "dc:date": "1852.0",
+    "dc:description": [
+      "reliure en mauvais état. Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "le 1er mai 1927. Manuscrit de Vuillerme-Dunand. Signature de Vuillerme-Dunand. Visa de la sous-Préfecture de Villefranche du 24 décembre 1852. Visa de la Préfecture du Rhône le…187… Même folio que \"Les Couverts volés\""
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.f214b74v",
+    "dc:source": "GAD. B29 paquet 6/pochette 78",
+    "dc:language": "fra",
+    "dc:relation": "19_F_VUILLERME-DUNAND_Turlupiton_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Vuillerme-Dunand, Victor-Napoléon ; http://www.idref.fr/188286276/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le royaume des poissons",
+    "dc:subject": "https://puppetplays.eu/oeuvres/407619/le-royaume-des-poissons",
+    "dc:date": "1912.0",
+    "dc:description": [
+      "féerie en 7 tableaux. 23x18. Quelques traces d&apos;humidité. Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "1er mai 1927. Mention d&apos;une date au folio 37 : \"10 janvier 1912\". Cahier de 60 folios",
+      "reliés",
+      "non numérotés (dont 7 folios vierges)"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.a7a0z0jd",
+    "dc:source": [
+      "GAD. B5918. Fonds Dor",
+      "Grataloup. Acquis de Durafour. Pièces dactylographiées",
+      "1927",
+      "musique."
+    ],
+    "dc:language": "fra",
+    "dc:relation": "20_F__LeRoyaumeDesPoissons_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les valets à la porte",
+    "dc:date": "1928.0",
+    "dc:description": "pièce en 1 acte. le 18 avril 1928",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.6ecday94",
+    "dc:source": [
+      "GAD. B83 D130. Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "le 1er mai 1927"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "20_F__LesValetsALaPorte_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le vampire ou le buveur de sang",
+    "dc:subject": "https://puppetplays.eu/oeuvres/403730/le-conscrit",
+    "dc:description": "féérie en 4 actes et 6 tableaux. cahier manuscrit. Copie de Charles Guigardet pour M. Durafour",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.2aaf1705",
+    "dc:source": [
+      "GAD. B86 D131/. Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "le 1er mai 1927"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "20_F__LeVampireOuLeBuveurDeSang_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Parisienne",
+    "dc:subject": "https://puppetplays.eu/oeuvres/403633/la-parisienne",
+    "dc:date": "1866.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.25ad6zeq",
+    "dc:source": [
+      "AN. Intérieur",
+      "Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906). F/18/1216. https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_059966"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LaParisienne_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand ; https://nakala.fr/10.34847/nkl.25ad6zeq",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Duel du soldat",
+    "dc:subject": "https://puppetplays.eu/oeuvres/407249/le-duel-du-soldat",
+    "dc:description": "Manuscrit",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.b292ab52",
+    "dc:source": "GAD. B 86. D152",
+    "dc:language": "fra",
+    "dc:relation": "20_F__LeDuelDuSoldat_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Pièce sans titre",
+    "dc:date": "1912.0",
+    "dc:description": [
+      "Manuscrit. Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "1er mai 1927. Mention d'une date au folio 37 : \"10 janvier 1912\". Faisant partie d'un cahier de 60 folios",
+      "reliés",
+      "non numérotés (dont  7 folios vierges)"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.439dt8pc",
+    "dc:source": [
+      "GAD. B59. Fonds Dor",
+      "Grataloup. Acquis de Durafour. Pièces dactylographiées",
+      "1927",
+      "musique."
+    ],
+    "dc:language": "fra",
+    "dc:relation": "20_F__PieceSansTitre_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Lingot",
+    "dc:subject": "https://puppetplays.eu/oeuvres/407576/le-lingot-dor-ou-lart-de-faire-un-bon-dîner",
+    "dc:date": "1852.0",
+    "dc:description": [
+      "Manuscrit",
+      "dans le même cahier que Les Frères à l'épreuve ou les 3 Koch"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.e9fd2p94",
+    "dc:source": "GAD",
+    "dc:language": "fra",
+    "dc:relation": "19_F_VUILLERME-DUNAND_LeLingot_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Guignol Poete",
+    "dc:subject": "https://puppetplays.eu/oeuvres/403302/guignol-poète?",
+    "dc:description": "cahier manuscrit et non paginé",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.41084y7j",
+    "dc:source": [
+      "GAD. B84 D90. Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "le 1er mai 1927"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_CLAQUERET_GuignolPoete_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Claqueret",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Parisienne",
+    "dc:date": "1852.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.f723v33g",
+    "dc:source": "GAD. B29 paquet 6/pochette 78",
+    "dc:language": "fra",
+    "dc:relation": "19_F_VUILLERME-DUNAND_LaParisienne_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Vuillerme-Dunand, Victor-Napoléon ; http://www.idref.fr/188286276/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Julien et Marie",
+    "dc:subject": "https://puppetplays.eu/oeuvres/407501/julien-et-marie",
+    "dc:description": "Manuscrit non paginé de 16 pages. Tampon de la préfecture du Rhône \"Vu et permis de présenter\".",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.6cf30j0w",
+    "dc:source": [
+      "GAD. D94 Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon le 1er mai 1927"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "20_F_JOSSERAND-PERE_JulienEtMarie_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand père",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Fils de Satan",
+    "dc:description": "cahier manuscrit et non paginé contenant 3 autres pièces",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.3b6e2unr",
+    "dc:source": [
+      "GAD. B84 D86. Acquis de Durafour",
+      "69 rue Cuvier  Lyon le 1er mai 1927"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "20_F_ROUSSET_LeFilsDeSatan_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Rousset, Pierre",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Tontonmanie",
+    "dc:subject": "https://puppetplays.eu/oeuvres/345306/la-tontonmanie",
+    "dc:date": "1853.0",
+    "dc:description": "cahier manuscrit pour la censure",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.c871dhla",
+    "dc:source": [
+      "Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1328"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "17_F_MONTGOBERT_LaTontonmanie_FR_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Montgobert ; https://nakala.fr/10.34847/nkl.c871dhla",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "La Prisonnière de village",
+      "vaudeville annecdotique de M. Lamiral"
+    ],
+    "dc:subject": "https://puppetplays.eu/oeuvres/403712/la-prisonnière-de-village",
+    "dc:date": "1853.0",
+    "dc:description": "cahier manuscrit pour la censure",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.47b3n9ye",
+    "dc:source": [
+      "Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1329"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_LAMIRAL_LaPrisonniereDeVillage_FR_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Lamiral ; https://nakala.fr/10.34847/nkl.47b3n9ye",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "Politicks in Miniature: or",
+      "the Humours of Punch&apos;s resignation. [A satire on Sir Robert Walpole.] A tragi-comi-farcical-operatical puppet-show ... To which is added",
+      "the Political Rehearsal. Harlequin Le Grand: or",
+      "the tricks of Pierrot Le Primier ... Taken from the Westminster Journal",
+      "etc"
+    ],
+    "dc:subject": "https://puppetplays.eu/oeuvres/245937/politicks-in-miniature",
+    "dc:date": "1741.0",
+    "dc:description": [
+      "print. 14 pages",
+      "(8º) 8vo"
+    ],
+    "dc:publisher": "The British Library",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.b1c2rrj6",
+    "dc:source": "BL. 1486.b.14",
+    "dc:language": "eng",
+    "dc:relation": "18_GB__PoliticksInMiniature_ENG_BL",
+    "dc:coverage": [
+      "Londres",
+      "Grande-Bretagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Critique de Didon tragédie",
+    "dc:subject": "https://puppetplays.eu/oeuvres/2292/critique-de-didon-trag%C3%A9die",
+    "dc:date": "1734.0",
+    "dc:description": [
+      "Manuscrit. Numérisation effectuée à partir d&apos",
+      "un document de substitution."
+    ],
+    "dc:publisher": "Bibliothèque nationale de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.bbddkudt",
+    "dc:source": "Bibliothèque nationale de France. Département des Manuscrits. Français 9313",
+    "dc:language": "fra",
+    "dc:relation": "18_F__CritiqueDeDidon_FRA_BnF",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "La Prise d&apos;une troupe de comédiens par un corsaire de Tunis en septembre 1741",
+      "pièce pr.",
+      "27 fév. 1742."
+    ],
+    "dc:subject": "https://puppetplays.eu/oeuvres/10135/la-prise-dune-troupe-de-com%C3%A9diens-par-un-corsaire-de-tunis-au-mois-de-septembre-1741",
+    "dc:date": "1741.0",
+    "dc:description": [
+      "Manuscrit. In-4°. Numérisation effectuée à partir d&apos",
+      "un document de substitution"
+    ],
+    "dc:publisher": "Bibliothèque nationale de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.c8fc9wp4",
+    "dc:source": "Bibliothèque nationale de France. Département des Manuscrits. Français 9313",
+    "dc:language": "fra",
+    "dc:relation": "18_F__LaPriseDUneTroupeDeComediens_FRA_BnF",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "Burlesque upon Magistracy; or",
+      "Punch out of Humour"
+    ],
+    "dc:subject": "https://puppetplays.eu/oeuvres/239073/burlesque-upon-magistracy-or-punch-out-of-humour",
+    "dc:date": "1736.0",
+    "dc:publisher": [
+      "Royal Irish Academy - Dublin",
+      "Irlande"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.14b5rpso",
+    "dc:source": "RIA. HP 128 16",
+    "dc:language": "eng",
+    "dc:relation": "18_IRL__BurlesqueUponMagistracy_ENG_RIA",
+    "dc:coverage": [
+      "Dublin",
+      "Irlande"
+    ],
+    "dc:rights": "Licence CC BY-NC-SA given for 10 years from 2023",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "Venus and Adonis; or",
+      "the Triumphs of Love"
+    ],
+    "dc:subject": "https://puppetplays.eu/oeuvres/255580/venus-and-adonis-or-the-triumphs-of-love",
+    "dc:date": "1713.0",
+    "dc:description": [
+      "Print. [16]",
+      "13",
+      "[3] p. ; 8⁰."
+    ],
+    "dc:publisher": "All Souls College Library - Oxford",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.4b2250y2",
+    "dc:source": [
+      "SOLO All Souls College Library",
+      "Stack 3rd floor - CW.1.12(11) ALMA 990135650050107026"
+    ],
+    "dc:language": "eng",
+    "dc:relation": "18_GB_POWELL_VenusAndAdonis_ENG_SOLO",
+    "dc:coverage": [
+      "Londres",
+      "Grande-Bretagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Powell, Martin",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "Les grotesques : fragments de la vie nomade",
+      "recueillis par un archéologue",
+      "petit-fils de Turlupin"
+    ],
+    "dc:subject": "https://puppetplays.eu/oeuvres/165525/drame-du-polichinelle-fran%C3%A7ais",
+    "dc:date": "1838.0",
+    "dc:description": [
+      "Monographie imprimée. 208 vues. 1 vol. (176 p.-[10] p. de pl.) : ill.",
+      "17 cm"
+    ],
+    "dc:publisher": "Bibliothèque nationale de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.fb23yvx5",
+    "dc:source": "Bibliothèque nationale de France. Département Littérature et art. Z-62834",
+    "dc:language": "fra",
+    "dc:relation": "19_F__DrameduPolichinelleFrancais_FRA_BnF",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Foire de saint Cloud",
+    "dc:subject": "https://puppetplays.eu/oeuvres/282587/la-foire-de-saint-cloud",
+    "dc:date": "1853.0",
+    "dc:description": [
+      "Manuscrit daté du 14 juin 1873",
+      "numéroté 1865. Appartenant à un sous fond du théâtre des Fantoccini"
+    ],
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.1ae55hwt",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1328"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_BELFORT-DEVAUX_FoireDeStCloud_FR_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Belfort-Devaux, Pierre-Louis",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Mémoires d'un Polichinelle",
+    "dc:subject": "https://puppetplays.eu/oeuvres/165793/polichinelle",
+    "dc:date": "1840.0",
+    "dc:description": [
+      "Imprimé. 26 pages. Chapitre de Mémoires d&apos",
+      "un polichinelle"
+    ],
+    "dc:publisher": "Bibliothèque nationale de Naples",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.ee7f4k76",
+    "dc:source": "Bibliothèque nationale de Naples. LP 8043",
+    "dc:language": "fra",
+    "dc:relation": "19_F_FOA_MemoireDUnPolichinelle_FRA_IA",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Foa, Eugénie ; http://www.idref.fr/032681046/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les Prussiens en France",
+    "dc:subject": "https://puppetplays.eu/oeuvres/112451/les-prussiens-en-france",
+    "dc:description": [
+      "5 pages dactylographiées",
+      "numérotées et non reliées. Pièce signée André Guerin"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.b5e61on3",
+    "dc:source": "GAD. B58/R22. Fond Dor / Grataloup Pièces dactylographiées et manuscrit de Josserand 4 juin 1927 \"Le pot de confiture\"",
+    "dc:language": "fra",
+    "dc:relation": "19_F_GUERIN_LesPrussiensEnFrance_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Guérin, André-Paul-Julien ; http://www.idref.fr/274969939/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Guignol dans la Lune",
+    "dc:subject": "https://puppetplays.eu/oeuvres/58300/le-voyage-de-guignol-dans-la-lune",
+    "dc:date": "1867.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.cfafb928",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_GuignolDansLaLune_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Descente aux Enfers",
+    "dc:subject": "https://puppetplays.eu/oeuvres/255237/la-descente-de-guignol-aux-enfers",
+    "dc:date": "1866.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.dc7a373i",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LaDescenteDeGuignolAuxEnfers_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "Le Monstre et l&apos",
+      "alchimiste"
+    ],
+    "dc:subject": "https://puppetplays.eu/oeuvres/200016/lalchimiste",
+    "dc:date": "1867.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.b2f910h7",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LeMonstreEtLAlchimiste_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les locataires",
+    "dc:subject": "https://puppetplays.eu/oeuvres/327208/les-locataires",
+    "dc:date": "1866.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.ae44a4l7",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LesLocataires_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Turlupiton",
+    "dc:subject": "https://puppetplays.eu/oeuvres/407211/turlupition",
+    "dc:date": "1866.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.e32a8176",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_Turlupiton_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Balai de la Sorcière",
+    "dc:subject": "https://puppetplays.eu/oeuvres/357152/balai-de-la-sorcière",
+    "dc:date": "1852.0",
+    "dc:description": [
+      "Manuscrit daté du 23 novembre 1852",
+      "numéroté 1478. Appartenant à un sous fond du théâtre des Fantoccini"
+    ],
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.decb5kxp",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1327"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_MONGOBERT_BalaiDeLaSorciere_FR_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Montgobert",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "L&apos",
+      "Oiseau Bleu"
+    ],
+    "dc:subject": "https://puppetplays.eu/oeuvres/317922/loiseau-bleu",
+    "dc:date": "1853.0",
+    "dc:description": [
+      "Manuscrit daté du 2 juillet 1853",
+      "numéroté 1852. Appartenant à un sous fond du théâtre des Fantoccini"
+    ],
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.8eba6xmn",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1329"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_MONGOBERT_LOiseauBleu_FR_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Montgobert",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Tu chanteras tu ne Chanteras",
+    "dc:subject": "https://puppetplays.eu/oeuvres/168267/tu-chanteras-tu-ne-chanteras",
+    "dc:description": "Manuscrit. reliure en mauvais état",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.db7fl348",
+    "dc:source": "GAD. B29/R paquet 6/pochette 78",
+    "dc:language": "fra",
+    "dc:relation": "19_F_VUILLERME-DUNAND_TuChanterasTuNeChanteras_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Vuillerme-Dunand, Victor Napoléon",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La case de la sorcière",
+    "dc:subject": "https://puppetplays.eu/oeuvres/288731/la-case-de-la-sorcière",
+    "dc:description": [
+      "féérie en 4 tableaux précéde d&apos",
+      "un prologue manuscrit"
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.22301hxw",
+    "dc:source": [
+      "GAD. B86/R D136. Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "le 1er mai 1927"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19-20_F__LaCaseDeLaSorciere_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Der unglückliche Franzose",
+    "dc:subject": "https://puppetplays.eu/oeuvres/381617/der-unglückliche-franzose-oder-der-deutschen-freiheit-himmelfarht",
+    "dc:date": "1923.0",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.32ba0d50",
+    "dc:source": "DESSM. XSCH 36",
+    "dc:language": "deu",
+    "dc:relation": "20_D_BRENTANO_DerUnglucklicheFranzose_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Brentano, Christian ; http://www.idref.fr/074023055/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "St. Anton oder der heiligenschein ein Hanswurstspiel von Coppelius",
+    "dc:subject": "https://puppetplays.eu/oeuvres/134148/st-anton-oder-der-heiligenschein",
+    "dc:date": "1907.0",
+    "dc:description": [
+      "cahier de la maison d&apos;édition Schwabinger Schattenspiele",
+      "Munich. Coppelius est un pseudonyme de Alexander von Bernus"
+    ],
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.9b15bp4y",
+    "dc:source": "DESSM. XSCH 54-62",
+    "dc:language": "deu",
+    "dc:relation": "20_D_COPPELIUS_StAntonOderDerHeiligenschein_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Bernus, Alexander von ; http://www.idref.fr/134862937/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Der Blinde ein Narrenspiel von Will Vesper",
+    "dc:subject": "https://puppetplays.eu/oeuvres/398248/der-blinde",
+    "dc:date": "1907.0",
+    "dc:description": [
+      "cahier de la maison d&apos;édition Schwabinger Schattenspiele",
+      "Munich"
+    ],
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.16e2y4z1",
+    "dc:source": "DESSM. XSCH 54-62",
+    "dc:language": "deu",
+    "dc:relation": "20_D_VESPER_DerBlinde_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Vesper, Will ; http://www.idref.fr/028481623/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Der Dichter Ein vorspiel Vormitternacht Ein Schattenspiel der Seele von Alexander von Bernus",
+    "dc:subject": "https://puppetplays.eu/oeuvres/398292/der-dichter",
+    "dc:date": "1907.0",
+    "dc:description": [
+      "cahier de la maison d&apos;édition Schwabinger Schattenspiele",
+      "Munich. Version non annotée"
+    ],
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.e15b8xx3",
+    "dc:source": "DESSM. XSCH 54-62",
+    "dc:language": "deu",
+    "dc:relation": "20_D_VON-BERNUS_DerDichter_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Bernus, Alexander von ; http://www.idref.fr/134862937/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Don Juan einei moralische Scene mit einem unmoralischen Rachspiel von Alexander von Bernus",
+    "dc:subject": "https://puppetplays.eu/oeuvres/16074/don-juan",
+    "dc:date": "1907.0",
+    "dc:description": [
+      "cahier de la maison d&apos;édition Schwabinger Schattenspiele",
+      "Munich"
+    ],
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.1ba01yv3",
+    "dc:source": "DESSM. XSCH 54-62",
+    "dc:language": "deu",
+    "dc:relation": "20_D_VON-BERNUS_DonJuan_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Bernus, Alexander von ; http://www.idref.fr/134862937/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Pan Ein romantisches Schattenspiel von Alexander von Bernus",
+    "dc:subject": "https://puppetplays.eu/oeuvres/128276/pan",
+    "dc:date": "1907.0",
+    "dc:description": [
+      "cahier de la maison d&apos;édition Schwabinger Schattenspiele",
+      "Munich"
+    ],
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.5a29p01z",
+    "dc:source": "DESSM. XSCH 54-62",
+    "dc:language": "deu",
+    "dc:relation": "20_D_VON-BERNUS_Pan_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Bernus, Alexander von ; http://www.idref.fr/134862937/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Wegewart ein Märchenspiel von Alexander von Cybel-Bernus",
+    "dc:subject": "https://puppetplays.eu/oeuvres/396233/wegewart",
+    "dc:date": "1907.0",
+    "dc:description": [
+      "cahier de la maison d&apos;édition Schwabinger Schattenspiele",
+      "Munich"
+    ],
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.97dbi84w",
+    "dc:source": "DESSM. XSCH 54-62",
+    "dc:language": "deu",
+    "dc:relation": "20_D_VON-BERNUS_Wegewart_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Bernus, Alexander von ; http://www.idref.fr/134862937/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Thors hammer",
+    "dc:subject": "https://puppetplays.eu/oeuvres/230850/thors-hammer",
+    "dc:date": "1908.0",
+    "dc:description": [
+      "cahier de la maison d&apos;édition Schwabinger Schattenspiele",
+      "Munich"
+    ],
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.33abxlxb",
+    "dc:source": "DESSM. XSCH 54-62",
+    "dc:language": "deu",
+    "dc:relation": "20_D_WOLFSKEHL_ThorsHammer_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Wolfskehl, Karl ; http://www.idref.fr/029582474/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Wolfdietrich une die Rauhe Eis von Karl Wolfskehl",
+    "dc:subject": "https://puppetplays.eu/oeuvres/230715/wolfdietrich-und-die-rauhe-els",
+    "dc:date": "1907.0",
+    "dc:description": [
+      "cahier de la maison d&apos;édition Schwabinger Schattenspiele",
+      "Munich"
+    ],
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.b4c63ak2",
+    "dc:source": "DESSM. XSCH 54-62",
+    "dc:language": "deu",
+    "dc:relation": "20_D_WOLFSKEHL_WoldietrichUndDieRauhe_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Wolfskehl, Karl ; http://www.idref.fr/029582474/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Pulcinella guardiano de' pazzarelli",
+    "dc:subject": "https://puppetplays.eu/oeuvres/279955/pulcinella-guardiano-de-pazzarelli",
+    "dc:date": "1705.0",
+    "dc:description": "Notes manuscrites. Dernière feuille blanche. Frises gravées sur papier à la page de titre et dans le texte.",
+    "dc:publisher": "Bibliothèque nationale centrale de Rome",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.d96fqt37",
+    "dc:source": "MAG 002025481 / Legato in misc. – Legatura in pelle sec. XX (1970)",
+    "dc:language": "ita",
+    "dc:relation": "18_I__PulcinellaGuardianoDePazzareli_IT_GB",
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Pulcinella speziale in villa",
+    "dc:subject": "https://puppetplays.eu/oeuvres/279877/pulcinella-speziale-in-villa",
+    "dc:date": "1728.0",
+    "dc:publisher": "The British Library",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.c58fo8bf",
+    "dc:source": "BL. 905.m.6.(5.)",
+    "dc:language": "ita",
+    "dc:relation": "18_I__PulcinellaSpeziale_IT_GB",
+    "dc:coverage": [
+      "Londres",
+      "Grande-Bretagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Il Mostro Torchino",
+    "dc:subject": "https://puppetplays.eu/oeuvres/358794/il-mostro-torchino-o-bellinda-e-azor-o",
+    "dc:publisher": "Instituto Per I Beni Marionettistici e la cultura Popolare",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.5adcc99h",
+    "dc:language": "ita",
+    "dc:relation": "19_I__IlMostroTorchino_IT_IBM",
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Il Noce di Benevento",
+    "dc:subject": "https://puppetplays.eu/oeuvres/349152/il-noce-di-benevento",
+    "dc:date": "1824.0",
+    "dc:description": "Imprimé",
+    "dc:publisher": "Museo Casa Goldoni",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.dc685m0i",
+    "dc:language": "ita",
+    "dc:relation": "19_I__IlNoceDiBenevento_IT_MCG",
+    "dc:coverage": [
+      "Venise",
+      "Italie"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Amleto Arlecchino",
+    "dc:subject": "https://puppetplays.eu/oeuvres/241540/amleto",
+    "dc:date": "1898.0",
+    "dc:publisher": "Instituto Per I Beni Marionettistici e la cultura Popolare",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.6f929147",
+    "dc:language": "ita",
+    "dc:relation": "19_I__AmletoArlecchino_IT_IBM",
+    "dc:coverage": [
+      "Grugliasco",
+      "Italie"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Arlecchino cavaliere errante e Facanapa suo scudiere",
+    "dc:subject": "https://puppetplays.eu/oeuvres/358694/arlecchino-cavaliere-errante-e-facanapa-suo-scudiere",
+    "dc:publisher": "Instituto Per I Beni Marionettistici e la cultura Popolare",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.b8385gos",
+    "dc:language": "ita",
+    "dc:relation": "19_I__ArlecchinoCavaliereErranteEFacanapaSuoScudiere_IT_IBM",
+    "dc:coverage": [
+      "Grugliasco",
+      "Italie"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Matrimonio di Facanapa",
+    "dc:subject": "https://puppetplays.eu/oeuvres/353383/il-matrimonio-di-facanapa",
+    "dc:publisher": "Instituto Per I Beni Marionettistici e la cultura Popolare",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.db4ep31o",
+    "dc:language": "ita",
+    "dc:relation": "19_I__IlMatrimonioDiFacanapa_IT_IBM",
+    "dc:coverage": [
+      "Grugliasco",
+      "Italie"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Il testamento di Facanapa",
+    "dc:subject": "https://puppetplays.eu/oeuvres/353388/il-testamento-di-facanapa",
+    "dc:date": "1908.0",
+    "dc:publisher": "Instituto Per I Beni Marionettistici e la cultura Popolare",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.a4cco3s2",
+    "dc:language": "ita",
+    "dc:relation": "19_I__IlTestamentoDiFacanapa_IT_IBM",
+    "dc:coverage": [
+      "Grugliasco",
+      "Italie"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le disgrazie de Arlechin",
+    "dc:subject": "https://puppetplays.eu/oeuvres/349647/le-disgrazie-de-arlechin",
+    "dc:date": "1899.0",
+    "dc:publisher": "Instituto Per I Beni Marionettistici e la cultura Popolare",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.ae35ch7u",
+    "dc:language": "ita",
+    "dc:relation": "19_I__LeDisgrazieDeArlechin_IT_IBM",
+    "dc:coverage": [
+      "Grugliasco",
+      "Italie"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Chevalier Soleie",
+    "dc:subject": "https://puppetplays.eu/oeuvres/241904/le-chevalier-soleie",
+    "dc:date": "1890.0",
+    "dc:description": [
+      "Livret. Edition de la pièce pour marionnettes : Le Chevalier Soleie. 20",
+      "8 × 13",
+      "7 × 0",
+      "2 cm. Techniques d&apos;impression en Noir et blanc sur Papier"
+    ],
+    "dc:publisher": "Province de Liège-Musée de la Vie Wallonne",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.b22139c2",
+    "dc:source": "Province de Liège-Musée de la Vie Wallonne. MVW-2003148",
+    "dc:language": "wln",
+    "dc:relation": "19_B_PINET_LeChevalierSoleie_WLN_MVW",
+    "dc:coverage": [
+      "Liège",
+      "Belgique"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Pinet, Pierre Paul ; http://www.idref.fr/275595617/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Chevalier Soleil",
+    "dc:subject": "https://puppetplays.eu/oeuvres/243270/le-chevalier-soleil",
+    "dc:date": "1920.0",
+    "dc:description": "Dactylographie en bleu sur Papiers Collés. 28 × 22 cm.",
+    "dc:publisher": "Province de Liège-Musée de la Vie Wallonne",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.cb96w4p7",
+    "dc:source": "Province de Liège-Musée de la Vie Wallonne. MVW-2058823",
+    "dc:language": "wln",
+    "dc:relation": "19_B_TALBOT_LeChevalierSoleil_WLN_MVW",
+    "dc:coverage": [
+      "Liège",
+      "Belgique"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Talbot, Thomas",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "The British stage: or the exploits of Harlequin a farce. As it is performed by a company of wonderful comedians at both theatres",
+      "... Design'd as an after-entertainment for the audiences of Harlequin Doctor Faustus",
+      "and the necromancer"
+    ],
+    "dc:date": "1724.0",
+    "dc:description": "print",
+    "dc:publisher": "Univesity of Yale",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.a2cd5261",
+    "dc:source": [
+      "Yale university  library. English short title catalogue",
+      "ESTCT66834"
+    ],
+    "dc:language": "eng",
+    "dc:relation": "18_GB__TheBritishStage_ENG_GB",
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "c ----- and country. A play of seven acts. In which will be reviv&apos;d",
+      "the entertaining scene of the blundering brothers. To which is added",
+      "the comical humours of Punch. The whole concluding with the grand masque",
+      "call&apos;d",
+      "The downfall of Sejanus. Written by a masquerader; ..."
+    ],
+    "dc:subject": "https://puppetplays.eu/oeuvres/242408/c-and-country-a-play-of-seven-acts",
+    "dc:date": "1735.0",
+    "dc:description": [
+      "Print. 13",
+      "[1]p.",
+      "plate : ill. ; 2⁰."
+    ],
+    "dc:publisher": "Bodleian Library",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.901e1sx9",
+    "dc:source": "SOLO Library catalogue OCLC (OCoLC)228761656",
+    "dc:language": "eng",
+    "dc:relation": "18_GB__TheDownfallOfSejanus_ENG_SOLO",
+    "dc:coverage": [
+      "Londres",
+      "Grande-Bretagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Cloche du diable",
+    "dc:subject": "https://puppetplays.eu/oeuvres/297168/la-cloche-du-diable",
+    "dc:date": "1862.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.847cq102",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1329"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F__LaClocheDuDiable_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Joly, Adolphe ; http://www.idref.fr/160532086/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "Polichinelle",
+      "farce en 3 actes",
+      "pour amuser les petits enfants",
+      "publiée par Jules Rémond",
+      "illustrée de vignettes par Math. Gringoire"
+    ],
+    "dc:subject": "https://puppetplays.eu/oeuvres/171453/polichinelle",
+    "dc:date": "1838.0",
+    "dc:description": [
+      "Texte imprimé. In-16",
+      "48 p.",
+      "fig"
+    ],
+    "dc:publisher": "Bibliothèque nationale de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.1e2az7u6",
+    "dc:source": "Bibliothèque nationale de France. Département Littérature et art. X-35433",
+    "dc:language": "fra",
+    "dc:relation": "19_F__Polichinelle_FRA_BnF",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Rémond, Jules",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Pierrot dans le ventre de la baleine",
+    "dc:date": "1853.0",
+    "dc:description": [
+      "Manuscrit daté du 7 mai 1853",
+      "numéroté 1797. Appartenant à un sous fond du théâtre des Fantoccini"
+    ],
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.67fa24z6",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1328"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_BELFORT-DEVAUX_Pierrot_FR_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Belfort-Devaux, Pierre-Louis",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Guignol le revenant",
+    "dc:date": "1866.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.dffd642i",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_GuignolLeRevenant_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Carte à payer",
+    "dc:date": "1867.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.b51e9u51",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LaCarteAPayer_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Fée aux roses",
+    "dc:date": "1866.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.b7ebc43a",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LaFeeAuxRoses_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "La Fille de l&apos",
+      "épicier"
+    ],
+    "dc:date": "1867.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.b7ebc43a",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LaFilleDeLEpicier_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Grange",
+    "dc:date": "1866.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.dea09654",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LaGrange_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Leçon de musique",
+    "dc:date": "1866.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.bbe4myf4",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LaLeconDeMusique_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Moutarde de Dijon",
+    "dc:date": "1866.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.75fa9r5v",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LaMoutardeDeDijon_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Racine merveilleuse",
+    "dc:date": "1866.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.35d7195b",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LaRacineMerveilleuse_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Capitaine Ricardot",
+    "dc:date": "1866.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.5ab27gb4",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LeCapitaineRicardot_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Charivari",
+    "dc:date": "1866.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.d8c66g84",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LeCharivari_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Château du revenant",
+    "dc:date": "1866.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.b953e8j7",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LeChateauDuRevenant_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Soldat magicien",
+    "dc:date": "1866.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.1275a93u",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LeSoldatMagicien_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les trois paris",
+    "dc:date": "1866.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.d4105025",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LesTroisParis_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les Voleurs volés",
+    "dc:date": "1866.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.94b7yuoc",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LesVoleursVoles_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "Un Chanteur dans l&apos",
+      "embarras"
+    ],
+    "dc:date": "1866.0",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.a198e4bo",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1216"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_UnChanteurDansLEmbarras_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Josserand, Laurent",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "Merveilles de l&apos",
+      "Autre Monde"
+    ],
+    "dc:date": "1853.0",
+    "dc:description": [
+      "Manuscrit daté du 2 septembre 1853",
+      "numéroté 2080. Appartenant à un sous fond du théâtre des Fantoccini"
+    ],
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.cd9e78q2",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1328"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_MONGOBERT_MerveillesDeLAutreMonde_FR_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Montgobert",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Souflets invisibles",
+    "dc:date": "1853.0",
+    "dc:description": [
+      "Manuscrit daté du 5 novembre 1853",
+      "numéroté 2079. Appartenant à un sous fond du théâtre des Fantoccini"
+    ],
+    "dc:publisher": "Archives Nationales de France",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.b4c87l5h",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1328"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_MONGOBERT_SoufletsInvisibles_FR_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Montgobert",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Der Hohle Zahn",
+    "dc:subject": "https://puppetplays.eu/oeuvres/392913/der-hohle-zahn",
+    "dc:date": "1911.0",
+    "dc:description": "print",
+    "dc:publisher": "Puppentheatersammlung. Staatliche Kunstsammlungen Dresden",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.9b19776h",
+    "dc:source": "SKD. Puppentheatersammlung. 25358",
+    "dc:language": "deu",
+    "dc:relation": "20_D_BONUS_DerHohleZahn_ALL_SKD",
+    "dc:coverage": [
+      "Dresden",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Bonus, Beate ; Böcklin, Carlo",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Freund Hein",
+    "dc:subject": "https://puppetplays.eu/oeuvres/404342/freund-hein",
+    "dc:date": "1911.0",
+    "dc:description": "print",
+    "dc:publisher": "Puppentheatersammlung. Staatliche Kunstsammlungen Dresden",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.dd2001o1",
+    "dc:source": "SKD. Puppentheatersammlung. L 261",
+    "dc:language": "deu",
+    "dc:relation": "20_D_BONUS_FreundHein_ALL_SKD",
+    "dc:coverage": [
+      "Dresden",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Bonus, Beate ; Böcklin, Carlo",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Der Feldhusar",
+    "dc:date": "1924.0",
+    "dc:description": "print",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.93379221",
+    "dc:source": "DESSM",
+    "dc:language": "deu",
+    "dc:relation": "20_D_RABE_DerFeldhusar_ALL_MUN",
+    "dc:rights": "public domain",
+    "dc:creator": "Rabe, Johannes E.",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Kasperl als Soldat",
+    "dc:date": "1924.0",
+    "dc:description": "print",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.4be457gn",
+    "dc:source": "DESSM",
+    "dc:language": "deu",
+    "dc:relation": "20_D_RABE_KasperAlsSoldat_ALL_MUN",
+    "dc:rights": "public domain",
+    "dc:creator": "Rabe, Johannes E.",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Kasperl soll gehangt werden",
+    "dc:date": "1924.0",
+    "dc:description": "print",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.fdbbj68p",
+    "dc:source": "DESSM",
+    "dc:language": "deu",
+    "dc:relation": "20_D_RABE_KasperSollGehangtWerden_ALL_MUN",
+    "dc:rights": "public domain",
+    "dc:creator": "Rabe, Johannes E.",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Kasper und Abraham",
+    "dc:date": "1924.0",
+    "dc:description": "print",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.2a104c2w",
+    "dc:source": "DESSM",
+    "dc:language": "deu",
+    "dc:relation": "20_D_RABE_KasperUndAbraham_ALL_MUN",
+    "dc:rights": "public domain",
+    "dc:creator": "Rabe, Johannes E.",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Kasper und der Teufel",
+    "dc:date": "1924.0",
+    "dc:description": "print",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.9c9al6ao",
+    "dc:source": "DESSM",
+    "dc:language": "deu",
+    "dc:relation": "20_D_RABE_KasperUndDerTeufel_ALL_MUN",
+    "dc:rights": "public domain",
+    "dc:creator": "Rabe, Johannes E.",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Rotkäppchen eine tragödie von Ludwig Tieck",
+    "dc:subject": "https://puppetplays.eu/oeuvres/405668/leben-und-tod-des-kleinen-rotkäppchens",
+    "dc:date": "1907.0",
+    "dc:description": [
+      "cahier de la maison d&apos;édition Schwabinger Schattenspiele",
+      "Munich"
+    ],
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.1fdadej7",
+    "dc:source": "DESSM. XSCH 54-62",
+    "dc:language": "deu",
+    "dc:relation": "20_D_TIECK_Rothkappchen_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Tieck, Ludwig ; http://www.idref.fr/027163253/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Die Reise um die Welt",
+    "dc:subject": "https://puppetplays.eu/oeuvres/405362/die-reise-um-die-welt",
+    "dc:date": "1925.0",
+    "dc:publisher": "Stadtmuseum de Munich",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.cdf5ya58",
+    "dc:source": "DESSM. XSCH31",
+    "dc:language": "deu",
+    "dc:relation": "20_D_ZACHARIA_DieReiseUmDieWelt_ALL_MUN",
+    "dc:coverage": [
+      "Munich",
+      "Allemagne"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Zachariä, August Willhelm",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "Jason e la pelissa d&apos",
+      "aur"
+    ],
+    "dc:description": "Texte imprimé",
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.0b4c2b26",
+    "dc:source": "AA",
+    "dc:language": "oci",
+    "dc:relation": "20_F_ROQUETA_JasonELaPelissaDAur_OCI_AA",
+    "dc:coverage": [
+      "Montpellier",
+      "France"
+    ],
+    "dc:rights": "Licence CC BY-NC-SA",
+    "dc:creator": "Roqueta, Max ; http://www.idref.fr/027112136/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Gnafron se suicide",
+    "dc:description": "32",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.0ddfaj4s",
+    "dc:source": "GAD. 1910 Neichthauser",
+    "dc:language": "fra",
+    "dc:relation": "19_F__GnafronSeSuicide_FR_GAD",
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Stenterello",
+    "dc:subject": "https://puppetplays.eu/oeuvres/358765/stenterello-sensale-corista-e-poeta",
+    "dc:date": "1864.0",
+    "dc:publisher": "Instituto Per I Beni Marionettistici e la cultura Popolare",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.ee8etosa",
+    "dc:language": "ita",
+    "dc:relation": "19_I__Stenterello_IT_IBM",
+    "dc:coverage": [
+      "Grugliasco",
+      "Italie"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Monaca di cracovia",
+    "dc:subject": "https://puppetplays.eu/oeuvres/359114/la-monaca-di-cracovia",
+    "dc:publisher": "Civica Scuola di Teatro Paolo Grassi",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.f8b4n15n",
+    "dc:language": "ita",
+    "dc:relation": "19_I_SANVITTORE_LaMonacaDiCracovia_IT_STPG",
+    "dc:coverage": [
+      "Milan",
+      "Italie"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Sanvittore, Gaetano ; http://www.idref.fr/284059498/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Facanapa Medico Omeopatico",
+    "dc:subject": "https://puppetplays.eu/oeuvres/411655/facanapa-medico-omeopatico",
+    "dc:date": "1910.0",
+    "dc:publisher": "Instituto Per I Beni Marionettistici e la cultura Popolare",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.cd4d9bym",
+    "dc:language": "ita",
+    "dc:relation": "19_I__FacanapaMedicoOmeopatico_IT_IBM",
+    "dc:coverage": [
+      "Grugliasco",
+      "Italie"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Stravaganze di Facanapa",
+    "dc:subject": "https://puppetplays.eu/oeuvres/352045/le-stravaganze-di-facanapa",
+    "dc:date": "1909.0",
+    "dc:publisher": "Instituto Per I Beni Marionettistici e la cultura Popolare",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.4a1bfpjj",
+    "dc:language": "ita",
+    "dc:relation": "19_I__LeStravaganzeDiFacanapa_IT_IBM",
+    "dc:coverage": [
+      "Grugliasco",
+      "Italie"
+    ],
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Il morto resuscitato",
+    "dc:subject": "https://puppetplays.eu/oeuvres/415522/il-morto-resuscitato",
+    "dc:publisher": "Instituto Per I Beni Marionettistici e la cultura Popolare",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.8ff65r4t",
+    "dc:language": "ita",
+    "dc:relation": "20_I_CUCCOLI_GALLI_IlMortoResuscitato_IT_IBM",
+    "dc:coverage": [
+      "Grugliasco",
+      "Italie"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Galli, Augusto ; Cuccoli, Angelo ; http://www.idref.fr/271656069/id ; http://www.idref.fr/27669385X/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "L'eredita di Faggiolino",
+    "dc:subject": "https://puppetplays.eu/oeuvres/415521/leredità-di-faggiolino",
+    "dc:date": "1915.0",
+    "dc:publisher": "Instituto Per I Beni Marionettistici e la cultura Popolare",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.d474pps1",
+    "dc:language": "ita",
+    "dc:relation": "20_I_CUCCOLI_LEreditaDiFaggiolino_IT_IBM",
+    "dc:coverage": [
+      "Grugliasco",
+      "Italie"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Cuccoli, Angelo ; http://www.idref.fr/27669385X/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Faggiolino creduto donna",
+    "dc:subject": "https://puppetplays.eu/oeuvres/415281/faggiolino-creduto-donna",
+    "dc:date": "1931.0",
+    "dc:publisher": "Instituto Per I Beni Marionettistici e la cultura Popolare",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.6d2f11w8",
+    "dc:language": "ita",
+    "dc:relation": "20_I_CUCCOLI_FaggiolinoCredutoDonna_IT_IBM",
+    "dc:coverage": [
+      "Grugliasco",
+      "Italie"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Cuccoli, Angelo ; http://www.idref.fr/27669385X/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Chi la fa l'aspetti",
+    "dc:subject": "https://puppetplays.eu/oeuvres/366500/chi-la-fa-laspetti",
+    "dc:date": "1908.0",
+    "dc:publisher": "Museo Giordano Ferrari",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.72b51038",
+    "dc:language": "ita",
+    "dc:relation": "20_I_BARBENSI_ChiLaFaLAspetti_IT_MGF",
+    "dc:coverage": [
+      "Parmes",
+      "Italie"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Barbensi, Berta ; http://www.idref.fr/283981717/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "I sapientoni",
+    "dc:subject": "https://puppetplays.eu/oeuvres/366508/i-sapientoni",
+    "dc:date": "1906.0",
+    "dc:publisher": "Museo Giordano Ferrari",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.c6cfy52t",
+    "dc:language": "ita",
+    "dc:relation": "20_I_BARBENSI_ISapientoni_IT_MGF",
+    "dc:coverage": [
+      "Parmes",
+      "Italie"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Barbensi, Berta ; http://www.idref.fr/283981717/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Una fricassea fatale",
+    "dc:subject": "https://puppetplays.eu/oeuvres/401431/una-fricassea-fatale",
+    "dc:date": "1906.0",
+    "dc:publisher": "Museo Giordano Ferrari",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.2808sxq2",
+    "dc:language": "ita",
+    "dc:relation": "20_I_BARBENSI_UnaFricasseaFatale_IT_MGF",
+    "dc:coverage": [
+      "Parmes",
+      "Italie"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Barbensi, Berta ; http://www.idref.fr/283981717/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Antes de Começar",
+    "dc:description": "texte électronique",
+    "dc:publisher": "Internet Archives",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.a8e7889a",
+    "dc:source": "IA",
+    "dc:language": "port",
+    "dc:relation": "20_P_NEGREIROS_AntesDeComencar_P_IA",
+    "dc:rights": "public domain",
+    "dc:creator": "Negreiros, Almada",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Crasmagne à l'académie",
+    "dc:subject": "https://puppetplays.eu/oeuvres/409036/crasmagne-à-lacadémie",
+    "dc:description": "manuscrit en deux cahiers",
+    "dc:publisher": "Centre de documentation MuCEM",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.0dfau648",
+    "dc:source": "MUCEM. CS-93P25 et CS93P26",
+    "dc:language": "fr",
+    "dc:relation": "20_F_PITOU_CrasmagneALAcademie_FR_MUCEM",
+    "dc:coverage": [
+      "Marseille",
+      "France"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Pitou, Emile",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Gille domestique",
+    "dc:subject": "https://puppetplays.eu/oeuvres/370946/gilles-domestique",
+    "dc:description": "manuscrit avec rature et réécriture",
+    "dc:publisher": "Archives nationales",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.eb0f2i0o",
+    "dc:source": [
+      "AN. Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1328"
+    ],
+    "dc:language": "fr",
+    "dc:relation": "19_F__GillesDomestique_FR_AN",
+    "dc:rights": "public domain",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La Nativité",
+    "dc:date": "1923.0",
+    "dc:description": "dactylographie avec des éléments manuscrits",
+    "dc:publisher": "Province de Liège-Musée de la Vie Wallonne",
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.e0562m8r",
+    "dc:source": "Province de Liège-Musée de la Vie Wallonne. MVW-2058820",
+    "dc:language": "wln",
+    "dc:relation": "19_B_LAUBRIA_LaNativite_WLN_MVW",
+    "dc:coverage": [
+      "Liège",
+      "Belgique"
+    ],
+    "dc:rights": "public domain",
+    "dc:creator": "Laubria, Thomas",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les Couverts volés",
+    "dc:date": "1852",
+    "dc:description": [
+      "reliure en mauvais état. Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "le 1er mai 1927. Manuscrit de Vuillerme-Dunand. Signature de Vuillerme-Dunand. Visa de la sous-Préfecture de Villefranche du 24 décembre 1852. Visa de la Préfecture du Rhône le…187… Même folio que \"Turlupiton\""
+    ],
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.d6c9020u",
+    "dc:source": "GAD. B29 paquet 6/pochette 78",
+    "dc:language": "fra",
+    "dc:relation": "19_F_VUILLERME-DUNAND_LesCouvertsVoles_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Vuillerme-Dunand, Victor-Napoléon ; http://www.idref.fr/188286276/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le marchand de veaux",
+    "dc:date": "1905",
+    "dc:description": "un acte. le 26 avril 1905",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.9e2cpmro",
+    "dc:source": "GAD. Fonds Mercier",
+    "dc:language": "fra",
+    "dc:relation": "20_F__LeMarchandDeVeaux_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le Marchand d'aiguilles",
+    "dc:description": "Manuscrit",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:source": [
+      "AN. Archives nationales (France)",
+      "Intérieur; Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906). F/18/1220"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_JOSSERAND_LeMarchandDAiguilles_FRA_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:creator": "Josserand",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le marchand de Génevottes",
+    "dc:date": "1893",
+    "dc:description": "pièce en 1 acte (\"le marchand de Picarlats\") manuscrit. Visa préfecture du Rhone 4 janvier 1893.",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.b1a425v3",
+    "dc:source": [
+      "GAD. B86. Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "le 1er mai 1927"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F__LeMarchandDeGenevottes_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les Souterrains du chateau des revenants",
+    "dc:description": "pièce fantastique en un acte et trois tableaux. Cahier manuscrit. Même folio que \"le pont du diable\"",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.33fdl9y6",
+    "dc:source": "GAD. Fonds de la compagnie EMMA. N°51",
+    "dc:language": "fra",
+    "dc:relation": "19-20_F__LesSouterrainsDuChateauDesRevenants_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Les conscrits de 1809",
+    "dc:description": "pièce en 1 acte manuscrit",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.458cqvg6",
+    "dc:source": [
+      "GAD. B86 D141. Acquis de Durafour",
+      "69 rue Cuvier",
+      "Lyon",
+      "le 1er mai 1927"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19-20_F__LesConscritsDe1809_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Mon Curé Gnafron chez les Nègres",
+    "dc:description": "Pièce en 3 actes Cahier manuscrit. Signé M et Mme Neichthauser",
+    "dc:publisher": [
+      "Musée d&apos",
+      "histoire de Lyon- Gadagne"
+    ],
+    "dc:identifier": "https://nakala.fr/10.34847/nkl.3359fy0u",
+    "dc:source": "GAD. Fonds de la compagnie EMMA. N°51bis",
+    "dc:language": "fra",
+    "dc:relation": "19-20_F_CHANAY_MonCureGnafronchezLesNegres_FR_GAD",
+    "dc:coverage": [
+      "Lyon",
+      "France"
+    ],
+    "dc:creator": "Chanay, Albert ; http://www.idref.fr/19066732X/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": [
+      "La Prisonnière de village",
+      "vaudeville annecdotique de M. Lamiral"
+    ],
+    "dc:date": "1853",
+    "dc:description": "cahier manuscrit pour la censure",
+    "dc:publisher": "Archives Nationales de France",
+    "dc:source": [
+      "Théâtres. Censure des répertoires des \"petits\" théâtres parisiens : index des pièces (1802-1906)",
+      "F/18/1329"
+    ],
+    "dc:language": "fra",
+    "dc:relation": "19_F_LAMIRAL_LaPrisonniereDeVillage_FR_AN",
+    "dc:coverage": [
+      "Paris",
+      "France"
+    ],
+    "dc:creator": "Lamiral",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "L'Ane volant",
+    "dc:date": "1993",
+    "dc:description": "Texte imprimé",
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:source": "AA",
+    "dc:language": "fra",
+    "dc:relation": "20_F_ROQUETA_LAneVolant_FRA_AA",
+    "dc:coverage": [
+      "Montpellier",
+      "France"
+    ],
+    "dc:creator": "Roqueta, Max ; http://www.idref.fr/027112136/id",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Orlando e Rinaldo Parte prima Antiforo di Barosia",
+    "dc:subject": "https://puppetplays.eu/oeuvres/75440/parte-orlando-e-rinaldo-1a-antiforo-di-barosia",
+    "dc:description": [
+      "carnet manuscrit",
+      "images floues"
+    ],
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:language": "it",
+    "dc:relation": "CV 1- Prima parte - Orlando e Rinaldo.",
+    "dc:coverage": [
+      "Naples",
+      "Italie"
+    ],
+    "dc:creator": "Verbale, Ciro",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Tore 'e Criscienzo e Peppe Averzano",
+    "dc:subject": "https://puppetplays.eu/oeuvres/73463/1a-parte-della-nuova-storia-di-tore-e-criscienzo",
+    "dc:description": [
+      "carnet manuscrit ; p19",
+      "26",
+      "27",
+      "29",
+      "33",
+      "40",
+      "43 coupées en bas ;"
+    ],
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:language": "it",
+    "dc:relation": "CV 2 - Prima parte - Tore e Criscienzo.",
+    "dc:coverage": [
+      "Naples",
+      "Italie"
+    ],
+    "dc:creator": "Verbale, Ciro",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Don Pulchinela de la Mancha",
+    "dc:description": [
+      "carnet manuscrit",
+      "numérisation NB"
+    ],
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Naples",
+      "Italie"
+    ],
+    "dc:creator": "Leone, Bruno",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Pulcinella e Carnevale",
+    "dc:subject": "https://puppetplays.eu/oeuvres/29182/storia-di-carnevale",
+    "dc:date": "198X",
+    "dc:description": [
+      "dactylographie",
+      "numérisation NB"
+    ],
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Naples",
+      "Italie"
+    ],
+    "dc:creator": "Leone, Bruno",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Pulcinella e la Rivoluzione Francese",
+    "dc:subject": "https://puppetplays.eu/oeuvres/87756/pulcinella-et-la-r%C3%A9volution-fran%C3%A7aise",
+    "dc:date": "1989",
+    "dc:description": [
+      "livret de spectacle dactylographié",
+      "numérisation NB"
+    ],
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Naples",
+      "Italie"
+    ],
+    "dc:creator": "Leone, Bruno",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Il convitato di pezza",
+    "dc:subject": "https://puppetplays.eu/oeuvres/89104/il-convitato-di-pezza",
+    "dc:date": "1995",
+    "dc:description": [
+      "livret de spectacle manuscrit",
+      "numérisation NB"
+    ],
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Naples",
+      "Italie"
+    ],
+    "dc:creator": "Leone, Bruno",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Pulchi Shake & Speare",
+    "dc:subject": "https://puppetplays.eu/oeuvres/110325/pulchi-shake-and-speare",
+    "dc:date": "2016",
+    "dc:description": [
+      "livret manuscrit",
+      "numérisation NB"
+    ],
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Naples",
+      "Italie"
+    ],
+    "dc:creator": "Leone, Bruno",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Pulcinella e l'asino del diavolo",
+    "dc:subject": "https://puppetplays.eu/oeuvres/90633/pulcinella-e-lasino-del-diavolo",
+    "dc:description": "texte numérique natif",
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Naples",
+      "Italie"
+    ],
+    "dc:creator": "Nasuto, Gaspare",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Una falsa estrazione",
+    "dc:subject": "https://puppetplays.eu/oeuvres/78023/una-falsa-estrazione",
+    "dc:description": "texte numérique natif",
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Naples",
+      "Italie"
+    ],
+    "dc:creator": "Ferraiolo, Francesco ; Ferraiolo, Adriano",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Pulcinella nella danza degli spettri",
+    "dc:subject": "https://puppetplays.eu/oeuvres/81995/pulcinella-nella-danza-degli-spettri",
+    "dc:description": "texte numérique natif",
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Naples",
+      "Italie"
+    ],
+    "dc:creator": "Ferraiolo, Pasquale",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "SOS Banditi in casa Zoccoli",
+    "dc:subject": "https://puppetplays.eu/oeuvres/82347/sos-banditi-in-casa-zoccoli",
+    "dc:description": "texte numérique natif",
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Naples",
+      "Italie"
+    ],
+    "dc:creator": "Ferraiolo, Pasquale ; Ferraiolo, Adriano",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "I due ciabattini",
+    "dc:subject": "https://puppetplays.eu/oeuvres/174290/i-due-ciabattini",
+    "dc:description": "cahier manuscrit",
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Salerne",
+      "Italie"
+    ],
+    "dc:creator": "Ferraiolo, Francesco",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Battaglia tra Bradamante e Ruggero e Marfisa",
+    "dc:subject": "https://puppetplays.eu/oeuvres/206145/battaglia-tra-bradamante-e-ruggero-e-marfisa",
+    "dc:date": "1985",
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Palermes",
+      "Italie"
+    ],
+    "dc:creator": "Cuticchio, Anna",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Battaglia tra Bradamante e Marfisa",
+    "dc:subject": "https://puppetplays.eu/oeuvres/206360/battaglia-tra-bradamante-e-marfisa",
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Palermes",
+      "Italie"
+    ],
+    "dc:creator": "Cuticchio, Anna",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Le avventure di Orlandino",
+    "dc:subject": "https://puppetplays.eu/oeuvres/195705/le-avventure-di-orlandino",
+    "dc:description": "dactylographie avec annotations manuscrites",
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Palermes",
+      "Italie"
+    ],
+    "dc:creator": "Cuticchio, Anna",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Avventure di Ruggero dell'Aquila bianca",
+    "dc:subject": "https://puppetplays.eu/oeuvres/208228/avventure-di-ruggdero-dellaquila-bianca",
+    "dc:description": "dactylographie",
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Palermes",
+      "Italie"
+    ],
+    "dc:creator": "Cuticchio, Anna",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "La vita di Santa Marina",
+    "dc:subject": "https://puppetplays.eu/oeuvres/191472/la-vita-di-s-marina",
+    "dc:description": "dactylographie",
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Palermes",
+      "Italie"
+    ],
+    "dc:creator": "Cuticchio, Anna",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Morte di Ruggiero",
+    "dc:subject": "https://puppetplays.eu/oeuvres/208236/morte-di-ruggiero?x-craft-preview=45b5658f9223bbf0a9d2d7b5f60a7713a8f7eb1de12ee23ecd54d44fe5ebd977hhoaymiejs&token=xBOa4KBEbhncLNxN_A1bJ-OvCYX0KdNu",
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Palermes",
+      "Italie"
+    ],
+    "dc:creator": "Cuticchio, Giacomo",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Orlando Pazzo",
+    "dc:subject": "https://puppetplays.eu/oeuvres/211711/orlando-pazzo?x-craft-preview=f1c272fcb3727322cdf63f1a90352962b6e95e0686b66231778be5a201b3f9b4qaaalieqxl&token=D8wsHOKeZOSI4K6OeQiE9Nf6gQgeiPrL",
+    "dc:date": "195X",
+    "dc:description": "cahier manuscrit",
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Palermes",
+      "Italie"
+    ],
+    "dc:creator": "Cuticchio, Giacomo",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  },
+  {
+    "dc:title": "Giulietta e Romeo",
+    "dc:subject": "https://puppetplays.eu/oeuvres/210639/giulietta-e-romeo?x-craft-preview=00cd8fe1f0ac17b45d4da419a8f445b2dbaa06b87620d031bfd5b47b75faf966embxjnbtxv&token=q76nLxwr34I7637RoKC6Ycg63Okn7VmU",
+    "dc:publisher": [
+      "Archives de l&apos",
+      "auteur"
+    ],
+    "dc:coverage": [
+      "Palermes",
+      "Italie"
+    ],
+    "dc:creator": "Cuticchio, Giacomo",
+    "dc:format": "jpg",
+    "dc:contributor": "ERC PuppetPlays project (diffusion through Nakala)",
+    "dc:type": "Text"
+  }
+]
